@@ -1,0 +1,5 @@
+inputs/data/LBDR_14_D265_P1_V02.ZIP filter=lfs diff=lfs merge=lfs -text
+inputs/data/LBDR_14_D265_P2_V02.ZIP filter=lfs diff=lfs merge=lfs -text
+inputs/data/t108_ssg_rmsswtk_141021_002.sfdu filter=lfs diff=lfs merge=lfs -text
+test-ref/t108_reproc1_corramb_bidr.s0nsqt_uncorr filter=lfs diff=lfs merge=lfs -text
+test-ref/no_rawdata/t108_reproc1_corramb_bidr.s0_uncorr filter=lfs diff=lfs merge=lfs -text
