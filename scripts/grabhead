@@ -1,0 +1,22 @@
+#!/bin/perl
+#--------------------------------------------------------
+#  SYNOPSIS  
+# grabhead <HEADER_LENGTH> < input_filename > output_filename
+#
+#  Routine to copy the header from any file with a fixed length header
+#--------------------------------------------------------
+# OPERANDS:
+#  HEADER_LENGTH :   length of header in bytes
+#-------------------------------------------------------
+# Example:  grabhead 40 <  l1ap.dat 
+# echoes header of l1ap.dat to screen
+#-------------------------------------------------------
+# Copyright 2002 California Institute of Tecnology
+# U.S. Government sponsorship acknowledged
+# Author: Bryan Stiles 
+#-------------------------------------------------------
+$header_size = @ARGV[0];
+
+read(STDIN, $header, $header_size);
+print $header;
+

@@ -1,0 +1,33 @@
+#!/bin/perl
+#--------------------------------------------------------
+#  SYNOPSIS  
+# cutrecs <HEADER_LENGTH> <RECORD_LENGTH> <FIRST_RECORD_NO> <LAST_RECORD_NO>
+#   < input_filename > output_filename
+#
+#  Routine to Cut out Records from any file with a fixed length header
+#  and a fixed length record (The output file has the same header as
+#  the input file.)
+#--------------------------------------------------------
+# OPERANDS:
+#  HEADER_LENGTH :   length of header in bytes
+#  RECORD_LENGTH :   length of record in bytes
+#  FIRST_RECORD_NO : number of first record to be copied 
+#                    (Numbering starts at 1)
+#  LAST_RECORD_NO  : number of last record to be copied
+#-------------------------------------------------------
+# Example:  cutrecs 40 556 100 100 <  l1ap.dat > l1ap.rec100.dat
+#-------------------------------------------------------
+# Copyright 2002 California Institute of Tecnology
+# U.S. Government sponsorship acknowledged
+# Author: Bryan Stiles 
+#-------------------------------------------------------
+$header_size = @ARGV[0];
+$record_size = @ARGV[1];
+$first_record = @ARGV[2];
+$last_record = @ARGV[3];
+
+read(STDIN, $header, $header_size);
+seek(STDIN, $record_size*($first_record-1)+$header_size,0);
+read(STDIN, $buf, $record_size*($last_record-$first_record+1));
+print $header . $buf;
+

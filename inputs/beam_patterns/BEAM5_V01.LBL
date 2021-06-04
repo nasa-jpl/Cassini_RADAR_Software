@@ -1,0 +1,58 @@
+PDS_VERSION_ID        = PDS3
+
+RECORD_TYPE           = FIXED_LENGTH
+RECORD_BYTES          = 9600
+FILE_RECORDS          = 400
+
+DATA_SET_ID           = "N/A"
+PRODUCT_ID            = "N/A"
+INSTRUMENT_HOST_NAME  = "CASSINI ORBITER"
+INSTRUMENT_HOST_ID    = CO
+INSTRUMENT_NAME       = "CASSINI RADAR"
+INSTRUMENT_ID         = RADAR
+START_TIME            = "NULL"
+STOP_TIME             = "NULL"
+PRODUCT_CREATION_TIME = 2004-055T00:00:00.000
+MISSION_NAME          = "CASSINI-HUYGENS"
+
+^ARRAY                = "BEAM5_V01.PAT"
+OBJECT                = ARRAY
+  NAME                = "ANTENNA BEAM PATTERN"
+  INTERCHANGE_FORMAT  = BINARY
+  AXES                = 2
+  AXIS_ITEMS          = (400, 1200)
+  AXIS_NAME           = ("AZIMUTH", "ELEVATION")
+  AXIS_ORDER_TYPE     = LAST_INDEX_FASTEST
+  AXIS_UNIT           = (DEGREE, DEGREE)
+  AXIS_INTERVAL       = (0.01, 0.01)
+  AXIS_START          = (-2.00, -6.00)
+
+  OBJECT              = ELEMENT
+    DATA_TYPE         = PC_REAL
+    BYTES             = 8
+    NAME              = "ONE-WAY GAIN"
+    VALID_MAXIMUM     = 1.0
+    VALID_MINIMUM     = 0.0
+    OFFSET            = 0.0
+    SCALING_FACTOR    = 1.0
+    NOTE              = "
+The one-way gains are linear scale values between 0 and 1 and are not in dB.
+The gains for all five beams are scaled so that the maximum gain for beam 3
+represents unity.  The actual beam 3 peak gain is stored in dB as the value 
+for the beam_maxdB_gain3 keyword in the processor configuration (*.CFG) file,
+which is located in directory CALIB/CONFIG on this volume.
+
+The following table shows the original creation date of each version of the
+antenna beam pattern files.
+
+Version        Date
+-------        ----
+  01           February 24, 2004
+               Provided by Mike Janssen.  Patterns derived from radiometer
+               Sun scan data collected during sequence C27 (August 2001).
+"
+
+  END_OBJECT          = ELEMENT
+END_OBJECT            = ARRAY
+
+END

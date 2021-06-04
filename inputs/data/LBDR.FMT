@@ -1,0 +1,18 @@
+^SBDR_STRUCTURE = "SBDR.FMT"
+
+OBJECT          = COLUMN
+  NAME          = ECHO_DATA
+  DATA_TYPE     = PC_REAL
+  START_BYTE    = 1273
+  ITEMS         = 32768
+  ITEM_BYTES    = 4
+  DESCRIPTION   = "Array of 32,768 real samples of the RADAR echo return.
+                   Each real value is an antenna voltage estimate at a
+                   particular instant in time.  These estimates are
+                   proportional to voltage but are expressed in data numbers
+                   and need to be converted to engineering units.  The values
+                   may or may not have passed through a lossy BAQ compression/
+                   decompression algorithm.  The timing of the samples and
+                   other relevant RADAR instrument parameters are included in
+                   the engineering data segment of each LBDR record."
+END_OBJECT      = COLUMN

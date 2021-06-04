@@ -1,0 +1,138 @@
+#!/bin/csh
+######################################################################
+# Copyright (C) 1997, California Institute of Technology.
+# U.S. Government sponsorship acknowledged.
+######################################################################
+#
+# NAME
+#		fndr
+#
+# SYNOPSIS
+#		fndr [ search_tree ] [ target_dir ]
+#
+# DESCRIPTION
+#		Prints the full path name of the directory under the
+#		search_tree that matches the target_dir.  If no target_dir
+#		is specified, the current working directory is used.  If no
+#		search directory is specified, the RAS_CENTRAL_TREE environment
+#		variable is used.
+#
+# OPTIONS
+#		[ search_tree ]
+#			The root of the tree to be searched.
+#
+#		[ target_dir ]
+#			The name of the target directory.  If not given, the
+#			current working directory is used.
+#
+# OPERANDS
+#		None.
+#
+# EXAMPLES
+#		An example of a command line is:
+#			% fndr /base1/sim programs
+#		which will print out the directory under /base/sim which
+#		has a tail of "programs", e.g. /base1/sim/src/programs
+#
+# ENVIRONMENT
+#		The variable RAS_CENTRAL_TREE must be set to the root of the
+#		central source tree.
+#
+# EXIT STATUS
+#		The following exit values are returned:
+#		0	Program executed successfully
+#		>0	Program had an error
+#
+# NOTES
+#		None.
+#
+# AUTHOR
+#		James N. Huddleston
+#		hudd@acid.jpl.nasa.gov
+#
+# CONFIGURATION CONTROL
+#		"@(#) $Id: fndr,v 11.5 2011/09/16 00:03:29 richw Exp $"
+######################################################################
+
+#####
+# Parse the command line
+#####
+
+set command_name = $0
+set command_name = $command_name:t
+
+if ($#argv == 0) then
+  if (! $?RAS_CENTRAL_TREE) then
+    exit(2)
+  else
+    set search_dir = $RAS_CENTRAL_TREE
+    set target_dir = $cwd
+  endif
+else if ($#argv == 1) then
+  set search_dir = $argv[1]
+  set target_dir = $cwd
+else if ($#argv == 2) then
+  set search_dir = $argv[1]
+  set target_dir = $argv[2]
+else
+  goto usage
+  exit(1)
+endif
+
+#####
+# Try to match directory names
+#####
+
+set dir_tail = `basename $target_dir`
+set dir_head = `dirname $target_dir`
+cd $search_dir
+set search_dir_list = (`find . -type d`)
+
+set num_found = 0
+set found_dirs = ""
+foreach dir ($search_dir_list)
+    if ("`basename $dir`" == "$dir_tail") then
+        set dir = `echo $dir | sed 's/^\.\///'`
+        @ num_found += 1
+        if ("$found_dirs" == "") then
+            set found_dirs = "$search_dir/$dir"
+        else
+            set found_dirs = "$found_dirs $search_dir/$dir"
+        endif
+    endif
+end
+
+if ($num_found == 1) then
+    echo "$found_dirs"
+    exit 0
+endif
+
+foreach dir ($found_dirs)
+    set search_tail = `basename $dir`
+    set search_head = `dirname $dir`
+    if ($search_tail == $dir_tail) then
+        if (`basename $search_head` == `basename $dir_head`) then
+            echo "$dir"
+            exit 0
+        endif
+    endif
+end
+
+if ($num_found > 0) then
+    foreach dir ($found_dirs)
+        echo "$dir"
+        exit 0
+    end
+endif
+
+exit(3)
+
+#####
+# LABEL: usage
+#	Explain command usage
+#####
+
+usage:
+  echo "usage: $command_name <search_tree> [ target_dir ]"
+  exit(1)
+end

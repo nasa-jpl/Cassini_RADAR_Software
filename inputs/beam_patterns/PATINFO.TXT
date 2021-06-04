@@ -1,0 +1,23 @@
+PDS_VERSION_ID       = PDS3
+
+RECORD_TYPE          = STREAM
+OBJECT               = TEXT
+  PUBLICATION_DATE   = 2005-05-26
+  NOTE               =
+  "Description of the contents of the CALIB/BEAMPAT directory"
+END_OBJECT           = TEXT
+END
+
+The CALIB/BEAMPAT directory contains the antenna beam pattern files used
+to process the Cassini radar data, along with their labels.
+
+PATINFO.TXT
+  This file.
+
+BEAM#_Vnn.PAT
+  Antenna beam pattern file, where '#' represents the beam number (1, 2,
+  3, 4, or 5) and 'nn' the two-digit file version number.
+
+BEAM#_Vnn.LBL
+  Detached label for the corresponding antenna beam pattern file.
+

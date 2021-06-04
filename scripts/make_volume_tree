@@ -1,0 +1,35 @@
+#!/bin/csh
+#
+# $1 - name of root directory of the volume tree to setup.
+# The volume tree follows the PDS volume organization described in
+# the volume SIS.  It is placed under the current directory
+
+if (-e $1) then
+  echo $1 already exists
+  exit(-1)
+endif
+
+mkdir $1
+cd $1
+mkdir INDEX DOCUMENTS CATALOG DATA EXTRAS
+cd DOCUMENTS
+ln -s $RAS_CENTRAL_TREE/doc/SIS/BIDRSIS.pdf BIDRSIS.pdf
+ln -s $RAS_CENTRAL_TREE/doc/SIS/BODPSIS.pdf BODPSIS.pdf
+ln -s $RAS_CENTRAL_TREE/doc/SIS/VolSIS.pdf VolSIS.pdf
+cd ../DATA
+mkdir SBDR LBDR ABDR BIDR raw
+cd ../EXTRAS
+mkdir BEAMPAT CONFIG CRT gph
+cd BEAMPAT
+ln -s /home/ras/dat/beam_patterns/beam1.pat BEAM1.PAT
+ln -s /home/ras/dat/beam_patterns/beam2.pat BEAM2.PAT
+ln -s /home/ras/dat/beam_patterns/beam3.pat BEAM3.PAT
+ln -s /home/ras/dat/beam_patterns/beam4.pat BEAM4.PAT
+ln -s /home/ras/dat/beam_patterns/beam5.pat BEAM5.PAT
+cd ../../
+mkdir naif plots
+
+
+
+
+

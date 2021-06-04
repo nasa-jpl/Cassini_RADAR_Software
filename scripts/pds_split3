@@ -1,0 +1,21 @@
+#! /bin/csh
+
+# Build multiple tar files to stay below 2 GB size limit.
+# Operand - the volume string to use (eg., 0087).  Must be four chars
+
+if ($#argv == 0) then
+  echo Missing argument
+  exit(1)
+endif
+
+set volume = ($argv[1-])
+
+set base = CORADR_${volume}
+set list1 = ($base/AAREADME.TXT $base/CALIB $base/CATALOG $base/DATA/LBDR $base/DATA/SBDR $base/DATA/ABDR $base/DATA/ASUM $base/DOCUMENT $base/ERRATA.TXT $base/EXTRAS $base/INDEX $base/SOFTWARE $base/VOLDESC.CAT)
+set list2 = ($base/DATA/BIDR/BIB* $base/DATA/BIDR/BIE* $base/DATA/BIDR/BIF* $base/DATA/BIDR/BIL* $base/DATA/BIDR/BIM* $base/DATA/BIDR/BIN* )
+set list3 = ($base/DATA/BIDR/BIS* $base/DATA/BIDR/BIT* $base/DATA/BIDR/BIU*)
+
+tar zcvf CORADR_${volume}_1.tar.gz $list1
+tar zcvf CORADR_${volume}_2.tar.gz $list2
+tar zcvf CORADR_${volume}_3.tar.gz $list3
+

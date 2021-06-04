@@ -1,0 +1,8 @@
+#!/bin/csh
+if($#argv != 2) then
+echo Usage: replace_header datafile newheader 
+exit
+endif
+clip_header $1 $1.oldhead $1.body
+cat $2 $1.body > $1
+\rm $1.oldhead $1.body

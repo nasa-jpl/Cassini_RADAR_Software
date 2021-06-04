@@ -1,0 +1,62 @@
+PDS_VERSION_ID               = PDS3
+
+/*       PRODUCT DESCRIPTION */
+
+DATA_SET_ID                  = "CO-V/E/J/S-RADAR-3-LBDR-V1.0"
+DATA_SET_NAME                = "CASSINI RADAR LONG BURST DATA RECORD"
+PRODUCER_INSTITUTION_NAME    = "JET PROPULSION LABORATORY"
+PRODUCER_ID                  = JPL
+PRODUCER_FULL_NAME           = "Inst Lead Charles Elachi contact Bryan Stiles"
+PRODUCT_ID                   = LBDR_14_D265_P1_V02
+PRODUCT_VERSION_ID           = 02
+INSTRUMENT_HOST_NAME         = "CASSINI ORBITER"
+INSTRUMENT_HOST_ID           = CO
+INSTRUMENT_NAME              = "CASSINI RADAR"
+INSTRUMENT_ID                = RADAR
+TARGET_NAME                  = TITAN
+START_TIME                   = 2015-011T17:48:41.564
+STOP_TIME                    = 2015-011T19:55:25.919
+SPACECRAFT_CLOCK_START_COUNT = 1799693367
+SPACECRAFT_CLOCK_STOP_COUNT  = 1799700971
+PRODUCT_CREATION_TIME        = 2015-350T21:07:21.000
+MISSION_NAME                 = "CASSINI-HUYGENS"
+SOFTWARE_VERSION_ID          = "V1.0"
+DESCRIPTION                  = "CASSINI RADAR LONG BURST DATA RECORD FOR THE TITAN S87 PASS WITH CLOSEST APPROACH TIME 2015-011T19:48:34.818 TRIGGER TIME 2015-011T14:38:35.635 EPOCH TIME 2015-011T19:48:34.818."
+PROCESSING_HISTORY_TEXT      = "NONE"
+
+/*       DESCRIPTION OF COMPRESSED AND UNCOMPRESSED FILES */
+
+OBJECT                       = COMPRESSED_FILE
+  FILE_NAME                  = "LBDR_14_D265_P1_V02.ZIP"
+  RECORD_TYPE                = UNDEFINED
+  ENCODING_TYPE              = ZIP
+  INTERCHANGE_FORMAT         = BINARY
+  UNCOMPRESSED_FILE_NAME     = "LBDR_14_D265_P1_V02.TAB"
+  REQUIRED_STORAGE_BYTES     = 1999982528
+  ^DESCRIPTION               = "SOFTWARE/SOFTINFO.TXT"
+END_OBJECT                   = COMPRESSED_FILE
+
+OBJECT                       = UNCOMPRESSED_FILE
+  FILE_NAME                  = "LBDR_14_D265_P1_V02.TAB"
+  RECORD_TYPE                = FIXED_LENGTH
+  RECORD_BYTES               = 132344
+  FILE_RECORDS               = 15112
+  LABEL_RECORDS              = 1
+
+/*       POINTERS TO START RECORDS OF OBJECTS IN FILE */
+
+  ^LBDR_TABLE                = ("LBDR_14_D265_P1_V02.TAB", 2)
+
+/*       DESCRIPTION OF OBJECTS CONTAINED IN FILE */
+
+  OBJECT                     = LBDR_TABLE
+    INTERCHANGE_FORMAT       = BINARY
+    ROWS                     = 15111
+    COLUMNS                  = 236
+    ROW_BYTES                = 132344
+    ^STRUCTURE               = "LBDR.FMT"
+    DESCRIPTION              = "This is the table definition for a Cassini Radar Long Burst Data Record, which includes a Short Burst Data Record (engineering telemetry, spacecraft geometry, and calibrated science data) plus the raw counts of the sampled echo data."
+  END_OBJECT                 = LBDR_TABLE
+
+END_OBJECT                   = UNCOMPRESSED_FILE
+END

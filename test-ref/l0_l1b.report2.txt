@@ -1,0 +1,38 @@
+------------------------------------
+Sab report 
+------------------------------------
+Number of SABs 35960
+Number of active records with non-zero echo size 24893
+Missing Sabs 
+Found that 9920 missing sabs
+
+Time error correction before decoding data 
+sclk brst correction 3256 34151
+bii correction 0
+bpd correction 0
+tfi correction 0
+-------------------------------------------
+------------------------------------
+corrections that are not supposed to happen 
+Sab Time Errors 
+Found that 0 Sab SCLK recording errors
+
+number of radar tick error 
+1
+
+Time error larger than 1 s 
+0
+
+Time error smaller than 1s 
+0
+
+---------- End of erro list -------------------------
+Sab counter roll over 
+Number of sab counter roll over: 0
+
+Invalid Sabs
+Found 0 invalid Sab's
+
+Incomplete Sabs
+Found 0 incomplete Sab's
+

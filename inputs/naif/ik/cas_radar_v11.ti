@@ -1,0 +1,990 @@
+KPL/IK
+ 
+ 
+RADAR Instrument Kernel
+==============================================================================
+ 
+   This instrument kernel (I-kernel) contains references to the mounting
+   alignment, internal and FOV geometry for the Cassini RADAR (RADAR)
+   instruments.
+ 
+ 
+Version and Date
+----------------------------------------------------------
+ 
+   The TEXT_KERNEL_ID stores version information of loaded project text
+   kernels. Each entry associated with the keyword is a string that consists
+   of four parts: the kernel name, version, entry date, and type. For example,
+   the ISS I-kernel might have an entry as follows:
+ 
+           TEXT_KERNEL_ID += 'CASSINI_ISS V0.0.0 29-SEPTEMBER-1999 IK'
+                                  |          |         |            |
+                                  |          |         |            |
+              KERNEL NAME <-------+          |         |            |
+                                             |         |            V
+                             VERSION <-------+         |       KERNEL TYPE
+                                                       |
+                                                       V
+                                                  ENTRY DATE
+ 
+   RADAR I-Kernel Version:
+ 
+           \begindata
+ 
+           TEXT_KERNEL_ID += 'CASSINI_RADAR V1.1.0 23-APRIL-2001 IK'
+ 
+           \begintext
+ 
+   Version 1.1 -- April 23, 2001 -- Scott Turner
+ 
+            --   Updated kernel to utilize new FOV ANGLES specification.
+ 
+   Version 1.0 -- November 17, 2000 -- Scott Turner
+ 
+            --   This kernel has been approved for usage by the RADAR
+                 instrument team.
+ 
+            --   The reference section incorrectly referred to the CASPER MAG
+                 I-kernel. This has been corrected to point to the appropriate
+                 version of the CASPER RADAR I-kernel.
+ 
+   Version 0.0 -- October 5, 2000 -- Scott Turner
+ 
+            --   Initial Prototype Release for Review
+ 
+ 
+References
+----------------------------------------------------------
+ 
+            1.   ``Cassini Science Instruments and Investigations'', Revised
+                 Second Printing. Stephen J. Edberg.
+ 
+            2.   ``Kernel Pool Required Reading''
+ 
+            3.   JPL Cassini Project Web Page describing the instruments.
+ 
+            4.   Cassini/NAIF SPICE Workship, November 8-9, 1999.
+ 
+            5.   Email from Jeff Boyer regarding necessary data for footprint
+                 calculations.
+ 
+            6.   Cassini Spacecraft Frames Definition Kernel
+ 
+            7.   CASPER RADAR I-kernel Version 2.2
+ 
+ 
+Contact Information
+----------------------------------------------------------
+ 
+   Direct questions, comments or concerns about the contents of this kernel
+   to:
+ 
+           Scott Turner, NAIF/JPL, (818)-345-3157, sturner@spice.jpl.nasa.gov
+ 
+ 
+Implementation Notes
+----------------------------------------------------------
+ 
+   This file is used by the SPICE system as follows: programs that make use of
+   this instrument kernel must ``load'' the kernel, normally during program
+   initialization. Loading the kernel associates data items with their names
+   in a data structure called the ``kernel pool''. The SPICELIB routine FURNSH
+   and CSPICE routine furnsh_c load SPICE kernels as shown below:
+ 
+   FORTRAN (SPICELIB)
+ 
+           CALL FURNSH ( 'kernel_name' )
+ 
+   C (CSPICE)
+ 
+           furnsh_c ( "kernel_name" )
+ 
+   In order for a program or subroutine to extract data from the pool, the
+   SPICELIB routines GDPOOL and GIPOOL are used. See [2] for details.
+ 
+   This file was created and may be updated with a text editor or word
+   processor.
+ 
+ 
+Naming Conventions
+----------------------------------------------------------
+ 
+   All names referencing values in this I-kernel start with the characters
+   `INS' followed by the NAIF Cassini spacecraft ID number (-82) followed by a
+   NAIF three digit code for the RADAR detectors. (1 = 810, 2 = 811, 3 = 812,
+   4 = 813, 5 = 814 ).
+ 
+   The remainder of the name is an underscore character followed by the unique
+   name of the data item. For example, the RADAR_1 boresight direction in the
+   RADAR_1 frame (``CASSINI_RADAR_1'' -- see [6] ) is specified by:
+ 
+           INS-82810_BORESIGHT
+ 
+   The upper bound on the length of the name of any data item is 32
+   characters.
+ 
+   If the same item is included in more than one file, or if the same item
+   appears more than once within a single file, the latest value supersedes
+   any earlier values.
+ 
+ 
+RADAR description
+----------------------------------------------------------
+ 
+   From [3]:
+ 
+   The Cassini Radar (RADAR) will be used to investigate the surface of
+   Saturn's moon Titan by taking four types of observations: imaging,
+   altimetry, backscatter, and radiometry. In the imaging mode of operation,
+   the RADAR instrument will bounce pulses of microwave energy off the surface
+   of Titan from different incidence angles and record the time it takes the
+   pulses to return to the spacecraft. These measurements, when converted to
+   distances (by dividing by the speed of light), will allow the construction
+   of visual images of the target surface. Radar will be used to image Titan
+   because the moon's surface is hidden from optical view by a thick,
+   cloud-infested atmosphere: radar can "see" through such cloud cover.
+ 
+   Radar altimetry similarly involves bouncing microwave pulses off the
+   surface of the target body and measuring the time it takes the "echo" to
+   return to the spacecraft. In this case, however, the goal will not be to
+   create visual images but rather to obtain numerical data on the precise
+   altitude of the surface features of Titan. In the backscatter mode of
+   operation, the RADAR will act as a scatterometer. That is, it will bounce
+   pulses off Titan's surface and then measure the intensity of the energy
+   returning. This returning energy or backscatter, is always less than the
+   original pulse, because surface features inevitably reflect the pulse in
+   more than one direction. From the backscatter measurements, scientists can
+   infer the composition of the surface of Titan.
+ 
+   Finally, in the radiometry mode, the RADAR will operate as a passive
+   instrument, simply recording the energy emanating from the surface of
+   Titan. This information will tell scientists the amount of latent heat
+   (i.e.. moisture) in the moon's atmosphere, a factor that has an impact on
+   the precision of the other measurements taken by the instrument.
+ 
+   During imaging, altimetry, and backscatter operations, the RADAR instrument
+   will transmit linear frequency-modulated Ku-band pulsed signals toward the
+   surface of Titan using the high-gain antenna (HGA). These signals, after
+   reflection from the surface, will be captured by the same antenna and
+   detected by the RADAR Radio Frequency Electronics Subsystem. During
+   radiometry operations, the instrument will not transmit any radar signals,
+   but the HGA will again be used for radiometric observations.
+ 
+   To improve the surface coverage by radar imaging, a switched, multiple
+   Ku-band antenna feed array structure is part of the HGA and permits the
+   formation of five antenna beam patterns. Each of these beams will have a
+   different pointing angle relative to the antenna reflector's focal axis.
+ 
+   The major functional components of the RADAR Subsystem are the Radio
+   Frequency Electronics Subsystem, the Digital Subsystem, and the Energy
+   Storage Subsystem. For information on these components, see below.
+ 
+   (RADAR)
+ 
+   The Radio Frequency Electronics Subsystem (RFES) has three principal
+   functions: the transmission of high-power frequency-modulated and
+   unmodulated pulses, the reception of both reflected energy from the target
+   and passive radiometric data, and the routing of calibration signals. The
+   RFES has a fully enclosed structural housing and Faraday cage (i.e., an
+   electrostatic shield). The RFES electronics units are individually enclosed
+   and are mounted to the RFES housing wall opposite the wall that mounts to
+   the spacecraft. For thermal control, heat flows conductively from the units
+   to the housing wall and is then radiated away from the RFES.
+ 
+   The RFES consists of the following components: a frequency generator, a
+   digital chirp generator, a chirp up-converter and amplifier, a high-power
+   amplifier, front-end electronics, a microwave receiver unit, and an RFES
+   power supply.
+ 
+   (RFES)
+ 
+   The frequency generator (FG) contains an ultra-stable oscillator that is
+   the system timing source for the RADAR instrument.
+ 
+   The digital chirp generator (DCG) generates the low-power, baseband
+   frequency, modulated pulse upon request from the RADAR Digital Subsystem.
+   Both the bandwidth and the pulse width of this pulse can be varied in
+   accordance with the parameters received from the Digital Subsystem.
+ 
+   The chirp up-converter and amplifier (CUCA) converts the baseband chirp
+   pulse to Ku band and provides the up-converted pulse to the high-power
+   amplifier.
+ 
+   The high-power amplifier (HPA) receives a low-power Ku-band chirp pulse
+   from the CUCA and amplifies that pulse to the required power level for
+   transmission.
+ 
+   The purpose of the front-end electronics (FEE) is to route the high-power
+   transmission pulses, the returning low-energy echoes and radiometric
+   signals, and the calibration signals. The FEE receives the high-power pulse
+   from the HPA and routes the signal to one of five different antenna ports
+   on the RFES via an antenna switch module. The echo returns and radiometric
+   signals are routed from one of the five antenna ports to the RFES microwave
+   receiver. The FEE also steers the selected calibration signal to the
+   microwave receiver during periods of calibration mode operation.
+ 
+   The microwave receiver (MR) receives signals at Ku band and down-converts
+   these to baseband so that they can be properly sampled. The sources of
+   these signals are the echo returns, radiometric signals, and calibration
+   signals routed through the FEE. The MR receives the re-routed chirp
+   calibration signal from the CUCA and passes that signal to the FEE for
+   proper routing. The MR is also the source of the noise diode calibration
+   signal that is provided to the FEE for routing. MR gain and bandwidth
+   information is provided to the MR from the DSS.
+ 
+   The RFES power supply converts the (approximately) 30-volt d.c. input from
+   the Power and Pyrotechnic Subsystem to the required voltages for the RFES.
+ 
+   The RADAR Digital Subsystem (DSS) performs three principal functions:
+   reception and depacketization of RADAR commands from the Command and Data
+   Subsystem (CDS), configuration control and timing signal generation for
+   RADAR, and the packetization of RADAR housekeeping (i.e., hardware status)
+   data and science data for transfer to the CDS.
+ 
+   DSS subassemblies are contained within a spacecraft bay and will be
+   supported in shear by shear plates and the top and bottom rings of the
+   Cassini spacecraft bus. Electronic harnesses, which face inboard on the
+   spacecraft and be supported by the inboard shear plate, are used to provide
+   interconnections between the RADAR subassemblies and the spacecraft.
+ 
+   The DSS uses two primary modes of heat transfer in its design. These are
+   (1) the conduction of heat from the electronic components to the subchassis
+   and the outboard shear plate, and (2) the radiation of heat from the
+   outboard shear plate to the space environment. High-power heat dissipation
+   components are mounted on a special heatsink bracket, which is bolted
+   directly to the outboard shear plate to optimize heat transfer. Thermal
+   compounds were applied between the components and the heatsink to minimize
+   contact thermal resistance.
+ 
+   The DSS consists of the following components: a bus interface unit, a
+   flight computer unit, a control and timing unit, a signal conditioner unit,
+   and a DSS power supply. For information on these components, see below.
+ 
+   (DSS)
+ 
+   The bus interface unit (BUI) is the interface between RADAR and the CDS. On
+   the RADAR side, the BIU interfaces to the flight computer unit for command,
+   software, and data transfers.
+ 
+   The flight computer unit (FCU) receives commands and software from the CDS
+   and sends data and status to CDS by way of the BIU. It depacketizes the
+   commands and provides the RADAR configuration and timing information to the
+   control and timing unit. It also receives housekeeping values in a
+   predetermined order from the low-speed A/D converter and packetizes the
+   housekeeping and science data to be passed to the CDS by way of the BIU. In
+   addition, the FCU receives spacecraft time broadcasts and RADAR software
+   uploads from CDS by way of the BIU. The FCU is built around an engineering
+   flight computer (EFC) with additional banks of ROM and internal interface
+   circuitry.
+ 
+   The purpose of the control and timing unit (CTU) is to control the hardware
+   configuration and the timing of control signals within RADAR. The
+   parameters for determining RADAR configuration and timing are passed to the
+   CTU from the FCU. The CTU provides the configuration and timing control
+   signals to the RFES and to other portions of the DSS. In addition, the CTU
+   is responsible for updating to millisecond resolution the spacecraft time
+   received from the CDS.
+ 
+   The signal conditioner unit (SCU) consists of a science data buffer and
+   high- and low-speed analog-to-digital (A/D) converters. The science data
+   buffer (SDB) is the digital data rate buffer for RADAR. The sole purpose of
+   the SDB is to receive and store the high-rate digital science data from the
+   high-speed A/D converter during the proper receive window period (as
+   determined by the CTU) and then to provide this data upon request to the
+   FCU at a slower rate. The high-speed A/D converter digitizes the imaging
+   data output from the RFES microwave receiver and provides the data to the
+   SDB for buffering. The low-speed A/D converter performs two tasks. It
+   digitizes the analog housekeeping telemetry values from throughout RADAR at
+   predetermined times and provides these digitized values to the FCU upon
+   request. It also digitizes the radiometer output from the RFES microwave
+   receiver and provides those values to the FCU upon request.
+ 
+   The DSS power supply converts the (approximately) 30-volt d.c. input from
+   the Power and Pyrotechnic Subsystem to the voltages required for the DSS.
+ 
+   The RADAR Energy Storage Subsystem (ESS) converts the (approximately)
+   30-volt d.c. input from the PPS to a higher voltage, stores energy in a
+   capacitor bank, and provides a regulated voltage to the high-power
+   amplifier (HPA) of the RFES. The ESS subassemblies are contained within a
+   spacecraft bay and are supported in shear by shear plates and the top and
+   bottom rings of the Cassini spacecraft bus. High-strength fasteners will be
+   used to tie the electronics assemblies to the spacecraft. Electronic
+   harnesses, which face inboard on the spacecraft and be supported by the
+   inboard shear plate, are used to provide interconnections between the RADAR
+   subassemblies and the spacecraft.
+ 
+   The ESS uses two primary modes of heat transfer in its design. These are
+   (1) the conduction of heat from the electronic components to the subchassis
+   and the outboard shear plate, and (2) the radiation of heat from the
+   outboard shear plate to the space environment. High-power heat dissipation
+   components will be mounted on a special heatsink bracket, which will be
+   bolted directly to the outboard shear plate to optimize heat transfer.
+   Thermal compounds will be applied between the components and the heatsink
+   to minimize contact thermal resistance.
+ 
+   The ESS consists of boost circuitry, the capacitor bank, and a buck
+   regulator. For information on these components, see below.
+ 
+   (ESS)
+ 
+   The boost circuitry increases the (approximately) 30-volt d.c. input power
+   to approximately 85 volts d.c. for more efficient energy storage by the
+   capacitor bank. Soft-start circuitry limits the current draw from the power
+   source, and an input voltage filter prevents electromagnetic interference
+   (EMI) from being conducted back into the source.
+ 
+   The capacitor bank stores energy to supply to the buck regulator (and the
+   HPA) during RADAR pulse bursts. The capacitor bank voltage drops during
+   each burst but returns to normal before the next burst.
+ 
+   The buck regulator regulates the varying capacitor bank voltage for the
+   HPA.
+ 
+ 
+RADAR Field of View Parameters
+----------------------------------------------------------
+ 
+   The field of view parameters for the five beams that constitute RADAR are:
+ 
+                                            ^ Xsc
+                                            |
+                                            |
+                                  Ysc       |
+                                     <------o
+                                              Zsc
+ 
+              *******       *******       *****       *******       *******
+            **       **   **       **   **     **   **       **   **       **
+           *     x     * *     x     * *    x    * *     x     * *     x     *
+            **       **   **       **   **     **   **       **   **       **
+              *******       *******       *****       *******       *******
+ 
+               Beam 1        Beam 2      Beam 3        Beam 4        Beam 5
+ 
+ 
+            --   Beam 1 (1)
+ 
+            --   Beam 2 (2)
+ 
+            --   Beam 3 (3)
+ 
+            --   Beam 4 (4)
+ 
+            --   Beam 5 (5)
+ 
+ 
+           Circular FOV:
+ 
+           ------------  -------------------
+               Beam           Diameter
+           ------------  -------------------
+                3            0.35 degrees
+           ------------  -------------------
+ 
+           Elliptical FOVs:
+ 
+           ------------  --------------------  --------------------
+               Beam           Minor Axis            Major Axis
+           ------------  --------------------  --------------------
+                1            0.35 degrees          1.35 degrees
+ 
+                2            0.35 degrees          1.35 degrees
+ 
+                4            0.35 degrees          1.35 degrees
+ 
+                5            0.35 degrees          1.35 degrees
+           ------------  --------------------  --------------------
+ 
+ 
+   The keywords INS[ID]_FOV_FRAME, INS[ID]_FOV_SHAPE, INS[ID]_BORESIGHT, and
+   the FOV ANGLES specification keywords defined below are used to describe
+   the instrument field of view. Since Beam 1 has a circular field of view and
+   the other beams have rectangular ones, the INS[ID]_FOV_SHAPE will either be
+   'CIRCLE' or 'RECTANGLE'. In the case of Beam 1, GETFOV returns a single
+   boundary vector that lies along the edge of the circular cone, and for the
+   other beams two vectors. In the elliptical case one vector points out along
+   the edge of the cone that intersects the semi-major axis of the elliptical
+   cross-section, the other the semi-minor axis. All four FOV boresights lie
+   along the Z-axis.
+ 
+ 
+Beam 1 (1) FOV Definition
+ 
+   Since Beam 1 is an elliptical beam, we require two separate views to
+   visualize the two boundary corner vectors. First, consider looking down the
+   X-axis of the CASSINI_RADAR_1 frame at the X=0 plane. This permits the
+   visualization of the boundary corner vector that intercepts the semi-major
+   axis. The half angle of interest is 0.675 degrees.
+ 
+ 
+                                  ^ Y
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.675  |
+                                  x--------------->
+                                X  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane X = 0
+ 
+ 
+           Y Component = 1.0 * tan ( 0.675 degrees )
+                       = 0.011781518
+ 
+   Since the semi-major axis of the ellipse is aligned with the Y-axis in the
+   instrument frame, we have the X Component of this boundary corner vector
+   must be 0.
+ 
+   To visualize the other boundary corner vector that intercepts the
+   semi-minor axis, look up the Y-axis at the Y=0 plane. This time the half
+   angle of interest is 0.175.
+ 
+ 
+                                  ^ X
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.175  |
+                                  o--------------->
+                                Y  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane Y = 0
+ 
+ 
+           X Component = 1.0 * tan ( 0.175 degrees )
+                       = 0.003054336
+ 
+   Utilizing the ANGLES FOV specification:
+ 
+           \begindata
+ 
+           INS-82810_FOV_FRAME                 = 'CASSINI_RADAR_1'
+           INS-82810_FOV_SHAPE                 = 'ELLIPSE'
+           INS-82810_BORESIGHT                 = (
+ 
+                  0.0000000000000000   0.0000000000000000  +1.0000000000000000
+ 
+                                                 )
+           INS-82810_FOV_CLASS_SPEC            = 'ANGLES'
+           INS-82810_FOV_REF_VECTOR            = (
+ 
+                  0.0000000000000000  +1.0000000000000000   0.0000000000000000
+ 
+                                                 )
+           INS-82810_FOV_REF_ANGLE             = ( 0.675 )
+           INS-82810_FOV_CROSS_ANGLE           = ( 0.175 )
+           INS-82810_FOV_ANGLE_UNITS           = 'DEGREES'
+ 
+           \begintext
+ 
+ 
+Beam 2 (2) FOV Definition
+ 
+   Since Beam 2 is an elliptical beam, we require two separate views to
+   visualize the two boundary corner vectors. First, consider looking down the
+   X-axis of the CASSINI_RADAR_2 frame at the X=0 plane. This permits the
+   visualization of the boundary corner vector that intercepts the semi-major
+   axis. The half angle of interest is 0.675 degrees.
+ 
+ 
+                                  ^ Y
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.675  |
+                                  x--------------->
+                                X  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane X = 0
+ 
+ 
+           Y Component = 1.0 * tan ( 0.675 degrees )
+                       = 0.011781518
+ 
+   Since the semi-major axis of the ellipse is aligned with the Y-axis in the
+   instrument frame, we have the X Component of this boundary corner vector
+   must be 0.
+ 
+   To visualize the other boundary corner vector that intercepts the
+   semi-minor axis, look up the Y-axis at the Y=0 plane. This time the half
+   angle of interest is 0.175.
+ 
+ 
+                                  ^ X
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.175  |
+                                  o--------------->
+                                Y  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane Y = 0
+ 
+ 
+           X Component = 1.0 * tan ( 0.175 degrees )
+                       = 0.003054336
+ 
+   Again, making use of the ANGLES FOV specification:
+ 
+           \begindata
+ 
+           INS-82811_FOV_FRAME                 = 'CASSINI_RADAR_2'
+           INS-82811_FOV_SHAPE                 = 'ELLIPSE'
+           INS-82811_BORESIGHT                 = (
+ 
+                  0.0000000000000000   0.0000000000000000  +1.0000000000000000
+ 
+                                                 )
+           INS-82811_FOV_CLASS_SPEC            = 'ANGLES'
+           INS-82811_FOV_REF_VECTOR            = (
+ 
+                  0.0000000000000000  +1.0000000000000000   0.0000000000000000
+ 
+                                                 )
+           INS-82811_FOV_REF_ANGLE             = ( 0.675 )
+           INS-82811_FOV_CROSS_ANGLE           = ( 0.175 )
+           INS-82811_FOV_ANGLE_UNITS           = 'DEGREES'
+ 
+           \begintext
+ 
+ 
+Beam 3 (3) FOV Definition
+ 
+   Since Beam 3's FOV is circular and its diameter is 0.35 degrees, looking
+   down the X-axis in the CASSINI_RADAR_3 frame, we have: (Note we are
+   arbitrarily choosing a vector that terminates in the Z=1 plane.)
+ 
+ 
+                                  ^ Y
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.175  |
+                                  x--------------->
+                                X  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane X = 0
+ 
+ 
+   Now from here we see that the Y component of one 'boundary corner' vector
+   is:
+ 
+           Y Component = 1.0 * tan ( 0.175 degrees )
+                       = 0.003054336
+ 
+   The ANGLES FOV specification keywords and their values:
+ 
+           \begindata
+ 
+           INS-82812_FOV_FRAME                 = 'CASSINI_RADAR_3'
+           INS-82812_FOV_SHAPE                 = 'CIRCLE'
+           INS-82812_BORESIGHT                 = (
+ 
+                  0.0000000000000000   0.0000000000000000  +1.0000000000000000
+ 
+                                                 )
+           INS-82812_FOV_CLASS_SPEC            = 'ANGLES'
+           INS-82812_FOV_REF_VECTOR            = (
+ 
+                  0.0000000000000000  +1.0000000000000000   0.0000000000000000
+ 
+                                                 )
+           INS-82812_FOV_REF_ANGLE             = ( 0.175 )
+           INS-82812_FOV_ANGLE_UNITS           = 'DEGREES'
+ 
+           \begintext
+ 
+ 
+Beam 4 (4) FOV Definition
+ 
+   Since Beam 4 is an elliptical beam, we require two separate views to
+   visualize the two boundary corner vectors. First, consider looking down the
+   X-axis of the CASSINI_RADAR_4 frame at the X=0 plane. This permits the
+   visualization of the boundary corner vector that intercepts the semi-major
+   axis. The half angle of interest is 0.675 degrees.
+ 
+ 
+                                  ^ Y
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.675  |
+                                  x--------------->
+                                X  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane X = 0
+ 
+ 
+           Y Component = 1.0 * tan ( 0.675 degrees )
+                       = 0.011781518
+ 
+   Since the semi-major axis of the ellipse is aligned with the Y-axis in the
+   instrument frame, we have the X Component of this boundary corner vector
+   must be 0.
+ 
+   To visualize the other boundary corner vector that intercepts the
+   semi-minor axis, look up the Y-axis at the Y=0 plane. This time the half
+   angle of interest is 0.175.
+ 
+ 
+                                  ^ X
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.175  |
+                                  o--------------->
+                                Y  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane Y = 0
+ 
+ 
+           X Component = 1.0 * tan ( 0.175 degrees )
+                       = 0.003054336
+ 
+   Utilizing the ANGLES FOV specification:
+ 
+           \begindata
+ 
+           INS-82813_FOV_FRAME                 = 'CASSINI_RADAR_4'
+           INS-82813_FOV_SHAPE                 = 'ELLIPSE'
+           INS-82813_BORESIGHT                 = (
+ 
+                  0.0000000000000000   0.0000000000000000  +1.0000000000000000
+ 
+                                                 )
+           INS-82813_FOV_CLASS_SPEC            = 'ANGLES'
+           INS-82813_FOV_REF_VECTOR            = (
+ 
+                  0.0000000000000000  +1.0000000000000000   0.0000000000000000
+ 
+                                                 )
+           INS-82813_FOV_REF_ANGLE             = ( 0.675 )
+           INS-82813_FOV_CROSS_ANGLE           = ( 0.175 )
+           INS-82813_FOV_ANGLE_UNITS           = 'DEGREES'
+ 
+           \begintext
+ 
+ 
+Beam 5 (5) FOV Definition
+ 
+   Since Beam 5 is an elliptical beam, we require two separate views to
+   visualize the two boundary corner vectors. First, consider looking down the
+   X-axis of the CASSINI_RADAR_5 frame at the X=0 plane. This permits the
+   visualization of the boundary corner vector that intercepts the semi-major
+   axis. The half angle of interest is 0.675 degrees.
+ 
+ 
+                                  ^ Y
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.675  |
+                                  x--------------->
+                                X  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane X = 0
+ 
+ 
+           Y Component = 1.0 * tan ( 0.675 degrees )
+                       = 0.011781518
+ 
+   Since the semi-major axis of the ellipse is aligned with the Y-axis in the
+   instrument frame, we have the X Component of this boundary corner vector
+   must be 0.
+ 
+   To visualize the other boundary corner vector that intercepts the
+   semi-minor axis, look up the Y-axis at the Y=0 plane. This time the half
+   angle of interest is 0.175.
+ 
+ 
+                                  ^ X
+                                  |  ins
+                                  |
+                                  |        /|
+                                  |      /  |
+                                  |    /    |
+                                  |  /    o |
+                                  |/ 0.175  |
+                                  o--------------->
+                                Y  \        |    Z
+                                 ins \      |     ins
+                                       \    |
+                                         \  |
+                                           \|
+ 
+                                  |-- 1.0 --|
+                                                Plane Y = 0
+ 
+ 
+           X Component = 1.0 * tan ( 0.175 degrees )
+                       = 0.003054336
+ 
+   Again, making use of the ANGLES FOV specification:
+ 
+           \begindata
+ 
+           INS-82814_FOV_FRAME                 = 'CASSINI_RADAR_5'
+           INS-82814_FOV_SHAPE                 = 'ELLIPSE'
+           INS-82814_BORESIGHT                 = (
+ 
+                  0.0000000000000000   0.0000000000000000  +1.0000000000000000
+ 
+                                                 )
+           INS-82814_FOV_CLASS_SPEC            = 'ANGLES'
+           INS-82814_FOV_REF_VECTOR            = (
+ 
+                  0.0000000000000000  +1.0000000000000000   0.0000000000000000
+ 
+                                                 )
+           INS-82814_FOV_REF_ANGLE             = ( 0.675 )
+           INS-82814_FOV_CROSS_ANGLE           = ( 0.175 )
+           INS-82814_FOV_ANGLE_UNITS           = 'DEGREES'
+ 
+           \begintext
+ 
+ 
+RADAR Pixel Parameters
+----------------------------------------------------------
+ 
+   These parameters describe the pixel structure associated with the
+   instruments and their fields of views. In some cases this is a
+   generalization of the notion of pixel, in that instead of representing
+   pixels on a CCD they may represent a collection of individual detectors.
+ 
+   Beam 1 (1):
+ 
+           \begindata
+ 
+           INS-82810_FOV_CENTER_PIXEL      = ( 0, 0 )
+           INS-82810_PIXEL_SAMPLES         = ( 1 )
+           INS-82810_PIXEL_LINES           = ( 1 )
+ 
+           \begintext
+ 
+   Beam 2 (2):
+ 
+           \begindata
+ 
+           INS-82811_FOV_CENTER_PIXEL      = ( 0, 0 )
+           INS-82811_PIXEL_SAMPLES         = ( 1 )
+           INS-82811_PIXEL_LINES           = ( 1 )
+ 
+           \begintext
+ 
+   Beam 3 (3):
+ 
+           \begindata
+ 
+           INS-82812_FOV_CENTER_PIXEL      = ( 0, 0 )
+           INS-82812_PIXEL_SAMPLES         = ( 1 )
+           INS-82812_PIXEL_LINES           = ( 1 )
+ 
+           \begintext
+ 
+   Beam 4 (4):
+ 
+           \begindata
+ 
+           INS-82813_FOV_CENTER_PIXEL      = ( 0, 0 )
+           INS-82813_PIXEL_SAMPLES         = ( 1 )
+           INS-82813_PIXEL_LINES           = ( 1 )
+ 
+           \begintext
+ 
+   Beam 5 (5):
+ 
+           \begindata
+ 
+           INS-82814_FOV_CENTER_PIXEL      = ( 0, 0 )
+           INS-82814_PIXEL_SAMPLES         = ( 1 )
+           INS-82814_PIXEL_LINES           = ( 1 )
+ 
+           \begintext
+ 
+ 
+Instrument Mode Timing
+----------------------------------------------------------
+ 
+   The following values were provided as samples in [5]. These values are
+   defined in [5] as follows:
+ 
+ 
+           ``The initial values for the following keywords are given
+           per instrument number:
+ 
+           INS[instrument number]_[instrument acronym]_MODE_NAME
+           INS[instrument number]_[instrument acronym]_TRIGGER_OFFSET
+           INS[instrument number]_[instrument acronym]_CYCLE_DURATION
+ 
+           INS..._MODE_NAME contains the name of the instrument mode for
+           the INS..._TRIGGER_OFFSET and INS..._CYCLE_DURATION
+           keywords.
+ 
+           INS..._TRIGGER_OFFSET specifies the reference time of the
+           first instrument frame (to be calculated for a footprint)
+           relative to the time of transacting the corresponding TRIGGER
+           command. The units are SFOC duration.
+ 
+           INS..._CYCLE_DURATION specifies the duration between successive
+           instrument frames (from the first one) for the INS..._MODE_NAME.''
+ 
+ 
+ 
+Beam 1 (1):
+ 
+           \begindata
+ 
+           INS-82810_MODE_NAME             = 'NOMINAL'
+           INS-82810_TRIGGER_OFFSET        = '0:01:00.0'
+           INS-82810_CYCLE_DURATION        = '0:01:00.0'
+ 
+           \begintext
+ 
+ 
+Beam 2 (2):
+ 
+           \begindata
+ 
+           INS-82811_MODE_NAME             = 'NOMINAL'
+           INS-82811_TRIGGER_OFFSET        = '0:01:00.0'
+           INS-82811_CYCLE_DURATION        = '0:01:00.0'
+ 
+           \begintext
+ 
+ 
+Beam 3 (3):
+ 
+           \begindata
+ 
+           INS-82812_MODE_NAME             = 'NOMINAL'
+           INS-82812_TRIGGER_OFFSET        = '0:01:00.0'
+           INS-82812_CYCLE_DURATION        = '0:01:00.0'
+ 
+           \begintext
+ 
+ 
+Beam 4 (4):
+ 
+           \begindata
+ 
+           INS-82813_MODE_NAME             = 'NOMINAL'
+           INS-82813_TRIGGER_OFFSET        = '0:01:00.0'
+           INS-82813_CYCLE_DURATION        = '0:01:00.0'
+ 
+           \begintext
+ 
+ 
+Beam 5 (5):
+ 
+           \begindata
+ 
+           INS-82814_MODE_NAME             = 'NOMINAL'
+           INS-82814_TRIGGER_OFFSET        = '0:01:00.0'
+           INS-82814_CYCLE_DURATION        = '0:01:00.0'
+ 
+           \begintext
+ 
+ 
+NAIF ID Code to Name Mapping
+----------------------------------------------------------
+ 
+           \begindata
+ 
+           NAIF_BODY_NAME                 += ( 'CASSINI_RADAR_1' )
+           NAIF_BODY_CODE                 += ( -82810 )
+ 
+           NAIF_BODY_NAME                 += ( 'CASSINI_RADAR_2' )
+           NAIF_BODY_CODE                 += ( -82811 )
+ 
+           NAIF_BODY_NAME                 += ( 'CASSINI_RADAR_3' )
+           NAIF_BODY_CODE                 += ( -82812 )
+ 
+           NAIF_BODY_NAME                 += ( 'CASSINI_RADAR_4' )
+           NAIF_BODY_CODE                 += ( -82813 )
+ 
+           NAIF_BODY_NAME                 += ( 'CASSINI_RADAR_5' )
+           NAIF_BODY_CODE                 += ( -82814 )
+ 
+           \begintext
+ 
+ 
+Platform ID
+----------------------------------------------------------
+ 
+   The RADAR instrument is mounted on the Cassini Spacecraft body. Therefore
+   the values stored in the keywords below are -82000
+ 
+           \begindata
+ 
+           INS-82810_PLATFORM_ID           = ( -82000 )
+           INS-82811_PLATFORM_ID           = ( -82000 )
+           INS-82812_PLATFORM_ID           = ( -82000 )
+           INS-82813_PLATFORM_ID           = ( -82000 )
+           INS-82814_PLATFORM_ID           = ( -82000 )
+ 
+           \begintext
+ 

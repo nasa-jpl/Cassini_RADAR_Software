@@ -1,0 +1,132 @@
+#!/bin/csh
+######################################################################
+# Copyright (C) 1997, California Institute of Technology.
+# U.S. Government sponsorship acknowledged.
+######################################################################
+#
+# NAME
+#    inclist
+#
+# SYNOPSIS
+#    inclist <src_file...>
+#
+# DESCRIPTION
+#    Generates a list of include files for each source file.
+#
+# OPTIONS
+#    None.
+#
+# OPERANDS
+#    The following operand is supported:
+#    <src_file...>  A list of source files.
+#
+# EXAMPLES
+#    An example of a command line is:
+#    % inclist Object.C AnotherObject.C
+#
+# ENVIRONMENT
+#    Not environment dependent
+#
+# EXIT STATUS
+#    The following exit values are returned:
+#        0  Program executed successfully
+#       >0  Program had an error
+#
+# NOTES
+#    None.
+#
+# AUTHOR
+#    James N. Huddleston
+#    hudd@acid.jpl.nasa.gov
+#
+# CONFIGURATION CONTROL
+#    "@(#) $Id: inclist,v 11.5 2011/09/16 00:03:29 richw Exp $"
+######################################################################
+
+#####
+# Parse the command line
+#####
+
+set command_name = $0
+set command_name = $command_name:t
+set opt_string = "o"
+
+if ($#argv == 0) then
+  goto usage
+  exit(1)
+endif
+
+set src_files = ($argv[1-])
+
+foreach file ($src_files)
+  set final_list = ()
+
+  set process_list = (`grep '^#include' $file | grep -v '<' | cut -d'"' -f 2`)
+
+  while ($#process_list > 0)
+
+    set new_list = ()
+
+    foreach x ($process_list)
+
+      # check if it exists
+      if (! -e $x) then
+        continue
+      endif
+
+      # check if it has already been processed
+      set match = 0
+      foreach y ($final_list)
+        if ($x == $y) then
+          set match = 1
+          break
+        endif
+      end
+      if ($match == 1) then
+        continue
+      endif
+
+      set final_list = ($final_list $x)
+      set connections = (`grep '^#include' $x | grep -v '<' | cut -d'"' -f 2`)
+
+      foreach connection ($connections)
+
+        # check if connection exists
+        if (! -e $connection) then
+          continue
+        endif
+
+        # check if connection has already been processed
+        set match = 0
+        foreach y ($final_list $process_list $new_list)
+          if ($connection == $y) then
+            set match = 1
+            break
+          endif
+        end
+        if ($match == 1) then
+          continue
+        endif
+
+        # add connection to new list
+        set new_list = ($new_list $connection)
+      
+      end
+    end
+    set process_list = ($new_list)
+  end
+  set obj_file = `echo $file | sed -e "s/\.cpp/.o/g"`
+  echo "${obj_file}: $file $final_list"
+end
+
+exit(0)
+
+#####
+# LABEL: usage
+#    Explain command usage
+#####
+
+usage:
+  echo "usage: $command_name <src_file...>"
+  exit(1)
+end

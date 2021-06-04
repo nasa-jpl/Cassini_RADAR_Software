@@ -1,0 +1,2078 @@
+% Master config file containing descriptions for all valid keywords.
+%
+% The following special commands are recognized in a master config file:
+%   !block - begin a block of keywords.  All keywords in a block will be
+%            commented and listed together in a config file.  If at least
+%            one keyword from a block is used by a program, then the
+%            auto-comments for all the keywords in that block will be
+%            inserted in the config file.  However, only those 
+%            keyword/value pairs that actually occur in the config file
+%            will appear right after the auto-comments.
+%   !keyword - begin a keyword description.  The first white-space delimited
+%              string on the next line is the keyword.  Everything after
+%              that is the description up to the next special command
+%              (but ignoring blank lines).
+%              The special character '*' is recognized at the end of a keyword
+%              as a wildcard.  It matches any string and allows a single
+%              !keyword entry to specify a group of keywords.
+%   !value - begin a value description.  The first white-space delimited
+%              string on the next line is the value.  Everything after
+%              that is the description up to the next special command
+%              (but ignoring blank lines).  A value is one of a finite list
+%              of special string values that a keyword is allowed to have.
+%   !deprecated_keyword - indicates a keyword that users are to be warned
+%                         against using while still allowing its use.
+%                         The warning is generated when the
+%                         config object destructs.
+%   !disabled_keyword - indicates a keyword that should not be used.
+%                       If a disabled keyword is accessed, the config object
+%                       throws an error.  If a disabled keyword is present in
+%                       a config file, but never accessed, then a warning
+%                       message is generated when the config object destructs.
+%
+%  Wildcard character '*'
+%    The wildcard character can be used to indicate any arbitary suffix string
+%    Thus ckernel_* will match ckernel_1, ckernel_2, ckernel_anystring etc.
+%    Wildcards only work as suffixes.
+%    When multiple keywords within a block use a wildcard suffix
+%      (eg., divisions) then the keywords are sorted by suffix.
+%      ie., all the _a keywords appear together before the _b keywords.
+%      The order of keywords within a suffix set follows the order of the
+%      keywords with wildcards in this master config file.
+
+
+!block Special Config File Handling
+!keyword
+CONFIG_INTERACTIVE_MODE_ON - Value of  1 causes routine to prompt for
+                             missing config file keywords, otherwise an
+                             error message is printed and the routine fails
+
+%--------------------------------------------------------------------
+% Flyby Setup Block
+%--------------------------------------------------------------------
+
+!block
+Flyby Setup & IO Pass Information
+!keyword
+spacecraft - specifies the name of a SPICE recognized observer body
+!keyword
+target - specifies the name of a SPICE recognized target body
+!keyword
+data_take_number - Cruise IEB's < 30, Tour IEB's > 30
+                   if larger than 255, it will roll back to 0
+!keyword
+Reset_data_take_number - Use this option when data take number is not properly
+	        set during uplink process
+!disabled_keyword
+target_name - use target
+!keyword
+IO_PDT_configfile - PDT config specifies SPICE files for that sequence
+!keyword
+IO_smtfile_1 - path and file name of SMT file received from IO 
+		(Science Planning Web Site)
+!keyword
+IO_smtfile_2 - path and file name of SMT file
+                (often: PEF are 2 Sequences, SMT are 1 seqence)
+!keyword
+IO_peffile - path and file name of PEF file received from IO 
+		(Science Planning Web Site)
+!keyword
+IEB_number_in_PEF - PEF file can contain multiple IEBs.
+                    If 0 config_merge will prompt user
+
+%-------------------------------------------------------------------
+% Kernel_Display Parameters
+%-------------------------------------------------------------------
+
+!block
+Kernel_Dispaly Parameters (to control plotting)
+!keyword
+plot_tool - specifies whether xmgr or xmgrace is used for making plots
+!value
+  xmgrace - Use xmgrace (this is the default if this keyword is absent)
+!value
+  xmgr - alternate older plotting tool
+
+%-------------------------------------------------------------------
+% RMSS IO Parameters (populated by the config_merge process)
+%-------------------------------------------------------------------
+
+!block
+RMSS IO Parameters (populated by the config_merge process)
+
+%----------------------------
+% IEB Information from PEF/SMT
+%----------------------------
+!keyword
+IEB_Trigger - SCLK value of trigger given in PEF file
+                This is second trigger (not IDAPT trigger)
+!keyword
+IEB_delta_trigger - Delta trigger time update due to live ivp update
+!keyword
+IDAPT_delta - time prior to IEB_Trigger.  Value always second prior to Trigger
+!keyword
+IEB_duration - time from IEB_Trigger to Halt
+!keyword
+DataVolumeAllocation - time from IEB_Trigger to Halt
+
+%----------------------------
+% Data Rate from PEF
+%----------------------------
+!keyword
+DataRateTime_1 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_2 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_3 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_4 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_5 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_6 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_7 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_8 - Time of Data Rate Mode Change
+!keyword
+DataRateTime_9 - Time of Data Rate Mode Change
+
+!keyword
+DataRate_1 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_2 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_3 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_4 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_5 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_6 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_7 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_8 - The S/C Date Rate starting at correlated DateRateTime
+!keyword
+DataRate_9 - The S/C Date Rate starting at correlated DateRateTime
+
+
+%----------------------------
+% Power Allocation from PEF
+%----------------------------
+!keyword
+PowerTransitionTime_1 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_2 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_3 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_4 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_5 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_6 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_7 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_8 - Time of Power Transition Allocation
+!keyword
+PowerTransitionTime_9 - Time of Power Transition Allocation
+
+!keyword
+PowerAllocation_1 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_2 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_3 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_4 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_5 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_6 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_7 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_8 - Power Level Allocation (ie: 0,55,86)
+!keyword
+PowerAllocation_9 - Power Level Allocation (ie: 0,55,86)
+
+%-----------------------------------------------------------------------------
+% Epoch Setup
+%-----------------------------------------------------------------------------
+
+!block
+Epoch Setup
+!keyword
+epoch_selection - specifies how the epoch time for this config file is set
+!value
+  absolute - The value specified by epoch_time is used directly
+!value
+  closest_flyby - The closest approach time nearest to epoch_time is used
+!keyword
+epoch_accuracy - The precision of the search for the closest flyby time
+!keyword
+epoch_time - The epoch time to use, or the starting point in the search for
+             the epoch time to use.
+
+
+%-----------------------------------------
+% SAR Pointing and IVD Setup
+%-----------------------------------------
+
+!block
+SAR Pointing and IVD Setup
+!keyword
+look_direction - Specifies which side to tilt the 5 beams towards
+!value
+  right - Look to the right when you look along the velocity direction from
+          behind the spacecraft.
+!value
+  left - Look to the left when you look along the velocity direction from
+         behind the spacecraft.
+!keyword
+sc_orientation - Specifies whether plus or minus X should be closest to the
+                 velocity direction during the IVD interval.
+                 ie., resolve the 180 degree ambiguitiy in SAR pointing.
+!value
+  -x_direction_to_velocity - Hold -X towards the velocity direction
+!value
+  +x_direction_to_velocity - Hold +X towards the velocity direction
+!keyword
+ivd_file - the name of the output IVD file to create
+!keyword
+start_time_ivd - Start time of SAR profile - used to create ivd files
+!keyword
+time_step_ivd - used to create ivd files
+!keyword
+end_time_ivd - End time of SAR profile - used to create ivd files
+!keyword
+ivd_time_pad - amount of time to add to the IVD time interval on each side.
+               This creates an IVD file valid for a longer time interval.
+!keyword
+ivd_fractional_second  - determine fractional time in generating IVD
+%------------------------------------------
+% Default Spice directory for each workstation
+%------------------------------------------
+
+!block
+Default Spice Directories
+!keyword
+hasekSPICEdir - Default path to SPICE files on hasek (except ckernels)
+		Note: Also default for unknown workstation
+                      (according to config_merge)
+!keyword
+casradar2SPICEdir - Default path to SPICE files on casradar2 (except ckernels)
+
+%------------------------------------------
+% Spice file setup
+%------------------------------------------
+
+!block
+Spice File Setup
+!keyword
+spice_directory - Directory where Spice files reside (except ckernels)
+                  If not present, fully qualified names must be used
+!keyword
+tour_ephemeris - SPICE file: the spacecraft ephemeris file
+!keyword
+sclk_kernel - SPICE file: sclk to UTC translation data
+!keyword
+time_kernel - SPICE file: leapseconds data
+!keyword
+instrument_kernel - SPICE file: field of view data for an instrument
+!keyword
+frame_kernel - SPICE file: instrument frame definitions
+!keyword
+planetary_constants_kernel - SPICE file: GM, radii etc for planets
+!keyword
+solarsystem_ephemeris_kernel - SPICE file: ephemeris data for planet
+                               barycenters
+!keyword
+planet_ephemeris_kernel - SPICE file: ephemeris data for specific planet
+
+%-------------------------------------------------------------------
+% Ckernel Names
+%-------------------------------------------------------------------
+
+!block
+Ckernel Names
+!keyword
+ckernel_directory - Directory where C-kernel files reside
+                    If not present, fully qualified names must be used
+!keyword
+ckernel - name of first ckernel file to load
+
+!keyword
+ckernel_* - optional additional ckernel files to load
+              * is replaced by 1,2,3..
+
+%-----------------------------------------------------------------------------
+% Time Interval Specifications
+%-----------------------------------------------------------------------------
+
+!block
+Time Interval Specifications
+  Interval specificiations are epoch relative and consist of three associated
+  keywords (time_step_xx, start_time_xx, end_time_xx where xx is a string
+  identifying a particular interval).
+!keyword
+time_step - The default time step to use
+!keyword
+start_time - Default epoch relative starting time
+!keyword
+end_time - Default epoch relative ending time
+
+%-----------------------------------------------------------
+% Live update files
+%--------------------------------------------------------------
+
+!block
+Live Update Spice File Setup
+!keyword
+live_update_spice_directory - Directory where updated Spice files reside
+   (except ckernels)  If not present, fully qualified names must be used
+!keyword
+live_update_tour_ephemeris - Live update SPICE file
+                             The spacecraft ephemeris file
+!keyword
+live_update_sclk_kernel - Live update SPICE file
+                          sclk to UTC translation data
+!keyword
+live_update_time_kernel - Live update SPICE file
+                          leapseconds data
+!keyword
+live_update_instrument_kernel - Live update SPICE file
+                                field of view data for an instrument
+!keyword
+live_update_frame_kernel - Live update SPICE file
+                           instrument frame definitions
+!keyword
+live_update_planetary_constants_kernel - Live update SPICE file
+                                         GM, radii etc for planets
+!keyword
+live_update_solarsystem_ephemeris_kernel - Live update SPICE file
+                                           planet barycenters
+!keyword
+live_update_planet_ephemeris_kernel - Live update SPICE file
+                                     ephemeris data for specific planet
+!keyword
+live_update_merged_ckernel_port2 - Ckernel file to be used by
+   live-ivp-update program, generally considered old ckernel before
+   live ivp update
+
+
+
+%-------------------------------------------------------------------
+% RMSS CONSTANTS AND SEMI-FIXED PARAMETERS
+%-------------------------------------------------------------------
+
+!block
+RMSS Constants and semi-fixed parameters
+
+%----------------------------
+% Parameters options for Yan's Instruction Density (called from RMSS)
+%----------------------------
+!keyword
+InstDensityNavErrors - Switch the usage of Navigation Errors
+                       in InstructionDensity Routine
+!value
+  on - Use nav errors, this is the normal setting
+!value
+  off - Don't use nav errors
+       Some small distant targets may need the off setting
+!keyword
+CDS_Cmd_Delay - Time delay between time command in the PEF going to CDS
+                vs the RADAR execution of that command.
+                (Expected to be +1 second)
+!keyword
+SoftPowerCycle - Default = enable to allow RMSS to power down if there
+		is a radiometer division between two Active modes
+		(If Disabled, RMSS will not power down until last active mode)
+!keyword
+AutoGainCycles - When AutoGain is enabled or a FLTSW autogain
+                 Feature boundary is encountered
+                 RMSS should insert rapid copies of the instruction
+                 to give AutoGain ability to step at the start
+!keyword
+AutoRadCycles - When AutoRad is enabled
+                RMSS should insert rapid copies of the instruction
+                to give AutoRAD ability to step at the start
+
+!keyword
+Calibration_Instruction_Method - RMSS insert calibraion mode
+                                 (rerouted,chirp, leakage, ant only)
+  These can be inserted in 1 of 4 different locations in the IEB timeline
+    0 - Normal Calibration Insert:  Between each mode change.
+    1 - Lumped.Beginning:  Gather all calibrations to be done and insert
+        block at first location only
+    2 - Lumped.Ending:  Gather all calibrations to be done and insert
+        block at last location
+    3 - Lumped.both ends: Gather all calibrations to be done and insert
+        at beginning and a copy at the end
+
+!keyword
+Max_Scat_Incidence_Used - (default 60) During Scatterometry RMSS will update instruction based on validtime upto normally 60 degress.
+        However if PDT designs go to higher incidence or to reduce FINs the user can adjust this value.
+
+!keyword
+Calibration_SARH_ANT_Cycles - Allows user to state the number of Ant calibration cycles to be inserted for the calibrartion routines.
+
+!keyword
+SlowCFSCompression - Percentage (integer: between 0-100) of the Slow_Cfs parameter that RMSS is allowed to compress in order to
+        reduce the number of Slow Field Instructions (SIN).
+
+!keyword
+BpdGapAdjustPercentage - Percentage (integer: between 0-100) of the amount of the Burst Period that RMSS is allowed to
+        increase the BPD in order to reduce the gap between ILXes. (goes with Bpd_Adjust below)
+
+!keyword
+Scat_Validtime_Adjust_For_Gaps - (enable or disable) If enabled, RMSS may decrease the VALIDTIME time value (Up to a limit) to
+                reduce gaps between instruction boundaries (This can be enabled/disabled based on mode)
+
+!keyword
+Alth_Validtime_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+Sarh_Validtime_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+Sarl_Validtime_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+Scat_Bpd_Adjust_For_Gaps - (enable or disable) If enabled, RMSS may increase Burst Period (BPD) (Up to a limit) to reduce gaps
+                between instruction boundaries (This can be enabled/disabled based on mode)
+!keyword
+Alth_Bpd_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+Sarh_Bpd_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+Sarl_Bpd_Adjust_For_Gaps - (enable or disable) see note above.
+
+!keyword
+RMSS_UserInputFile_1 - Provide a wtk formatted file to overwrite any
+  RMSS create section of the IEB.
+  The User Input File will NOT overwrite Power or TNC instructions.
+  The first file must have the '1' extention,
+  if there are more this extenstion should be incremented
+
+%-------------------------------------------------------------------
+% RMSS Piece-wise constant profiles
+%-------------------------------------------------------------------
+
+!block
+RMSS Piece-wise constant profiles
+
+!keyword
+scat_prf_number_points - number of thetai,prf pairs
+
+!keyword
+scat_thetai_* - incidence angle ranges for corresponding prf
+
+!keyword
+scat_prf_* - PRF value to use with the corresponding thetai
+  For thetai between thetai_1 and thetai_2, prf_1 is used.
+  For thetai above the final thetai_n, the final prf_n is used.
+  For off-target situations, the final prf_n is used.
+
+!keyword
+dutycycle_limit_number_points - number of prf,dutycycle limit pairs
+
+!keyword
+dutycycle_limit_prf_* - PRF value at or above this will be limited to
+  the corresponding duty cycle value.  Limits applied in order so lowest
+  PRF values should be listed first.
+  PRF values between _prf_1 and _prf_2 are limited to _d_1 for dutycycle
+  These limits are only applied to scatterometer mode divisions
+
+!keyword
+dutycycle_limit_d_* - duty cycle limit value for the corresponding PRF
+  The * is replaced by 1,2,3 ...
+
+
+%-------------------------------------------------------------
+% RMSS construction
+%-------------------------------------------------------------
+
+!block
+Radar Commanding Parameters
+
+radar mode options:
+  sarh, sarl, altimeter, scatterometer, scatterometer_compressed, radiometer
+
+Calibration source:
+  0(normal), 1(antenna cal source), 2(noise diode), 3(resitive load)
+  4(rerouted chirp),5(leakage),6(radiometer only),7(transmit only)
+  8(auto gain)
+
+baq:
+  0(8-2 baq),1(8-1 baq), 2(8-0,no science data),3(ALTL compressed)
+  4(8-4MSB), 5(8-8 straight), 6(ALTL),7(ALTH)
+
+beam mask
+  00000 : all beams disabled
+  00001: beam 1 only
+  ..
+  00100: beam 3 only
+  11111: all beams only
+
+Division keywords are identified by suffix letter _a, _b etc.
+!keyword
+div_mode_*
+!keyword
+div_start_time_*
+!keyword
+div_end_time_*
+!keyword
+div_time_step_*
+!keyword
+div_bem_*
+!keyword
+div_baq_*
+!keyword
+div_csr_*
+!keyword
+div_noise_bit_setting_*
+!deprecated_keyword
+div_bpd_*
+!keyword
+div_dutycycle_*
+!keyword
+div_prf*
+!keyword
+div_tro_*
+!keyword
+div_number_of_pulses_*
+!keyword
+div_n_bursts_in_flight_*
+!keyword
+div_percent_of_BW_*
+!keyword
+div_auto_rad_*
+!keyword
+div_rip_*
+!keyword
+div_max_data_rate_*
+!keyword
+div_interleave_flag_*
+!keyword
+div_interleave_duration_*
+
+
+%---------------------------------------
+%Special instruction to be used when div_percent_of_BW 0 (CW or Tone)
+%---------------------------------------
+!block
+Special Chirp Start Frequency Selection
+!keyword
+Make_csf_integer_multiple_of_prf -(this choice is used only for CW wave) If Yes(yes), chirp start frequency will be adjusted to be an integer multiple of prf if possible or minimize fractional part of csf/prf
+
+!keyword
+Min_frequency_of_returned_CW_echo - when Make_csf_integer_multiple_of_prf is enabled, chirp start frequency will be scanned in such a way that echo location in the base band is larger than this value : suggested value -100 KHz
+
+!keyword
+Max_frequency_of_returned_CW_echo - - when Make_csf_integer_multiple_of_prf is enabled, chirp start frequency will be scanned in such a way that echo location in the base band is smaller than this value: suggested value -20 KHz
+
+%-----------------------------------------------------------------------------
+% Kernel_display output specifications
+%-----------------------------------------------------------------------------
+
+!block
+Kernel Display plotting options
+!keyword
+spin_z - Set on if special plots produced by spinning the spacecraft around
+         its z-axis are desired.
+!value
+  on - Produce plots spinning around z.
+!value
+  off - Don't produce plots spinning around z.
+!keyword
+spin_y - Set on if special plots produced by spinning the spacecraft around
+         its y-axis are desired.
+!value
+  on - Produce plots spinning around y.
+!value
+  off - Don't produce plots spinning around y.
+!keyword
+px_vs_dir1 - Specifies angle for the first curve on the spinning plots.
+             This angle will be between the +X axis and some direction.
+!value
+  vel - The velocity direction is the other direction determining the angle
+
+%-----------------------------------------------------------------------------
+% Dlap_generate parameters
+%-----------------------------------------------------------------------------
+
+!block
+Parameters needed by dlap_generate
+
+% Tracking option subset
+!keyword
+tracking_option - Specifies the general behavior of the spacecraft rotation
+                  about the Y axis during SAR pointing.
+!value
+  target_center - Point -Z at the target spin axis.
+                  If the incidence angle is zero, then this
+                  simply means to point -Z at the target center.
+!value
+  target_isodoppler - Point -Z so as to minimize doppler variation in the
+                      cross-track direction.
+!value
+  target_pitch_bias - Apply a rotation about spacecraft y-axis away from
+			isodoppler pointing.  This option is used to increase
+			alongtrack coverage during Titan tour
+!value
+  target_contiguous_coverage - Point -Z so as to fan the 5 beams
+                               perpendicular to the projected
+                               motion of the 5 beams.
+!keyword
+incidence_angle_offset  - Change incidence angle profile from an ideal one
+                         by adding a constant offset angle
+!keyword
+set_azimuth_rotation - Used when tracking_option is set to target_center.
+                       This keyword specifies the azimuth offset to use.
+!keyword
+set_sc_z_rotation - Used when tracking_option is set to target_isodoppler
+		    This keyword specifies an additional rotation w.r.t
+		    sc z_axis after isodoppler location is set.
+!keyword
+number_of_local_incidence_angle_changes - number of local incidence angle changes   Each change requires 5 parameters
+                                           absence of this keyword means there is no local incidence angle modification
+!value
+local_incidence_angle_offset_*  -incidence angle bias
+!value
+local_incidence_angle_tr1_*  -start time from ideal pointing  toward bias
+!value
+local_incidence_angle_tr1_*  -end of transition to local bias
+!value
+local_incidence_angle_tr1_* -begining time from local bias toward ideal pointing
+!value
+local_incidence_angle_tr1_*  -end time to reach ideal pointing
+
+% Incidence angle profile subset
+!keyword
+angle_profile_option - Specifies the form of the incidence angle
+                       profile to use 
+!value
+  constant_incidence_angle - Use same incidence angle
+                             throughout IVD interval
+!value
+  polynomial_fit - Use a polynomial profile fitted in the
+                   least squares sense to points listed in
+                   this config file.
+!value
+  sech_function - Use a hyperbolic secant function to model the incidence
+                  angle variation.  This function will fit the c/a incidence
+                  angle, the residual incidence angle at high altitude,
+                  and one mid point value.  Special keywords below control
+                  this model.
+!block
+When incidence angle profile is constant_incidence_angle
+!keyword
+constant_incidence_angle - the constant incidence angle to use when
+                           angle_profile_option is set to
+                           constant_incidence_angle
+
+!block
+When pitch bias option is chosen, the following parameters will be used
+to compute spacecraft attitude 
+!keyword
+inbound_pitch_rate - Average inbound pitch bias rate: deg/min
+!keyword
+outbound_pitch_rate - Average outbound pitch bias rate: deg/min
+!keyword
+pitch_bias_outbound_end_time - End time of pitch bias. After this time, the 
+				pointing moves back to isodoppler
+!keyword
+pitch_bias_outbound_start_time - Start of pitch bias time for outbound track,
+				 close to the  closest approach time than
+                                  pitch_bias_outbound_end_time
+!keyword
+pitch_bias_inbound_start_time - Start of pitch bias time for inbound track. 
+				Close to the closest approach time than
+				pitch_bias_outbound_end_time
+!keyword
+pitch_bias_inbound_end_time - End of pitch bias time for inbound track.  
+				Before this time, the pointing is isodoppler
+
+
+
+!block
+When angle profile option is polynomial_fit,
+this incidence angle profile will be used
+!keyword
+polynomial_power - the order of polynomial used to fit the incidence angle
+                   profile points
+!keyword
+number_of_altitude_incidenceAngle_variations - number of points to fit to a
+                                               polynomial profile
+!keyword
+altitude* - altitude point to fit to a polynomial profile
+!keyword
+incidenceAngle* - incidence angle point to fit to a polynomial profile
+
+
+!block
+When incidence angle Incidence angle sech profile parameters
+when angle_profile_option is sech_function
+angle = angle1 + 2*(angle2-angle1)/{exp( (x-x0)/a) + exp(-(x-x0)/a)}
+ angle1: residual incidence angle at high altitude
+ angle2: desired incidence angel at closest approach
+ a: this parameter will be calculated inside dlap_generate programs
+    and is used to obtain a desired incidence angle
+    at a mid altitude between closest approach (about 950 km) and
+    high altitude (> 4000 km)
+ this function will try to fit incidence angle at CA, residual incidence angle
+ at high altitude,and one mid point value between CA and high altitude
+!keyword
+incidence_angle_at_lowest_altitude - for sech_function model
+!keyword
+mid_altitude - for sech_function model
+!keyword
+incidence_angle_at_mid_altitude - for sech_function_model
+!keyword
+residual_incidence_angle_at_high_altitude - for sech_function model 
+
+%-----------------------------
+%Special targeting option
+%-----------------------------
+!block
+ Parameters needed to image a special targeting area specified by (lat, lon)
+!keyword
+target_lat_lon_option - On or Off
+!keyword
+target_isodoppler_pointing - On or Off
+!keyword
+time_at_closest_range_to_target - Time w.r.t. epoch when sc makes a closest approach to the target (lat lon)
+!keyword
+angle_at_closest_range_to_target - Incidence angle at time_at_closed_range_to_target for Isodoppler 
+!keyword
+start_target_lat_lon_tracking - Start time for tracking target_lat_lon before sc approaches targeted positin
+!keyword
+end_target_lat_lon_tracking - End time for tracking target_lat_lon after sc passes targeted position
+!keyword
+target_latitude - Used when tracking_option is set to target_isodopper_lat_lon
+!keyword
+target_longitude - Used when tracking_option is se to target_isodoppler_lat_lon
+!keyword
+off_centered_beam_time_lag - Time lag between beam3 and off-centered beam
+
+%-----------------------------------------------------------------------------
+% ieb_param_generate parameters: prf and dutycycle profile setting
+%-----------------------------------------------------------------------------
+
+!block
+Parameters needed by ieb_param_generate
+Time parameter will use start_time_ieb and end_time_ieb defined in
+ Time Specification 
+Some fixed parameters: long term duty cycle < 0.07
+
+!keyword
+ieb_file - Specifies ieb file containing time tagged slow/fast fields
+
+!keyword
+start_time_ieb - If present, used to create ieb file
+
+!keyword
+end_time_ieb - If present, used to create ieb file
+
+!keyword
+time_step_ieb - If present, used to create ieb file
+
+!disabled_keyword
+min_bpd
+
+!keyword
+prf_profile_option - Specifies the form of the prf profile to use
+
+!value
+  constant_prf - Use same prf through IEB interval
+
+!value
+  polynomial_fit - Use a polynomial profile fitted in the least squares
+	         senses to points listed in this config file
+
+!value
+  lookup_table -  Not implemented yet
+
+
+!block
+When prf_profile_option is constant_prf, this value will be used
+!keyword
+constant_prf_value - the constant prf value to use when prf profile
+   	             option is set  to constant_prf
+
+
+!block
+PRF profile to be used when prf_profile_option is polynomial_fit
+!keyword
+time_prf_polynomial_power - the order of polynomial used to fit the the 
+		            prf profile points
+
+!keyword
+number_of_time_prf_variations - number of points to fit to a polynomial
+				profile
+
+!keyword
+time_prf* - time for prf 
+!keyword
+prf*      - prf point to fit to a polynomial profile
+
+
+
+!block
+dutycyle and altitude values
+
+!keyword
+dutycycle_profile_option - Specifies the form of the dutycycle profile 
+  to be used
+
+!value
+constant_dutycycle - Use constant dutycycle value in radar parameter block
+!value
+polynomial_fit - Use a polymonial profile in the least squares sense
+	         to points listed in this config file
+                 It is very unlikely that we are going to use this option
+
+!block
+Altitude-dependent dutycycle setup 
+  when dutycycle profile option is polynomial_fit
+!keyword
+alt_dutycycle_polynomial_power - the order of polynomial used to fit the 
+	                      dutycycle profile points
+!keyword
+number_of_altitude_dutycycle_variations - number of points to fit to
+ 			                  to a polynomial profile
+!keyword
+alt_dutycycle1 - altitude point to fit a polynomial profile
+!keyword
+dutycycle1      - dutycycle point to fit a polynomial profile
+
+!keyword
+alt_dutycycle2 - altitude point to fit a polynomial profile
+!keyword
+dutycycle2      - dutycycle point to fit a polynomial profile
+
+
+!keyword
+alt_dutycycle3 - altitude point to fit a polynomial profile
+!keyword
+dutycycle3      - dutycycle point to fit a polynomial profile
+
+!keyword
+alt_dutycycle4 - altitude point to fit a polynomial profile
+!keyword
+dutycycle4      - dutycycle point to fit a polynomial profile
+
+!keyword
+alt_dutycycle5 - altitude point to fit a polynomial profile
+!keyword
+dutycycle5      - dutycycle point to fit a polynomial profile
+
+
+!block
+Parameters needed to set attenuator for scatterometer(ALTL) mode
+
+!keyword
+cal_gaindB_altl - gain setting when calibration was performed
+
+!keyword
+cal_radar_buffer_std_deviation_altl - standard deviation of radar buffer output (8-8 bits)
+
+!keyword
+squared_deviation_of_system_noise_input_at_ALTL - measured squared deviation of 8-8 straight radar buffer data with the system noise and ALTL bandwidth
+
+!keyword
+squared_deviation_of_system_noise_input_at_ALTH - measured squared deviation of 8-8 straight radar buffer data with the system noise and ALTH bandwidth
+
+!keyword
+squared_deviation_of_system_noise_input_at_SARL - measured squared deviation of 8-8 straight radar buffer data with the system noise and SARL bandwidth
+
+!keyword
+squared_deviation_of_system_noise_input_at_SARH - measured squared deviation of 8-8 straight radar buffer data with the system noise and SARH bandwidth
+
+!block
+Parameters needed to set attenuator for compressed scatterometer(ALTL) 
+!keyword
+cal_gaindB_altl_compressed - gain setting when calibration was performed 
+
+!keyword
+cal_radar_buffer_std_deviation_altl_compressed - standard deviation of radar buffer output (8-8 bits)
+
+!keyword
+squared_deviation_of_system_noise_input_at_ALTL_compressed - measured squared deviation of 8-8 straight radar buffer data with the system noise and ALTL bandwidth
+
+
+!block
+Parameters needed to set attenuator for ALTH
+!keyword
+cal_gaindB_sarl- gain setting when calibration was performed 
+
+!keyword
+cal_radar_buffer_std_deviation_sarl - standard deviation of radar buffer output (8-8 bits)
+
+!keyword
+squared_deviation_of_system_noise_input_at_ALTH- measured squared deviation of 8-8 straight radar buffer data with the system noise and SARL bandwidth
+
+
+!block
+Parameters needed to set attenuator for SARL
+!keyword
+cal_gaindB_sarl- gain setting when calibration was performed 
+
+!keyword
+cal_radar_buffer_std_deviation_sarl - standard deviation of radar buffer output (8-8 bits)
+
+!keyword
+squared_deviation_of_system_noise_input_at_SARL- measured squared deviation of 8-8 straight radar buffer data with the system noise and SARL bandwidth
+
+
+!block
+Parameters needed to set attenuator for SARH
+!keyword
+cal_gaindB_sarh- gain setting when calibration was performed 
+
+!keyword
+cal_radar_buffer_std_deviation_sarh - standard deviation of radar buffer output (8-8 bits)
+
+!keyword
+squared_deviation_of_system_noise_input_at_SARH- measured squared deviation of 8-8 straight radar buffer data with the system noise and SARH bandwidth
+
+
+%-----------------------------------------------------------------------------
+% Antenna patterns and Beam setup
+%-----------------------------------------------------------------------------
+
+!block
+Antenna pattern configuration
+!keyword
+beam_pattern_source - specifies how the beam pattern will be determined
+!value
+  file - Read beam patterns from files specifed by subsequent keywords
+!value
+  sinc_model - Compute beam patterns from a sinc model using parameters
+               specified in subsequent keywords.
+!keyword
+beam_azi_1 - Beam 1 azimuth beamwidth
+!keyword
+beam_azi_2 - Beam 2 azimuth beamwidth
+!keyword
+beam_azi_3 - Beam 3 azimuth beamwidth
+!keyword
+beam_azi_4 - Beam 4 azimuth beamwidth
+!keyword
+beam_azi_5 - Beam 5 azimuth beamwidth
+
+!keyword
+beam_elev_1 - Beam 1 elevation beamwidth
+!keyword
+beam_elev_2 - Beam 2 elevation beamwidth
+!keyword
+beam_elev_3 - Beam 3 elevation beamwidth
+!keyword
+beam_elev_4 - Beam 4 elevation beamwidth
+!keyword
+beam_elev_5 - Beam 5 elevation beamwidth
+
+!keyword
+beam_maxdB_gain1 - Beam 1 maximum gain (dB)
+!keyword
+beam_maxdB_gain2 - Beam 2 maximum gain (dB)
+!keyword
+beam_maxdB_gain3 - Beam 3 maximum gain (dB)
+!keyword
+beam_maxdB_gain4 - Beam 4 maximum gain (dB)
+!keyword
+beam_maxdB_gain5 - Beam 5 maximum gain (dB)
+
+!keyword
+beam_mindB_gain - Beam gain value reported for out of range angles
+
+!keyword
+beam_pattern_directory - full path to the directory containing beam patterns
+!keyword
+beam_1_pattern_file - name of file containing pattern data for beam 1
+!keyword
+beam_2_pattern_file - name of file containing pattern data for beam 2
+!keyword
+beam_3_pattern_file - name of file containing pattern data for beam 3
+!keyword
+beam_4_pattern_file - name of file containing pattern data for beam 4
+!keyword
+beam_5_pattern_file - name of file containing pattern data for beam 5
+
+%----------------------------------------------
+% Backscatter model used by point target simulator
+% ambiguity performance calulation, and sar processor
+%----------------------------------------------
+!block
+Back scattering model specification
+!keyword
+Muhleman_backscatt_model_k1 - Muhleman model back scattering coefficient
+!keyword
+Muhleman_backscatt_model_k2 - Muhleman model back scattering coefficient
+
+%----------------------------------------------
+% Performance simulation/Ambiguity calculation
+%----------------------------------------------
+!block
+Parameters to be used by amb_geom_cal
+!keyword
+time_step_sar - If present, used to run SAR simulation
+!keyword
+start_time_sar - If present, used to run SAR simulation
+!keyword
+end_time_sar - If present, used to run SAR simulation
+
+!block
+Parameters to set up 4 ambiguity patches near the imaged area
+!keyword
+number_of_dop_bins - Used by performance_cal , set number of dop bins inside
+	             the process window
+!keyword
+number_of_range_bins - Used by performance_cal, set number of range bins
+		     inside the process window
+!disabled_keyword
+number_of_dop_patches - Used by performance_cal, set number of dop patches
+	               separated by prf from the process window
+!disabled_keyword
+number_of_range_patches - Used by performance_cal, set number of range patches
+			separated by c * pri/2 from the process window
+
+!block
+Parameters to set up a global range-doppler grid 
+To calculate radar geometry factors based on range and doppler grids,
+we  need to  set ranges of range and doppler
+ delta_doppler = +-2 * max_prf
+ delta_range = +- 2* (c * max_pri(=1/min_prf))/2
+ then, frequency and range resolutions are determined by grid size N
+ frequency resolution of grid cells: 2* 2 * max_prf/grid
+ range     resolution of grid cells:  2* 2 * (c * max_pri(1/min_prf)/2)/grid
+	                  max_prf and min_prf
+!keyword
+Number_of_range_doppler_grid - Used by amb_geom_cal to set up global grid
+		          whose range/doppler extents are determined by
+!keyword
+ambiguity_search_max_prf -Used by amb_geom_cal to set extent of doppler axis
+	                 + - max_prf w.r.t. boresight doppler shift
+!keyword
+ambiguity_search_min_prf - Used by amb_geom_cal to set extent of range axis
+	                + - c *max_prf(/min_prf)/2 w.r.t. boresight range
+!keyword
+calculate_mirror_ambiguity - Used by amb_geom_cal to calculate radar echo
+	                   from mirror location that has the same range/doppler
+			   as the target location
+!value
+Yes - calculate radar return echo from mirror location
+	
+!value
+No -  do not consider radar return echo from mirror location
+
+
+!block
+Parameters to be used by amb_param_scan
+!keyword
+pulse_bandwidth_ratio
+!keyword
+usable_area_search_max_prf - Set maximum prf 
+!keyword
+usable_area_search_min_prf - Set minimum prf 
+!keyword
+usable_area_number_of_prf_steps - Used by amb_param_scan, search usable area
+	 			using prf values from min_prf to max_prf 
+				at an interval of 
+			       (max_prf - min_prf)/number_of_prf_steps 
+!keyword
+usable_area_search_max_pulsegate - Set maximum pulsegate 
+!keyword
+usable_area_search_min_pulsegate - Set minimum pulsegate 
+!keyword
+usable_area_number_of_pulsegate_steps - Used by amb_param_scan, search usable 
+				area using pulsegate values
+				from min_pulsegate to max_pulsegate 
+				at an interval of 
+                     (max_pulsegate - min_pulsegate)/number_of_pulsegate_steps 
+
+
+!block
+ Requirements for a pixel to be "usable" 
+!keyword
+signal_to_amb_ratiodB - Usable area should have a signal to amb ratio > + 14 dB
+!keyword
+noise_equivalent_sigma0dB - Usable area should have a sigma0 < - 10 dB
+!keyword
+min_oneway_gaindB_wrt_peak - Usable area should have a gain > -5 dB
+
+%--------------------------------------------------------------------
+% Radar parameters
+%--------------------------------------------------------------------
+
+!block
+Radar Parameters
+!keyword
+Pt - Transmitted power (46.2 W)
+!keyword
+Tsys - System noise temperature (1000 K)
+
+!keyword
+dutycycle_per_burst - long term dutycycle (< 7 %)
+
+!keyword
+constant_dutycycle_value - constant dutycycle value to be used 
+
+!keyword
+carrier_frequency - Ku band frequency (13.78 GHz)
+!keyword
+stalo_frequency - stable local oscillator frequency (10 MHz)
+
+
+%---------------------------------------------------------------
+% Point Target Sim Parameters
+%---------------------------------------------------------------
+
+
+
+%-------------------
+!block
+Point Target Sim Radar Parameters for CONFIG parameter source mode 
+%-------------------
+
+!keyword
+ADC_SAMPLE_RATE  - ADC sampling rate for Point Target Simulator
+!disabled_keyword
+ANTENNA_IMPEDANCE - No longer needed because SAR_CAL_COEFF should include this
+!keyword
+ATTENUATOR_LOSS1  - Attenuator setting for beams 1,2 in dB
+!keyword
+ATTENUATOR_LOSS3  - Attenuator setting for beam 3 in dB
+!keyword 
+ATTENUATOR_LOSS4  - Attenuator setting for beam 4 and 5 in dB
+!keyword
+BAQ_MODE  - Mode used in Baq simulation
+!keyword 
+BEAM_ORDER_1  - first beam to enable
+!keyword
+BEAM_ORDER_2  - second beam to enable
+!keyword
+BEAM_ORDER_3  - third beam to enable
+!keyword
+BEAM_ORDER_4  - fourth beam to enable
+!keyword
+BEAM_ORDER_5  - fifth beam to enable
+!keyword
+CHIRP_RATE - Chirp rate used in simulation
+!keyword
+INTRA_BURST_DUTY_CYCLE - Pulse Duty Cycle (i.e., 0.70)
+!keyword
+PRF - Pulse Repetition Frequency
+!keyword
+RECEIVER_BANDWIDTH  - Bandwidth of anti-aliasing filter
+!disabled_keyword
+RECEIVER_GAIN - No longer needed because SAR_CAL_COEFF should include this
+!keyword
+RX_WINDOW_EXTRA_PRI - Receive window pad (TRO) used in simulation
+		      in units of PRI
+!disabled_keyword 
+SYSTEM_LOSS - No longer needed because SAR_CAL_COEFF should include this
+!keyword
+TOTAL_DUTY_CYCLE - Burst duty cycle (i.e., 0.07)
+
+%------------------
+!block
+PTS Radar Parameters needed by IEB and CONFIG mode
+%------------------
+!keyword
+BURST_PERIOD  - Burst period used in CONFIG mode or in IEB if USE_CONFIG_BPD=1
+!deprecated_keyword
+FILTER_START_FREQ_OFFSET - Offset of start of anti-aliasing filter 
+		           w.r.t -ADC/2, Needed for old SAR processor '
+                           (l1b_l1i).
+!disabled_keyword
+SAR_CAL_COEFF - Estimated conversion factor between receive power and sample 
+		number 6.25e19 1/W. Also used by SAR processor.
+!disabled_keyword
+TRANSMIT_POWER - 46.2 W (should use Pt instead) 
+!disabled_keyword
+UPDOWN_FREQUENCY_SHIFT - Shift of return echo from baseband 
+                         due to down convert -10.0 MHz
+ 
+%------------------
+!block
+PTS Options (Booleans)
+%------------------
+!keyword
+COMPUTE_ECHO_AMPLITUDE  - 1:= radar equation is employed, 0:= amplitude=1
+!keyword
+IDEAL_GAIN_SETTING - 1:= gain is set to fill ADC, 0:= IEB or CONFIG value used
+!keyword
+IDEAL_TRACKING_ON - 1:= Boresight is centered in time and freq, 0: IEB or CONFIG params
+!keyword
+SIMULATE_BAQ  - 1/0 = ON/OFF
+!keyword
+SIMULATE_QUANTIZATION - 1/0 = ON/OFF
+!keyword
+SIMULATE_THERMAL_NOISE - 1/0 = ON/OFF
+!keyword
+USE_CONFIG_BPD - 1:= Use BURST_PERIOD from config file 
+                     even if IEB mode enabled
+!keyword
+ASSUME_FILTER_CENTERED - 1:= Do not use FILTER_START_FREQ_OFFSET, assume 
+                       anti-aliasing filter is centered in Nyquist usable 
+                       bandwidth for each mode
+!keyword
+USE_RANDOM_PHASE_SHIFT - 1:= Applies a random phase shift (height on carrier
+                       frequency scale) to point targets
+
+
+%---------------------
+!block
+PTS Fidelity/Speed Trade-Off Parameters
+%---------------------
+!keyword
+MAX_TARGET_ANGLE - Maximum angle between a beam and a point target to 
+                   compute an echo
+!keyword
+SAMPLE_SKIP - Number of samples to skip between evaluations of doppler,
+	      delay, and echo amplitude. A value of 1 recomputes these 
+	      quantities for every sample.
+
+%------------------
+!block
+PTS point target specification
+%------------------
+!keyword
+TARGET_TYPE  -  Method for specifying point target positions
+
+  Target Types 0 and 1 specify fixed positions on the ground which 
+  are viewed by multiple beams and bursts.
+
+  0:= Lat/Lon specification: target specified by its ground coordinates.
+  Latitude, longitude, and amplitude are specified for each target.
+
+  1:= Altitude/Beam Position Specification: each target is specified by a 
+  location in a particular beam frame, when the spacecraft is
+  at a given altitude. Inbound/Outbound is also needed to
+  complete the position specification. Amplitude is specified for each
+  target.
+
+  Types 2 and 3 specify locations within a beam pattern for
+  each burst and beam. The locations are fixed within the 
+  duration of a burst but vary from burst to burst. Each beam
+  only sees those point targets meant for it.
+
+  2:= Beam Position Specification: beam number, azimuth, elevation
+  and amplitude, are specified for each point target. 
+
+  3:= Beam Extrema Specification: A a two-way gain value G is specified.
+      5 point targets are automatically determined for each of the 5 beams
+      for a total of 25 targets. Targets occur at the two-way boresights
+      and at the four 0 elevation and 0 azimuth locations on the G gain
+      contour in the two-way antenna pattern for each beam.
+
+  4:= Grid of point targets in azimuth and elevation
+
+  5:= Grid of point targets in latitude and longitude
+
+
+
+!disabled_keyword
+TARGET - Target body name (i.e., TITAN) should use "target" instead (disabled)
+
+
+%----------------------------------------------
+% Keywords used by several target types
+%----------------------------------------------
+
+!keyword
+NUM_TARGETS - Number of Point Targets, ignored for TARGET_TYPE=3,4,5
+
+!keyword
+POINT_TARGET_AMPLITUDE1 - Amplitude of First Point Target 
+                          (used by all targets for TARGET_TYPE=3,4,5)
+!keyword
+POINT_TARGET_AMPLITUDE2 - Amplitude of Second Point Target 
+			 (units are area i.e, km km)
+!keyword
+POINT_TARGET_AMPLITUDE3 -
+!keyword
+POINT_TARGET_AMPLITUDE4 -
+!keyword
+POINT_TARGET_AMPLITUDE5 -
+
+%---------------------------------------------------------------
+% TARGET_TYPE=0 keywords (Lat/Lon targets)
+%---------------------------------------------------------------
+!keyword
+POINT_TARGET_LAT1 - Latitude for first point target (TARGET_TYPE=0)
+!keyword
+POINT_TARGET_LAT2 - Latitude for second point target
+!keyword
+POINT_TARGET_LAT3 -
+!keyword
+POINT_TARGET_LAT4 -
+!keyword
+POINT_TARGET_LAT5 -
+
+!keyword
+POINT_TARGET_LON1 - Longitude for first point target (TARGET_TYPE=0)
+!keyword 
+POINT_TARGET_LON2 - Longitude for second point target (TARGET_TYPE=0)
+!keyword
+POINT_TARGET_LON3 -
+!keyword
+POINT_TARGET_LON4 -
+!keyword
+POINT_TARGET_LON5 -
+
+
+%------------------------------------------------------------------------
+% Keywords for target type 1 only 
+% Targets specified by position in beam S/C altitude and inbound/outbound
+%-----------------------------------------------------------------------
+
+!keyword
+POINT_TARGET_INBOUND1 - Inbound/Outbound (1/0) switch for first Point Target
+			(TARGET_TYPE=1)
+!keyword
+POINT_TARGET_INBOUND2 - Inbound/Outbound (1/0) switch for second Point Target
+!keyword
+POINT_TARGET_INBOUND3 -
+!keyword
+POINT_TARGET_INBOUND4 -
+!keyword
+POINT_TARGET_INBOUND5 -
+
+!keyword
+POINT_TARGET_SC_ALT1 - S/C Altitude for first point target (TARGET_TYPE=1)
+!keyword
+POINT_TARGET_SC_ALT2 - S/C Altitude for second point target (TARGET_TYPE=1)
+!keyword
+POINT_TARGET_SC_ALT3 -
+!keyword
+POINT_TARGET_SC_ALT4 -
+!keyword
+POINT_TARGET_SC_ALT5 -
+
+%-----------------------------------------------------------
+% Keywords for target types 1 AND 2
+% Target type 2 is specified by position in beam only. Point target
+% locations are not fixed on the ground but instead follow the beam
+% as it moves.
+%-----------------------------------------------------------
+!keyword
+POINT_TARGET_AZIMUTH1 - Azimuth of First Point Target (TARGET_TYPE=1,2)
+!keyword
+POINT_TARGET_AZIMUTH2 -  Azimuth of Second Point Target
+!keyword
+POINT_TARGET_AZIMUTH3 -
+!keyword
+POINT_TARGET_AZIMUTH4 -
+!keyword
+POINT_TARGET_AZIMUTH5 -
+
+!keyword
+POINT_TARGET_BEAM1 - Beam of First Point Target (TARGET_TYPE=1,2)
+!keyword
+POINT_TARGET_BEAM2 - Beam of Second Point Target
+!keyword
+POINT_TARGET_BEAM3 -
+!keyword
+POINT_TARGET_BEAM4 -
+!keyword
+POINT_TARGET_BEAM5 -
+
+!keyword
+POINT_TARGET_ELEVATION1 - Elevation of First Point Target (TARGET_TYPE=1,2)
+!keyword
+POINT_TARGET_ELEVATION2 -  Elevation of Second Point Target
+!keyword
+POINT_TARGET_ELEVATION3 -
+!keyword
+POINT_TARGET_ELEVATION4 -
+!keyword
+POINT_TARGET_ELEVATION5 -
+
+
+
+%------------------------------------------------------------
+% Target Type 3 keywords 
+% Targets at beam center and at extrema on given gain contour
+% (Target follow beams as they move)
+%-------------------------------------------------------------
+!keyword
+TARGET_TWO_WAY_GAIN_DB - Two way gain (actually loss is positive) of 
+		         antenna pattern contour for use with TARGET_TYPE=3.
+			 (i.e., a value of 6 signifies the contour 6 dB down
+			 from the peak (3 dB one-way).
+
+%-------------------------------------------------------------
+% Target type 4 keywords   Azim/Elev Grid of targets (targets follow beams
+% as they move)
+%-------------------------------------------------------------
+!keyword
+POINT_TARGET_GRID_NUM_AZIM  -
+!keyword
+POINT_TARGET_GRID_NUM_ELEV  -
+!keyword
+POINT_TARGET_GRID_AZIM_RES  -
+!keyword
+POINT_TARGET_GRID_ELEV_RES  -
+!keyword
+POINT_TARGET_GRID_MIN_AZIMUTH -
+!keyword
+POINT_TARGET_GRID_MIN_ELEVATION -
+
+%-------------------------------------------------------------
+% Target type 5 keywords   Lat/Lon Grid of targets 
+%-------------------------------------------------------------
+!keyword
+POINT_TARGET_GRID_NUM_LAT  -
+!keyword
+POINT_TARGET_GRID_NUM_LON  -
+!keyword
+POINT_TARGET_GRID_LAT_RES  -
+!keyword
+POINT_TARGET_GRID_LON_RES  -
+!keyword
+POINT_TARGET_GRID_MIN_LATITUDE -
+!keyword
+POINT_TARGET_GRID_MIN_LONGITUDE -
+
+
+%------------------
+!block
+PTS Timing parameters
+%------------------
+!keyword
+SIM_TIME_CONFIG_METHOD - 0:= obsolete timing method using SIM_END_TIME and
+			 SIM_START_TIME.
+			 1:= Use Flyby timing set-up
+			 2:= Use start and end times of IEB file
+!disabled_keyword
+SIM_END_TIME - UTC YMD Time tag for simulation end time
+!disabled_keyword
+SIM_START_TIME - UTC YMD Time tag for simulation start time
+
+
+%------------------
+!block
+Special PTS I/O filenames and modes
+%------------------
+!disabled_keyword
+IEB_FILENAME - File used to input Radar Parameters in IEB mode
+!keyword
+PTS_DIAG_FILENAME - Diagnostic MATLAB output .m file, Useful for testing
+                    IEB generation
+!keyword
+L1A_A_filename  - Active mode preprocessed file name when used as source
+		of radar parameters. This keyword is distinct from 
+		L1B_A_filename which is the simulator's output file.
+
+%--------------------------------------------------------------------
+%  Beginning of Downlink Path
+%--------------------------------------------------------------------
+
+!block
+DOWNLINK Processing File Setup
+!keyword
+ccsds_sci_file - Downlinked science only CCSDS file
+!keyword
+egse_file_from_ccsds - Output of decode_ccsds program run 
+!keyword
+egse_filename - Downlinked binary file from spacecrfat
+!keyword
+L1B_A_filename - Active mode file name(Scatterometry,Altimetry or SAR)
+!keyword
+L1B_P_filename - Passive mode file name(Radiometer)
+!keyword
+ras_filename - compressed BAQ threshold and RAW data
+!keyword
+burst_ordered_ieblist - bursted ordered ieblist filename
+!keyword
+L1I_filename - SAR Processor burst-by-burst output file
+
+!keyword
+t_feed_filename - Filename for external temperature telemetry 
+		  E-2507.gph  or NONE if not available
+!keyword      
+t_hga_filename  - Filename for external temperature telemetry 
+		  E-2505.gph  or NONE if not available
+!keyword
+t_scwg_filename - Filename for external temperature telemetry 
+		  E-2503.gph  or NONE if not available
+!keyword
+Adjust_TFI_in_units_of_sclk - change TFI (active mode nominal value 1)
+
+!keyword
+zero_range_time_delay_scatt - positive delay in generating pulse after
+                        receiving command  in scatt mode
+!keyword
+zero_range_time_delay_alth - positive delay in generating pulse after
+                        receiving command  in alth mode
+!keyword
+zero_range_time_delay_sarh - positive delay in generating pulse after
+                        receiving command  in sarh mode
+!keyword
+zero_range_time_delay_sarl - positive delay in generating pulse after
+                        receiving command  in sarl mode
+
+!keyword
+Show_sclk_adjust_message - when want to see all sclk correction, set 1
+
+
+!block 
+PreProcessor Data Segmentation Option
+
+!keyword
+L0_sckl_start - Decode when SAB's SCLK is larger than L0_sclk_start
+!keyword
+L0_sclk_end   - Don't decode when SAB's SCLK is smaller than L0_sclk_end
+!keyword
+L0_sab_counter_start - Decode when SAB counter is larger than L0_sab_counter_start
+!keyword
+L0_sab_counter_end - Stop decoding when SAB counter is less than L0_sab_counter_end
+!keyword
+L0_radar_mode_selected - Decode only SABs that have radar mode of L0_radar_mode_selelcted
+!keyword
+L0_epoch_relative_time_start - Decode SAB data after this time
+!keyword
+L0_epoch_relative_time_end -  Stop decoding SAB data after this time
+
+!block 
+Preprocessor Archiving (PDS) Parameters
+
+!keyword
+BODP_PRODUCT_VERSION_ID  - Version number of LBDR/SBDR/ABDR product for 
+                           PDS archiving
+!keyword
+BODP_SOFTWARE_VERSION_ID - Version number of LBDR/SBDR/ABDR product for 
+                           PDS archiving
+!keyword
+FLYBY_ID        - Flyby name used in DESCRIPTION field in PDS label
+
+!keyword 
+MISSION_PHASE_NAME - Value for same keyword in PDS label
+!keyword
+PRODUCER_FULL_NAME - Value for same keyword in PDS label
+!keyword
+CHECK_PDS_STRING_LENGTHS - 1: Check that string values that are being 
+                              written to PDS labels conform to maximum 
+                              lengths specified by PDS standard.
+                           0: Disable checking.
+                           If keyword not present, processor will behave
+                           as if it had been set to "1."
+
+%-------------
+!block 
+SARProc I/O filenames and modes
+%-------------
+
+!keyword
+CHECK_BURST_FILENAME  - Filename for output MATLAB .m file if 
+!keyword
+CHECK_BURST_NO  - Number of burst to output debug info from (starts with 1) 
+!keyword
+DATA_QUALITY_OVERRIDE_FILE - If this keyword is specified a file is used
+                             to override the SAR processor nominal quality
+                             checking for each burst. It can be used to force
+                             the inclusion/exclusion of ranges of bursts.
+!keyword
+SAR_PROC_SEGMENT_TYPE - Sets method of restricting sar processor including
+                        FULL:= process all data
+                        TIME_FROM_CLOSEST_APPROACH:= process time interval
+                        SAB_COUNTER:= process sab_counter interval
+                        LATLON:= process spatial region
+
+!keyword
+SINGLE_BEAM_MODE - 1: Only one beam's data is processed
+                   0: All five beams are processed
+
+!keyword
+SARPROC_BEAM_NUMBER - Beam to process if SINGLE_BEAM_MODE=1
+
+!keyword
+sar_annotation_file - Name of file to which burst by burst SAR processor 
+                      run-time output is directed.
+!keyword
+SAR_PROC_AUTO_OVERWRITE_BIDR- 1: Automatically overwrite existing BIDR
+                                   output product files.
+                              0: If any of the BIDR output product files
+                                  exist, ask user whether to overwrite them.
+                                   Continue only if response is "y" or "Y."
+                              If keyword not present, processor will behave
+                              as if it had been set to "0."
+
+
+
+%-------------
+!block 
+SARProc Processing Parameters
+%-------------
+
+!keyword
+DC_NULL_BINS - Size of filter for removing DC (in bins)
+!keyword
+RANGE_REF_WINDOW_PARAM - Parameter for adjusting windowing performed 
+		         during range compression. Range is (0.0-1.0).
+!keyword
+AZIMUTH_REF_WINDOW_PARAM - Parameter for adjusting windowing performed
+                           during azimuth compression. Range is (0.0-1.0).
+!keyword
+BIDR_LATLON_PAD_EACH_SIDE - Amount of pad applying to the four sides of
+                            the BIDR image in order to avoid clipping of
+                            data.
+!keyword
+BIDR_PIXELS_PER_DEGREE   - Resolution of BIDR image (nominally 256)
+
+!keyword
+FULL_USABILITY_CALC_ENABLED - 1 set the processing window using a slow routine
+                              which optimizes ambiguity isolation/window size
+!keyword
+GAIN_CUTOFF_ENABLED - 1 enables nominal processing window selection method, 
+                        one-way antenna gain cut-off
+!keyword
+GAIN_CUTOFF_POLYNOMIAL_ORDER - Order of polynominal in time used to compute
+                               antenna gain cut-off threshold
+
+!keyword
+GAIN_CUTOFF_BEAM_1_POLYNOMIAL_COEFF_* - Coefficients of gain cut-off 
+                                        polynomial for beam 1.
+!keyword
+GAIN_CUTOFF_BEAM_2_POLYNOMIAL_COEFF_* -
+
+!keyword
+GAIN_CUTOFF_BEAM_3_POLYNOMIAL_COEFF_* -
+
+!keyword
+GAIN_CUTOFF_BEAM_4_POLYNOMIAL_COEFF_* -
+
+!keyword
+GAIN_CUTOFF_BEAM_5_POLYNOMIAL_COEFF_* -
+
+!keyword
+INCIDENCE_ANGLE_CORRECTION_MODEL - Name of backscatter model used to produce 
+                                   incidence angle corrected BIDR backplane
+
+!keyword
+PULSE_SPREADING_IN_PRI - Coarse estimate of pulse spreading on the ground
+                         used to determine size of overlapping window used
+                         in range compression
+
+!keyword
+SARPROC_NUM_LOOKS_REQUIRED - Minimum number of looks required to
+                             produce a valid pixel in the BIDR image.
+
+
+%-------------------------------------------
+!block 
+SARProc filename and PDS label construction keywords
+%-------------------------------------------
+!keyword 
+BIDR_FILENAME_PREFIX - Prefix used to constuct BIDR filenames in initial runs
+                      (does not conform to PDS filename format but allows
+                       many trials to be run and kept track of during early
+                       processing of data)
+!keyword
+BIDR_PRODUCT_VERSION_ID - Specifies version number of BIDR product for PDS
+                          archive
+!keyword
+BIDR_SOFTWARE_VERSION_ID - Specifies version of sar processor software for
+                           PDS archive
+!keyword
+DATA_SET_MAP_PROJECTION_CATALOG - Specifies filename in PDS archive of .CAT
+                                  file which documents the oblique cylindrical
+                                  projection used in creating the BIDR map
+
+!keyword
+SAR_PROC_USE_CONFIG_DATA_TAKE_NUMBER - 1: Use data take number from config
+                                        file; "data_take_number" must also be
+                                        set.
+                                       0: Use data take number from LBDR file.
+                                       If keyword not present, processor will
+                                       behave as if it had been set to "0."
+%--------------------------------------------
+!block
+SARProc Sinc Interpolation coefficients
+%--------------------------------------------
+!keyword
+SINC_INTERP_FILTER_DOPPLER_BETA - Beta parameter for sinc interpolation in
+                                   the Doppler direction; used to adjust the
+                                   sinc kernel length based on the relative 
+                                   bandwidth of the signal to the sampling
+                                   frequency.  Values are in (0.0, 1.0], with
+                                   typical values ranging from 0.75 to 1.0.
+!keyword
+ SINC_INTERP_FILTER_DOPPLER_DEC_FACTOR - Decimation factor for sinc
+                                         interpolation in the Doppler
+                                         direction; sets fractional pixel
+                                         resolution of the interpolator.
+                                         Must be integer >= 1; typical value =
+                                         1024.
+!keyword
+ SINC_INTERP_FILTER_DOPPLER_ENABLE_WEIGHTING - 1:  Apply weighting function
+                                     for sinc interpolation in the Doppler
+                                     direction.
+                                     0: Don't apply weighting function.
+!keyword
+ SINC_INTERP_FILTER_DOPPLER_PEDESTAL - Pedestal height for weighting function
+                                       for sinc interpolation in the Doppler
+                                       direction, with values in [0.0, 1.0].
+                                       (1 = no weighting, 0 = Hanning)
+!keyword
+ SINC_INTERP_FILTER_DOPPLER_REL_LENGTH - Relative filter length for sinc
+                                         interpolation in the Doppler
+                                         direction; equals the number of
+                                         elements combined to produce an
+                                         interpolated sample.  Must be an
+                                         integer >= 1; typical values are
+                                         6, 8, or 16.
+!keyword
+ SINC_INTERP_FILTER_RANGE_BETA - Beta parameter for sinc interpolation in
+                                 the range direction; used to adjust the
+                                 sinc kernel length based on the relative 
+                                 bandwidth of the signal to the sampling
+                                 frequency.  Values are in (0.0, 1.0], with
+                                 typical values ranging from 0.75 to 1.0.
+!keyword
+ SINC_INTERP_FILTER_RANGE_DEC_FACTOR - Decimation factor for sinc
+                                       interpolation in the range direction;
+                                       sets fractional pixel resolution of
+                                       the interpolator.  Must be integer >=
+                                       1; typical value = 1024.
+!keyword
+ SINC_INTERP_FILTER_RANGE_ENABLE_WEIGHTING - 1:  Apply weighting function
+                                     for sinc interpolation in the range
+                                     direction.
+                                     0: Don't apply weighting function.
+!keyword
+ SINC_INTERP_FILTER_RANGE_PEDESTAL - Pedestal height for weighting function
+                                     for sinc interpolation in the range
+                                     direction, with values in [0.0, 1.0].
+                                     (1 = no weighting, 0 = Hanning)
+!keyword
+ SINC_INTERP_FILTER_RANGE_REL_LENGTH - Relative filter length for sinc
+                                       interpolation in the range direction;
+                                       equals the number of elements combined
+                                       to produce an interpolated sample.
+                                       Must be an integer >= 1; typical                                       values are 6, 8, or 16.
+
+
+
+
+%--------------------------------------------
+!block 
+SARProc calibration constants
+%--------------------------------------------
+!keyword
+AZIMUTH_RESOLUTION_COEFFICIENT - Constant coefficient used to calculate SAR
+				 effective resolution in the azimuth dimension.
+
+!keyword
+RANGE_RESOLUTION_COEFFICIENT - Constant coefficient used to calculate SAR
+			       effective resolution in the azimuth dimension.
+
+!keyword
+ENABLE_DATA_DEPENDENT_CAL - 1 enables a debugging option which calibrates
+                            the data by forcing no energy loss through the
+                            range and azimuth compression stages
+
+!keyword
+MAXIMAL_ONEWAY_GAIN_CORRECTION_IN_DB - maximal antenna gain correction applied
+                                       in SAR processor
+
+!keyword
+X_FACTOR_CONSTANT_CORRECTION - Constant correction to Xfactor
+!keyword
+XFACTOR_TIME_POLYNOMIAL_ORDER - Order of polynomial for time-varying Xfactor
+                                correction
+!keyword
+XFACTOR_TIME_POLYNOMIAL_COEFF_1 - First order time varying coefficient
+!keyword
+XFACTOR_TIME_POLYNOMIAL_COEFF_2 -
+!keyword
+XFACTOR_TIME_POLYNOMIAL_COEFF_3 -
+!keyword
+XFACTOR_TIME_POLYNOMIAL_COEFF_4 -
+
+!keyword
+X_FACTOR_BEAM_1 - Beam dependent Xfactor correction (Beam 1) ...
+!keyword
+X_FACTOR_BEAM_2 -
+!keyword
+X_FACTOR_BEAM_3 -
+!keyword
+X_FACTOR_BEAM_4 -
+!keyword
+X_FACTOR_BEAM_5 -
+
+
+%------------
+!block 
+SARProc Options (Booleans)
+%------------
+!keyword
+PERFORM_SINGLE_BURST_CHECK - 1:= Output a Mfile for a selected burst
+!disabled_keyword
+USE_HENSLEY_RANGE_COMPRESS - 1:= Use Scott Hensley' range compression method
+			     0:= Use an obsolete simplified method
+!keyword
+USE_UPPER_BAND - 1: Range compress the upper half of the signal spectrum.
+		 0: Range compress the lower half of the signal spectrum.
+		 So far as I know this should always be 0.
+
+!keyword
+SARPROC_USE_LINEAR_CHIRP - 1: Use a linear chirp for range compression
+                           0: Use the more exact form of the stepped chirp
+                              which was transmitted
+
+
+!keyword
+PROC_SAR_MODE_ONLY - 1: Process only SARH or SARL data
+                     0: Process all data as if it were SAR
+!keyword
+STRIP_PROC_ON  - 1 turns on geolocation processing
+
+!keyword
+AZIMUTH_RANGE_ORTHOGONALIZATION_ON - 1 turns on range dependent doppler shifting
+                                     for use in azimuth compression
+                                     
+
+!keyword
+AZIMUTH_DERAMP_PROCESSING_ON -  1 turns on deramp processing during azimuth
+                                  compression
+
+!keyword
+SAR_CALIBRATION_ON - 1 turns on calibration of SAR data
+
+!keyword
+REMOVE_DOPPLER_PHASE_RAMP - 1 turns on data dependent method for removing
+                            phase ramps from compressed data
+
+!keyword
+SARPROC_OUTPUT_SCATTEROMETER_INFO - 1 turns on an output of a simplified estimate
+                                    of the real aperture backscatter to the
+                                    LBDR file for debugging purposes.
+
+!keyword
+USE_OBLIQUE_CYLINDRICAL - 1 turns on oblique clyndrical map projection.
+
+!keyword
+USE_SINC_INTERPOLATION - 1:Sinc Interpolation 0:= Nearest neighbor
+
+
+%----------------------------------------------------------
+!block 
+Parameters for ESTimation of Range and Doppler (ESTRD) a data
+analysis technique used in the SAR processor to center the 
+gain patterns of the various antenna beams in the absense of accurate 
+ephemeris and pointing information
+%----------------------------------------------------------
+!keyword 
+SET_DOPPLER_CENTROID - Turn on/off (0/1) ESTRD a data driven technique for 
+                       aligning beam gain patterns in doppler and range 
+                       dimensions when using inaccurate s/c ephemeris and 
+                       pointing.
+!keyword
+DOPPLER_CENTROID_POLYNOMIAL_ORDER - Order of polynomial used to compute
+                                    doppler offset when ESTRD is employed
+!keyword 
+DOPPLER_CENTROID_MEAN - Mean doppler centroid offset, used by ESTRD algorithm
+!keyword 
+DOPPLER_CENTROID_STD - Standard deviation of the doppler centroid offset, 
+                       used by ESTRD algorithm
+!keyword
+DOPPLER_CENTROID_BEAM_1_POLYNOMIAL_COEFF_* - Coefficients of polynomial in time
+                                             used to compute doppler offset 
+                                             when ESTRD is employed for Beam 1.
+!keyword
+DOPPLER_CENTROID_BEAM_2_POLYNOMIAL_COEFF_* - 
+!keyword
+DOPPLER_CENTROID_BEAM_3_POLYNOMIAL_COEFF_* - 
+!keyword
+DOPPLER_CENTROID_BEAM_4_POLYNOMIAL_COEFF_* - 
+!keyword
+DOPPLER_CENTROID_BEAM_5_POLYNOMIAL_COEFF_* - 
+
+!keyword
+RANGE_CENTROID_POLYNOMIAL_ORDER - Order of polynomial used to compute
+                                  range offset when ESTRD is employed
+!keyword 
+RANGE_CENTROID_MEAN - Mean range centroid offset, used by ESTRD algorithm
+!keyword 
+RANGE_CENTROID_STD - Standard deviation of the range centroid offset, 
+                     used by ESTRD algorithm
+!keyword
+RANGE_CENTROID_BEAM_1_POLYNOMIAL_COEFF_* - Coefficients of polynomial in time
+                                           used to compute range offset 
+                                           when ESTRD is employed for Beam 1.
+!keyword
+RANGE_CENTROID_BEAM_2_POLYNOMIAL_COEFF_* - 
+!keyword
+RANGE_CENTROID_BEAM_3_POLYNOMIAL_COEFF_* - 
+!keyword
+RANGE_CENTROID_BEAM_4_POLYNOMIAL_COEFF_* - 
+!keyword
+RANGE_CENTROID_BEAM_5_POLYNOMIAL_COEFF_* - 
+!keyword
+ESTRD_TIME_MEAN   - Mean time from closest approach, used  by ESTRD algorithm
+!keyword
+ESTRD_TIME_STD  - Standard deviation of time from closest approach, 
+	          used  by ESTRD algorithm
+
+%------------------------------------------------------------
+% Intermediate Geometry file generation keywords
+%------------------------------------------------------------
+!block
+GENERATE_GEOMETRY_FILE keywords
+!keyword
+intermediate_geometry_file - File containing geometry arrays used to speedup
+                             geometry calculations currently used by sar_proc,
+                             point_target_sim, and l0_l1b. Created by
+                             generate_geometry_file
+!keyword
+geometry_time_step - Time step used to create geometry file. 
+
+%---------------------------------------------------
+% DebugInfo keywords (useful for debugging any routine)
+%--------------------------------------------------
+
+!block
+DEBUGINFO debugging and warning keywords
+
+!keyword
+debug_filename - Filename to write debugging info 
+!keyword
+debug_routine_name_1 - first routine to debug ...
+!keyword
+debug_routine_name_2 - 
+!keyword
+debug_routine_name_3 - 
+!keyword
+debug_level_1 - debugging level for first routine
+!keyword
+debug_level_2 -
+!keyword
+debug_level_3 -
+!keyword
+ENABLE_ALL_WARNINGS - turns on/off (1/0) verbose warning messages
+
+
+%-----------------------------------------------------------
+%Doppler centroid related
+%-----------------------------------------------------------
+!block - Doppler centroid tracking related keywords	
+!keyword
+doppler_centroid_tracking_tool_yaw_bias - yaw bias angle
+!keyword
+doppler_centroid_tracking_tool_pitch_bias - pitch bias angle
+!keyword	
+doppler_centroid_ckernel - name of ckernel generated by doppler_centroid program
+!keyword
+range_doppler_file - range and doppler filename that is output of doppler centroid tracking program
+%----------------------
+%Radiometer Processor Parameters
+%------------------------
+!block
+Radiometer Processor Parameters
+!keyword
+Number_of_targets - Number of targets for cruise or tour sequence
+!keyword
+target_1 - Extra target in addition to main target set by target_keyword
+!keyword
+cold_sky_Temperature - cold sky temperature
+!keyword
+cold_sky_average_time - cold sky calibration time duration
+!keyword
+target_temperature - target temperature 
+!keyword
+norm_rl_count : expected RL count when Trlotmp=300 K, 262000 
+!keyword
+radiometer_cal_gain : radiometer calibrated gain using Saturn, 206.2 1/(K s)
+!keyword
+receiver_temperature : 550 K
+!keyword
+min_beam_distance - Distance between limb direction and boresight in units of beam oneway 3dB
+!keyword
+cold_sky_cal_polynomial_fit_order : nth polynomial fitting
+!keyword
+maximum_separation_bet_cold_sky_meas : time between cold sky calibration
+!keyword
+radiometer_delta_tau - Parameter for performed radiometer normalization 0 s
+!keyword
+radiometer_offset - Parameter for performed radiometer normalization 3550
+!keyword
+noise_diode_delta_tau - noise diode integration time offset
+!keyword
+resistive_load_delta_tau - resistive load integration time offset
+!keyword
+ND_Rip - Noise Diode Radiometric integration time (used in RMSS)
+!keyword
+Max_ND_Rip - Maximum Noise Diode Radiometric integration time when auto rad is on
+!keyword
+RL_Rip - Resistive Load Radiometric integration time (used in RMSS)
+!keyword
+Max_RL_Rip - Maximum Resistive Load Radiometric integration time when auto rad is on
+!block
+Microwave source setup
+!keyword
+NUM_SOURCES -Number of microwave sources
+!keyword
+SOURCE_NAME_1  -1st source name  
+!keyword
+SOURCE_ID_1    -1st  source id
+!keyword
+SOURCE_RA_1    -1st source RA
+!keyword
+SOURCE_DEC_1    -1st source DEC
+
+!keyword
+SOURCE_NAME_2  -2nd source name  
+!keyword
+SOURCE_ID_2    -2nd  source id
+!keyword
+SOURCE_RA_2    -2nd source RA
+!keyword
+SOURCE_DEC_2   -2nd source DEC
+
+!keyword
+SOURCE_NAME_3  -3rd source name  
+!keyword
+SOURCE_ID_3    -3rd  source id
+!keyword
+SOURCE_RA_3    -3rd source RA
+!keyword
+SOURCE_DEC_3    -3rd source DEC
+
+!keyword
+SOURCE_NAME_4  -4th source name  
+!keyword
+SOURCE_ID_4    -4th  source id
+!keyword
+SOURCE_RA_4    -4th source RA
+!keyword
+SOURCE_DEC_4    -4th source DEC
+
+!keyword
+SOURCE_NAME_5  -5th source name  
+!keyword
+SOURCE_ID_5    -5th  source id
+!keyword
+SOURCE_RA_5    -5th source RA
+!keyword
+SOURCE_DEC_5    -5th source DEC
+
+
+
+
+
+
+
+
+
+
+
+
+
