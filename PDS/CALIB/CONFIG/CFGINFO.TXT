@@ -1,0 +1,25 @@
+PDS_VERSION_ID       = PDS3
+
+RECORD_TYPE          = STREAM
+OBJECT               = TEXT
+  PUBLICATION_DATE   = 2005-05-20
+  NOTE               =
+  "Description of the contents of the CALIB/CONFIG directory"
+END_OBJECT           = TEXT
+END
+
+The CALIB/CONFIG directory contains the configuration file that was used
+by the Cassini Radar preprocessor and SAR processor to create the SBDR,
+LBDR, and BIDR products on this PDS volume.
+
+CFGINFO.TXT
+  This file.
+
+PCF_####_Vnn.CFG
+  Configuration files are named PCF_####_Vnn.CFG, where '####' is the
+  observation (data take) number, expressed as a four-digit number
+  left-padded with zeroes, and 'nn' is the two-digit version number of the
+  file.
+
+PCF_####_Vnn.LBL
+  Detached label for the configuration file.

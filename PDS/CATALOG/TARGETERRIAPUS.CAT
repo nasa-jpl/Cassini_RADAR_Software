@@ -1,0 +1,30 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-15 John Diehl, Imaging Node, Initial template submission.
+  2011-04-27 Richard Chen, Added reference to S28 ERRIAPO."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "ERRIAPUS"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "UNK"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        'S28 ERRIAPO' and 'ERRIAPUS' refer to the same target.
+
+        Erriapus (provisional designation S/2000 S10).
+ 
+        Erriapus is a prograde irregular satellite of Saturn.
+ 
+        Erriapus is about 10 kilometres in diameter, and orbits
+        Saturn at an average distance of 17,3 Gm in 871 days."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END
+
+

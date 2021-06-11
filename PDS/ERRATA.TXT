@@ -1,0 +1,127 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Known errors and/or anomalies in the volumes"
+  PUBLICATION_DATE = XXXX
+END_OBJECT         = TEXT
+END
+
+ERRORS AND/OR ANOMALIES IN THE CURRENT VOLUME
+
+Volume CORADR_DATATAKE, Version vv
+------------------------------
+
+1.  The Cassini Radar Transition file (EXTRAS/CRT_DATATAKE_Vvv.TAB) contains
+no information about ScanStart and ScanEnd transitions.
+
+2.  The uncompressed LBDR and BIDR products have attached labels.
+Normally, a file that has been compressed with ZIP would have been
+generated without an attached label.
+
+3.  In the volume index table (INDEX/INDEX.TAB), double quotes enclose
+all the date/time values.  Normally, PDS date/time values are not
+quoted, but quoting makes parsing easier for some applications.
+
+4.  The HTML documents in the DOCUMENT directory contain HTML character
+codes that, while all-ASCII, are not easily interpretable by someone
+who is reading the HTML documents as text documents.  For example,
+"&#945;" represents the lower-case Greek character "alpha" and is
+rendered as such in a web browser.  Equivalent and more legible character
+codes (e.g., "&#alpha;") are available as of the HTML 4.0 specification
+but cannot be used here, as PDS requires HTML documents to comply to the
+HTML 3.2 specification.
+
+5.  Antenna temperature, brightness temperature, and receiver temperature are
+defined in Janssen, M. A., "An Introduction to the Passive Microwave Remote
+Sensing of Atmospheres," Chapter 1 in Atmospheric Remote Sensing by
+Microwave Radiometry, (M. Janssen, ed.), pp. 1-35, Wiley & Sons,
+New York (1993).  The archived value in the SBDR and LBDR files gives
+uncalibrated antenna temperature in units of Kelvin.
+The best current algorithm for correcting the archived antenna temperatures is
+Ta_corrected = Ta_archive * ( 0.920 - 0.0041*( t - 1.90 ) )
+where t = time in years and fractional years since 2004.0
+(0 UTC on 1 Jan 2004)
+This algorithm is based on the radioastronomical flux scale at 2-cm wavelength
+by direct comparison of distant (unresolved) Titan measurements by the Cassini
+radiometer with VLA measurements of Titan reported by Butler and Gurwell,
+2004.  This algorithm will improve with time as more distant Titan
+measurements are obtained and as more radioastronomical comparison sources are
+included.
+Butler, B. J., Gurwell, M. A. 2004. Radio Wavelength Observations of Titan
+with the  VLA. Bull. Am. Astron. Soc. 36, 6.04.
+This algorithm applies also to all preceeding volumes.
+
+6. Ideally the calibrated antenna temperature is referenced to cold sky at
+2.7 K, although no guarantee is made that this zero-level accounting has been
+correctly made.  Also, the antenna temperature is defined for this application
+as just the average brightness temperature in the measured beam out to 2
+degrees from the beam axis, and does not allow for possible contributions from
+the far sidelobes (sidelobes outside of 2 degreees).  The archived value will
+include an additional contribution if the  far sidelobes happen to fall on 
+other than cold sky.   In particular, there is an offset to be expected and 
+accounted for when an extended source like Titan or Saturn is observed from a 
+close distance.  A more detailed explanation will be found in Janssen et al.,
+2009. System gain is the quantity that multiplies the raw sky counts to 
+convert to the uncalibrated Kelvin scale.
+Receiver_temp is the receiver noise temperature Tr (comparison made at
+internal reference switch).   The receiver temperature plus the antenna
+temperature is equal to the total signal (raw counts times system gain).
+
+
+7. ant_temp_std is a measure of the rms uncertainty of Ta, and is only an
+estimation.  It is obtained as the standard deviation of Ta for three points,
+Ta(I-1), Ta(I), and Ta(I+1), and is a useful measure that identifies
+questionable data.  For example, it gets large when the beam is sweeping
+across a brightness discontinuity.
+
+8. All BIDRs except for the byte-valued backscatter images (BIB*.IMG) were
+produced by JPL. The byte-valued backscatter images were produced by USGS.
+The USGS BIDRs have unit strings in their labels which are all CAPS. The 
+other BIDRs have lower case units. According to the PDS dictionary, both
+are acceptable.
+
+9. Checksums were not computed for floating point valued BIDRs. The 
+CHECKSUM keyword was assigned a zero value.
+
+10. In the primary BIDR images a technique was used to remove systematic 
+errors due to thermal noise and BAQ compression during downlink. The
+technique appears to have a slight negative bias for very low SNR, i.e.
+when the signal power is less than one tenth the thermal noise power. 
+Without noise subtraction, backscatter values are artificially high and 
+always positive. With noise subtraction, negative values occur both due 
+to the aforementioned bias and due to residual random error. Byte-valued 
+BIDRs are produced by transforming all data to Decibels by taking the 
+logarithm and then  multiplying by 10. Data is clipped below a minimum 
+value (typically -20 dB) determined by the OFFSET  keyword in the 
+attached label. All negative backscatter values or value belows 0.01 
+(-20 dB)are assigned to the minimum pixel value. Anyone interested in 
+viewing data below this threshold needs to use the REAL-VALUED 
+backplanes. 
+
+11.The submitted volume CORADR_0143 has an erroneous INDEX and CUMINDEX entry
+for BIFQE10N073_D143_I049S01_V02. 
+
+12.Every volume from CORADR_0144 to CORADR_0229 has missing CUMINDEX entries 
+for Iapetus_049_3.  
+
+13. There are some invalid resistive load counts at the very beginning which
+result in incorrect antenna temperatures. This artifact likely occurs in all
+similar radiometer observations.
+
+14. Volumes CORADR_0265 and CORADR_0266 have missing CUMINDEX entries for 
+COARDR_0035_V03.
+
+15. Even though radiometry measurements were made using all 5 beams during
+regular SAR segments, only beam 3 brightness temperature results are
+archived due to calibration challenges of the other four beams.
+
+
+ERRORS AND/OR ANOMALIES IN PREVIOUS VOLUMES
+
+Not Applicable
+
+
+
+
+

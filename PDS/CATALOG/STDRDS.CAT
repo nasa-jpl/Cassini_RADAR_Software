@@ -1,0 +1,219 @@
+PDS_VERSION_ID                     = PDS3
+LABEL_REVISION_NOTE                = "2015-09-17, Version 1.1"
+RECORD_TYPE                        = STREAM
+
+OBJECT                             = DATA_SET
+  DATA_SET_ID                      = "CO-SSA-RADAR-5-STDR-V1.0"
+
+  OBJECT                           = DATA_SET_HOST
+    INSTRUMENT_HOST_ID             = CO
+    INSTRUMENT_ID                  = RADAR
+  END_OBJECT                       = DATA_SET_HOST
+
+  OBJECT                           = DATA_SET_INFORMATION
+    ABSTRACT_DESC                  = "N/A"
+    ARCHIVE_STATUS                 = "ACCUMULATING"
+    CITATION_DESC                  = "N/A"
+    DATA_OBJECT_TYPE               = TABLE
+    DATA_SET_COLLECTION_MEMBER_FLG = "N"
+    DATA_SET_NAME                  = "
+        CASSINI ORBITER SSA RADAR 5 STDR V1.0"
+    DATA_SET_RELEASE_DATE          = XXXX
+    DATA_SET_TERSE_DESC            = "
+The Cassini SARTopo product contains surface heights estimates (and 
+related measurements) of Titan in profiles between two SAR beams
+within a single SAR image. 
+"
+    DETAILED_CATALOG_FLAG          = "N"
+    PRODUCER_FULL_NAME             = "Bryan W. Stiles"
+    START_TIME                     = 2015-260T16:19:10.828
+    STOP_TIME                      = "NULL"
+    CONFIDENCE_LEVEL_NOTE          = "
+
+* Confidence Level Overview
+ The SARTopo data product has been produced using BIDR data sets that have
+been calibrated. Empirical range and doppler corrections have been applied to
+BIDR product being used in order to minimize image artifacts due to errors in
+pointing and emphemeris knowledge.
+
+
+* Review
+
+SARTopo data will be validated internally by the Cassini Radar Team prior to
+each release of data to the PDS.  The overall data set organization will
+also be peer reviewed once by the PDS prior to the release of the first
+volume.
+
+* Data Coverage and Quality
+
+Currently 20 SAR observations comprising roughly 20% of the surface of
+Titan are planned for the nominal Cassini mission.  BIDR data will be
+obtained for each such observation.  SAR observations of Titan occur
+at irregular intervals throughout the mission.  Each observation is
+nominally 40 minutes long.  Shorter-duration cases occur whenever RADAR
+shares a Titan observation with another Cassini instrument. SARtopo data
+will be available for observations that have BIDR data.
+
+The SARtopo file contains estimated surface heights (and related 
+measurements) of Titan in profiles between two SAR beams within a single 
+SAR image.
+
+SARTopo files will only be produced for Titan flybys that have SAR imaging.
+
+* Limitations
+
+Ephemeris error is expected to improve throughout the mission.  Since
+there is no plan to recompute the ephemeris of previous observations as
+new measurements are obtained, however, earlier observations may have
+poorer location accuracy.
+
+The dominant calibration error term is error in our knowledge of the
+gain of the attenuators in the receiver.  Engineering tests are currently
+planned to improve our knowledge of the attenuator gains.
+
+SAR images are prone to artifacts such as:
+
+1) poor calibrations at the edge of the beams
+2) extreme noisiness in regions with a small number of overlapping
+   measurements (looks)
+3) scalloping and antenna calibration misalignment due to errors in
+   ephemeris and pointing knowledge
+4) distorted imagery near the ends of the swath due to non-optimal
+   pointing while turning to make altimeter measurements.
+
+Artifacts of type 2 and 4 are unavoidable.  Types 1 and 3 can be minimized
+by empirically correcting range and doppler biases in the data.  We have
+sought to minimize the occurrence of these artifacts in the BIDR images,
+but there are still noticeable seams between beams and poor calibration
+near the edges of the swath.  The artifact minimization algorithm does not
+attempt to use the estimated range and doppler biases to correct ephemeris
+or pointing.  For this reason location errors of a few kilometers are
+possible.
+
+The TA Titan Observation on October 25, 2004, was the first SAR
+observation.  It has some special features.  The first (earliest) third
+of the swath has noticeable scalloping in the along track dimension and
+is noisier than the rest of the image.  This portion of the swath has
+non-optimal viewing geometry and a small number of looks due to pointing
+constraints for other Cassini instruments.  A substantial portion of the
+last (latest) third of the swath is in low resolution SAR mode.  This
+mode coarsens the cross track resolution of the image by a factor of 2.
+It was used on TA in order to accommodate conservative SNR expectations.
+In the same region of the image, an experiment was performed in which the
+data compression technique typically used by SAR was turned off.  Due to
+data volume and data rate constraints this resulted in fewer looks and
+noisier data.
+"
+    DATA_SET_DESC                  = "
+
+
+* Data Set Overview
+
+The SARTopo file contains surface height estimates in profiles between 
+two SAR beams. Each row in the file contains height estimates and ancillary
+data that correspond to a set of pixels in the BIDR image.
+
+For more information about the format and content of the SARTopo files,
+see the Cassini Radar Burst Ordered Data Product (BIDR) Software
+Interface Specification, JPL D-27899.  A copy of the document is located on
+this volume as file BIDRSIS.PDF in the DOCUMENT directory.
+
+
+* Parameters
+
+A complete listing of the parameters can be found in the SIS.
+
+
+* Processing
+
+The encoded raw active mode data in the Burst Ordered Data Product
+(LBDR) files is decoded and processed into SAR images by the Cassini
+RADAR Instrument Team.  Each of the five beams is treated separately
+by typical SAR processing (azimuth and range compression).  The image
+strip is then produced by selecting the best beam for each pixel.  The
+selection is performed by choosing the beam with the most looks.  In
+the event of a tie the highest SNR beam is chosen.
+
+The pixel values in the primary BIDR images will be normalized
+backscatter cross-section values corrected for incidence angle effects.
+The incidence angle correction algorithm is TBD and will be determined
+jointly by the Cassini RADAR Instrument and Science Teams after enough
+data is acquired to estimate the variation of sigma0 due to incidence
+angle over the surface of Titan.  Until the final correction algorithm is
+determined, the primary BIDR image will be computed with a preliminary
+incidence angle correction.  The exact form of this correction can be
+found in the PDS label for the primary BIDR image file.
+
+These BIDR files are used to generate SARTopo files (CSV format) that 
+contain height estimates of Titan in profiles between two SAR beams 
+within a single SAR image. Each row in the file contains height estimates 
+and ancillary data that correspond to a set of pixels in the BIDR image. 
+A seperate SARTopo file is produced for each SAR beam overlap profile. 
+The SARTopo implementation yields 1-5 profiles in each SAR pass that are
+10 km by 1000s of km long.
+
+
+
+* Data
+
+See Parameters.
+
+
+* Ancillary Data
+
+There are no ancillary data needed to use the SARTopo files.
+
+
+* Coordinate System
+
+The oblique cylindrical coordinate system is fully described in the
+data set map projection catalog DSMAP.CAT, which is located in the
+CATALOG directory on this volume.
+
+
+* Software
+
+No software is provided within this volume.
+
+
+* Media/Format
+
+The data are provided on media as determined by PDS.  The BIDR data files
+are ZIPPED as described in the PDS standard.  Detached labels are provided
+for the ZIPPED files; the ZIPPED files also include their attached labels.
+Detailed formats are defined within the attached labels of the files and
+in the Cassini Radar Basic Image Data Record Software Interface
+Specification.
+"
+  END_OBJECT                       = DATA_SET_INFORMATION
+
+  OBJECT                           = DATA_SET_MISSION
+    MISSION_NAME                   = "CASSINI-HUYGENS"
+  END_OBJECT                       = DATA_SET_MISSION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2005"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2004"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "STILESETAL2009"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "LUCIANOETAL2010"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "LORENZETAL2013"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = TITAN
+  END_OBJECT                       = DATA_SET_TARGET
+
+END_OBJECT                         = DATA_SET
+END

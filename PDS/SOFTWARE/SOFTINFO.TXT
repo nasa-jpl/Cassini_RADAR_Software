@@ -1,0 +1,23 @@
+PDS_VERSION_ID      = PDS3
+
+RECORD_TYPE         = STREAM
+OBJECT              = TEXT
+  PUBLICATION_DATE  = 2007-11-15
+  NOTE              = "
+This SOFTINFO.TXT file describes ZIP software that is required to use
+some data files on this volume.
+"
+END_OBJECT          = TEXT
+
+END
+
+ABDR, LBDR, and BIDR data files in this volume set were compressed using
+ZIP version 2.3 under Red Hat Linux 9 (Linux 2.4.20 or Linux 2.6.9).
+
+The UNZIP utility will be needed to uncompress the files into a usable
+form.
+
+The source and binary UNZIP application for your platform can be obtained
+at the URL
+
+    http://www.info-zip.org/

@@ -1,0 +1,45 @@
+PDS_VERSION_ID             = PDS3
+LABEL_REVISION_NOTE        = "2005-05-26, Version 1.1"
+RECORD_TYPE                = STREAM
+
+OBJECT                     = SOFTWARE
+
+  SOFTWARE_ID              = "UNZIP"
+  SOFTWARE_VERSION_ID      = "5.52"
+
+  OBJECT                   = SOFTWARE_INFORMATION
+    DATA_FORMAT            = "ZIP"
+    NODE_ID                = "N/A"
+    PDS_USER_ID            = "N/A"
+    REQUIRED_STORAGE_BYTES = 1000000
+    SOFTWARE_DESC          = "
+      UnZip is a software utility that extracts files from archives
+      compressed in ZIP format.  UnZip has been ported to numerous
+      operating systems, including Linux and many versions of Windows
+      and Unix.  UnZip and its companion utility, Zip, may already be
+      installed on your system.  (On Linux and Unix systems, the
+      utilities are installed as 'unzip' and 'zip.')  If needed,
+      source code and/or pre-built binaries may be obtained at the
+      URL given below.  The site also has up-to-date information on
+      new releases of the software, known limitations and bugs, and
+      details about the ZIP compression algorithm and file format.
+"
+    SOFTWARE_LICENSE_TYPE  = "PUBLIC_DOMAIN"
+    SOFTWARE_NAME          = "UNZIP"
+    TECHNICAL_SUPPORT_TYPE = "N/A"
+  END_OBJECT               = SOFTWARE_INFORMATION
+
+  OBJECT                   = SOFTWARE_ONLINE
+    NODE_ID                = "N/A"
+    ON_LINE_IDENTIFICATION = "http://www.info-zip.org/"
+    ON_LINE_NAME           = "UNZIP"
+    PLATFORM               = "MULTIPLE"
+    PROTOCOL_TYPE          = URL
+  END_OBJECT               = SOFTWARE_ONLINE
+
+  OBJECT                   = SOFTWARE_PURPOSE
+    SOFTWARE_PURPOSE       = "DECOMPRESSION"
+  END_OBJECT               = SOFTWARE_PURPOSE
+
+END_OBJECT                 = SOFTWARE
+END

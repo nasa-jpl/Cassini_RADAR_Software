@@ -1,0 +1,21 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-14 John Diehl, Imaging Node, Initial template submission."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "BESTIA"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "UNK"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        Bestla (provisional designation S/2004 S18).
+        Very little is known about this recently discovered moon."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END

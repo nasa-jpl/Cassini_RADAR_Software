@@ -1,0 +1,88 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Notes on using the data product index table"
+  PUBLICATION_DATE = 2005-06-27
+END_OBJECT       = TEXT
+END
+
+NOTES ON USING THE DATA PRODUCT INDEX TABLE
+
+These notes describe the contents and format of the data product index
+table in this volume.
+
+The data product index table, INDEX.TAB, contains one record for each
+data product in the volume.  This file is an ASCII text file formatted
+for direct reading into many database management systems on various
+computers.  Within a record, all fields are separated by commas, and
+character fields are enclosed in double quotation marks (").  Character
+fields are left-justified and padded on the right with spaces to keep
+quotation marks in the same columns of successive records.  Numerical
+fields are right-justified and padded with spaces on the left to keep
+fixed-width fields.  The records are fixed-length, and the last two bytes
+of each record contain the ASCII carriage-return and line-feed characters.
+The index table may thus be treated as a fixed-length record file on
+computers that support this file type and as a text file with embedded
+line delimiters on those that don't.
+
+The following descriptions of the fields within a record of INDEX.TAB are
+taken from the Cassini Radar Instrument Team Data Products Volume SIS,
+which is installed as file DOCUMENT/VOLSIS.PDF on this volume.  The values
+are extracted from the PDS label attached to each product file.  The file
+INDEX.LBL on this volume provides a formal description of the index table
+structure in ODL format.
+
+1.  file_name:  The name of each BODP or BIDR data file in the data volume.
+
+2.  path_name:  The directory in which the file can be found in this volume.
+
+3.  data_set_id:  Text string identifying the type of data in the file.
+
+4.  start_time:  Time at start of data acquisition for product, in UTC
+    format (YYYY-DOYTHH:MM:SS.sss).
+
+5.  stop_time:  Time at end of data acquisition for product, in UTC
+    format (YYYY-DOYTHH:MM:SS.sss).
+
+6.  target_name:  Identifier for target of observation.
+
+7.  latitude_min:  Minimum latitude in target body frame for data in file,
+    rounded to the nearest integer.  For a target for which this is not
+    applicable, the default value of -1000 is used.
+
+8.  latitude_max:  Maximum latitude in target body frame for data in file,
+    rounded to the nearest integer.  For a target for which this is not
+    applicable, the default value of -1000 is used.
+
+9.  longitude_westernmost:  Westernmost longitude in target body frame
+    for data in file, rounded to the nearest integer.  For a target for
+    which this is not applicable, the default value of -1000 is used.
+    Valid values are between 0 and 360 degrees.  Also note that this value
+    is expressed in positive-west coordinates.
+
+10.  longitude_easternmost:  Easternmost longitude in target body frame
+     for data in file, rounded to the nearest integer.  For a target for
+     which this is not applicable, the default value of -1000 is used.
+     Valid values are between 0 and 360 degrees.  Also note that this value
+     is expressed in positive-west coordinates.
+
+11.  look_direction:  5-character ASCII string indicating the side of the
+     spacecraft ground track to which the antenna is pointed for data
+     acquired for each data product.  Valid values are 'LEFT ', 'RIGHT',
+     and 'BOTH '.  'BOTH ' will only be used for BODP products.  The SAR
+     images stored in the BIDR files are always acquired on only one side
+     of the ground track for each pass.  This value also indicates from
+     which side the SAR image is illuminated.  If the spacecraft images to
+     the left of its ground track, the image will be illuminated from the
+     (viewer's) left side; conversely, if the spacecraft looks to the
+     right, then the illumination will come from the right in the image
+     file.  The direction of illumination is critical to interpretation
+     of features in the image.
+
+12.  product_creation_time:  Creation time for product, in UTC format
+     (YYYY-DOYTHH:MM:SS.sss).
+
+13.  volume_id:  ID of the volume on which the product can be found.
+     (Or equivalently, the ID of this volume.)
+

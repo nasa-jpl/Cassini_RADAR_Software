@@ -1,0 +1,42 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-15 John Diehl, Imaging Node, Initial template submission."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "PAALIAQ"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "PROGRADE"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        'S20 PAALIAQ' and 'PAALIAQ' refer to the same target.
+ 
+        Skoll (provisional designation S/2000 S 2).
+ 
+        Paaliaq is a prograde irregular satellite of Saturn. It was
+        discovered by Brett J. Gladman, John J. Kavelaars, Jean-Marc
+        Petit, Hans Scholl, Matthew J. Holman, Brian G. Marsden, Philip
+        D. Nicholson and Joseph A. Burns in early October 2000, and given
+        the temporary designation S/2000 S 2. It was named in August 2003
+        after a fictional shaman in the book The Curse of the Shaman,
+        written by Michael Kusugak, who supplied Kavelaars with the names
+        of giants from Inuit mythology that were used for other Saturnian
+        moons.
+ 
+        Paaliaq is thought to be about 22 kilometres in diameter, and orbits
+        Saturn at an average distance of 15.2 Gm in 687 days. It is a member
+        of the Inuit group of irregular satellites. It also has a proximity
+        with 9 other moons reaching up to ten miles from each.
+ 
+        Together with Kiviuq and Siarnaq, Paaliaq displays light-red colours
+        and similar infrared spectrum, further supporting the thesis of a
+        possible common origin of the Inuit group in the break-up of a larger
+        body."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END

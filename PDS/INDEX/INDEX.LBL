@@ -1,0 +1,152 @@
+PDS_VERSION_ID          = PDS3
+
+RECORD_TYPE             = FIXED_LENGTH
+RECORD_BYTES            = 270
+FILE_RECORDS            = XXXX
+^INDEX_TABLE            = "INDEX.TAB"
+NOT_APPLICABLE_CONSTANT = -1000.000000
+DESCRIPTION             = "
+  INDEX.TAB is an index of all the Cassini BODP, BIDR and SARTopo data product
+  files on this volume.  All fields in a record are fixed-width and
+  are separated by commas.  String values are enclosed in double quotes.
+  Each record is terminated by a carriage return and line feed.
+"
+
+OBJECT                  = INDEX_TABLE
+  INTERCHANGE_FORMAT    = ASCII
+  ROWS                  = XXXX
+  COLUMNS               = 13
+  ROW_BYTES             = 270
+  INDEX_TYPE            = SINGLE
+  DESCRIPTION           = "The following fields are extracted from the labels
+                           of the individual data files."
+
+  OBJECT                = COLUMN
+    NAME                = FILE_NAME
+    DESCRIPTION         = "Name of BODP, BIDR or SARTOPO data product file"
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 2
+    BYTES               = 40
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = PATH_NAME
+    DESCRIPTION         = "Full directory path to file on volume"
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 45
+    BYTES               = 9
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = DATA_SET_ID
+    DESCRIPTION         = "Data product type identifier"
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 57
+    BYTES               = 32
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = START_TIME
+    DESCRIPTION         = "UTC time at start of data acquisition for data
+                          in file"
+    DATA_TYPE           = DATE
+    START_BYTE          = 92
+    BYTES               = 21
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = STOP_TIME
+    DESCRIPTION         = "UTC time at end of data acquisition for data
+                          in file"
+    DATA_TYPE           = DATE
+    START_BYTE          = 116
+    BYTES               = 21
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = TARGET_NAME
+    DESCRIPTION         = "Target of observation"
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 140
+    BYTES               = 30
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = MINIMUM_LATITUDE
+    DESCRIPTION         = "Minimum latitude in target body frame for data
+                          in file.  For a target for which this is not
+                          applicable, a default value of -1000.000000 is
+                          used."
+    DATA_TYPE           = ASCII_REAL
+    UNIT                = DEGREE
+    START_BYTE          = 172
+    BYTES               = 12
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = MAXIMUM_LATITUDE
+    DESCRIPTION         = "Maximum latitude in target body frame for data
+                          in file.  For a target for which this is not
+                          applicable, a default value of -1000.000000 is
+                          used."
+    DATA_TYPE           = ASCII_REAL
+    UNIT                = DEGREE
+    START_BYTE          = 185
+    BYTES               = 12
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = WESTERNMOST_LONGITUDE
+    DESCRIPTION         = "Westernmost positive-west longitude in target
+                          body frame for data in file.  For a target for
+                          which this is not applicable, a default value
+                          of -1000.000000 is used."
+    DATA_TYPE           = ASCII_REAL
+    UNIT                = DEGREE
+    START_BYTE          = 198
+    BYTES               = 12
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = EASTERNMOST_LONGITUDE
+    DESCRIPTION         = "Easternmost positive-west longitude in target
+                          body frame for data in file.  For a target for
+                          which this is not applicable, a default value
+                          of -1000.000000 is used."
+    DATA_TYPE           = ASCII_REAL
+    UNIT                = DEGREE
+    START_BYTE          = 211
+    BYTES               = 12
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = LOOK_DIRECTION
+    DESCRIPTION         = "Side of spacecraft ground track to which antenna
+                          is pointed for data acquired within data product.
+                          For BIDR products, also side from which SAR image
+                          is illuminated."
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 225
+    BYTES               = 5
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = PRODUCT_CREATION_TIME
+    DESCRIPTION         = "Product creation time in UTC"
+    DATA_TYPE           = DATE
+    START_BYTE          = 233
+    BYTES               = 21
+  END_OBJECT            = COLUMN
+
+  OBJECT                = COLUMN
+    NAME                = VOLUME_ID
+    DESCRIPTION         = "ID of Volume on which product is located.
+                          Cassini Radar volume IDs have the form
+                          CORADR_####, where #### is a 4-digit number."
+    DATA_TYPE           = CHARACTER
+    START_BYTE          = 257
+    BYTES               = 11
+  END_OBJECT            = COLUMN
+
+END_OBJECT              = INDEX_TABLE
+END

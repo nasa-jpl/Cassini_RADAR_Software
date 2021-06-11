@@ -1,0 +1,7503 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 1351
+>>
+stream
+BT
+/F1 1 Tf
+12 0 0 12 0 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+6 -6.6667 TD
+(DORA-003)Tj
+/F2 1 Tf
+0 g
+-5.75 6.6667 TD
+( )Tj
+0 0 0 1 k
+10.6958 -6.6667 TD
+( )Tj
+/F1 1 Tf
+18 0 0 18 7 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+3.6111 -10.2222 TD
+(Cassini Radar Instrument Team)Tj
+/F2 1 Tf
+12 0 0 12 12 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+5 -17.2667 TD
+( )Tj
+/F1 1 Tf
+24 0 0 24 15 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.375 -10.6333 TD
+(Cassini Radar Basic Image Data)Tj
+0 g
+-2.0833 10.6333 TD
+( )Tj
+0 0 0 1 k
+2.0833 -11.7167 TD
+(Records SIS)Tj
+/F2 1 Tf
+12 0 0 12 28 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+3.6667 -25.8667 TD
+( )Tj
+/F1 1 Tf
+18 0 0 18 32 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.4074 -17.2444 TD
+(Version 1.1)Tj
+/F2 1 Tf
+12 0 0 12 37 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.9167 -39.2 TD
+(Bryan Stiles)Tj
+0 g
+-2.6667 39.2 TD
+( )Tj
+0 0 0 1 k
+2.6667 -40.9667 TD
+( )Tj
+14 0 0 14 43 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.0714 -36.2095 TD
+(February 2005 )Tj
+12 0 0 12 47 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.0833 -49.4667 TD
+( )Tj
+/F1 1 Tf
+0 g
+-1.75 49.4667 TD
+( )Tj
+0 0 0 1 k
+1.75 -50.6333 TD
+(Jet Propulsion Laboratory )Tj
+0 g
+-1.5 50.6333 TD
+( )Tj
+0 0 0 1 k
+1.5 -51.8 TD
+(California Institute of Technology )Tj
+0 g
+-1.25 51.8 TD
+( )Tj
+0 0 0 1 k
+1.25 -52.9667 TD
+(NASA )Tj
+/F2 1 Tf
+0 g
+-0.9167 52.9667 TD
+( )Tj
+0 0 0 1 k
+0.9167 -54.7333 TD
+( )Tj
+/F1 1 Tf
+0 g
+-0.6667 54.7333 TD
+( )Tj
+0 0 0 1 k
+0.6667 -55.9 TD
+(D-27889)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 2015
+>>
+stream
+0 0 0 0 k
+/GS1 gs
+72 720 468 -648 re
+f
+BT
+/F1 1 Tf
+10 0 0 10 67 792 Tm
+0 g
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+4.1 -7.8667 TD
+( )Tj
+14 0 0 14 70 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+13.7449 -7.1809 TD
+(Prepared By: )Tj
+/F2 1 Tf
+12 0 0 12 74 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.8333 -11.4 TD
+( )Tj
+0 g
+-2.5833 11.4 TD
+( )Tj
+0 0 0 1 k
+-0.299 -12.5667 TD
+[(________________________________________________)-187( Date:)-481.9(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Bryan Stiles)Tj
+T*
+(Cassini Radar Ground Processor Engineer )Tj
+3 -2.9667 TD
+( )Tj
+/F1 1 Tf
+14 0 0 14 80 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+12.8648 -16.4095 TD
+(Approved By: )Tj
+/F2 1 Tf
+12 0 0 12 84 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-0.8823 -21.5333 TD
+[(________________________________________________)-187( Date:)-481.9(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Randolph Kirk )Tj
+T*
+(USGS Astrogeology Team)Tj
+T*
+( )Tj
+0.1177 -1.1667 TD
+[(________________________________________________)-187( Date:)-481.9(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Phil Callahan)Tj
+T*
+(Cassini Radar Instrument Team Project Element Manager )Tj
+3 -2.9667 TD
+(  )Tj
+/F1 1 Tf
+14 0 0 14 88 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+12.0988 -28.0952 TD
+(Concurred By: )Tj
+/F2 1 Tf
+12 0 0 12 91 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+1.4167 -35.8 TD
+( )Tj
+0 g
+-1.0833 35.8 TD
+( )Tj
+0 0 0 1 k
+-1.799 -36.9667 TD
+[(________________________________________________)-187( Date: )-204.1(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Charles Elachi)Tj
+T*
+(Cassini RADAR Principal Investigator )Tj
+0.1177 -2.3333 TD
+[(________________________________________________)-187( Date: )-204.1(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Diane Conner)Tj
+T*
+(Cassini Archive Data Engineer)Tj
+0.1177 -2.3333 TD
+[(________________________________________________)-187( Date: )-204.1(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Lisa Gaddis)Tj
+T*
+(USGS Imaging Node)Tj
+0.1177 -2.3333 TD
+[(________________________________________________)-187( Date: )-204.1(__________)-288.6( )]TJ
+-0.1177 -1.1667 TD
+(Laverne Hall)Tj
+T*
+(PDS Central Node Manager)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 1818
+>>
+stream
+BT
+/F1 1 Tf
+14 0 0 14 98 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+11.3574 -5.8095 TD
+(Document Log )Tj
+/F3 1 Tf
+12 0 0 12 102 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-1.2653 -11.5 TD
+(Re)Tj
+0 g
+1.5153 11.5 TD
+( )Tj
+0 0 0 1 k
+-0.4296 -11.5 TD
+(vision)Tj
+-0.2642 -1.1667 TD
+(Date)Tj
+5.3456 1.1667 TD
+[(Re)25.2(vised)]TJ
+0.4393 -1.1667 TD
+[(P)15.2(ages)]TJ
+12.3262 0.5833 TD
+-0.0284 Tw
+[(Description)-8860.5(Re)25.2(vised By )]TJ
+-19.4451 -2.5833 TD
+0 Tw
+[(02/28/2004)-3083.2(All)-2861.1(Original)-18472.7(B. Stiles )]TJ
+0 -1.8333 TD
+[(02/28/2005)-1347.2(1,4,5,13,14, )]TJ
+5.9028 -1.1667 TD
+(15,16,17,18)Tj
+5.875 1.1667 TD
+[(Added SOFTW)120.1(ARE_VERSION_ID to PDS )]TJ
+0 -1.1667 TD
+[(label, Modiìed PR)40(ODUCT_ID/ìlename to )]TJ
+T*
+(include çQé Oblique Cylindrical projection iden-)Tj
+T*
+[(tiìer)55.2(. Modiìed PR)40(ODUCER_FULL_N)35.2(AME and )]TJ
+T*
+[(PR)40(ODUCER_INSTITUTION_N)35.2(AME v)25.2(alues.  )]TJ
+T*
+[(Corrected v)25.2(arious typos. )55.2(Added number of looks )]TJ
+T*
+[(bacplane to archi)25.2(v)15.2(e)0(.)]TJ
+21.9302 7 TD
+(B.Stiles)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+72 669.75 m
+72 84.25 l
+144 670.25 m
+144 83.75 l
+216 670.25 m
+216 83.75 l
+468 670.25 m
+468 83.75 l
+540 669.75 m
+540 84.25 l
+71.75 670 m
+540.25 670 l
+72.25 631.25 m
+539.75 631.25 l
+72.25 628.75 m
+539.75 628.75 l
+71.75 608 m
+540.25 608 l
+71.75 502 m
+540.25 502 l
+71.75 480 m
+540.25 480 l
+71.75 458 m
+540.25 458 l
+71.75 436 m
+540.25 436 l
+71.75 414 m
+540.25 414 l
+71.75 392 m
+540.25 392 l
+71.75 370 m
+540.25 370 l
+71.75 348 m
+540.25 348 l
+71.75 326 m
+540.25 326 l
+71.75 304 m
+540.25 304 l
+71.75 282 m
+540.25 282 l
+71.75 260 m
+540.25 260 l
+71.75 238 m
+540.25 238 l
+71.75 216 m
+540.25 216 l
+71.75 194 m
+540.25 194 l
+71.75 172 m
+540.25 172 l
+71.75 150 m
+540.25 150 l
+71.75 128 m
+540.25 128 l
+71.75 106 m
+540.25 106 l
+71.75 84 m
+540.25 84 l
+S
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 1047
+>>
+stream
+BT
+/F3 1 Tf
+12 0 0 12 108 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-1.7653 -7.3333 TD
+(Re)Tj
+0 g
+2.0153 7.3333 TD
+( )Tj
+0 0 0 1 k
+-0.9296 -7.3333 TD
+(vision)Tj
+0 g
+1.1796 7.3333 TD
+( )Tj
+0 0 0 1 k
+-1.4438 -8.5 TD
+(Date)Tj
+0 g
+1.6938 8.5 TD
+( )Tj
+0 0 0 1 k
+3.6517 -7.3333 TD
+(Re)Tj
+0 g
+-3.4017 7.3333 TD
+( )Tj
+0 0 0 1 k
+4.4874 -7.3333 TD
+(vised)Tj
+0 g
+-4.2374 7.3333 TD
+( )Tj
+0 0 0 1 k
+3.5911 -8.5 TD
+(P)Tj
+0 g
+-3.3411 8.5 TD
+( )Tj
+0 0 0 1 k
+3.8821 -8.5 TD
+(ages)Tj
+0 g
+-3.6321 8.5 TD
+( )Tj
+0 0 0 1 k
+15.4172 -7.9167 TD
+(Description)Tj
+0 g
+-15.1672 7.9167 TD
+( )Tj
+0 0 0 1 k
+28.6933 -7.9167 TD
+(Re)Tj
+0 g
+-28.4433 7.9167 TD
+( )Tj
+0 0 0 1 k
+29.5289 -7.9167 TD
+-0.0284 Tw
+(vised By )Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+72 719.75 m
+72 592.25 l
+144 720.25 m
+144 591.75 l
+216 720.25 m
+216 591.75 l
+468 720.25 m
+468 591.75 l
+540 719.75 m
+540 592.25 l
+71.75 720 m
+540.25 720 l
+72.25 681.25 m
+539.75 681.25 l
+72.25 678.75 m
+539.75 678.75 l
+71.75 658 m
+540.25 658 l
+71.75 636 m
+540.25 636 l
+71.75 614 m
+540.25 614 l
+71.75 592 m
+540.25 592 l
+S
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 6137
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 138 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-9.4461 -3.5467 TD
+(Cassini Radar Basic Image Data Records SIS)Tj
+0 g
+9.7461 3.5467 TD
+( )Tj
+0 0 0 1 k
+17.2539 -3.5467 TD
+(                                                              )Tj
+0 g
+-16.9539 3.5467 TD
+( )Tj
+0 0 0 1 k
+32.0525 -75.888 TD
+(6)Tj
+/F1 1 Tf
+24 0 0 24 146 792 Tm
+1 g
+( )Tj
+0 0 0 0 k
+2.4445 -2.9167 TD
+(Table of Contents)Tj
+/F5 1 Tf
+12 0 0 12 153 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-8.25 -7.3333 TD
+(1  )Tj
+0 g
+8.5 7.3333 TD
+( )Tj
+0 0 0 1 k
+-7.5 -7.3333 TD
+(Introduction 1)Tj
+0 g
+7.75 7.3333 TD
+( )Tj
+0 0 0 1 k
+-7.25 -8.5 TD
+(1.1  )Tj
+0 g
+7.5 8.5 TD
+( )Tj
+0 0 0 1 k
+-5.75 -8.5 TD
+(Purpose and Scope)Tj
+0 g
+6 8.5 TD
+( )Tj
+0 0 0 1 k
+1.6098 -8.5 TD
+( 1)Tj
+0 g
+-1.3598 8.5 TD
+( )Tj
+0 0 0 1 k
+-8 -9.6667 TD
+(1.2  )Tj
+0 g
+8.25 9.6667 TD
+( )Tj
+0 0 0 1 k
+-6.5 -9.6667 TD
+(Applicable Documents and Constraints)Tj
+0 g
+6.75 9.6667 TD
+( )Tj
+0 0 0 1 k
+8.9414 -9.6667 TD
+( 1)Tj
+0 g
+-8.6914 9.6667 TD
+( )Tj
+0 0 0 1 k
+-10.25 -10.8333 TD
+(2  )Tj
+0 g
+10.5 10.8333 TD
+( )Tj
+0 0 0 1 k
+-9.5 -10.8333 TD
+(Data Product Characteristics and Environment 2)Tj
+0 g
+9.75 10.8333 TD
+( )Tj
+0 0 0 1 k
+-9.25 -12 TD
+(2.1  )Tj
+0 g
+9.5 12 TD
+( )Tj
+0 0 0 1 k
+-7.75 -12 TD
+(Relationships with Other Interfaces)Tj
+0 g
+8 12 TD
+( )Tj
+0 0 0 1 k
+6.1904 -12 TD
+( 2)Tj
+0 g
+-5.9404 12 TD
+( )Tj
+0 0 0 1 k
+-10 -13.1667 TD
+(2.2  )Tj
+0 g
+10.25 13.1667 TD
+( )Tj
+0 0 0 1 k
+-8.5 -13.1667 TD
+(Instrument Overview)Tj
+0 g
+8.75 13.1667 TD
+( )Tj
+0 0 0 1 k
+-0.2246 -13.1667 TD
+( 2)Tj
+0 g
+0.4746 13.1667 TD
+( )Tj
+0 0 0 1 k
+-10.75 -14.3333 TD
+(2.3  )Tj
+0 g
+11 14.3333 TD
+( )Tj
+0 0 0 1 k
+-9.25 -14.3333 TD
+(Instrument Description Summary )Tj
+0 g
+9.5 14.3333 TD
+( )Tj
+0 0 0 1 k
+4.1367 -14.3333 TD
+( 2)Tj
+0 g
+-3.8867 14.3333 TD
+( )Tj
+0 0 0 1 k
+-11.5 -15.5 TD
+(2.4  )Tj
+0 g
+11.75 15.5 TD
+( )Tj
+0 0 0 1 k
+-10 -15.5 TD
+(Data Products Overview)Tj
+0 g
+10.25 15.5 TD
+( )Tj
+0 0 0 1 k
+-0.4194 -15.5 TD
+( 3)Tj
+0 g
+0.6694 15.5 TD
+( )Tj
+0 0 0 1 k
+-12.25 -16.6667 TD
+(2.5  )Tj
+0 g
+12.5 16.6667 TD
+( )Tj
+0 0 0 1 k
+-10.75 -16.6667 TD
+(Data Processing)Tj
+0 g
+11 16.6667 TD
+( )Tj
+0 0 0 1 k
+-4.5293 -16.6667 TD
+( 3)Tj
+0 g
+4.7793 16.6667 TD
+( )Tj
+0 0 0 1 k
+-10.75 -17.8333 TD
+(2.5.1  )Tj
+0 g
+11 17.8333 TD
+( )Tj
+0 0 0 1 k
+-8.5 -17.8333 TD
+(Data Processing Level)Tj
+0 g
+8.75 17.8333 TD
+( )Tj
+0 0 0 1 k
+0.2471 -17.8333 TD
+( 3)Tj
+0 g
+0.0029 17.8333 TD
+( )Tj
+0 0 0 1 k
+-11.5 -19 TD
+(2.5.2  )Tj
+0 g
+11.75 19 TD
+( )Tj
+0 0 0 1 k
+-9.25 -19 TD
+(Data Product Generation)Tj
+0 g
+9.5 19 TD
+( )Tj
+0 0 0 1 k
+0.4409 -19 TD
+( 3)Tj
+0 g
+-0.1909 19 TD
+( )Tj
+0 0 0 1 k
+-12.25 -20.1667 TD
+(2.5.3  )Tj
+0 g
+12.5 20.1667 TD
+( )Tj
+0 0 0 1 k
+-10 -20.1667 TD
+(Pixel Value Definitions 4)Tj
+0 g
+10.25 20.1667 TD
+( )Tj
+0 0 0 1 k
+-12.75 -21.3333 TD
+(2.5.4  )Tj
+0 g
+13 21.3333 TD
+( )Tj
+0 0 0 1 k
+-10.5 -21.3333 TD
+(Multiple Resolutions 5)Tj
+0 g
+10.75 21.3333 TD
+( )Tj
+0 0 0 1 k
+-13.25 -22.5 TD
+(2.5.5  )Tj
+0 g
+13.5 22.5 TD
+( )Tj
+0 0 0 1 k
+-11 -22.5 TD
+(SAR Processing algorithm 6)Tj
+0 g
+11.25 22.5 TD
+( )Tj
+0 0 0 1 k
+-13.75 -23.6667 TD
+(2.5.6  )Tj
+0 g
+14 23.6667 TD
+( )Tj
+0 0 0 1 k
+-11.5 -23.6667 TD
+(Labeling and Identification)Tj
+0 g
+11.75 23.6667 TD
+( )Tj
+0 0 0 1 k
+-0.8653 -23.6667 TD
+( 6)Tj
+0 g
+1.1153 23.6667 TD
+( )Tj
+0 0 0 1 k
+-16.75 -24.8333 TD
+(2.6  )Tj
+0 g
+17 24.8333 TD
+( )Tj
+0 0 0 1 k
+-15.25 -24.8333 TD
+(Standards Used in Generating Data Products)Tj
+0 g
+15.5 24.8333 TD
+( )Tj
+0 0 0 1 k
+2.3569 -24.8333 TD
+( 6)Tj
+0 g
+-2.1069 24.8333 TD
+( )Tj
+0 0 0 1 k
+-15.25 -26 TD
+(2.6.1  )Tj
+0 g
+15.5 26 TD
+( )Tj
+0 0 0 1 k
+-13 -26 TD
+(Coordinate Systems)Tj
+0 g
+13.25 26 TD
+( )Tj
+0 0 0 1 k
+-5.2227 -26 TD
+( 6)Tj
+0 g
+5.4727 26 TD
+( )Tj
+0 0 0 1 k
+-16 -27.1667 TD
+(2.6.2  )Tj
+0 g
+16.25 27.1667 TD
+( )Tj
+0 0 0 1 k
+-13.75 -27.1667 TD
+(Cartographic Standards)Tj
+0 g
+14 27.1667 TD
+( )Tj
+0 0 0 1 k
+-4.5859 -27.1667 TD
+( 8)Tj
+0 g
+4.8359 27.1667 TD
+( )Tj
+0 0 0 1 k
+-16.75 -28.3333 TD
+(2.6.3  )Tj
+0 g
+17 28.3333 TD
+( )Tj
+0 0 0 1 k
+-14.5 -28.3333 TD
+(PDS Standards)Tj
+0 g
+14.75 28.3333 TD
+( )Tj
+0 0 0 1 k
+-8.7217 -28.3333 TD
+( 10)Tj
+0 g
+8.9717 28.3333 TD
+( )Tj
+0 0 0 1 k
+-17.5 -29.5 TD
+(2.6.4  )Tj
+0 g
+17.75 29.5 TD
+( )Tj
+0 0 0 1 k
+-15.25 -29.5 TD
+(Data Storage Conventions)Tj
+0 g
+15.5 29.5 TD
+( )Tj
+0 0 0 1 k
+-5.0019 -29.5 TD
+( 11)Tj
+0 g
+5.2519 29.5 TD
+( )Tj
+0 0 0 1 k
+-20.5 -30.6667 TD
+(2.7  )Tj
+0 g
+20.75 30.6667 TD
+( )Tj
+0 0 0 1 k
+-19 -30.6667 TD
+(Data Validation)Tj
+0 g
+19.25 30.6667 TD
+( )Tj
+0 0 0 1 k
+-12.8911 -30.6667 TD
+( 11)Tj
+0 g
+13.1411 30.6667 TD
+( )Tj
+0 0 0 1 k
+-22.75 -31.8333 TD
+(3  )Tj
+0 g
+23 31.8333 TD
+( )Tj
+0 0 0 1 k
+-22 -31.8333 TD
+(Detailed Data Product Specification)Tj
+0 g
+22.25 31.8333 TD
+( )Tj
+0 0 0 1 k
+-7.8384 -31.8333 TD
+( 11)Tj
+0 g
+8.0884 31.8333 TD
+( )Tj
+0 0 0 1 k
+-22 -33 TD
+(3.1  )Tj
+0 g
+22.25 33 TD
+( )Tj
+0 0 0 1 k
+-20.5 -33 TD
+(Data Format Descriptions)Tj
+0 g
+20.75 33 TD
+( )Tj
+0 0 0 1 k
+-10.4189 -33 TD
+( 11)Tj
+0 g
+10.6689 33 TD
+( )Tj
+0 0 0 1 k
+-22.75 -34.1667 TD
+(3.2  )Tj
+0 g
+23 34.1667 TD
+( )Tj
+0 0 0 1 k
+-21.25 -34.1667 TD
+(Label and Header Descriptions)Tj
+0 g
+21.5 34.1667 TD
+( )Tj
+0 0 0 1 k
+-9.0884 -34.1667 TD
+( 11)Tj
+0 g
+9.3384 34.1667 TD
+( )Tj
+0 0 0 1 k
+-25 -35.3333 TD
+(4  )Tj
+0 g
+25.25 35.3333 TD
+( )Tj
+0 0 0 1 k
+-24.25 -35.3333 TD
+(Applicable Software)Tj
+0 g
+24.5 35.3333 TD
+( )Tj
+0 0 0 1 k
+-16.2529 -35.3333 TD
+( 12)Tj
+0 g
+16.5029 35.3333 TD
+( )Tj
+0 0 0 1 k
+-24.25 -36.5 TD
+(4.1  )Tj
+0 g
+24.5 36.5 TD
+( )Tj
+0 0 0 1 k
+-22.75 -36.5 TD
+(Cassini RADAR Team SAR Processor 12)Tj
+0 g
+23 36.5 TD
+( )Tj
+0 0 0 1 k
+-24.75 -37.6667 TD
+(4.2  )Tj
+0 g
+25 37.6667 TD
+( )Tj
+0 0 0 1 k
+-23.25 -37.6667 TD
+(ISIS)Tj
+0 g
+23.5 37.6667 TD
+( )Tj
+0 0 0 1 k
+-21.7217 -37.6667 TD
+( 12)Tj
+0 g
+21.9717 37.6667 TD
+( )Tj
+0 0 0 1 k
+-27 -38.8333 TD
+(5  )Tj
+0 g
+27.25 38.8333 TD
+( )Tj
+0 0 0 1 k
+-26.25 -38.8333 TD
+(APPENDIX A: Example Label for Cassini RADAR Basic Image Data Record 13)Tj
+0 g
+26.5 38.8333 TD
+( )Tj
+0 0 0 1 k
+-26 -40 TD
+(5.1  )Tj
+0 g
+26.25 40 TD
+( )Tj
+0 0 0 1 k
+-24.5 -40 TD
+(BIDR PDS Label , primary data set, 32-bit data 13)Tj
+0 g
+24.75 40 TD
+( )Tj
+0 0 0 1 k
+-28 -41.1667 TD
+(6  )Tj
+0 g
+28.25 41.1667 TD
+( )Tj
+0 0 0 1 k
+-27.25 -41.1667 TD
+(APPENDIX B:  PDS Keyword Definitions)Tj
+0 g
+27.5 41.1667 TD
+( )Tj
+0 0 0 1 k
+-10.3052 -41.1667 TD
+( 15)Tj
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 4387
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 399 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-29.9931 -4.2667 TD
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 402 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-9.85 -75.6 TD
+(1)Tj
+/F6 1 Tf
+16 0 0 16 404 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-19.625 -5.1667 TD
+(1.)Tj
+0 g
+19.9375 5.1667 TD
+( )Tj
+0 0 0 1 k
+-17.6875 -5.1667 TD
+(Introduction)Tj
+/F7 1 Tf
+14 0 0 14 413 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-23.0714 -8.0238 TD
+(1.1 Purpose and Scope)Tj
+/F5 1 Tf
+12 0 0 12 417 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-27.25 -10.8605 TD
+-0.027 Tw
+(The purpose of this Data Product Software Interface Specification \(SIS\) is to provide users)Tj
+0 g
+27.5 10.8605 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+8.5 -10.8605 TD
+( )Tj
+-36 -1.0734 TD
+0.272 Tw
+(of the Cassini RADAR Basic Image Data Record \(BIDR\) data set with a detailed )Tj
+0 -1.2707 TD
+0.0067 Tw
+(description of the products and a description of how they were generated. BIDR data files )Tj
+0 -1.2741 TD
+0.007 Tw
+[(are single pass SAR image data which are calibrated and gridded. )18.1(The BIDR data set id is )]TJ
+T*
+0 Tw
+(CO-SSA-RADAR-5-BIDR-V1.0 and its CODMAC level is 5. )Tj
+0 -1.5768 TD
+-0.0074 Tw
+(This SIS is intended to provide enough information to enable users to read and understand )Tj
+0 -1.0734 TD
+0.1494 Tw
+[(the BIDR products. )18.1(The users for whom this SIS is intended are software developers, )]TJ
+T*
+0 Tw
+(engineers, and scientists interested in accessing and using the BIDR products. )Tj
+0 -1.5734 TD
+0.4063 Tw
+(This document describes how Cassini RADAR Basic Image Data Records were )Tj
+0 -1.0733 TD
+0.0309 Tw
+[(processed, formatted, labeled, and uniquely identified. )18.1(The document discusses standards )]TJ
+T*
+0.0576 Tw
+[(used in generating the product and software that may be used to access the product. )18.1(The )]TJ
+T*
+-0.0001 Tc
+0.0234 Tw
+[(data product structure and or)18(ganization is described in suf)18(ficient detail to enable a user to )]TJ
+T*
+0 Tc
+0 Tw
+[(read the product. Finally)64.9(, examples of product labels are provided.)]TJ
+/F7 1 Tf
+14 0 0 14 423 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-23.7857 -24.9207 TD
+(1.2 )Tj
+0 g
+24.0714 24.9207 TD
+( )Tj
+0 0 0 1 k
+-22.4406 -24.9207 TD
+(Applicable Documents and Constraints)Tj
+/F5 1 Tf
+12 0 0 12 431 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-28.4167 -30.5736 TD
+(This Data Product SIS is responsive to the following Cassini documents:)Tj
+0 g
+28.6667 30.5736 TD
+( )Tj
+0 0 0 1 k
+-28.6667 -32.1198 TD
+(1)Tj
+0 g
+28.9167 32.1198 TD
+( )Tj
+0 0 0 1 k
+-27.1167 -32.1198 TD
+[(Project Data Management Plan, JPL)37.1( D-12560, PD 699-061, Rev)64.9(. B, )55.2(April 1999, and )]TJ
+-1.8 -1.1667 TD
+[(Science Management Plan, JPL)37.1( D-9178, PD 699-006, July 1999.)]TJ
+0 -1.25 TD
+[(2)-1300(Cassini RADAR Burst Ordered Data Products SIS, JPL)37.1( D-27891, Feb 2004, )18.1(V)110.8(ersion )]TJ
+0 -1.1667 TD
+(1.0.)Tj
+0 -1.25 TD
+[(3)-1300(Cassini/Huygens Program )55.2(Archive Plan for Science Data, JPL)37.1( D-15976, 699-068.)]TJ
+T*
+[(4)-1300(SIS for Cassini RADAR Digital Map Products, JPL)37.1( D-xxxx, )18.1(V)110.8(ersion 1.0)]TJ
+0 -1.2772 TD
+(This SIS is also consistent with the following Planetary Data System documents:)Tj
+0 -1.5462 TD
+[(5)-1300(Planetary Data System Data Preparation )18.1(W)80.1(orkbook, )18.1(V)110.8(ersion 3.1, February 17, 1995, )]TJ
+0 -1.1667 TD
+[(JPL)37.1( D-7669, Part 1.)]TJ
+0 -1.25 TD
+[(6)-1300(Planetary Data System Data Standards Reference, June 15, 2001, )18.1(V)110.8(ersion 3.4, JPL)37.1( D-)]TJ
+0 -1.1667 TD
+(7669, Part 2.)Tj
+0 -1.2772 TD
+-0.0001 Tc
+-0.0087 Tw
+[(Finally)64.8(, this SIS is meant to be consistent with the contract negotiated between the Cassini )]TJ
+0 -1.0734 TD
+0 Tc
+0.1647 Tw
+(Project and the Cassini RADAR Experiment Principal Investigator \(PI\) in which data )Tj
+T*
+0 Tw
+(products and documentation are explicitly defined as deliverable products.)Tj
+0 -3.1468 TD
+(Additional references:)Tj
+0 -1.5463 TD
+[(7)-1300(Elachi, C., et al., 2002, RADAR: )18.1(The Cassini )18.1(T)35.2(itan RADAR Mapper)40(, )]TJ
+/F8 1 Tf
+0 g
+29.1667 52.7269 TD
+( )Tj
+0 0 0 1 k
+0.6851 -52.7269 TD
+(Space Science )Tj
+-29.8517 -1.1667 TD
+(Reviews,)Tj
+/F5 1 Tf
+0 g
+29.4167 53.8936 TD
+( )Tj
+0 0 0 1 k
+-25.8903 -53.8936 TD
+( in press.)Tj
+-3.5263 -1.25 TD
+-0.0378 Tw
+[(8)-1300(Eliason, E.M., 1997. Production of digital image models using the ISIS system. Lunar )]TJ
+0 -1.1667 TD
+0 Tw
+(Planet. Sci., XXVIII pp. 331-332, Lunar and Planetary Institute, Houston.)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+/F8 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 5586
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 446 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-34.6931 -4.2667 TD
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 449 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-14.55 -75.6 TD
+(2)Tj
+12 0 0 12 451 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-30.0833 -6.6667 TD
+(9)Tj
+0 g
+30.3333 6.6667 TD
+( )Tj
+0 0 0 1 k
+-28.5333 -6.6667 TD
+[(Gaddis, L. et al., 1997. )55.2(An overview of the Integrated Software for Imaging )]TJ
+-1.8 -1.1667 TD
+(Spectrometers \(ISIS\). Lunar Planet. Sci., XXVIII pp. 387-388, Lunar and Planetary )Tj
+T*
+(Institute, Houston.)Tj
+0 -1.25 TD
+[(10)-800(T)69.8(orson, J., and K. Becker)40(, 1997. ISIS: )55.2(A)55.2( software architecture for processing )]TJ
+0 -1.1667 TD
+(planetary images. Lunar Planet. Sci., XXVIII, pp. 143-1444, Lunar and Planetary )Tj
+T*
+(Institute, Houston.)Tj
+0 -1.25 TD
+-0.0099 Tw
+[(1)37.1(1)-837.1(Seidelmann P)110.8(.)0( K., )55.2(Abalakin, )18.1(V)128.9(.)0( K., Bursa, M., Davies, M. E., De Ber)18.1(gh, C., Lieske, J. )]TJ
+0 -1.1667 TD
+-0.0345 Tw
+[(H., Oberst, J., Simon, J. L., Standish, E. M., Stooke, P)110.8(., and )18.1(Thomas, P)110.8(.)0( C., 2002. Report of )]TJ
+T*
+0 Tw
+(the IAU/IAG working group on cartographic coordinates and rotational elements of the )Tj
+T*
+(planets and satellites: 2000. )Tj
+/F8 1 Tf
+0 g
+30.5833 17.3333 TD
+( )Tj
+0 0 0 1 k
+-19.2801 -17.3333 TD
+[(Celest. Mech. Dyn. )18.1(Astr)37.1(on., )]TJ
+/F5 1 Tf
+0 g
+19.5301 17.3333 TD
+( )Tj
+0 0 0 1 k
+-8.2821 -17.3333 TD
+[(82, pp. 83ó1)37.1(10.)]TJ
+-22.5512 -1.25 TD
+[(12)-800(Snyder)40(, J. P)110.8(., 1987, Map projections)-250(A)55.2( working manual, U. S. Geological Survey )]TJ
+0 -1.1667 TD
+(Prof. Paper 1395.)Tj
+0 -1.25 TD
+[(13)-800(Bugayevskiy)64.9(, L. M., and Snyder)40(, J. P)110.8(., 1995, Map projections: )55.2(A)55.2( reference manual, )]TJ
+0 -1.1667 TD
+[(T)69.8(aylor & Francis, London and Bristol, Pennsylvania, 328 pp.)]TJ
+0 -1.25 TD
+[(14)-800(Y)100.1(ang, Q. H., Snyder)40(, J. P)110.8(., and )18.1(T)69.8(obler)40(, )18.1(W)91.8(.)0( R., 2000, Map projection transformations: )]TJ
+0 -1.1667 TD
+[(Principles and applications, )18.1(T)69.8(aylor & Francis, London and Bristol, Pennsylvania, 367 pp.)]TJ
+0 -1.25 TD
+[(15)-800(Greeley)64.9(, R., and Batson, R. M., 1990, Planetary Mapping, Cambridge Univ)64.9(. Press, )]TJ
+0 -1.1667 TD
+(Cambridge, 296 pp.)Tj
+/F6 1 Tf
+16 0 0 16 463 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-23.3125 -22.0417 TD
+(2.)Tj
+0 g
+23.625 22.0417 TD
+( )Tj
+0 0 0 1 k
+-21.375 -22.0417 TD
+(Data Product Characteristics and Environment)Tj
+/F7 1 Tf
+14 0 0 14 472 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-27.2857 -27.3095 TD
+(2.1 Relationships with Other Interfaces)Tj
+/F5 1 Tf
+12 0 0 12 476 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-32.1667 -33.3605 TD
+0.2068 Tw
+(The BIDR image products described in this SIS are used in the production of other)Tj
+0 g
+32.4167 33.3605 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+3.5833 -33.3605 TD
+( )Tj
+-36 -1.0734 TD
+0.0184 Tw
+(archived products of the Cassini mission, so that changes to their content and format may )Tj
+T*
+-0.0153 Tw
+[(result in an interface impact. In particular)40(, the MIDR, RIDR, and DTM products described )]TJ
+T*
+-0.0132 Tw
+[(in [4] take BIDR products as their input data sets. )18.1(The lower level RADAR products Burst )]TJ
+T*
+0.2549 Tw
+(Ordered Data Products \(BODP\) [2] are used in the production of the BIDR image )Tj
+T*
+-0.0185 Tw
+[(products described here, so changes to the BODP)37.1( formats may impact the software used to )]TJ
+T*
+0 Tw
+[(generate BIDR products as well as the higher)20(-level products described in [4]. )]TJ
+/F7 1 Tf
+14 0 0 14 482 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-28 -35.9642 TD
+(2.2 Instrument Overview)Tj
+/F5 1 Tf
+12 0 0 12 486 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-33 -43.4577 TD
+0.0967 Tw
+(The Cassini RADAR [7] is a facility instrument on the Cassini Orbiter)Tj
+0 g
+33.25 43.4577 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-4.0509 -43.4577 TD
+-0.0001 Tc
+0.0968 Tw
+(. It is capable of )Tj
+-29.1991 -1.0734 TD
+-0.0143 Tw
+[(passive \(radiometer\) and active \(scatterometer)39.9(, altimeter)39.9(, SAR imaging\) operation. During )]TJ
+T*
+0 Tc
+0 Tw
+(active mode operation interleaved passive measurements are also obtained. )Tj
+0 -1.5734 TD
+0.1054 Tw
+[(The primary tar)18.1(get for Cassini Radar observations is )18.1(T)35.2(itan, the lar)18.1(gest Saturnian moon. )]TJ
+0 -1.0734 TD
+0.1629 Tw
+[(Due to its thick hazy atmosphere, )18.1(T)35.2(itan)-194.8(s surface was not imaged successfully by the)-80( )]TJ
+T*
+0.0817 Tw
+[(Pioneer or )18(V)128.9(oyager spacecraft, though atmospheric "windows" in the near infrared have )]TJ
+T*
+-0.0101 Tw
+[(been exploited by the Hubble Space )18.1(T)69.8(elescope and earth-based telescopes to produce low-)]TJ
+T*
+0.1175 Tw
+[(resolution albedo maps of part of the surface. )18.1(The Cassini radar instrument will obtain )]TJ
+T*
+0.2417 Tw
+[(backscatter and altimeter sounding measurements of )18.1(T)35.2(itan)-194.8(s surface. High resolution)-78.9( )]TJ
+T*
+0.2092 Tw
+[(synthetic aperture radar \(SAR\) backscatter images of 15% of )18.1(T)35.2(itan)-194.8(s surface will be)-79.9( )]TJ
+T*
+0 Tw
+[(obtained. )18.1(The image data products described in this SIS contain SAR data only)64.9(.)]TJ
+/F7 1 Tf
+14 0 0 14 492 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-28.7143 -48.7278 TD
+(2.3 Instrument Description Summary )Tj
+/F5 1 Tf
+12 0 0 12 496 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-33.8333 -58.3485 TD
+(Instrument )Tj
+ET
+0 0 0 1 K
+0 J 0 j 1 w 10 M []0 d
+1 i 
+90 89.818 m
+144.773 89.818 l
+S
+BT
+12 0 0 12 499 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-29.5189 -58.3485 TD
+(T)Tj
+ET
+144.773 89.818 m
+151.265 89.818 l
+S
+BT
+12 0 0 12 151.266 91.818 Tm
+(ype: )Tj
+ET
+151.266 89.818 m
+174.926 89.818 l
+S
+BT
+12 0 0 12 108 78.938 Tm
+(Radar )Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+/F8 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 5247
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 502 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-40.2931 -4.2667 TD
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 505 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-20.15 -75.6 TD
+(3)Tj
+12 0 0 12 507 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-34.75 -6.6938 TD
+(Modes: )Tj
+ET
+0 0 0 1 K
+0 J 0 j 1 w 10 M []0 d
+1 i 
+90 709.674 m
+129 709.674 l
+S
+BT
+12 0 0 12 510 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-33.5 -7.7673 TD
+(Imaging \(13.78 GHz; 0.425 MHz & 0.85 MHz bandwidth\) )Tj
+0 g
+33.75 7.7673 TD
+( )Tj
+0 0 0 1 k
+-33.75 -8.8407 TD
+(Altimeter\(13.78 GHz; 4.25 MHz bandwidth\) )Tj
+0 g
+34 8.8407 TD
+( )Tj
+0 0 0 1 k
+-34 -9.9141 TD
+(Scatterometer\(13.78 GHz; 0.1 MHz bandwidth\) )Tj
+0 g
+34.25 9.9141 TD
+( )Tj
+0 0 0 1 k
+-34.25 -10.9875 TD
+(Radiometer\(13.78 GHz; 135 MHz bandwidth\) )Tj
+0 g
+34.5 10.9875 TD
+( )Tj
+0 0 0 1 k
+-36 -12.0608 TD
+(Number of nominal Operational Periods: )Tj
+ET
+90 645.27 m
+289.623 645.27 l
+S
+BT
+12 0 0 12 525 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-34.75 -13.1343 TD
+(One \(1\) per selected flyby of )Tj
+0 g
+35 13.1343 TD
+( )Tj
+0 0 0 1 k
+-23.2451 -13.1343 TD
+[(T)35.2(itan \(approximately 12 to 22 flybys, total\) )]TJ
+-13.2549 -1.0734 TD
+(Duration of nominal Operational Period: )Tj
+ET
+90 619.508 m
+288.287 619.508 l
+S
+BT
+12 0 0 12 108 608.627 Tm
+0.1437 Tw
+[(From 300 minutes before to 300 minutes after closest approach to )18.1(T)35.2(itan for prime )]TJ
+T*
+0 Tw
+(operation. )Tj
+-1.5 -1.0734 TD
+(Peak Power: )Tj
+ET
+90 580.865 m
+153.322 580.865 l
+S
+BT
+12 0 0 12 108 569.984 Tm
+-0.0181 Tw
+[(86 W)18.1( )]TJ
+-1.5 -1.0733 TD
+0 Tw
+(Data Rates: )Tj
+ET
+90 555.104 m
+148.646 555.104 l
+S
+BT
+12 0 0 12 108 544.223 Tm
+(1 kbps: Radiometer only )Tj
+T*
+[(30 kbps: )55.2(Altimeter & Scatterometer / Radiometer )]TJ
+T*
+(365 kbps: SAR Imaging / Radiometer )Tj
+/F7 1 Tf
+14 0 0 14 531 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-31.5 -21.3876 TD
+(2.4 )Tj
+0 g
+31.7857 21.3876 TD
+( )Tj
+0 0 0 1 k
+-30.1177 -21.3876 TD
+(Data Products Overview)Tj
+/F5 1 Tf
+12 0 0 12 539 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-37.4167 -26.4517 TD
+0.1651 Tw
+(The BIDR Products described in this document are all gridded \(raster\) maps of )Tj
+0 g
+37.6667 26.4517 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-3.7419 -26.4517 TD
+-0.0002 Tc
+[(T)35(itan )]TJ
+-33.9247 -1.0734 TD
+0 Tc
+0.0137 Tw
+[(derived from SAR data and stored in the form of PDS image files. )18(These products will be )]TJ
+T*
+-0.0001 Tc
+0.1675 Tw
+(generated in more than one bit type and at more than one resolution, as described in )Tj
+0 -1.2707 TD
+0 Tc
+0 Tw
+(section 2.5.2.)Tj
+0 -2.1502 TD
+0.1348 Tw
+[(Each BIDR product contains the SAR image coverage corresponding to a single )18.1(T)35.2(itan )]TJ
+0 -1.0734 TD
+-0.0081 Tw
+[(Pass. )18.1(The BIDR will be produced in an oblique cylindrical coordinate system in which the )]TJ
+T*
+0.0287 Tw
+(great circle corresponding to the ground track of the spacecraft is defined to be 0 degrees )Tj
+T*
+0.0082 Tw
+[(latitude. Its extent will be the minimum bounding rectangle of the area of coverage in this)6( )]TJ
+T*
+0 Tw
+(projection. )Tj
+/F7 1 Tf
+14 0 0 14 545 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-32.5 -32.9746 TD
+(2.5 Data Processing)Tj
+/F6 1 Tf
+13 0 0 13 549 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-35.3077 -37.6136 TD
+(2.5.1)Tj
+0 g
+35.6154 37.6136 TD
+( )Tj
+0 0 0 1 k
+-32.8462 -37.6136 TD
+(Data Processing Level)Tj
+/F5 1 Tf
+12 0 0 12 556 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-38.8333 -42.2197 TD
+-0.0088 Tw
+(This document uses the "Committee of Data Management and Computation" \(CODMAC\))Tj
+0 g
+39.0833 42.2197 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-3.0833 -42.2197 TD
+( )Tj
+-36 -1.0734 TD
+0.0579 Tw
+[(data level number system. )18.1(The data products referred to in this document are considered )]TJ
+T*
+0.1176 Tw
+[("level 5". )18.1(These data products have been radiometrically calibrated and resampled to a)5.4( )]TJ
+T*
+0 Tw
+(standard map projection. )Tj
+/F6 1 Tf
+13 0 0 13 562 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-36.3077 -43.8847 TD
+(2.5.2)Tj
+0 g
+36.6154 43.8847 TD
+( )Tj
+0 0 0 1 k
+-33.8462 -43.8847 TD
+(Data Product Generation)Tj
+/F5 1 Tf
+12 0 0 12 569 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-39.9167 -49.0133 TD
+-0.0229 Tw
+(Cassini RADAR Basic Image Data Record Products described in this SIS are generated by)Tj
+0 g
+40.1667 49.0133 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-4.1667 -49.0133 TD
+( )Tj
+-36 -1.0734 TD
+0.1207 Tw
+[(members of the Cassini RADAR Instrument team at JPL)37.1( in the full resolution floating )]TJ
+T*
+0.0925 Tw
+(point format. \(For beam mask back-plane images the full resolution format is 8-bit, but )Tj
+T*
+0.008 Tw
+[(they are still produced at JPL. See below)64.9(.\) )18.1(These files will be converted into 8-bit formats )]TJ
+T*
+0.1676 Tw
+[(at various resolutions by members of the )55.2(Astrogeology )18.1(T)69.8(eam of the U. S. Geological )]TJ
+T*
+0.0182 Tw
+[(Survey \(USGS\) in Flagstaf)18.1(f, )55.1(Arizona. )18(The processing used to produce the 8-bit formats is )]TJ
+T*
+0.0687 Tw
+[(the same as that done for the DMP)37.1( products as described in the DMP)37.1( SIS [4]. )18(The 8 bit )]TJ
+T*
+0.0349 Tw
+[(images will be returned to JPL)37.1( from USGS and archived together with the full resolution )]TJ
+0 -1.2707 TD
+0.1002 Tw
+(floating point images. See section 2.5.4 for a detailed descriptions of which resolutions )Tj
+0 -1.2741 TD
+-0.024 Tw
+[(will be available for each image type. )18.1(The formats of all of these file types are documented)5.4( )]TJ
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 7106
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 575 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-47.5931 -4.2667 TD
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 578 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-27.45 -75.6 TD
+(4)Tj
+12 0 0 12 580 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-40.8333 -6.6938 TD
+(here. )Tj
+0 g
+41.0833 6.6938 TD
+( )Tj
+0 0 0 1 k
+-38.8442 -6.6938 TD
+0.0365 Tw
+(These products are created from low level Burst Ordered Data Products \(BODP\) as )Tj
+-2.2392 -1.0734 TD
+0.1615 Tw
+(described in [2]. Geometric data used as input include a description of the shape and )Tj
+T*
+-0.0001 Tc
+0.1903 Tw
+(orientation of the RADAR beams derived from in-flight geometric calibration by the )Tj
+T*
+0 Tc
+0.2504 Tw
+[(RADAR team at JPL; mission-provided spacecraft pointing histories; and )18.1(T)35.2(itan and )]TJ
+T*
+0.0117 Tw
+[(spacecraft ephemerides. )18(The encoded raw active mode data in the BODP)37.1( files is decoded, )]TJ
+T*
+0.1922 Tw
+[(and processed into SAR images by the Cassini RADAR Instrument )18.1(T)69.8(eam. )18.1(The pixel )]TJ
+T*
+0.0944 Tw
+(values in the primary BIDR images will be normalized backscatter cross-section values )Tj
+T*
+-0.023 Tw
+[(corrected for incidence angle ef)18.1(fects \()]TJ
+/F9 1 Tf
+0 g
+41.3333 14.2077 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-26.337 -14.2077 TD
+(sigma0_corrected,)Tj
+/F5 1 Tf
+0 g
+26.9203 14.2077 TD
+( )Tj
+0 0 0 1 k
+-16.7187 -14.2077 TD
+-0.023 Tw
+[( see [2]\) as described in the )]TJ
+-25.198 -1.0734 TD
+0.0632 Tw
+[(BODP)37.1( SIS.  )55.2(Additional secondary \(back-plane\) BIDR images on the same grid will also )]TJ
+0 -1.2707 TD
+-0.0001 Tc
+0.0373 Tw
+(be included for latitude, longitude, incidence angle, number of looks, and beam mask for )Tj
+0 -1.2741 TD
+0.2375 Tw
+(each pixel, as well as normalized backscatter cross-sections without incidence angle )Tj
+T*
+0 Tc
+0.0512 Tw
+(correction \()Tj
+/F9 1 Tf
+0 g
+42.1667 19.0999 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-37.4793 -19.0999 TD
+(sigma0)Tj
+/F5 1 Tf
+0 g
+38.1459 19.0999 TD
+( )Tj
+0 0 0 1 k
+-34.5453 -19.0999 TD
+0.0512 Tw
+[(, see [2]\). )18.1(The incidence angle correction algorithm is )18.1(TBD and will )]TJ
+-8.288 -1.2741 TD
+0.0034 Tw
+[(be determined jointly by the Cassini RADAR Instrument and Science )18.1(T)69.8(eams after enough )]TJ
+T*
+0.1563 Tw
+(data is acquired to estimate the variation of )Tj
+/F9 1 Tf
+0 g
+43.0833 21.6481 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-24.3388 -21.6481 TD
+(sigma0)Tj
+/F5 1 Tf
+3.6006 0 TD
+-0.0001 Tc
+0.1564 Tw
+[( due to incidence angle over the )]TJ
+-22.3451 -1.2741 TD
+0 Tc
+0 Tw
+[(surface of )18.1(T)35.2(itan. )]TJ
+0 -1.5768 TD
+0.0939 Tw
+(Only one BIDR of each type and resolution is generated per pass. Information from all )Tj
+0 -1.0734 TD
+-0.0077 Tw
+[(five beams is recorded in the same file. )55.1(Additionally)64.9(, for the )]TJ
+/F10 1 Tf
+24.1488 0 TD
+0 Tw
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 387.022 482.131 Tm
+(0)Tj
+12 0 0 12 391.827 485.131 Tm
+-0.0001 Tc
+-0.0076 Tw
+[( images, a single pixel may )]TJ
+-25.1523 -1.2808 TD
+0.178 Tw
+[(contain information averaged from multiple beams. )18.1(The method for averaging among )]TJ
+0 -1.0734 TD
+0 Tc
+0 Tw
+[(beams is )18.1(TBD. )]TJ
+/F6 1 Tf
+13 0 0 13 90 431.659 Tm
+[(2.5.3)-545.2(Pixel V)55.2(alue Definitions)]TJ
+/F5 1 Tf
+12 0 0 12 90 395.118 Tm
+-0.0001 Tc
+0.0542 Tw
+(Pixels in the primary images represent the normalized backscatter cross-section which is )Tj
+T*
+0 Tc
+0 Tw
+(computed from calculated received power for each pixel using the RADAR equation:)Tj
+0 -9.1468 TD
+(Here, )Tj
+/F8 1 Tf
+2.432 0 TD
+(P)Tj
+9.6 0 0 9.6 126.514 269.476 Tm
+(r )Tj
+/F5 1 Tf
+12 0 0 12 132.551 272.476 Tm
+-0.0109 Tw
+(is the received power for the pixel, )Tj
+/F8 1 Tf
+14.0847 0 TD
+0 Tw
+(L)Tj
+/F5 1 Tf
+0.5191 0 TD
+-0.0109 Tw
+[( is the system loss, )]TJ
+/F8 1 Tf
+7.6681 0 TD
+0 Tw
+(r)Tj
+/F5 1 Tf
+0.3892 0 TD
+-0.0001 Tc
+-0.0108 Tw
+[( is the range to the pixel, )]TJ
+/F8 1 Tf
+-26.207 -1.2808 TD
+0 Tc
+0 Tw
+(P)Tj
+9.6 0 0 9.6 97.33 254.106 Tm
+(t)Tj
+/F5 1 Tf
+12 0 0 12 100 257.106 Tm
+0.0972 Tw
+[( is the transmit power)41(, )]TJ
+/F8 1 Tf
+9.6107 0 TD
+0 Tw
+(G)Tj
+9.6 0 0 9.6 223.994 254.106 Tm
+(r)Tj
+/F5 1 Tf
+12 0 0 12 227.734 257.106 Tm
+0.0972 Tw
+[( is the receiver gain, )]TJ
+/F8 1 Tf
+8.8152 0 TD
+0 Tw
+(G)Tj
+9.6 0 0 9.6 342.183 254.106 Tm
+(ar)Tj
+/F5 1 Tf
+12 0 0 12 350.727 257.106 Tm
+-0.0001 Tc
+0.0973 Tw
+[( is the antenna gain of the pixel at )]TJ
+-21.7272 -1.2808 TD
+0 Tc
+-0.0239 Tw
+(receive time, )Tj
+/F8 1 Tf
+5.3658 0 TD
+0 Tw
+(G)Tj
+9.6 0 0 9.6 163.056 238.736 Tm
+(at)Tj
+/F5 1 Tf
+12 0 0 12 170.53 241.736 Tm
+-0.0239 Tw
+[( is the antenna gain of the pixel at transmit time, )]TJ
+/F8 1 Tf
+19.2694 0 TD
+0 Tw
+(A)Tj
+/F5 1 Tf
+0.5557 0 TD
+-0.0001 Tc
+-0.0238 Tw
+[( is the area of a nominal )]TJ
+-26.5359 -1.2808 TD
+0 Tc
+-0.0267 Tw
+(pixel projected onto the surface of a sphere, and )Tj
+/F10 1 Tf
+12 0 2.5507 12 320.354 226.366 Tm
+0 Tw
+()Tj
+/F5 1 Tf
+12 0 0 12 326.94 226.366 Tm
+-0.0267 Tw
+[( is the wavelength of the RADAR signal. )]TJ
+-19.745 -1.1935 TD
+-0.0218 Tw
+(The normalized backscatter cross-section, )Tj
+/F10 1 Tf
+12 0 2.5507 12 293.199 212.044 Tm
+0 Tw
+()Tj
+9.6 0 2.0405 9.6 300.435 209.044 Tm
+(0)Tj
+/F5 1 Tf
+12 0 0 12 305.24 212.044 Tm
+-0.0218 Tw
+[( is a unitless quantity)65.9(. )55.2(As mentioned above an )]TJ
+-17.9367 -1.3769 TD
+0.0363 Tw
+(additional version of the )Tj
+/F10 1 Tf
+12 0 2.5507 12 211.713 195.521 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 218.95 192.521 Tm
+(0)Tj
+/F5 1 Tf
+12 0 0 12 223.754 195.521 Tm
+0.0363 Tw
+[( image is available that has been scaled to eliminate variation)5.1( )]TJ
+-11.1462 -1.2808 TD
+0.0225 Tw
+[(due to incidence angle. )18.1(The floating point primary images produced by JPL)37.1( will be linear )]TJ
+0 -1.0734 TD
+0.0448 Tw
+[(scale \(not in dB\) unitless backscatter values. )18.1(The 8-bit \(byte\) images produced by USGS )]TJ
+T*
+0.0022 Tw
+[(will contain backscatter values which have been converted to dB then scaled and of)18.1(fset so )]TJ
+T*
+0.0187 Tw
+[(that the dynamic range of the data is 0 to 255. Scaling and of)18.1(fset coef)18.1(ficients are reported )]TJ
+T*
+0 Tw
+(in the attached PDS label \(header\) of each BIDR file.)Tj
+0 -3.1468 TD
+0.0209 Tw
+[(Each pixel in the incidence angle back-plane image is the angle between the local normal)6.3( )]TJ
+0 -1.0734 TD
+0.0044 Tw
+[(and the antenna look vector at a representative time. )18.1(There are a number of measurements)5.2( )]TJ
+/F10 1 Tf
+13.3868 20.5681 TD
+0 Tw
+()Tj
+/F5 1 Tf
+9 0 0 9 258.333 321.203 Tm
+(0)Tj
+12 0 0 12 294.442 333.657 Tm
+[(64)-59(P)]TJ
+9 0 0 9 314.279 330.057 Tm
+(r)Tj
+/F10 1 Tf
+12 0 0 12 317.984 333.657 Tm
+()Tj
+/F5 1 Tf
+9 0 0 9 325.17 337.257 Tm
+(3)Tj
+12 0 0 12 330.377 333.657 Tm
+0.059 Tc
+(Lr)Tj
+9 0 0 9 343.011 337.257 Tm
+0 Tc
+(4)Tj
+12 0 0 12 281.834 311.609 Tm
+(P)Tj
+9 0 0 9 288.963 308.01 Tm
+(t)Tj
+12 0 0 12 292.171 311.609 Tm
+(G)Tj
+9 0 0 9 301.293 308.01 Tm
+(r)Tj
+12 0 0 12 304.998 311.609 Tm
+(G)Tj
+9 0 0 9 314.12 308.01 Tm
+0.0589 Tc
+(ar)Tj
+12 0 0 12 322.349 311.609 Tm
+0 Tc
+(G)Tj
+9 0 0 9 331.471 308.01 Tm
+0.0589 Tc
+(at)Tj
+12 0 0 12 339.204 311.609 Tm
+0 Tc
+(A)Tj
+/F10 1 Tf
+0.7812 0 TD
+()Tj
+/F5 1 Tf
+9 0 0 9 355.619 318.359 Tm
+(2)Tj
+12 0 0 12 281.834 323.25 Tm
+-0.1665 Tc
+(--------------------------------------)Tj
+6.1907 0 TD
+0 Tc
+(-)Tj
+/F3 1 Tf
+-7.2744 0.1293 TD
+(=)Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F8 28 0 R
+/F9 38 0 R
+/F10 39 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Length 4336
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 303.5 36 Tm
+(5)Tj
+12 0 0 12 90 711.674 Tm
+0.0683 Tw
+[(\(possibly from dif)18.3(ferent beams\) used to determine a pixel in the )]TJ
+/F10 1 Tf
+12 0 2.5507 12 407.714 711.674 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 414.951 708.674 Tm
+(0)Tj
+/F5 1 Tf
+12 0 0 12 419.755 711.674 Tm
+0.0683 Tw
+[( image. One of these )]TJ
+-27.4796 -1.2808 TD
+-0.0001 Tc
+0.0637 Tw
+[(measurements is selected. )18.1(The time at which it was acquired \(ground impact time of the )]TJ
+0 -1.0734 TD
+-0.0045 Tw
+[(radar beam\) is chosen as the representative time. )18.1(T)69.7(o)-0.1( select a measurement, first we choose )]TJ
+T*
+0 Tc
+0.3042 Tw
+(the beam with the highest weight during beam averaging, and then we select the )Tj
+T*
+0 Tw
+(measurement whose centroid is closest to the pixel.)Tj
+0 -1.5734 TD
+-0.0114 Tw
+[(The latitude \(longitude\) back-planes specify the ordinary latitude \(longitude\) of each pixel)5.9( )]TJ
+0 -1.0733 TD
+0.0174 Tw
+[(in the International )55.2(Astronomical Union \(IAU\) standard coordinate system for )18.1(T)35.2(itan. )18.1(This )]TJ
+0 -1.2707 TD
+0.1168 Tw
+(coordinate system is a planetographic latitude west longitude system. See section 2.6.2)Tj
+0 -1.2741 TD
+0 Tw
+[(below)64.9(.)]TJ
+0 -1.5768 TD
+0.0634 Tw
+(The identification of the beam or beams which were used to produce a given )Tj
+/F10 1 Tf
+31.7657 0 TD
+0 Tw
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 478.424 573.441 Tm
+(0 )Tj
+12 0 0 12 486.24 576.441 Tm
+-0.0001 Tc
+0.0635 Tw
+(pixel is )Tj
+-33.02 -1.2808 TD
+0 Tc
+0.0399 Tw
+[(stored in the beam mask back-plane image. )18.1(The pixels in this image are 8 bit values. For )]TJ
+0 -1.0734 TD
+0.0469 Tw
+[(each pixel, bits 0-4 \(bit 0 = LSB\) indicate the beam usage as illustrated by the following)5.1( )]TJ
+T*
+0 Tw
+(table. )Tj
+0 -23.3781 TD
+0.2415 Tw
+(The number of looks backplane contains 32 bit integer values corresponding to the )Tj
+0 -1.2741 TD
+0 Tw
+(number of independent measurements averaged together to populate each pixel value.  )Tj
+/F6 1 Tf
+13 0 0 13 90 214.221 Tm
+[(2.5.4)-545.2(Multiple Resolutions)]TJ
+/F5 1 Tf
+12 0 0 12 90 196.561 Tm
+(As mentioned above, USGS will process full resolution BIDRs to 8-bit format BIDRs at )Tj
+0 -1.0734 TD
+[(various resolutions, which will then be returned to the Cassini Radar Instrument )18.1(T)69.8(eam at )]TJ
+T*
+[(JPL)37.1( for archiving. USGS will perform this processing only for the primary \(incidence )]TJ
+T*
+(angle corrected )Tj
+/F10 1 Tf
+6.3848 0 TD
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 173.854 154.918 Tm
+(0)Tj
+12 0 0 12 178.658 157.918 Tm
+[(\) images. )18.4(The full resolution is 256 pixels per degree. Floating point )]TJ
+-7.3882 -1.2808 TD
+-0.0391 Tw
+(versions of all full resolution images except \(beam-masks\) will be produced by the Cassini )Tj
+0 -1.0734 TD
+0 Tw
+[(Radar Instrument )18.1(T)69.8(eam at JPL)37.1( \(CRIT\). CRIT)18.1( will also produce 8-bit full resolution 256 )]TJ
+T*
+-0.0498 Tw
+(pixels/degree and 128 pixels/degree beam-mask BIDRs. USGS will produce 8-bit versions )Tj
+T*
+0 Tw
+(of primary \(incidence angle corrected sigma0\) image BIDRs at 256, 128, 32, 8, and 2 )Tj
+T*
+(pixel per degree resolutions. USGS will also produce 128-pixel/degree versions of all the )Tj
+T*
+(floating point BIDR images \(backplanes and primary image\).)Tj
+/F11 1 Tf
+4.0464 34.4434 TD
+[(T)91.8(able 1:  Beam Mask Pixel Definition)]TJ
+/F5 1 Tf
+-1.6578 -2.1667 TD
+[(Bit)-7759.7(Meaning of bit =1)]TJ
+-1.8887 -2 TD
+[(0)-5500(Beam 1 was used for this pixel.)]TJ
+0 -1.8333 TD
+[(1)-5500(Beam 2 was used for this pixel.)]TJ
+T*
+[(2)-5500(Beam 3 was used for this pixel.)]TJ
+T*
+[(3)-5500(Beam 4 was used for this pixel.)]TJ
+T*
+[(4)-5500(Beam 5 was used for this pixel.)]TJ
+T*
+[(5)-5500(Bit always zero)]TJ
+T*
+[(6)-5500(Bit always zero.)]TJ
+T*
+[(7)-5500(Bit always zero.)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 481.215 m
+90 279.715 l
+162 481.715 m
+162 279.215 l
+378 481.215 m
+378 279.715 l
+89.75 481.465 m
+378.25 481.465 l
+90.25 456.715 m
+377.75 456.715 l
+90.25 454.215 m
+377.75 454.215 l
+89.75 433.465 m
+378.25 433.465 l
+89.75 411.465 m
+378.25 411.465 l
+89.75 389.465 m
+378.25 389.465 l
+89.75 367.465 m
+378.25 367.465 l
+89.75 345.465 m
+378.25 345.465 l
+89.75 323.465 m
+378.25 323.465 l
+89.75 301.465 m
+378.25 301.465 l
+89.75 279.465 m
+378.25 279.465 l
+S
+endstream
+endobj
+42 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F8 28 0 R
+/F10 39 0 R
+/F11 43 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+45 0 obj
+<<
+/Length 5265
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 303.5 36 Tm
+(6)Tj
+/F6 1 Tf
+13 0 0 13 90 686.452 Tm
+[(2.5.5)-545.2(SAR Processing algorithm)]TJ
+/F5 1 Tf
+12 0 0 12 90 668.793 Tm
+(The radar echo data is stored as a time series of floating point values in the Long Burst )Tj
+0 -1.0734 TD
+[(Data Record \(LBDR\) format BODP)37.1( files[2]. )18.1(The SAR processor converts this data to )]TJ
+T*
+(BIDR images in a series of steps:)Tj
+0 -2.1467 TD
+[(1\) )18.1(The data is segmented by pulse number)55.2(.)]TJ
+0 -1.0734 TD
+[(2\) It is range compressed by correlation with a matched filter)55.2(.)]TJ
+T*
+(3\) It is azimuth compressed.)Tj
+T*
+(4\) It is calibrated \(converted from raw counts to )Tj
+/F10 1 Tf
+19.4097 0 TD
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 330.152 575.627 Tm
+(0)Tj
+12 0 0 12 334.957 578.627 Tm
+( values\) using the radar equation, an )Tj
+-20.4131 -1.2808 TD
+(antenna gain pattern for each beam estimated from radiometric sun scans, planetary and )Tj
+0 -1.0734 TD
+(spacecraft ephemeris, and pre-launch and post-launch instrument calibration )Tj
+T*
+(measurements.)Tj
+T*
+(5\) Overlapping measurements are averaged together after interpolation to a co-registered )Tj
+T*
+(geo-located grid.)Tj
+T*
+[(6\) )55.2(A)55.2( correction for incidence angle variation is applied.)]TJ
+/F6 1 Tf
+13 0 0 13 90 460.751 Tm
+[(2.5.6)-545.2(Labeling and Identification)]TJ
+/F5 1 Tf
+12 0 0 12 90 443.091 Tm
+0.0462 Tw
+(The Cassini RADAR BIDRs will be archived as binary files, the initial records of which )Tj
+T*
+0.1791 Tw
+(will contain a PDS label describing the contents in terms of the keywords listed and )Tj
+T*
+0.2439 Tw
+[(defined in )55.2(Appendix B. Each Cassini RADAR BIDR will be assigned a string that )]TJ
+T*
+0.0939 Tw
+[(uniquely identifies the type of data product, bit type, resolution, and the location of the)5.3( )]TJ
+T*
+0.0066 Tw
+[(data on )18.1(T)35.2(itan. )18.1(This string will be used both as the value of the PRODUCT_ID keyword in )]TJ
+T*
+0.0527 Tw
+[(the PDS labels and, with extension ".IMG" as the filename for that product. )18(The scheme )]TJ
+T*
+0 Tw
+[(adopted is specified in )55.2(Appendix B.)]TJ
+/F7 1 Tf
+14 0 0 14 90 339.918 Tm
+(2.6 Standards Used in Generating Data Products)Tj
+/F6 1 Tf
+13 0 0 13 90 312.585 Tm
+[(2.6.1)-545.2(Coordinate Systems)]TJ
+/F5 1 Tf
+12 0 0 12 90 294.925 Tm
+0.1067 Tw
+(The coordinate systems and geodetic/cartographic parameters used in production of the )Tj
+T*
+0.3293 Tw
+(Cassini RADAR Basic Image Data Records are chosen to be consistent with the )Tj
+T*
+-0.0001 Tc
+0.172 Tw
+[(recommendations of the International )55.2(Astronomical Union/International )55.2(Association of )]TJ
+T*
+0 Tc
+0.416 Tw
+[(Geodesy \(IAU/IAG\) )18.1(W)80.1(orking Group on Cartographic Coordinates and Rotational )]TJ
+T*
+-0.0168 Tw
+[(Elements of the Planets and Satellites. )18(These standards are also endorsed by the PDS [5, p. )]TJ
+T*
+0 Tw
+(2-1].)Tj
+0 -1.5734 TD
+-0.0192 Tw
+(The IAU/IAG regularly revises its recommended cartographic constants, based on the best )Tj
+0 -1.0734 TD
+0.1661 Tw
+[(available data.  )55.2(As of this writing, the most recent report of the group [1)37.1(1] gives the )]TJ
+T*
+0.0535 Tw
+[(following values of cartographic constants for )18.1(T)35.2(itan, based on astronomical observations )]TJ
+T*
+0.1279 Tw
+[(and )18.1(V)128.9(oyager spacecraft data.  )18.1(The right ascension )]TJ
+/F10 1 Tf
+12 0 2.5507 12 342.524 172.997 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 350.094 169.997 Tm
+(0)Tj
+/F5 1 Tf
+12 0 0 12 354.899 172.997 Tm
+0.1279 Tw
+[( and declination )]TJ
+/F10 1 Tf
+12 0 2.5507 12 439.144 172.997 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 445.074 169.997 Tm
+(0)Tj
+/F5 1 Tf
+12 0 0 12 449.878 172.997 Tm
+0.1279 Tw
+[( of the axis of )]TJ
+-29.9898 -1.2808 TD
+0 Tw
+(rotation at a time t are given by)Tj
+0 -3.84 TD
+(and)Tj
+/F10 1 Tf
+0.4163 2.0147 TD
+()Tj
+/F5 1 Tf
+9 0 0 9 103.021 132.123 Tm
+(0)Tj
+12 0 0 12 126.282 135.723 Tm
+(36.41)Tj
+/F10 1 Tf
+9 0 0 9 153.881 139.323 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 169.477 135.723 Tm
+(0.036)Tj
+/F10 1 Tf
+9 0 0 9 197.077 139.323 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 201.384 135.723 Tm
+[(t)-1063.7(2)0.2(.66)]TJ
+/F10 1 Tf
+9 0 0 9 239.082 139.323 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 264.147 135.723 Tm
+(29.80)Tj
+/F10 1 Tf
+9 0 0 9 291.746 139.323 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 307.342 135.723 Tm
+(52.1)Tj
+/F10 1 Tf
+9 0 0 9 328.942 139.323 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 333.249 135.723 Tm
+(t)Tj
+/F3 1 Tf
+-2.9088 0 TD
+(Ö)Tj
+/F10 1 Tf
+-3.2537 0 TD
+6.1782 Tc
+(\(\))Tj
+/F5 1 Tf
+-1.2669 0 TD
+0 Tc
+(sin)Tj
+/F3 1 Tf
+-3.0317 0 TD
+(+)Tj
+-3.9364 0 TD
+(Ö)Tj
+-3.9135 0 TD
+(=)Tj
+/F10 1 Tf
+-1.5435 -3.84 TD
+()Tj
+/F5 1 Tf
+9 0 0 9 101.38 86.043 Tm
+(0)Tj
+12 0 0 12 124.641 89.643 Tm
+(83.94)Tj
+/F10 1 Tf
+9 0 0 9 152.241 93.243 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 167.837 89.643 Tm
+(0.004)Tj
+/F10 1 Tf
+2.3089 0 TD
+(∞)Tj
+/F5 1 Tf
+0.4589 0 TD
+[(t)-596.9(0)0.2(.30)]TJ
+/F3 1 Tf
+0.3368 0 TD
+(Ö)Tj
+/F10 1 Tf
+2.347 0 TD
+(∞)Tj
+/F5 1 Tf
+2.3548 0 TD
+(29.80)Tj
+/F10 1 Tf
+9 0 0 9 289.112 93.243 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 304.708 89.643 Tm
+(52.1)Tj
+/F10 1 Tf
+9 0 0 9 326.308 93.243 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 330.615 89.643 Tm
+(t)Tj
+/F3 1 Tf
+-2.9087 0 TD
+(Ö)Tj
+/F10 1 Tf
+-3.2537 0 TD
+6.1782 Tc
+(\(\))Tj
+/F5 1 Tf
+-1.4329 0 TD
+0 Tc
+(cos)Tj
+/F3 1 Tf
+-6.7193 0 TD
+(Ö)Tj
+-3.9134 0 TD
+(=)Tj
+ET
+endstream
+endobj
+46 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+/F8 28 0 R
+/F10 39 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+50 0 obj
+<<
+/Length 6672
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 303.5 36 Tm
+(7)Tj
+12 0 0 12 90 711.674 Tm
+(where )Tj
+/F8 1 Tf
+2.7075 0 TD
+(t)Tj
+/F5 1 Tf
+0.2778 0 TD
+0.0146 Tw
+[( is the interval in Julian centuries from the standard epoch \(J2000.0\) 2000 January )]TJ
+-2.9853 -1.0734 TD
+-0.0059 Tw
+[(1.5 )18.1(TDB.  )18.1(The rotation of )18.1(T)35.2(itan around this axis is given in terms of the angle )]TJ
+/F8 1 Tf
+31.1094 0 TD
+0 Tw
+(W)Tj
+/F5 1 Tf
+0.8149 0 TD
+-0.0001 Tc
+-0.0058 Tw
+[( measured )]TJ
+-31.9243 -1.0734 TD
+0.0203 Tw
+(eastward from the intersection of the planetary equator with the standard Earth equator to )Tj
+T*
+0 Tc
+0 Tw
+(the prime meridian)Tj
+0 -3.6026 TD
+(where )Tj
+/F8 1 Tf
+2.8718 0 TD
+(d)Tj
+/F5 1 Tf
+0.5 0 TD
+0.1789 Tw
+[( is the time in days from the standard epoch. )18.1(V)110.8(alues of )]TJ
+/F10 1 Tf
+24.0962 0 TD
+0 Tw
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 427.187 626.8 Tm
+(0)Tj
+12 0 0 12 431.991 629.8 Tm
+(, )Tj
+/F10 1 Tf
+0.679 0 TD
+()Tj
+/F5 1 Tf
+9.6 0 0 9.6 446.068 626.8 Tm
+(0)Tj
+12 0 0 12 450.873 629.8 Tm
+0.1789 Tw
+[(, and )18.1(W)18.1( for a )]TJ
+-30.0728 -1.2808 TD
+0.0567 Tw
+[(reference time within each )18.1(T)35.2(itan pass are included for convenience in each record of the)5.6( )]TJ
+0 -1.0733 TD
+0 Tw
+[(BODP)37.1( files. \(See BODP)37.1( SIS.\))]TJ
+0 -1.5734 TD
+0.038 Tw
+[(The IAU/IAG report [1)37.1(1] also gives a recommendation for the reference figure for )18.1(T)35.2(itan, )]TJ
+0 -1.0734 TD
+0.0903 Tw
+[(namely a sphere of radius 2575 km.  )18.1(This reference sphere will be used in defining the )]TJ
+T*
+0 Tw
+(map projections of the BIDR and the Cassini RADAR Digital Map Products [4]. )Tj
+0 -1.5734 TD
+0.3382 Tw
+(It is highly likely that the RADAR \(and possibly other\) investigations will yield )Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.2765 Tw
+[(information leading to a refinement of the cartographic constants given above.  In )]TJ
+T*
+0 Tc
+-0.0142 Tw
+[(particular)40(, the spin axis direction and spin rate will be included as adjustable parameters in)5.1( )]TJ
+T*
+0.0821 Tw
+[(the calculation of a )18.1(T)35.2(itan control network and ephemerides, and the refinement of these)5.3( )]TJ
+T*
+0.2525 Tw
+[(spin parameters is a stated goal of the RADAR team.  RADAR altimetry or other )]TJ
+T*
+-0.0001 Tc
+0.0246 Tw
+(observations may also lead to an improved radius value or even a triaxial ellipsoid model )Tj
+T*
+0 Tc
+0.1475 Tw
+[(for the )18.1(T)35.2(itan reference surface.  Should such improved cartographic constants become )]TJ
+T*
+0.0779 Tw
+(available as a result of the Cassini mission, they will be communicated to the IAU/IAG )Tj
+T*
+-0.0236 Tw
+[(W)80.1(orking Group for approval and will be used to produce the final, archived versions of the )]TJ
+T*
+0 Tw
+(Cassini RADAR Basic Image Data Records.)Tj
+0 -1.5733 TD
+0.0602 Tw
+[(The IAU has approved two dif)18.1(ferent types of coordinate systems for planetary mapping. )]TJ
+0 -1.0734 TD
+0.1189 Tw
+[(The first, usually described as )-250(planetocentric)-250( incorporates planetocentric latitude \(the)-382.3( )]TJ
+T*
+-0.0001 Tc
+0.1405 Tw
+[(angle between a point, the center of the body)64.8(, and the equatorial plane\) and longitude )]TJ
+T*
+0 Tc
+0.2777 Tw
+[(measured positive eastward.  )18.1(This system is identical to the standard, right-handed )]TJ
+T*
+-0.0001 Tc
+0.0491 Tw
+(spherical polar coordinate system of mathematics and is universally used in cartographic )Tj
+T*
+0 Tc
+0.1782 Tw
+(calculations even when the result will be converted to the other approved system for )Tj
+T*
+0.0584 Tw
+[(output.  )18.1(The second system, usually called )-250(planetographic)-250( uses planetographic latitude)-383.4( )]TJ
+T*
+0.0172 Tw
+[(\(the angle between the perpendicular to the reference surface at a point and the equatorial)5.8( )]TJ
+T*
+0.0919 Tw
+(plane\) and a positive longitude direction chosen so that the longitude of the disk center )Tj
+T*
+-0.0001 Tc
+0.2017 Tw
+[(increases with time as seen by an observer fixed in inertial space.  )18.1(The choice of a )]TJ
+T*
+0 Tc
+0.1419 Tw
+[(spherical reference surface for )18.1(T)35.2(itan makes the two kinds of latitude identical, but the)5.2( )]TJ
+T*
+-0.0001 Tc
+0.2511 Tw
+(positive longitude direction associated with planetographic latitude for this prograde )Tj
+T*
+0 Tc
+0 Tw
+(rotator is westward.  )Tj
+/F8 1 Tf
+0 -1.5734 TD
+0.1139 Tw
+(The planetographic latitude/west longitude system will be used for the Cassini RADAR )Tj
+0 -1.0733 TD
+0 Tw
+(BIDR)Tj
+/F5 1 Tf
+2.2768 0 TD
+0.033 Tw
+[(.  )18.1(The motivation for this choice is lar)18.1(gely historical; this type of coordinate system)5.2( )]TJ
+-2.2768 -1.0734 TD
+-0.0001 Tc
+0.1028 Tw
+(has been used for the vast majority of maps of planets and satellites \(apart from recent )Tj
+T*
+0 Tc
+-0.006 Tw
+[(maps of Mars and all maps of Earth from antiquity to present\).  It is therefore important to )]TJ
+T*
+-0.0293 Tw
+(remember that the positive-west longitude )Tj
+/F10 1 Tf
+12 0 2.5507 12 293.854 178.243 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 300.44 175.243 Tm
+(w)Tj
+/F5 1 Tf
+12 0 0 12 306.849 178.243 Tm
+-0.0293 Tw
+[( reported in the labels of the Cassini RADAR )]TJ
+-18.0708 -1.2808 TD
+0 Tw
+(BIDR files is related to the positive-east longitude )Tj
+/F10 1 Tf
+12 0 2.5507 12 333.949 162.873 Tm
+()Tj
+/F5 1 Tf
+12 0 0 12 340.535 162.873 Tm
+( used in calculation by)Tj
+-15.2112 -2.1663 TD
+(.)Tj
+-5.6667 -1.5734 TD
+0.1494 Tw
+(In general, the PDS approves the use of longitudes of the chosen directionality in the )Tj
+0 -1.0734 TD
+0.044 Tw
+(numerical range ó180ﬂ to 360ﬂ, but this is meant to accommodate the use of the ó180ﬂ to)Tj
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0733 TD
+0.0283 Tw
+(180ﬂ range for the Earth, Moon, and Sun, and the 0ﬂ to 360ﬂ range for all other bodies [5,)Tj
+36 0 TD
+0 Tw
+( )Tj
+-35.7503 46.5743 TD
+[(W)-1563.4(1)0.2(89.64)]TJ
+/F10 1 Tf
+9 0 0 9 156.683 654.7271 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 172.279 651.127 Tm
+(22.5769768)Tj
+/F10 1 Tf
+4.809 0 TD
+(∞)Tj
+/F5 1 Tf
+0.4588 0 TD
+[(d)-1063.7(2)-0.1(.64)]TJ
+/F10 1 Tf
+3.3727 0 TD
+(∞)Tj
+/F5 1 Tf
+2.1887 0 TD
+(29.80)Tj
+/F10 1 Tf
+9 0 0 9 329.83 654.7271 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 345.426 651.127 Tm
+(52.1)Tj
+/F10 1 Tf
+9 0 0 9 367.025 654.7271 Tm
+(∞)Tj
+/F5 1 Tf
+12 0 0 12 371.332 651.127 Tm
+(t)Tj
+/F3 1 Tf
+-2.9087 0 TD
+(Ö)Tj
+/F10 1 Tf
+-3.2538 0 TD
+6.1783 Tc
+(\(\))Tj
+/F5 1 Tf
+-1.2669 0 TD
+0 Tc
+(sin)Tj
+/F3 1 Tf
+-3.1406 0 TD
+(+)Tj
+-6.7676 0 TD
+(Ö)Tj
+-4.4135 0 TD
+(=)Tj
+ET
+/Cs7 cs 0 scn
+/GS2 gs
+90 150.877 68 -14 re
+f
+BT
+/F10 1 Tf
+12 0 2.64 12 92 141 Tm
+0 g
+()Tj
+ET
+q
+1 i 
+90 150.877 68 -13.877 re
+W n
+BT
+12 0 2.64 12 150.2187 141 Tm
+()Tj
+ET
+Q
+BT
+/TT2 1 Tf
+7 0 0 7 98.7187 138 Tm
+(w)Tj
+/F10 1 Tf
+12 0 0 12 107.2187 141 Tm
+1.7428 Tc
+[(=∞)1601(ä)]TJ
+/F3 1 Tf
+0.7917 0 TD
+0 Tc
+(360)Tj
+ET
+endstream
+endobj
+51 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F8 28 0 R
+/F10 39 0 R
+/TT2 52 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+/GS2 53 0 R
+>>
+/ColorSpace <<
+/Cs7 54 0 R
+>>
+>>
+endobj
+55 0 obj
+<<
+/FunctionType 4
+/Domain [0 1]
+/Range [0 1 0 1 0 1 0 1]
+/Length 20
+/Filter /FlateDecode
+>>
+stream
+Hâ™N)-PÄ‚Z.Ä  (Ä
+endstream
+endobj
+54 0 obj
+[/Separation /All /DeviceCMYK 55 0 R]
+endobj
+57 0 obj
+<<
+/Length 7099
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 303.5 36 Tm
+(8)Tj
+12 0 0 12 90 711.674 Tm
+0.0329 Tw
+[(p. 2-2].  )18(The Cassini RADAR Basic Image Data Records will utilize the 0ﬂ to 360ﬂ range)]TJ
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0734 TD
+(of longitudes in filenames and label parameters.  )Tj
+/F6 1 Tf
+13 0 0 13 90 673.572 Tm
+[(2.6.2)-545.2(Cartographic Standards)]TJ
+/F5 1 Tf
+12 0 0 12 90 655.912 Tm
+0.1162 Tw
+(Oblique cylindrical map projections will be used in production of the Cassini RADAR )Tj
+T*
+0.0345 Tw
+[(Basic Image Data Records.  Secondary BIDR image files will be generated with maps of )]TJ
+T*
+-0.0001 Tc
+0.2308 Tw
+(geographic latitude and longitude values corresponding to each pixel in the primary )Tj
+T*
+0 Tc
+0 Tw
+(images. )Tj
+0 -1.5734 TD
+0.1232 Tw
+(In keeping with PDS recommendations [5, p. 2-5], Cassini RADAR Basic Image Data )Tj
+0 -1.0734 TD
+0.2313 Tw
+[(Records employ map resolutions of 2, 8, 32, 128, and 256 pixels per degree.  )18.1(The )]TJ
+T*
+-0.0001 Tc
+0.0621 Tw
+(corresponding map scales are approximately 22.5, 5.62 km, 1.40 km, 351 m, and 175 m )Tj
+T*
+0 Tc
+0.0597 Tw
+[(per pixel.  )18.1(The 256-pixel/degree scale preserves the full resolution of the high- and low-)]TJ
+T*
+0.0472 Tw
+[(resolution SAR modes.  )55.1(Although the range resolution of the low-resolution SAR data is )]TJ
+T*
+-0.0216 Tw
+(twice as coarse as that of the high-resolution data, the azimuth resolution of the two modes )Tj
+T*
+0.0133 Tw
+[(are similar)55.2(. For this reason even the low-resolution SAR data is slightly undersampled \(in )]TJ
+T*
+0 Tw
+(one dimension\) by the 128 pixel per degree maps.)Tj
+0 -1.5734 TD
+0.0147 Tw
+[(Because of the highly variable geometry of the Cassini spacecraft)-194.8(s encounters with )18.1(T)35.2(itan)-79( )]TJ
+0 -1.0734 TD
+-0.0001 Tc
+-0.0061 Tw
+(and the elongated shape of the SAR image footprints, the Simple Cylindrical \(geographic\) )Tj
+T*
+-0.0331 Tw
+[(coordinate system would be extremely inef)18(ficient for representing individual basic images. )]TJ
+T*
+0.0668 Tw
+(Basic Image Data Records will therefore be produced in Oblique Cylindrical projection. )Tj
+T*
+0.3063 Tw
+(This type of projection is a Cartesian plot of the angular \(longitude and latitude\) )Tj
+T*
+0 Tc
+0.061 Tw
+[(coordinates of features, not with respect to the standard coordinate axes of the body)64.9(, but )]TJ
+T*
+0.0232 Tw
+[(with respect to a rotated set of axes [12, p. 29ó32].  )55.2(A)55.2( separate oblique coordinate system)]TJ
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0734 TD
+-0.0001 Tc
+-0.021 Tw
+[(will be established for each )18.1(T)35.1(itan pass, placing the equator of the rotated coordinates along )]TJ
+T*
+0 Tc
+0.0172 Tw
+(the ground track of that Cassini flyby and the rotated prime meridian through the point of )Tj
+T*
+-0.0244 Tw
+[(closest approach.  Let )]TJ
+/F12 1 Tf
+8.871 0 TD
+0 Tw
+(X)Tj
+9.6 0 0 9.6 205.118 370.414 Tm
+(B)Tj
+/F5 1 Tf
+12 0 0 12 211.527 373.414 Tm
+-0.0244 Tw
+[( be the vector from the center of )20.1(T)35.2(itan to a position on the surface )]TJ
+-10.1272 -1.2745 TD
+0.0795 Tw
+(in the standard, body-fixed rotating coordinate system, which has its x-axis toward zero )Tj
+0 -1.0734 TD
+-0.0164 Tw
+(latitude and longitude, z-axis toward the north pole, and y-axis completing a righthand set. )Tj
+T*
+0 Tw
+(Then in terms of the latitude and longitude of the point, )Tj
+0 -4.2574 TD
+(where )Tj
+/F8 1 Tf
+9.6 0 0 9.6 121.968 286.069 Tm
+(T)Tj
+/F5 1 Tf
+12 0 0 12 127.096 281.269 Tm
+-0.0288 Tw
+[( indicates the vector transpose.  )19.7(The equivalent vector )]TJ
+/F12 1 Tf
+21.4919 0 TD
+0 Tw
+(X)Tj
+9.6 0 0 9.6 393.665 278.269 Tm
+(A)Tj
+/F11 1 Tf
+0.7227 0 TD
+( )Tj
+/F5 1 Tf
+12 0 0 12 402.728 281.269 Tm
+-0.0288 Tw
+(giving the position of the )Tj
+-26.0607 -1.2808 TD
+0 Tw
+(point in oblique coordinates is)Tj
+7.5833 -2.0462 TD
+(,)Tj
+-7.5833 -1.5734 TD
+-0.024 Tw
+(where the rows of the rotation matrix  )Tj
+/F12 1 Tf
+15.1922 0 TD
+0 Tw
+(M )Tj
+/F5 1 Tf
+1.1698 0 TD
+-0.024 Tw
+(are equal to \(the transpose of\) the basis vectors of )Tj
+-16.362 -1.0734 TD
+0 Tw
+(the oblique system)Tj
+0 -9.1468 TD
+0.0447 Tw
+(In these definitions, )Tj
+/F12 1 Tf
+8.2991 0 TD
+0 Tw
+(X)Tj
+9.6 0 0 9.6 198.255 96.821 Tm
+(c)Tj
+/F5 1 Tf
+12 0 0 12 202.52 99.821 Tm
+0.0447 Tw
+[( is the position of the Cassini spacecraft in the regular body-fixed )]TJ
+-9.3767 -1.2745 TD
+0.0397 Tw
+(system at the time of closest approach, and )Tj
+/F12 1 Tf
+17.7289 0 TD
+0 Tw
+(V)Tj
+9.6 0 0 9.6 311.413 81.5269 Tm
+(c)Tj
+/F5 1 Tf
+12 0 0 12 315.678 84.5269 Tm
+-0.0001 Tc
+0.0398 Tw
+[( is its \(body-relative, non-inertial\) velocity )]TJ
+ET
+/Cs7 cs 0 scn
+/GS2 gs
+126 321.804 264 -19 re
+f
+0 g
+1 i 
+157.094 318 m
+154.5 311 l
+155 311 l
+157.594 318 l
+f
+154.5 311 m
+157.094 304 l
+157.594 304 l
+155 311 l
+f
+201.844 318 m
+204.437 311 l
+204.937 311 l
+202.344 318 l
+f
+204.437 311 m
+201.844 304 l
+202.344 304 l
+204.937 311 l
+f
+226.031 318 m
+223.437 311 l
+223.937 311 l
+226.531 318 l
+f
+223.437 311 m
+226.031 304 l
+226.531 304 l
+223.937 311 l
+f
+380.156 318 m
+382.75 311 l
+383.25 311 l
+380.656 318 l
+f
+382.75 311 m
+380.156 304 l
+380.656 304 l
+383.25 311 l
+f
+BT
+/F12 1 Tf
+12 0 0 12 128 308 Tm
+0 Tc
+0 Tw
+(X)Tj
+7 0 0 7 137 305 Tm
+(B)Tj
+/F10 1 Tf
+12 0 0 12 145 308 Tm
+5.196 Tc
+(==)Tj
+/TT2 1 Tf
+1.1693 0 TD
+0.8843 Tc
+[(xy)41.7(z)-1815.1(R)-3635.1(R)-3481.4(R)]TJ
+7 0 0 7 165.0312 305 Tm
+1.6659 Tc
+[(BB)214.2(B)]TJ
+5.7723 1.4375 TD
+24.9171 Tc
+(TT)Tj
+/F3 1 Tf
+12 0 0 12 170.4687 308 Tm
+0 Tc
+[(,)-1078.1(,)-3880.2(cos)-776.4(cos)-646.2(,)-791.7(cos)-776.4(sin)-658.5(,)-791.7(sin)]TJ
+/F10 1 Tf
+12 0 2.64 12 252.2812 308 Tm
+1.5897 Tc
+[()-799()153.7()-645.3()]TJ
+ET
+/Cs7 cs 0 scn
+126 255.345 55 -14 re
+f
+BT
+/F12 1 Tf
+12 0 0 12 128 245 Tm
+0 g
+1.5278 Tc
+[(XM)1471.6(X)]TJ
+7 0 0 7 137 242 Tm
+4.8493 Tc
+(AB)Tj
+/F10 1 Tf
+12 0 0 12 146 245 Tm
+0 Tc
+(=)Tj
+/F11 1 Tf
+0 0 0 1 k
+/GS1 gs
+10.1717 -5.8826 TD
+(x)Tj
+9 0 0 9 274.516 173.659 Tm
+(B)Tj
+12 0 0 12 299.35 174.409 Tm
+(X)Tj
+9 0 0 9 308.472 170.81 Tm
+(c)Tj
+12 0 0 12 325.145 174.409 Tm
+(X)Tj
+9 0 0 9 334.267 170.81 Tm
+(c)Tj
+/F10 1 Tf
+12 0 0 12 315.465 174.409 Tm
+-0.137 Tc
+(áá)Tj
+0.03 0.03 TD
+-0.197 Tc
+(áá)Tj
+/F12 1 Tf
+-2.4424 -0.03 TD
+0 Tc
+(=)Tj
+/F11 1 Tf
+-1.538 -2.1732 TD
+(y)Tj
+9 0 0 9 274.516 147.581 Tm
+(B)Tj
+12 0 0 12 299.35 148.331 Tm
+(V)Tj
+9 0 0 9 308.472 144.732 Tm
+(c)Tj
+12 0 0 12 325.145 148.331 Tm
+(V)Tj
+9 0 0 9 334.267 144.732 Tm
+(c)Tj
+/F10 1 Tf
+12 0 0 12 315.465 148.331 Tm
+-0.137 Tc
+(áá)Tj
+0.03 0.03 TD
+-0.197 Tc
+(áá)Tj
+/F12 1 Tf
+-2.4424 -0.03 TD
+0 Tc
+(=)Tj
+/F11 1 Tf
+-1.2562 -2.1731 TD
+(z)Tj
+9 0 0 9 277.224 121.504 Tm
+(B)Tj
+12 0 0 12 302.058 122.254 Tm
+(x)Tj
+9 0 0 9 308.514 121.504 Tm
+(B)Tj
+12 0 0 12 327.099 122.254 Tm
+(y)Tj
+9 0 0 9 333.555 121.504 Tm
+(B)Tj
+/F10 1 Tf
+12 0 0 12 317.515 122.254 Tm
+(◊)Tj
+0.03 0 TD
+(◊)Tj
+0 0.03 TD
+(◊)Tj
+-0.03 0 TD
+(◊)Tj
+/F12 1 Tf
+-2.3577 -0.03 TD
+(=)Tj
+ET
+0 0 0 1 K
+2 J 0 j 0.54 w 10 M []0 d
+321.667 169.759 m
+321.667 183.409 l
+323.406 169.759 m
+323.406 183.409 l
+339.461 169.759 m
+339.461 183.409 l
+341.2 169.759 m
+341.2 183.409 l
+321.667 143.681 m
+321.667 157.331 l
+323.406 143.681 m
+323.406 157.331 l
+339.461 143.681 m
+339.461 157.331 l
+341.2 143.681 m
+341.2 157.331 l
+S
+endstream
+endobj
+58 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F8 28 0 R
+/F10 39 0 R
+/F11 43 0 R
+/F12 59 0 R
+/TT2 52 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+/GS2 53 0 R
+>>
+/ColorSpace <<
+/Cs7 54 0 R
+>>
+>>
+endobj
+60 0 obj
+<<
+/FunctionType 4
+/Domain [0 1]
+/Range [0 1 0 1 0 1 0 1]
+/Length 20
+/Filter /FlateDecode
+>>
+stream
+Hâ™N)-PÄ‚Z.Ä  (Ä
+endstream
+endobj
+62 0 obj
+<<
+/Length 9892
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 303.5 36 Tm
+(9)Tj
+12 0 0 12 90 711.674 Tm
+0.2196 Tw
+[(at that time.  Because the positive y-axis of the oblique system is chosen to be )]TJ
+/F12 1 Tf
+34.9223 0 TD
+0 Tw
+(V)Tj
+9.6 0 0 9.6 517.734 708.674 Tm
+(c)Tj
+/F5 1 Tf
+12 0 0 12 90 696.38 Tm
+0.0184 Tw
+[(observation time is increasing with line number for all images. )21.2(The illumination direction )]TJ
+0 -1.0734 TD
+-0.0001 Tc
+0.1953 Tw
+[(relative to the image coordinates then depends on the geometry of the flyby:  if the )]TJ
+T*
+0 Tc
+0.0859 Tw
+[(spacecraft images to the left of its ground track, the image will be illuminated from the)5.2( )]TJ
+T*
+0.06 Tw
+[(\(viewerís\)  left side, and, conversely)64.9(, if the spacecraft looks to the right, the illumination)157.6( )]TJ
+T*
+0.0157 Tw
+[(will come from the right in the image file.  )18.1(The direction of illumination, which is critical)7( )]TJ
+T*
+0.3242 Tw
+(to interpretation of features in the image, is recorded in the LOOK_DIRECTION )Tj
+T*
+0.0722 Tw
+[(keyword.  )18(The matrix )]TJ
+/F12 1 Tf
+9.1851 0 TD
+0 Tw
+(M)Tj
+/F5 1 Tf
+0.9438 0 TD
+0.0722 Tw
+[( can also be written in terms of successive rotations around the )]TJ
+-10.1289 -1.0734 TD
+0 Tw
+(body-fixed z-axis, the once-rotated y-axis, and finally the twice-rotated z-axis)Tj
+0 -7.1197 TD
+0.034 Tw
+(In this representation, )Tj
+/F10 1 Tf
+12 0 2.5507 12 198.527 520.778 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 205.113 517.778 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 209.918 520.778 Tm
+0.034 Tw
+[( and )]TJ
+/F10 1 Tf
+12 0 2.5507 12 234.06 520.778 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 241.296 517.778 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 246.101 520.778 Tm
+-0.0001 Tc
+0.0341 Tw
+[( are directly interpretable as the longitude and latitude of )]TJ
+-13.0084 -1.2808 TD
+0 Tc
+-0.0143 Tw
+[(the north pole of the rotated system in terms of the standard system.  In the rotated system, )]TJ
+0 -1.0734 TD
+0.0139 Tw
+(the pole of the standard system is located at longitude )Tj
+/F10 1 Tf
+12 0 2.5507 12 352.268 492.527 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+12 0 0 12 358.854 492.527 Tm
+(-)Tj
+/F10 1 Tf
+12 0 2.5507 12 362.85 492.527 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 369.102 489.527 Tm
+(P)Tj
+/F5 1 Tf
+12 0 0 12 373.642 492.527 Tm
+0.0139 Tw
+(, latitude )Tj
+/F10 1 Tf
+12 0 2.5507 12 418.964 492.527 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 426.2 489.527 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 431.005 492.527 Tm
+0.0139 Tw
+[(.  BIDR labels will )]TJ
+-28.4171 -1.2808 TD
+0.0194 Tw
+(contain both the full rotation matrix )Tj
+/F12 1 Tf
+14.6688 0 TD
+0 Tw
+(M)Tj
+/F5 1 Tf
+0.9438 0 TD
+0.0194 Tw
+[( and the equivalent set of angles )]TJ
+/F10 1 Tf
+12 0 2.5507 12 435.933 477.157 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 442.518 474.157 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 447.323 477.157 Tm
+(, )Tj
+/F10 1 Tf
+12 0 2.5507 12 453.556 477.157 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 460.793 474.157 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 465.597 477.157 Tm
+0.0194 Tw
+(, and)Tj
+9.6 0 0 9.6 489.157 474.157 Tm
+0 Tw
+( )Tj
+/F10 1 Tf
+12 0 2.5507 12 491.746 477.157 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 497.998 474.157 Tm
+(P)Tj
+/F5 1 Tf
+12 0 0 12 502.537 477.157 Tm
+0.0194 Tw
+[(.  In )]TJ
+-34.3781 -1.2808 TD
+1.9569 Tw
+[(addition, the required parameters REFERENCE_LA)110.8(TITUDE and )]TJ
+0 -1.0734 TD
+0.0052 Tw
+(REFERENCE_LONGITUDE will be used to store the latitude and longitude of the origin )Tj
+T*
+-0.0319 Tw
+[(\(x-axis\) of the oblique system. \(These two parameters are both suf)18.1(ficient and convenient to )]TJ
+T*
+0.0982 Tw
+(specify the coordinate system in the special case of oblique projections with )Tj
+/F10 1 Tf
+12 0 2.5507 12 472.026 423.145 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 478.278 420.145 Tm
+(P)Tj
+/F5 1 Tf
+12 0 0 12 483.702 423.145 Tm
+0.0982 Tw
+[( = 0, as )]TJ
+-32.8085 -1.2808 TD
+0.0505 Tw
+(used, for example, in the Magellan mission, when )Tj
+/F10 1 Tf
+12 0 2.5507 12 337.124 407.775 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 343.375 404.775 Tm
+(P)Tj
+/F5 1 Tf
+12 0 0 12 348.8 407.775 Tm
+-0.0001 Tc
+0.0506 Tw
+[(  is nonzero they do not completely )]TJ
+-21.5667 -1.2808 TD
+0 Tc
+0.0945 Tw
+(specify the projection and their relation to )Tj
+/F10 1 Tf
+12 0 2.5507 12 302.201 392.405 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 308.787 389.405 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 313.592 392.405 Tm
+(, )Tj
+/F10 1 Tf
+12 0 2.5507 12 320.726 392.405 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 327.962 389.405 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 332.767 392.405 Tm
+0.0945 Tw
+(, and other quantities of interest is not )Tj
+-20.2306 -1.2808 TD
+0.0897 Tw
+(immediately obvious.\) It is )Tj
+/F8 1 Tf
+11.3853 0 TD
+0 Tw
+(crucial)Tj
+/F5 1 Tf
+2.8325 0 TD
+-0.0001 Tc
+0.0898 Tw
+[( to note that it is the positive-west equivalents of the )]TJ
+-14.2178 -1.0733 TD
+0 Tc
+0.1297 Tw
+(pole and origin latitudes that are stored in the labels, whereas the formulas given here )Tj
+T*
+0 Tw
+(make use of the positive-east longitude )Tj
+/F10 1 Tf
+12 0 2.5507 12 280.617 351.274 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 287.203 348.274 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 292.008 351.274 Tm
+( of the pole.  )Tj
+-16.834 -1.7808 TD
+0.1433 Tw
+(Once the vector )Tj
+/F12 1 Tf
+7.01 0 TD
+0 Tw
+(X)Tj
+9.6 0 0 9.6 182.786 326.904 Tm
+(B)Tj
+/F5 1 Tf
+12 0 0 12 189.195 329.904 Tm
+0.1433 Tw
+[( is known, the corresponding latitude and longitude in the oblique )]TJ
+-8.2663 -1.2745 TD
+0 Tw
+(system are given by)Tj
+0 -5.7863 TD
+0.2101 Tw
+(with appropriate attention to the quadrant of the inverse tangents \(e.g., by using the )Tj
+0 -1.0734 TD
+0.0412 Tw
+[(FOR)60.1(TRAN )55.2(A)110.8(T)80.1(AN2 function\).  It is also possible to arrive at closed-form expressions for )]TJ
+T*
+0.1487 Tw
+(these angles in terms of )Tj
+/F10 1 Tf
+12 0 2.5507 12 215.223 219.412 Tm
+0 Tw
+()Tj
+/F5 1 Tf
+12 0 0 12 221.809 219.412 Tm
+(, )Tj
+/F10 1 Tf
+12 0 2.5507 12 229.593 219.412 Tm
+()Tj
+/F5 1 Tf
+12 0 0 12 235.845 219.412 Tm
+(, )Tj
+/F10 1 Tf
+12 0 2.5507 12 243.629 219.412 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 250.215 216.412 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 255.019 219.412 Tm
+(, )Tj
+/F10 1 Tf
+12 0 2.5507 12 262.803 219.412 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 270.04 216.412 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 274.844 219.412 Tm
+0.1487 Tw
+(, and )Tj
+/F10 1 Tf
+12 0 2.5507 12 304.738 219.412 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 310.99 216.412 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 315.795 219.412 Tm
+0.1487 Tw
+[( and for the inverse transformation.  )19.4(The )]TJ
+-18.8163 -1.2808 TD
+0.1193 Tw
+(derivation of these equations is given in reference [12], p. 29ó32, but a critical pair of)Tj
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0733 TD
+0.3529 Tw
+(signs appear to be exchanged between the formulae for the forward and inverse )Tj
+T*
+0.2183 Tw
+[(transformations.  Reference [13], p. 6, gives the correct forward transformation, and )]TJ
+T*
+0.1782 Tw
+[(reference [14], pp. 77ó78, give both the forward and inverse transformations.  In the)]TJ
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0734 TD
+(notation used in this document, )Tj
+ET
+/Cs7 cs 0 scn
+/GS2 gs
+126 595.659 378 -56 re
+f
+0 G
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+274.437 586 m
+280.937 586 l
+362.781 586 m
+369.281 586 l
+273.437 550 m
+279.937 550 l
+360.031 550 m
+366.531 550 l
+S
+BT
+/F12 1 Tf
+12 0 0 12 127.5 565 Tm
+0 g
+(M)Tj
+/F10 1 Tf
+1.1667 0 TD
+0.4876 Tc
+(=ä)Tj
+0.7083 1.5833 TD
+0 Tc
+()Tj
+0 -3.2083 TD
+(	)Tj
+0 2.2083 TD
+(\012)Tj
+0 -1 TD
+(\012)Tj
+0 -0.9948 TD
+(\012)Tj
+7.8411 2.9948 TD
+()Tj
+0 -3.2083 TD
+()Tj
+0 2.2083 TD
+(\015)Tj
+0 -1 TD
+(\015)Tj
+0 -0.9948 TD
+(\015)Tj
+3.2786 2.9115 TD
+3.9043 Tc
+[(ää)1544.3(ä)]TJ
+-0.0833 -3 TD
+6.6673 Tc
+(ää)Tj
+-2.6953 3.2083 TD
+0 Tc
+()Tj
+0 -3.4583 TD
+(	)Tj
+0 2.4583 TD
+(\012)Tj
+0 -1 TD
+(\012)Tj
+T*
+(\012)Tj
+12.2135 3 TD
+()Tj
+0 -3.4583 TD
+()Tj
+0 2.4583 TD
+(\015)Tj
+0 -1 TD
+(\015)Tj
+T*
+(\015)Tj
+0.8281 1.2917 TD
+(ä)Tj
+-0.3281 1.5833 TD
+()Tj
+0 -3.2083 TD
+(	)Tj
+0 2.2083 TD
+(\012)Tj
+0 -1 TD
+(\012)Tj
+0 -0.9948 TD
+(\012)Tj
+8.0078 2.9948 TD
+()Tj
+0 -3.2083 TD
+()Tj
+0 2.2083 TD
+(\015)Tj
+0 -1 TD
+(\015)Tj
+0 -0.9948 TD
+(\015)Tj
+/F3 1 Tf
+-28.4974 2.9115 TD
+[(cos)-2271.2(sin)]TJ
+0.388 -1.5 TD
+[(sin)-1973.6(cos)]TJ
+7.7161 1.5 TD
+[(cos\()-2571(\))-2958.7(sin\()-2570.3(\))]TJ
+0.0833 -3 TD
+[(sin\()-2570.3(\))-2646.2(cos\()-2571(\))]TJ
+12.8672 3 TD
+[(cos)-2354.5(sin)]TJ
+0.388 -1.5 TD
+[(sin)-2057(cos)]TJ
+/F10 1 Tf
+12 0 2.64 12 173.0937 583 Tm
+2.9295 Tc
+()Tj
+0.5644 -1.5 TD
+2.7733 Tc
+()Tj
+9.2976 1.5 TD
+6.759 Tc
+()Tj
+0.5767 -3 TD
+6.6131 Tc
+()Tj
+10.6994 3 TD
+2.985 Tc
+()Tj
+0.5644 -1.5 TD
+2.8288 Tc
+()Tj
+7 0 1.54 7 275.4375 587.25 Tm
+12.0717 Tc
+()Tj
+0.9886 -5.1429 TD
+11.8217 Tc
+()Tj
+/TT2 1 Tf
+7 0 0 7 180.3125 580 Tm
+5.4152 Tc
+(pp)Tj
+0.4018 -2.5714 TD
+5.1473 Tc
+(pp)Tj
+16.6875 2.5714 TD
+12.1205 Tc
+(pp)Tj
+-0.1429 -5.1429 TD
+11.8705 Tc
+(pp)Tj
+19.2902 5.1429 TD
+5.558 Tc
+(pp)Tj
+0.4018 -2.5714 TD
+5.2902 Tc
+(pp)Tj
+/F3 1 Tf
+12 0 0 12 238.6562 583 Tm
+0 Tc
+(0)Tj
+0 -1.5 TD
+(0)Tj
+-5.8854 -1.5 TD
+3.0286 Tc
+[(00)1171.8(1)]TJ
+12.6536 3 TD
+0 Tc
+(0)Tj
+-3.4531 -1.5 TD
+2.9531 Tc
+[(01)-226.6(0)]TJ
+3.4531 -1.5 TD
+0 Tc
+(0)Tj
+14.4531 3 TD
+(0)Tj
+0 -1.5 TD
+(0)Tj
+-6.0104 -1.5 TD
+3.112 Tc
+[(00)1213.6(1)]TJ
+7 0 0 7 276.1875 579.5 Tm
+12.1205 Tc
+(22)Tj
+-0.1429 -5.1429 TD
+11.8705 Tc
+(22)Tj
+ET
+/Cs7 cs 0 scn
+126 304.055 121 -40 re
+f
+q
+196.312 265.625 m
+196.312 271.447 l
+200.812 274.015 l
+200.812 283.47 l
+241.437 283.47 l
+241.437 282.39 l
+203.512 282.39 l
+200.812 265.625 l
+W n
+0.72 w 
+196.312 271.447 m
+198.112 272.467 l
+200.812 265.625 l
+203.512 282.39 l
+241.437 282.39 l
+S
+Q
+BT
+/F10 1 Tf
+12 0 2.64 12 128 291.7499 Tm
+0 g
+0 Tc
+()Tj
+0.3223 -1.8438 TD
+()Tj
+/TT2 1 Tf
+7 0 0 7 134.7188 288.7499 Tm
+6.6481 Tc
+[(AA)4616.1(A)]TJ
+0.0402 -3.1607 TD
+6.4338 Tc
+[(AA)3241.1(A)3616.1(A)]TJ
+12 0 0 12 179.5312 291.7499 Tm
+1.0978 Tc
+(yx)Tj
+-0.0182 -1.8438 TD
+1.7463 Tc
+[(zx)190.1(y)]TJ
+/F10 1 Tf
+-3.0078 1.8438 TD
+0 Tc
+(=)Tj
+0.0234 -1.8438 TD
+5.7376 Tc
+(=+)Tj
+7 0 0 7 166.8437 297.1249 Tm
+0 Tc
+(ä)Tj
+0.0402 -3.1607 TD
+(ä)Tj
+/F3 1 Tf
+12 0 0 12 152.2187 291.7499 Tm
+[(tan)-642.9(\()-1203.5(/)-1133.6(\),)]TJ
+0.0234 -1.8438 TD
+[(tan)-642.9(\()-1078.5(/)-3894(\))]TJ
+7 0 0 7 170.6562 297.1249 Tm
+(1)Tj
+0.0402 -3.1607 TD
+5.2857 Tc
+[(12)2357.1(2)]TJ
+ET
+endstream
+endobj
+63 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F8 28 0 R
+/F10 39 0 R
+/F12 59 0 R
+/TT2 52 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+/GS2 53 0 R
+>>
+/ColorSpace <<
+/Cs7 54 0 R
+>>
+>>
+endobj
+64 0 obj
+<<
+/FunctionType 4
+/Domain [0 1]
+/Range [0 1 0 1 0 1 0 1]
+/Length 20
+/Filter /FlateDecode
+>>
+stream
+Hâ™N)-PÄ‚Z.Ä  (Ä
+endstream
+endobj
+66 0 obj
+<<
+/Length 6866
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(10)Tj
+12 0 0 12 90 591.119 Tm
+-0.0132 Tw
+(Once again, care must be taken in determining the quadrant of the angles )Tj
+/F10 1 Tf
+12 0 2.5507 12 441.147 591.119 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 447.733 588.119 Tm
+(A)Tj
+/F5 1 Tf
+12 0 0 12 453.603 591.119 Tm
+(+)Tj
+/F10 1 Tf
+12 0 2.5507 12 460.37 591.119 Tm
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 466.622 588.119 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 471.427 591.119 Tm
+-0.0132 Tw
+[( and )]TJ
+/F10 1 Tf
+12 0 2.5507 12 494.437 591.119 Tm
+0 Tw
+(ä)Tj
+/F8 1 Tf
+9.6 0 0 9.6 514.1949 588.119 Tm
+(p)Tj
+/F5 1 Tf
+12 0 0 12 518.999 591.119 Tm
+(. )Tj
+-35.7499 -1.2808 TD
+0.0491 Tw
+[(The )55.2(A)110.8(T)80.1(AN2 function applied to the numerator and denominator of the expressions given )]TJ
+0 -1.0734 TD
+0 Tw
+(above will return the correct result.  )Tj
+0 -1.5733 TD
+0.0655 Tw
+[(Finally)64.9(, the relations between the oblique latitude and longitude and the line and sample)5.1( )]TJ
+0 -1.0734 TD
+0.0512 Tw
+[(coordinates of the Oblique Cylindrical map are shown below)64.9(.  For simplicity)64.9(, we always )]TJ
+T*
+0.0232 Tw
+[(choose zero for the center oblique longitude of the projection.  It is important to note that)5.5( )]TJ
+T*
+0.1951 Tw
+(we use a righthanded oblique system with the longitude given as above whereas the )Tj
+T*
+0.2785 Tw
+[(standard simple cyclindrical projection makes use of positive-west longitude.  It is )]TJ
+T*
+0.0383 Tw
+(convenient to represent longitude in the line direction so that the SAR images, which are )Tj
+T*
+0.0502 Tw
+[(elongated along the equator of the oblique system, are lar)18.1(ger in the line direction than in)5.9( )]TJ
+T*
+-0.0156 Tw
+[(the sample direction.  \(The label keyword MAP_ROT)80.1(A)110.8(TION records a 90 degree rotation, )]TJ
+T*
+0.0242 Tw
+[(since by convention the line direction corresponds to latitude.\)  )18.1(W)40(ith these modifications,)5.4( )]TJ
+T*
+0.0256 Tw
+(and letting lat_a and lon_a be the equivalents of )Tj
+/F10 1 Tf
+12 0 2.5507 12 325.688 428.06 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 332.924 425.06 Tm
+(A)Tj
+/F5 1 Tf
+12 0 0 12 338.132 428.06 Tm
+0.0256 Tw
+[( and )]TJ
+/F10 1 Tf
+12 0 2.5507 12 362.071 428.06 Tm
+0 Tw
+()Tj
+/F8 1 Tf
+9.6 0 0 9.6 368.657 425.06 Tm
+(A)Tj
+/F5 1 Tf
+12 0 0 12 373.865 428.06 Tm
+0.0256 Tw
+[( measured in degrees, we have )]TJ
+-23.6554 -1.2808 TD
+0 Tw
+(for the Oblique Cylindrical projection)Tj
+/F13 1 Tf
+9 0 0 9 126 387.762 Tm
+[(line)-1599.6(= INT\(   LINE_PROJECTION_OFFSET + lon_a * MAP_RESOLUTION + 1 \))]TJ
+0 -1.3551 TD
+[(sample)-399.4(= INT\( SAMPLE_PROJECTION_OFFSET + lat_a * MAP_RESOLUTION + 1 \))]TJ
+/F5 1 Tf
+12 0 0 12 90 349.657 Tm
+0.1246 Tw
+(Given the map projections just defined, each BIDR will be archived in multiple forms )Tj
+0 -1.0734 TD
+-0.0263 Tw
+[(dif)18.1(fering in bit-type, normalization, scaling and digital scale.  )18.1(This complexity results from)5.3( )]TJ
+T*
+0.0735 Tw
+[(the need to support a variety of users with dif)18.1(ferent applications for and expectations of )]TJ
+T*
+0.0473 Tw
+[(the data.  Some users will be interested in quantitative analysis of the SAR data and will )]TJ
+T*
+-0.0001 Tc
+0.2162 Tw
+(require access to these data at the highest resolution, without truncation from 32-bit )Tj
+T*
+0 Tc
+0.0682 Tw
+[(floating-point to a smaller bit type, and preferably without incidence angle correction or)5.5( )]TJ
+T*
+0.2271 Tw
+[(scaling.  Others will be more interested in photointerpretation of the maps and will )]TJ
+T*
+0.0385 Tw
+[(therefore require a format that minimizes observational \(i.e., incidence angle\) ef)18.1(fects and)5.9( )]TJ
+T*
+0.2102 Tw
+(maximizes the range of surface behavior that can be seen on a display screen or in )Tj
+T*
+0.0042 Tw
+[(hardcopy)64.9(.  )18(The appropriate data type for the latter group is reduced to 8-bit integer; due to )]TJ
+T*
+-0.0062 Tw
+[(the lar)18.1(ge dynamic range of most radar data, normalization and conversion to a logarithmic)5.2( )]TJ
+T*
+0.0309 Tw
+[(\(decibel\) scale are performed.  )55.2(All users are likely to want reduced-resolution versions of )]TJ
+T*
+0.0072 Tw
+[(the data in order to survey lar)18.1(ge areas.  Since the application of these products \(which can )]TJ
+T*
+0.0087 Tw
+[(be considered )-250(browse)-250( images\) is visual, they need only be produced in the 8-bit format.)-384( )]TJ
+0 -2.8441 TD
+0.0441 Tw
+(See Sections 2.5.3 and 2.5.4 for all full description of BIDR pixel values and resolutions )Tj
+0 -1.2741 TD
+0 Tw
+[(respectively)64.9(.)]TJ
+/F6 1 Tf
+13 0 0 13 90 107.525 Tm
+[(2.6.3)-545.2(PDS Standards)]TJ
+/F5 1 Tf
+12 0 0 12 90 89.866 Tm
+0.1115 Tw
+(The Cassini RADAR BIDRs comply with the Planetary Data System standards for file )Tj
+0 -1.0734 TD
+0 Tw
+(formats and labels, as specified in the PDS Standards Reference [6].)Tj
+ET
+/Cs7 cs 0 scn
+/GS2 gs
+126 720 263 -110 re
+f
+0 G
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+197.938 684.75 m
+371.562 684.75 l
+S
+BT
+/F3 1 Tf
+12 0 0 12 127.5 710 Tm
+0 g
+[(sin)-2163.7(sin)-1247.1(sin)-1622.1(cos)-1234.7(cos)-776.4(cos\()-2547.5(\),)]TJ
+0 -2.3542 TD
+[(tan\()-2981.8(\))]TJ
+9.8594 0.7292 TD
+[(cos)-776.4(sin\()-2546.9(\))]TJ
+-3.9479 -1.5 TD
+[(sin)-1247.1(cos)-776.4(cos\()-2547.5(\))-875.3(cos)-1234.7(sin)]TJ
+14.5104 0.7708 TD
+(,)Tj
+-20.4219 -2.3958 TD
+[(sin)-1663.7(sin)-1247.1(sin)-2080.4(cos)-1234.7(cos)-1276.4(cos\()-2982.4(\),)]TJ
+0 -2.3542 TD
+[(tan\()-2546.9(\))]TJ
+9.6953 0.7292 TD
+[(cos)-1276.4(sin\()-2981.8(\))]TJ
+-4.2187 -1.5 TD
+[(sin)-1247.1(cos)-1276.4(cos\()-2982.4(\))-917(cos)-1234.7(sin)]TJ
+/F10 1 Tf
+12 0 2.64 12 141.9688 710 Tm
+2.7277 Tc
+[()916.7()388()763()880.2()1776.5()]TJ
+0.9007 -2.3542 TD
+1.3861 Tc
+()Tj
+9.4698 0.7292 TD
+1.6808 Tc
+[()729.6()]TJ
+-3.7716 -1.5 TD
+1.9647 Tc
+[()117.2()1013.5()-1067.2()153.7()]TJ
+-5.554 -1.625 TD
+2.2277 Tc
+[()416.7()-570.3()263()-119.8()841.6()]TJ
+0.9007 -2.3542 TD
+0.9512 Tc
+()Tj
+9.3057 0.7292 TD
+2.1808 Tc
+[()794.7()]TJ
+-4.0424 -1.5 TD
+1.9647 Tc
+[()-382.8()578.6()-1136.7()]TJ
+/TT2 1 Tf
+7 0 0 7 149.9688 707 Tm
+5.1704 Tc
+[(Ap)-3512.6(p)-5320.7(p)]TJ
+0.4732 -4.0357 TD
+2.7776 Tc
+(Ap)Tj
+23.067 1.25 TD
+0 Tc
+(p)Tj
+-13.3348 -2.5714 TD
+10.4911 Tc
+[(pp)4669.7(p)]TJ
+-5.2812 -2.7857 TD
+3.567 Tc
+[(pA)-1723.9(p)-263.4(A)-697.2(A)789.4(p)]TJ
+-1.808 -4.0357 TD
+0 Tc
+(p)Tj
+13.7679 1.25 TD
+3.9784 Tc
+[(AA)1200.8(p)]TJ
+-7.4241 -2.5714 TD
+3.8304 Tc
+[(pA)-433.8(A)1052.8(p)-2062.5(p)]TJ
+/F10 1 Tf
+12 0 0 12 158.4688 710 Tm
+4.6543 Tc
+[(=+)-2674.5(ä)]TJ
+0.2344 -2.3542 TD
+1.7142 Tc
+(+=)Tj
+11.4375 0.7292 TD
+0 Tc
+(ä)Tj
+-1.3672 -1.5 TD
+1.7142 Tc
+(ää)Tj
+-10.8047 -1.625 TD
+5.1543 Tc
+[(=ä)-3109.4(+)]TJ
+0.2578 -2.3542 TD
+1.7559 Tc
+(ä=)Tj
+12.7266 0.7292 TD
+0 Tc
+(+)Tj
+-1.638 -1.5 TD
+1.6725 Tc
+(++)Tj
+ET
+192.719 627.75 m
+384.062 627.75 l
+S
+BT
+12 0 2.64 12 369.5625 615.5 Tm
+0 Tc
+()Tj
+0 0 TD
+()Tj
+/TT2 1 Tf
+7 0 0 7 377.5625 612.5 Tm
+(A)Tj
+/F3 1 Tf
+12 0 0 12 385.5625 624.75 Tm
+(.)Tj
+ET
+endstream
+endobj
+67 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F8 28 0 R
+/F10 39 0 R
+/F13 68 0 R
+/TT2 52 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+/GS2 53 0 R
+>>
+/ColorSpace <<
+/Cs7 54 0 R
+>>
+>>
+endobj
+69 0 obj
+<<
+/FunctionType 4
+/Domain [0 1]
+/Range [0 1 0 1 0 1 0 1]
+/Length 20
+/Filter /FlateDecode
+>>
+stream
+Hâ™N)-PÄ‚Z.Ä  (Ä
+endstream
+endobj
+71 0 obj
+<<
+/Length 4449
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(11)Tj
+/F6 1 Tf
+13 0 0 13 90 711.333 Tm
+[(2.6.4)-545.2(Data Storage Conventions)]TJ
+/F5 1 Tf
+12 0 0 12 90 693.674 Tm
+0.0355 Tw
+(The Cassini RADAR Basic Image Data Records contain binary data. RADAR values are )Tj
+0 -1.0734 TD
+0.0496 Tw
+(stored in 32-bit IEEE floating point notation with little endian byte ordering \(PC REAL\) )Tj
+T*
+0.1327 Tw
+[(or in 8-bit unsigned integer format, depending on the product. )18(The BIDR files will be )]TJ
+T*
+0.0276 Tw
+[(produced on a PC running the Linux operating system. )18.1(The PDS label sections are stored )]TJ
+T*
+0.0607 Tw
+[(as )55.2(ASCII character strings conforming to the conventions outlined in the PDS Standards )]TJ
+T*
+0 Tw
+(Reference [6].)Tj
+/F7 1 Tf
+14 0 0 14 90 603.382 Tm
+[(2.7 Data V)36.8(alidation)]TJ
+/F5 1 Tf
+12 0 0 12 90 585.389 Tm
+0.0157 Tw
+(Cassini RADAR Basic Image Data Records will be validated before being released to the )Tj
+T*
+0.2497 Tw
+[(PDS. )18.1(V)110.8(alidation is accomplished in two parts: validation for scientific integrity and )]TJ
+T*
+0.1874 Tw
+[(validation for compliance with PDS standards. )18.1(The Cassini Science )55.2(Archive )18.1(W)80.1(orking )]TJ
+T*
+0.5402 Tw
+[(Group \(SA)80.1(WG\) Data )18.1(V)110.8(alidation )18.1(T)69.8(eam will oversee validation, which includes )]TJ
+T*
+0.1656 Tw
+[(representatives from RADAR )18.1(T)69.8(eam and PDS. Science team members are expected to )]TJ
+T*
+-0.0001 Tc
+0.0863 Tw
+(conduct validation for scientific integrity in the course of their analysis of the products. )Tj
+T*
+0.0031 Tw
+(The details of the science validation process are the responsibility of the RADAR Science )Tj
+T*
+0 Tc
+0 Tw
+[(T)69.8(eam.)]TJ
+0 -1.5734 TD
+0.1022 Tw
+[(V)110.8(alidation for compliance with PDS standards is also the responsibility of the RADAR )]TJ
+0 -1.0734 TD
+0.0487 Tw
+[(Science )18.1(T)69.8(eam with help from the PDS Imaging Node that will receive the data products. )]TJ
+T*
+0.1871 Tw
+(PDS will provide software tools, examples, and advice to help make this part of the )Tj
+T*
+0 Tw
+[(validation as ef)18.1(ficient as possible.)]TJ
+0 -1.5734 TD
+-0.0227 Tw
+[(A)55.2( data set will pass a peer review before it is accepted by PDS. )18.1(The Cassini RADAR )18.1(T)69.8(eam )]TJ
+0 -1.0733 TD
+0.0047 Tw
+(and the associated PDS Node will convene a peer review committee made up of scientists )Tj
+T*
+0.0409 Tw
+[(and data engineers. )18.1(The committee will examine the data set to make sure it is complete,)6.1( )]TJ
+T*
+-0.0001 Tc
+0.0056 Tw
+[(meets the product specifications as defined in the SIS.  )18.1(The committee will include a PDS )]TJ
+T*
+0 Tc
+0 Tw
+(representative to ensure that the data set is in compliance with PDS standards.)Tj
+/F6 1 Tf
+16 0 0 16 90 340.074 Tm
+[(3.)-1416(Detailed Data Product Specification)]TJ
+/F7 1 Tf
+14 0 0 14 90 310.407 Tm
+(3.1 Data Format Descriptions)Tj
+/F5 1 Tf
+12 0 0 12 90 292.414 Tm
+0.1117 Tw
+(Each Cassini BIDR is stored as an individual binary file in fixed record-length format. )Tj
+T*
+-0.0001 Tc
+0.1617 Tw
+(The initial record\(s\) of the file contain an attached PDS label[5, 6] that describes the )Tj
+T*
+0 Tc
+0.2982 Tw
+(source data, production process, map projection, relation between stored bytes and )Tj
+T*
+-0.0001 Tc
+0.2428 Tw
+[(physical quantities, and other aspects of the dataset.  )55.1(An example label is given in )]TJ
+T*
+0 Tc
+0.0322 Tw
+[(Appendix )55.2(A, and definitions of the label keywords in )55.2(Appendix B.  Following the header )]TJ
+T*
+-0.0001 Tc
+0.0508 Tw
+(label in the file is a PDS Image object containing a two-dimensional array of samples of )Tj
+T*
+0 Tc
+0 Tw
+(the dataset in question at equal intervals in the map-projected coordinate space.)Tj
+/F7 1 Tf
+14 0 0 14 90 170.3599 Tm
+(3.2 Label and Header Descriptions)Tj
+/F5 1 Tf
+12 0 0 12 90 152.367 Tm
+0.0493 Tw
+(PDS labels are written in Object Description Language \(ODL\) [5]. PDS label statements )Tj
+T*
+-0.0001 Tc
+0.083 Tw
+(have the form of "keyword = value". Each label statement is terminated with a carriage )Tj
+T*
+0 Tc
+0.0884 Tw
+(return character \(ASCII 13\) and a line feed character \(ASCII 10\) sequence to allow the )Tj
+T*
+-0.0001 Tc
+0.0221 Tw
+(label to be read by many operating systems. Pointer statements with the following format )Tj
+T*
+0 Tc
+0 Tw
+(are used to indicate the location of data objects in the file:)Tj
+14.4011 -1.5734 TD
+(^object = location)Tj
+ET
+endstream
+endobj
+72 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+74 0 obj
+<<
+/Length 5163
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(12)Tj
+12 0 0 12 90 711.674 Tm
+-0.0001 Tc
+0.0187 Tw
+(where the caret character \(^, also called a pointer\) is followed by the name of the specific )Tj
+0 -1.0734 TD
+0 Tc
+0 Tw
+[(data object. )18.1(The location is the starting record number for the data object within the file.)]TJ
+0 -1.5734 TD
+0.0761 Tw
+(The labels contained in Cassini BIDR files conform to the general structure used for all )Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.0297 Tw
+[(PDS attached labels [5, section 5.2.1].  )18.1(The metadata in the label can be divided into five )]TJ
+T*
+0 Tc
+0.2467 Tw
+[(categories as follows.  )18.1(The first and shortest is the label standards specifier)40(, which )]TJ
+T*
+0.1387 Tw
+[(indicates the PDS standards version that applies to the label.  )18.1(This is followed by file )]TJ
+T*
+0.1272 Tw
+[(characteristics such as the record format, record length, and number of records.  Next, )]TJ
+T*
+-0.0001 Tc
+0.0088 Tw
+(pointers to the locations of objects in the file are given; for the Cassini BIDR the image is )Tj
+T*
+0 Tc
+-0.0185 Tw
+[(the only such object pointed to.  Following the object pointer are a set of identification and)5.5( )]TJ
+T*
+-0.0322 Tw
+[(descriptive data elements that give information about the dataset.  )18.1(These include identifiers)6.4( )]TJ
+T*
+0.0998 Tw
+(for the specific datafile and the PDS dataset to which it belongs; information about the )Tj
+T*
+-0.0001 Tc
+0.2873 Tw
+(input data such as spacecraft, instrument, time range of data, and file names; and )Tj
+T*
+0 Tc
+0.0289 Tw
+[(information about the producing institution.  Finally)64.9(, definitions of the data objects in the )]TJ
+T*
+-0.0001 Tc
+0.1241 Tw
+[(file are given.  )18.1(The IMAGE object definition contains information about the size, data )]TJ
+T*
+1.0429 Tw
+[(type, scaling, and special pixel values of the image data.  )18.1(The )]TJ
+T*
+0 Tc
+-0.0347 Tw
+(IMAGE_MAP_PROJECTION object definition contains parameters needed to understand )Tj
+T*
+-0.0001 Tc
+0.1826 Tw
+(the map projection used to represent the data, such as the projection type, projection )Tj
+T*
+0 Tc
+-0.0067 Tw
+[(parameters, scale, and extent of the data.  )18.1(This object also contains a pointer to an external)5.7( )]TJ
+T*
+0.017 Tw
+[(file that contains the DA)110.8(T)80.1(ASET_MAP_PROJECTION, a more detailed description of the )]TJ
+T*
+-0.0001 Tc
+0.2551 Tw
+(type of map projection used that includes formulae relating line and sample in the )Tj
+0 -1.2707 TD
+0.3509 Tw
+(projected dataset to latitude-longitude coordinates \(similar to section 2.6.2 of this )Tj
+0 -1.2741 TD
+0 Tc
+-0.0052 Tw
+[(document\).  )55.1(Appendix )55.1(A)55.2( gives an example BIDR image label, and )55.1(Appendix B lists all the )]TJ
+0 -1.0768 TD
+0 Tw
+(label keywords used, with definitions and either default values or formats as applicable.)Tj
+/F6 1 Tf
+16 0 0 16 90 390.257 Tm
+[(4.)-1416(Applicable Software)]TJ
+/F7 1 Tf
+14 0 0 14 90 360.591 Tm
+[(4.1 Cassini RADAR T)36.5(eam SAR Processor)]TJ
+/F5 1 Tf
+12 0 0 12 90 329.717 Tm
+[(The Cassini RADAR )18(T)69.8(eam SAR Processor \(sar_proc\) is used to create the full resolution )]TJ
+0 -1.0734 TD
+[(BIDR files. )18.1(This software was developed at JPL)37.1( in C++ on a PC running  the Linux )]TJ
+T*
+[(operating system. )18.1(There is no current plan to make the SAR processing code available )]TJ
+T*
+(outside of JPL. For a description of the algorithm employed by the SAR processor see )Tj
+0 -1.2707 TD
+(section 2.5.5.)Tj
+/F7 1 Tf
+14 0 0 14 90 249.897 Tm
+(4.2 ISIS)Tj
+/F5 1 Tf
+12 0 0 12 90 231.9039 Tm
+0.0586 Tw
+(The majority of the processing required to create the reduced resolution BIDRs and also )Tj
+0 -1.0733 TD
+0.0469 Tw
+(the Cassini RADAR Digital Map Products [4] is performed with the Integrated Software )Tj
+T*
+0.1053 Tw
+[(for Imagers and Spectrometers \(ISIS\) developed by the )55.1(Astrogeology )18.1(T)69.8(eam of the U.S. )]TJ
+T*
+-0.0273 Tw
+[(Geological Survey)64.9(, Flagstaf)18.1(f, )55.1(Arizona [8, 9, 10].  ISIS runs on a variety of UNIX platforms )]TJ
+T*
+0.2608 Tw
+(and consists of roughly 250 separate program modules that provide capabilities for )Tj
+T*
+-0.0001 Tc
+0.3365 Tw
+[(mission-dependent data ingestion and calibration for a lar)18(ge number of spacecraft )]TJ
+T*
+0 Tc
+0.1552 Tw
+(missions; basic image processing functions \(e.g., contrast stretching, spatial filtration\), )Tj
+T*
+0.0072 Tw
+[(image display)64.9(, digital cartography \(e.g., rasterization of vector data, reprojection of image)5.4( )]TJ
+T*
+-0.0001 Tc
+0.0367 Tw
+[(data to map projection and from one projection to another)39.9(, and mosaicking\), photometric )]TJ
+0 -1.2707 TD
+0 Tc
+0.0084 Tw
+[(modeling and normalization, photoclinometry and radar clinometry)64.9(, and spectral analysis.)5.3( )]TJ
+0 -1.0768 TD
+-0.0001 Tc
+0.2402 Tw
+(ISIS also includes programs for interactive and automatic feature matching between )Tj
+0 -1.0734 TD
+0 Tc
+0.3129 Tw
+(images and incorporates bundle-block adjustment software for geodetic control net )Tj
+T*
+0.1887 Tw
+[(calculations, much of which was originally written at RAND.  Finally)64.9(, ISIS includes )]TJ
+ET
+endstream
+endobj
+75 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F7 27 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+77 0 obj
+<<
+/Length 3267
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(13)Tj
+12 0 0 12 90 709.307 Tm
+0.1156 Tw
+(programs for importing a variety of PDS data formats into the system for analysis and )Tj
+0 -1.0768 TD
+0.0708 Tw
+(display and for exporting Cassini RADAR Digital Map Products \(as well as BIDRs and )Tj
+0 -1.0734 TD
+0.0627 Tw
+[(products for other missions\) to PDS format.  ISIS is of use to scientists wishing to read, )]TJ
+T*
+0.2237 Tw
+[(display)64.9(, manipulate, and analyze Basic Image Data Records.  ISIS, including C and )]TJ
+T*
+0.1333 Tw
+[(FOR)60.1(TRAN source code, is in the public domain and versions configured to run under )]TJ
+T*
+0.3433 Tw
+(Solaris or Red Hat Linux may be obtained by qualified researchers from \(http://)Tj
+T*
+0.2617 Tw
+[(astrogeology)64.9(.wr)55.2(.usgs.gov/Projects/ISIS/\).  )18(This website also holds a lar)18.1(ge amount of )]TJ
+T*
+0.2667 Tw
+[(additional information about the system.  )55.2(A)55.2( subset of spectral display and analysis )]TJ
+T*
+0.1901 Tw
+(functions in ISIS \(mostly irrelevant to Cassini RADAR data\) require the commercial )Tj
+T*
+0.2039 Tw
+(image processing software IDL, available under license from Research Systems, Inc. )Tj
+T*
+0 Tw
+[(\(http://www)64.9(.rsinc.com/\).)]TJ
+/F6 1 Tf
+16 0 0 16 90 553.236 Tm
+[(5.)-1416(APPENDIX )37.1(A: Example Label for Cassini RADAR )]TJ
+0 -1.1875 TD
+(Basic Image Data Record)Tj
+/F14 1 Tf
+14 0 0 14 90 504.569 Tm
+(5.1 BIDR PDS Label , primary data set, 32-bit data)Tj
+/F5 1 Tf
+12 0 0 12 90 473.695 Tm
+(PDS_VERSION_ID                   = PDS3)Tj
+0 -2.1468 TD
+[(/*                  FILE FORMA)110.3(T)18.1( )55.2(AND LENGTH */)]TJ
+T*
+(RECORD_TYPE                      = FIXED_LENGTH)Tj
+0 -1.0734 TD
+(RECORD_BYTES                     = 160)Tj
+T*
+(FILE_RECORDS                     = 183)Tj
+T*
+(LABEL_RECORDS                    = 23)Tj
+0 -2.1467 TD
+[(/*                  POINTERS )18.1(T)18.1(O)0( ST)80.1(AR)60.1(T)18.1( RECORDS OF OBJECTS IN FILE */)]TJ
+T*
+(^IMAGE                           = 24)Tj
+T*
+(/*                  IMAGE DESCRIPTION */)Tj
+T*
+[(DA)110.8(T)80.1(A_SET_ID                      = "CO-SSA-RADAR-5-BIDR-V1.0")]TJ
+0 -1.0733 TD
+[(DA)110.8(T)80.1(A_SET_NAME                    = "CASSINI ORBITER SSA)55.2( RADAR 5 BIDR )18.1(V1.0")]TJ
+0 -1.2707 TD
+[(PRODUCER_INSTITUTION_NAME        = "JET)18.1( PROPULSION LABORA)110.8(T)18.1(O)0(R)55.2(Y)0(")]TJ
+0 -1.0768 TD
+(PRODUCER_ID                      = JPL)Tj
+0 -1.2707 TD
+(PRODUCER_FULL_NAME               = "Inst Lead Charles Elachi contact Bryan Stiles")Tj
+0 -1.0768 TD
+(PRODUCT_ID                       = BIFI42N253_98_V01)Tj
+0 -1.0734 TD
+(PRODUCT_VERSION_ID   = 1)Tj
+T*
+(INSTRUMENT_HOST_NAME             = "CASSINI ORBITER")Tj
+T*
+(INSTRUMENT_HOST_ID               = CO)Tj
+T*
+(INSTRUMENT_NAME                  = "CASSINI RADAR")Tj
+T*
+(INSTRUMENT_ID                    = RADAR)Tj
+T*
+[(T)80.1(ARGET_NAME                      = )18.1(TIT)80.1(AN)]TJ
+0 -1.2707 TD
+[(ST)80.1(AR)60.1(T_TIME                       = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+0 -1.2741 TD
+[(ST)18.1(OP_TIME                        = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+T*
+[(SP)91.8(ACECRAFT_CLOCK_ST)80.1(AR)60.1(T_COUNT)18.1(     = nnnnnnnnn )]TJ
+ET
+endstream
+endobj
+78 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F6 26 0 R
+/F14 79 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+81 0 obj
+<<
+/Length 3223
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(14)Tj
+12 0 0 12 90 709.307 Tm
+[(SP)91.5(ACECRAFT_CLOCK_ST)18.1(OP_COUNT)18.1(      =  nnnnnnnnn  )]TJ
+0 -1.2741 TD
+[(PRODUCT_CREA)110.8(TION_TIME            = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+0 -1.0768 TD
+(SOURCE_PRODUCT_ID                = LBDR_08_031_V01)Tj
+0 -1.0734 TD
+[(MISSION_PHASE_NAME               = )18.1(T)18.1(OUR)]TJ
+0 -1.2707 TD
+(MISSION_NAME                               ="CASSINI-HUYGENS")Tj
+0 -1.2741 TD
+[(SOFTW)110.9(ARE_VERSION_ID               ="V1.0")]TJ
+0 -2.1502 TD
+[(/*                  DESCRIPTIONS OF OBJECTS CONT)80.1(AINED IN FILE */)]TJ
+0 -2.1468 TD
+[(OBJECT)18.1( = IMAGE)]TJ
+0 -1.0734 TD
+(   LINES                         = 160)Tj
+T*
+(   LINE_SAMPLES                  = 40)Tj
+T*
+(   SAMPLE_TYPE                   = "PC_REAL")Tj
+T*
+(   SAMPLE_BITS                   = 32)Tj
+0 -1.2707 TD
+(   CHECKSUM                      = nnnnnnnnn)Tj
+0 -1.0768 TD
+[(   SCALING_F)74.3(ACT)18.1(OR                = 1.00000000 )]TJ
+0 -1.0734 TD
+[(   OFFSET)18.1(                        = 0.00000000 )]TJ
+T*
+[(   MISSING_CONST)80.1(ANT)18.1(              = 16#FF7FFFFB#)]TJ
+T*
+(   NOTE                          = ")Tj
+T*
+[(      Data values in this Basic Image Data Record are Synthetic )55.2(Aperture)]TJ
+T*
+[(Radar \(SAR\) normalized backscatter cross-section values. )18.1(The values are physical )]TJ
+T*
+(scale \(not in dB\) and have been normalized in order to remove variations in)Tj
+T*
+[(the image due to incidence angle variations among the measurements. )18.1(The )]TJ
+T*
+-0.0164 Tw
+[(raw backscatter values are multiplied by the function f\(I\) of  incidence angle, I, in degrees )]TJ
+T*
+0 Tw
+(of  the form XXXXXXXXX")Tj
+T*
+[(END_OBJECT)18.1( = IMAGE)]TJ
+0 -2.1467 TD
+[(OBJECT)18.1( = IMAGE_MAP_PROJECTION)]TJ
+0 -1.0734 TD
+[(   ^DA)110.8(T)80.1(A_SET_MAP_PROJECTION      = "DSMAP)110.8(.CA)110.8(T")]TJ
+0 -1.2707 TD
+(   MAP_PROJECTION_TYPE           = OBLIQUE CYLINDRICAL)Tj
+0 -1.0768 TD
+[(   )55.2(A_AXIS_RADIUS                 = 2575.000000 <km>)]TJ
+0 -1.0734 TD
+(   B_AXIS_RADIUS                 = 2575.000000 <km>)Tj
+T*
+(   C_AXIS_RADIUS                 = 2575.000000 <km>)Tj
+T*
+[(   FIRST_ST)80.1(ANDARD_P)91.8(ARALLEL)37.1(       = "N/A")]TJ
+T*
+[(   SECOND_ST)80.1(ANDARD_P)91.8(ARALLEL)37.1(      = "N/A")]TJ
+T*
+[(   POSITIVE_LONGITUDE_DIRECTION  = )18.1(WEST)]TJ
+T*
+[(   CENTER_LA)110.8(TITUDE               = 0.000000 <deg>)]TJ
+T*
+(   CENTER_LONGITUDE              = 0.000000 <deg>)Tj
+T*
+[(   REFERENCE_LA)110.8(TITUDE            = 30.000000 <deg>)]TJ
+T*
+(   REFERENCE_LONGITUDE           = 150.000000 <deg>)Tj
+T*
+[(   LINE_FIRST_PIXEL)37.1(              = 1)]TJ
+T*
+[(   LINE_LAST_PIXEL)37.1(               = 160)]TJ
+T*
+[(   SAMPLE_FIRST_PIXEL)37.1(            = 1)]TJ
+T*
+[(   SAMPLE_LAST_PIXEL)37.1(             = 40)]TJ
+T*
+[(   MAP_PROJECTION_ROT)80.1(A)110.8(TION       = 90.0)]TJ
+T*
+(   MAP_RESOLUTION                = 8.0 <pix/deg>)Tj
+T*
+(   MAP_SCALE                     = 5.61777853 <km/pix>)Tj
+T*
+[(   MAXIMUM_LA)110.8(TITUDE              = 46.13792 <deg>)]TJ
+T*
+[(   MINIMUM_LA)110.8(TITUDE              = 37.160353 <deg>)]TJ
+ET
+endstream
+endobj
+82 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+84 0 obj
+<<
+/Length 2897
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(15)Tj
+12 0 0 12 90 711.674 Tm
+(   EASTERNMOST_LONGITUDE         = 93.703090 <deg>)Tj
+0 -1.0734 TD
+[(   )18.1(WESTERNMOST_LONGITUDE         = 120.701079 <deg>)]TJ
+T*
+[(   LINE_PROJECTION_OFFSET)18.1(        = -240.500000)]TJ
+T*
+[(   SAMPLE_PROJECTION_OFFSET)18.1(      = -80.500000)]TJ
+T*
+[(   OBLIQUE_PROJ_POLE_LA)110.8(TITUDE    = 58.525051 <deg>)]TJ
+T*
+(   OBLIQUE_PROJ_POLE_LONGITUDE   = 310.574599 <deg>)Tj
+T*
+[(   OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION    = 157.535316 <deg>)]TJ
+T*
+[(   OBLIQUE_PROJ_X_AXIS_VECT)18.1(OR    = \( -0.75000000, -0.43301270,  0.50000000 \))]TJ
+T*
+[(   OBLIQUE_PROJ_Y_AXIS_VECT)18.1(OR    = \(  0.56759575, -0.80945648,  0.15038374 \))]TJ
+T*
+[(   OBLIQUE_PROJ_Z_AXIS_VECT)18.1(OR    = \(  0.33961017,  0.39658568,  0.85286853 \))]TJ
+T*
+(    LOOK_DIRECTION =  LEFT)Tj
+T*
+[(END_OBJECT)18.1( = IMAGE_MAP_PROJECTION)]TJ
+T*
+(END)Tj
+0 -3.2203 TD
+[(Note:  )18.1(This example is not based on actual flyby geometries for a particular )18.1(T)35.2(itan pass.)]TJ
+/F14 1 Tf
+16 0 0 16 90 491.24 Tm
+[(6.)-1416(APPENDIX B:  PDS Keyword Definitions)]TJ
+/F5 1 Tf
+12 0 0 12 90 455.986 Tm
+(PDS_VERSION_ID = PDS3)Tj
+0 -1.0734 TD
+0.0323 Tw
+(Represents the version number of the PDS standards documents that is valid when a data )Tj
+T*
+0 Tw
+(product label is created.  PDS3 is used for the Casssini BIDR.)Tj
+0 -2.1468 TD
+(RECORD_TYPE  = FIXED_LENGTH)Tj
+0 -1.0734 TD
+[(Indicates the record format of a file.  )55.2(All Cassini BIDR use fixed length records.)]TJ
+0 -2.1468 TD
+(RECORD_BYTES = nnnn)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.0694 Tw
+(Indicates the number of bytes in a physical file record, including record terminators and )Tj
+T*
+0 Tc
+0 Tw
+(separators.)Tj
+0 -2.1468 TD
+(FILE_RECORDS = nnnn)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.2395 Tw
+(Indicates the number of physical file records, including both label records and data )Tj
+T*
+0 Tc
+0 Tw
+(records.)Tj
+0 -2.1468 TD
+(LABEL_RECORDS = nn)Tj
+0 -1.0733 TD
+(Indicates the number of physical file records that contain only label information.)Tj
+0 -2.1468 TD
+(^IMAGE = nn)Tj
+0 -1.0734 TD
+[(Pointer to the image object.  )18.1(The value contains the starting record position in the file.)]TJ
+0 -2.1468 TD
+[(DA)110.8(T)80.1(A_SET_ID = "CO-SSA-RADAR-5-BIDR-V1.0")]TJ
+0 -1.0734 TD
+-0.0001 Tc
+0.0719 Tw
+[(Unique alphanumeric identifier for the dataset.  Elements separated by hyphens indicate )]TJ
+T*
+0 Tc
+0.025 Tw
+[(the instrument host, tar)18.1(get, CODMAC processing level, dataset type \(BIDR\), and version )]TJ
+T*
+0 Tw
+[(number)55.2(.)]TJ
+0 -2.1468 TD
+[(DA)110.8(T)80.1(A_SET_NAME = "CASSINI ORBITER SSA)55.2( RADAR 5 BIDR )18.1(V1.0")]TJ
+0 -1.0734 TD
+0.0023 Tw
+(Full name of the data product.  Information contained is essentially the same as that in the )Tj
+T*
+0 Tw
+[(DA)110.8(T)80.1(A_SET_ID.)]TJ
+ET
+endstream
+endobj
+85 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+/F14 79 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+87 0 obj
+<<
+/Length 3105
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(16)Tj
+12 0 0 12 90 709.307 Tm
+-0.0148 Tw
+[(PRODUCER_INSTITUTION_NAME  = "JET)16.6( PROPULSION LABORA)110.8(T)18.1(O)0(R)55.2(Y"/ "USGS )]TJ
+0 -1.2741 TD
+0 Tw
+[(FLAGST)80.1(AFF")]TJ
+T*
+-0.0001 Tc
+0.0562 Tw
+[(Identifies the institution associated with production of a data set.  Cassini 32-bit floating )]TJ
+0 -1.0768 TD
+0 Tc
+-0.0058 Tw
+[(point BIDRs are produced by the Cassini Radar Instrument )18(T)69.8(eam at JPL. )18(The 8-bit integer )]TJ
+0 -1.0734 TD
+0 Tw
+[(BIDR formats are produced by the United States Geological Survey in Flagstaf)18.1(f, )55.2(Arizona.)]TJ
+0 -2.3441 TD
+(PRODUCER_ID = JPL/USGS)Tj
+0 -1.0768 TD
+(Short name for the group responsible for producing the data set.)Tj
+0 -2.3441 TD
+(PRODUCER_FULL_NAME = "Inst Lead Charles Elachi contact Bryan Stiles")Tj
+0 -1.2741 TD
+(The name of the individual\(s\) mainly responsible for production of a data set.)Tj
+0 -2.3475 TD
+(PRODUCT_ID ="aabcdeefggg_hh_Vnn" )Tj
+0 -2.1502 TD
+-0.0001 Tc
+0.0567 Tw
+(The PRODUCT_ID data element represents a permanent, unique identifier assigned to a )Tj
+0 -1.0733 TD
+0 Tc
+0.1269 Tw
+[(data product by its producer)55.2(.  )18.1(The PRODUCT_ID is identical to the name \(apart from )]TJ
+T*
+0 Tw
+(extension\) of the datafile.  )Tj
+T*
+(aa = Dataset)Tj
+3 -1.0734 TD
+(BI = BIDR)Tj
+-3 -1.0734 TD
+(b = Kind and bit-type of data)Tj
+3 -1.0734 TD
+0.1416 Tw
+(F = Primary dataset \(e.g., incidence angle corrected sigma0\) in 32-bit floating-)Tj
+-3 -1.0734 TD
+0 Tw
+(point format \(Linear scale values, not in dB.\))Tj
+3 -1.0734 TD
+0.2846 Tw
+[(B = Primary dataset in unsigned byte format. \(V)110.8(alues converted to dB and )]TJ
+-3 -1.0733 TD
+0 Tw
+(normalized to fit in [0,255] range.\))Tj
+3 -1.0734 TD
+-0.0001 Tc
+0.1414 Tw
+(U = Sigma0 without incidence angle correction in 32-bit floating point format. )Tj
+-3 -1.0734 TD
+0 Tc
+0 Tw
+(\(Linear scale values, not in dB.\))Tj
+3 -1.0734 TD
+(E = Incidence angle map, floating point values in degrees.)Tj
+T*
+[(T)18.1( = Latitude map, floating point values in degrees.)]TJ
+T*
+(N = Longitude map, floating point values in degrees.)Tj
+0 -1.2707 TD
+(M= Beam mask map, 8 bit values.)Tj
+0 -1.2741 TD
+(L= Number of looks map, 32 bit integer values.)Tj
+-3 -1.2741 TD
+(c=Map projection)Tj
+3 -1.2741 TD
+(Q=  Oblique Cylindrical \(used to conform with higher level product naming)Tj
+T*
+(convention.\))Tj
+-3 -1.2741 TD
+(d= Map resolution)Tj
+3 -1.0768 TD
+(B =   2 pixels/degree)Tj
+0 -1.0734 TD
+(D =   8 pixels/degree)Tj
+T*
+(F =  32 pixels/degree)Tj
+T*
+(H = 128 pixels/degree)Tj
+-3 -1.0734 TD
+(I           I  =  256 pixels/degree)Tj
+0 -2.3441 TD
+[(ee = )55.2(Absolute value of latitude at center of file, rounded to nearest degree)]TJ
+0 -1.2741 TD
+(f = Hemisphere of center of file)Tj
+3 -1.0768 TD
+(N = North)Tj
+0 -1.0734 TD
+(S = South)Tj
+-3 -1.2707 TD
+[(ggg = )18.1(W)80.1(est longitude at center of file, rounded to nearest degree)]TJ
+0 -1.2741 TD
+[(hh = )18.1(T)69.8(wo-digit index of )18.1(T)35.2(itan flyby from which data are included)]TJ
+ET
+endstream
+endobj
+88 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+91 0 obj
+<<
+/Length 3259
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(17)Tj
+12 0 0 12 90 698.793 Tm
+0.0001 Tc
+-0.0001 Tw
+(PRODUCT_VERSION_ID = integer)Tj
+0 -1.0734 TD
+0 Tc
+-0.0056 Tw
+[(Identifies the version of an individual product within a dataset.  )18.1(The value of this keyword )]TJ
+T*
+0 Tw
+(also appears as part of the PRODUCT_ID and filename.)Tj
+0 -2.1467 TD
+(INSTRUMENT_HOST_NAME = "CASSINI ORBITER")Tj
+0 -1.0734 TD
+-0.0045 Tw
+(The full name of the host \(in this case, a spacecraft\) on which the instrument that obtained )Tj
+T*
+0 Tw
+(the dataset is based.)Tj
+0 -2.1468 TD
+(INSTRUMENT_HOST_ID = CO)Tj
+0 -1.0734 TD
+[(A)55.2( short but unique identifier for the host \(spacecraft\) on which the instrument is based.)]TJ
+0 -2.1467 TD
+(INSTRUMENT_NAME = "CASSINI RADAR")Tj
+0 -1.0734 TD
+(The full name of the instrument used to obtain the dataset.)Tj
+0 -2.1468 TD
+(INSTRUMENT_ID  = RADAR)Tj
+0 -1.0734 TD
+[(A)55.2( short but unique identifier for the instrument.)]TJ
+0 -2.1468 TD
+[(T)80.1(ARGET_NAME = )18.1(TIT)80.1(AN)]TJ
+0 -1.0734 TD
+0.0419 Tw
+[(Identifies the tar)18.1(get of the observations contained in the dataset.  )18.1(The CASSINI RADAR )]TJ
+T*
+0.0722 Tw
+[(instrument is used to observe a variety of tar)18.1(gets, but the BIDR are produced only from )]TJ
+T*
+0 Tw
+[(observations of )18.1(T)35.2(itan.)]TJ
+0 -2.3441 TD
+[(ST)80.1(AR)60.1(T_TIME = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+0 -1.0768 TD
+-0.0001 Tc
+0.219 Tw
+(Provides the date and time of the beginning of the observation used in creating the )Tj
+0 -1.0734 TD
+0 Tc
+0 Tw
+(dataproduct. )Tj
+0 -2.3441 TD
+[(ST)18.1(OP_TIME = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+0 -1.0768 TD
+(Provides the date and time of the end of the observation used in creating the dataproduct.)Tj
+0 -2.1467 TD
+[(SP)91.8(ACECRAFT_CLOCK_ST)80.1(AR)60.1(T_COUNT)18.1( = nnnnnnnnn <LSB = 1 second>)]TJ
+0 -1.0734 TD
+-0.0001 Tc
+0.2808 Tw
+(Provides the value of the Cassini spacecraft clock counter at the beginning of the )Tj
+T*
+0.297 Tw
+[(observation used in creating the data product. )18.1(The 32 most significant bits of the )]TJ
+T*
+0 Tc
+-0.0232 Tw
+[(spacecraft clock are included as a 9-digit decimal integer)55.2(. )18.1(The least significant bit included)6( )]TJ
+T*
+0 Tw
+(represents  a 1-second interval.)Tj
+0 -2.1468 TD
+[(SP)91.8(ACECRAFT_CLOCK_ST)18.1(OP_COUNT)18.1( = nnnnnnnnn \(LSB=1 second\))]TJ
+0 -1.0733 TD
+0.0921 Tw
+(Provides the value of the Cassini spacecraft clock counter at the end of the observation )Tj
+T*
+-0.0001 Tc
+0.0598 Tw
+[(used in creating the dataproduct. )18(The 32 most significant bits of the spacecraft clock are )]TJ
+T*
+0 Tc
+0.1112 Tw
+[(included as a 9-digit decimal integer)55.2(. )18(The least significant bit included represents  a 1-)]TJ
+T*
+0 Tw
+(second interval.)Tj
+0 -2.3441 TD
+[(PRODUCT_CREA)110.8(TION_TIME = )37.1(YYYY)110.8(-DOYThh:mm:ss.sss)]TJ
+0 -1.0768 TD
+(Defines the UTC system format time when the product was created.)Tj
+0 -2.1468 TD
+(SOURCE_PRODUCT_ID =  "LBDR_xx_yyy_Vnn")Tj
+0 -1.0734 TD
+0.4337 Tw
+(Identifies the product used as input to generate the current data product. PDS )Tj
+T*
+0.0798 Tw
+(PRODUCT_ID values of the input products are used; by intent this is also the filename )Tj
+ET
+endstream
+endobj
+92 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+94 0 obj
+<<
+/Length 2982
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(18)Tj
+12 0 0 12 90 711.674 Tm
+-0.0083 Tw
+[(\(minus the extension\) of the source data.  )19.7(The input products of a Cassini BIDR is a single )]TJ
+0 -1.0734 TD
+0 Tw
+(LBDR file.)Tj
+0 -2.1468 TD
+[(MISSION_PHASE_NAME = )18.1(T)18.1(OUR)]TJ
+0 -1.0734 TD
+-0.0198 Tw
+(The commonly-used name of the mission phase in which the data used in the product were )Tj
+T*
+0 Tw
+(obtained.)Tj
+0 -2.1468 TD
+(MISSION_NAME = "CASSINI-HUYGENS")Tj
+0 -1.0734 TD
+(The name of the mission in which the data used in the product were obtained. )Tj
+0 -2.5448 TD
+[(SOFTW)110.9(ARE_VERSION_ID = )-250(V1.0)]TJ
+0 -1.2741 TD
+[(V)110.8(ersion of SAR processor software used to produce BIDR images. )]TJ
+0 -2.3509 TD
+(LINES = nnnn)Tj
+0 -1.0734 TD
+(Indicates the total number of data instances along the vertical axis of the image.)Tj
+0 -2.1468 TD
+(LINE_SAMPLES = nnnn)Tj
+0 -1.0734 TD
+(Indicates the total number of data instances along the horizontal axis of the image.)Tj
+0 -2.1468 TD
+(SAMPLE_TYPE = string)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.0318 Tw
+[(Indicates the data storage representation of sample values in the image.   )18.1(V)110.7(alid values for )]TJ
+0 -1.2707 TD
+0 Tc
+0.1475 Tw
+(Cassini BIDR are "UNSIGNED INTEGER" for 8-bit data and "PC_REAL" for 32-bit )Tj
+0 -1.2741 TD
+0 Tw
+(data.)Tj
+0 -2.1502 TD
+(SAMPLE_BITS = nn)Tj
+0 -1.0734 TD
+0.0764 Tw
+[(Indicates the number of bits contained in a sample value in the image.  )18.1(V)110.8(alid values for )]TJ
+T*
+0 Tw
+(Cassini BIDR are 8 and 32.)Tj
+0 -2.1467 TD
+(CHECKSUM = nnnnnnnnn)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.0702 Tw
+(Represents an unsigned 32-bit sum of all data values in the image object as a decimal 9 )Tj
+0 -1.2707 TD
+0 Tc
+0.2156 Tw
+[(digit integer)55.2(. )18.1(The value is only meaningful for 8-bit images. For 32-bit formats, the )]TJ
+0 -1.2741 TD
+0 Tw
+(number is all zeros.)Tj
+0 -2.1502 TD
+[(SCALING_F)74.3(ACT)18.1(OR = real, instance dependent value and units)]TJ
+0 -1.0734 TD
+0.0375 Tw
+[(A)55.2( constant value by which the stored value in the image must be multiplied, followed by )]TJ
+T*
+0 Tw
+[(addition of the OFFSET)74.3(, to yield the true value in physical units.  )]TJ
+0 -2.1468 TD
+[(OFFSET)18.1( = real, instance dependent value and units)]TJ
+0 -1.0733 TD
+0.0348 Tw
+[(A)55.2( constant value that must be added to the stored value in the image after it is multiplied)5.5( )]TJ
+T*
+0 Tw
+[(by the SCALING_F)74.3(ACT)18.1(OR, to yield the true value in physical units.)]TJ
+0 -2.1468 TD
+[(MISSING_CONST)80.1(ANT)18.1( = instance dependent)]TJ
+0 -1.0734 TD
+-0.0001 Tc
+0.1306 Tw
+(The value used for an image sample when no input data were available for that pixel. )Tj
+T*
+0 Tc
+0.1133 Tw
+[(Format and value depend on the data format.  Cassini BIDR use the value 0 to denote )]TJ
+T*
+0 Tw
+(missing data in 8-bit format, and 16#FF7FFFFB# \(=ISIS NULL\) for 32-bit data.)Tj
+0 -2.1468 TD
+(NOTE = string)Tj
+ET
+endstream
+endobj
+95 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+97 0 obj
+<<
+/Length 3871
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(19)Tj
+12 0 0 12 90 711.674 Tm
+-0.0001 Tc
+0.0168 Tw
+[(T)69.9(ext field providing additional information about the image object in the BIDR file.  )18(This )]TJ
+0 -1.0734 TD
+0 Tc
+0.0287 Tw
+[(field will be used to specify any incidence-angle normalization and scaling applied to the)5.1( )]TJ
+T*
+0 Tw
+(data.)Tj
+0 -2.1468 TD
+[(^DA)110.8(T)80.1(A_SET_MAP_PROJECTION = string)]TJ
+0 -1.0733 TD
+0.2332 Tw
+[(Pointer to an external file containing additional, detailed information about the map)6.2( )]TJ
+T*
+-0.0001 Tc
+0.2278 Tw
+[(projection used.  In general, this external file contains static information about map )]TJ
+T*
+0 Tc
+0.0947 Tw
+[(projection that applies to the full dataset, while dynamic information that applies to the)6.2( )]TJ
+T*
+0.0225 Tw
+(particular dataproduct resides in the IMAGE_MAP_PROJECTION within the file header )Tj
+T*
+0 Tw
+(of the dataset to which it applies.)Tj
+0 -2.3441 TD
+(MAP_PROJECTION_TYPE = string)Tj
+0 -1.2741 TD
+-0.0001 Tc
+0.2459 Tw
+[(Identifies the type of projection used in creating the data product.  )18.1(The OBLIQUE )]TJ
+T*
+0 Tc
+0 Tw
+[(CYLINDRICAL)37.1(  projection is used for BIDR products.)]TJ
+0 -2.1503 TD
+(A_AXIS_RADIUS = 2575.000000 <km>)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.1439 Tw
+(Provides the value of the semimajor axis of the ellipsoid that defines the approximate )Tj
+T*
+0.1685 Tw
+[(shape of the tar)18(get body)64.8(.  )18.1(The )55.2(A)55.1( axis usually lies in the equatorial plane; the current )]TJ
+T*
+0 Tc
+0 Tw
+[(reference surface model for )18.1(T)35.2(itan is a sphere, so the three axes are not distinct.)]TJ
+0 -2.1468 TD
+(B_AXIS_RADIUS = 2575.000000 <km>)Tj
+0 -1.0734 TD
+-0.0001 Tc
+0.3434 Tw
+(Provides the value of the intermediate semi-axis of the ellipsoid that defines the )Tj
+T*
+0 Tc
+0.0295 Tw
+[(approximate shape of the tar)18.1(get body)64.9(.  )18.1(The B axis usually lies in the equatorial plane; the )]TJ
+T*
+0 Tw
+[(current reference surface model for )18.1(T)35.2(itan is a sphere, so the three axes are not distinct.)]TJ
+0 -2.1468 TD
+(C_AXIS_RADIUS = 2575.000000 <km>)Tj
+0 -1.0734 TD
+0.1395 Tw
+(Provides the value of the semiminor axis of the ellipsoid that defines the approximate )Tj
+T*
+-0.0128 Tw
+[(shape of the tar)18.1(get body)64.9(.  )18.1(The C axis is usually the polar axis; the current reference surface )]TJ
+T*
+0 Tw
+[(model for )18.1(T)35.2(itan is a sphere, so the three axes are not distinct.)]TJ
+0 -3.2202 TD
+[(FIRST_ST)80.1(ANDARD_P)91.8(ARALLEL)37.1(  = "N/A")]TJ
+0 -1.0734 TD
+0.1526 Tw
+(Required keyword for a parameter used with conic projections but not needed for the )Tj
+T*
+0 Tw
+(cylindrical projections used in the Cassini BIDR.)Tj
+0 -2.1468 TD
+[(SECOND_ST)80.1(ANDARD_P)91.8(ARALLEL)37.1( = "N/A")]TJ
+0 -1.0734 TD
+0.1526 Tw
+(Required keyword for a parameter used with conic projections but not needed for the )Tj
+T*
+0 Tw
+(cylindrical projections used in the Cassini BIDR.)Tj
+0 -2.1467 TD
+[(POSITIVE_LONGITUDE_DIRECTION = )18.1(WEST)]TJ
+0 -1.0734 TD
+0.1627 Tw
+[(Identifies the direction of longitude for a planet.  )18(The IAU definition for direction of )]TJ
+T*
+0.0114 Tw
+[(positive longitude is adopted:  for objects such as )18.1(T)35.2(itan with prograde rotation,  a positive )]TJ
+T*
+-0.0001 Tc
+0.1078 Tw
+[(longitude direction of )18(WEST)18( is used in conjunction with planetographic latitudes.  \(By )]TJ
+T*
+0.0656 Tw
+[(IAU convention EAST)18( longitude may be used with planetocentric latitude for any body)64.8(, )]TJ
+T*
+0 Tc
+0.0089 Tw
+[(but this convention is not used in the Cassini BIDR. )18.1(This refers the ordinary longitude for )]TJ
+T*
+-0.0201 Tw
+[(the planet. )18.1(The longitude used in the oblique cylindrical projection is EAST)18.1( by definition.\))]TJ
+0 -2.1468 TD
+0 Tw
+[(CENTER_LA)110.8(TITUDE = 0.0 <deg>)]TJ
+ET
+endstream
+endobj
+98 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+100 0 obj
+<<
+/Length 4317
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(20)Tj
+12 0 0 12 90 711.674 Tm
+0.5417 Tw
+[(A)55( reference latitude used in various ways in dif)18.1(ferent projections.  For the )]TJ
+0 -1.0734 TD
+0.1092 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection used in the BIDR, CENTER_LA)110.8(TITUDE gives )]TJ
+T*
+0.1149 Tw
+[(the oblique-system latitude rather than the ordinary latitude coordinate of the reference)5.6( )]TJ
+T*
+1.1548 Tw
+[(point, and \(because of the 90 deg MAP_PROJECTION_ROT)80.1(A)110.8(TION\) )]TJ
+T*
+0.0147 Tw
+[(SAMPLE_PROJECTION_OFFSET)18.1( locates the first pixel relative to this oblique latitude. )]TJ
+T*
+0 Tw
+[(A)55.2( value of zero is used in all Cassini BIDR.)]TJ
+0 -2.1468 TD
+(CENTER_LONGITUDE = 0.0 <deg>)Tj
+0 -1.0734 TD
+0.4767 Tw
+[(A)55.2( reference longitude used in various ways in dif)18.1(ferent projections.  For the )]TJ
+T*
+-0.0258 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection used in the BIDR, CENTER_LONGITUDE gives )]TJ
+T*
+-0.0001 Tc
+0.3677 Tw
+(the oblique-system longitude rather than the ordinary longitude coordinate of the )Tj
+T*
+0 Tc
+0.5145 Tw
+[(reference point, and \(because of the 90 deg MAP_PROJECTION_ROT)80.1(A)110.8(TION\) )]TJ
+T*
+-0.0001 Tc
+-0.0328 Tw
+[(LINE_PROJECTION_OFFSET)18( locates the first pixel relative to this oblique longitude.   )55.2(A )]TJ
+T*
+0 Tc
+0 Tw
+(value of zero is used in all Cassini BIDR.)Tj
+0 -2.1468 TD
+[(REFERENCE_LA)110.8(TITUDE = f)18.1(f)18.1(f.)]TJ
+13.3318 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1576 0 TD
+0 Tc
+(<deg>)Tj
+-15.4893 -1.0734 TD
+-0.0001 Tc
+0.3258 Tw
+(Provides the ordinary latitude coordinate of the origin \(oblique latitude = oblique )Tj
+T*
+0 Tc
+0.8155 Tw
+(longitude = 0\) for the oblique coordinate system used to specify the )Tj
+T*
+0.0792 Tw
+[(OBLIQUE_CYLIDRICAL)37.1( projection used in Cassini BIDR.  NOTE that whereas some )]TJ
+T*
+0.3338 Tw
+(past PDS products may utilize oblique projections defined solely in terms of the )Tj
+T*
+0.0721 Tw
+[(REFERENCE_LA)110.8(TITUDE and REFERENCE_LONGITUDE \(i.e., with a third defining )]TJ
+T*
+0.0663 Tw
+(angle always set to zero\), the Cassini BIDRs require the full generality of three nonzero )Tj
+T*
+1.2191 Tw
+[(rotation angles.  )18.1(These angles are represented by the keywords )]TJ
+T*
+0.7512 Tw
+[(OBLIQUE_PROJ_POLE_LA)110.8(TITUDE, OBLIQUE_PROJ_POLE_LONGITUDE, and )]TJ
+T*
+0.1975 Tw
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION.  )18.1(The values of REFERENCE_LA)110.8(TITUDE and )]TJ
+T*
+0.3118 Tw
+(REFERENCE_LONGITUDE are consistent with the latter three angles but do not )Tj
+T*
+0 Tw
+(uniquely define the oblique coordinate system on their own. )Tj
+0 -2.1468 TD
+[(REFERENCE_LONGITUDE = f)18.1(f)18.1(f.)]TJ
+14.2756 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1576 0 TD
+0 Tc
+(<deg>)Tj
+-16.4332 -1.0734 TD
+-0.0001 Tc
+0.2551 Tw
+(Provides the ordinary longitude coordinate of the origin \(oblique latitude = oblique )Tj
+T*
+0 Tc
+0.8155 Tw
+(longitude = 0\) for the oblique coordinate system used to specify the )Tj
+T*
+0.0792 Tw
+[(OBLIQUE_CYLIDRICAL)37.1( projection used in Cassini BIDR.  NOTE that whereas some )]TJ
+T*
+0.3338 Tw
+(past PDS products may utilize oblique projections defined solely in terms of the )Tj
+T*
+0.0721 Tw
+[(REFERENCE_LA)110.8(TITUDE and REFERENCE_LONGITUDE \(i.e., with a third defining )]TJ
+T*
+0.0663 Tw
+(angle always set to zero\), the Cassini BIDRs require the full generality of three nonzero )Tj
+T*
+1.2191 Tw
+[(rotation angles.  )18.1(These angles are represented by the keywords )]TJ
+T*
+0.7512 Tw
+[(OBLIQUE_PROJ_POLE_LA)110.8(TITUDE, OBLIQUE_PROJ_POLE_LONGITUDE, and )]TJ
+T*
+0.1975 Tw
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION.  )18.1(The values of REFERENCE_LA)110.8(TITUDE and )]TJ
+T*
+0.3118 Tw
+(REFERENCE_LONGITUDE are consistent with the latter three angles but do not )Tj
+T*
+-0.0143 Tw
+[(uniquely define the oblique coordinate system on their own.  NOTE that the value given is )]TJ
+T*
+0 Tw
+(positive-west.)Tj
+0 -2.1468 TD
+[(LINE_FIRST_PIXEL)37.1( = 1)]TJ
+0 -1.0734 TD
+0.0247 Tw
+(Provides the line index for the first pixel that was physically recorded at the beginning of )Tj
+T*
+0.0337 Tw
+[(the image array)64.9(.  For Cassini BIDR this is always 1, i.e., lines are numbered from first to )]TJ
+T*
+0 Tw
+(last.)Tj
+0 -2.1468 TD
+[(LINE_LAST_PIXEL)37.1( = nnnn)]TJ
+ET
+endstream
+endobj
+101 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+103 0 obj
+<<
+/Length 4424
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(21)Tj
+12 0 0 12 90 711.674 Tm
+0.0395 Tw
+(Provides the line index for the last pixel that was physically recorded at the beginning of )Tj
+0 -1.0734 TD
+0.0467 Tw
+[(the image array)64.9(.  For Cassini BIDR this is always equal to the total number of lines, i.e., )]TJ
+T*
+0 Tw
+(lines are numbered from first to last.)Tj
+0 -2.1468 TD
+[(SAMPLE_FIRST_PIXEL)37.1( = 1)]TJ
+0 -1.0733 TD
+0.0086 Tw
+(Provides the sample index for the first pixel that was physically recorded at the beginning )Tj
+T*
+0.0653 Tw
+[(of the image array)64.9(.  For Cassini BIDR this is always 1, i.e., samples are numbered from )]TJ
+T*
+0 Tw
+(first to last.)Tj
+0 -2.1468 TD
+[(SAMPLE_LAST_PIXEL)37.1( = nnnn)]TJ
+0 -1.0734 TD
+-0.0001 Tc
+0.0246 Tw
+(Provides the sample index for the last pixel that was physically recorded at the beginning )Tj
+T*
+0 Tc
+0.0058 Tw
+[(of the image array)64.9(.  For Cassini BIDR this is always equal to the total number of samples, )]TJ
+T*
+0 Tw
+(i.e., samples are numbered from first to last.)Tj
+0 -2.1468 TD
+[(MAP_PROJECTION_ROT)80.1(A)110.8(TION  = f)18.1(f)18.1(f.)]TJ
+16.6127 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-18.7702 -1.0734 TD
+0.0541 Tw
+(Provides the clockwise rotation of the line and sample coordinate system with respect to )Tj
+T*
+0.0942 Tw
+[(the map projection origin. )55.2(A)55.2( value of 90.0 is used for BIDR indicating that lines of the )]TJ
+T*
+-0.0001 Tc
+0.2696 Tw
+(projected image have constant oblique-system longitude and columns have constant )Tj
+T*
+0 Tc
+0 Tw
+(oblique-system latitude.)Tj
+0 -2.1467 TD
+[(MAP_RESOLUTION = f)18.1(f)18.1(f.f <pix/deg>)]TJ
+0 -1.0734 TD
+0.0353 Tw
+[(Identifies the digital scale of the map-projected image in units of pixels per degree.  )18.1(This)5.4( )]TJ
+T*
+0.1975 Tw
+(parameter provides equivalent information to that given by the MAP_SCALE, but is )Tj
+T*
+0.2037 Tw
+[(inversely proportional and is expressed in dif)18.1(ferent units.  Kilometers can be related )]TJ
+T*
+0.0746 Tw
+[(degrees of latitude given the radius of the planet:  1 degree = \(2 * RADIUS * PI\) / 360 )]TJ
+T*
+-0.0113 Tw
+[(kilometers.  )55.2(A)55.2( spherical reference surface is used for )18.1(T)35.2(itan in producing the Cassini BIDR, )]TJ
+T*
+0 Tw
+[(so this conversion is independent of location on the body)64.9(.  See also MAP_SCALE.)]TJ
+0 -2.1468 TD
+[(MAP_SCALE = f)18.1(f)18.1(f.f)18.1(f)18.1(f<km/pix>)]TJ
+0 -1.0734 TD
+0.1247 Tw
+[(Identifies the digital scale of the map-projected image in units of kilometers per pixel,)5.3( )]TJ
+T*
+-0.012 Tw
+[(calculated as the ground distance between adjacent pixel centers on the tar)18.1(get body)64.9(.  In the)5.5( )]TJ
+T*
+0.0547 Tw
+(general case, the scale of a map can vary with position both because of the properties of )Tj
+T*
+0.0932 Tw
+[(the map projection and because the local radius of the body may vary)64.9(.  For the Cassini )]TJ
+T*
+0.0631 Tw
+[(BIDR a spherical reference surface is used for )18.1(T)35.2(itan, so the latter ef)18.1(fect does not obtain. )]TJ
+T*
+0 Tw
+(The MAP_SCALE is defined at the  equator of the oblique coordinate system. )Tj
+0 -2.1468 TD
+[(MAXIMUM_LA)110.8(TITUDE = f)18.1(f)18.1(f.)]TJ
+12.7748 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1576 0 TD
+0 Tc
+(<deg>)Tj
+-14.9324 -1.0734 TD
+0.0844 Tw
+[(Specifies the northernmost ordinary latitude in the region covered by the map-projected)5.1( )]TJ
+T*
+0.0001 Tc
+0.0045 Tw
+[(image data.  Determination of the extreme is made without regard to the presence of valid)5.3( )]TJ
+T*
+0 Tc
+0 Tw
+(data in the corresponding sample.)Tj
+0 -2.1467 TD
+[(MINIMUM_LA)110.8(TITUDE = f)18.1(f)18.1(f.)]TJ
+12.3858 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-14.5434 -1.0734 TD
+0.0792 Tw
+(Specifies the southernmost ordinary latitude in the region covered by the map-projected )Tj
+T*
+0.0001 Tc
+0.0045 Tw
+[(image data.  Determination of the extreme is made without regard to the presence of valid)5.3( )]TJ
+T*
+0 Tc
+0 Tw
+(data in the corresponding sample.)Tj
+0 -2.1468 TD
+[(EASTERNMOST_LONGITUDE = f)18.1(f)18.1(f.)]TJ
+15.8306 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-17.9881 -1.0734 TD
+0.0642 Tw
+(Specifies the easternmost ordinary longitude in the region covered by the map-projected )Tj
+T*
+0.1109 Tw
+[(image data.  Because the Cassini BIDR use POSITIVE_LONGITUDE_DIRECTION = )]TJ
+ET
+endstream
+endobj
+104 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+106 0 obj
+<<
+/Length 4803
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(22)Tj
+12 0 0 12 90 711.674 Tm
+-0.0001 Tc
+0.0428 Tw
+[(WEST)74.4(, this is the numerically smallest longitude.  Determination of the extreme is made )]TJ
+0 -1.0734 TD
+0 Tc
+0 Tw
+(without regard to the presence of valid data in the corresponding sample.)Tj
+0 -2.1468 TD
+[(WESTERNMOST_LONGITUDE = f)18.1(f)18.1(f.)]TJ
+16.0526 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-18.2101 -1.0734 TD
+-0.0001 Tc
+0.039 Tw
+(Specifies the westernmost ordinary longitude in the region covered by the map-projected )Tj
+T*
+0 Tc
+0.1109 Tw
+[(image data.  Because the Cassini BIDR use POSITIVE_LONGITUDE_DIRECTION = )]TJ
+T*
+0.0912 Tw
+[(WEST)74.3(, this is the numerically lar)18.1(gest longitude.  Determination of the extreme is made)5.3( )]TJ
+T*
+0 Tw
+(without regard to the presence of valid data in the corresponding sample.)Tj
+0 -2.1468 TD
+[(LINE_PROJECTION_OFFSET)18.1( = )]TJ
+13.9347 0 TD
+-0.0181 Tc
+[(ffff)-18.1(.)-18.1(fff)]TJ
+-13.9347 -1.0734 TD
+0 Tc
+0.2989 Tw
+[(Provides the line of)18.1(fset value of the map projection origin position \(given by the )]TJ
+T*
+0.0009 Tw
+[(CENTER_LONGITUDE and CENTER_LA)110.8(TITUDE\) from the line and sample \(1,1\), i.e., )]TJ
+T*
+-0.0055 Tw
+[(the upper left corner of the array)64.9(.  )18.1(The value is positive when the origin is below the upper )]TJ
+T*
+0 Tw
+(left pixel. )Tj
+0 -2.1468 TD
+[(SAMPLE_PROJECTION_OFFSET)18.1( = )]TJ
+15.6027 0 TD
+-0.0181 Tc
+[(ffff)-18.1(.)-18.1(fff)]TJ
+-15.6027 -1.0734 TD
+0 Tc
+0.1964 Tw
+[(Provides the sample of)18.1(fset value of the map projection origin position \(given by the )]TJ
+T*
+0.0009 Tw
+[(CENTER_LONGITUDE and CENTER_LA)110.8(TITUDE\) from the line and sample \(1,1\), i.e., )]TJ
+T*
+0.0458 Tw
+[(the upper left corner of the array)64.9(.  )18.1(The value is positive when the origin is to the right of )]TJ
+T*
+0 Tw
+(the upper left pixel.)Tj
+0 -2.1468 TD
+[(OBLIQUE_PROJ_POLE_LA)110.8(TITUDE = f)18.1(f)18.1(f.)]TJ
+17.8307 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-19.9883 -1.0734 TD
+0.5285 Tw
+(One of the three angles defining the oblique coordinate system used in the )Tj
+T*
+0.0307 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection.  )18.1(This is the ordinary latitude of the pole \(Z axis\) )]TJ
+T*
+0 Tw
+(of the oblique system.)Tj
+0 -2.1468 TD
+[(OBLIQUE_PROJ_POLE_LONGITUDE = f)18.1(f)18.1(f.)]TJ
+18.7745 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-20.9321 -1.0733 TD
+0.5285 Tw
+(One of the three angles defining the oblique coordinate system used in the )Tj
+T*
+0.1622 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection.  )18.1(This is the ordinary longitude of the pole \(Z )]TJ
+T*
+0.1395 Tw
+[(axis\) of the oblique system.  NOTE that the value given is positive-west, whereas the )]TJ
+T*
+-0.0313 Tw
+[(equivalent positive-east value is used in the equations that define the map projection below)5.2( )]TJ
+0 -1.2707 TD
+0 Tw
+(and in section 2.6.2.)Tj
+0 -2.1503 TD
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION = f)18.1(f)18.1(f.)]TJ
+17.9176 0 TD
+-0.0181 Tc
+[(ffffff)-18.1( )]TJ
+2.1575 0 TD
+0 Tc
+(<deg>)Tj
+-20.0752 -1.0734 TD
+0.5285 Tw
+(One of the three angles defining the oblique coordinate system used in the )Tj
+T*
+-0.0123 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection.  )18(This is a rotation around the polar \(Z\) axis of the )]TJ
+T*
+0.1092 Tw
+(oblique system that completes the transformation from standard to oblique coordinates. )Tj
+T*
+0 Tw
+(The value is positive east \(obeys right hand rule\) and is in the range 0 to 360 degrees.)Tj
+0 -2.1468 TD
+[(OBLIQUE_PROJ_X_AXIS_VECT)18.1(OR = {f)18.1(f.)]TJ
+18.2006 0 TD
+-0.0181 Tc
+0.0181 Tw
+[(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(fffffffff)-18.1(})]TJ
+-18.2006 -1.0734 TD
+0 Tc
+0.1186 Tw
+(Unit vector in the direction of the X axis of the oblique coordinate system used in the )Tj
+T*
+0.0547 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection, in terms of the X, )37.1(Y)128.9(,)0( and Z axes of the standard )]TJ
+T*
+0.1117 Tw
+[(body-fixed coordinate system.  In each system, the X axis points from the body center )]TJ
+T*
+0.1307 Tw
+[(toward longitude and latitude \(0,0\) in that system, the Z axis to \(0,90\), and the )37(Y)110.8(-axis )]TJ
+T*
+0.0156 Tw
+[(completes a right-handed set.  )18.1(The OBLIQUE_PROJ_X/Y/Z_AXIS_VECT)18.1(ORS make up )]TJ
+T*
+-0.0001 Tc
+(the rows of a rotation matrix that when multiplied on the left of a vector referenced to the )Tj
+T*
+0 Tc
+-0.0202 Tw
+(standard coordinate system converts it into its equivalent in the oblique coordinate system. )Tj
+T*
+0.7783 Tw
+(This rotation matrix is the product of successively applied rotations by )Tj
+T*
+1.3972 Tw
+[(OBLIQUE_PROJ_POLE_LONGITUDE around the  Z axis, 90 ó)]TJ
+36 0 TD
+0 Tw
+( )Tj
+ET
+endstream
+endobj
+107 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+109 0 obj
+<<
+/Length 4184
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 90 749.333 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Cassini  Radar Basic Image Data Records SIS)Tj
+/F5 1 Tf
+10 0 0 10 301 36 Tm
+(23)Tj
+12 0 0 12 90 711.674 Tm
+0.9995 Tw
+[(OBLIQUE_PROJ_POLE_LA)110(TITUDE around the once-rotated )37.1(Y)37.1( axis, and )]TJ
+0 -1.0734 TD
+0 Tw
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION around the twice-rotated Z axis.)]TJ
+0 -2.1468 TD
+[(OBLIQUE_PROJ_Y_AXIS_VECT)18.1(OR = {f)18.1(f.)]TJ
+18.2006 0 TD
+-0.0181 Tc
+0.0181 Tw
+[(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(fffffffff)-18.1(})]TJ
+-18.2006 -1.0734 TD
+-0.0001 Tc
+0.1233 Tw
+[(Unit vector in the direction of the )37(Y)37( axis of the oblique coordinate system used in the )]TJ
+T*
+0 Tc
+0.0547 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection, in terms of the X, )37.1(Y)128.9(,)0( and Z axes of the standard )]TJ
+T*
+0.1117 Tw
+[(body-fixed coordinate system.  In each system, the X axis points from the body center )]TJ
+T*
+0.1307 Tw
+[(toward longitude and latitude \(0,0\) in that system, the Z axis to \(0,90\), and the )37(Y)110.8(-axis )]TJ
+T*
+0.0156 Tw
+[(completes a right-handed set.  )18.1(The OBLIQUE_PROJ_X/Y/Z_AXIS_VECT)18.1(ORS make up )]TJ
+T*
+-0.0001 Tc
+(the rows of a rotation matrix that when multiplied on the left of a vector referenced to the )Tj
+T*
+0 Tc
+-0.0202 Tw
+(standard coordinate system converts it into its equivalent in the oblique coordinate system. )Tj
+T*
+0.7783 Tw
+(This rotation matrix is the product of successively applied rotations by )Tj
+T*
+1.3972 Tw
+[(OBLIQUE_PROJ_POLE_LONGITUDE around the  Z axis, 90 ó)]TJ
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0734 TD
+0.9995 Tw
+[(OBLIQUE_PROJ_POLE_LA)110.8(TITUDE around the once-rotated )37.1(Y)37.1( axis, and )]TJ
+T*
+0 Tw
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION around the twice-rotated Z axis.)]TJ
+0 -2.1468 TD
+[(OBLIQUE_PROJ_Z_AXIS_VECT)18.1(OR = {f)18.1(f.)]TJ
+18.0896 0 TD
+-0.0181 Tc
+0.0181 Tw
+[(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(ffffffff)-18.1(,)-18.1( ff)-18.1(.)-18.1(fffffffff)-18.1(})]TJ
+-18.0896 -1.0734 TD
+-0.0001 Tc
+0.1257 Tw
+(Unit vector in the direction of the Z axis of the oblique coordinate system used in the )Tj
+T*
+0 Tc
+0.0547 Tw
+[(OBLIQUE_CYLINDRICAL)37.1( projection, in terms of the X, )37.1(Y)128.9(,)0( and Z axes of the standard )]TJ
+T*
+0.1117 Tw
+[(body-fixed coordinate system.  In each system, the X axis points from the body center )]TJ
+T*
+0.1307 Tw
+[(toward longitude and latitude \(0,0\) in that system, the Z axis to \(0,90\), and the )37(Y)110.8(-axis )]TJ
+T*
+0.0156 Tw
+[(completes a right-handed set.  )18.1(The OBLIQUE_PROJ_X/Y/Z_AXIS_VECT)18.1(ORS make up )]TJ
+T*
+-0.0001 Tc
+(the rows of a rotation matrix that when multiplied on the left of a vector referenced to the )Tj
+T*
+0 Tc
+-0.0202 Tw
+(standard coordinate system converts it into its equivalent in the oblique coordinate system. )Tj
+T*
+0.7783 Tw
+(This rotation matrix is the product of successively applied rotations by )Tj
+T*
+1.3972 Tw
+[(OBLIQUE_PROJ_POLE_LONGITUDE around the  Z axis, 90 ó)]TJ
+36 0 TD
+0 Tw
+( )Tj
+-36 -1.0734 TD
+0.9995 Tw
+[(OBLIQUE_PROJ_POLE_LA)110.8(TITUDE around the once-rotated )37.1(Y)37.1( axis, and )]TJ
+T*
+0 Tw
+[(OBLIQUE_PROJ_POLE_ROT)80.1(A)110.8(TION around the twice-rotated Z axis.)]TJ
+0 -2.1468 TD
+[([Proposed new keyword]LOOK_DIRECTION = RIGHT)18.1( or LEFT)]TJ
+/F2 1 Tf
+0 -1.0976 TD
+0.1098 Tw
+(The value \(RIGHT or LEFT\) indicates the side of the spacecraft groundtrack to )Tj
+0 -1.0917 TD
+0.0661 Tw
+[(which the antenna is pointed for data acquired within this file.  The SAR images )]TJ
+T*
+0.0283 Tw
+(stored in the BIDR files are always acquired on only one side of the ground track )Tj
+T*
+0.0584 Tw
+(for each Titan pass. This value also indicates from which side the SAR image is )Tj
+T*
+0.6755 Tw
+(illuminated. If the spacecraft images to the left of its ground track )Tj
+T*
+0.0001 Tc
+0.0047 Tw
+(\(LOOK_DIRECTION=LEFT\), the image will be illuminated from the \(viewer's\)  left )Tj
+T*
+0 Tc
+-0.0184 Tw
+(side, and, conversely, if the spacecraft looks to the right, the illumination will come )Tj
+T*
+0.3284 Tw
+[(from the right in the image file.  The direction of illumination is critical to )]TJ
+T*
+0 Tw
+(interpretation of features in the image.)Tj
+ET
+endstream
+endobj
+110 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 5 0 R
+/F4 21 0 R
+/F5 22 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+53 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP true
+/op true
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+111 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 34
+/FontBBox [-167 -250 1009 878]
+/FontName /KIMHBC+TimesNewRomanPSMT
+/ItalicAngle 0
+/StemV 81
+/XHeight 472
+/StemH 36
+/CharSet (/space/one/I/n/t/r/o/d/u/c/i/period/P/p/s/e/a/S/two/A/l/b/D/m/C/h/E/v/R/w/O/f/three/y/four/five/g/L/G/x/V/M/six/U/eight/zero/seven/F/H/T/N/X/colon/B/comma/hyphen/K/parenleft/parenright/q/z/j/J/nine/sla\
+sh/W/k/emdash/ampersand/Y/Q/bracketleft/bracketright/quotedbl/percent/semicolon/equal/underscore/germandbls/quoteright/plus/asciicircum/asterisk/numbersign/less/greater/Z/braceleft/braceright)
+/FontFile3 112 0 R
+>>
+endobj
+112 0 obj
+<<
+/Filter /FlateDecode
+/Length 6804
+/Subtype /Type1C
+>>
+stream
+HâåS{Tgü0dd:&8ÈZÍQ∫-·µîä(¢†ÜóÇ!Hî$òƒ`-Uk©`Ò([4àKÇUƒ à-R^ı—¢•@e=÷*Ö∫VˆÏ±w£ß;–œŸ«{fŒÔŒ˘›{˜~˜Œ'¿0Å@‡ΩjyD‰¸çVmåUÁÆ’k”uqÒ´¶ús8ôÄÛr‰º≈(?ﬂ˜‹A8√Œ-ö…9∫r¨{á7[-≈¶Ñ\ﬁë˙ãA≥%Àƒæ¶öÀ.V.‡Q·?ç”¯∆4æ9çøylxÜ~≥öç∑Mj≠ëç÷©ÙÜΩ!›§ŒcŸÏlvÌî¶ë]´6™fûùnïÂ{eßõe5F6ù5“3‘⁄t√6Vü…ö≤‘Ï*ΩNo≤‰®Ÿ»ﬂı4z›÷†ﬁ¢·‘¨F7∑.ûç„ãÈLl∫.ÉMx!≥:3S£ROì⁄tÀ∑¯Ôπ*µ¡îŒ[=/b`∑Ó0hå’T£ﬂÜ0¬Û°±0,Ç∆6bÿA;äaI¸1b+∞¡R¡§C∞É¡¡Ü/∆„Ò√x~vúÌ∏ﬁÒ§–A&‹/!§ƒ˚ƒ®àÌYEm¢N1N7ù˝úKf8Œ–Ã¯¡%÷eèÀÒ"±Y<0s…Ã3«$IíÎÆ´\K\«›¢›nªß∏∑∫#©óÙMi≤T'!√…˝‰≥ó¬_*¢“©Îrè›?Ω<ÁÂvœπûzœá^+ΩŒ”Kh›)ÛêÚñzÔÛnüµbVˇ¨+a%mú7‘ÂJo>~BÊêÄ‰º©S‡]ﬁUG€,UŸŸ£vKy‹)‰Õ¿&èˇÌê‰¡	ïÌ*8!µrdY”ûG5dV3òÑBê5©»$|Ax⁄ëqÖèÏ
+ÇTNqõyﬂT
+˘O¬SnÑ
+´˛F\µSSyº‰#·rÚOC◊‘+87“!HùB"')ødˇÄÄˇ——ñëÔøOÒì∞ùÍ>ÑÕi |≈ÍÉÄ74æ¯9gF]ˇt j1©˝eπ∞âêpäºÆ∏o`‹
+€Í§Á«{Ô¡?ødY0ëûT⁄^çn£,&µ˘≤ZﬁÿU◊Y◊Â‘b˚Ëì/dVîfù±f÷&Ef¶…ì;7ﬁ…º„t˚¸£´#Ù@lS§ﬂ[+¨∑¶T¶0ãíêC8r¶…∂Öîﬂ=Íæ–yÉIiÏJæ%ª◊ﬁ1tB>-‘ˆ∂ºÊ∫µ˛bkSç:=2.96á‡è•I›™çï-UˆÙ}›ÒyÔYycPcPÁr'âëãœ¿|üÚªáÕ‰_Ä‡B®Ø*;{˙ÈÊ≠mâYŸπôŸ£ˇ´©ö!k  éïïÔ‹£L7dÂ#⁄`~Óì+h√·˙ƒ
+
+E¯ÕGAHI#Âc~L•˘ﬁ’¡P–†®·≠Ô]ÊE$ç·ßP6£è!î4(ÁCäeÃ"ÆAkêÇF
+o}É	ÁÚ+∂ÈüøbÛº ßøÓÛ˚¨8ÏÊˆP*=óE”π÷ºä€PÂ&1;MMo/À©Æ.;sö©œnl•ÕWl°≤
+k˘…õH\†™ñ€´A\pì>i)ﬂØ5ß0≠µçıÙÈÇ3z}AŒvF]õñHW¶há‚e;-yπ— .≥ÎÂP¡ª  Ì8îEŸ· ∞#TË ⁄ØÇ˝ÑÑÕ«0≥ÏdZ;
+¢˙+ow‹£… }«:çŒ†—Vòjè)).e»¥í“√≈%≤cá
+
+„î uy¸P!vP`áq;ß¬‡√A—î&∏Ó˘î≠™ f3ViµF£V[e¥…%!•Ê	eÆ†jq®Â◊†&–ªø(Ö	IæmbÜMP˜ˆ<∆°òøëx6*DÖ û=6‚gPÖH¸l°\ÎÿQ¥˘O»§Bn°Ø‰Éj LvpíKä¨ØÚìﬁ:åÉ37FïÊ	èú(/≠ê’1D…'}DoÓ;»X‡êUXtvXŒ]⁄%íıs˜‡ª˚8∑H B¨7,+˙≥m&¿¸Ö7o˚tú˛áˇùyH¥F·≥õ±∑¨]Õ}≤¡÷Â°Ï*E≈r'IÚ/Ck9T‹íB«∞Íkr¿0EéBBZ¯NTRtÑ<j«ÂDŸéùy;RÓÓ;qÉ0Óßvá⁄‰‰¯•sW;;ËKö1$Y¢c ÖMßõ/|&˚≤)%:`È˙‡˛Äﬁ≤>n)ZÜ…NÔQK∏•Î	‘3#\	üà»(bXDÊ@ƒC
+Î£Pª‡[·!~¬ürw0˘ŒEMÃ£–^ëËò"A¥πG/ñ«ÏjMïô-yÊ˝˘ı‡$8 Ø!ÔGà>.o˛A…SõÇ…KÆU–8{‡\ø,3Å‘(mBYH|-Ç?Ä€=pß'±?±ââ;µ*˘Yò˝3º˛áù¬'wQQ∫◊˝∂¡ú;óJ>>|é©¨=_y^ˆw"√‰íR37zWpÅ{ ∑π-˛hø∞∑ÆÓ‰-ƒ(irTxçÄúâWÖV—oç¥˚õË>–˜≈˜ëÉê (Ú·™MÀV+Ë¥ã»Êèè‹¯˘«¿Ó∑€r∞´nË”A∫/¶9/X3óyΩ7πG…¥Q Ê–∆!∫≥£Æ˝ÀÜå∑√34 TÜ|∏n3ÿì‚Èï	[‚Ç”zzm=WÎIæˆ6¡/6¡≈Œ(˛Y>uúÄ|XfXÆQ‡á|ê4âëÛ‹n_¿⁄ZNùiê£Ÿ[|—¥D◊`‡_åW	TT◊Ü˜û1	çºÛÊ%Û∑¬1FQ0.∏†ï®#KèJëM°‚∞Õ\XÑ
+≤	∏ O¬>*8ÉË‡∑∏·äIib≠µmÑVm4⁄ˇéˇÿˆŒ «‘”û9Ô‹{Êﬁ˚ˇˇwˇˇ˚ÓΩB¸ö9Ztè°„€˙øtvÔ≈”#sb≥WRñP¡6J§N+ë$x˙2ì,*«W∞ÀFfx
+vŒter◊N)ÕÎ{H˝
+JGıß4˜-…~o!Ïíd_I™Tïp_àÁH åâ≥B0°ÌZµfmlÈôE|Ö0R’¬Y™plOÔg6»AËjË»Ãré“§“èvùà}ûÀdB≤s¡!Êœ˘.≤¥Ç¡ã)Iﬁù®é“f.∑Rxá¬M+–ù÷û«DbtëYÃ∞|Õ?∆ŒLZ≥${Ä+.¢ ¨–®ﬁµcOIÖ¶•ãÅÉÄ:8®dú‡bû"‡@#‘6 ä30›P˜h8ÚM¿PòêßußNÓq†mÑAÁ:gú˝¥L Á¯}ówù8Ÿ°ÓöŸâÛ5xNfªÛ¥$ﬁ‘}[(i–Ë≈ø>ˇpÖŒ?éŸ\+-u,™◊Á5à|ÏCPE„#Gáè_^XI∑Ùböâ<k≤7Ç#Ò´PëáÊâB
+õî≥Nõ(¶o(.Ãî™∫mâHIı.é«@úÉq8,Ç!∑ŒÇcõîV∆åõÙæà,∫^-ƒ=xÆŒ’OëŸ#ï≥∂Ωî‰Æ°q†Ë*~éÆçÉ,Ó0Á_°O<€§ì—Æ¿Sƒ“>X1›◊Ö“ΩMEM"LøáC–«y¢àS¢¢äJ¢)Ç-∂=<d∏ü˛Ω^®¥Ú©ffòÃv◊gﬂ%U≤0å±±|´ÃŸ[‹8[|™L ∏”0â—±có¨˙Õ«"æÀÜÆ/= A6∏r7Î”?.ëHïŸ±c2}Dteù ÑV»˘ñ{…∞∞œeò“æÉáßj∂´9}dÉT¡n¥:›¿ÚˇÏÁTÜ}
+ÁûW{GÇ`∞„~_ó2u3uí ≥Ss◊§¯ähg›∫¥&∏Æ¿æ&gkzƒÓÖ'f'(æŸZ}I£‡Œ^£8õ”Æ¯bC®à£ﬂöúèæá—‡#ÒO`‡7s—°QRÿgd6%wMÏ∫ËÚ¢4i{DDi∞àÈ»–‰é¡Åﬂc,ñxÚßïÕ◊§ú2¿A≈ﬁ
+Øç^Y¬ „Ó‰’vSÔ˚^) ⁄0†ˇøƒ≠ˇJÙ„ú‚Èi…RoR˚—dØ?ç;ÌMk23tE ]¯DH»õ∑R≥lÎΩÖbå.1v…ôƒ÷Àè√,	nÙwgÉds∆–•'âJÄ©0µµı“Ö+πÆ
+Ê»\c}Óo◊¸j÷j≠D´ÃçÅ≈ˇ÷eƒa,SëRüßéèŒ‘m¶£Ì
+Á]0Ô‹‚ìzÍ”Dÿ™Ñ>®	À”Éäö=—ﬂ,)ÂŒÄ_j√«˝24h•∑à#Ÿ•y∆c4v}oÏé&R”≠"É©÷ì„Læe
+˚⁄ùûœa∫•≥H9ÉdˆNŸjo…‚ﬁá!µo˛î¸—ÀL2@„|”D<L¸!O!üÂudñEœ(ƒƒˆZMÌ€qgA2ÙìŸ´ÒKí%Ä„ı3o-dÉŸŒ`pT¡Û4ÇËπ˛	¯É?“ÉËè«O–˝Å∂$—+ÑŒ£é“∆ºé“ÒQ8*Ñ6^Rw7¡·ñ^ÜReπIkÙ¢êi4fEò©á¡'¯‹EO	´{’‰ÂÚ˜IäcqUuAµ¯Á„≥'˙.ù176¢∞xµ5lV`Z≠Yı"tÛdÙ–°ÿÁª†{¿≠ı–Äß˙%n„[0&@vh√¶¿ò¨ÿ1Çí7Ôixz€ —„ Z˜Bsü¶ƒZ!ô'V8œ-ë_∑#•üÀ]Â˙©®œFãK4ÿÚZ`0∑ùÉDº¿˜Ò0y.÷◊5à7OÕ˜F’àh7)—*ci˚…≥˝ŒóØœP‡Ê]ÖÔ ÀÈ	 ≥…9ÂxqùÆ¨T+ï≈«ñFä|◊SáIOdtSOüÂGØ2–©∆•I2&+le~QEµXSôëQ/•◊5fÅøu˜'âﬁ>Òﬂ5 ©œü5ù—‡–>~Ë™J6vê&{ÿJ)˘Ñ¸Gx»ﬁÆÚ/¢cY‡¡Xålz0
+{°®ˆÿmÒ!ï“˛r@ãÀD,ä˝„n‚dR=Ütá≈∑!
+Vﬁ“¿QÆ_›b.∑8oÚ™Õ¢p_Ì\qŒú›W§ı˚r:ˆ´°‚™Qúd°8óô¢‘|'
+¢Ä»€Lzµl®S4mﬁSHW‘»‹≤À¢Î>ÉÀiÖÖ$Ú√_˚Úx’±∂‚∂ó´˛w6D™u∫êL}ü›È1ºÌŸÉ¯NÛh'lb—	˛Œ§◊ß–´ÍRÀ€dÓJ˘“E_Jı”–ÅfîŒâ¿dóß◊ÌT7ÈKtŒ&ô;_¶ùW%¡rK;SIüƒã^∏·#ã≥ãÂØ¡Á‰(sRŸÒıQ¡`ô;‘êûê∫,3·Ö.ñö©‡¥
+Oq≥]W£UØ
+ﬂGw€®pëÖë˘∑–v∏¿;0ñ9y‡»ïÔ®©ı2◊‹òΩ2Q∑.U¢—In0îI/OÆ´T7öäkidÁdÆ+◊4˚»,¯˙π‡H\∞,‡ãÖ”≤\eXØpk6á6™´ÍÙ€wj^(ÙU*q.p]¿êÃdn_[πSmlﬁ≤üZ3»\SsBDç°xô¡a/ï˝|@aN5[/â∂§woàHàè\Ø≥›Z»ç˚≠‰™
+4-Ò3;0ñuÏZúDw	Ï îüD˙æ∞¯X~ddb‡ˆÄ/=7›¢√‹Eßx6ôwõÏo˝Q«0X0·{Ê›û	W=ˇ/Á’‘‘ï∆ÕÑ‰‚⁄âòÎ]∑π%wt≠∏ÄÆ¯*„c\+¢(≈G´E"!Å<^Ç¢ÄàÅ$hBHbêáäè™Ö¢V]»ª‡L]wlW◊∫˝.sËtO‘È?≤ª›ù…wÚùsæﬂ˜8øÔw~&~±¬≤æﬂ¢h˝…Ü|£!q[¡kxÅñ«r+¯∞øU∞VåEØùBX∞u‡OöpÅ∑ó´‚sehua§j!z¨Ôäº∆ë6±”Ω˙|Ë&€·gxJYçO—t)È@$œS(´‘÷Ê#ÊsmŒ:«É≤∞•ŸæPéÌD^íU'7ﬂ∫z¢ÕqFW)?’—z fñí*+ëù≠Rf“©F˚ºxQ<ïÆäŸìDÀm˝œOÙZëﬁ≈	nÉ^ÀªÎÌ Ü√(5nªÂÇ“#U•ïÙ—„Jf§Üà?◊≠Í°¡Ù[3ˇ–∑$|[Ã÷D∆ LÚ≤w6∂—ÓŒ˘ÅHº6tmllÉU¡‡ê˙9ûìÁ‡sìaÆíE-ßß…‡7C˜úèáZ”cKyi•¶ù>VW}¸VPkÚöÜ≈,ÚòÇ}Oû÷b|ó9⁄Ê¡Á|in>º‡>¢,J$ç~;À√qSÆ#o€’z¨ı$≥⁄D ˝eA≠†(/ª(ó÷kå}wWMºé“+Uï¢›M/Y˚DÙç√’ÁZπŒÉ˘!Ï∂¡XœŸ±ˇ‡sA–L¡òï˜ß¢)a»Q»w( x/n˛µVäEqò*6´8ﬁ&zŒ∞Q_ïvÙÙ–nﬁŒx$ÁÎπã0Ú\ Ñn·E„@ØÙñaÓe∫Æ°æ˛‚‚fàÑÃéπÚ«»A,2&Œ√≠~ê%ÌnFÑíz¿ØÉ∆ÆÅ©çê|Íp£ÿzG>r6ö\‰ç2¯'∑å"{ÀÃI;+‚h4iãË'ÕQó”“±Gπ5.Z¢¥f5‰KIßO™R†Qoˇ4Q≤&*n¡¸°ØJ…˜∂üDﬁ§(Ä∫ºQbj0’TIäL4y£D›Óﬂ€ëibn	Ÿí≤⁄ö˝e:ÜÏmA∫√TøyˆZµ—˛bÕ∑◊˛˛%keH÷gŒ»*äºÈìﬂÚ“`£œ∑ ∂D!üY€⁄=V«1kñäpz»+û“∫›∞∆ÕÁñ‡ë~?±—˙ÿƒH)<µnDÑ™`[1NN
+Kl;†*Ôë@·t8mù¥≠=oÉvæªBÇ]≠”B‡˜‚ø}?«ç«‘.f¥.G˚ﬂ›LæòÕuS
+ì⁄b1ô,µI°P´RQJjˇäCGÀìs≤§Òöã—¥*C´éÎŒ±~ÁÓÅ>{X< Ÿn FOf¯–”KïÔ-œÀë§kçπŸñàŒ4b¥¿íWﬂ	::Õ5Æﬂ¨#™⁄,µ./üAë∑†ò˚dT@£$—ì"oΩƒ◊¸
+m∑u=%\Ô˘M\Ä’‰ØŒ-TÕéMÁË;√#±‰¯øV®	‹4¡⁄±}ìL⁄U∞µ=í˛8zÀv#˙nÆˇ	’m®7>ﬂ6™HÔ‰¸ù~*y¬áRÏM
+F„–xÙﬁ7HÄ’ÔúÎ0Ì%àføBòåx
+¯64cÓäåiAàüAC0ÒJÀy|«„YXe„∆›ˆ0±zêM§"t«x|F–y…VWnL/Lüõ`ÚïEmIf/Gâœ]DŸ≠MŒN˙i-_™úêír∏^À$[äõ[$oúﬁÊòÓAáÔ‡2?C∏1A`R∆W&“»/«·˚a7^◊:œûnaPÒ¨EêK%§&ßÀË≠0ñ??⁄tº± ≥ûiV'Ìíx®û=Ì]}]ÏvìMo´AV˝ßzËﬂ≤^A‘UÿªÃ4y’Tõ`ßÎLf¸∑#¡¥'j◊:πZjäÏzõA√ÖŸƒ_|µûÖÑ;õY≤˙±ù0∑®ho6ùì]Ví√“fñih≤˝£àM4Ù5h¨D&O€!%õóFıﬁŒgtB2Õe	“q¯`yY]˛˘~√!foìΩ†âÓpÒû£àåz‡I⁄€Í]xﬂÄ%2¥⁄#rC
+ª‡'o ∑€πH
+¶gqÅ≤O7®ºµ∑—◊D%çΩ´˝ÏyV™j
+TÈj˙3„ôv¨Ø\ÑHÖ#Yﬁ7Ñ„*Ñ‡›(øµÂYk%®êHQƒ»w–õ”ú]\«‚≠%ôòﬂ∂ÊﬁÕé≥ÁNKgç2¸DÂn+Æ‡4»¸»Ap¸HÕÄ\Aau>[+±7î⁄±“ä”ó
+*”Í∂C¿ˇwı¿ç∏™´ùÌòW¸∞ú5ßÍÛ“
+≥=Úıëº·1XπUAÕÉ†®≤ËH•ƒ—Rj¬«≈ÎàïÍÿj¶~„,¥+åÇ¬£µ’ãπ¥ŒÛT’_‰ó+ke¿ååÒ®ÁI–
+|‘*h¬Tn\Us≠≥•‰}M÷lì!5+_µ/õy√à‚*.e$?´ƒ‡ècëÅÜ"#°:yÁö],3˝X"3ÂP}É’˛y5s}®'XPôiŸ≠ïhÜL‹Qrñêe◊ld¶¿ÃØˇ"8Á≤úË¿˙Îàö∫}È∫ò®‹,&]ôa‰W≈vïòÍKj1`9NèYæ±≈3Ü-|¢~ü‚≤^gt≥Y•$Áh"w“‰ÊåL6ÅV§È˜»ùZ«âªMœZr.Drªñ ⁄cˆ7	µ∞Uz°æ@«ÃB9øáAAçﬁäb.m∆cuƒÈ}ÊË⁄8o—c£ìÔ‰]`a®öœÕ_‹œ3ÚTE≥i‰/Ñã#`GﬁC>,ÒmÖŸË¶A"DF¨h¨D«£$ñ[l‚≥‚⁄Œ˜}÷Gr?@:EæÍ.∏øZíV§‹ó*%πBea™R2Îq–≥bÈø4ó›gb¯˛”RÀ˙ó€Ù¬_&,û∏xë‘=ˇ„∂ÂzŸo.<~¸û‘¢÷≈mK@˙∑/]&uzˇ˛SÅ˙¥ªLt§ä&N,È+Í/*íÚÀjëCq»˜(†;ˆl~ÛÉÁ{–)Aì¬÷ûñZ‹øt–»7Å∂.ïzeÚLªGÆí˝TÎ˛po©Çv†˚ÄF∂∑óHY˜ø	ÃÏ∂•˛˛R%ã'ÅÙ˜Hyáá˚¥ıΩÓyÙÏï‘í÷•≠KA˙ñ¥/Y"u˙¿⁄#ì‰¯~ä/\œÿÙ´è˘WÎ˜B—ıˇ˙“Ÿ˘ZWœ˝)∂X4ÌæsËN‚·öÔfb?öÿ/uøzvqQÄøsôßYü\>ªÆÔù+~ãÎI≈‘[˘÷’Nû)7m“§iRãkfÁ’UEÏ ﬂ˘ùyˇwˆ7OSÔÈ. òpÕ©E+wúìzowDÁ7´ü€o-π?R∞éùØf÷O≠Yø´f~ØÌf˚!“˝ÁM;íDàs=◊ÓıìxxÓÃ‡·˝—!Ú˝ß(@Ä }
+ÓO
+endstream
+endobj
+113 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 262176
+/FontBBox [-167 -250 1006 939]
+/FontName /KIMHJD+Arial-BoldMT
+/ItalicAngle 0
+/StemV 137
+/XHeight 472
+/StemH 109
+/CharSet (/space/one/period/I/n/t/r/o/d/u/c/i/two/D/a/P/C/h/e/s/E/v/m/five/g/L/l/G/three/x/V/f/four/M/p/R/S/A/six/b/y/w/N/X/colon/B)
+/FontFile3 114 0 R
+>>
+endobj
+114 0 obj
+<<
+/Filter /FlateDecode
+/Length 3489
+/Subtype /Type1C
+>>
+stream
+HâTUTgû!ôIï$®…
+,•ã∏(ıUD≠ä`yHA°$BD≈7.: ¯®èV-¢QAa°>k≠¢TDÍã”Ì÷vmµj©]]Ô–õû›?T{vOí{r˛π˜˚øÔ˚Ôá¶‰nM”⁄Ëi1SßO
+é¥ô”≥áO¥fc]Î˛GKZπ4ÿ”«‡Ê_◊˛:ÅÒ°®cõUp°/t˜ø6∏ØøÂF”∑ÓGYsmÊÃ,ªò$ÑFDÑs≈∞ﬁﬁGı∆—Ω1Bà4Zﬂ7		ÖyvSNû0ÕíaµÂZmÈvì1D"≥≥ÖxZûo 3ŸÚ…j/9¡ú'§v[∫—îìn[$XâY&!∆j±⁄sMB‘+≥’"ÿLôfo3≥E∞ìºY	¬ªdã]H∑Öƒ?`f.X`Œ0ı.ö≤ÛLY§(‰ˇ‹†hÚ°˙RîCq5DNR‘5‹ç
+•®0öEQ5QI≈»©ı&1ñíS
+í<ô™§˚””Ëè›¥n·nπnˇíMóÌí}&îèóœñÔí_a3[Y9;úÕd_*)iÂ|Â>˜°Ófw—}üÅ}Ã}Nzps=Æzj<≥<wyﬁWÈTfÁuÔW∫|dùﬁ‡>Ë√™+Û{2
+hÿô$x˜d†\ëÜ*H(⁄†ƒ~ä÷\˛‰pµ“π[°A+-ñn"•	C™ ≠±˚j´*o~°ºŸˆ√7–_ˇ},∏·[…SVæülàO^Ûˆ_Õ‡S4VEMCw∞}›»R~”î‘¥‡ËÉ⁄§∑W˚*•%¨z∞í¨¸DHQ‡´πﬂ Ò:øù]Å¿i:`–À'0‡€˜Æèﬁ√ó)4˜Óº◊Ù£˛~d7p∫áÃ[c ÕÊˆˆÊ „‹È#Ÿ)Q1Kﬁ+ÂW†å—tîÔ™⁄‚‡Æùóò=yZŒÖs≈<Q~†íÊÂÌ0PÌﬁ0¸ÄjÑ4,∂9ìÙÑO*åÇ¶KzâB%–›†••‡+kÅXˆﬂÛh"h8”Ú|h–T•XWÆ)‰+AÕ¿N–‚ÿ…Nwê-göépÑ˚ 1Ûˇ$”ú‘yéŒ5|/Íá?É/1∑B 8ô¥E™◊ïTÆ;ï[Ø¸‘s ö√›"~>}j≈¥˝3xr(˚5|u√P¸ô≈âfÕÁ7ñ1∑+∂Cø'\«ˆòee<N¡:P‹›∫˜±àÓÀ
+D§¬¶eut‘Ni(!ALó˝Ù∫!†D˛∫5 âK·ƒ•…tiOÜ¨«Ëç'{“ŒbÌoiÑ∞ó!úÅˆ*Ü3x	éÎû¬æn‹«®ÀEP**Ø;ƒÍ£‡ã,i^‹ÈI”˝ñ%
+÷≤yo#ØÆ·ÎN˝…ïO±ÔqÉF∫^sÏ⁄5}[÷ôÙ√Ü£©ÒÂÅ\™tœ˜à≈ï¸â5{ÃãÙ"ãì
+£Yp«zùÊ≈≥b–í‚Ù§•¸∫%±b6ázà#‹WA?i5Ù£œ@êL™Åèt„
+ÁOÊ¢Á>πòœiY◊ﬁÆoa6Lπ}9}‹^≠+:[ÿòy|P◊ÿ?ïgpXÄìq.Ê¡@ÙÖ$Xy¢>˚êÔU&Y@EªT]!ÿØP¥Äá¯’-˛ántMz2ØÁ’@5˚àoqâDøà∏óÖ£åGJ≤∞ÍŸ.üí»/ÏwDŸoÈ®ú~d—	*tBi3ï≥öU_!Ç ò§ÊQç$ıÅ ô‰GÑAD([T85eác@‡ø/nªt§Öom¸b_+◊Ù†(∞ö?ìå¯F*9‹å≥0
+ﬂ}Å3»µ˜èõßy®«6d§–ÌÑ
+π~=iË«™óÊáØ	ñ∫àI]O@Qô/µ¬02SÙ“–ªÊä^j-c¡◊Ÿ  œ/µ2eŒV–®5ŒÃFu“
+≥{;Ãµ]Ë·<©ÓrUgíÍg&˛§DÔ¥ëÙøI6bi»*bA⁄+ˇ∑π¸'4°Í1€vØÙ¿9æπÚÀO¡K™©S˜ˆöåÂË≈·
+í¯∂N¥÷Ú∂Â.÷˚àëÜ1êˆ{óü'p˙+–Ê◊†Ákÿß€ãP˜ˇˇÃ@$;Ñ(PXÕ¨T¶®ﬁÏÿvpáÚfMCGó˛¶˘Î—G[ódÌ8ºƒÇüÎ∏ˆÈ^qπÉw,ˇ¿j—ÁoHù≥Ã∞÷+ŒÁ\RVOK¿ÉÓ 3„1∂	ät∏∂‚◊ﬂ„é~Yv∏çøZ}Ò÷wzòÑÅ«ê>d@Öcﬁ«-˙œªv5ªcÍÇ-ﬂ¬@x1j/"Ÿv¡lTè√0¬ÿY»√¿EgWŒ‘ßf$†˜“üO¨7∏Ãsy-ˆÑ»`õ7º…¬ˆWó9 Èp ;íÉ¡PˆE9LdIsäÜ"C˛„FIyå¡±,
+∏˝`É„X∞·cFΩÍitæ4ÓÖW=ô 1¿iöa8uá∂ÔnhÁ~çfæHëª⁄≤n|ë2™›Ì®—áﬁòÒ¸õ≥çáA≥tõµ|≈Êıõ◊é-hZ_UrCπ©¶ÑZ˝£Mø†CR¢G€–ä—iöSƒÖõ°0?∑hódo¨9}q˜¡
+~KY›÷≠•µ[wñÔÆP™ÖU@OpÇÿØÑ”RÚfYq√¥¨ÊÃ›2≈¯wV·@˛‚{àÖhø†bTJ≤ΩÄáË£Ä¡Œ8›ãsg⁄ûÌB:µ1SñÊT∞÷Æ¨ø£'3[w_íó°ØL™íh]GAÍå‡pN"£Á»c‰r-Ñø⁄π™ˇR]ÓAQïQ Ô
+˜^“ui∏,)◊ΩëÒÉÜ ôö–HôÚ–F! KàÑa1à5y,À√6‹≈"±–`å≥:>(DÒôäÉ•6i%≠ùeÕÙ]“¨?Óﬂ˘æ{œ˘ŒÎw.ùíü˚Ór~E¬70•Er†Ø6lM®ˇod'a@(π[ó…~%ÍY£jãÖT6Î±ÉDŒÇ°Vo∞?ﬁØ<+h.«ü˝L
+Œêó¥KHﬂù≤?ãﬂrúøÆÍwëÀπ|fì;!å∏òn•Z	.∂√,;“>ﬁT§Áeo‚ﬂJÍÎ-·^•a‡ç∏ÙmtE∑Ë c§àSœÉ,øãáÄì o—ã8
+~äk≈g˚¯∆Ô?C∫T$(!m¿(´ï∫GXRm3(êò•Õk(3€¨iøPu¨(øI8¯]Uñ∆£Ø©P1Üïªaº’J‹yÂ·B´S!Ö#xì®‰Ü∏˚›â
+úóŒ© „!≥¶ÅáhãCgñZUƒs∂^Ù‰˝–5ìpﬁmdaFÔÖ÷”_àZfù&ÅÎﬂôUYZ ™≈ç≈:n(U‡«œ¶EkêCï‡ì1JpË÷¯,‘í)ë‰CZ;*IsWB”≠Åó¿˛Æ&ÿG¿#D“Õ˜hG6|Âp<&≤"ôO]S,N6PõAu∏«,õÅ∞Ù¶UNÇÍÛ˚|[
+3i§˛ìÍ’*ßK‰`‡?èÛ,nò≥\"ﬁú0âéÂÜ*Lz£–\knh„ø-˜—Lv¥Ïe›·ÍcBkçŸÿ∆ﬂ“¨—B‰wYbıl\ÈˆaÜp(7±gíÔøN,"pÉ}vi¢ı:9ΩâxºÀ6_˙n∞¯åvpcßCktxYævœ;“[]Ë<içöÂ;K∫kõÖˆ∫„I~D‡7ôÕˆpÏ©ví…Â§6⁄°^Åywñˇ.$˚^ıﬂ√‡•H-¿Ï<P=ßØ‹ËõÉÏ⁄m!kC-0Öƒ3!ƒ
+√@©_TÔ5‚çø¢»Í õ—pj”Ïÿ ïÒB›B˚‰ÄΩ+√bË [â§2ı◊¥ühLMÕ∫z˛To:øüã‘\ëä∞XE9ﬁ&>;¥GIô6∑ªÄ/•c?>íìß8ÛIê—µÈ	˙~}ÍŒ»T…◊oòXπ˙1¸˙ò:l%mÉ˘
+ùJøΩcßCXœù}ßyÔ{8Ãú#ãââïj?:‡êSæWopÌºYb4](
+≠¿≈Dè•¨lEG)§bp) 6º≈ñ<S^äÎﬂbuTDÌılihìf≈†3;Ë%ﬁX¡
+Àhè`§.a&ªBõ\∑Kàm8˜I'_k—÷wâÍß≈tﬁ«Ÿ˚˜q”w"ƒ=$°W[WI©ÍÙ,›π,€b‡§l≈TÁπ)üf	q™ÿ¨8~wjUS∂ò€XxWÿGN¸¿Æ◊≈õbÖmG/fú„Ø^9—mµ“œ˘"Uik≥ÉxÖÅ6ç≥ô˘XóU∏7/≥P=≥àIª∑ Íhi~Ë—¿j\<iFÈx-ó+\`&3
+£¥ñπá£4Ã``ôÙ	û·Ã¡î<†q&„3πîÆ/Ù∂€≤˘2¬íß∏Ñ¬®çÆÅPD„Ê5t‹%r•e¥„ÅZû9´r™≤5sÊ*‚Kàú¯úˆL€\êÃgÊñË“E.≠⁄çÊÃı∆Ç6Êá/≈rÉŒ†-É [¡tgP6a/·”—fOÀw7çGWc|5jxR>—[√˛G‰ O™&˙Ù/5î”Ä™ñ…@Y!õ^"ì€Œ:èÔP¸-¿ qÿY≥
+endstream
+endobj
+115 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 262240
+/FontBBox [-248 -250 1079 944]
+/FontName /KIMHKO+Arial-BoldItalicMT
+/ItalicAngle -12
+/StemV 140
+/XHeight 472
+/StemH 102
+/CharSet (/space/one/period/P/u/r/p/o/s/e/a/n/d/S/c/two/A/l/i/b/D/m/t/C/R/h/w/O/I/f/v/three/y/four/five/g/six/U/G/seven/V/F/L/H/T)
+/FontFile3 116 0 R
+>>
+endobj
+116 0 obj
+<<
+/Filter /FlateDecode
+/Length 3632
+/Subtype /Type1C
+>>
+stream
+HâlT{PSgø7…˝^	7≈\ÃΩ¯ T§AE©_"ÇÄ+Ze¡ëà&ë¿hó]ïÜÄE≈«⁄jß¢¬ÇO^•jm°ãK]¨Nw∂v ∑ö]µáz.˝“›˝;˝´sÔúôÔı;Á˜;öíI(ö¶5©)i…©È3ìLE˘ÜYãåÜÇKæ°HóñÌ>ç9ZíU¯Jƒ_5Æ¬’?ıˇ¥ÑôDQÁk¸‡KÄ	Ω!˛≠ÅîÑ¶øz∏ÿ∏µ‹TT∏Ÿ"DË¶—ÒÒ—ën;€cÁxÏ\èùÁ±ÒBRÅq£^»*7[Ù≈f!•Dg4m5öÚ-˙Ç(AH2ÑL7öY»‘õı¶R≤ÎâR(2˘Ç≈î_†/Œ7måõÑÏÕz!ÕXb¥îo’ãA)2ñD
+&}aÅ7ÈÑ¢¡BÓ≠Œ2àããê_R dˇ
+ìæiSëNÔŸ‘ÃzÎfÚ(Í7d°hÚQ˛à®…5ï¶¬•‘,äzç¶fÀ®E
+*MFe1‘:ää"
+S2JNÖR+©”¥äŒ°€$°íL…âS'-î d3d©≤≤«L3»¸e†Ú	rÉº]1QaTt{-™ÛÍÒˆ.˜˛óO§O≠œ∞o¢oùÔˇ¸ñ˚’˘=w≠Pz~;pt,êﬁé5béùéQû*◊Yi9)1Ql˚·gÔtNqÌÜP3∆uÃ=˚d.1(îv∑ÉÑSÄ\ˇ@‹≈~z¯√˛~Ó˙Gy˙ÙÙÙå,ﬁ∂{}ÆÕô¯∆Ï£áŒ@É´PSÎÒc S<˘ÓÚ‡◊ö°’/p,ˆâ]äC,Ze ±
+ò@Qì'Ø∫}“Yyrl˝cN5—O@íæ∑Æeü#gΩˆv=–g˝Äß·ƒxöÆBA€òœèùiªŒùk€ôë≤a›º√º{1™°™˜T’q_\(ÃHÀˇ˝≤Ù≤÷õ6û0Ü0◊XÈsbÉ˙!å5‡0ÇQ#Ñ1#Ë4¯0±Ëﬂ‚˚!◊+Æµ&ÇÒ‡√B:òïÎÒ6Üƒ,á¶Áè àæì†xÈ-»gÒd«ìDêr0§‡ù4Ñ—FÀÆ›Â|H∞Ω‘„gÑ)ó‰6Ê”ŒN˚!Æ•Õº{-K[±≤ÙÍ≠jû†À‡“#PÉå˛8‚6D*ﬁ/±‡˜ˆÚÓPøâ%ÿåwï€c3¯∏éª•79ò33ÄÖ	âCX^Xl≥ÛÌGö@~üÎ>∞võÉ«e¯.˚†u‰ÔÕ-•≥1ùìºj≈Œ˛èµDÒ.∞Ùò∏O:&ﬁe°a+~?∑Ô/U¿DTZ¬Ô!Ãı…g¡Æ-HYCÙã_hÅvk‡ÆÒ$’◊‚Aàa?¬1{çÁ1x.rMˇ9èÅôhbòeUNàÜ∆ÅÆ‡FYS˛¢¸È«0M*~u,Vlög»‚"◊›
+ä>X	 ˚slQ-°«à˙e8‡VsÿÇ£p:Æƒ≥˙Ò´∞rû@0»[xeçºEx”‚=ì∂´· r¬ƒwa¬(?pøÈ) Õ≥‚—ÿ.Ìï¥ïˆÈŒD†ƒﬁÏ∑Ëﬁ®/∆—ﬁ2Ú◊≠≤/ÂíêR ª	≈D•€«y7\8Íánæ'’·À‡Ô—Hd‡ÖgÂ™D ¬fí'f¬i¶H≈Âb k¬æ§¢Ì°å≠laa,∑2¸(ÃÉ©_BdˆGü·a“Ò}ß*nËØMt.¡˛uk9‹åΩq-ŒXpj~Ô
+>∑Ωß‰LyW„'|?Ù0˝ÔOV€&©ÿwÿd|á!!ív%⁄á£U∏Å¡®‹+<√ùâ4 w2H√ÁYÈf∏&mVˇ˙&Çê∂ÉØË$†b3!,z…çB :›0éûúCòATÜfÛ√8
+t– ÅP´`	ñ¬úÜ?ã¿Áqº¬™Yò˝Ê¿4†nƒÕ¬Ú◊IÒŒùµlpT´Ã!LÍ	ì?ô≈.YÍn®g˛ÉÜüÿ€¯ëÆ”œ{5êåÏk¥∏aOIùùÏèË^ü#…¸Nv∆~˚∆G*ó˚≤0;I„d∫·∫·≤’}–…Ù†∂sˆ·[2pz•bP’˛Zá&ÔE6ß}^_”q‡ÍY≈«ı7z~–@é≥'kÒ‡/¢π}¡tu¿æ‘\±>≥Ñ∑ÍVŸqØ#eé[å˝‡ÿ¬jÖ,ãÇPï≥v≤Ôñ9tG7*∞Ï∞[F9»˝∆@9˜"ˆø¡´æä?ˇÊ©Îö{Ïß∫,Ûj!¥ñÅËw∞ˇM<â√V„Ä80¢áÄ’º ˘è¢∂ÚMb‹◊‚I˚ˇ÷W©ußË$…í¬sµ'?P2]=»Ss∏úø¥Ÿ®ï~Sâ„ylÇÀèŸ±pÔˆ"Õ¬V
+8—
+Ä;´Ω/Ü∏ìÔ‚Ïo*{ápo‰^∫˘Å„‡±øÚé£’G™jæ'ªsÊ.@„	RqäZ‰›’ÜU◊e¶≈àó›(DƒSVåE9··≥¿N“¢	¿ÕN’{D€~‰¸ÒVÓ‚˘ù˙Ú?Y˜€x„ÆúΩŸ{…{Ò‘
+¸™fÊÌÏjUÌ7O|ˆ	Ø*sl´≤’öÇˆ‘Ô{øAsÓΩõµ™ñ™Cá€'ø´mº®i|(ú5’ÄΩtZ8âcŸ|[ŸÏ.∑¨ÒLÔΩ£√u¸IGM’°jÖR®¯qQ©∏¯§Y≈Qu® H#!U«â!2û,uWí‹<0V≥vø≤$œ`6◊`Ét˘ˇ\WiPSW·>©Ì‰˘R»”<¿eƒ•ÍG™µ8‘ó*.∏UdSâBŸB™óp!â∂⁄ÇVE+nE«µéù™˚=ÁÚ£ﬂ#ùiß?Ôù˚æwﬁπﬂ9Á{}z\Äœ[ö√?£CG/ﬁ|È≤îc†*π´◊π„@´∏ÄmK”v·577†=8ﬂ5,ÿ•@a$œ≤ó<ßË‰sPÓ~t.u˙Ö2h´≤ßw¿ıå °ˇ<'	Ê%J—(wà’á	°Â‰Hz¯µ·<ù0äN¶”∂ô
+7gÄÀìÛ∂öj•^Kÿ]+ÓÆÇ(ÓÂyx—f[>f8ı±0¶ÂÇÌÅ!OAﬁ„‹Üì¨ãÿ[9É•∞—®x2@7–ôTN}^éÇ∑ﬂU·ß§≤ríöΩ5d6øt›˜
+∆ß‹π˝ñá˘;Ê≈s4Çgá›©≤˜æORÀZEF√H—ƒçfÿnÉïú1ôOÒ∆„yÈVÅÌ™~KÿÓC+◊≈ÚîKôò*ÏYAf0;Gíå™O%e…Ô¢äºAg¢ë=‡‘èz“’≤À0åÌ>œ—`5,–aÓ≈UÙ¬r|!Œ"‘ãŸ=ëÌÓå]hYÄï©;L7–ÄWÎ∫Óˇ‹x¯∞†◊Ê'ëI){VåÂÁeZ™ÖC`Ê.ûÇqo⁄N-Y8~uù¥"¢©À!4Güÿƒ≥‘¸ÿ∑0Oﬁèº(™Æ≤z≥›Oüø»[+ì¢”
+Ú2øÇiª˚*\$≈µ≈µ'Õâœ®Î‰eÎ∑*[¿ ›\øØÙª∞hRø÷Ÿç.0I¬â¿$=N¢â¯√.û≤“∫ÿm[:mìKß˛ÈOÏá‘&≥}∏ãíˆeo≤Vó
+:;
+ûá,¬ﬁ<–f∞ôÎ‹*’’5Ú«+R‚R¥Y9Q¬\zè‡†w2äÎçWkºŸ+µG-f+ﬂdÿ∂;Sìëó$h≥¥ôö˘¥”ã›ÄNRt≤∏ﬁ¨∏æÈ¬§/foX´|úT≤ëü∂<41Q–Í	k5bL9ÿõ—!CêπˇcjÜƒtËAQmUΩõ•™©æë75Á≠Ã—Â‰n¥⁄Lm∂RõSê£U,¢?JÁ%74◊◊(⁄cnèò∫4,rì“Ò™"âûº«F†ï◊[8ÍÒ¿CgÈ_0«éA¡‡ÜKúEÁ—°J—ØáJe£ÇbÆ]nØ√a–˝∑ö%´Ò¬ÈÏdTº<Í˛ÏΩLåBŸu·ÿ2\¬›=>ÃE® ªÿÇ{yò&
+ØÑ9˜©À‘’·€„˚1uó∂‹•ë‹ƒ’‘c“í◊ÔŸ¿˚›UÀ `•'}ÑÃåÉè±ó-‚b‰≈Ô?óoÅ©»ã±√tÀ“‰VVr∫Â
+_^öØ1≠0ê•%óƒÒsVÖ,ãr\˛]ˆÿ_9€—c}qÏ8
+#9ÍR˚r=xÛ‹
+ÆùvÍtbF•U˘√	Ö˘hÂ•Éù∫EJêWàßn¶ û™ß©∆<à'¸ª_≥]Ω.aıÃç)Jtr«Ó¸µ{¢ä˚ïŸ@#I⁄Ç¸‰ÖÍ∂∫Ûÿ˜˙}feE/…€¢…‚S∑Í,e˙≤"≥†7
+ıÕ∞›ÎSa'S+πjLJ ôãäŒËô¸\RÀnÇ/ıõŸc»√(‰a1=C2ñÂ'ÌPDö¸¡Ûz«±ñ÷~7ã˛v.ÅO‚¿∂•¯˝Yôkc#‹rr√BC¯Õ…5’¶}Â˚*Ö¬Ω∫ΩÖÖ8,y·Àó‘_íö¨K¥±Ò–*á€RÖ±:√6,ëæ3cgv™: kèZìß…r”2ZkÓ…ºì⁄˝ÜÇÔ"!ŸãczÒr<€tH«Ù◊∫ı°ÑçÔÀ°‘ÅÜµ‚ﬂL⁄N
+Ù 2tJˇ*ZZ}¬tHW+g∞cæ•èâ'çW±OÌl©À3¸Ïx‰ÎÑòàu|Ónù!AH˜#˘œÓi‡{Î⁄_]‡éxùPu∫;eã&;.ÿ;#>;IìÜpç%˘eÓO∫Ω˘’—PÍÂô`˛VF#À`ñé{Qﬂ5„¿ˇlπÅΩ§Ø£Ù#˚ l?ÏÓ>≈ÓÖÓûbÀêõ∏ø Ÿ”üZ
+endstream
+endobj
+117 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 98
+/FontBBox [-191 -250 1031 868]
+/FontName /KIMICI+TimesNewRomanPS-ItalicMT
+/ItalicAngle -17
+/StemV 81
+/XHeight 472
+/StemH 32
+/CharSet (/space/S/p/a/c/e/i/n/R/v/w/s/comma/C/l/t/period/M/h/D/y/A/r/o/P/L/G/zero/W/d/T/g/u/slash/m/b/f/B/I/hyphen)
+/FontFile3 118 0 R
+>>
+endobj
+118 0 obj
+<<
+/Filter /FlateDecode
+/Length 3873
+/Subtype /Type1C
+>>
+stream
+HâîUTÁûaôAVª„¯`tgéö®|°FZç5TR‰°·aEQ\`ÅUˆ·>ÄÖÖE|Æ∏»Cä.Ó*ØÄ[≠ﬂOéœàJB&GÉIõ∆xbÓê;ªö6Ù¥ßÌô3wÊÃ|Û›Ôª˜˛ˇ‡ò∑Ü„8ÒFºB)◊≈»sb’JôjY\pÑ^ñ•Hçéwc¶ŒèıŒÛÛ‚«˘çBq®ÙáöûèaŒ2ûŒ/¯≈ïqôÛrS˙‚√‘£Vëë©Á¶§NÂfÜŒõ$ƒ–û‚âs=ÒMO|˘6î[î¶NësqFù^Æ‘q™TµV£÷ ÙÚ¥i∑(+ããusÍ∏XπNÆÕûzDsÇjŒ#õSË8ß◊ “‰Jôv=ßNÁÙôr.Z≠RÎç9ˆäO°VqZyÜBH§ïßq
+ïó«-í©ÙúLï∆≈ˇÉfiz∫"UÓy®î9A‚‡oSÂZΩL∏™-∑Œ†UË“©Ó,∫iˇ±¨.òø76AÑM¡∞@∆±ô‚ÖÕ√∞∑á`—ﬁXÅ≠ƒ∞©BQ1F`¡ÿbLÜÂcÁ`¸^˛^9"/Qî®≈{öw31ù®#Ä4íﬂ˚§˚¥â“0T:Ù¡∞‚aO}#˝¸˘=ı7˘wã#≈u√g/˛dD
+'$Åu¯≠õ¢HBﬂÿ˚jO@õ°^≠6‘“îCÂÎ2í÷+•bD~Ä7@ÉŒ¬.ïì9ÔPNä9Û7x€7¢OÃtS}}S”´O’ıÜ&V<ø<{ 1œ‰CD¸àÅ%t
+Èˆ∑D‚è§ÿ\?0™ÔÍÅˆ»Õ4LáQP
+0}Qw8ZÄƒh?JlAbe≠ıÙ“ºÛßÔﬂÊìa¬E«‚5∏~ÖF≥b®(±CíìüüÉø¿ã∞Xt&‚GÉä.~çàŸ∫5}≥’H¿≤ÃNƒ+´:[JZ≤ßxa$]\ÌDb∫Ï∑ëÃ
+7&’Ts†°©mo-€’G@t“VRã™	ÙK“ìÃËÑ3N®vÌ~·≥Ù'T€0ÇVô√<$≠$¨Ï˝Óª€	gñ:X´ï†ﬁ˚‘ˆËÚ◊◊W}ÑfHQ>)ÄN4oÀT+7iÿ&C∑ìî˛≥YSπ)—S5k˘Ú¢w⁄l÷ÜjÔæ®ùü1Õbó
+ÆôéÒ?∂‚∑ûÒÈv—@¸@(m$MÖFS`.++dmrme
+ÉrPZç≤—\ &AHv=øŒÍ…Ò·´4‚≠œ¡ﬁ_»Ö5á+Fcÿªèò«≠¸sﬂ>£2›÷®ÊóÊ®L∑Ω6˛˙∂‚8òÖl,*"©É<Qô0Ùπ øvgA˜¬PJùÄÊ°›…%-6€…]5¨ê…‰ÑN;åá0ãSrÁ’; ˜x°æÃ+*Œ◊3Ö≈eefñÍ›óí\ûÃ†J¥È–
+‰}ÕÅÇ{g˜µt≥`9q§ ~˙
+SÁnrzJ{Í')h"ë∑VYú∆†1—œ¡¢Ñ3÷v˜ÀCYÍÀ¸Ìπ£‘Aäu%ˆ“éÎ¯(\‰œ—?ß¥ÓÚq±ƒ?[mÛÃãºÏà}ÔÒ2ª0ã´‹„¡?∑Kt¸IJÛ?±Qá_UW#º„Û…Î∞LL4626Iô8M…°öÍ#nr^ÛJÁ·"∏;H£P7][Ûñ˚Y4¡e˙ô∞Ã¡¬Ä‡Y¬J^uµvíß˘6´sM#Ç5ÊÔ|˘êA•ùE∫F∫Zàó´Ì®≥4.yf§ˆ+™ç∫=¸ètŸ¡Ü]ÃìÊƒ∏ﬂe°ëhéJU^©f©∂MÎiÍ∆∆ˆéÕê0Â.åæù¸)
+bQ›ˇW[wÊ≠–‰…´˚’Àœ≥‹®–úKwul,!æ⁄€ﬂ˝m@ƒe4FäÙ˛Fù“¥Yı_˘œ	eﬂ‚®ﬂ^œ¸^¡›pë∂VÔ±V3v*Ê/\6˘ÈÛ¨•&Vlrx9%0Ó‡7Ó•ûñõh;Y[Y„ÿˇ~G⁄«¯|›˛,Ã@ypır˚y)≈?ºí0€d)∞òX;y4BõÚ‘ŸëÌL–å»◊YÍ)
+](õÂÔ.úŸıgá’QÍêIœLÒO;ª¸G"ò*¥}Z,tÜ∂^´/¶ñDÅÆ›ƒ}v¡€_G›æí÷Ï<⁄ÏË⁄›Ã¬H~qÅ¸¨Fø ∞Õ∞’ (8ã	aöÑmy≤Ò¿5ë∞ú#hãı0º nVT¥ﬁg‹-ﬂÈ.ﬂ±ñ¢µ ÌZãñ]Ó™wßÌ„+¨ñÂÆ2˜˝}~qÁƒ©á∑=¯n|„¡ç™u©±F5+Ï>W,÷ﬁáË©‹]Û¿©uCù)âes}ƒÊS+/ÛCHj˚`…˝ÕJœ+¯˙-s~a!;ä5¬™'—léﬁ\—›≈Rπn~|Â8kµ[ÃQÜÄ˚
+^<}ıX≥îz?øö–Áe%òM€*+ˆîŸJ˜∞îﬁ;h4çG£c‰∆éV˘¢û‹ì.ìäÕx™“m%9ù9~lué	ˇ¶ç$’èB4u/◊áÍ∑VUY´˚Åm˙¬Õπâ,zÕµùXw‚î·2#¸™∆ALæª¶Î◊·kÂI…¨≈J®_ßØŸœˆ<`Œ÷%$#Ô0¥çU™™˜jYÒ#Ûq~‘º±ÏgE¸•W''•D0·Ú„∑ÄxsÅ™i›úÕ3∑e‰ÿLµŒ}ÌÔ]ä±ØFìê∞Û£7f^äÔˇ¸÷ô.⁄›e˚Iª£"{KÍ®¸ëó˙{Ù˜˙ˇ´~öL4Ân∞g0HÇ¶£(4)°1Ï:K›z‘>7è∫+õ˚Æ)9+@Wmh<w·N{≥4øä0¶'f3≈€´**+[¨ï,ıw∆´?®â3q£Ù<Æ≤ƒÒv€›)SK≈•®H+'cm=ãÌ]‡Fi‚RLÑ~%∞	$Å"h?í∞¡êÅ‡/@êûä≈©ñ©ØfÀı¶ùû⁄πkΩwùèqÓ\;◊JgÓﬂÕó›˜yﬁÁ˝ûÁ5Aô$
+ø"„Âå‚˛Æoˇ	I_ı¥™FyA¯Ö+†}*o
+$I‰IiJ)˝ª∑˚F¨’÷ÍF"m“ËCÍOR[ä@Àp_T∏ëÇ¶&.3»˝≠‰Æ}ˇÉno·≤∑mâF¥8C†,ßπ ùh„'BŸ≠@8/lîº*Üg∫O?ºK◊7Uÿä]1Uÿl‰]vﬁ’ªΩY•^^Ç÷¸öŸ§4n†K˜üâ◊°è	Ù∆é‹U´È2#∆bÊky Æo–Âkuy˚∫uXÚwÿÀN2c‡!∆≈¡(Àª4vdÁ-ŒıG≠ìõ˛ä…ÑaÚ^9ù ¬J	Z*&$∏≤2Õ
+EΩæ"vÎeŸÂR∂ry?ao…ÊÏt™»b¥öòTı’TÑÈÆ˝Vt¡¸õk…MÃÛ.U≠ãj˚»È43‰c„ÉÍîΩ¬^nc|bt…$i ”,˘¿8÷˜ço∞]ô‚?∑e˜s±ÆâP¨ˆÏ:Q¥õ⁄Çq©)ÀoúÌÓÈi∆RRj∫4BËÂÔÂ"$¢M∑Õ!cD00+ò8—åb÷à∞d‚DOh~’tqS‹yè _J¯⁄°€+tÛìæË`ﬁ>4è%ìå*DvPπ<Áz‰zCöç:¡2-]Z^g∂8«ÌÉ,˛<cÊª)oÅGç¬^ï1xjÇ◊Ü‡ëÕ£ÖÖ˜Cz}ÁÓìÁ†ﬂ∏4üø≤¬?Æiíz√;:Í]wlpdº◊√pDa±BñO(Øµ‘◊6’Xÿ3BÖDÌ,xúNèß¿©V®ˇ◊Ñá≥dúÚëMpnñÖë⁄1#OP∞x˙ÕˇÁ{8”|œ˜.[à„—r4˘ÈÑüÏ’"ÿ?ãËW¢π!≈°~Ã≤ıfŸÎŒ‚†?H≠-))4dñ≤Ø†S¯Á∂;ƒø∫‡)Hª˙ÉHEOv‡àhŒˇßQëh˝k
+‹ÅŒáƒëñ∫N'~ÍVE≠A·ØgŒÙÂ`æ”Õj»˘/íπÅƒŒ ÒÀ%zNµÃ!ñπ*çû[*¯⁄épÛÅ€âxcXé7Ü(x~*y,_'äB/¨º˙ÊlÉKí¥øÔ¸+» ‡É6π±Qhc$åî<$zÑ–>å Ò˘†€sBA”ƒf≠Œê<cØúﬂ^≥ÂU]Õœ·f÷bÇÛ∏K;iàá`HáPú,Ø)Ælçó&'…˝5ß£	$úü∫@øo€πQaËï®,UÉ_kﬁ£¯J3pkÜ‡ÚK«¨Å!Vv„\›r|Z}“:tÃi¥ÁoBAËµ‰w±œåÉé¯ÈzÉΩ◊!lNÀÄ<‰
+iÂ/é^Áy“!`ò8^ü(.5–—§C/oÕ§•ÈøaW µy-µ3#gOlﬁ’è2sd£ÏÒd∫ı∞Õb≈«è∫Ú?§o‹ú`AÑÿ±QÍdGÎ	ÜlπÓﬁ,=ƒí'y1≠A‰ÈΩï ‰4
+W$1y7%.sgú∂\ªÙq,˙#û§äMí∂XëîMõ∞≈çß0´w‡q[lÒÒxI˙˝ex¨“Üúù®Ò}vã‘˛YZo0»	íCÚdD£gﬂ∆ÎBùµÉ∞_bIÕ ¨≠µ;©6ù='Eö∏;ó±ôﬁÓ>”F◊◊îÃ1Â Q$Kr¶Ω˙ÌJJ’ís¸ﬁ◊Úç3ˆ?e∏>9'ã◊‡≈ÎΩnÜÏ”7©*ß•MïÊ∫ÊÊKGZ∞õ[4ÇL ·<hœ∂´$5EDMCcu+›ﬁ!Cè8e˘|ÿHv¿|™C€πO£·Ú≈ŸJ5ızÖ•$3Å*á`9Ã[àW:ã@s”⁄Ö_˘¨SÿŸ(¨õiJEü‚0T1¶©ú;Ë9’“"‹Ô∆j}Üœòûﬂƒ:≈ê
+S8⁄{—î?ëI!ˇ⁄7„TGë;KS§/`v˜◊øC%°≈(zœlœ(Î‚∂œÖQúx^8M™BÑøÓÍ˙¶?¥“=™x3ÎA#x!…Â^DÛˆ”Y,,©∂ºWf·Ë‹<uû∆¡µè@$≥[øÄ˘>™CjoWòÀl≤ÊP{√—íuh!ìueW èÁ˜˛2Xo{aCUçp∏JcÊ´U”jÃ>‰¨P\µP≠öæW‰} ˜3okÕ¢E>Á¢üÔÖ¬#… ¿w≥
+endstream
+endobj
+119 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 262178
+/FontBBox [-180 -250 1008 889]
+/FontName /KIMJHE+TimesNewRomanPS-BoldMT
+/ItalicAngle 0
+/StemV 137
+/XHeight 472
+/StemH 34
+/CharSet (/T/a/b/l/e/space/one/colon/B/m/M/s/k/P/i/x/D/f/n/t/o/X/c/y/V/z)
+/FontFile3 120 0 R
+>>
+endobj
+120 0 obj
+<<
+/Filter /FlateDecode
+/Length 2408
+/Subtype /Type1C
+>>
+stream
+HâÑTPWÌf¶ª1—IB3gd∫’»≤
+¨E@cåYdóO¸P>√8¬00√«AFëO0ÈR!àJ£|‰#√((Y4åïêò¨Wâ1â±4´)Mt+…mÚ®⁄}3¢ïu7µ’’Øªﬁ{˜úÛŒΩ˜ëÑ‹ç IRΩ2b˘‹ΩAké—≈©9´‚˝ó≥3¢ú;fKjRÚîK”'OEh◊/øL°º	¬8ER<#Ω¸‹ŸÈO›Û ‹úhOì3^5ÊZLz›∆|ﬁ7˝˜|`hHàCÁπ∆ ◊Ï∫∆á´°¸+∆4-o1Ákf>2'›h 5öRÛµ<ˇJv6Áƒ4ÛqZ≥÷Tàg]zy,òw)Êıf>ïœ7•fh©¶,ﬁò…Áo‘Ú—∆cæ%WÀø:Åß7Ê¯Ò&≠NèâL⁄^ü„⁄óœØ¬d9˘|jNü&63SüÆuMR-<ñ¯ü±ÈZS~*˛1àâﬂT`“õ3ÙÈNs¿o8Jê¯!<BM≥b6AD A, àÖJÀ‹à$±í ˛$'Hb≠°∆ﬁ2Ç"^"Úâd8Ÿ„ÊÓ„÷&îıÀÚ’Úv9¢¬©Í&m°Ø1≥òvÊ[wù˚ÖIÓºÇW‚òO	Q0KW«Bî≈4™BÚöb™ˆPCu≥zP»L‡–ÁÃL° ë<ô9B”èú¬lÖ`ò¡‰7,ÉEVÂÄ›>0†≥ß§Ët))v› óÂˇ5ßÄè—‚Ä>‘;,¢– K ÕÄ?≤›Ïq84&W∂”0uØØ!$)	)8≠ºìf‡ˇ6rK_îÁ–‰ÌÔp(†E…⁄¬Ñ<,È*eÔÅ¸o 8Ê/r;∂ÁR√’ﬁ®
+⁄™A˜-Ù!/åSH§ì\˙jÇ9 0k˛{N9Å5Ã@˜uXäó¶¨ÇLtíCÁ&ÇŸl∫°Ï£Ô}âJêG
+FA-µΩıkÏ!-í ÎïBêL2BÅ≈Jëjôèdrs#0AÅ»D‰∂sR9≥ÛM®øEÌ•a∑twÁNj<èôPÒÉ»¯áØq“<Êöp¯éFDÕåˆ"ÿpÏ±oæ¬é≤w]û5“∑éÆûîÎ«“ZπÉÜn~«±◊‡È†ôö«Áü˜àÂª	WN§:»^í…ìDœIá1ØÙõ—§6NÑÒ[(\§aR[Àı–x˝§–*õ[]8ˆ;—£v,=œ≥◊ŸÛc)csî(«B€ﬂ≠\_Tn*Ÿƒ°ôË3‰?Qï˚≠T∂>·>ﬁEsr«~Cm!Ï‡uÄ´T‚nìc∏fö+iÿ^èZCackÿÛ“b…Kâ÷@µ∑ÿÎ:’"⁄aaz{+“ÚRäπËó}a.UV_Z◊†≤z1¸ó∆~0}'Ò»ÜûEs)ˆ˙˙ƒ§•o∏[`è»	ˆΩÕGOÏπ€@ˇåÇ®⁄≠¢yã*+}G>‰eëy=g√4Naâ˛2¶PäsxÄzºÔÄ7ËW≤a(z~Bz®*ÓhÊÈ3CΩˆ£öµª{Û’'{:éµrlùµé*´®(€¶.öZ801˜VüAÙRƒ¶ˇAk7ıÿ;94]Y{Um«k∂[ì4Ï:‘.∑ólÕWg4:wÚxNVí’&q√∞L$ØÄ7NÓ[Ω$S∂6∂7w©ø–î8ƒñ.è,ˇ¯4'5ÀQÇÖtØq„üàÃÂS‘Fª£‰îfèÇ'Lˇ/ºòîb÷esä÷œ%wi/ô‰O)ç&C^∫πeÉÔç£oﬂÓ¨…6Ô‚íw◊ß©{∑ˆ|dGﬁKç<—¥KàÂ’ÛÔûÔv]Üï6ra¡Tò,ìÇ°J˘ÛŒXòå‹‘èbÿ≥àÔªßŒ^;∆m©£¥fCÊ:ıºt /q;l Kıﬂú±F£0„ÍTBb;yºO√lï¸îüF¿≥¥C8“µø∂¨DSZµΩTeÏ¥∂vŸÌé›/!˘í4I≥ae“9tÜI≤V‚T6äLî–5Ã)cÃÒ"ÃÒ¯Ê†Y8ç∑A'ΩÆ|Ï⁄·åI¿1oâL¢3ÜΩè^ê*ïi6}_üÕ÷◊ß∑••Èıiú¨Ò]Ë-≥≥Ëª˛⁄#úJëYÁƒπ¬tt|çTÕ∂∆º≠*Îñ7∂‚≈m"£+Í9ºôCs¡tˇ{™ªªÛ/Õ∏≤S-LÛõùU9™¬íÕ9Fí!íräwﬁ7wíÈ˛7Ÿ#—
+)ãÛ˙8KÙ¿⁄p2\ØÁtˆ$òü8näê∫GnôµBˇÄÛÊ(g:∂w;‘'Ñ5Qäyr«ˇ]èb~2_Òâ^´M—jÜäì;‚’1iÜT-˜–±©üLàöå›¯-9%"˛s ≈tm:∫è`∫‰à	∫îá;~Mó∏^Ø’k∏IÊ;pÃtv».´ºGÒ≠È	ûKÄFﬁè™–s—‡ÕŸ‰—e#‡>µ###µ—»˘îEGsä.´CÚsxÙ˝ÿÀ\˜/BYJ∞∑Ÿõ0*mRZhkyUÈfuyiıûÆ⁄∫π⁄¨^øêco£È†’´ÊÕF;ïxÒ˝ŒB◊†0J§Îw’÷ÔS◊ÓØ¨π ∆ÊäıWÁŒ}ãÉ`*⁄4xA’⁄⁄–¢aoé8¢„ö9ëVò+á:ªw˙òLπÖN]±tç{ÒËC&˘xÏ•ëwzœ4iJÍ®¬“£I≠˙9hrëå¬UúaZ!m@·∞Ä=C–≠Ï˚àbo˜∑Ÿﬂ{◊Ÿs†©≤»¥1π õ3S˚Jö®ƒ=ªÏ¯˙¨.f˛˙VGlg¸gHÌeH°˛-≥†º_È ÔnsŸã &.^∂vÛä≠Úk}X'’Œ,©ñ™™nÕó´˘˘KØ¶»Û˝ŒŸˇ„›\∆ÂﬂŸø˜æc˛ﬁ¯˝Üh”¸Úùs•/ú∏ h|{%˚÷%~KÂø+˛æ√˙õ%π*3_∫∂{Ó¥u5+í”Jr2"w‰Ì<¥qÎÅÚﬂÉ~î≤^X6u *†õu+Ÿó/mŒ +	j,êè˙-Ã ˜®{ÂÖïå;Á2ˇ–õı›ÄµöÌ7∫K«o>ÈÔ}?Yg¸˝-1ó˝ÂíìüKü`˚›˜«òµÅùØf÷O≠Yøg≤˝È˛Û¶è¬Øö˘Ω∂õ"ƒπñÎª,˜⁄ô<¿¥∫êá∑ááÔGá»˜ü¢  ›3!ﬂ
+endstream
+endobj
+121 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 613
+/CapHeight 572
+/Descent -188
+/Flags 34
+/FontBBox [-13 -274 638 783]
+/FontName /KIMLNE+CourierNewPSMT
+/ItalicAngle 0
+/StemV 0
+/XHeight 423
+/CharSet (/l/i/n/e/equal/space/I/N/T/parenleft/L/E/underscore/P/R/O/J/C/F/S/plus/o/a/asterisk/M/A/U/one/parenright/s/m/p/t)
+/FontFile3 122 0 R
+>>
+endobj
+122 0 obj
+<<
+/Filter /FlateDecode
+/Length 3530
+/Subtype /Type1C
+>>
+stream
+Hâ§VTWûƒdf¨î5lw&;c≠ZN∑_†=J´≤Tëá C@D¥‘EDÂ©9hH»b[5¿$A Kq´`Y]@*EÈ¢Æ‘´«vµu≠ÙÙNrC∫÷ï·úÌûLŒôsÓ‹ˇˇ˛Ô~ˇ˜_""Å¿Õﬂ/0 »˜>âªR‚∑§mëØ		uÆx±‰D∑$˚9ôòê°>b™Y©Qœ¸˘ìOûøMƒ~èLWM0oäAÊFπ:w∫¸""‡~»¯qà+ÇP2Af »,Ú¶ ô-BÊèCñ"»ryAV!H†	 ”9p‹áØ#’¡ÄpΩ¸∏%„l¢õ‚b4ΩÇm«Ó„ç„c∆ˇÙJÕÑè'ñMö9ÈédöÑu1NNéù„:œıÿo“ßÓó.íâ7ÓÔ0  b3bé4ôh@jï¡•éPô®ïH¨S@∂¥‘Î‰õÌP»=ı~i∏éaÙ&2ﬂîì«–å1«d&ÚˆÂÈj ¬¡§Ì@à' ÅÅê ÇB ®B™ZÄ§ê∏Å9òóGò≥MZÜb¥jÉäTkı:-ùú∫yECÒwπ'.˜TøÛ·iÚ¸t!%a≠Y“]∑∂|Ñ‹ÛAwjûß’4§*SØ’“Z≠^ùIËËr¥‘ﬂ!Ÿ%µPÄ◊@a@!Ö{°`;P	P'-áû≠˝Hß#2jFCÈsv>i4ÜÆ,kËÈ ¢v >˘–r∑‹6}uù∏ù9∞{Äí\∂)§•˙ÄéTk≤üeU–‰Í®\ù9´8TÕ}zCÖXµ7[•%TÜLFKi≥>ü,(0Z
+h‡2Ä7ÃÀ
+4Ö§Ÿ‰Ã…09Ê|Ç… WQ–(@Â›‚sn.Ûª‹ºÉFa÷?·*GMÍ‘ÈU4¨ú'ıòE_®5/®H•zíFØê∞Éïw≈[[/µdåŒ¶CD˛Y◊d‰§gΩPãæ‡Âr¬Óe«1π¬…≠Ü´RE(j£≥î¬}í≈ÌãPπA¡’¶aL\m˘fÉ—YÜ°–B∞ãXìÄ
+ôH%›ìïôïùçÎ4˚4jéı0&N;π∆éå™€bGlëHı4ëﬁBZ›QKÅ·	˙¸ËaÉLTÅ⁄ß¬I\ôè¨·“ßüòü}‚pGG≠Äl{ûΩÃﬂ∆}O6:˘îÿ4∑§p∫{TË•$ËÊÖæ
+µømÎ€Ûf˚Q;ÊPäW°|ÃÄ/¯ôÒDÅú≥ßQÄ¡Û‚!ñîÇ],◊†@abªïXQô®N:wajÙªÙª—A+c<Òœ]^Ô=l-VEE’¨k
+n
+>[õZìZøª9OÎÍRuíW.U˜–=5]Mgª#5ÖeEú@ç:Ür6§äÃPÍ22È0ˇ–¡€ÒÑ`Ö	'æ÷ÙÕ\zŒ7Å ∏‡Ïú±µ‰ØTÂÖ„Á[*™Î*>/≈ètt^"øø≥cÕ?ËéòÍıÜê˝È%£≈µå—)1”Sâï M∑˚8›Æ¡˛ıúÿ)Rbucª§oaœuzËÖ Tçƒ)˛∑`Î«>Ñõ1˘AûÕßo{ ±C	≈ºGgõFÌ;'~∏à`wÅ6Lbç˛ø‡[ÎÑœ∑˘îc.&œ–gÈhŒ…2ˇ'¯l˙=ÈÑéJlæ∂^^€‚o.–¿en‡Õ<¶ÿî†ï»DÚ1R€m#⁄ıyjÆ]oÌA√ˆFÏÿ@Ìàäﬂ'«ì÷á+√»»Hsy$Yq<¢y?({ı)ÁôÁ™8á∞/˝∫£:w‚âù]äã‰è˜>ªzçæ÷w‚ÓÑuÿ¿ùÁ‹±ê•Ûì≤Å#eøöªx·ì1R	k˚Yé.ª-ëÀ~òã‰1öcá-•µæLØÇÉÁkS∂pã/cw.¬Pÿ=¥ˆZ∑äπwæ:Z ?Ú€Ÿ˛£ı∞)ãPpm(U¸ W¨©úﬂõπbzQ>2·Ö'5j_&”√â!∂:1L‚gúk _~cÁßâÉé≤?;j≈ ±ır}∞⁄Ê*çæÿ∑§o]ÏU5áÑ28a-Dg–3 ›·JÆ¸t1
+bè¡Ñ` #ÔTµˆ”˝≠]}Mø<("à“£PêÚñBdÒÃ0ËJB°˚ÈáÛÈ˘7Å©`f5Ä)∑©¡[èZ¿+$p˝!"˝Ù(®á.PF@*∫,Å%±˙≥i“éÊ‹C'È÷‚ñ™3'éï©+oƒÀ?œ?›F‹˚SˇÚ™g˘Ï:àë‹®¯ï.7∂MLE(,bKAz˚À§∫}›—5~ƒfelJ,ïñà'Ü≠Uí∞î-A%Ïèlâ¥/Ó“˙éÄˇØ‡‰AÑo
+t6|ˇßÕ-õZ"öVü<ﬁ◊ÿÿä7∂ñuú'˛w’ßõÍˆô_˜:iœ˘µıÅ«êª
+XPha;•úZ˙/'G∂”ÌG◊Ö[2‚í‚®§∏M	´ìÒ§’~ Â$Lg”∏˙XÁ<Ü¯€	æ¥Øˇ÷•Ûây’+∫¢®Œ®«Åiiè“øP‘f4…ÎÀ„Ò≤¯¸cüÌA·‘∫†E…”…◊Vú	§œlkﬂ◊ıÒa˝!-É3√”¯Ÿlqﬁ
+ÿàK€°Û¯åﬂfë¿ÌÒ±ûÎÙµûì7]ä≥;ö®Mõ˛º∂2¶ƒª¢%+ÃëÊSÇigAJqr±¸S≈|oïÆ∫é∏X’~∂ôjnÎ+ˇñº”õ”F∑m<i¡áß¯ΩodN∞çwä'b}^≥>É„IâM¡µ:lƒvè:àK	vÇcô}∂{‘∫∏õB#¯é;∆ùº7Lˆ0øLwr÷˘◊≈◊«0nŒkx‰1å˙•Øéß‚◊≈~ùÇ'GG™B…Kk/–˛∑ﬂ¯ñ∞l¨ÿ‹å÷r3Zˇã›ÀÖ^lY÷‡G’˚ùâ<óÄ'úÎﬁsï„Ó◊˜ﬂ†ˇ√yπ«4yÖa< ¥'&|qﬂ‹æ√æ3/dqJ(”-j¢–q”Z–¿@)»•D`fÄVÆCñ r±\‘ E≈⁄N)óEïôlaBô›‘ 2SòCJÙ,˚äÀÊ≠¸±ˇœ˚ÊºÁÚ<œÔ÷ù÷Gx9◊‹»ß\ùÊªh+•U1’\ÛrˆTﬁ±.„>Ê6^òÀm<ˇDŒÒ≈3±Ç–¢•<∂>méÌ®πñwl>rÀ˜ºÅƒ{ÿÒñ∆U0xõ<y
+8*=ûõÚÛs≥ô¨íÁâˇ‘âJXV]RÆD-x˘DÌ º˚SF|;∫Øåë0ƒÖ¢ÿ[Q
+J%Q%RH÷r®&"Ø]2ü≠å∞iÁµP6Ãp˚4ƒ,^yı	¶q¬a|ÜÂt¿éœ%¢$ê$Úó{Cœ†≥∫£Moø Ù™∫zZŸûSçòÇ›]Öz§ˇ∫-Ø5ÁÜ€gãiÛ«ƒ±Éº	C"7y èçk≈¶õß‹X∑)Ïé◊¬Ò—”M#hD}ÌÇFä2é‘^‰±úÏÇú,ø'ŸˇHÛ»·Àq√≈O‰9 π'«v`ˆØØéƒ`£p6yÜ>{_o2ˆÉkCw’·√±§ #2È=œ∫ÉÖJN	‘.éo—$Ø¿âdüDÃ{”ˇzQˆ+ñ˝ÕÇàå⁄L«lk‘Ël·QxÃ≈aí~C*zﬁø‡/„ˇÌÔ‚PAnÛ®ﬂfü—∂(Ã∏ Z"§Ÿ¸ô>ñ^û~†Ω´≠	‘™õÕP”|,IÖTI5≤Hf¡uÒKΩπ“ó´lˇ˘rá∂4h5U†∂YûÃU&Wàb÷/QÈc„]ˇ™/¸*{˘¿ﬁ:1åçÕJë"iä4N&IÌL÷%pJ´ˆCoÔXOtó∏Û)∏Ùlﬂhs¯ñs<”Ω~Cõ([ª´p∏?-Zè⁄£ïaÅÃ|ï/ﬂfpI]‚@UºÓÃÓE≠è◊ Í@cHPÕ(…JG˚RB¢É~€:“úﬂlmv'ˆùÑÜd%Y&êª ÇÿgÜ8wªI+ò¿À"Jàilﬂ11â&Õùÿ;3ÿYÇÌ›'XÒ¸ü¥–K [?\2y!Øõ2Û3s…l∫…ﬁ4M¥<ÉO'dB2	[<V3´•^Bñö^‚,9Øæ±Ë’o4ãÎKìˇ#ÉπrN…~K	èP`j˛àMOØåè£Òq˝Ïƒ¸zdX:»JÉ{}/ÉﬂÌu[‡6ˇÃƒ›(ËPà$L∞	„œ^_p•˝|>âˇ∫n“˘"ü¡∏—Ãînƒ8ƒ˝Æ{ß«„¸Ü–êﬂ∑õ◊3Îlˆıc)À”9gz›ß©Q‹˙®∏›ﬁLLïTœûè”ÓÃË8jíœ‰ÃdﬂIÎ;z£ø`$_Óâa£É∑!vP∏SQäBÎeç)êYóØ∫¿‘Tæ ã8)|…Ú+*äKÀQ˘…“≤írP\V|∫ÅÒ√vÒ{ø;›‘7ànt?3›ô˙Ñ+lB€>Õésí3[k®ˆPàkjA∏*E€ Ëj5≠j∂•Áó⁄˚–<ú.ÎCó◊<Sîq2´"pä_»˘pÂ^øñoeî◊…)ù1|Ê¶& Rñ]sèhõxUƒ=>õ∑Ô>o‡mSã˙%¨§ˇV Ch∫]}ûìlUœ9•XÔ\ÒídÁf‰G≤‘–ÙÄê  €=wüπãb5Èmﬂ1É%¸®¸‘¬që3úˇ` GÊy¿
+endstream
+endobj
+123 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 32
+/FontBBox [-222 -250 1006 922]
+/FontName /KIMMFL+ArialMT
+/ItalicAngle 0
+/StemV 88
+/XHeight 592
+/StemH 72
+/CharSet (/five/period/one/space/B/I/D/R/P/S/L/a/b/e/l/comma/p/r/i/m/y/d/t/s/three/two/hyphen/six/A/E/N/X/colon/K/w/o/f/n)
+/FontFile3 124 0 R
+>>
+endobj
+124 0 obj
+<<
+/Filter /FlateDecode
+/Length 2996
+/Subtype /Type1C
+>>
+stream
+HâTT{TwûI»/ê1)f⁄Ã "Ë"Qµq—*‡|°(ÅÚ'`¯(´Bà"AAW+>P§"HQqëC«V1@_9@|ƒeY[Ì˙c˜Ï$∂{Œû9Á˚„ûôÔ~Û}˜^í∞$I:á._ˆßÖ⁄§ÿî’÷í'Gìúõ˜·8÷‚CøÌ˚ÕWÙA‘åáFg¯eB€á„B\	Iv?Z§Iœ÷&%$f≤ﬁÒ”Xø† ?+˙€0¿ÜÅ6úk√ v°Jßf#≥32’©Ï“¥xç6]£çÕT´|YvaJ
+aeÀ`#‘j≠éØ⁄t±Il,õ©çU©Scµ…¨fª:QÕÜk“4ôŸÈjv—Ô,Iö4V´NH‚Èµjõî∆fÚÔ≠âdWÚ-“2Ÿÿ4ª˙4+∂lIäW€äÍîuV"ˇëÔF$ˇ„Ñ´ÄêëMìI¬ì$¶ÑIÃ$?Ç'â Ç&â±å ¬ÌàH±û 6ÑÔ.! ÑKÃ!ÇâD‚Ú≤R 0µ†WË!\"\/Ãû˛dÁeW,ö “ä8çÆâù≈°‚ÒvÒêƒG≤OÚÃ^jø’æ∆¡œ°ƒ…I?BöGÑfY3 èÕçã÷ùŸ‚ˆ§Voº,Ò;·ßê<H^Ç”¬Kê,Ö”É¯4≤~14"íçåx!'ˆîn4>ãÑ˙A!Á(çè'œ^®íà/ï÷∑µJ∆æ;±z◊n$oö·ºY»LR¸ïù,´ÍÔ,-n˘∂¥D^‡ræªK>∏Ñ80ì;±`£bWÚ¡‘º,Û^7( √q˙·wk•|…$™ì÷(Éñ‚Ò^á∞ùÑK„•Ï6B√Ωh¥]πÃ´^Qﬂ¬*©Wi˜T§¡	ü€∏´ISÀPM…ı[ä3%±©Æ¸˛˘/˛O¯Ö}âg§+wàî^mD∑}üCıy`AVT°bÔß¢√ï-¨¢©Ügm+.[ÑÌtÔjs[kÛCòj"πyØÑ◊`•|®ò!¸M@¡DòÖ«ıxnÿòùÆbÆB§ÍLP»ò›”Ω¢∫3◊/ﬁ°üt≠¡ƒÃ’s}4~E01Î=Á£>5í◊‡&o[>W'Öè≤=i|Ë/∏iÊ‰c°g¢ò≈5Ω+ﬂ–0Ω&¿8püf∆¢‡ÂIÀ’Lj=T_÷®®jmÌ¢_üúù~Ñ¡gp´ÙÁûñ{-!~ÅÁ˙˚G<1+¯H·¡Ôs`MÿŸ¬=|JiΩØ^}ñk˛®’ó/A˝ê&ÇÙßâ~E∏iT)ÚD•8QJΩ¨l*k*π!1†„´*bND˜‚çn¯ œ¢7Aæ	íMÆ=x2lòz€#És®·o˙™Êﬁπ¶ﬁ«Ú∂ågXP£†∏ó7éÙüïﬂ÷∂lÆU4¨1ƒ–¸»Y∆§Ròá®∑=v∆.x\AÉ#Æ—<≈ıø÷cÅªWAÉg"ßv~⁄M‰#Á1,|$É£»4P—÷Œt¥7√$9LŸÙS‹≈¿Áû˙y4÷#KÄ¶£é;˙Õ∑òªÂ≥Ú?ì‡P®¿3ﬁ´ﬂoçâÏ∑˚e‹%”XÏÁX”næiÏ8r‚w@ôEæ∞_»,£Jõq÷J∑Eÿ-≥@@PÑˇ#Ç	ˇ¿}
+∑°QÑ'"Ãa¯ÿ6d‘1ãÏµ{e‹j~7ÍËc˝≈ìt\;¯ÚÙõ9 LE˜ÀÃàJ·⁄bŒa¨]ÙèQ•¢*«⁄Ûƒc\ªh˙˚‹MPb"˚,nXÿ«ãhÑPtµ’p∂ì1V◊?|*oÀÍ‹PØ∏π*@J„Øm&,CÌı˙‘¶:ΩDù*«Æÿ~ˇ:„e|˜M∞ßﬂÍ©≥’S‹ı◊‰‚9oòWÿ[éOÄuë ≥	ïìbp™ËÔ ±ºW’|^q"zSAçªêeÅtË ≈;™ôÍU	õÂJ≠rÀ≈vU≤^I„^˚n˜£…µ…nÜœ?ß∫©°&ÿ.-ÿVêZ°í¯_y∏>ß!ç¡Oøå?∏¿Ô(èÒ_w»á~>—ﬁß÷*ûâ¿}?Ù`_˚œúçÖÿ‹ø|πï°Ü¿3—ò(üø ÷{≠˜Òæx≈Æs™Û+$W8:EX(Ñ`	éV≠,*õT`8|§@n@E9E9[·\Ïˆü·ú·0òESûÇ#r˜ÌŸæo˜§möÉø ŸqQw>ÎñAò!»√ØE¸VﬂO–q.∫]Î^¡©A™¿“∆£«⁄@@É4?82èâ ˆŸõì'â»≈^€±B>ß3P€˜Âù=
+jß!«êq,]ÚinÈ/[ßŸAl÷ø≈õptFõˆ*`OñRÕ qâjEL‹ ˝ZzÅ∂ÈJ◊˝“÷bÊz—›ÚÀÂÎmQÈ∏ÕFXûÂ˙„ Tô©fj'LìQÕw‚Ö7çO”O¡˝h`⁄|@òùª.{7ì%˛à⁄˘o•¯1THﬂﬁ2?~##’å'ˇyU»ÜÑÛıÈº¬›'v]îˇ_èoÃP5hÌ¡yÀûå*˝qijHﬂPΩå∆≤Yû¯Üßò72úOˆÈﬁPæk§uG`∏˝ZÎ>/∆ÇÕ˙èøÅ@ÖÌ0ÜaöëºjÅÎ¸a\ Û•©{“?ı¶?	æ.πÁÜ†¶o,ÁØ«¨ lèg·Ÿ,O6±ªk¯,3Ê3§˜
+õ”ù∑T1'òR≠a´aõÑﬂcnÌ=ê>˛/ìU”‘ÜaıﬁÎI‰ZΩÓﬁdDÕ6ÕPt∞«åç[7fòvT∆∆tŸfËtiuV>jK{€R V[¨2jÄ.©-Ü…∂T6åÅ—.e∞in ¯°!öeÔ%á;]ˇ,9øﬁ˜ºœ9OﬁÁ5ËrΩí»ƒc´ëùar‘äz˚xãá•Á{Á	z•Sw⁄©fP°≠∞ñ´©ê/P9Îo·h∑6≠fŒ
+íYÍ.&oVã…ˇ|)Z•?ôï¯∫Íè]Óå ö‘Ÿ∫çéœ‰	–Oé9BﬁQ6‡πÂ˚ÅI8Â*%∏Cçt˘˚Üÿ¿µ1oàY±U‚¯ß "¥¬shﬂãıä¶sÏ=≠“ˇs@˘Ò˚Mx¸”·X9ïRËt°à VÅûè‡7Hø=‘dGº„◊b √∂ªûCÿ£Ó⁄Ç_|«Nû:xı(”Xi¨x/ïgl.ïß%&>À$a*)	@èÙ§£‰«jˆÌúÊ7&:7x/ÃéÉD*$õAôÚüW◊±‘™jd…<(Ïøª¯˚ƒæ⁄Ñ≤—Âéa®¿üâi°:&nè¶;ƒT|A«•tuêç◊øˇÏ>ÉGÁÜeP¿ˆ*»A;wü|˜å>’T|∂åZDn)˝6O=|¯kLâv† =ü(Y:^]~ä8ºæ`ÏäÖädÓ¥@ß1py€‘Ú7˝[ΩÏpúpÈOyÎÖ¶ˆÑ.ï3∫PÜóûí4“±%0%%~xY™t˘Ô0¿Ã-$˛©∫Ü∂∏W˙’›∑dSÛ_S˘%6—C‹4~˘7¬îﬁr¯P x¢Y<À˝rÅòhËdçM«ãJF¢6«¯@Ãäd∆	t/J˘∂ºûQŸÜG9ò"≈U|å@“7Â”hú⁄o√òá˙ù7õ“ÇîY/h≈B»¬r‡\´£wAiﬁ_$ΩÔ©XHtêº›d7≥ÕéÀ
+;Û MÀ$îànb?I+ˆ¢	ﬁÿ~∂˝|A€ßñV≥~#OZ<|w€kW˚s/V§¸=d)ö$hª’¬∑Xº·‹ÎV˛‚`sÿ‚2˘ÚKaÇ("Ò€ ı“QÌ⁄G∫\è®°É¥Ê>™ì“AÛÂ+&≥˙Ì“”ÁË≤;Ì†Ú˜íËtG¢Umh(‡I”@€àˆg‚v˛.j◊=Vãπ’b,êüii<Ãhœwv6s9ß}kˆ u¥ëƒµ>sâ˙üic⁄ÙllìêÎÕŒæ ﬁ˛≠k/Iˇ` —#˝Ä
+endstream
+endobj
+125 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 126 0 R
+/BaseFont /Helvetica-Bold
+/ToUnicode 127 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 128 0 R
+/BaseFont /Helvetica
+/ToUnicode 129 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 130 0 R
+/BaseFont /Times-Roman
+/ToUnicode 131 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 132 0 R
+/BaseFont /Helvetica-BoldOblique
+/ToUnicode 133 0 R
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 0
+/LastChar 223
+/Widths [250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 
+250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 250 
+250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 
+921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 
+556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 
+333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 
+500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 
+350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 
+250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 333 
+400 564 300 300 333 500 453 250 333 300 310 500 750 750 750 444 
+722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 
+722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 
+]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMHBC+TimesNewRomanPSMT
+/FontDescriptor 111 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 121
+/Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 
+975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 
+667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 
+333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 
+611 611 389 556 333 611 556 778 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMHJD+Arial-BoldMT
+/FontDescriptor 113 0 R
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 121
+/Widths [278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 
+975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 
+667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 
+333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 
+611 611 389 556 333 611 556 778 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMHKO+Arial-BoldItalicMT
+/FontDescriptor 115 0 R
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 121
+/Widths [250 333 420 500 500 833 778 214 333 333 500 675 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 500 
+920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 722 
+611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 500 
+333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 500 
+500 500 389 389 278 500 444 667 444 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMICI+TimesNewRomanPS-ItalicMT
+/FontDescriptor 117 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+>>
+endobj
+39 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 134 0 R
+/BaseFont /Symbol
+/ToUnicode 135 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 122
+/Widths [250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 
+930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 
+611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 
+333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 
+556 556 444 389 333 556 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMJHE+TimesNewRomanPS-BoldMT
+/FontDescriptor 119 0 R
+>>
+endobj
+59 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 136 0 R
+/BaseFont /Times-Bold
+/ToUnicode 137 0 R
+>>
+endobj
+68 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 116
+/Widths [600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMLNE+CourierNewPSMT
+/FontDescriptor 121 0 R
+>>
+endobj
+79 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 121
+/Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 
+1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 
+667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 
+333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 
+556 556 333 500 278 556 500 722 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIMMFL+ArialMT
+/FontDescriptor 123 0 R
+>>
+endobj
+52 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 65
+/LastChar 122
+/Widths [611 611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 611 0 556 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 
+0 0 0 0 0 0 667 444 444 389 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 125 0 R
+>>
+endobj
+126 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 45/hyphen/period 48/zero/one/two/three 55/seven
+/eight/nine/colon 65/A/B/C/D 73/I
+/J 76/L 78/N/O/P 82/R/S/T
+ 86/V 97/a/b/c/d/e/f/g
+/h/i 108/l/m/n/o/p 114/r
+/s/t/u/v 121/y
+]
+>>
+endobj
+128 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 39/quotesingle/parenleft/parenright 44/comma 46/period 48/zero 50/two
+ 53/five 58/colon 61/equal 65/A/B/C/D/E
+/F/G/H/I 75/K/L/M/N
+/O/P 82/R/S/T/U 95/underscore 97/a
+/b/c/d/e/f/g/h/i
+/j/k/l/m/n/o/p/q
+/r/s/t/u/v/w 121/y
+]
+>>
+endobj
+130 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 40/parenleft/parenright 43/plus/comma/hyphen/period/slash
+/zero/one/two/three/four/five/six/seven
+/eight 61/equal 65/A/B/C/D/E/F
+ 73/I 76/L/M/N/O/P/Q/R
+/S/T/U/V/W 95/underscore 97/a/b
+/c/d/e/f/g/h/i/j
+/k/l/m/n/o/p/q/r
+/s/t/u/v 121/y 133/endash 141/quotedblleft/quotedblright
+ 147/fi
+]
+>>
+endobj
+132 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 54/six 66/B/C/D 73/I 82/R/S
+ 97/a 99/c/d/e 103/g 105/i 109/m/n
+/o 114/r/s/t
+]
+>>
+endobj
+134 0 obj
+<<
+/Type /Encoding
+/Differences [ 1/sigma/lambda/pi/alpha/delta/phi1/theta/bracketlefttp
+/bracketleftbt/bracketleftex/bracketrighttp/bracketrightbt/bracketrightex 32/space 40/parenleft/parenright
+ 43/plus 48/zero 61/equal 135/fraction 138/minus 160/Euro 176/degree 215/multiply
+]
+>>
+endobj
+136 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 61/equal 65/A/B 77/M 86/V 88/X 99/c
+]
+>>
+endobj
+127 0 obj
+<<
+/Filter /FlateDecode
+/Length 322
+>>
+stream
+HâTQÀn√ ºÛ{L’∆&∂*!_íV °5iÔ¨SK5Fÿ9‰Ôªi™lÜagˆ%7ªÌŒ»∑8Ÿ=.–ﬁEúßs¥G<T	n∞Àıñ˛vÏHÔ/ÛÇ„Œ˜#‰;=ŒKº¿ÍI›w _£√8¯¨Í„ìà˝9Ño—/P@€Ç√^»Õs^∫A≤Ïè;\BôÓÍöxr8áŒbÏ¸	¡îE¶yhΩ˚ˇ&tV{˚’Eë#ãÇa¥MXoØÎÑÈ…à0Ç¸ÆJU¸e_S:ä*1€mIV±uU%¢bˇ™a¢ÀD√	a≠sV≈g“9Ç0Ï∑Œ5ÍGÆ´d"KS≥Gù+¨Ÿ£Ê.ö,©πïÜ%MÓápÓ!Õ„·ù›&mœ1““b”¨y É«€Ó√x®¸â ë⁄õy
+endstream
+endobj
+129 0 obj
+<<
+/Filter /FlateDecode
+/Length 311
+>>
+stream
+HâTëMO√0ÜÔ˝>qHõ-THU%ÿò¥bÉ{ö∏£M£¥;Ïﬂc◊càCí'éøz≠÷ªÕ.t®∑4∏=N–v¡'áSrª ÖﬂπÈrõw◊€ää˜Áq¬~⁄™*SÔÙ8NÈã≠æÕo@Ω&è©GXäèO
+ÏO1~cèaÇÍ<∂ôZ?€¯b{≈e±√9"Ë˘^\«h&éïŒk® ˚0¯ˇoYëKI”∫/õ2IÕs:àùöÖüàóí≥‰ú•÷ÃFÿ0[·f/º!6ÌÃfKÃäàÈ»HÿEÅ˘’#˙*]RíñL‚¨Zƒ+	S†!6¢iı»=Xì1ÜÖ›qIYŒbÈ&ˇ≥#<¶´πÓî˘>œr∂óçÌ^«á»>Ú ~ …òñ
+endstream
+endobj
+131 0 obj
+<<
+/Filter /FlateDecode
+/Length 313
+>>
+stream
+HâTëÀn√ E˜|≈,Su·W¸àÑºà£HYÙ°&ÕﬁÅqj©∆;ã¸}g¿M’p∏Ãpa&jªÉÈgàﬁ›®é8C◊ÌpoN!\⁄HR–Ωöóùü’–Zà(˘xüf¶AJ}–·4ª;¨ˆŸs¸—õ”ËzsÖ’)˘<ìpºY˚çöb®k–ÿâ®yiÌk; DúˆßùÓ!ı˚d15N∂UËZsEêi\É‹d5†—ˇœD2.ù˙jùëqLãêôˆúÌà◊œ¥ôwûÛ=qÙíı*ØŸ*…àŸLÓ∑qRÚ\n/~ΩÇµL+N7ìp!Œ™ lŸ6!^¡;aAÁe
+é(CD¡ø∫¬îf±Ü¸{n…£êÍÊ’ÿ˜Õóíãÿ|¥÷éñk∆C¸0 Rï
+endstream
+endobj
+133 0 obj
+<<
+/Filter /FlateDecode
+/Length 292
+>>
+stream
+HâTQªnƒ Ï˘ä-/JÅﬂV$‰ÊNë\‰°‹%Ω÷>§#l˛˚,‡\îfvg≈¿èÌ©5z˛Ó&y∆zmî√yZùD∏‚†§(-ó˝v9v85ü∑y¡±5˝B0˛AóÛ‚68<è…7ß–i3¿·í~~ëp^≠˝∆Õ	4(Ï?ætˆµ∏o˚”.õE»¬9›O
+g€ItùDñ4 Í¢4Íˇ´b«µó∑Œ±Xô$L‰U‡LOÅ0Q•ÅØ#Ø=è5åÊÏéÂØ'äåää"∫e‘Uz°ÃÉPz°Úº*£WÓÂÖ>
+'Íl	ƒ„¥ËÔËSøg%WÁ(∆5!-üì6xˇ=;Yã_ÏGÄ Xôé[
+endstream
+endobj
+135 0 obj
+<<
+/Filter /FlateDecode
+/Length 347
+>>
+stream
+HâTíMoÉ0ÜÔ¸
+;Ì@⁄ïJ©Ö"ı∞≠›Ó!	“Q†á˛˚≈q◊i¢'ØÛ∆∆NZÍÉÌgHﬂ¸®éfÜÆ∑⁄õiºxe†5Áﬁ†{5ﬂvqUÉtêÛÒ:Õf8ÿnÑ¢H“˜úfÖE√Ÿ#{ÄÙ’k„{{Ü≈â|·xqÓ€∆Œ¿†,Aõ.I´gÈ^‰` çæ?ÒtuD‹Û[ÍQõ…Ieº¥g„%z]Ç±˙,Ç,mßæ§OË(À™¨,"Ôv»ÈyI:G^/ëü"◊+‰5È9r∏…˜{‰M‰&ﬁ#Ioê[“7»ä8Ê’ƒ€¿Ç·ùL†W¥ƒx&#=C=”ƒu‡klâµÂòK.Kım∏%ÔΩ:÷ÃÍuôÑF›:¬˚C˝*˛åÿPˆ¸víbÿ]˙}RÍ‚}b|qT8§ﬁö˚„q£√ô‡ó¸0 è ©Ô
+endstream
+endobj
+137 0 obj
+<<
+/Filter /FlateDecode
+/Length 263
+>>
+stream
+HâTê=oÉ0ÜwˇäSu0ä2X,â*1ÙC%ÌÓÿA*∆20Ô{∂i™ˆ=Á˚ÚΩ¸‘ú;,¿ﬂ˝§[\†¨Ò8O´◊WÏ"3Ëe˜‚≠GÂÄSqªÕéçÌ&êíÒ
+Œãﬂ‡,Ú«Ï¯õ7Ë€√·">øË°]ù˚∆Ì‘5Ï?Ω(˜™FÎ˛/õC»£/ˆ—ì¡Ÿ)ç^ŸAÊY≤*j@k˛«Xï*Æùæ)œRfñëa≤0ëã3qô∏¸TE&C|L|$à…0ö≥wø˝”8Y
+J*Û‘MÏô)>4ª/™WÔIÉ(l‹4Ï8XºkÔ&V
+á˝0 qîÅ]
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 42 0 R
+/Contents 41 0 R
+>>
+endobj
+44 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 46 0 R
+/Contents 45 0 R
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 51 0 R
+/Contents 50 0 R
+>>
+endobj
+56 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 58 0 R
+/Contents 57 0 R
+>>
+endobj
+61 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 63 0 R
+/Contents 62 0 R
+>>
+endobj
+65 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 67 0 R
+/Contents 66 0 R
+>>
+endobj
+70 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 72 0 R
+/Contents 71 0 R
+>>
+endobj
+73 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 75 0 R
+/Contents 74 0 R
+>>
+endobj
+76 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 78 0 R
+/Contents 77 0 R
+>>
+endobj
+80 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 82 0 R
+/Contents 81 0 R
+>>
+endobj
+83 0 obj
+<<
+/Type /Page
+/Parent 48 0 R
+/Resources 85 0 R
+/Contents 84 0 R
+>>
+endobj
+86 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 88 0 R
+/Contents 87 0 R
+>>
+endobj
+90 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 92 0 R
+/Contents 91 0 R
+>>
+endobj
+93 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 95 0 R
+/Contents 94 0 R
+>>
+endobj
+96 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 98 0 R
+/Contents 97 0 R
+>>
+endobj
+99 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 101 0 R
+/Contents 100 0 R
+>>
+endobj
+102 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 104 0 R
+/Contents 103 0 R
+>>
+endobj
+105 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 107 0 R
+/Contents 106 0 R
+>>
+endobj
+108 0 obj
+<<
+/Type /Page
+/Parent 89 0 R
+/Resources 110 0 R
+/Contents 109 0 R
+>>
+endobj
+138 0 obj
+<<
+/S /D
+>>
+endobj
+139 0 obj
+<<
+/Nums [0 138 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 15 0 R 18 0 R 23 0 R 29 0 R 32 0 R 35 0 R 40 0 R]
+/Count 10
+/Parent 47 0 R
+>>
+endobj
+48 0 obj
+<<
+/Type /Pages
+/Kids [44 0 R 49 0 R 56 0 R 61 0 R 65 0 R 70 0 R 73 0 R 76 0 R 80 0 R 83 0 R]
+/Count 10
+/Parent 47 0 R
+>>
+endobj
+89 0 obj
+<<
+/Type /Pages
+/Kids [86 0 R 90 0 R 93 0 R 96 0 R 99 0 R 102 0 R 105 0 R 108 0 R]
+/Count 8
+/Parent 47 0 R
+>>
+endobj
+47 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 48 0 R 89 0 R ]
+/Count 28
+/MediaBox [0 0 612 792]
+>>
+endobj
+140 0 obj
+<<
+/CreationDate (D:20050228122932-08'00')
+/ModDate (D:20050228122932-08'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+141 0 obj
+<<
+/Type /Catalog
+/Pages 47 0 R
+/PageLabels 139 0 R
+>>
+endobj
+xref
+0 142
+0000000000 65535 f 
+0000170319 00000 n 
+0000000016 00000 n 
+0000001419 00000 n 
+0000161239 00000 n 
+0000161351 00000 n 
+0000130662 00000 n 
+0000172738 00000 n 
+0000170399 00000 n 
+0000001523 00000 n 
+0000003590 00000 n 
+0000170480 00000 n 
+0000003695 00000 n 
+0000005566 00000 n 
+0000161458 00000 n 
+0000170563 00000 n 
+0000005672 00000 n 
+0000006772 00000 n 
+0000170646 00000 n 
+0000006868 00000 n 
+0000013058 00000 n 
+0000161568 00000 n 
+0000161688 00000 n 
+0000170729 00000 n 
+0000013175 00000 n 
+0000017615 00000 n 
+0000162776 00000 n 
+0000163312 00000 n 
+0000163854 00000 n 
+0000170812 00000 n 
+0000017755 00000 n 
+0000023394 00000 n 
+0000170895 00000 n 
+0000023534 00000 n 
+0000028834 00000 n 
+0000170978 00000 n 
+0000028963 00000 n 
+0000036122 00000 n 
+0000164402 00000 n 
+0000164498 00000 n 
+0000171061 00000 n 
+0000036285 00000 n 
+0000040674 00000 n 
+0000164603 00000 n 
+0000171144 00000 n 
+0000040827 00000 n 
+0000046145 00000 n 
+0000173137 00000 n 
+0000172873 00000 n 
+0000171228 00000 n 
+0000046308 00000 n 
+0000053033 00000 n 
+0000166314 00000 n 
+0000130802 00000 n 
+0000053375 00000 n 
+0000053228 00000 n 
+0000171312 00000 n 
+0000053429 00000 n 
+0000060581 00000 n 
+0000165155 00000 n 
+0000060811 00000 n 
+0000171396 00000 n 
+0000060958 00000 n 
+0000070903 00000 n 
+0000071110 00000 n 
+0000171480 00000 n 
+0000071257 00000 n 
+0000078176 00000 n 
+0000165264 00000 n 
+0000078394 00000 n 
+0000171564 00000 n 
+0000078541 00000 n 
+0000083043 00000 n 
+0000171648 00000 n 
+0000083172 00000 n 
+0000088388 00000 n 
+0000171732 00000 n 
+0000088517 00000 n 
+0000091837 00000 n 
+0000165782 00000 n 
+0000171816 00000 n 
+0000091967 00000 n 
+0000095243 00000 n 
+0000171900 00000 n 
+0000095350 00000 n 
+0000098300 00000 n 
+0000171984 00000 n 
+0000098419 00000 n 
+0000101577 00000 n 
+0000173011 00000 n 
+0000172068 00000 n 
+0000101684 00000 n 
+0000104996 00000 n 
+0000172152 00000 n 
+0000105103 00000 n 
+0000108138 00000 n 
+0000172236 00000 n 
+0000108245 00000 n 
+0000112169 00000 n 
+0000172320 00000 n 
+0000112276 00000 n 
+0000116647 00000 n 
+0000172406 00000 n 
+0000116755 00000 n 
+0000121233 00000 n 
+0000172493 00000 n 
+0000121341 00000 n 
+0000126198 00000 n 
+0000172580 00000 n 
+0000126306 00000 n 
+0000130544 00000 n 
+0000130941 00000 n 
+0000131577 00000 n 
+0000138473 00000 n 
+0000138837 00000 n 
+0000142418 00000 n 
+0000142788 00000 n 
+0000146512 00000 n 
+0000146868 00000 n 
+0000150833 00000 n 
+0000151147 00000 n 
+0000153647 00000 n 
+0000153985 00000 n 
+0000157607 00000 n 
+0000157950 00000 n 
+0000161038 00000 n 
+0000166618 00000 n 
+0000168027 00000 n 
+0000166854 00000 n 
+0000168423 00000 n 
+0000167137 00000 n 
+0000168808 00000 n 
+0000167485 00000 n 
+0000169195 00000 n 
+0000167626 00000 n 
+0000169561 00000 n 
+0000167926 00000 n 
+0000169982 00000 n 
+0000172667 00000 n 
+0000172696 00000 n 
+0000173235 00000 n 
+0000173368 00000 n 
+trailer
+<<
+/Size 142
+/Root 141 0 R
+/Info 140 0 R
+/ID [<a6fa4d2c4ca107c4f553826986fc70b7><a6fa4d2c4ca107c4f553826986fc70b7>]
+>>
+startxref
+173440
+%%EOF

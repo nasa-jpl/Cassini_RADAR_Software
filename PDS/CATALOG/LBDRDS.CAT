@@ -1,0 +1,356 @@
+PDS_VERSION_ID                     = PDS3
+LABEL_REVISION_NOTE                = "2008-01-29, Version 1.8"
+RECORD_TYPE                        = STREAM
+
+OBJECT                             = DATA_SET
+  DATA_SET_ID                      = "CO-V/E/J/S-RADAR-3-LBDR-V1.0"
+
+  OBJECT                           = DATA_SET_HOST
+    INSTRUMENT_HOST_ID             = CO
+    INSTRUMENT_ID                  = RADAR
+  END_OBJECT                       = DATA_SET_HOST
+
+  OBJECT                           = DATA_SET_INFORMATION
+    ABSTRACT_DESC                  = "N/A"
+    ARCHIVE_STATUS                 = "ACCUMULATING"
+    CITATION_DESC                  = "N/A"
+    DATA_OBJECT_TYPE               = TABLE
+    DATA_SET_COLLECTION_MEMBER_FLG = "N"
+    DATA_SET_NAME                  = "
+        CASSINI ORBITER RADAR LONG BURST DATA RECORD"
+    DATA_SET_RELEASE_DATE          = XXXX
+    DATA_SET_TERSE_DESC            = "
+The Cassini Long Burst Data Record product contains instrument telemetry,
+calibrated science data, and time-sampled echo data from Cassini radar
+observations.
+"
+    DETAILED_CATALOG_FLAG          = "N"
+    PRODUCER_FULL_NAME             = "Philip S. Callahan"
+    START_TIME                     = 1999-230T03:37:24.327
+    STOP_TIME                      = "NULL"
+    CONFIDENCE_LEVEL_NOTE          = "
+
+* Confidence Level Overview
+
+The burst ordered data products (SBDR, LBDR, and ABDR) contain all science
+data obtained by the Cassini RADAR instrument during the mission.  A data
+record is obtained for each measurement cycle.  This data is calibrated
+whenever a calibrated value obtained from a single measurement cycle is
+physically justified.  This is always the case for close Titan flybys and
+seldom the case for other observations.
+
+* Review
+
+The data will be validated internally by the Cassini Radar Team prior to
+each release of data to the PDS.  The overall data set organization will
+also be peer reviewed once by the PDS prior to the release of the first
+volume.
+
+* Data Coverage and Quality
+
+The following observations will be included in the SBDR and LBDR archives:
+
+1) Close (1000-200000 km) Titan flyby observations
+2) Distant Titan observations
+3) Observations of Saturn and its rings
+4) Observations of icy satellites
+5) Radiometer observation of Jupiter
+6) Sun scan observations used to calibrate antenna patterns
+7) Earth swingby observation
+
+The SBDR contains one record for each active or passive measurement cycle
+but does not contain the sampled radar echo data or altimeter profiles.
+
+The LBDR includes only active mode measurement cycles.  It contains sampled
+radar echo data but no altimeter profiles.
+
+The ABDR includes only altimeter measurement cycles.  It contains altimeter
+profiles but no radar echo data.
+
+The ABDR-SUMMARY file is derived from the ABDR.  It contains the estimated
+surface height and related measurements derived from the average of all
+pulses in a burst when the radar is in altimeter mode.
+
+SBDRs will be produced for all the observations mentioned above.
+
+LBDRs will be produced for close Titan flybys, the Earth swingby, and also
+some distant Titan and icy satellite observations whenever active mode
+measurements are obtained.
+
+ABDRs and ABDR-SUMMARY files will only be produced for close Titan flybys
+because this is the only time altimeter mode is employed.
+
+Three types of calibrated measurements are obtained: backscatter
+(scatterometer), antenna temperature (radiometer), and surface height
+(altimeter).
+
+The calibrated scatterometer values are normalized radar cross-section, a
+unitless quantity related to the slope, roughness, and composition of the
+observed surface.  We currently estimate the accuracy of this quantity to
+be + or - 3 dB absolute and + or - 2 dB relative.  We estimate the accuracy
+of the antenna temperature to be + or - 5 percent absolute and + or - 0.2 K
+relative.
+
+We estimate the accuracy of the surface height to be approximately + or -
+100-200 m.
+
+Location error of the measurements is dominated by ephemeris and pointing
+knowledge errors and is expected to be less than 2 km throughout the
+mission.
+
+* Limitations
+
+Ephemeris error is expected to improve throughout the mission.  Since there
+is no plan to recompute the ephemeris of previous observations as new
+measurements are obtained, however, earlier observations may have poorer
+location accuracy.
+
+The dominant backscatter calibration error term is error in our knowledge
+of the gain of the attenuators in the receiver.  Engineering tests are
+currently planned to improve our knowledge of the attenuator gains.
+
+Besides ephemeris error, the main errors in the altimeter surface height
+determination come from off-nadir pointing and actual surface height
+variation with the altimeter footprint of diameter typically 25-50 km.
+"
+    DATA_SET_DESC                  = "
+
+* Data Set Overview
+
+Burst Ordered Data Products (BODP) are comprehensive data files that
+include engineering telemetry, radar operational parameters, raw echo
+data, instrument viewing geometry, and calibrated science data.  The
+BODP files contain time-ordered fixed length records.  Each record
+corresponds to the full set of relevant data for an individual radar
+burst.  The Cassini Radar is operated in 'burst mode,' which means the
+radar transmits a number of pulses in sequence then waits to receive
+the return signals.  'Burst' is a descriptive term for the train of
+pulses transmitted by the radar.  The term 'burst' (somewhat
+unconventionally) refers to an entire measurement cycle including
+transmit, receipt of echo, and radiometric (passive) measurements of
+the naturally occurring radiation emitted from the surface.  In fact,
+even when the transmitter is turned off and only passive measurements
+are made Burst Ordered Data Products are still fixed header length,
+fixed record length files.
+
+The header is an attached PDS label.  Records are rows in a table.
+Each data field is a column.  All one needs to know to read a
+particular data value from a particular data field is the header
+length, the record size, and the byte offset of the data field within
+the record.  Since a UTC time tag is included in each record, it is a
+simple matter to restrict the data one reads to a particular time
+interval.
+
+The BODP comprise three separate data sets, including the Short Burst
+Data Record (SBDR), the Long Burst Data Record (LBDR), and the Altimeter
+Burst Data Record (ABDR).  The only difference between the three formats
+is whether or not two data fields are included: the sampled echo data
+and the altimeter profile.  The altimeter profile is an intermediate
+processing result between sampled echo data and a final altitude estimate.
+LBDRs include the echo data but not the altimeter profile.  ABDRs include
+the range compressed altimeter pulse profiles but not the echo data.
+SBDRs include neither.  These trivial differences necessitate different
+data sets because the two fields in question are much larger than all
+the other data fields combined.  The majority of the bursts in a typical
+Titan pass are passive measurements.  These bursts do not produce echo
+data or altimeter profiles.  Of the active mode bursts most are not in
+altimeter mode so no altimeter profiles are produced.  Including these
+two data fields when they are invalid would ridiculously increase the size
+of the archived data.  The alternative of having variable length records
+was deemed to overly complicate data archiving and analysis procedures.
+Maintaining three data sets reduces data volume while allowing record
+lengths to remain fixed.The descriptions of each field in the records can
+be found in the LBDR.FMT, SBDR.FMT, and ABDR.FMT files.  These files are
+located in the appropriate data directories (e.g., DATA/LBDR/LBDR.FMT ).
+They describe the size, type, and meaning of each field.  The LBDR.FMT
+and ABDR.FMT files reference the SBDR.FMT files for all fields held in
+common by the three data sets.
+
+In order to further facilitate temporal segmentation of the data,
+the structure and time sequence of the data is described in the
+sequence design memo for the observation found in the EXTRAS directory.
+Each record in a BODP file is comprehensive and contains the acquisition
+time, viewing geometry, quality flags, and radar mode of the burst,
+so that data segmentation can be easily automated without resorting to
+the sequence design memo.
+
+An SBDR record is produced for every burst throughout the pass in an
+observation.  An LBDR file is produced only for bursts during which
+the transmitter was on.  (Sometimes it is necessary to create multiple
+LBDR files in order to avoid file lengths > 2 Gbytes which are
+problematic for older operating systems.)  An ABDR file is produced
+only for periods in which the radar is in altimeter mode.  If desired,
+bursts can be easily matched across data sets.  One data field in each
+record is a burst identifier, which uniquely distinguishes a burst
+from all other bursts in the mission.  Records in different data sets
+that correspond to the same burst have the same burst ID.
+
+The SBDR data record is divided into three consecutive segments from
+three different levels of processing: 1) the engineering data segment,
+2) the intermediate level data segment (mostly spacecraft geometry),
+and 3) the science data segment (brightness temperature, backscatter,
+measurement geometry, etc.).  The engineering data segment contains a
+complete copy of the telemetry data downlinked from the spacecraft.
+It includes temperatures, instrument instructions, operational
+parameters of the radar, and raw measurements (i.e., unnormalized
+radiometer counts.)
+
+For more information about the format and content of the SBDR, LBDR, and
+ABDR files, see the Cassini Radar Burst Ordered Data Product (BODP)
+Software Interface Specification, JPL D-27891.  A copy of the document
+is located on this volume as file BODPSIS.PDF in the DOCUMENT directory.
+
+
+* Parameters
+
+A complete listing of the parameters can be found in the SIS.
+
+
+* Processing
+
+Cassini RADAR telemetry packets are transmitted to earth along with
+other spacecraft and instrument telemetry at the conclusion of each
+data take.  The radar data packets are queried from the telemetry data
+system (TDS) on a computer in the radar testbed which has access to TDS.
+These packets are placed sequentially into a raw data file.  The raw file
+is initially processed by radar software on the testbed computer which
+identifies radar science activity blocks (SAB) within the telemetry stream
+and reformats the data and provides some quick look displays and limit
+checking.
+
+The reformatted data file (L0) is delivered to the radar processing group
+for processing by Radar Analysis Software (RAS) and then the SAR Processor
+(SP, if applicable).  Temperature telemetry files from the spacecraft
+are also queried from TDS and delivered to the processing group for RAS
+and SP to use.  All other ancillary data is obtained from SPICE kernel
+files which are delivered by different elements of the project to an ftp
+site.  These files are separately archived in the PDS system.  The RAS
+pre-processor reads the radar L0 file, associated temperature telemetry
+files, and the SPICE kernel files and all relevant data are placed into
+the SBDR/LBDR engineering and intermediate level data segments.  The
+science processors for radiometery, scatterometry, and altimetry, as well
+as SAR, ingest the SBDR/LBDR files and produce mode-specific science data
+products (and modify science data segment fields).
+
+Note that measurement geometry will not be available and will be flagged
+as invalid for cases in which there is no target body or the measurement
+extends beyond the limb of the target body.  There is no plan to compute
+the science data segment for non-Titan bodies with the exception of
+radiometric observations of Saturn and its rings.  For other bodies these
+fields will be flagged as invalid.  For most non-Titan icy satellite
+observations, due to SNR effects, only a single brightness temperature or
+backscatter measurement will be computable rather than values for each
+burst.  For these observations a single backscatter value and a single
+antenna temperature value will be reported in the AAREADME.TXT file in the
+root directory of the volume.  Sometimes a short list of backscatter values
+will be reported as a function of frequency of the returned echo.
+
+
+* Data
+
+See Parameters.
+
+
+* Ancillary Data
+
+There are no ancillary data needed to use the LBDR.
+
+
+* Coordinate System
+
+Data locations for each record are computed from Project SPICE kernels.
+Measurement geometry information is available for both the active and
+passive mode measurements.  Some of the active and passive mode quantities
+are likely to be identical (e.g., polarization orientation angle).
+However, separate data fields are reported, because the differences in the
+passive and active mode measurement times can in principle cause the two
+cases to differ.  Passive geometry is computed for the time corresponding
+to the midpoint of the passive receiver window (summed radiometer windows).
+Active mode geometry is computed for the time halfway between the midpoint
+of the transmission and the midpoint of the active mode receiver window.
+The full set of measurement geometry for each case includes the
+polarization orientation angle, emission/incidence angle, azimuth angle,
+the measurement centroid, and four points on the 3-dB gain contour of the
+measurement.  The centroid and contour points are specified in latitude
+and longitude, using the standard west longitude positive geodetic
+(planetographic) coordinate system sanctioned by the IAU.  The geodetic
+part of the definition is moot since Titan is modeled by a sphere.  The
+measurement geometry will not be available and will be flagged as invalid
+for cases in which there is no target body or the measurement extends
+beyond the limb of the target body.
+
+
+* Software
+
+No software is provided within this volume.
+
+
+* Media/Format
+
+The data are provided on media as determined by PDS.  The main data
+files are ZIPPED as described in the PDS standard.  Detached labels
+are provided for the ZIPPED files.  The ZIPPED files also include
+their attached labels.  Other formats are defined within the attached
+labels of the files.
+"
+  END_OBJECT                       = DATA_SET_INFORMATION
+
+  OBJECT                           = DATA_SET_MISSION
+    MISSION_NAME                   = "CASSINI-HUYGENS"
+  END_OBJECT                       = DATA_SET_MISSION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2005"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2004"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = EARTH
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = ENCELADUS
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = IAPETUS
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = PHOEBE
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = RHEA
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = TETHYS
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = HYPERION
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = DIONE
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = MIMAS
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = SUN
+  END_OBJECT                       = DATA_SET_TARGET
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = TITAN
+  END_OBJECT                       = DATA_SET_TARGET
+
+END_OBJECT                         = DATA_SET
+
+END

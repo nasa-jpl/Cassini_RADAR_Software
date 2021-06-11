@@ -1,0 +1,45 @@
+PDS_VERSION_ID                       = PDS3
+LABEL_REVISION_NOTE                  = "2008-06-30, Version 1.4"
+RECORD_TYPE                          = STREAM
+
+OBJECT                               = VOLUME
+  VOLUME_SERIES_NAME                 = "MISSION TO SATURN"
+  VOLUME_SET_NAME                    = "
+    CASSINI RADAR (CALIBRATED OR UNCALIBRATED) DATA ARCHIVE"
+  VOLUME_SET_ID                      = USA_NASA_JPL_XXXX
+  VOLUMES                            = 1
+  MEDIUM_TYPE                        = "ELECTRONIC"
+  VOLUME_FORMAT                      = "NONE"
+  VOLUME_NAME                        = "VOLUME XXXX:  XXXX"
+  VOLUME_ID                          = XXXX
+  VOLUME_VERSION_ID                  = "Version XXXX"
+  PUBLICATION_DATE                   = XXXX
+  DATA_SET_ID                        = {XXXX}
+  DESCRIPTION                        = "
+    This volume contains Cassini Radar Burst Ordered Data Record and 
+    Basic Image Data Record products including SAR Imagery from Titan 
+    Flyby FLYBY ID GOES HERE."
+
+  OBJECT                             = CATALOG
+    ^DATA_SET_CATALOG                = {XXXX}
+    ^DATA_SET_MAP_PROJECTION_CATALOG = "DSMAP.CAT"
+    ^INSTRUMENT_CATALOG              = "INST.CAT"
+    ^INSTRUMENT_HOST_CATALOG         = "INSTHOST.CAT"
+    ^MISSION_CATALOG                 = "MISSION.CAT"
+    ^PERSONNEL_CATALOG               = "PERSON.CAT"
+    ^REFERENCE_CATALOG               = {"PROJREF.CAT", "REF.CAT"}
+    ^SOFTWARE_CATALOG                = "SOFTWARE.CAT"
+  END_OBJECT                         = CATALOG
+
+  OBJECT                             = DATA_PRODUCER
+    INSTITUTION_NAME                 = "JET PROPULSION LABORATORY"
+    FACILITY_NAME                    = "N/A"
+    FULL_NAME                        = "Philip S. Callahan"
+    ADDRESS_TEXT                     = "Jet Propulsion Laboratory
+                                        M/S 300-319
+                                        4800 Oak Grove Drive
+                                        Pasadena, CA 91109-8099 USA"
+  END_OBJECT                         = DATA_PRODUCER
+
+END_OBJECT                           = VOLUME
+END

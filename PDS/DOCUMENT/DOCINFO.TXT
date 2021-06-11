@@ -1,0 +1,71 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Description of the contents of the DOCUMENT
+                     directory"
+  PUBLICATION_DATE = 2008-05-12
+END_OBJECT       = TEXT
+END
+
+CONTENTS OF THE DOCUMENT DIRECTORY
+
+The DOCUMENT directory contains documentation and supplementary and ancillary
+information to assist in understanding and using the data products in this
+volume.
+
+DOCINFO.TXT
+  This file.  Identifies and describes the function of each file in or under
+  the DOCUMENT directory.
+
+BODPSIS.HTML
+  HTML version of the Burst Ordered Data Products (BODP) Software Interface
+  Specification (SIS).
+
+BODPSIS.PDF
+  PDF version of the BODP SIS.
+
+BODPSIS_FIG###.JPG
+  Figures (in JPEG format) in BODPSIS.HTML, where ### represents a 3-digit
+  number between 001 and 999.
+
+BODPSIS_SIGPAGE.PDF
+  The BODP SIS signature page in PDF format.
+
+BODPSIS.LBL
+  Detached label file documenting BODPSIS.HTML, BODPSIS.PDF,
+  BODPSIS_FIG###.JPG, and BODPSIS_SIGPAGE.PDF.
+
+BIDRSIS.HTML
+  HTML version of the Basic Image Data Record (BIDR) Software Interface
+  Specification (SIS).
+
+BIDRSIS.PDF
+  PDF version of the BIDR SIS.
+
+BIDRSIS_FIG###.PNG
+  Figures (in PNG format) in BIDRSIS.HTML, where ### represents a 3-digit
+  number between 001 and 999.
+
+BIDRSIS_SIGPAGE.PDF
+  The BIDR SIS signature page in PDF format.
+
+BIDRSIS.LBL
+  Detached label file documenting BIDRSIS.HTML, BIDRSIS.PDF,
+  BIDRSIS_FIG###.PNG, and BIDRSIS_SIGPAGE.PDF.
+
+VOLSIS.HTML
+  HTML version of the Volume Software Interface Specification (SIS) for the
+  Cassini Radar Instrument Team Data Products.
+
+VOLSIS.PDF
+  PDF version of the Volume SIS.
+
+VOLSIS_SIGPAGE.PDF
+  The Volume SIS signature page in PDF format.
+
+VOLSIS.LBL
+  Detached label file documenting VOLSIS.HTML, VOLSIS.PDF, and
+  VOLSIS_SIGPAGE.PDF.
+
+

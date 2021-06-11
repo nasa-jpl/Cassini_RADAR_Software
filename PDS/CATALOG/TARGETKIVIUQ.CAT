@@ -1,0 +1,43 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-15 John Diehl, Imaging Node, Initial template submission."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "KIVIUQ"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "PROGRADE"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        'S24 KIVIUQ' and 'KIVIUQ' refer to the same target.
+ 
+        Kiviuq is a prograde irregular satellite of Saturn. It was discovered
+        by Brett J. Gladman in 2000, and given the temporary designation
+        S/2000 S 5.
+ 
+        It was named in 2003 after a 'giant' of Inuit mythology. Kiviuq
+        (also spelled Keeveeok, Qiviuq or Kivioq) is a legendary and heroic
+        Inuk, a sort of Inuit Odysseus. He has lived very long (or has had
+        several lives), has wandered and journeyed, living all sorts of
+        adventures whose details depend on the story-teller's local tradition.
+ 
+        Kiviuq is about 16 kilometres in diameter, and orbits Saturn at an
+        average distance of 11.1 million kilometers in 450 days. It is a
+        member of the Inuit group of irregular satellites.
+ 
+        Kiviuq displays light-red colours and the infrared spectrum very
+        similar to Siarnaq and Paaliaq, further supporting the thesis of a
+        possible common origin of the Inuit group in the break-up of a larger
+        body.
+ 
+        Kiviuq is believed to be in Kozai resonance i.e. cyclically reducing
+        the orbital inclination while increasing the eccentricity and vice
+        versa."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END

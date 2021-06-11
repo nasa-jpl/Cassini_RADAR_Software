@@ -1,0 +1,519 @@
+PDS_VERSION_ID                  = PDS3
+LABEL_REVISION_NOTE             = "
+           2002-10-17 Diane Conner (Cassini RADAR), 1;
+           2003-03-24 Ron Joyner (PDS CN), 2;
+           2003-06-05 Rafael Alanis (PDS IN), 3
+           2005-05-11 Diane Conner (Cassini RADAR),4"
+RECORD_TYPE                     = STREAM
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID = "BOLTONETAL2002"
+   REFERENCE_DESC   = "Bolton, S.J., M. Janssen, R. Thorne, S. Levin,
+M. Klein, S. Gulkis, T. Bastian, R. Sault, C. Elachi, M. Hofstadter,
+A. Bunker, G. Dulk, E. Gudim, G. Hamilton, W.T.K. Johnson, Y. Leblanc,
+O. Liepack, R. McLeod, J. Roller, L. Roth, and R. West,
+Ultra-relativistic electrons in Jupiter's radiation belts,
+Nature, Vol. 415, No. 6875, pp. 987-991, 2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID = "ELACHIETAL2005"
+   REFERENCE_DESC   = "Elachi, C., S. Wall, M. Allison, Y. Anderson,
+R. Boehmer, P. Callahan, P. Encrenaz, E. Flamini, G. Franceschetti,
+Y. Gim, G. Hamilton, S. Hensley, M. Janssen, W. Johnson,
+K. Kelleher, R. Kirk, R. Lopes, R. Lorenz, J. Lunine, D. Muhleman,
+S. Ostro, F. Paganelli, G. Picardi, F. Posa, L. Roth, R. Seu,
+S. Shaffer, L. Soderblom, B. Stiles, E. Stofan, S. Vetrella,
+R. West, C. Wood, L. Wye, and H. Zebker, Cassini Radar Views
+the Surface of Titan, Science, Vol. 308, No. 5724, pp. 970-974,
+2005."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "ELACHIETAL2004"
+   REFERENCE_DESC    = "Elachi, C., M.D. Allison, L. Borgarelli,
+P. Encrenaz, E. Im, M.A. Janssen, W.T.K. Johnson, R.L. Kirk,
+R.D. Lorenz, J.I. Lunine, D.O. Muhleman, S.J. Ostro, G. Picardi,
+F. Posa, C.G. Rapley, L.E. Roth, R. Seu, L.A. Soderblom, S. Vetrella,
+S.D. Wall, C.A. Wood and H.A. Zebker, RADAR: The Cassini Titan
+RADAR Mapper, Space Science Reviews, Vol. 115, No. 1-4, pp.
+71-110, 2004."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "ELIASON1997"
+   REFERENCE_DESC    = "Eliason, E.M., 1997. Production of digital
+image models using the ISIS system. Lunar Planet. Sci., XXVIII pp.
+331-332, Lunar and Planetary Institute, Houston."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "GADDISETAL1997"
+   REFERENCE_DESC    = "Gaddis, L. et al., 1997. An overview of the
+Integrated Software for Imaging Spectrometers (ISIS). Lunar Planet.
+Sci., XXVIII pp. 387-388, Lunar and Planetary Institute, Houston."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "TORSON&BECKER1997"
+   REFERENCE_DESC    = "Torson, J., and K. Becker, 1997. ISIS: A
+software architecture for processing planetary images. Lunar Planet.
+Sci., XXVIII, pp. 143-1444, Lunar and Planetary Institute, Houston."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "SLAMAETAL1980"
+   REFERENCE_DESC    = "Slama, Chester C., Theurer, Charles, and
+Henriksen, Soren W., 1980, Manual of Photogrammetry, 4th Ed.,
+American Society of Photogrammetry, Falls Church, Virginia,
+1056 pp."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "LEBERLETAL1992"
+   REFERENCE_DESC    = "Leberl, Franz W., Thomas, John K., and
+Maurice, Kelly E., 1992, Initial results from the Magellan stereo
+experiment, J. Geophys. Res., 97 (E8), pp. 13,675-13,689."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "MILLER&WALKER1993"
+   REFERENCE_DESC    = "Miller, S.B. and A. S. Walker, 1993. Further
+developments of Leica digital photogrammetric systems by Helava.
+ACSM/ASPRS Annual Convention and Exposition, Technical Papers, Vol.
+3, pp. 256-263."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "MILLER&WALKER1995"
+   REFERENCE_DESC    = "Miller, S.B. and A. S. Walker, 1995. Die
+Entwicklung der digitalen photogrammetrischen Systeme von Leica und
+Helava., Zeitschrift fuer Photogrammetrie und Fernerkundung, 1/95, pp.
+4-16."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "KIRKETAL2000"
+   REFERENCE_DESC    = "Kirk, R. L., Howington-Kraus, E., and Rosiek,
+M., 2000, Recent planetary topographic mapping at the USGS,
+Flagstaff:  Moon, Mars, Venus, and beyond, International Archives of
+Photogrammetry & Remote Sensing, XXXIII, B4, p. 476 (CD-ROM)."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "KRAUSETAL2000"
+   REFERENCE_DESC    = "Howington-Kraus, E., Kirk, R., Galuszka, D.,
+Hare, T., and Redding, B., 2000, Rigorous sensor model for
+topographic mapping of Venus using Magellan RADAR stereoimagery,
+Lunar Planet. Sci., XXXI, Abstract #2061, Lunar and Planetary
+Institute, Houston (CD-ROM)."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "KRAUSETAL2002"
+   REFERENCE_DESC    = "Howington-Kraus, E., Kirk, R., Galuszka, D.,
+Hare, T., and Redding, B., 2002, Validation of the USGS Magellan
+sensor model for topographic mapping of Venus, Lunar Planet. Sci.,
+XXXIII, Abstract #1986, Lunar and Planetary Institute, Houston
+(CD-ROM)."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "ZHANG&MILLER1997"
+   REFERENCE_DESC    = "Zhang, B. and Miller, S.B., 1997, Adaptive
+automatic terrain extraction, edited by McKeown, D.M., McGlone, J.C.
+and Jamet, O., Integrating photogrammetric techniques with scene
+analysis and machine vision III, Proceedings of SPIE, Volume 3072,
+pp. 27-36."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "KIRK1987"
+   REFERENCE_DESC    = "Kirk, R.L., 1987, A fast finite-element
+algorithm for two-dimensional photoclinometry: Ph.D. Thesis
+(unpublished), Caltech, part III, pp. 165-258."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "GIESEETAL1996"
+   REFERENCE_DESC    = "Giese, B., Oberst, J., R. L. Kirk, and W.
+Zeitler, 1996. The topography of asteroid Ida: A comparison between
+photogrammetric and two-dimensional photoclinometric image analysis.
+International Archives of Photogrammetry and Remote Sensing, XXXI,
+Part B3, pp. 245-250."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "SODERBLOMETAL2002"
+   REFERENCE_DESC    = "Soderblom, L. A., Kirk, R. L., and Herkenhoff,
+K. E., 2002, Accurate fine-scale topography for the martian south
+polar region from combining MOLA profiles and MOC NA images (abs.),
+Lunar Planet. Sci., XXXIII, Abstract #1254, Lunar and Planetary
+Institute, Houston (CD-ROM)."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "KIRKETAL2002"
+   REFERENCE_DESC    = "Kirk, R. L., Soderblom, L. A.,
+Howington-Kraus, E., and Archinal, B. A., 2002, USGS high resolution
+topomapping of Mars with Mars Orbiter Camera Narrow-Angle images,
+ISPRS/IGU/CIG Symposium on Geospatial Theory and Applications,
+Ottawa, July 2002 (CD-ROM)."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "DAVIESETAL1992"
+   REFERENCE_DESC    = "Davies, M. E., et al., 1992, The rotation
+period, direction of the North Pole, and geodetic control network of
+Venus, J. Geophys. Res., 97 (E8), pp. 13,141-13,151."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "COLVIN1990"
+   REFERENCE_DESC    = "Colvin, Tim R., 1990, Radargrammetric
+algorithms and software for use with data from Magellan, RAND Note
+N-3221-JPL, RAND Corporation, Santa Monica, California, 101 pp."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "SEIDELMANNETAL2002"
+   REFERENCE_DESC    = "Seidelmann, P.K., V.K. Abalakin, M. Bursa,
+M.E. Davies, C. de Bergh, J.H. Lieske, J. Oberst, J.L. Simon,
+E.M. Standish, P. Stooke, and P.C. Thomas, Report of the {IAU/IAG}
+working group on cartographic coordinates and rotational elements of
+the planets and satellites: 2000, Cel. Mech. Dyn. Astron., 82,
+83-110, 2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "SNYDER1987"
+   REFERENCE_DESC    = "Snyder, J. P., 1987, Map projections-A working
+manual, U. S. Geological Survey Prof. Paper 1395."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "BUGAYEVSKIY&SNYD1995"
+   REFERENCE_DESC    = "Bugayevskiy, L. M., and Snyder, J. P., 1995,
+Map projections:  A reference manual, Taylor & Francis, London and
+Bristol, Pennsylvania, 328 pp."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "YANGETAL2000"
+   REFERENCE_DESC    = "Yang, Q. H., Snyder, J. P., and Tobler, W. R.,
+2000, Map projection transformations:  Principles and applications,
+Taylor & Francis, London and Bristol, Pennsylvania, 367 pp."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+   REFERENCE_KEY_ID  = "GREELEY&BATSON1990"
+   REFERENCE_DESC    = "Greeley, R., and Batson, R. M., 1990,
+Planetary Mapping, Cambridge Univ. Press, Cambridge, 296 pp."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "ENGLISHETAL1996"
+     REFERENCE_DESC    = "English, M.A., L.M. Lara, R.D. Lorenz,
+P.R. Ratcliff, and R. Rodrigo, Ablation and chemistry of meteoric
+materials in the atmosphere of Titan, Advances in Space Research,
+Volume 17, Issue 12, pp.157-160., 0/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "KARKOSCHKA&LOREN1997"
+     REFERENCE_DESC    = "Karkoschka, E. and R.D. Lorenz, Latitudinal
+Variation of Aerosol Sizes Inferred from Titan's Shadow, Icarus,
+Volume 125, Issue 2, pp.369-379., 2/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "KOSSACKI&LORENZ1996"
+     REFERENCE_DESC    = "Kossacki, K.J. and R.D. Lorenz, Hiding Titan's
+ocean: densification and hydrocarbon storage in an icy regolith,
+Planetary and Space Science, v.44, pp.1029-1037., 9/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "MCKAYETAL1999"
+     REFERENCE_DESC    = "McKay, C.P., R.D. Lorenz, and J.I. Lunine,
+Analytic Solutions for the Antigreenhouse Effect: Titan and the
+Early Earth, Icarus, Volume 137, Issue Icarus, pp.56-61., 1/1999."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "MCKAYETAL2001"
+     REFERENCE_DESC    = "McKay, C.P., A. Coustenis, R.E. Samuelson,
+M.T. Lemmon, R.D. Lorenz, M. Cabane, P. Rannou, and P. Drossart,
+Physical properties of the organic aerosols and clouds on Titan,
+Planetary and Space Science, Volume 49, Issue 1, pp.79-99., 1/2001."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LARAETAL1994"
+     REFERENCE_DESC    = "Lara, L.M., R.D. Lorenz, and R. Rodrigo,
+Liquids and solids on the surface of Titan: Results of a new
+photochemical model, Planetary and Space Science (ISSN 0032-0633),
+vol.42, no.1, pp.5-14, 1/1994."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LUNINEETAL1998"
+     REFERENCE_DESC    = "Lunine, J.I., R.D. Lorenz, and W.K. Hartmann,
+Some speculations on Titans past, present and future, Planetary and
+Space Science, Volume 46, Issue 9-10, pp.1099-1107., 10/1998."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LUNINEETAL1999"
+     REFERENCE_DESC    = "Lunine, J.I., Y.L. Yung, and R.D. Lorenz, On
+the volatile inventory of Titan from isotopic abundances in nitrogen
+and methane, Planetary and Space Science, Volume 47, Issue 10-11,
+pp.1291-1303., 10/1999."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ&LUNINE1996"
+     REFERENCE_DESC    = "Lorenz, R.D.and J.I. Lunine, Erosion on Titan:
+Past and Present, Icarus, Vol.122, pp.79-91 (1996), 7/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ&LUNINE1997"
+     REFERENCE_DESC    = "Lorenz, R.D. and J.I. Lunine, Titan's surface
+reviewed: the nature of bright and dark terrain, Planetary and Space
+Science, v.45, pp.981-992., 8/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ&LUNINE2002"
+     REFERENCE_DESC    = "Lorenz, R.D. and J.I. Lunine, Titan's Snowline,
+Icarus, Volume 158, Issue 2, pp.557-559., 8/2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ&MITTON2002"
+     REFERENCE_DESC    = "Lorenz, R. and J. Mitton, Lifting Titan's veil
+: exploring the giant moon of Saturn, Lifting Titan's veil :
+exploring the giant moon of Saturn Cambridge, MA: Cambridge
+University Press, 2002, ISBN 0521793483, 0/2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ&SHANDERA2001"
+     REFERENCE_DESC    = "Lorenz, R.D. and S.E. Shandera, Physical
+Properties of Ammonia-Rich Ice: Application to Titan, Geophysical
+Research Letters, vol.28, Issue 2, pp.215, 1/2001."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1992"
+     REFERENCE_DESC    = "Lorenz, R., Huygens probe: The surface
+mission, In its Symposium on Titan p 359-364 (SEE N92-32348 23-91),
+4/1992."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1992B"
+     REFERENCE_DESC    = "Lorenz, R.D., Gravitational tide in the
+atmosphere of Titan, In its Symposium on Titan p 119-123 (SEE
+N92-32348 23-91), 4/1992."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1993"
+     REFERENCE_DESC    = "Lorenz, R.D., The life, death and afterlife of
+a raindrop on Titan, Planetary and Space Science (ISSN 0032-0633),
+vol.41, no.9, pp.647-655, 9/1993."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1993B"
+     REFERENCE_DESC    = "Lorenz, R.D., The surface of Titan in the
+context of ESA's Huygens Probe, ESA Journal, vol.17, pp.275, 1/1993."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1993C"
+     REFERENCE_DESC    = "Lorenz, R.D., Wake-induced dust cloud
+formation following impact of planetary landers, Icarus
+(ISSN 0019-1035), vol.101, no.1, pp.165-167., 1/1993."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1994"
+     REFERENCE_DESC    = "Lorenz, R.D., Crater lakes on Titan: Rings,
+horseshoes and bullseyes, Planetary and Space Science
+(ISSN 0032-0633), vol.42, no.1, pp.1-4, 1/1994."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1996"
+     REFERENCE_DESC    = "Lorenz, R.D., Characterization of a Planet:
+Dependence on Coverage Fraction, Lunar and Planetary Science, volume
+27, page 773, 3/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1996B"
+     REFERENCE_DESC    = "Lorenz, R.D., Pillow lava on Titan:
+expectations and constraints on cryovolcanic processes, Planetary
+and Space Science, v.44, pp.1021-1028., 9/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1997"
+     REFERENCE_DESC    = "Lorenz, R.D., Impacts and cratering on Titan:
+a pre-Cassini view, Planetary and Space Science, v.45, pp.1009-1019.,
+8/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ1998"
+     REFERENCE_DESC    = "Lorenz, R.D., NOTE: Preliminary Measurements
+of the Cryogenic Dielectric Properties of Water-Ammonia Ices:
+Implications for Radar Observations of Icy Satellites, Icarus, Volume
+136, Issue 2, pp.344-348., 12/1998."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ2002"
+     REFERENCE_DESC    = "Lorenz, R.D., Tectonic Titan: Landscape
+Energetics and the Thermodynamic Efficiency of Mantle Convection,
+33rd Annual Lunar and Planetary Science Conference, March 11-15,
+2002, Houston, Texas, abstract no.1165, 3/2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZ2002B"
+     REFERENCE_DESC    = "Lorenz, R.D., Thermodynamics of Geysers:
+Application to Titan, Icarus, Volume 156, Issue 1, pp.176-183
+(2002)., 3/2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1995"
+     REFERENCE_DESC    = "Lorenz, R.D., J.I. Lunine, J.A. Grier, and
+M.A. Fisher, Prediction of aeolian features on planets: Application
+to Titan paleoclimatology, Journal of Geophysical Research, Volume
+100, Issue E12, December 25, 1995, pp.26377-26386, 0/1995."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1997"
+     REFERENCE_DESC    = "Lorenz, R.D., P.H. Smith, M.T. Lemmon,
+E. Karkoschka, G.W. Lockwood, and J. Caldwell, Titan's North-South
+Asymmetry from HST and Voyager Imaging: Comparison with Models and
+Ground-Based Photometry, Icarus, Vol.127, pp.173-189 (1997), 5/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1997B"
+     REFERENCE_DESC    = "Lorenz, R.D., C.P. McKay, and J.I. Lunine,
+Photochemically-induced collapse of Titan's atmosphere, Science,
+vol.275, pp.642-644 (1997)., 0/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1997C"
+     REFERENCE_DESC    = "Lorenz, R.D., J.I. Lunine, and C.P. McKay,
+Titan under a red giant sun: A new kind of 'habitable' moon,
+Geophysical Research Letters, vol.24, pp.2905, 11/1997."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1999"
+     REFERENCE_DESC    = "Lorenz, R.D., C.P. McKay, and J.I. Lunine,
+Analytic investigation of climate stability on Titan: sensitivity to
+volatile inventory, Planetary and Space Science, Volume 47, Issue 12,
+pp.1503-1515., 12/1999."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1999B"
+     REFERENCE_DESC    = "Lorenz, R.D., M.T. Lemmon, and P.H. Smith,
+Evidence for Clouds on Titan from HST WFPC-2, American Astronomical
+Society, DPS meeting \#31, \#41.07, 9/1999."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL1999C"
+     REFERENCE_DESC    = "Lorenz, R.D., M.T. Lemmon, P.H. Smith, and
+G.W. Lockwood, Seasonal Change on Titan Observed with the Hubble
+Space Telescope WFPC-2, Icarus, Volume 142, Issue Icarus,
+pp.391-401., 12/1999."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL2001"
+     REFERENCE_DESC    = "Lorenz, R.D., E.F. Young, and M.T. Lemmon,
+Titan's Smile and Collar: HST Observations of Seasonal Change
+1994-2000, Geophysical Research Letters, vol.28, Issue 23, pp.4453,
+12/2001."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL2001B"
+     REFERENCE_DESC    = "Lorenz, R.D., J.I. Lunine, P.G. Withers, and
+C.P. McKay, Titan, Mars and Earth : Entropy Production by Latitudinal
+Heat Transport, Geophysical Research Letters, vol.28, Issue 3,
+pp.415, 2/2001."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL2002"
+     REFERENCE_DESC    = "Lorenz, R.D., A.J.T. Jull, T.D. Swindle, and
+J.I. Lunine, Radiocarbon on Titan, Meteoritics amp Planetary Science,
+vol.37, no.6, pp.867-874 (2002), 6/2002."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "RICHARDSONETAL2001"
+     REFERENCE_DESC    = "Richardson, J.E., R.D. Lorenz, and A. McEwen,
+Titan's Surface and Rotation: New Results from Voyager 1 Images,
+American Astronomical Society, DPS meeting \#33, \#38.11, 11/2001."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "SMITHETAL1996"
+     REFERENCE_DESC    = "Smith, P.H., M.T. Lemmon, R.D. Lorenz,
+L.A. Sromovsky, J.J. Caldwell, and M.D. Allison, Titan's Surface,
+Revealed by HST Imaging, Icarus, Volume 119, Issue 2, pp.336-349.,
+2/1996."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "SOHLETAL1995"
+     REFERENCE_DESC    = "Sohl, F., W.D. Sears, and R.D. Lorenz, Tidal
+dissipation on Titan., Icarus, vol.115, pp.278-294 (1995)., 6/1995."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "STILESETAL2009"
+     REFERENCE_DESC    = "Bryan W. Stiles, Scott Hensley, 
+Yonggyu Gim, David M. Bates, Randolph L. Kirkb, Alex Hayes, 
+Jani Radebaugh, Ralph D. Lorenz, Karl L. Mitchell, Philip S. Callahan,
+Howard Zebker, William T.K. Johnson, Stephen D. Wall, 
+Jonathan I. Lunine, Charles A. Wood, Michael Janssen, Frederic Pelletier,
+Richard D. West, Chandini Veeramachaneni, and the Cassini RADAR Team, 
+Determining Titan surface topography from Cassini SAR Data, Icarus,
+Vol. 202, No.2, pp. 584-598. 2009."
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LUCIANOETAL2010"
+     REFERENCE_DESC    = "Iess, Luciano, Nicole J. Rappaport, 
+Robert A. Jacobson, Paolo Racioppa, David J. Stevenson, Paolo Tortora,
+John W. Armstrong, and Sami W. Asmar., Gravity field, shape, 
+and moment of inertia of Titan, Science 327, no. 5971 (2010): 1367-1369"
+END_OBJECT          = REFERENCE
+
+OBJECT              = REFERENCE
+     REFERENCE_KEY_ID  = "LORENZETAL2013"
+     REFERENCE_DESC    = "Ralph D. Lorenz, Bryan W. Stiles, 
+Oded Aharonson, Antoine Lucas, Alexander G. Hayes, Randolph L. Kirk, 
+Howard A. Zebker, Elizabeth P. Turtle, Catherine D. Neish, Ellen R. Stofan,
+Jason W. Barnes, the Cassini RADAR Team, A global topographic map of Titan,
+Icarus, Volume 225, Issue 1, July 2013, Pages 367-377"
+END_OBJECT          = REFERENCE
+
+END

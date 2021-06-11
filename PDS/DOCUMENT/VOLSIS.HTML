@@ -1,0 +1,3018 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta name=Title content=" Cassini Radar Instrument Team ">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<title>
+Volume Software Interface Specification (SIS) for Cassini Radar Instrument Team Data Products</TITLE>
+</head>
+<body bgcolor=white link=blue vlink=blue>
+<div>
+<p>
+<a name=pgfId-4410>
+</a>
+DORA-002</p>
+<p>
+</p>
+<p>
+<a name=pgfId-8949>
+</a>
+<a name=pgfId-39>
+</a>
+Cassini Radar Instrument Team
+</p>
+<p>
+</p>
+<p>
+<a name=pgfId-41>
+</a>
+<a name=pgfId-43>
+</a>
+Volume Software Interface Specification (SIS) for Cassini Radar Instrument Team Data Products</p>
+<p>
+<a name=pgfId-8927>
+</a>
+<b>
+</b>
+</p>
+<p>
+<a name=pgfId-47>
+</a>
+<b>
+Version
+2.1 
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<a name=pgfId-51>
+</a>
+<a name=pgfId-8910>
+</a>
+<b>
+Bryan Stiles
+</b>
+</p>
+<p>
+<a name=pgfId-55>
+</a>
+<b>
+September 28, 2015
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<a name=pgfId-59>
+</a>
+<a name=pgfId-61>
+</a>
+<b>
+Jet Propulsion Laboratory 
+</b>
+</p>
+<p>
+<a name=pgfId-63>
+</a>
+<b>
+California Institute of Technology 
+</b>
+</p>
+<p>
+<a name=pgfId-65>
+</a>
+<b>
+NASA 
+</b>
+</p>
+<p>
+<b>
+D-27890
+</b>
+<a name=pgfId-67>
+</a>
+<a name=pgfId-69>
+</a>
+<a name=pgfId-8946>
+</a>
+<a name=pgfId-8947>
+</a>
+<a name=pgfId-8948>
+</a>
+</p>
+<p><A HREF="VOLSIS_SIGPAGE.PDF">Signature Page</A>
+</p>
+<p>
+</p>
+<h3>
+<a name="_Toc305060019">
+</a>
+<a name="_Toc305059189">
+</a>
+<a name="_Toc305059083">
+</a>
+<a name="_Toc202787525">
+</a>
+<a name=pgfId-4070>
+</a>
+Document Log
+</h3>
+<div align=center>
+<table border=1 cellpadding=0 width=467>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4078>
+</a>
+<b>
+Revision
+</b>
+</p>
+<p>
+<a name=pgfId-4079>
+</a>
+<b>
+Date
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4081>
+</a>
+<b>
+Revised
+</b>
+</p>
+<p>
+<a name=pgfId-4082>
+</a>
+<b>
+Pages
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4084>
+</a>
+<b>
+Description
+</b>
+</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4086>
+</a>
+<b>
+Revised By 
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4088>
+</a>
+02/28/2004</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4090>
+</a>
+All</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4092>
+</a>
+Original</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4094>
+</a>
+B. Stiles </p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4096>
+</a>
+02/28/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4352>
+</a>
+16</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4381>
+</a>
+Replaced zzzz with zzz in BODP product ID. Added letter Q to BIDR filename convention to stand for oblique cylindrical projection, and thus be keep BIDR filenames consistent with Randy Kirk's higher level filename convention. Added number of looks backplane to volume. Removed misleading sentence regarding common radar modes. (&#34;Uncommon modes&#34; occur frequently.)</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4102>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4104>
+</a>
+02/28/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4106>
+</a>
+15</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4392>
+</a>
+Replaced BODP.CAT in Table 6 with SBDRDS.CAT, LBDRDS.CAT, and ABDRDS.CAT, and replaced BIDR.CAT with BIDRDS.CAT.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4110>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4112>
+</a>
+02/28/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4114>
+</a>
+13, 14</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4116>
+</a>
+Added info about size of record_id column in CRT file. Fixed Table 5 to include 08 transition number and added more specific definition of start and end times in CRT files. Added production_creation_time entry to index table.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4118>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4120>
+</a>
+02/28/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4122>
+</a>
+11</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4124>
+</a>
+Added discussion of VOLUME ID to Table 2.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4126>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4128>
+</a>
+03/08/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4130>
+</a>
+Signature page, 8-12, 14, 15, 16</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4132>
+</a>
+Updated PDS program manager name on signature page. Eliminated hold-over reference to DVD-R. (Volumes are delivered electronically as stated in Section 2.3.) Increased data volume estimates to coincide with changes in nominal flyby geometries. Improved the explanation of archive validation process. Various minor wording changes and typo fixes. </p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4134>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4136>
+</a>
+05/16/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4138>
+</a>
+Signature page, 13, 15, 16, 18</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4140>
+</a>
+Removed PDS program manager from signature page, described the compression of the data files, changed BEAMPAT.DOC and CONFIG.DOC to label files. Cassini Radar Transition file moved to extras directory. .FMT files moved to DATA subdirectories.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4142>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4144>
+</a>
+05/27/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4146>
+</a>
+12, 13, 15</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4148>
+</a>
+Edited BIDR file names to include 3 digit data take number instead of 2 digit flyby number. Added Volume_ID column to Index table. Made names of INDEX table columns consistent with INDEX.LBL</p>
+<p align=left>
+Added pole, PCK information to EXTRAS. .</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4150>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4152>
+</a>
+09/27/2005</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4154>
+</a>
+13, 15, 16</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4156>
+</a>
+Modified filename formats for BIDR and BODP files. Added text for unusual dual side looking SAR pass in look_direction description.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4158>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4160>
+</a>
+03/20/2008</p>
+</td>
+<td>
+<p>
+13, 15, 16</p>
+</td>
+<td>
+<p align=left>
+Modified filename formats for BIDR and BODP files. Added information for ABDR.
+Reformatted in Word.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4166>
+</a>
+P. Callahan </p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4168>
+</a>
+03/31/2008</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4170>
+</a>
+2, 3, 7, 8, 9, 13</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4172>
+</a>
+Added information for ABDR-SUMMARY products.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4174>
+</a>
+J. Shimada</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4176>
+</a>
+05/01/2008</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4178>
+</a>
+pp 8-9, Sections 3, 4</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4180>
+</a>
+Corrected names of various files and directories.
+Corrected minor grammatical issues.
+Corrected description of EXTRAS directory in Section 3.7.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4182>
+</a>
+J. Shimada, B. Stiles </p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4184>
+</a>
+<a name=pgfId-4192>
+</a>
+&nbsp;09/28/2015</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4194>
+</a>
+1, 2, 3, 7, 8, 9, 10, 15</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4196>
+</a>
+Included information regarding SARTopo products and included details about 2 new backplanes.</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4198>
+</a>
+&nbsp;C.Veeramachaneni</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4200>
+</a>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4202>
+</a>
+</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4204>
+</a>
+</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4206>
+</a>
+</p>
+</td>
+</tr>
+<tr>
+<td width=67>
+<p>
+<a name=pgfId-4208>
+</a>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4210>
+</a>
+</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4212>
+</a>
+</p>
+</td>
+<td width=98>
+<p>
+<a name=pgfId-4214>
+</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<a name=pgfId-4216>
+</a>
+<a name=pgfId-1311>
+</a>
+<em>
+</em>
+</p>
+<em>
+<b>
+</b>
+</em>
+<p>
+<em>
+Table of Contents
+</em>
+</p>
+<p>
+</p>
+<p>
+Document Log
+.......................................................................................................................... 
+<a href="#_Toc305060019"> 
+iii
+</a>
+</p>
+<p>
+1
+INTRODUCTION
+..................................................................................................................... 
+<a href="#_Toc305060020"> 
+1
+</a>
+</p>
+<p>
+1.1
+Purpose and Scope
+.............................................................................................. 
+<a href="#_Toc305060021"> 
+1
+</a>
+</p>
+<p>
+1.2
+Applicable Documents
+......................................................................................... 
+<a href="#_Toc305060022"> 
+1
+</a>
+</p>
+<p>
+2
+ARCHIVE VOLUME GENERATION
+........................................................................................ 
+<a href="#_Toc305060023"> 
+2
+</a>
+</p>
+<p>
+2.1
+Data Transfer and Validation Method
+............................................................... 
+<a href="#_Toc305060024"> 
+2
+</a>
+</p>
+<p>
+2.2
+Data Volume Estimates
+....................................................................................... 
+<a href="#_Toc305060025"> 
+2
+</a>
+</p>
+<p>
+2.3
+Interface Media Characteristics
+........................................................................ 
+<a href="#_Toc305060026"> 
+3
+</a>
+</p>
+<p>
+2.4
+Backup and Duplicates
+......................................................................................... 
+<a href="#_Toc305060027"> 
+3
+</a>
+</p>
+<p>
+3
+ARCHIVE VOLUME CONTENTS
+............................................................................................ 
+<a href="#_Toc305060028"> 
+4
+</a>
+</p>
+<p>
+3.1
+Root Directory Contents
+...................................................................................... 
+<a href="#_Toc305060029"> 
+4
+</a>
+</p>
+<p>
+3.2
+INDEX Directory Contents
+.................................................................................... 
+<a href="#_Toc305060030"> 
+5
+</a>
+</p>
+<p>
+3.3
+DOCUMENT Directory Contents
+.......................................................................... 
+<a href="#_Toc305060031"> 
+6
+</a>
+</p>
+<p>
+3.4
+CATALOG Directory Contents
+............................................................................ 
+<a href="#_Toc305060032"> 
+7
+</a>
+</p>
+<p>
+3.5
+DATA Directory Contents
+.................................................................................... 
+<a href="#_Toc305060033"> 
+7
+</a>
+</p>
+<p>
+3.6
+CALIB Directory Contents
+................................................................................. 
+<a href="#_Toc305060034"> 
+11
+</a>
+</p>
+<p>
+3.7
+EXTRAS Directory Contents
+.............................................................................. 
+<a href="#_Toc305060035"> 
+11
+</a>
+</p>
+<p>
+4
+ARCHIVE VOLUME FORMAT
+............................................................................................. 
+<a href="#_Toc305060036"> 
+13
+</a>
+</p>
+<p>
+4.1
+Document File Format
+........................................................................................ 
+<a href="#_Toc305060037"> 
+13
+</a>
+</p>
+<p>
+4.2
+Tabular File Format
+............................................................................................. 
+<a href="#_Toc305060038"> 
+13
+</a>
+</p>
+<p>
+4.3
+PDS Label Format
+................................................................................................ 
+<a href="#_Toc305060039"> 
+14
+</a>
+</p>
+<p>
+4.4
+Catalog File Format
+............................................................................................. 
+<a href="#_Toc305060040"> 
+15
+</a>
+</p>
+<p>
+4.5
+Science Data File Format
+................................................................................... 
+<a href="#_Toc305060041"> 
+15
+</a>
+</p>
+<p>
+</p>
+</div>
+<div>
+<p>
+</p>
+<h3>
+<a name="_Toc305060020">
+</a>
+<a name="_Toc305059190">
+</a>
+<a name="_Toc305059084">
+</a>
+<a name="_Toc202787526">
+1
+INTRODUCTION
+</a>
+</h3>
+<h4>
+<a name="_Toc305060021">
+</a>
+<a name="_Toc305059191">
+</a>
+<a name="_Toc305059085">
+</a>
+<a name="_Toc202787527">
+</a>
+<a name=pgfId-181>
+</a>
+1.1
+Purpose and Scope
+</h4>
+<p>
+<a name=pgfId-4436>
+</a>
+This Software Interface Specification (SIS) describes the formats, contents, and generation of the archive volumes for data produced by the Cassini Radar Instrument Team including the Burst Ordered Data Products (BODP), the Basic Image Data Records (BIDR) and Synthetic Aperture Radar Topography (SARTopo) products. Observations in the Saturn system will target Titan, Saturn, the Saturnian ring systems, and various icy satellites. </p>
+<p>
+<a name=pgfId-4451>
+</a>
+Observations of targets outside the Saturn system will also be included in the data volume. For example, radiometer observations of Jupiter, the sun, and various microwave sources will be included as well as radiometer and scatterometer observations of the Earth.</p>
+<p>
+<a name=pgfId-4439>
+</a>
+</p>
+<p>
+<a name=pgfId-4440>
+</a>
+The specifications in this document apply to all data products produced by the Cassini Radar Instrument Team at the Jet Propulsion Laboratory. </p>
+<p>
+<a name=pgfId-6668>
+</a>
+</p>
+<p>
+<a name=pgfId-4442>
+</a>
+This SIS is intended to provide enough information to enable users to understand the way in which the data products are organized within the volume data set. It is intended to be used in conjunction with the Cassini Radar Burst Ordered Data Products SIS D-27891 that describes the internal format of the BODP data files and the Cassini Basic Image Data Record SIS D-27889, which similarly documents the BIDR files. The users for whom this SIS is intended are software developers, engineers, and scientists interested in accessing and using either of the two data product types.</p>
+<p>
+<a name=pgfId-2989>
+</a>
+</p>
+<h4>
+<a name="_Toc305060022">
+</a>
+<a name="_Toc305059192">
+</a>
+<a name="_Toc305059086">
+</a>
+<a name="_Toc202787528">
+</a>
+<a name=pgfId-4497>
+</a>
+1.2
+Applicable Documents
+</h4>
+<p>
+<a name=pgfId-4480>
+</a>
+This SIS is responsive to the following Cassini Mission Documents:</p>
+<p>
+<a name=pgfId-4482>
+</a>
+1. Project Data Management Plan, JPL PD 699-061</p>
+<p>
+<a name=pgfId-4483>
+</a>
+2. Cassini/Huygens Program Archive Plan for Science Data, JPL PD 699-068</p>
+<p>
+<a name=pgfId-4485>
+</a>
+This SIS is also consistent with the following Planetary Data System documents:</p>
+<p>
+<a name=pgfId-4487>
+</a>
+3. Planetary Data System Data Preparation Workbook, February 1, 1995, Version 3.1, JPL D-7669, Part 1</p>
+<p>
+<a name=pgfId-4489>
+</a>
+4. Planetary Data System Data Standards Reference, June 15, 2001, Version 3.4, JPL D-7669, Part 2</p>
+<p>
+<a name=pgfId-4490>
+</a>
+</p>
+<p>
+<a name=pgfId-4491>
+</a>
+Finally, this SIS is consistent with the contract negotiated between the Cassini Project and the Cassini Radar Team Leader (TL) in which data products and documentation are explicitly defined as deliverable products.</p>
+<p>
+<a name=pgfId-2996>
+</a>
+</p>
+<h3>
+<a name="_Toc305060023">
+</a>
+<a name="_Toc305059193">
+</a>
+<a name="_Toc305059087">
+</a>
+<a name="_Toc202787529">
+</a>
+<a name=pgfId-395>
+</a>
+2
+ARCHIVE VOLUME GENERATION
+</h3>
+<h4>
+<a name="_Toc305060024">
+</a>
+<a name="_Toc305059194">
+</a>
+<a name="_Toc305059088">
+</a>
+<a name="_Toc202787530">
+2.1
+Data Transfer and Validation Method
+</a>
+</h4>
+<p>
+<a name=pgfId-397>
+</a>
+<a name=pgfId-6831>
+</a>
+The Cassini Radar Team will produce the BODP, BIDR and SARTopo Data Archive Collection. BODP files will be produced for each observation of each body. BIDR files will be produced for each SAR observation of Titan. A data volume product will be created for each observation of each body during the tour of the Saturnian system (from June 1, 2004 to the end of the mission) plus relevant observations made during cruise (before June 1, 2004). During active mission operations intermediate science data products will be made available to Cassini Radar Team members for their analysis and evaluation as they are produced. The data products will be updated several times based on improved pointing and ephemeris information. At the end of the data preparation and evaluation phase, a data volume as specified in this SIS will be created and sent to the PDS for archiving. Before production of the first data volume product, a sample volume will be distributed to the peer review panel for their evaluation. The peer panel, with representation from the Cassini Radar Team, PDS, Cassini Science Archive Working Group (SAWG) and the general science community will review and validate the products and volume for scientific integrity and compliance with PDS standards. The data products will be evaluated against the design as defined in the product and volume SIS's. The software and procedure used to create the data volume will be configuration controlled to insure that future products continue to conform to all specifications. </p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060025">
+</a>
+<a name="_Toc305059195">
+</a>
+<a name="_Toc305059089">
+</a>
+<a name="_Toc202787531">
+</a>
+<a name=pgfId-403>
+</a>
+2.2
+Data Volume Estimates
+</h4>
+<p>
+<a name=pgfId-4542>
+</a>
+The following table summarizes product sizes for the Cassini Radar Instrument Team Data Products. These include the BIDR files, SARTopo files and the four different formats of BODP files. The various types are described in detail in section 3.5 (DATA Directory Contents) and in the BODP Data SIS. BIDR files, SARTopo files and BODP files of each format have fixed record lengths that can be read from the PDS label attached at the beginning of the file or from the file's detached label where applicable. The approximate record sizes for each file type are also listed in Table 1 along with the nominal data volume per pass (for 10 hour Titan passes) and some notes briefly describing each product type. For the exact record sizes see the BODP or BIDR data SIS. The total data volume for the mission is estimated to be 160 GBytes for 20 Titan passes plus a much smaller amount from Saturn, rings, and icy satellite observations. This estimate is probably high because the radar will not be obtaining measurements for the full ten hours for every Titan pass. On the other hand, in the event of an extended mission we may acquire more passes.
+</p>
+<p>
+</p>
+<p>
+<a name=pgfId-405>
+</a>
+A single copy of the data product volumes will be delivered to the PDS Imaging Node. The Imaging Node will be responsible for developing the methods for distributing the data products to the user community. Copies of the preliminary (sample) volumes will be provided electronically to the peer review panel for their evaluation. </p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p align=center>
+<b>
+Table 1:
+Data Volume Estimates
+</b>
+</p>
+<div align=center>
+<table border=1 cellpadding=0>
+<tr>
+<td>
+<p>
+<a name=74499>
+</a>
+<a name=pgfId-2333>
+</a>
+<a name=pgfId-2341>
+</a>
+<b>
+Product Type
+</b>
+</p>
+</td>
+<td width=107>
+<p>
+<a name=pgfId-5576>
+</a>
+<b>
+Data Set ID
+</b>
+</p>
+</td>
+<td width=80>
+<p>
+<a name=pgfId-2343>
+</a>
+<b>
+Record Size (KBytes)
+</b>
+</p>
+</td>
+<td width=72>
+<p>
+<a name=pgfId-2345>
+</a>
+<b>
+Data Volume per pass (MBytes)
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-2347>
+</a>
+<b>
+Name: Description
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-2365>
+</a>
+SBDR</p>
+</td>
+<td width=107>
+<p>
+<a name=pgfId-5578>
+</a>
+CO-V/E/J/S-RADAR-3-SBDR-V1.0</p>
+</td>
+<td width=80>
+<p>
+<a name=pgfId-2367>
+</a>
+1.2</p>
+</td>
+<td width=72>
+<p>
+<a name=pgfId-2369>
+</a>
+54</p>
+</td>
+<td>
+<p>
+<a name=pgfId-2371>
+</a>
+Short Burst Data Record: Time ordered engineering, </p>
+<p>
+<a name=pgfId-5627>
+</a>
+S/C geometry, and science data</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4604>
+</a>
+LBDR</p>
+</td>
+<td width=107>
+<p>
+<a name=pgfId-5580>
+</a>
+CO-V/E/J/S-RADAR-3-LBDR-V1.0</p>
+</td>
+<td width=80>
+<p>
+<a name=pgfId-4606>
+</a>
+133</p>
+</td>
+<td width=72>
+<p>
+<a name=pgfId-4608>
+</a>
+2200</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4610>
+</a>
+Long Burst Data Record: SBDR + active mode <a name=pgfId-5620>
+</a>
+sampled echo data</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4596>
+</a>
+ABDR</p>
+</td>
+<td width=107>
+<p>
+<a name=pgfId-5582>
+</a>
+CO-SSA-RADAR-3-ABDR-V1.0</p>
+</td>
+<td width=80>
+<p>
+<a name=pgfId-4598>
+</a>
+133</p>
+</td>
+<td width=72>
+<p>
+<a name=pgfId-4600>
+</a>
+240</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4602>
+</a>
+Altimeter Burst Data Record:</p>
+<p>
+<a name=pgfId-5686>
+</a>
+SBDR + range compressed altimeter echo data</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+ABDR-SUMMARY
+</p>
+</td>
+<td width=107>
+<p>
+CO-SSA-RADAR-3-ABDR-SUMMARY-V1.0</p>
+</td>
+<td width=80>
+<p>
+0.16</p>
+</td>
+<td width=72>
+<p>
+0.28</p>
+</td>
+<td>
+<p>
+Altimeter Burst Data Record Summary: additional parameters derived from the altimeter profile for each burst in an ABDR product</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4588>
+</a>
+BIDR</p>
+</td>
+<td width=107>
+<p>
+<a name=pgfId-5600>
+</a>
+CO-SSA-RADAR-5-BIDR-V1.0<a name=pgfId-5584>
+</a>
+</p>
+</td>
+<td width=80>
+<p>
+<a name=pgfId-4590>
+</a>
+varies for different image </p>
+<p>
+<a name=pgfId-6686>
+</a>
+resolutions</p>
+</td>
+<td width=72>
+<p>
+<a name=pgfId-4592>
+</a>
+5000</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4594>
+</a>
+Basic Image Data Record: SAR image from a single Titan pass</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+SARTOPO</p>
+</td>
+<td width=107>
+<p>
+CO-SSA-RADAR-5-STDR-V1.0</p>
+</td>
+<td width=80>
+<p>
+0.14</p>
+</td>
+<td width=72>
+<p>
+5</p>
+</td>
+<td>
+<p>
+SARTopo:</p>
+<p>
+Topography profile between two beams of a single SAR image</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<a name=pgfId-4630>
+</a>
+</p>
+<h4>
+<a name="_Toc305060026">
+</a>
+<a name="_Toc305059196">
+</a>
+<a name="_Toc305059090">
+</a>
+<a name="_Toc202787532">
+</a>
+<a name=pgfId-6691>
+</a>
+2.3
+Interface Media Characteristics
+<a name=pgfId-6692>
+</a>
+</h4>
+<p>
+Data products will be delivered to the PDS electronically. Deliveries will be tracked using the Cassini Archive Tracking System (CATS).<a name=pgfId-6700>
+</a>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<h4>
+<a name="_Toc305060027">
+</a>
+<a name="_Toc305059197">
+</a>
+<a name="_Toc305059091">
+</a>
+<a name="_Toc202787533">
+2.4
+Backup and Duplicates
+</a>
+</h4>
+<p>
+<a name=pgfId-6701>
+</a>
+The Cassini Radar Instrument Team will keep backup copies of the data throughout the duration of the Cassini Mission. </p>
+<p>
+<a name=pgfId-4816>
+</a>
+</p>
+<p>
+</p>
+<h3>
+<a name="_Toc305060028">
+</a>
+<a name="_Toc305059198">
+</a>
+<a name="_Toc305059092">
+</a>
+<a name="_Toc202787534">
+</a>
+<a name=pgfId-471>
+</a>
+3
+ARCHIVE VOLUME CONTENTS
+</h3>
+<p>
+<a name=pgfId-4821>
+</a>
+This section describes the directories and contents of the Cassini Radar Instrument Team Data Product volumes, including the file names, file contents, and file types. The ancillary files described herein appear on each volume in the Cassini Radar Instrument Team Data Product volume series. </p>
+<h4>
+<a name="_Toc305060029">
+</a>
+<a name="_Toc305059199">
+</a>
+<a name="_Toc305059093">
+</a>
+<a name="_Toc202787535">
+</a>
+<a name=pgfId-473>
+</a>
+3.1
+Root Directory Contents
+<a name=pgfId-4943>
+</a>
+</h4>
+<p>
+The following table shows the contents of the Root directory.<b>
+</b>
+</p>
+<p align=center>
+<a name=pgfId-4944>
+</a>
+<b>
+Table 2:
+Contents of Root Directory
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td>
+<p>
+<a name=pgfId-4950>
+</a>
+<a name=pgfId-4954>
+</a>
+<b>
+File Name
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4956>
+</a>
+<b>
+File Contents
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4958>
+</a>
+AAREADME.TXT </p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4960>
+</a>
+File providing introductory information about the contents and format of the volumes.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4962>
+</a>
+CALIB</p>
+</td>
+<td>
+<p align=left>
+Directory containing files that were used to calibrate the data.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5085>
+</a>
+<a name=pgfId-5081>
+</a>
+<a name=pgfId-5077>
+</a>
+CATALOG</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5079>
+</a>
+Directory containing the catalog files.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5089>
+</a>
+DATA</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5091>
+</a>
+Directory containing the data products.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-6434>
+</a>
+DOCUMENT</p>
+</td>
+<td>
+<p align=left>
+Directory containing documents that facilitate the understanding of the datasets included on this volume.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+ERRATA.TXT</p>
+</td>
+<td>
+<p align=left>
+A listing of comments and special considerations for this volume. </p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5655>
+</a>
+EXTRAS</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5657>
+</a>
+Directory containing additional information pertinent to the data products being delivered.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+INDEX</p>
+</td>
+<td>
+<p align=left>
+Directory containing the index table for the data products on this volume.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+SOFTWARE</p>
+</td>
+<td>
+<p align=left>
+Directory containing information about software applications that are necessary or helpful in accessing or processing the data products on this volume.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+VOLDESC.CAT</p>
+</td>
+<td>
+<p align=left>
+A description of the contents of this volume in a PDS labeled format. It contains a VOLUME object with a VOLUME_ID keyword of the form CORADR_NNNN, where NNNN is a unique 4-digit number for each archived volume.</p>
+</td>
+</tr>
+</table>
+<p>
+<a name=pgfId-6804>
+</a>
+</p>
+<h4>
+<a name="_Toc305060030">
+</a>
+<a name="_Toc305059200">
+</a>
+<a name="_Toc305059094">
+</a>
+<a name="_Toc202787536">
+3.2
+INDEX Directory Contents
+</a>
+</h4>
+<p>
+<a name=pgfId-4997>
+</a>
+The following table summarizes files located in the INDEX directory. A single index table is provided for all Cassini Radar Instrument Team Products. Data set ID is one of the fields in the index table.</p>
+<p>
+</p>
+<p align=center>
+<a name=pgfId-5048>
+</a>
+<b>
+Table 3:
+Contents of INDEX Directory
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td>
+<p>
+<a name=pgfId-5029>
+</a>
+<a name=pgfId-5033>
+</a>
+<b>
+File Name
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-5035>
+</a>
+<b>
+File Contents
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5037>
+</a>
+INDXINFO.TXT </p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5039>
+</a>
+A description of the contents of this directory.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5041>
+</a>
+INDEX.TAB</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5043>
+</a>
+Index table for Cassini Radar Instrument Team Data Products.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-5045>
+</a>
+INDEX.LBL</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-5047>
+</a>
+Detached label file describing contents of INDEX.TAB.</p>
+</td>
+</tr>
+</table>
+<p>
+<a name=pgfId-5004>
+</a>
+</p>
+<h5>
+<a name=pgfId-4646>
+</a>
+3.2.1
+Fields in the Index Table<a name=pgfId-4716>
+</a>
+</h5>
+<p>
+This section describes the fields in INDEX.TAB. This file is included to provide the user with a way of quickly producing a list of data files from desired ranges of search criteria such as time, target, latitude, or longitude. See below for descriptions of each column in the index table.<a name=pgfId-4715>
+</a>
+<b>
+</b>
+</p>
+<H4>
+3.2.1.1
+file_name</H4>
+<p>
+<a name=pgfId-4732>
+</a>
+The name of each BODP or BIDR data file in the data volume.</p>
+<H4>
+<a name=pgfId-4717>
+</a>
+3.2.1.2
+path_name</H4>
+<p>
+<a name=pgfId-4733>
+</a>
+The directory in which the file can be found. This entry should always be `data/XXXX' where XXXX is the four-letter acronym for the data set (SBDR, LBDR, ABDR or BIDR).</p>
+<H4>
+<a name=pgfId-5668>
+</a>
+3.2.1.3
+data_set_id<a name=pgfId-5669>
+</a>
+</H4>
+<p>
+A text string that identifies the type of data in the file. The valid strings are listed in Table 1.</p>
+<H4>
+<a name=pgfId-5675>
+</a>
+3.2.1.4
+start_time</H4>
+<p>
+<a name=pgfId-4769>
+</a>
+UTC (YYYY-DOYTHH:MM:SS.sss) formatted time at start of data acquisition for data in the file. </p>
+<H4>
+<a name=pgfId-4720>
+</a>
+3.2.1.5
+stop_time<a name=pgfId-6961>
+</a>
+</H4>
+<p>
+UTC formatted time at end of data acquisition for data in the file.</p>
+<H4>
+<a name=pgfId-6962>
+</a>
+3.2.1.6
+target_name<a name=pgfId-6963>
+</a>
+</H4>
+<p>
+Identifier for target of observation (TITAN, SATURN, etc.).</p>
+<H4>
+<a name=pgfId-4789>
+</a>
+3.2.1.7
+minimum_latitude<a name=pgfId-4781>
+</a>
+</H4>
+<p>
+Minimum latitude in target body frame for data in file. For targets for which this is not applicable the default value of -1000 is used. </p>
+<H4>
+<a name=pgfId-4783>
+</a>
+3.2.1.8
+maximum_latitude<a name=pgfId-4786>
+</a>
+</H4>
+<p>
+Maximum latitude in target body frame for data in file. For targets for which this is not applicable the default value of -1000 is used. </p>
+<H4>
+<a name=pgfId-4730>
+</a>
+3.2.1.9
+westernmost_longitude</H4>
+<p>
+<a name=pgfId-6342>
+</a>
+Westernmost longitude in target body frame for data in file. For target for which this is not applicable, the default value of -1000 is used. Valid values are between 0 and 360.</p>
+<H4>
+<a name=pgfId-6343>
+</a>
+3.2.1.10
+easternmost_longitude</H4>
+<p>
+<a name=pgfId-6719>
+</a>
+Easternmost longitude in target body frame for data in file. For target for which this is not applicable the default value of -1000 is used. Valid values are between 0 and 360.</p>
+<H4>
+<a name=pgfId-6720>
+</a>
+3.2.1.11
+look_direction</H4>
+<p>
+<a name=pgfId-6939>
+</a>
+5 letter ASCII string (&#34;RIGHT&#34;, &#34;LEFT&#34;, or &#34;BOTH&#34;) indicating the side of the spacecraft groundtrack to which the antenna is pointed for data acquired within each data product (file). The &#34;BOTH&#34; option will typically be used for BODP files. The SAR images stored in the BIDR files are always acquired on only one side of the ground track for each Titan pass. This value also indicates from which side the SAR image is illuminated. If the spacecraft images to the left of its ground track, the image will be illuminated from the (viewer's) left side, and, conversely, if the spacecraft looks to the right, the illumination will come from the right in the image file. The direction of illumination is critical to interpretation of features in the image. For unusual SAR passes in which measurements are obtained on both sides of the ground track, BOTH will be used. The transition across nadir and resultant data gap should make such passes easily identifiable.<a name=pgfId-6941>
+</a>
+</p>
+<H4>
+<a name=pgfId-6810>
+</a>
+3.2.1.12
+product_creation_time</H4>
+<p>
+<a name=pgfId-6815>
+</a>
+UTC (YYYY-DOYTHH:MM:SS.sss) formatted time of creation of the product file.</p>
+<H4>
+<a name=pgfId-6947>
+</a>
+3.2.1.13
+volume_id</H4>
+<p>
+<a name=pgfId-6813>
+</a>
+11 character string that uniquely identifies the archive volume. The format is CORADR_XXXX where XXXX is a four-digit number unique across all Cassini Radar archive volumes.</p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060031">
+</a>
+<a name="_Toc305059201">
+</a>
+<a name="_Toc305059095">
+</a>
+<a name="_Toc202787537">
+</a>
+<a name=pgfId-4647>
+</a>
+3.3
+DOCUMENT Directory Contents
+<a name=pgfId-5092>
+</a>
+</h4>
+<p>
+The following table lists files located in the DOCUMENT Directory.</p>
+<p align=center>
+<a name=pgfId-5124>
+</a>
+<b>
+Table 4:
+Contents of DOCUMENT Directory
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td width=100>
+<p>
+<a name=pgfId-5105>
+</a>
+<a name=pgfId-5109>
+</a>
+<b>
+File Name
+</b>
+</p>
+</td>
+<td width=361>
+<p>
+<a name=pgfId-5111>
+</a>
+<b>
+File Contents
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=100>
+<p>
+<a name=pgfId-5113>
+</a>
+DOCINFO.TXT</p>
+</td>
+<td width=361>
+<p align=left>
+<a name=pgfId-5115>
+</a>
+A description of the contents of this directory.</p>
+</td>
+</tr>
+<tr>
+<td width=100>
+<p>
+<a name=pgfId-5128>
+</a>
+BODPSIS.PDF</p>
+<p>
+<a name=pgfId-5129>
+</a>
+BODPSIS.LBL</p>
+<p>
+<a name=pgfId-5135>
+</a>
+BODPSIS.HTML</p>
+</td>
+<td width=361>
+<p align=left>
+<a name=pgfId-5119>
+</a>
+PDF and HTML versions of Burst Ordered Data Products SIS and detached label file documenting them.</p>
+</td>
+</tr>
+<tr>
+<td width=100>
+<p>
+<a name=pgfId-5144>
+</a>
+BIDRSIS.PDF</p>
+<p>
+<a name=pgfId-5145>
+</a>
+BIDRSIS.LBL</p>
+<p>
+<a name=pgfId-5146>
+</a>
+BIDRSIS.HTML</p>
+</td>
+<td width=361>
+<p align=left>
+<a name=pgfId-5154>
+</a>
+PDF and HTML versions of Basic Image Data Record SIS and detached label file documenting them.<a name=pgfId-5123>
+</a>
+</p>
+</td>
+</tr>
+<tr>
+<td width=100>
+<p>
+<a name=pgfId-5694>
+</a>
+VOLSIS.PDF</p>
+<p>
+<a name=pgfId-5695>
+</a>
+VOLSIS.LBL</p>
+<p>
+<a name=pgfId-5696>
+</a>
+VOLSIS.HTML</p>
+</td>
+<td width=361>
+<p align=left>
+<a name=pgfId-5698>
+</a>
+PDF and HTML versions of Volume SIS (this file) and</p>
+<p align=left>
+<a name=pgfId-5699>
+</a>
+detached label file documenting them.<a name=pgfId-5700>
+</a>
+</p>
+</td>
+</tr>
+</table>
+<p>
+<a name=pgfId-5097>
+</a>
+</p>
+<h4>
+<a name="_Toc305060032">
+</a>
+<a name="_Toc305059202">
+</a>
+<a name="_Toc305059096">
+</a>
+<a name="_Toc202787538">
+</a>
+<a name=pgfId-4648>
+</a>
+3.4
+CATALOG Directory Contents
+</h4>
+<p>
+<a name=pgfId-5160>
+</a>
+The files in the CATALOG directory provide a top-level understanding of the Cassini Mission, spacecraft, instruments, and data sets in the form of completed PDS templates. The files are produced or collected by the Cassini Radar Team. The files in this directory are coordinated with the PDS engineer. The following table lists files in the CATALOG Directory.</p>
+<p>
+</p>
+<p align=center>
+<a name=pgfId-5196>
+</a>
+<b>
+Table 5:
+Contents of CATALOG Directory
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5170>
+</a>
+<a name=pgfId-5174>
+</a>
+<b>
+File Name
+</b>
+</p>
+</td>
+<td width=356>
+<p>
+<a name=pgfId-5176>
+</a>
+<b>
+File Contents
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5178>
+</a>
+CATINFO.TXT </p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5180>
+</a>
+A description of the contents of this directory.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5184>
+</a>
+MISSION.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5187>
+</a>
+PDS mission catalog information about the Cassini Mission. </p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5191>
+</a>
+PERSON.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5195>
+</a>
+PDS personnel catalog information about Cassini Team members responsible for generating the data products</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5244>
+</a>
+INST.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5246>
+</a>
+PDS instrument catalog information about the Cassini Radar instrument.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5240>
+</a>
+INSTHOST.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5242>
+</a>
+PDS instrument catalog information about the Cassini spacecraft.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-6657>
+</a>
+DSMAP.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-6659>
+</a>
+PDS mission catalog information about map projection definition. It includes the definition of oblique cylindrical.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5236>
+</a>
+REF.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5238>
+</a>
+PDS references mentioned in other *.CAT files</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5232>
+</a>
+SBDRDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5234>
+</a>
+PDS data set catalog information about the Short Burst Ordered Data Record data sets.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-6785>
+</a>
+LBDRDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-6793>
+</a>
+PDS data set catalog information about the Long Burst Ordered Data Record data sets.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-6781>
+</a>
+ABDRDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-6797>
+</a>
+PDS data set catalog information about the Altimeter Burst Ordered Data Record data sets.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+ABDRSUMDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+PDS data set catalog information about the Altimeter Burst Ordered Data Record Summary data sets.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+<a name=pgfId-5716>
+</a>
+BIDRDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+<a name=pgfId-5718>
+</a>
+PDS data set catalog information about the Basic Image Data Record data set.</p>
+</td>
+</tr>
+<tr>
+<td width=107>
+<p>
+STDRDS.CAT</p>
+</td>
+<td width=356>
+<p align=left>
+PDS data set catalog information about the SARTopo data set.</p>
+</td>
+</tr>
+</table>
+<p>
+<a name=pgfId-5161>
+</a>
+<a name=pgfId-5158>
+</a>
+</p>
+<h4>
+<a name="_Toc305060033">
+</a>
+<a name="_Toc305059203">
+</a>
+<a name="_Toc305059097">
+</a>
+<a name="_Toc202787539">
+</a>
+<a name=pgfId-4649>
+</a>
+<a name=98054>
+</a>
+3.5
+DATA Directory Contents
+<a name=pgfId-5278>
+</a>
+</h4>
+<p>
+The DATA directory has six sub-directories SBDR, LBDR, ABDR, ASUM, BIDR and STDR, which together contain all the data products for the volume. Each directory contains:</p>
+<p>
+<a name=pgfId-6838>
+</a>
+&#183;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+The data files for the corresponding type of product. ABDR, LBDR, and BIDR files are compressed with the &#34;zip&#34; utility so that an entire volume will fit on one 4.7 Gbyte DVD. Although we plan to submit our volumes electronically, PDS requires that each volume fit on a single media.</p>
+<p>
+&#183;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Detached labels for each of the compressed ABDR, LBDR, and BIDR files and for each of the ABDR-SUMMARY and SARTopo products.
+Each of the compressed ABDR, LBDR, and BIDR file labels duplicates the information in the label attached to the uncompressed file. In this manner, a user can determine whether or not they need a particular data file without unzipping it. The detached label also contains all <a name=pgfId-6841>
+</a>
+the information necessary to acquire the necessary zip and unzip software and has a keyword REQUIRED_STORAGE_BYTES that specifies the size in bytes of the uncompressed file.</p>
+<p>
+<a name=pgfId-5813>
+</a>
+&#183;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+For the SBDR, LBDR, and ABDR directories, a format file that is referenced by the label files (i.e., SBDR/SBDR.FMT).</p>
+<p>
+Files are named using the product ID and an extension specifying the PDS file type. The product ID is the string following the PRODUCT_ID keyword in the attached PDS label. Uncompressed BIDR files are of the format aabcdeefggg_Dhhh_Tiii_Vnn.IMG, where &#34;aabcdeefggg_Dhhh_Tiii_Vnn&#34; is the product ID and &#34;.IMG&#34; is the extension for PDS image files. Similarly the SBDR, uncompressed LBDR, and uncompressed ABDR files are named xxxx_yy_Dzzz_Vnn.TAB, where &#34;xxxx_yy_Dzzz_Vnn&#34; is the product ID and &#34;.TAB&#34; is the extension for a PDS Table file. The ABDR-SUMMARY files are named ABDR_SUMMARY_yy_Dzzz_Vnn.CSV, where &#34;ABDR_SUMMARY_yy_Dzzz_Vnn&#34; is the product ID and &#34;.CSV&#34; is the extension for a PDS Comma-Separated Value file. The SARTopo files are named SARTOPO_TaaaSbb_Bcc_Vvv_yymmdd.CSV, where "SARTOPO_TaaaSbb_Bcc_Vvv_yymmdd" is the product ID and ".CSV"
+is the extension for a PDS Comma-Seperated Value file. All compressed files have the extension &#34;.ZIP&#34;.</p>
+<p>
+<a name=pgfId-5760>
+</a>
+</p>
+<p>
+<a name=pgfId-5766>
+</a>
+The <u>
+BIDR product ID</u>
+<b>
+aabcdeefggg_Dhhh_TiiiSjj_Vnn</b>
+is defined as follows:</p>
+<p>
+<a name=pgfId-5819>
+</a>
+aa = Dataset<a name=pgfId-5822>
+</a>
+: BI = BIDR</p>
+<p>
+<a name=pgfId-5780>
+</a>
+b = Kind and bit-type of data</p>
+<p>
+<a name=pgfId-5781>
+</a>
+F = Primary dataset (e.g., incidence angle corrected sigma0) in 32-bit <a name=pgfId-5823>
+</a>
+floating-point format (Linear scale values, not in dB.)</p>
+<p>
+<a name=pgfId-5782>
+</a>
+B = Primary dataset in unsigned byte format. (Values converted to dB then normalized to fit in [0, 255] range.)</p>
+<p>
+D = Standard deviation of <i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+with noise subtraction but without correction for incidence angle effects, in 32-bit floating-point format (Linear scale, not dB).
+</p>
+<p>
+<a name=pgfId-5783>
+</a>
+<a name=pgfId-5784>
+</a>
+S = Sigma0 with noise subtraction but without incidence angle correction in 32-bit floating point format. <a name=pgfId-5810>
+</a>
+(Linear scale values, not in dB.)</p>
+<p>
+U = Sigma0 without noise subtraction or incidence angle correction in 32-bit floating point format.
+(Linear scale values, not in dB.)</p>
+<p>
+X = Noise Equivalent <i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+without correction for incidence angle effects, in 32-bit floating-point format (Linear scale not dB).
+The noise equivalent 
+<i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+is the 
+<i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+one would expect to measure due to noise alone when noise subtraction is not utilized.
+</p>
+<p>
+E = Incidence angle map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-5785>
+</a>
+T = Latitude map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-5786>
+</a>
+N = Longitude map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-5787>
+</a>
+M = Beam mask map, 8 bit values.</p>
+<p>
+<a name=pgfId-6826>
+</a>
+L = Number of looks map, 32 bit integer values.</p>
+<p>
+<a name=pgfId-6818>
+</a>
+c = Projection</p>
+<p>
+<a name=pgfId-6819>
+</a>
+Q= Oblique Cylindrical (this is the only projection used for BIDRs)</p>
+<p>
+<a name=pgfId-5788>
+</a>
+<a name=pgfId-5789>
+</a>
+d = Map resolution </p>
+<p>
+B = 2 pixels/degree</p>
+<p>
+C = 4 pixels/degree</p>
+<p>
+<a name=pgfId-5790>
+</a>
+D = 8 pixels/degree</p>
+<p>
+E = 16 pixels/degree</p>
+<p>
+<a name=pgfId-5791>
+</a>
+F = 32 pixels/degree</p>
+<p>
+G = 64 pixels/degree</p>
+<p>
+<a name=pgfId-5792>
+</a>
+H = 128 pixels/degree</p>
+<p>
+<a name=pgfId-6574>
+</a>
+I = 256 pixels/degree</p>
+<p>
+<a name=pgfId-5828>
+</a>
+ee = Absolute value of latitude at center of file, rounded to nearest degree</p>
+<p>
+<a name=pgfId-5794>
+</a>
+f = Hemisphere of center of file</p>
+<p>
+<a name=pgfId-5795>
+</a>
+N = North</p>
+<p>
+<a name=pgfId-5796>
+</a>
+S = South</p>
+<p>
+<a name=pgfId-5797>
+</a>
+ggg = West longitude at center of file, rounded to nearest degree</p>
+<p>
+<a name=pgfId-5831>
+</a>
+hhh = Three digit mission unique Cassini radar data take number from which data are included.</p>
+<p>
+<a name=pgfId-6966>
+</a>
+iii = Three digit Titan flyby identifier, e.g., for flyby TA iii=00A and for T7, iii=007, etc. </p>
+<p>
+jj = Two digit segment number when there are several pieces of a swath for the same flyby. 
+Segment 01 is usually the main imaging segment.
+Other segments include turns from/to altimetry to/from SAR, and high altitude imaging (HiSAR; of lower resolution).
+</p>
+<p>
+nn = Two digit version number</p>
+<p>
+<a name=pgfId-5833>
+</a>
+<a name=pgfId-5799>
+</a>
+</p>
+<p>
+</p>
+<p>
+<a name=pgfId-5776>
+</a>
+The <u>
+BODP product ID</u>
+<b>
+xxxx_yy_Dzzz_[Pm_]Vnn</b>
+is defined as follows:</p>
+<p>
+<a name=pgfId-5832>
+</a>
+xxxx = The acronym for the data set LBDR, SBDR, or ABDR, or ABDR_SUMMARY for the ABDR-SUMMARY data set</p>
+<p>
+<a name=pgfId-5834>
+</a>
+yy = The radar mode of the data in the file represented as a two digit decimal integer between 00 and 15. This value represents a 4-bit binary flagging scheme</p>
+<p>
+<a name=pgfId-5835>
+</a>
+Bit 0 (LSB) = 1 means radiometer only mode data is present in the file.</p>
+<p>
+<a name=pgfId-5839>
+</a>
+Bit 1 = 1 means scatterometer mode data is present in the file</p>
+<p>
+<a name=pgfId-5840>
+</a>
+Bit 2 = 1 means altimeter mode data is present in the file.</p>
+<p>
+<a name=pgfId-5845>
+</a>
+Bit 3 = 1 means SAR mode data is present in the file.</p>
+<p>
+<a name=pgfId-6608>
+</a>
+It is important to note that scatterometer measurements are obtained in all modes except radiometer only, not just in scatterometer mode. Similarly, radiometer measurements are obtained in all modes without exception.</p>
+<p>
+<a name=pgfId-6600>
+</a>
+<a name=pgfId-5872>
+</a>
+zzz = 3 digit radar observation counter (data take number, DTN). One observation corresponds to a single up-linked radar command sequence. For example, a Titan fly-by is one observation.</p>
+<p>
+[Pm_] = an optional piece of the LBDR (only) identifier where m = 1 or 2 for the two parts of an LBDR that exceeds the 2&nbsp;GB file size limit.
+If the LBDR is less than 2&nbsp;GB so that only 1 file is needed, this part of the identifier is omitted. </p>
+<p>
+nn = 2 digit version number</p>
+<p>
+<a name=pgfId-5873>
+</a>
+</p>
+<p>
+The SARTopo product ID
+SARTOPO_TaaaSbb_Bcc_Vvv_ymmdd is defined as follows:</p>
+<p>
+aaa = Titan flyby number</p>
+<p>
+bb = SAR imaging segment numbers used to produce SARTopo.
+</p>
+<p>
+cc = Overlapping beam numbers used to produce SARTopo.</p>
+<p>
+e.g 12= overlap between beam 1 and 2. 24 is a special case in which the overlap between beams 2 and 3 and the overlaps between 3 and 4 were used together. </p>
+<p>
+vv = Version number always 01 up to and including first official SARTopo release</p>
+<p>
+to PDS.</p>
+<p>
+yymmdd = Year, Month, Day current version of SARTopo files was created.</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060034">
+</a>
+<a name="_Toc305059204">
+</a>
+<a name="_Toc305059098">
+</a>
+<a name="_Toc202787540">
+</a>
+<a name=pgfId-5874>
+</a>
+3.6
+CALIB Directory Contents
+<a name=pgfId-6260>
+</a>
+</h4>
+<p>
+The CALIB directory contains two subdirectories BEAMPAT and CONFIG. These directories contain ancillary information that specifies how the Cassini Radar data was calibrated and processed.
+The following table lists files located in the CALIB Directory.</p>
+<p>
+</p>
+<p align=center>
+<a name=pgfId-6295>
+</a>
+<b>
+Table 6:
+Contents of CALIB Directory
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td width=83>
+<p>
+<a name=pgfId-6263>
+</a>
+<a name=pgfId-6267>
+</a>
+<b>
+File Name
+</b>
+</p>
+</td>
+<td width=377>
+<p>
+<a name=pgfId-6269>
+</a>
+<b>
+File Contents
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=83>
+<p>
+<a name=pgfId-6271>
+</a>
+BEAMPAT </p>
+</td>
+<td width=377>
+<p align=left>
+<a name=pgfId-6273>
+</a>
+Directory containing antenna gain pattern files for each beam and documentation for those files.</p>
+</td>
+</tr>
+<tr>
+<td width=83>
+<p>
+<a name=pgfId-6277>
+</a>
+CONFIG</p>
+</td>
+<td width=377>
+<p align=left>
+<a name=pgfId-6279>
+</a>
+Directory containing processor configuration files and documentation for those files.</p>
+</td>
+</tr>
+</table>
+<p>
+<a name=pgfId-6258>
+</a>
+</p>
+<p>
+<a name=pgfId-5875>
+</a>
+<a name=pgfId-5891>
+</a>
+The BEAMPAT directory contains estimates of the antenna gain pattern for each of the five Cassini Radar beams. The beam pattern file name convention is<a name=pgfId-6750>
+</a>
+BEAMX_VNN.PAT, where X is a beam number between 1 and 5 and NN is a two-digit version number.</p>
+<p>
+<a name=pgfId-5877>
+</a>
+<a name=pgfId-6751>
+</a>
+The CONFIG directory contains a processor configuration file for each Cassini Radar observation. This file contains keyword and value pairs (Processor keywords are not PDS keywords.) which were used in running the ground processing software used to generate the BODP and BIDR files for that observation. Each processor configuration file is named &#34;PCF_zzzz_Vnn.CFG&#34; where zzzz is the four-digit radar observation counter and nn is a two-digit version number.</p>
+<p>
+<a name=pgfId-6744>
+</a>
+<a name=pgfId-6747>
+</a>
+Files in the BEAMPAT and CONFIG directories will not be needed by most users of Cassini Radar Instrument Team data. For those who desire to use them label files BEAMX_VNN.LBL and PCF_zzzz_Vnn.LBL are available as documentation in the appropriate directories.</p>
+<p>
+<a name=pgfId-6745>
+</a>
+</p>
+<h4>
+<a name="_Toc305060035">
+</a>
+<a name="_Toc305059205">
+</a>
+<a name="_Toc305059099">
+</a>
+<a name="_Toc202787541">
+</a>
+<a name=pgfId-6845>
+</a>
+3.7
+EXTRAS Directory Contents
+<a name=pgfId-5878>
+</a>
+</h4>
+<p>
+This directory contains files that do not belong anywhere else on the volume but are included to provide extra and perhaps convenient information. The contents of the directory may vary from volume to volume. It contains at least one file<a name=pgfId-6853>
+</a>
+, EXTRINFO.TXT, that describes the contents of the directory. Usually it also<a name=pgfId-6854>
+</a>
+contains a memo describing the command sequence design employed for the observation and a Cassini Radar Transition (CRT) file. Both of these files document the times of radar mode transitions.</p>
+<p>
+The memo is in Portable Document Format (PDF). The CRT file is an ASCII table suitable as an input for custom analysis software. The information provided by these files is also available in the SBDR, ABDR, and LBDR files themselves on a burst by burst (record by record) basis.</p>
+<p>
+<a name=pgfId-6860>
+</a>
+CRT file names are of the form CRT_zzz_Vnn.TAB where zzz is the three-digit radar observation counter, and nn is a two-digit version number.
+A small text file (TITAN_FLYBY_ID_TABLE.TXT) that relates the observation counter to the common Titan pass designations (T##) is included in volumes with SAR observations of Titan. </p>
+<p>
+<a name=pgfId-6861>
+</a>
+The CRT files consist of four tab-delimited columns of ASCII text. The first column is a UTC time tag in yyyy-doyThh:mm:ss.sss format. The second column is a two digit decimal integer denoting the type of transition. The third column is a 15-character (spaces are padded at the end) ASCII transition type tag. The fourth column is a 10-character unique record identification number. Rows are in temporal order.</p>
+<p>
+The following table maps transition type integers to tags. The tags denote the beginning and ending times of raster scans (scatterometer and radiometer modes only) as well as the ending and beginning times for each radar mode. For completeness, the end time of one mode and the beginning time of the next mode are both listed. Unless there is a gap between the two modes both times will be identical and will correspond to the starting time of the first burst in the second mode. Recall that each record in a BODP data file contains a UTC time tag. For a given mode or scan the UTC time tags of the bursts within that mode or scan are all greater than or equal (&gt;=) the starting time and less than or equal (&lt;=) the ending time in the CRT file. All bursts outside of the range are not included in that scan or mode. Record identification number on the other hand will be different for the two rows. The mode ending row will have the last record identification number for the old mode. The mode staring row will contain the first record identification number for the new mode. It is important to note that scatterometer data (i.e., normalized radar backscatter cross section) will be available during altimetry and SAR modes and that radiometer data will be available during all modes.</p>
+<p>
+</p>
+<p align=center>
+<b>
+Table 7:
+Transition Number Map for CRT Files
+</b>
+</p>
+<div align=center>
+<table border=1 cellpadding=0>
+<tr>
+<td width=99>
+<p>
+<a name=pgfId-6864>
+</a>
+<a name=pgfId-6868>
+</a>
+<b>
+Transition Tag
+</b>
+</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6870>
+</a>
+<b>
+Transition Number<a name=pgfId-6871>
+</a>
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6873>
+</a>
+ScanStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6875>
+</a>
+00</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6877>
+</a>
+ScanEnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6879>
+</a>
+01</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6881>
+</a>
+RadOnlyStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6883>
+</a>
+02</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6885>
+</a>
+RadOnlyEnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6887>
+</a>
+03</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6889>
+</a>
+ScatStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6891>
+</a>
+04</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6893>
+</a>
+ScatEnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6895>
+</a>
+05</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6897>
+</a>
+AltStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6899>
+</a>
+06</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6901>
+</a>
+AltEnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6903>
+</a>
+07</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6905>
+</a>
+LoResSARStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6907>
+</a>
+08</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6909>
+</a>
+LoResSAREnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6911>
+</a>
+09</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6913>
+</a>
+HiResSARStart</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6915>
+</a>
+10</p>
+</td>
+</tr>
+<tr>
+<td width=99>
+<p align=left>
+<a name=pgfId-6917>
+</a>
+HiResSAREnd</p>
+</td>
+<td width=106>
+<p>
+<a name=pgfId-6919>
+</a>
+11</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<a name=pgfId-6858>
+</a>
+</p>
+<p>
+<a name=pgfId-6855>
+</a>
+Geometrical data such as spacecraft position, velocity and attitude, are reported in the inertial target-centered J2000 coordinate frame as well as in a target body fixed (TBF) rotating frame. Measurement locations are reported in the TBF frame as planetodetic surface coordinates (latitude and longitude).
+The PDS Navigation and Ancillary Information Facility (NAIF) definitions are used for the frames.
+The TBF frame for each target is defined in the NAIF planetary kernel file (PCK) for the Saturnian system.
+This file will be updated during tour as Cassini observations improve knowledge of the states of bodies in the Saturnian system.
+In particular, the spin state of Titan has been updated based on an initial analysis of the Radar images (B.W.&nbsp;Stiles et al, 2008, Ref.&nbsp;16).
+In order to fully document the coordinates used, the PCK file used in the processing is included in the EXTRAS directory.
+As of this writing, the solution from Stiles et al is being used for data takes Ta through T30 for which it was fit, while a simpler long-term solution from NAIF is used for data takes after T30.
+</p>
+<p>
+For convenience, the set of angles used to transform coordinates from the inertial frame to the target body fixed (TBF) frame is also included in the BODP files (see Intermediate Data Segment, e.g., pole_right_ascension, pole_declination, target_rotation_rate, target_rotation_angle).</p>
+<p>
+</p>
+<p>
+</p>
+<h3>
+<a name="_Toc305060036">
+</a>
+<a name="_Toc305059206">
+</a>
+<a name="_Toc305059100">
+</a>
+<a name="_Toc202787542">
+</a>
+<a name=pgfId-6186>
+</a>
+4
+ARCHIVE VOLUME FORMAT
+<a name=pgfId-5282>
+</a>
+</h3>
+<p>
+This section describes the format of files contained in the Cassini Radar Instrument Team Archive Volumes. Data that comprise the Archive will be formatted in accordance with the Planetary Data System specifications [Planetary Science Data Dictionary, 1996; PDS Data Preparation Workbook, 1995; PDS Standards Reference 1995]. </p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060037">
+</a>
+<a name="_Toc305059207">
+</a>
+<a name="_Toc305059101">
+</a>
+<a name="_Toc202787543">
+</a>
+<a name=pgfId-4662>
+</a>
+4.1
+Document File Format
+<a name=pgfId-5299>
+</a>
+</h4>
+<p>
+Document files with the .TXT suffix exist in the Root, CALIB, CATALOG, DOCUMENT, EXTRAS, INDEX, and SOFTWARE directories. They are ASCII files with embedded PDS labels with line lengths that do not exceed 80 characters. Document files have variable-length lines with an end-of-line designator consisting of a carriage-return character followed by a line-feed character, thus allowing the files to be read by the MacOS, Microsoft Windows, and Unix operating systems.</p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060038">
+</a>
+<a name="_Toc305059208">
+</a>
+<a name="_Toc305059102">
+</a>
+<a name="_Toc202787544">
+</a>
+<a name=pgfId-4663>
+</a>
+4.2
+Tabular File Format
+</h4>
+<p>
+<a name=pgfId-5306>
+</a>
+A Tabular file (INDEX.TAB) exists in the INDEX directory. This file is an ASCII file formatted for direct reading into many database management systems on various computers. Commas separate all fields, and character fields are enclosed in double quotation marks (&#34;). Character fields are left justified and padded on the right with spaces to keep quotation marks in the same columns of successive records. Number fields are right justified and padded with spaces on the left to keep fixed-width fields. The records are of fixed length, and the last two bytes of each record contain the ASCII carriage-return and line-feed character. This allows a table to be treated as a fixed-length record file on computers that support this file type and as a text file with embedded line delimiters on those that don't.</p>
+<p>
+<a name=pgfId-5307>
+</a>
+<a name=pgfId-5308>
+</a>
+A detached PDS label describes INDEX.TAB. The PDS label file name is the same as the tabular file but with the extension &#34;.LBL&#34;.</p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060039">
+</a>
+<a name="_Toc305059209">
+</a>
+<a name="_Toc305059103">
+</a>
+<a name="_Toc202787545">
+</a>
+<a name=pgfId-5304>
+</a>
+<a name=pgfId-4664>
+</a>
+4.3
+PDS Label Format
+<a name=pgfId-5320>
+</a>
+</h4>
+<p>
+All data files in the Cassini Radar Instrument Team Archive Collection have PDS labels [Planetary Science Data Dictionary, 1996; PDS Standards Reference, 1995]. A PDS label, whether embedded or detached from its associated file, provides descriptive information about the associated file. The PDS label is an object-oriented structure consisting of sets of &#34;keyword = value'' declarations. The object to which the label refers (e.g. IMAGE, TABLE, etc.) denotes the form:</p>
+<p>
+<a name=pgfId-5321>
+</a>
+&nbsp;<a name=pgfId-5322>
+</a>
+</p>
+<p>
+<b>
+^object = location
+</b>
+</p>
+<p>
+<a name=pgfId-5323>
+</a>
+<a name=pgfId-5324>
+</a>
+in which the caret character (^, also called a pointer in this context) indicates where to find the object. In an embedded label, the location is an integer representing the starting record number of the object (the first record in the file is record 1). In a detached label, the location denotes the name of the file containing the object, along with the starting record or byte number, if there is more than one object in the file. For example:</p>
+<p>
+<a name=pgfId-5325>
+</a>
+</p>
+<p>
+<a name=pgfId-5326>
+</a>
+<b>
+^HEADER = (&#34;F01.IMG&#34;, 1)
+</b>
+</p>
+<p>
+<a name=pgfId-5327>
+</a>
+<b>
+^IMAGE = (&#34;F01.IMG&#34;, 1025 &lt;BYTES&gt;)
+</b>
+</p>
+<p>
+<a name=pgfId-5328>
+</a>
+<a name=pgfId-5329>
+</a>
+indicates that the IMAGE object begins at byte 1025 of the file F01.IMG, in the same directory as the detached label file. Below is a list of the possible formats for the ^object definition.</p>
+<p>
+<a name=pgfId-5330>
+</a>
+</p>
+<p>
+<a name=pgfId-5331>
+</a>
+<b>
+^object = n
+</b>
+</p>
+<p>
+<a name=pgfId-5332>
+</a>
+<b>
+^object = n&lt;BYTES&gt;
+</b>
+</p>
+<p>
+<a name=pgfId-5333>
+</a>
+<b>
+^object = &#34;filename.ext&#34;
+</b>
+</p>
+<p>
+<a name=pgfId-5334>
+</a>
+<b>
+^object = (&#34;filename.ext&#34;, n)
+</b>
+</p>
+<p>
+<a name=pgfId-5335>
+</a>
+<b>
+^object = (&#34;[dirlist]filename.ext&#34;, n)
+</b>
+</p>
+<p>
+<a name=pgfId-5336>
+</a>
+<b>
+^object = (&#34;filename.ext&#34;, n&lt;BYTES&gt;)
+</b>
+</p>
+<p>
+<a name=pgfId-5337>
+</a>
+<b>
+^object = (&#34;[dirlist]filename.ext&#34;, n&lt;BYTES&gt;)
+</b>
+</p>
+<p>
+<a name=pgfId-5338>
+</a>
+<a name=pgfId-5339>
+</a>
+where: </p>
+<p>
+<a name=pgfId-5444>
+</a>
+n is the starting record or byte number of the object, counting from the beginning of the file (record 1, byte 1); </p>
+<p>
+<a name=pgfId-5341>
+</a>
+&lt;BYTES&gt; indicates that the number given is in units of bytes; </p>
+<p>
+<a name=pgfId-5342>
+</a>
+filename is the up to 24-character, alphanumeric upper-case file name, ext is the 3 character upper-case file extension; </p>
+<p>
+<a name=pgfId-5343>
+</a>
+[dirlist] is a period-delimited path-list of parent directories, in upper case, that specifies the object file directory (used only when the object is not in the same directory as the label file). The list begins at the directory level below the root directory of the CD-ROM.
+[dirlist] may be omitted when the object being described is located in the same directory as the detached label. </p>
+<p>
+<a name=pgfId-5345>
+</a>
+Detached label files have variable-length lines with an end-of-line designator consisting of a carriage-return character followed by a line-feed character. This allows the files to be read by the MacOS, Microsoft Windows, and Unix operating Systems.</p>
+<p>
+<a name=pgfId-5346>
+</a>
+<a name=pgfId-5318>
+</a>
+</p>
+<h4>
+<a name="_Toc305060040">
+</a>
+<a name="_Toc305059210">
+</a>
+<a name="_Toc305059104">
+</a>
+<a name="_Toc202787546">
+</a>
+<a name=pgfId-4665>
+</a>
+4.4
+Catalog File Format
+<a name=pgfId-5360>
+</a>
+</h4>
+<p>
+Catalog files (with suffix .CAT) exist in the Root and CATALOG directories. They are formatted in an object-oriented structure consisting of sets of &#34;keyword = value&#34; declarations. </p>
+<p>
+</p>
+<h4>
+<a name="_Toc305060041">
+</a>
+<a name="_Toc305059211">
+</a>
+<a name="_Toc305059105">
+</a>
+<a name="_Toc202787547">
+</a>
+<a name=pgfId-4666>
+</a>
+4.5
+Science Data File Format
+<a name=pgfId-5365>
+</a>
+</h4>
+<p>
+The Cassini SBDR, LBDR, and ABDR BODP science data files are formatted using the &#34;table object&#34; structure of the PDS standards. Each row of the table consists of a data record comprising radar and ancillary data for a single burst. Rows occur in time order. A column represents a particular data field with a specific meaning and data type (i.e. integer, real, etc.). Real values are either 32-bit or 64-bit IEEE floating-point values with little endian byte order (PC_REAL). The Cassini ABDR-SUMMARY science data files are formatted using the &#34;spreadsheet object&#34; PDS structure. Each record in the file corresponds to a burst in the corresponding ABDR science data file and contains a set of parameters derived for that burst. As for the other BODP products, rows occur in time order. Each field in a record represents a particular parameter with a specific meaning and data type. For more information about the format and content of the BODP files, see the Cassini Radar Burst Ordered Data Product SIS, JPL D-27891.</p>
+<p>
+<a name=pgfId-5846>
+</a>
+The Cassini BIDR science data files are formatted using the &#34;image object&#34; structure of the PDS standards. The size and coordinate system of the image is defined in the attached PDS label. Images pixels may have several different meanings and data types. The SARTopo science data files are also formatted using the "spreadsheet object" PDS structure. Each record in the file pertains to a single SARTopo height measurement. For more information about the format and content of the BIDR and SARTopo files, see the Cassini Radar Basic Image Data Record SIS, JPL D-27889.<a name=pgfId-2982>
+</a>
+</p>
+<p>
+</p>
+</div>
+</body>
+</html>

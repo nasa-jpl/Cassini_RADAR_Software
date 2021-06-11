@@ -1,0 +1,21 @@
+PDS_VERSION_ID          = PDS3
+RECORD_TYPE             = STREAM
+LABEL_REVISION_NOTE     = "2011-07-01 Amy Culver, IMG, Initial submission."
+
+OBJECT                  = TARGET
+  TARGET_NAME           = "HYROKKIN"
+
+  OBJECT                = TARGET_INFORMATION
+    TARGET_TYPE         = "SATELLITE"
+    PRIMARY_BODY_NAME   = "SATURN"
+    ORBIT_DIRECTION     = "RETROGRADE"
+    ROTATION_DIRECTION  = "UNK"
+    TARGET_DESC         = "
+      Hyrokkin (provisional designation S/2004 S19).
+
+      Hyrokkin has a mean radius of 3 kilometers, and orbits Saturn 
+      at a mean distance of 18.4 million kilometers."
+
+  END_OBJECT            = TARGET_INFORMATION
+END_OBJECT              = TARGET
+END

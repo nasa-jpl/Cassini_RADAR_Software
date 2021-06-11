@@ -1,0 +1,22 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-14 John Diehl, Imaging Node, Initial template submission."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "SKADI"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "UNK"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        A moon of Saturn was discovered in 2000.
+        Estimated diameter: 6.4 Kilometers (4 miles)."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END
+

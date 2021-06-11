@@ -1,0 +1,2336 @@
+PDS_VERSION_ID                    = PDS3
+RECORD_TYPE                       = STREAM
+LABEL_REVISION_NOTE               = "
+          2003-02-20 CASSINI: conner  Revision 1;
+          2003-03-06 PDS/RS:  simpson Revision 2;
+          2003-03-18 CASSINI: conner  Revision 3;
+          2003-03-20 PDS/RS:  simpson Revision 4;
+          2003-03-21 CASSINI  conner  Revision 5;
+          2003-03-24 CASSINI  conner  Revision 6;
+          2003-04-21 CASSINI  conner  Revision 7;
+          2003-06-23 CASSINI  conner  Revision 8
+          2003-07-01 PDS/CN:  S.L. Adams, formatted for ingestion from WORD
+                                          to ASCII of 'Revision 8' supplied
+                                          by Diane Conner.
+          2003-07-14 CASSINI  conner, corrected spelling errors.
+          2003-09-22 CASSINI  conner, added Solar System target.
+          2003-10-03 CASSINI  conner, removed extra spaces at beg of line.
+          2003-10-16 CASSINI  conner, changed to SOLAR_SYSTEM.
+          2004-03-08 CASSINI  conner, replaced bad ref to 699-004.
+          2009-04-15 CASSINI  martinez, updated to include XM and XXM
+                                        information; TBS's to filled in as
+                                        details become known.
+          2009-06-15 PDS/NAIF semenov removed double quotes and non-printing
+                                      characters from mission description;
+                                      re-wrapped new paragraphs to comply
+                                      with line length requirements.
+          2009-11-15 CASSINI  martinez Added XXM sequence info and details
+                                       on XXM targets.
+          2009-12-07 CASSINI  martinez, replaced double quotes with single
+                                        quotes.
+          2010-03-15 CASSINI  chatterjee, added XXM Sequence Boundaries and
+                                      Satellite Encounters from the MP
+                                      091005_EventsTable_091207a.xls file.
+          2011-04-29 CASSINI  chatterjee, updated list of targets per
+                                      R. Chen and A. Culver. Fixed spelling
+                                      BESTLA, SKATHI; new: TARVOS, YMIR;
+                                      modified to ref other cat entries
+                                      referring to same body: ALBIORIX,
+                                      ERRIAPUS, KIVIUQ, PAALIAQ, SIARNAQ.
+          2011-07-05 CASSINI  chatterjee, added HYROKKIN to the target list.
+          2011-07-06 CASSINI  chatterjee, corrected misplaced double quote.
+          2011-09-22 CASSINI  chatterjee, added missing carriage return,
+                                      line 40, updated targets per A. Culver
+                                      and R. Chen.
+          2013-03-21 PDS/ATM  beebe,  updated Solstice (XXM) tables and did
+                                      minor edits.
+          2013-03-26 CASSINI  chatterjee, added new target SURTUR.
+          2013-06-07 CASSINI  chatterjee, updated Prime, Equinox and Solstice
+                                      mission tables based on reconstructed
+                                      spacecraft trajectories.
+          2013-06-19 CASSINI  chatterjee, added NARVI to target list"
+
+
+OBJECT                            = MISSION
+  MISSION_NAME                    = "CASSINI-HUYGENS"
+
+  OBJECT                          = MISSION_INFORMATION
+    MISSION_START_DATE            = 1997-10-15
+    MISSION_STOP_DATE             = NULL
+    MISSION_ALIAS_NAME            = { "CASSINI", "HUYGENS" }
+    MISSION_DESC                  = "
+
+The majority of the text in this file was extracted from the Cassini
+Mission Plan Document, D. Seal, 2003. [JPL D-5564]
+
+The Cassini spacecraft, including the Huygens Probe, was launched on 15
+October 1997 using a Titan IV/B launch vehicle with Solid Rocket Motor
+Upgrade (SRMU) strap-ons and a Centaur upper stage.  The spacecraft used a
+6.7-year Venus-Venus-Earth-Jupiter Gravity Assist (VVEJGA) trajectory to
+Saturn, during which cruise observations were conducted to check out,
+calibrate, and maintain the instruments as well as to perform limited
+science.  After Saturn Orbit Insertion (SOI) (1 July 2004), the Huygens
+Probe separated and, on the third encounter with Titan, entered the
+satellite's atmosphere to make in situ measurements during an approximately
+150 minute descent (14 January 2005).  The Orbiter continued a tour of the
+Saturn system collecting data on the planet and its satellites, rings,
+and environment.
+
+After a highly successful Saturn Orbit Insertion (SOI) in June of 2004
+and Huygens Probe descent to the surface of Titan in January of 2005,
+Cassini went on to complete its four-year tour of Saturn, its rings,
+satellites, and magnetosphere via 75 orbits about Saturn, 45 close
+Titan flybys, 4 Enceladus flybys, and 9 close flybys of other icy
+satellites along with dozens of Saturn, rings, and Titan radio and
+Solar occultations. At the end of the very successful prime mission all
+instruments and major spacecraft systems were healthy. Due to the
+highly successful execution of the prime mission, the vast quantity of
+new discoveries and overall quality of science being returned by the
+Cassini spacecraft, and the estimated propellant remaining at the
+conclusion of the prime mission, NASA Headquarters allocated funding
+for the development of a 2-year Cassini extended mission.
+
+At the conclusion of the prime mission tour phase on 30 June 2008,
+Cassini initiated a two-year extended mission named the Equinox Mission
+(EM) to be completed on 30 September 2010.  This mission featured
+an additional 28 Titan flybys, twelve close icy satellite flybys, and
+64 orbits of Saturn. The orbit inclination moved from over 70
+degrees at the start of the Equinox mission down to 0 degrees in a
+little over a year, then back up to 20 degrees in Jan 2010, and down
+again in July 2010.  There were eight Enceladus flybys along with single
+flybys of Rhea, Mimas, Dione, and Helene.  The Enceladus flybys were
+designed to provide close flybys to allow the best views of the plume
+expulsions near the South Polar area.  In addition, there were 22
+non-targeted, distant flybys of icy satellites.  Titan flybys continued
+to map the surface of Titan.  The scientific intensity and priority of
+this phase, as judged by the project and by HQ, was of the same level as
+that of the prime mission.
+
+The second extended mission, temporarily called the Extended-
+extended mission (XXM) or also the Solstice Mission (SM), was designed
+as a seven-year mission.  Conditional approval, based on the results of
+senior reviews, was granted. It began on 30 September 2010 and will end
+on 15 September 2017. The SM features 54 Titan flybys, 23 close icy
+satellite flybys (which include 11 Enceladus flybys), and 156 orbits of
+Saturn.  The mission will continue to explore the features of the
+Saturnian system such as the rings, the magnetosphere, and the icy
+satellites, address new questions raised by Cassini's Prime and Equinox
+missions, as well as observing seasonal change in the Saturnian system.
+
+The Cassini Orbiter (CO) is a three-axis stabilized spacecraft equipped
+with one high gain antenna (HGA) and two low gain antennas (LGAs), three
+Radioisotope Thermoelectric Generators (RTGs) for power, main engines,
+attitude thrusters, and reaction wheels.  It carries twelve orbiter
+instruments designed to carry out 27 diverse science investigations.  The
+Huygens Probe (HP) was equipped with six instruments designed to study the
+atmosphere and surface of Titan.  It entered the upper atmosphere protected
+by a heat shield, then deployed parachutes to descend slowly to the surface
+from an altitude of about 200 km.  The instruments, with acronym and
+Principal Investigator (PI) or Team Leader (TL), are summarized below:
+
+Instrument                              Acronym  PI/TL
+-----------------------------------------------  ------------
+Orbiter:
+Cassini Plasma Spectrometer               CAPS   Young
+Cosmic Dust Analyzer                      CDA    Srama
+Composite Infrared Spectrometer           CIRS   Flasar
+Ion and Neutral Mass Spectrometer         INMS   Waite
+Imaging Science Subsystem                 ISS    Porco
+Magnetometer                              MAG    Dougherty
+Magnetospheric Imaging Instrument         MIMI   Krimigis
+Cassini Radar                             RADAR  Elachi
+Radio and Plasma Wave Science             RPWS   Gurnett
+Radio Science Subsystem                   RSS    French
+Ultraviolet Imaging Spectrograph          UVIS   Esposito
+Visible and Infrared Mapping Spectrometer VIMS   Brown
+
+Probe:
+Aerosol Collector and Pyrolyser           ACP    Israel
+Descent Imager Spectral Radiometer        DISR   Tomasko
+Doppler Wind Experiment                   DWE    Bird
+Gas Chromatograph Mass Spectrometer       GCMS   Niemann
+Huygens Atmospheric Structure Instrument  HASI   Fulchignoni
+Surface Science Package                   SSP    Zarnecki
+
+    Mission Phases
+    ==============
+
+LAUNCH 1997-10-15 to 1997-10-17
+       1997-288   to 1997-290
+------
+
+Cassini successfully lifted-off from the Cape Canaveral Air Station complex
+40 on 15 October 1997 at 08:55 UTC. The solid rocket motors burned from
+liftoff to separation at 2 min 23 sec at an altitude of 68,300 m. Stage 1
+ignition began at 2 min 11 sec at an altitude of 58,500 m, and Stage 2
+ignition (and Stage 1 separation) occurred at 5 min 23 sec after liftoff at
+167,300 m. During the first three minutes and 27 seconds of flight, the
+payload fairing shrouded the spacecraft, protecting it from direct solar
+illumination.
+
+The Centaur upper stage separated from the launch vehicle at 9 min 13 sec
+at 206,700 m. The first Centaur burn began at 9 min 13 sec and lasted
+approximately two minutes. This burn placed the Cassini spacecraft into an
+elliptical, 170 km by 445 km parking orbit with an inclination of about 30
+degrees. After 17 minutes in the parking orbit, the Centaur fired again and
+launched Cassini toward Venus en route to Saturn. The injection C3 was 16.6
+km^2/s^2.
+
+Immediately after separation from the Centaur, the spacecraft's
+Attitude and Articulation Control Subsystem (AACS) pointed the HGA toward
+the Sun to achieve a thermally safe attitude in which the HGA served as an
+umbrella for the remainder of the spacecraft. X-band uplink and downlink
+was established through the LGAs, the Radio and Plasma Wave Science (RPWS)
+Langmuir Probe was deployed, instrument replacement heaters and main engine
+oxidizer valve heaters were turned on, and the Stellar Reference Unit
+(SRU), Imaging Science Subsystem (ISS), and Visible and Infrared Mapping
+Spectrometer (VIMS) decontaminations were started.
+
+TCM 1  1997-10-18 to 1997-11-14
+       1997-291   to 1997-318
+-----
+
+The Trajectory Correction Maneuver 1 (TCM 1) phase comprised four one-week
+sequences. During most of the TCM 1 phase, the spacecraft was in a
+relatively quiescent state with the HGA pointed toward the Sun. Telemetry
+downlinked by the spacecraft was utilized to make an initial
+characterization of the spacecraft and to assess whether its various
+subsystems survived the launch. Deployment, decontamination, tank heating,
+and AACS checkout activities were started.
+
+Before the maneuver itself, the fuel and oxidizer tanks were heated in
+order to avoid an irreversible overpressure in the propellant lines.  If
+the tanks fully pressurized before the spacecraft passed through the peak
+temperature regime, then (when the spacecraft did enter the maximum thermal
+environment) the tank pressure would climb without there being a way to
+bring it back down, possibly causing an overpressure.
+
+TCM 1 was an Earth injection clean-up maneuver placed at 25 days after
+launch. TCM 1 was executed using the main engine with a delta-V magnitude
+of 2.8 m/s. The burn sequence included holding the spacecraft off-Sun after
+burn completion to allow the spacecraft heating to be characterized in a
+relatively benign environment.
+
+INTERPLANETARY CRUISE     1997-11-14 to 1999-11-07
+                          1997-318   to 1999-311
+---------------------
+
+The Interplanetary Cruise Phase extended from 14 November 1997 to 7
+November 1999.  It consisted of three subphases:  Venus 1 Cruise,
+Instrument Checkout 1, and Venus 2 - Earth Cruise. During most of this
+phase, Cassini's proximity to the Sun constrained the spacecraft to remain
+Sun-pointed, and communications were conducted using the Low Gain Antennas.
+The downlink capability of the LGAs at large spacecraft-Earth ranges was
+very limited.  Between 30 and 150 days after launch, for example, the
+downlink data rate decreased from 948 to 20 bps.
+
+Beginning on 28 December 1998, the spacecraft approached opposition and the
+HGA could be pointed towards Earth for a period of 25 days while the Probe
+equipment temperature remained within the required range. This provided a
+high data rate window during which checkout activities could be
+accomplished.
+
+      VENUS 1 CRUISE      1997-11-14 to 1998-09-13
+                          1997-318   to 1998-256
+      --------------
+
+The Venus 1 Cruise subphase started on 14 November 1997 and continued
+through 13 September 1998. The subphase encompassed sequences C5 through C9
+and included two TCMs, one planetary swingby, and three switches between
+LGA1 and LGA2. Most of the period was dedicated to engineering and
+instrument maintenance activities.
+
+         VENUS 1 ENCOUNTER   1998-04-26
+                             1998-116
+
+The first Venus encounter occurred on 26 April 1998.  The spacecraft
+approached Venus from a sunward direction, and closest approach occurred
+just after the spacecraft entered the Sun's shadow for a period of about 15
+minutes. At closest approach, the altitude was 284 km, with a velocity
+relative to Venus of 11.8 km/s. The spacecraft was occulted from Earth for
+about 2 hours. The Earth occultation zone started about 15 minutes after
+the spacecraft left the Sun occultation zone. Accuracy for the Venus flyby
+was assured by using two TCMs (Trajectory Correction Maneuvers), 60 and 20
+days before closest approach, and a clean-up maneuver 20 days after the
+flyby.
+
+     INSTRUMENT CHECKOUT 1    1998-09-14 to 1999-03-14
+                              1998-257   to 1999-073
+     ---------------------
+
+The Instrument Checkout 1 subphase (ICO-1) started on 14 September 1998,
+continued through 14 March 1999, and consisted of sequences C10-C13. This
+subphase was characterized by the opposition that occurred on 9 January
+1999, which allowed use of the HGA for downlink since the Earth and Sun
+were nearly aligned as seen from Cassini.
+
+All instruments scheduled checkout activities within the 25 day period
+centered on opposition. This was the first opportunity since launch to
+exercise and check the status of most instruments outside of routine
+maintenance. The 'Quiet Test', for example, allowed each instrument to
+monitor other instruments as they turned on and off and provided valuable
+insight into how to integrate science observations during the Saturn tour.
+
+During instrument checkout activities, the spacecraft autonomously went
+into a safe state. Accumulating star position errors from the slow turn
+required to keep the Sun on the -x-axis triggered AACS fault protection.
+Most of the instrument checkout activities were rescheduled after a 10 day
+safing period. Those that were not completed were rescheduled for the ICO-2
+subphase during Outer Cruise.
+
+     VENUS 2 - EARTH CRUISE      1999-03-15 to 1999-11-07
+                                 1999-074   to 1999-311
+     ----------------------
+
+The Venus 2 - Earth Cruise subphase started on 15 March 1999, 45 days prior
+to the second Venus flyby, and continued through 7 November 1999, which was
+82 days after the Earth flyby. The subphase encompassed sequences C13
+through C16, and included seven scheduled TCMs, two planetary swingbys, and
+25 science activities in addition to normal engineering activities. Science
+activities included maintenance, calibration, checkout, and science
+observations using all of the Cassini instruments except INMS and CIRS.
+
+         VENUS 2 ENCOUNTER    1999-06-24
+                              1999-175
+
+TCM-7 was executed 37 days before the Venus 2 Encounter. TCM-8 was
+scheduled 21 days prior to Venus 2, but it was canceled. DSN (Deep Space
+Network) coverage increased from one to three passes per day in support of
+the flyby.
+
+         EARTH ENCOUNTER      1999-08-18
+                              1999-230
+
+The Earth flyby occurred 55 days after the Venus 2 flyby. The spacecraft
+approached the Earth from approximately the direction of the Sun. Closest
+approach occurred right after the spacecraft entered the Sun occultation
+zone. The occultation lasted approximately 30 minutes. The altitude at
+closest approach was 1175 km, with an Earth-relative velocity of 19.0 km/s.
+Trajectory correction maneuvers took place 43, 30, 15 and 6.5 days before
+closest approach, and a clean-up maneuver was executed 13 days after the
+flyby. Continuous DSN coverage began at the Venus 2 flyby and continued
+through the Earth flyby. A week after the Earth Encounter, DSN coverage
+dropped to one pass every two days.
+
+Five instruments conducted observations as Cassini passed through the
+Earth's magnetotail.
+
+OUTER CRUISE  1999-11-08 to 2002-07-07
+              1999-312   to 2002-188
+------------
+
+The Outer Cruise Phase consisted of four subphases: HGA Transition,
+Instrument Checkout 2, Jupiter Cruise, and Quiet Cruise. The Outer Cruise
+phase extended from 8 November 1999 (when the spacecraft reached a Sun
+range of 2.7 AU) to 7 July 2002 (about two years before Saturn Orbit
+Insertion). At 2.7 AU (1 February 2000), the HGA began continuous Earth-
+pointing. The one planetary encounter in this phase was the flyby of
+Jupiter in December 2000. Science at Jupiter was an opportunity to test
+Saturn observation strategies with HGA data rates.
+
+     HIGH GAIN ANTENNA TRANSITION  1999-11-08 to 2000-05-06
+                                   1999-312   to 2000-127
+     ----------------------------
+
+This subphase included sequences C17 to C19, operation of ISS and VIMS
+decontamination heaters, CDA dust calibrations, and Magnetosphere and
+Plasma Science (MAPS) observations after the HGA was pointed toward Earth.
+
+During the initial part of the subphase (C17 and part of C18),
+telecommunications were via LGA1, and the spacecraft was at the farthest
+distance from Earth before transitioning to the HGA for regular use.
+Therefore, data rates were very low and activities were kept to a minimum.
+C17 included standard maintenance and one Periodic Engineering Maintenance
+(PEM) activity. Activities during the LGA1 portion of C18 included a
+Periodic Instrument Maintenance (PIM); observations by ISS, VIMS, and UVIS
+of the asteroid Masursky near closest approach (1,634,000 km); and ISS dark
+frame calibration images directly following the Masursky observations.
+
+The HGA was turned toward Earth for regular use on 1 February 2000, during
+C18. Several activities took place during the rest of C18, using the
+greater telemetry capabilities available with the HGA:  playback of the
+Masursky data and ISS dark frames, a Probe checkout, a Huygens Probe S-band
+Relay to Cassini Test, a Telemetry-Ranging Interference Test, MAG
+calibrations, and a PEM. Regular MAPS observations by CAPS, CDA, MAG, MIMI,
+and RPWS began within a few days after transitioning to the HGA.
+
+The first 6 weeks of C19 were used for a checkout of new Flight Software.
+The AACS version A7 software was uploaded near the beginning of this
+period, and the first 2 weeks were devoted to AACS tests. The next 4 weeks
+were originally scheduled for CDS tests of version V7.0. However, these
+tests were delayed to late July and August of 2000 to allow time for
+additional regression testing. During the AACS checkout period, MAPS
+activity ceased. Several activities took place during the last 3 weeks of
+C19: resumption of MAPS observations, three RSS activities (HGA pattern
+calibration, HGA boresight calibration, and USO characterization), CIRS
+Cooler Cover release, and a PIM.
+
+A few days before the end of C19, the command loss timer setting was
+increased slightly, to account for the 10-day period at the beginning of
+C20 during which superior conjunction made commanding problematic.
+
+     INSTRUMENT CHECKOUT 2   2000-05-06 to 2000-11-05
+                             2000-127   to 2000-310
+     ---------------------
+
+The second instrument checkout subphase (ICO-2) was scheduled from 6 May
+2000 to 5 November of 2000, after the Spacecraft Office had completed its
+engineering checkout activities. ICO-2 included instrument checkout that
+required reaction wheel stability and any instrument checkouts that were
+not successfully completed during ICO-1. But the CDS Flight Software V7
+uplink and checkout, which was delayed from March, was rescheduled to late
+July through early September 2000, causing many ICO-2 activities to be
+compressed into a shorter and more intense period. Some activities were
+postponed until after the Jupiter observations were completed in 2001.
+
+The subphase began with a superior conjunction, which precluded early
+science or engineering activities. MAPS instruments remained on; but data
+return was not attempted during conjunction. Two TCMs were scheduled for
+Jupiter targeting, in June and September.
+
+Engineering activities included the continuous use of reaction wheels and,
+beginning on 1 October 2000, dual Solid State Recorders (SSRs). There were
+no scheduled instrument PIMs during ICO-2 since all instruments had other
+activities that accomplished this function. Other engineering activities
+included two Reaction Wheel Assembly (RWA) friction tests, two PEMs, and an
+SRU calibration.
+
+Science activities began with the MAPS instruments continuing from C19. New
+flight software was loaded for eight instruments in late May, and a CDA
+software update was done in September. New Quiet Tests, while operating on
+reaction wheels, were done in July for most instruments. RSS Quiet Tests
+were done in September, and RADAR related tests were done in late June. A
+Probe checkout occurred in late July.
+
+Spacecraft turns were done for RADAR observations of the Sun and Jupiter in
+June and again in September. The star Alpha Piscis Austrinus (Fomalhaut)
+was also observed in September by VIMS with ISS and UVIS doing ride-along
+science. No other science turns were scheduled until October. On 1 October,
+science began using a repeating 5-day template to gather Jupiter science.
+This involved 11 turns in a 5 day period, including two downlinks. The
+turns in the 5-day template involved 4 orientations:
+
+     Orbiter Remote Science (ORS) boresights to Jupiter,
+       Z axis parallel to ecliptic
+     HGA to Sun, rolling about Z axis
+     Probe to Sun, rotating about X axis
+     HGA to Earth, Probe offset from Sun for CDA, not
+        rotating, downlink orientation
+
+     JUPITER CRUISE          2000-11-05 to 2001-04-30
+                             2000-310   to 2001-120
+     --------------
+
+The Jupiter Cruise subphase extended from 6 November 2000 to 29 April 2001
+and included sequences C23 to C25. However Jupiter remote sensing
+observations actually began on 1 October 2000, in C22.
+
+         JUPITER ENCOUNTER   2000-12-30
+                             2000-365
+
+The Jupiter flyby occurred on 30 December 2000 at an altitude of 9.7
+million km. This gravity assist rotated the trajectory 12 deg and increased
+the heliocentric velocity by 2 km/s. The Jupiter relative speed at closest
+approach was 11.6 km/s. At closest approach, Jupiter filled the Narrow
+Angle Camera (NAC) field of view. Extensive Jupiter science was performed
+which required additional DSN support: up to two passes every five days,
+and a maximum of one pass every 30 hours in the 10 days on either side of
+closest approach. Science at Jupiter was an opportunity to test how to
+build and execute viable Saturn sequences.
+
+A problem with the Reaction Wheel Assembly occurred on 16 December 2000.
+Increased friction on one of the wheels caused the spacecraft to switch
+autonomously to the Reaction Control Subsystem (RCS) for attitude control.
+With the switch to RCS, hydrazine usage increased. Two of four joint
+CAPS-Hubble Space Telescope observations, a Jupiter North-South map,
+the Himalia 'flyby', and a UVIS torus observation were all executed on RCS
+before the sequence was terminated on 19 December 2000. MAPS data continued
+to be recorded at a reduced rate. All other planned science activities
+were suspended.  After tests, RWA operation was resumed for attitude control
+on 22 December, with the wheels biased away from low RPM regions.
+The sequence was restarted on 29 December.
+
+     QUIET CRUISE            2001-04-30 to 2002-07-08
+                             2001-120   to 2002-189
+     ------------
+
+Quiet Cruise was a 14 month subphase that started at the end of Jupiter
+Cruise and ended two years before SOI. During this subphase, routine
+maintenance, engineering, and navigation functions were carried out. One
+Gravitational Wave Experiment (GWE) was conducted in December 2001, and one
+Solar Conjunction Experiment (SCE) was conducted in June 2002.
+
+SCIENCE CRUISE 2002-07-08 to 2004-06-10
+               2002-189   to 2004-162
+--------------
+
+     SPACE SCIENCE     2002-07-08 to 2004-01-11
+                       2002-189   to 2004-011
+
+The Space Science subphase began on 8 July 2002 and ran through 11 January
+2004. TCMs 18 and 19, two GWEs (December 2002 and December 2003) and one
+SCE (June-July 2003) were conducted.
+
+     APPROACH SCIENCE  2004-01-12 to 2004-06-10
+                       2004-012   to 2004-162
+
+The Approach Science subphase began six months before SOI and ended three
+weeks before SOI, when the spacecraft was approaching Saturn at a rate of 5
+kilometers per second. Most of the activities during the Approach Science
+subphase were Saturn science observations and preparation for the Phoebe
+flyby, SOI, and Tour operations.
+
+The reaction wheels were turned on at the beginning of the subphase to
+provide a more stable viewing platform. By this point, the imaging
+instruments had begun atmospheric imaging, and making long-term atmospheric
+movies. CIRS began long integrations of Saturn's disk. At SOI - 4 months,
+Saturn filled one third of the NAC field of view and one half of the CIRS
+Far Infrared (FIR) field of view.
+
+The Saturn approach was made toward the morning terminator at a phase angle
+of about 75 degrees; VIMS gathered data on the temperature difference
+across the terminator. UVIS scans of the Saturn System began 3-4 months
+before SOI. Fields, particles, and waves instruments collected solar wind
+information and recorded Saturn emissions as the spacecraft neared the
+planet. Science data gathered during this period was stored on the SSR and
+transmitted back to Earth. Daily DSN tracking coverage began 90 days before
+SOI.
+
+The Phoebe approach TCM took place on 27 May 2004, 15 days before Phoebe
+closest approach.
+
+
+TOUR PRE-HUYGENS  2004-06-11 to 2004-12-24
+                  2004-163   to 2004-359
+----------------
+
+The Tour Pre-Huygens Phase extended from the Phoebe Encounter through
+Saturn Orbit Insertion to separation of the Huygens Probe from the Cassini
+Orbiter.
+
+     PHOEBE ENCOUNTER         2004-06-11
+                              2004-163
+
+The flyby of Phoebe occurred on 11 June 2004, 19 days before SOI.  At
+closest approach (19:33 UTC) the spacecraft was 2000 km above the surface.
+
+     SATURN ORBIT INSERTION   2004-07-01
+                              2004-183
+
+During Saturn Orbit Insertion (SOI) on 1 July 2004, the spacecraft made its
+closest approach to the planet's surface during the entire mission at an
+altitude of only 0.3 Saturn radii (18,000 km).  Due to this unique
+opportunity, the approximately 95-minute SOI burn (633 m/s total delta-V),
+required to place Cassini in orbit around Saturn, was executed earlier than
+its optimal point centered around periapsis, and instead ended near
+periapsis, allowing science observations immediately after burn completion.
+The SOI maneuver placed the spacecraft in an initial orbit with a periapsis
+radius of 1.3 Rs, a period of 148 days, and an inclination of 16.8 degrees.
+
+After the burn, the spacecraft was turned to allow the ORS instruments to
+view the Saturn inner rings that were not in shadow. After periapsis, the
+trajectory just grazed the occultation zones behind the planet with the
+Earth and Sun being occulted by Saturn.  After communication with Earth was
+re-established, the spacecraft remained on Earth pointed for nine hours to
+play back engineering and science data and to give ground personnel time to
+evaluate the spacecraft status.
+
+After SOI a pair of cleanup maneuvers was used to correct for errors in the
+SOI burn. The first was immediately before superior conjunction, at SOI + 3
+days, and the second was after conjunction at SOI + 16 days.
+
+Probe checkouts were scheduled at SOI + 14 days, Probe Release Maneuver
+(PRM) + 4 days, and ten days before separation.
+
+The partial orbit between SOI and the first apoapsis was designated orbit
+0.  The next three orbits were designated a, b, and c.
+
+     TITAN A ENCOUNTER        2004-10-26
+                              2004-300
+
+     TITAN B ENCOUNTER        2004-12-13
+                              2004-348
+
+
+HUYGENS DESCENT  2004-12-24 to 2005-01-14
+                 2004-359   to 2005-014
+---------------
+
+     HUYGENS PROBE SEPARATION 2004-12-24
+                              2004-359
+
+The probe was released from the Orbiter on 24 December 2004, 11 days after
+the second Titan flyby (orbit b).  Two days after the Probe was released,
+the Orbiter executed a deflection maneuver to place itself on the proper
+trajectory for the third encounter.
+
+
+     TITAN C HUYGENS          2005-01-14
+                              2005-014
+
+During the third flyby (orbit c), on 14 January 2005, the Huygens Probe
+transmitted data to the orbiter for approximately 150 minutes during its
+descent through the atmosphere to the surface.
+
+Because the Orbiter was looking at Titan through most of the corresponding
+Goldstone tracking pass, DSN support on this day was primarily through the
+70-meter antennas at the Canberra and Madrid tracking complexes. While
+approaching Titan, the Orbiter made its last downlink transmission (to the
+Madrid station, DSS 63) before switching to Probe relay mode. The Orbiter
+then turned nearly 180 degrees to point its HGA at the predicted Probe
+impact point, and the Probe Support Avionics (PSA) were configured to
+receive data from the Probe. Some Orbiter instruments were put into a low
+power state to provide additional power for the PSA. The data from the
+Probe were transmitted at S band in two separate data streams, and both
+were recorded on each SSR. Following completion of the predicted descent
+(maximum 150 minutes), the Orbiter listened for Probe signals for an
+additional 30 minutes, in case they continued after landing.
+
+When data collection from the Probe was completed, those data were write
+protected on each SSR. The spacecraft then turned to view Titan with
+optical remote sensing instruments until about one hour after closest
+approach.
+
+The Orbiter then turned the HGA towards Earth and began transmitting the
+recorded Probe data to the Canberra 70-m antenna. The complete, four-fold
+redundant set of Probe data was transmitted twice, and its receipt
+verified, before the write protection on that portion of the SSR was lifted
+by ground command. A second playback, including all of the Probe data and
+the Orbiter instrument observations, was returned over the subsequent
+Madrid 70-meter tracking pass, which was longer and at higher elevation
+angles.
+
+TOUR   2005-01-14 to 2008-06-30
+       2005-014   to 2008-182
+----
+
+The Tour Phase of the mission began at completion of the Huygens Probe and
+Orbiter-support playback and ended on 30 June 2008.  It included dozens of
+satellite encounters and extended observations of Saturn, its rings, and
+its environment of particles and fields.
+
+     TOUR SEQUENCE BOUNDARIES
+
+The table below shows spacecraft background sequences, orbit revolution,
+start epoch (including day-of-year in a separate column), and the length of
+the sequence.  For completeness, all 'S' sequences are listed even though
+the first seven covered times before the Tour phase.  Each orbit about
+Saturn was assigned a revolution identifier starting with a, b, and c, and
+then numerically ascending from 3 to 74; these were not synchronous with
+sequences, some of which covered only partial orbits.  Full orbits began
+and ended at apoapsis; the partial orbit from SOI to the first apoapsis was
+orbit 0.
+
+               Sequence  Rev     Epoch (SCET)     DOY   Duration
+                                                        In days
+               --------  ---  -----------------   ---   --------
+                  S1      0   2004-May-14 18:40   135      36
+                  S2      0   2004-Jun-19 21:52   171      41
+                  S3      0   2004-Jul-30 21:32   212      44
+                  S4      A   2004-Sep-12 11:35   256      36
+                  S5      A   2004-Oct-18 09:30   292      28
+                  S6      A   2004-Nov-15 07:49   320      31
+                  S7      B   2004-Dec-16 13:22   351      37
+                  S8      C   2005-Jan-22 10:38   022      36
+                  S9      3   2005-Feb-27 00:36   058      41
+                  S10     6   2005-Apr-09 05:15   099      35
+                  S11     8   2005-May-14 02:50   134      35
+                  S12    10   2005-Jun-18 01:34   169      44
+                  S13    12   2005-Jul-31 22:00   212      30
+                  S14    14   2005-Aug-30 21:43   242      39
+                  S15    16   2005-Oct-08 12:30   281      35
+                  S16    17   2005-Nov-12 17:01   316      35
+                  S17    19   2005-Dec-17 14:21   351      41
+                  S18    20   2006-Jan-27 04:03   027      43
+                  S19    22   2006-Mar-11 00:35   070      42
+                  S20    23   2006-Apr-22 05:15   112      42
+                  S21    24   2006-Jun-03 02:39   154      44
+                  S22    26   2006-Jul-17 00:06   198      34
+                  S23    27   2006-Aug-19 22:06   231      32
+                  S24    29   2006-Sep-20 20:22   263      32
+                  S25    31   2006-Oct-22 18:26   295      33
+                  S26    33   2006-Nov-24 16:30   328      42
+                  S27    36   2007-Jan-05 13:50   005      43
+                  S28    39   2007-Feb-17 10:52   048      39
+                  S29    41   2007-Mar-28 08:04   087      38
+                  S30    44   2007-May-04 22:00   124      37
+                  S31    46   2007-Jun-11 03:10   162      33
+                  S32    48   2007-Jul-14 01:06   195      29
+                  S33    49   2007-Aug-11 23:20   223      42
+                  S34    50   2007-Sep-22 20:51   265      39
+                  S35    51   2007-Oct-31 18:40   304      44
+                  S36    54   2007-Dec-14 16:00   348      39
+                  S37    57   2008-Jan-22 13:35   022      25
+                  S38    59   2008-Feb-16 11:51   047      36
+                  S39    62   2008-Mar-23 01:50   083      27
+                  S40    65   2008-Apr-19 07:18   110      42
+                  S41    70   2008-May-31 04:27   152      32
+
+     SATELLITE ENCOUNTER SUMMARY
+
+This table summarizes the Cassini Orbiter satellite encounters; for
+completeness, all recognized encounters are included even those that
+preceded the Tour phase.  Rev identifies the orbit revolution as defined
+above.  The three character ID for the encounter is in the second column;
+an asterisk (*) indicates a targeted encounter.  The target, date, and
+time, and day-of-year are in the next three columns.  Altitude above
+the surface at closest approach, sense of the encounter (whether on
+the inbound or outbound leg of an orbit), relative velocity at closest
+approach, and phase angle at closest approach round out the columns.
+
+
+*Targeted fly-by
+
+Rev   Name   Satellite  Epoch (SCET)        DOY   Alt   in/  Speed Phase
+                                                  km    out  km/s   deg
+---  -----   ---------  ----------------    ---   ---   ---  -----  ----
+0    00PH*   Phoebe     2004-Jun-11 19:34   163   2068  in    6.4   24
+0    00PO    Polydeuces 2004-Jun-30 20:57   182  67991  in   13.3   90
+0    00CA    Calypso    2004-Jun-30 22:27   182  52100  in   14.1   92
+0    00ME    Methone    2004-Jul-01 00:16   183  51202  in   12.9   96
+0    00MI    Mimas      2004-Jul-01 00:30   183  76488  in   22.3   80
+0    00PA    Pandora    2004-Jul-01 01:16   183  89854  in   26.8   89
+0    00JA    Janus      2004-Jul-01 01:51   183  67682  in   12.8  106
+0    00PM    Prometheus 2004-Jul-01 03:57   183 107413  out  28.5   91
+0    00PN    Pan        2004-Jul-01 04:02   183  57684  out  22.8   88
+0    00AE    Aegaeon    2004-Jul-01 04:21   183 112910  out  26.0   94
+0    00TI    Titan      2004-Jul-02 09:29   184 339120  out   8.3   67
+A    0ATI*   Titan      2004-Oct-26 15:30   300   1174  in    6.1   91
+B    0BTI*   Titan      2004-Dec-13 11:38   348   1192  in    6.1  102
+B    0BDI    Dione      2004-Dec-15 01:41   350  72067  in    5.3   84
+B    0BMI    Mimas      2004-Dec-15 05:02   350 106750  in    1.6   90
+B    0BAE    Aegaeon    2004-Dec-15 05:43   350 121062  in    1.0  108
+C    0CIA    Iapetus    2004-Dec-31 18:49   366 123401  in    2.0   94
+C    0CTI*   Titan      2005-Jan-14 11:12   014  60003  in    5.4   93
+C    0CME    Methone    2005-Jan-16 04:58   016 113120  in    1.8   78
+C    0CMI    Mimas      2005-Jan-16 06:08   016 107630  in    1.3  100
+C    0CPL    Pallene    2005-Jan-16 07:26   016  90824  out   2.4  138
+3    03TI*   Titan      2005-Feb-15 06:58   046   1579  in    6.0   99
+3    03PA    Pandora    2005-Feb-16 23:03   047 102609  in    1.6   62
+3    03EP    Epimetheus 2005-Feb-17 00:10   048  73455  in    2.9   78
+3    03AT    Atlas      2005-Feb-17 00:23   048  76935  in    1.6   96
+3    03CA    Calypso    2005-Feb-17 00:35   048  83229  in    6.9   67
+3    03AE    Aegaeon    2005-Feb-17 01:23   048 107572  out   8.3  157
+3    03EN*   Enceladus  2005-Feb-17 03:30   048   1261  out   6.7  113
+3    03PO    Polydeuces 2005-Feb-17 08:48   048   6447  out   8.6  121
+4    04HE    Helene     2005-Mar-09 04:33   068  74491  in    6.5   67
+4    04EN*   Enceladus  2005-Mar-09 09:08   068    497  in    6.6   43
+4    04AT    Atlas      2005-Mar-09 11:29   068  73847  in    1.6  108
+4    04TE    Tethys     2005-Mar-09 11:44   068  82863  out   6.9   64
+5    05TE    Tethys     2005-Mar-29 18:46   088 108638  in   12.2  124
+5    05EN    Enceladus  2005-Mar-29 20:32   088  55573  in    9.7  134
+5    05PL    Pallene    2005-Mar-29 21:48   088  30587  in    7.0  137
+5    05AT    Atlas      2005-Mar-29 22:01   088  97311  in    1.4   68
+5    05EP    Epimetheus 2005-Mar-29 23:25   088  62012  in    2.3  102
+5    05ME    Methone    2005-Mar-30 00:51   089  52681  out   7.4   82
+5    05TL    Telesto    2005-Mar-30 01:32   089  74532  out   6.5   61
+5    05PO    Polydeuces 2005-Mar-30 05:59   089 104025  out   6.0   59
+5    05TI*   Titan      2005-Mar-31 20:05   090   2404  out   5.9   66
+6    06PL    Pallene    2005-Apr-14 20:31   104 119294  in   16.6  115
+6    06ME    Methone    2005-Apr-14 20:52   104  50424  in   12.3  118
+6    06EP    Epimetheus 2005-Apr-15 00:14   105  46180  out   9.8   80
+6    06MI    Mimas      2005-Apr-15 01:25   105  82488  out  14.0   94
+6    06CA    Calypso    2005-Apr-15 04:21   105  70532  out  12.5  115
+6    06TI*   Titan      2005-Apr-16 19:12   106   1027  out   6.1  127
+7    07HE    Helene     2005-May-02 19:19   122 114175  in    9.9  107
+7    07TE    Tethys     2005-May-02 21:48   122  51856  in    9.3  110
+7    07EP    Epimetheus 2005-May-02 23:03   122 118461  in    6.2   46
+7    07TL    Telesto    2005-May-03 06:15   123 108306  out   8.3   98
+7    07TI    Titan      2005-May-04 05:37   124 864240  out  10.3  154
+8    08AT    Atlas      2005-May-21 06:30   141  99861  out   6.7  145
+8    08PM    Prometheus 2005-May-21 06:48   141 107600  out   6.9  153
+8    08EN    Enceladus  2005-May-21 08:13   141 101965  out   8.8   86
+9    09TI    Titan      2005-Jun-06 19:05   157 425570  in    5.8   83
+9    09PL    Pallene    2005-Jun-08  9:57   159  64545  in    7.0   56
+9    09CA    Calypso    2005-Jun-08 10:24   159  97710  in    7.8   64
+10   10TI    Titan      2005-Jun-22 12:37   173 920615  in    3.7   65
+10   10TI    Titan      2005-Jun-26 07:10   177 874592  in    7.7  111
+10   10PN    Pan        2005-Jun-26 14:23   177  94955  in    6.2   84
+10   10TL    Telesto    2005-Jun-26 14:48   177  87058  in    8.0   64
+11   11PM    Prometheus 2005-Jul-14 19:31   195 122149  in    6.1   51
+11   11EN*   Enceladus  2005-Jul-14 19:55   195    166  in    8.2   64
+11   11ME    Methone    2005-Jul-14 20:48   195  36705  in    7.6  110
+11   11EP    Epimetheus 2005-Jul-14 20:55   195  76770  in    6.3   84
+11   11AE    Aegaeon    2005-Jul-14 22:11   195 118582  out  11.1  163
+12   12DA    Daphnis    2005-Aug-02 03:58   214 102509  in    6.1   68
+12   12MI    Mimas      2005-Aug-02 04:21   214  61149  in    6.1   58
+12   12PM    Prometheus 2005-Aug-02 05:17   214  84971  in    6.3  111
+12   12CA    Calypso    2005-Aug-02 07:47   214 106192  out   7.1   73
+12   12TI    Titan      2005-Aug-02 15:55   214 939763  out   6.5   35
+12   12TI    Titan      2005-Aug-06 12:33   218 837688  out   3.8   62
+13   13TE    Tethys     2005-Aug-20 07:02   232 122848  in   12.4  123
+13   13TL    Telesto    2005-Aug-20 12:13   232 105278  out   7.8   67
+13   13TI*   Titan      2005-Aug-22 08:54   234   3660  out   5.9   44
+14   14AE    Aegaeon    2005-Sep-05 10:48   248   8517  in    8.1  115
+14   14PA    Pandora    2005-Sep-05 11:31   248  51938  in    7.0   57
+14   14PM    Prometheus 2005-Sep-05 11:32   248 102397  in   14.6  151
+14   14ME    Methone    2005-Sep-05 13:57   248  63025  out  10.2   91
+14   14TI*   Titan      2005-Sep-07 08:12   250   1075  out   6.1   85
+15   15CA    Calypso    2005-Sep-23 18:51   266  91043  in    7.0   83
+15   15MI    Mimas      2005-Sep-23 19:40   266  70011  in   11.8  133
+15   15PM    Prometheus 2005-Sep-23 22:26   266  98010  out   7.6  159
+15   15TE*   Tethys     2005-Sep-24 02:42   267   1495  out   9.0   68
+15   15TI    Titan      2005-Sep-24 22:47   267 911727  out  10.7  149
+15   15HY*   Hyperion   2005-Sep-26 02:25   269    479  out   5.6   48
+16   16TI    Titan      2005-Oct-10 22:22   283 776295  in    9.7   65
+16   16DI*   Dione      2005-Oct-11 17:52   284    499  in    9.1   66
+16   16TL    Telesto    2005-Oct-11 20:26   284   9534  in    8.7   63
+16   16PL    Pallene    2005-Oct-11 22:48   284  50439  in   10.8  125
+16   16AT    Atlas      2005-Oct-12 01:55   285  55662  out   4.0  143
+16   16EN    Enceladus  2005-Oct-12 03:03   285  49076  out   6.8   73
+17   17TI*   Titan      2005-Oct-28 04:15   301   1353  in    5.9  105
+17   17ME    Methone    2005-Oct-29 21:37   302  98875  in    2.1   57
+17   17CA    Calypso    2005-Oct-30 02:50   303 107870  out   9.4   66
+18   18RH*   Rhea       2005-Nov-26 22:38   330    504  in    7.3   87
+18   18EN    Enceladus  2005-Nov-27 10:25   331 107851  in    7.5  134
+18   18HE    Helene     2005-Nov-27 14:37   331  86435  out   5.5   87
+19   19EN    Enceladus  2005-Dec-24 20:29   358  94054  in    6.7  133
+19   19PL    Pallene    2005-Dec-24 22:26   358 107286  out   4.4  142
+19   19TL    Telesto    2005-Dec-25 00:44   359  19275  out   5.9   70
+19   19HE    Helene     2005-Dec-25 01:45   359  74718  out   5.4   90
+19   19TI*   Titan      2005-Dec-26 18:59   360  10411  out   5.6   67
+20   20TI*   Titan      2006-Jan-15 11:41   015   2043  in    5.8  120
+21   21HE    Helene     2006-Feb-25  4:48   056  67546  in    7.1   92
+21   21TI*   Titan      2006-Feb-27 08:25   058   1812  out   5.9   92
+22   22TI*   Titan      2006-Mar-19 00:06   078   1949  in    5.8  148
+22   22RH    Rhea       2006-Mar-21 07:16   080  82001  out   5.3  137
+23   23TI*   Titan      2006-Apr-30 20:58   120   1856  out   5.8  121
+24   24TI*   Titan      2006-May-20 12:18   140   1879  in    5.8  163
+24   24PO    Polydeuces 2006-May-22 14:53   142  64090  out   6.9   19
+25   25TI*   Titan      2006-Jul-02 09:21   183   1906  out   5.8  148
+26   26TI*   Titan      2006-Jul-22 00:25   203    950  in    6.0  105
+26   26TE    Tethys     2006-Jul-23 17:18   204 119806  in    9.9   29
+26   26AE    Aegaeon    2006-Jul-23 22:46   204  93380  out   3.8   16
+26   26TL    Telesto    2006-Jul-24 01:58   205  44779  out   8.6   39
+27   27HE    Helene     2006-Aug-17 03:29   229  48728  out   7.7  122
+27   27TI    Titan      2006-Aug-18 17:50   230 339768  out   4.8  121
+28   28TI*   Titan      2006-Sep-07 20:17   250   1000  in    6     45
+28   28AT    Atlas      2006-Sep-09 17:33   252 119823  in   15     47
+28   28ME    Methone    2006-Sep-09 19:17   252  15114  out  10.2   62
+28   28CA    Calypso    2006-Sep-09 19:24   252 107225  out   9.7  162
+28   28EN    Enceladus  2006-Sep-09 20:06   252  39935  out  10.4  111
+29   29TI*   Titan      2006-Sep-23 18:59   266    960  in    6     90
+29   29AE    Aegaeon    2006-Sep-25 20:19   268 107429  out  11.8   29
+29   29ME    Methone    2006-Sep-25 21:45   268  63839  out  10.1   39
+30   30TI*   Titan      2006-Oct-09 17:30   282    980  in    6     81
+31   31TI*   Titan      2006-Oct-25 15:58   298   1030  in    6     25
+32   32EN    Enceladus  2006-Nov-09 01:48   313  90220  out  14     26
+32   32CA    Calypso    2006-Nov-09 03:45   313 116096  out  11.7  111
+33   33DI    Dione      2006-Nov-21 02:28   325  74996  out  12.2  147
+33   33TI    Titan      2006-Nov-21 13:36   325 973182  out   8     78
+33   33TI    Titan      2006-Nov-25 13:29   329 925037  out   4.5  115
+34   34TI    Titan      2006-Dec-02 23:17   336 945245  out  12.2  159
+34   34TL    Telesto    2006-Dec-03 01:20   337 102514  out  12.1  111
+35   35TI*   Titan      2006-Dec-12 11:42   346   1000  in    5.9  125
+36   36TI*   Titan      2006-Dec-28 10:05   362   1297  in    5.9   62
+37   37TI*   Titan      2007-Jan-13 08:39   013   1000  in    6     53
+38   38TI*   Titan      2007-Jan-29 07:16   029   2631  in    5.8   72
+38   38TI    Titan      2007-Feb-05 07:42   036 910072  out   5.9  114
+39   39TI    Titan      2007-Feb-15 03:10   046 867510  in    5.5  128
+39   39TI*   Titan      2007-Feb-22 03:12   053   1000  out   6.2  161
+40   40TI*   Titan      2007-Mar-10 01:49   069    981  out   6.2  150
+41   41TI*   Titan      2007-Mar-26 00:23   085   1010  out   6.2  144
+42   42TI*   Titan      2007-Apr-10 22:58   100    991  out   6.2  137
+43   43DI    Dione      2007-Apr-24 14:52   114 114225  in   11.4   69
+43   43TL    Telesto    2007-Apr-24 16:00   114 107376  in   11.1   99
+43   43TI*   Titan      2007-Apr-26 21:33   116    981  out   6.2  130
+44   44TI*   Titan      2007-May-12 20:10   132    959  out   6.2  122
+45   45TE    Tethys     2007-May-26 20:47   146 102788  in   12     78
+45   45EP    Epimetheus 2007-May-26 23:13   146  58279  in    8.7  148
+45   45TI*   Titan      2007-May-28 18:52   148   2299  out   6.1  114
+46   46MI    Mimas      2007-Jun-11 23:03   162 111975  in   16.7   95
+46   46AT    Atlas      2007-Jun-12 00:12   163  34017  in    7.5  117
+46   46PM    Prometheus 2007-Jun-12 00:19   163  69717  in   11.7   79
+46   46EP    Epimetheus 2007-Jun-12 00:58   163  80596  out  10.6  144
+46   46ME    Methone    2007-Jun-12 02:26   163  61696  out   9    100
+46   46TI*   Titan      2007-Jun-13 17:46   164    965  out   6.2  107
+47   47TE    Tethys     2007-Jun-27 19:43   178  18418  in   10.6  116
+47   47ME    Methone    2007-Jun-27 22:23   178  22643  in   10.9  114
+47   47MI    Mimas      2007-Jun-27 22:48   178 102916  in   17    110
+47   47AE    Aegaeon    2007-Jun-27 23:13   178  15434  in    9.4  107
+47   47EN    Enceladus  2007-Jun-28 00:52   179  88670  in    9.3   54
+47   47PM    Prometheus 2007-Jun-28 01:43   179  35160  out   9.1  153
+47   47EP    Epimetheus 2007-Jun-28 02:08   179  86622  out  15.7  153
+47   47RH    Rhea       2007-Jun-28 12:00   179 104383  out  10.7  105
+47   47TI*   Titan      2007-Jun-29 17:00   180   1933  out   6.2   96
+48   48TI*   Titan      2007-Jul-19 01:11   200   1332  in    6.2   34
+48   48HE    Helene     2007-Jul-20 17:18   201  38262  in    4.7   55
+48   48TE    Tethys     2007-Jul-20 18:16   201  95188  in    6.5   94
+49   49TE    Tethys     2007-Aug-29 11:14   241  55393  in    4.8  102
+49   49RH    Rhea       2007-Aug-30 01:19   242   5727  out   6.7   46
+49   49TI*   Titan      2007-Aug-31 06:33   243   3324  out   6.1   87
+49   49IA*   Iapetus    2007-Sep-10 14:16   253   1622  out   2.4   59
+50   50DI    Dione      2007-Sep-30 05:48   273  43434  in    5.7   49
+50   50EN    Enceladus  2007-Sep-30 10:51   273 101494  in    6.5   95
+50   50TL    Telesto    2007-Sep-30 15:08   273  75929  out   7.7  163
+50   50TI*   Titan      2007-Oct-02 04:43   275    973  out   6.3   67
+51   51HY    Hyperion   2007-Oct-21 15:01   294 121742  in    4.9  116
+51   51TI    Titan      2007-Oct-22 01:12   295 438395  in    4.2   30
+51   51HE    Helene     2007-Oct-24 00:33   297  23943  in    7.7   76
+51   51PM    Prometheus 2007-Oct-24 06:30   297 104597  in    1.5  166
+52   52RH    Rhea       2007-Nov-16 19:43   320  91621  in    9.3  150
+52   52AE    Aegaeon    2007-Nov-17 06:15   321  99722  in    3.3  150
+52   52PA    Pandora    2007-Nov-17 06:59   321  93408  in    1.6  163
+52   52PN    Pan        2007-Nov-17 08:05   321  96662  out   1.3  138
+52   52EP    Epimetheus 2007-Nov-17 09:20   321  99466  out   1.9  102
+52   52CA    Calypso    2007-Nov-17 12:35   321  87970  out  10.5  147
+52   52TI*   Titan      2007-Nov-19 00:47   323    999  out   6.3   51
+53   53TL    Telesto    2007-Dec-03 05:23   337 119571  in    8.9   20
+53   53MI    Mimas      2007-Dec-03 05:26   337  84254  in   15.0  139
+53   53AE    Aegaeon    2007-Dec-03 06:03   337  81098  in   15.0  131
+53   53EP    Epimetheus 2007-Dec-03 06:52   337   9176  in    7.6  141
+53   53TI*   Titan      2007-Dec-05 00:07   339   1298  out   6.3   70
+54   54TI*   Titan      2007-Dec-20 22:58   354    970  out   6.3   61
+55   55DI    Dione      2008-Jan-03 20:13   003 121807  in   11.1   76
+55   55PL    Pallene    2008-Jan-03 21:52   003 105665  in    9.4  120
+55   55JA    Janus      2008-Jan-03 22:11   003 118143  in   10.1  154
+55   55DA    Daphnis    2008-Jan-03 22:50   003 119011  in   10.4  157
+55   55PM    Prometheus 2008-Jan-03 23:11   003 112567  in   10.5  152
+55   55PA    Pandora    2008-Jan-04 00:34   004 123127  in   11.3  119
+55   55TI*   Titan      2008-Jan-05 21:30   005   1014  out   6.3   38
+56   56ME    Methone    2008-Jan-15 21:11   015 15619   in   13.7  142
+56   56PA    Pandora    2008-Jan-15 22:20   015 95184   in   16.2  116
+57   57TI    Titan      2008-Jan-22 21:22   022 855500  in    4.5   69
+57   57TI    Titan      2008-Jan-27 12:32   027 985542  in    9.4   60
+57   57AT    Atlas      2008-Jan-27 19:15   027  75196  in   13.6  151
+57   57EP    Epimetheus 2008-Jan-27 20:17   027  89731  in   16.2  116
+57   57PM    Prometheus 2008-Jan-27 20:18   027  82364  in   15.4  125
+57   57PA    Pandora    2008-Jan-27 20:45   027 114392  in   17.3  109
+58   58EP    Epimetheus 2008-Feb-08 17:00   039 116982  in   13.4  121
+58   58PA    Pandora    2008-Feb-08 19:23   039 114439  in   17.3  110
+58   58AT    Atlas      2008-Feb-08 19:26   039 114719  out  17.2  110
+59   59PN    Pan        2008-Feb-20 17:51   051  79785  in   13.8  152
+59   59PM    Prometheus 2008-Feb-20 18:19   051  65853  in   14.2  152
+59   59PA    Pandora    2008-Feb-20 18:29   051  66345  in   14.5  145
+59   59JA    Janus      2008-Feb-20 19:08   051 110348  in   17.3  111
+59   59TI*   Titan      2008-Feb-22 17:32   053   1000  out   6.3   30
+60   60DA    Daphnis    2008-Mar-02 03:45   062  97746  in   15.8  155
+60   60PM    Prometheus 2008-Mar-02 04:16   062  99681  in   16.3  141
+61   61TI    Titan      2008-Mar-10 19:50   070 918312  in    6.3  124
+61   61EN*   Enceladus  2008-Mar-12 19:06   072     48  in   14.4  137
+61   61DA    Daphnis    2008-Mar-12 20:15   072 104056  in   16.4  139
+62   62PL    Pallene    2008-Mar-23 10:37   083  32686  in   15.0  135
+62   62EP    Epimetheus 2008-Mar-23 10:55   083  84179  in   15.6  152
+62   62ME    Methone    2008-Mar-23 11:24   083 102765  in   17.0  114
+62   62TI*   Titan      2008-Mar-25 14:28   085    999  out   6.3   21
+63   63TI    Titan      2008-Apr-01 15:53   092 973783  in   12.9   36
+63   63PL    Pallene    2008-Apr-01 17:20   092 104466  in   14.8  123
+63   63AE    Aegaeon    2008-Apr-01 18:17   092 103559  in   15.9  157
+63   63JA    Janus      2008-Apr-01 19:09   092 117131  in   16.6  148
+64   64MI    Mimas      2008-Apr-11 09:29   102 106553  in   17.1  129
+65   65MI    Mimas      2008-Apr-20 20:44   111 116382  in   15.6  135
+65   65TL    Telesto    2008-Apr-20 21:47   111  77619  in   15.5   88
+65   65EP    Epimetheus 2008-Apr-20 22:34   111 119101  in   16.8  148
+66   66TI    Titan      2008-Apr-26 18:57   117 780171  in    5.5   94
+66   66TL    Telesto    2008-Apr-30 10:26   121  35745  in   14.5   45
+66   66PL    Pallene    2008-Apr-30 11:51   121  93069  in   16.4  123
+67   67ME    Methone    2008-May-09 23:36   130  95843  in   15.2  138
+67   67JA    Janus      2008-May-10 00:06   131 120788  in   16.3  156
+67   67TI*   Titan      2008-May-12 10:02   133   1001  out   6.3   36
+68   68CA    Calypso    2008-May-17 23:03   138 111501  in   18.4   52
+68   68ME    Methone    2008-May-17 23:36   138  78909  in   20.1  105
+68   68EP    Epimetheus 2008-May-18 00:05   139  98913  out  21.5  118
+69   69AE    Aegaeon    2008-May-25 21:56   146  52212  in   19.0  119
+69   69PL    Pallene    2008-May-25 22:06   146  28257  in   18.3   51
+69   69AT    Atlas      2008-May-25 22:14   146  60519  in   19.9  155
+69   69JA    Janus      2008-May-25 22:50   146  63866  in   20.4  134
+69   69TI*   Titan      2008-May-28 08:25   149   1400  out   6.3   21
+70   70PL    Pallene    2008-Jun-01 22:01   153 115591  in   21.4   66
+70   70JA    Janus      2008-Jun-01 22:14   153  32923  in   22.1  109
+71   71PN    Pan        2008-Jun-09 00:43   161 116078  in   23.6  103
+71   71PA    Pandora    2008-Jun-09 02:16   161  64064  out  23.5  119
+72   72TI    Titan      2008-Jun-13 04:28   165 364575  in    5.8   88
+72   72EP    Epimetheus 2008-Jun-16 05:00   168  23096  in   22.5  127
+72   72PM    Prometheus 2008-Jun-16 05:03   168  31846  in   22.8  142
+72   72ME    Methone    2008-Jun-16 05:19   168 113224  out  23.3  100
+73   73ME    Methone    2008-Jun-23 08:06   175  55474  in   21.9   76
+73   73PN    Pan        2008-Jun-23 08:18   175  48789  in   23.3  132
+74   74TI    Titan      2008-Jun-28 15:58   180 729792  in    7.9  107
+74   74PM    Prometheus 2008-Jun-30 08:16   182  65577  in   22.6  106
+74   74EN    Enceladus  2008-Jun-30 08:47   182  83739  in   21.1   49
+74   74JA    Janus      2008-Jun-30 08:58   182  29622  in   22.6  124
+74   74ME    Methone    2008-Jun-30 09:05   182  84850  in   22.5   92
+74   74AE    Aegaeon    2008-Jun-30 09:21   182  95503  out  23.7  107
+74   74AT    Atlas      2008-Jun-30 09:22   182  73451  out  24    119
+
+
+     END OF PRIME MISSION     2008-06-30
+                              2008-182
+     --------------------
+
+
+
+Equinox (EXTENDED MISSION)    2008-07-01 to 2010-09-29
+                              2008-183 to 2010-272
+----------------
+The Cassini prime mission was the most complex gravity-assist tour ever
+flown. The extended mission maintained this level of design and
+navigational complexity in order to meet and balance the myriad of
+disparate scientific objectives requested by the Cassini discipline
+working groups within the 2.25-year time frame. As a result, compared
+to the prime mission, the EM trajectory clearly meets or exceeds the
+intensity of scientific opportunities. The two-year extension consists
+of 28 close Titan flybys, twelve close icy satellite flybys (of which
+eight are of Enceladus), 64 orbits around Saturn, and dozens more radio
+and Solar occultations by Saturn, its rings, and Titan. The EM begins
+at high inclination, where the prime mission left off, with the
+apoapsis of its orbit oriented nearly sunward. This geometry is
+maintained for nine months for continued in-situ study of Saturn's
+auroral region, complementing incomplete observations made at the end
+of the prime mission. Also, these high inclinations allowed for high
+priority stellar occultations by the main rings, particularly the very
+dense B ring. Since one of the ring-plane crossings of this orbit
+geometry was near Enceladus, it was also possible to insert three low
+Enceladus flybys during this phase while meeting the other objectives.
+Lastly, the Titan flybys during this high inclination phase were
+designed to obtain a mid-northern latitude Titan radio occultation and
+a high quality groundtrack over the Huygens landing site.  This first
+phase completes with a short Titan-Titan 'Pi-transfer' phase, with the
+first encounter on one side of Titan's orbit and the second encounter
+one-half of one orbit later, on the opposite side of Titan's orbit.
+This creative strategy was implemented by the Cassini tour designers as
+a highly efficient method to transfer the orbit from one side of Saturn
+to another, speeding up the exploration of the environment compared to
+a more conventional, encounter-by-encounter rotation.
+
+The second major phase of the EM takes place over six months in the
+poorly sampled 'dusk sector' of Saturn, i.e. the side outward from
+Saturn's dusk terminator. This phase contains the Saturnian equinox in
+mid-August 2009, and is Cassini's only chance to study this infrequent
+geometric event, as it only occurs every 15 years. During this equinox
+viewing phase, Cassini's orbit inclination is slowly reduced, offering
+a generous variety of observation geometries for Saturn's rings, where
+the bulk of the equinox-related objectives are focused. In addition,
+Titan flyby geometries allow for key high-resolution radar mapping and
+Titan occultations.
+
+The third major phase is dominated by equatorial orbits and icy
+satellite encounters. The fourth through seventh Enceladus encounters
+occur here, as well as close flybys of Mimas, Dione, Rhea, and Helene
+(a Dione coorbital). Two of the Enceladus encounters, E7 and E9, are
+designed to pass deep within the plume emanating from the southern
+polar region. In addition, two high quality horizontal (ansa to ansa)
+ring occultations, long Saturn observation opportunities, a Titan wake
+crossing, and mid-northern latitude Saturn occultations are included
+in this icy satellite and ansa-to-ansa occultation phase.  The final
+phase of the Equinox Mission is several months long, and contains
+a series of short Titan transfers designed for gravity measurements,
+more high northern Titan observations, and a third horizontal
+ring occultation.  It is generally referred to as the high northern
+Titan groundtrack phase.
+
+               Equinox (Extended) Mission Sequence Boundaries
+               ----------------------------------------------
+
+               Sequence  Rev     Epoch (SCET)     DOY   Duration
+                                                        In days
+               --------  ---  -----------------   ---   --------
+               S42       74   2008-Jul-01 19:08   183   40
+               S43       80   2008-Aug-11 00:20   224   34
+               S44       84   2008-Sep-13 22:19   257   35
+               S45       89   2008-Oct-18 20:21   292   39
+               S46       94   2008-Nov-26 17:55   331   44
+               S47       100  2009-Jan-09 15:16   009   39
+               S48       103  2009-Feb-17 12:35   048   37
+               S49       106  2009-Mar-26 10:05   085   40
+               S50       110  2009-May-05 07:16   125   39
+               S51       112  2009-Jun-13 04:41   164   41
+               S52       115  2009-Jul-23 21:51   204   32
+               S53       117  2009-Aug-25 12:04   237   41
+               S54       119  2009-Oct-05 04:03   278   40
+               S55       121  2009-Nov-13 19:21   317   39
+               S56       123  2009-Dec-22 23:26   356   32
+               S57       125  2010-Jan-23 15:00   023   37
+               S58       127  2010-Mar-01 19:04   060   34
+               S59       129  2010-Apr-05 02:49   095   42
+               S60       131  2010-May-17 13:31   137   39
+               S61*      133  2010-Jun-25 21:10   176   35
+               S62*      135  2010-Jul-30 18:51   211   37
+               S63*      137  2010-Sep-06 06:33   249   35
+               S64**     139  2010-Oct-11 04:17   284   45
+               S65**     141  2010-Nov-24 19:35   328   54
+               S66**     143  2011-Jan-17 08:42   017   49
+               S67**     146  2011-Mar-07 13:02   066   49
+          *XXM bridge sequences
+          **XXM transition sequences; part of the Solstice Mission
+
+
+
+             Equinox (Extended) Mission Satellite Encounter
+             ----------------------------------------------
+
+*Targeted fly-by
+
+Rev   Name   Satellite  Epoch (SCET)        DOY   Alt   in/  Speed Phase
+                                                  km    out  km/s   deg
+----  -----  ---------  ----------------    ---   ---   ---  -----  ----
+74    74TI   Titan      2008-Jun-28 15:58   180 729792  in    7.9   107
+74    74PM   Prometheus 2008-Jun-30 08:16   182  65577  in   22.6   106
+74    74EN   Enceladus  2008-Jun-30 08:47   182  83739  in   21.1    49
+74    74JA   Janus      2008-Jun-30 08:58   182  29622  in   22.6   124
+74    74ME   Methone    2008-Jun-30 09:05   182  84850  in   22.5    92
+74    74AE   Aegaeon    2008-Jun-30 09:21   182  95503  out  23.7   107
+74    74AT   Atlas      2008-Jun-30 09:22   182  73451  out  24.0   119
+75    75JA   Janus      2008-Jul-07 08:57   189  81936  in   22.6    94
+75    75PA   Pandora    2008-Jul-07 09:39   189  22902  in   22.6   159
+75    75ME   Methone    2008-Jul-07 10:03   189 116251  out  23.4   102
+76    76DA   Daphnis    2008-Jul-14 10:06   196  44006  in   22.6   119
+76    76PM   Prometheus 2008-Jul-14 10:13   196  32627  in   22.5   127
+76    76PL   Pallene    2008-Jul-14 10:37   196  91903  in   22.1    84
+76    76TI   Titan      2008-Jul-15 21:27   197 542891  out   8.4   127
+77    77PL   Pallene    2008-Jul-21 11:07   203  59392  in   21.0    26
+77    77AE   Aegaeon    2008-Jul-21 11:12   203  12269  in   21.8    61
+77    77AT   Atlas      2008-Jul-21 11:24   203  28115  in   22.7   155
+77    77DA   Daphnis    2008-Jul-21 12:00   203  85403  out  24.4   118
+77    77PN   PAN        2008-Jul-21 12:04   203  90510  out  24.6   118
+78    78PN   PAN        2008-Jul-28 11:25   210  97258  in   23.3   102
+78    78PM   Prometheus 2008-Jul-28 12:19   210  24669  in   22.6   160
+78    78EP   Epimetheus 2008-Jul-28 13:02   210 107125  out  24.6   113
+78*   78TI   Titan      2008-Jul-31 02:13   213   1614  out   6.2    49
+79    79MI   Mimas      2008-Aug-04 10:28   217 121886  in   19.0   110
+79    79EP   Epimetheus 2008-Aug-04 12:48   217 102122  out  19.9   143
+80    80ME   Methone    2008-Aug-11 20:41   224  60459  in   18.4   127
+80*   80EN   Enceladus  2008-Aug-11 21:06   224     49  in   17.7   110
+80    80MI   Mimas      2008-Aug-11 21:48   224  81519  out  19.1   137
+80    80DA   Daphnis    2008-Aug-11 21:56   224 110008  out  20.3   149
+81    81TI   Titan      2008-Aug-15 20:47   228 302282  in    5.9    85
+81    81PL   Pallene    2008-Aug-19 06:10   232  43656  in   18.4   134
+81    81PN   Pan        2008-Aug-19 06:45   232 114580  out  20.5   146
+82    82AT   Atlas      2008-Aug-26 14:08   239 107606  in   19.9   149
+83    83TI   Titan      2008-Aug-31 13:13   244 603198  in    6.9    97
+83    83JA   Janus      2008-Sep-02 23:28   246  86927  in   19.4   156
+83    83ME   Methone    2008-Sep-03 00:26   247  90494  out  19.2   128
+84    84AE   Aegaeon    2008-Sep-10 08:44   254  74411  in   19.2   156
+84    84EP   Epimetheus 2008-Sep-10 08:51   254  91310  in   19.6   155
+85    85TI   Titan      2008-Sep-15 23:39   259 902601  in    8.7    99
+85    85AE   Aegaeon    2008-Sep-17 16:08   261 108860  in   19.2   121
+85    85PA   Pandora    2008-Sep-17 16:36   261 106172  in   19.7   144
+85    85MI   Mimas      2008-Sep-17 16:50   261  61154  in   18.3   139
+85    85CA   Calypso    2008-Sep-17 17:19   261  60875  in   17.5    45
+85    85DA   Daphnis    2008-Sep-17 17:56   261 108584  out  20.2   151
+86    86TE   Tethys     2008-Sep-25 01:24   269 109900  in   17.5    50
+86    86AT   Atlas      2008-Sep-25 01:41   269 105073  in   19.9   150
+86    86PN   Pan        2008-Sep-25 02:14   269 105262  in   20.1   157
+86    86PL   Pallene    2008-Sep-25 03:12   269 115320  out  19.3   118
+87    87TE   Tethys     2008-Oct-02 11:03   276  78712  in   17.6    70
+87    87TI   Titan      2008-Oct-03 23:03   277 780532  out   9.3   125
+88    88TL   Telesto    2008-Oct-09 18:46   283  67245  in   17.2    22
+88    88JA   Janus      2008-Oct-09 18:56   283  89530  in   19.4   151
+88*   88EN   Enceladus  2008-Oct-09 19:07   283     25  in   17.7   113
+89    89PL   Pallene    2008-Oct-17 02:58   291  28938  in   18.1   141
+89    89EP   Epimetheus 2008-Oct-17 04:22   291 119000  out  20.3   136
+89    89TI   Titan      2008-Oct-19 05:25   293 397700  out   7.1   125
+90    90JA   Janus      2008-Oct-24 09:14   298 108132  in   19.5   132
+90    90PN   Pan        2008-Oct-24 10:08   298 105460  in   20.1   156
+90    90MI   Mimas      2008-Oct-24 10:25   298  57283  in   18.3   155
+91    91ME   Methone    2008-Oct-31 16:02   305 116150  in   18.8   102
+91    91PA   Pandora    2008-Oct-31 16:31   305 111472  in   19.8   138
+91    91DA   Daphnis    2008-Oct-31 17:14   305 102875  in   19.9   155
+91*   91EN   Enceladus  2008-Oct-31 17:15   305    169  in   17.7   110
+91    91AT   Atlas      2008-Oct-31 18:11   305 112312  out  20.3   147
+91    91EP   Epimetheus 2008-Oct-31 18:35   305 118913  out  20.3   136
+91*   91TI   Titan      2008-Nov-03 17:35   308   1105  out   6.3   171
+92    92PO   Polydeuces 2008-Nov-08 20:58   313 120993  in   15.3    12
+92    92TL   Telesto    2008-Nov-08 21:28   313  67097  in   16.4    85
+92    92EN   Enceladus  2008-Nov-08 21:48   313  55274  in   16.9   127
+93    93TE   Tethys     2008-Nov-16 20:42   321  57646  in   15.9    41
+93*   93TI   Titan      2008-Nov-19 15:56   324   1023  out   6.3    28
+94    94HE   Helene     2008-Nov-24 08:27   329  65571  in   14.3    14
+94    94TE   Tethys     2008-Nov-24 08:46   329  23545  in   15.2   160
+95    95EN   Enceladus  2008-Dec-02 06:36   337 123745  in   15.7   115
+95    95CA   Calypso    2008-Dec-02 07:18   337  69572  in   15.2    93
+95*   95TI   Titan      2008-Dec-05 14:26   340    961  out   6.3    25
+96    96CA   Calypso    2008-Dec-09 18:40   344  74027  out  14.9   147
+97*   97TI   Titan      2008-Dec-21 13:00   356    971  out   6.3    83
+100   100TI  Titan      2009-Jan-14 09:29   014 704003  out   9.3    25
+102   102RH  Rhea       2009-Feb-02 10:45   033  98807  in   10.5    82
+102*  102TI  Titan      2009-Feb-07 08:51   038    967  out   6.3   136
+103   103TI  Titan      2009-Feb-13 18:26   044 707039  in    7.7    98
+106   106TI  Titan      2009-Mar-21 11:51   080 991549  in    8.0    63
+106*  106TI  Titan      2009-Mar-27 04:44   086    963  out   6.3    84
+108*  108TI  Titan      2009-Apr-04 01:48   094   4147  in    5.8   151
+108   108TI  Titan      2009-Apr-11 17:35   101 326143  out   6.0    67
+109*  109TI  Titan      2009-Apr-20 00:21   110   3599  in    5.8   149
+109   109TI  Titan      2009-Apr-27 04:06   117 694947  out   6.3    64
+110*  110TI  Titan      2009-May-05 22:54   125   3242  in    5.8   146
+111*  111TI  Titan      2009-May-21 21:27   141    966  in    6.0   142
+112*  112TI  Titan      2009-Jun-06 20:00   157    968  in    6.0   135
+113*  113TI  Titan      2009-Jun-22 18:33   173    955  in    6.0   128
+114*  114TI  Titan      2009-Jul-08 17:04   189    966  in    6.0   120
+114   114DI  Dione      2009-Jul-11 03:13   192  86563  out   9.2    62
+115*  115TI  Titan      2009-Jul-24 15:34   205    956  in    6.0   112
+115   115PM  Prometheus 2009-Jul-26 16:19   207 113398  out  10.4    79
+115   115PA  Pandora    2009-Jul-26 16:49   207 103586  out  10.1    66
+115   115JA  Janus      2009-Jul-26 17:06   207  94091  out   9.9    59
+115   115TE  Tethys     2009-Jul-26 18:15   207  68254  out   9.5    89
+116*  116TI  Titan      2009-Aug-09 14:04   221    971  in    6.0   104
+116   116AT  Atlas      2009-Aug-11 11:26   223 118903  in   14.4   117
+117*  117TI  Titan      2009-Aug-25 12:52   237    961  in    6.0    86
+117   117AE  Aegaeon    2009-Aug-27 09:37   239 106992  in    3.0   105
+117   117PL  Pallene    2009-Aug-27 11:03   239 101272  out   7.5   119
+117   117TL  Telesto    2009-Aug-27 13:11   239  25201  out   5.8    86
+118   118PM  Prometheus 2009-Sep-20 10:10   263 121149  out   2.7    73
+118   118DI  Dione      2009-Sep-20 16:51   263  97134  out   9.8    94
+118   118TI  Titan      2009-Sep-22 06:53   265 293866  out   4.8   113
+119*  119TI  Titan      2009-Oct-12 08:36   285   1300  in    6.0    99
+119   119RH  Rhea       2009-Oct-13 16:55   286  40404  in    9.0    82
+119   119ME  Methone    2009-Oct-14 03:18   287  86106  in   11.8    39
+119   119AT  Atlas      2009-Oct-14 04:20   287  70650  in    2.9   114
+119   119CA  Calypso    2009-Oct-14 04:33   287 100793  in    7.7   107
+119   119MI  Mimas      2009-Oct-14 06:33   287  44044  out   7.8   102
+119   119TE  Tethys     2009-Oct-14 10:11   287  85104  out  11.9    76
+120   120TI  Titan      2009-Nov-01 23:57   305 978758  in    9.9    73
+120   120PL  Pallene    2009-Nov-02 02:08   306  93545  in   12.6    46
+120   120EP  Epimetheus 2009-Nov-02 05:27   306 105159  out   8.0     6
+120   120CA  Calypso    2009-Nov-02 06:56   306  86769  out   6.9   117
+120*  120EN  Enceladus  2009-Nov-02 07:42   306     99  out   7.7    90
+121   121HE  Helene     2009-Nov-20 22:04   324  82627  in    6.6   105
+121*  121EN  Enceladus  2009-Nov-21 02:10   325   1597  in    7.8    88
+121   121PA  Pandora    2009-Nov-21 04:45   325  59455  in    3.0   103
+121   121TI  Titan      2009-Nov-21 08:30   325 965079  out  11.1   138
+121   121CA  Calypso    2009-Nov-21 10:20   325  37052  out  10.0    78
+121   121RH  Rhea       2009-Nov-21 17:36   325  24454  out   8.7    58
+122   122HE  Helene     2009-Dec-09 22:28   343  31766  in    9.6    73
+122   122PL  Pallene    2009-Dec-10 03:34   344 111224  in   13.7    47
+122*  122TI  Titan      2009-Dec-12 01:03   346   4848  out   5.7   124
+123   123TE  Tethys     2009-Dec-26 00:36   360  52931  in   11.8    77
+123   123PM  Prometheus 2009-Dec-26 05:01   360  56461  in   10.5    36
+123*  123TI  Titan      2009-Dec-28 00:17   362    951  out   5.9    86
+124   124PA  Pandora    2010-Jan-11 02:09   011  73053  in    7.1   141
+124   124ME  Methone    2010-Jan-11 02:25   011  26919  in    8.0   145
+124   124EN  Enceladus  2010-Jan-11 06:47   011 105787  out  11.4    98
+124   124CA  Calypso    2010-Jan-11 08:17   011 113039  out   8.0   102
+124*  124TI  Titan      2010-Jan-12 23:11   012   1074  out   5.9    95
+125   125TL  Telesto    2010-Jan-27 00:30   027  97062  in    7.2    91
+125   125ME  Methone    2010-Jan-27 01:40   027  72085  in   14.0    60
+125   125PN  Pan        2010-Jan-27 04:31   027  97941  out  14.8   123
+125   125PM  Prometheus 2010-Jan-27 04:36   027  32492  out   7.2   112
+125   125AE  Aegaeon    2010-Jan-27 05:19   027  13303  out   7.4    97
+125   125DI  Dione      2010-Jan-27 11:47   027  45080  out   8.7   106
+125*  125TI  Titan      2010-Jan-28 22:29   028   7486  out   5.7    69
+126   126CA  Calypso    2010-Feb-13 11:45   044  21317  in   10.1    72
+126   126EP  Epimetheus 2010-Feb-13 16:16   044  93236  in   12.4    30
+126   126JA  Janus      2010-Feb-13 16:22   044 115086  in   14.4    29
+126   126MI  Mimas      2010-Feb-13 17:22   044   9547  out   5.8    99
+126   126TE  Tethys     2010-Feb-13 18:16   044 111975  out   8.2   114
+126   126TI  Titan      2010-Feb-14 22:47   045 650558  out   8.8    32
+127*  127RH  Rhea       2010-Mar-02 17:41   061    102  in    8.6    87
+127   127PN  Pan        2010-Mar-03 04:38   062 103801  in    6.0   149
+127   127CA  Calypso    2010-Mar-03 11:03   062  91755  out  12.8    77
+127   127HE  Helene     2010-Mar-03 13:41   062   1856  out   9.1   106
+128   128TI  Titan      2010-Mar-19 14:37   078 649738  in    8.9   119
+128   128TL  Telesto    2010-Mar-20 16:17   079  92974  in   12.8    72
+128   128AT  Atlas      2010-Mar-20 20:48   079 101207  in    9.8   137
+128   128PM  Prometheus 2010-Mar-20 21:11   079  40889  in    3.9   101
+128   128DA  Daphnis    2010-Mar-20 21:43   079  65415  out   5.7    22
+128   128ME  Methone    2010-Mar-20 23:29   079  52103  out  10.9    99
+128   128PL  Pallene    2010-Mar-21 00:03   080  70664  out  12.5    94
+128   128PO  Polydeuces 2010-Mar-21 04:47   080  30029  out  10.2    70
+129*  129TI  Titan      2010-Apr-05 15:51   095   7438  in    5.7    73
+129*  129DI  Dione      2010-Apr-07 05:16   097    506  in    8.4    79
+129   129CA  Calypso    2010-Apr-07 08:00   097  97950  in   11.7    69
+129   129EP  Epimetheus 2010-Apr-07 12:46   097  61715  in    2.4    89
+129   129JA  Janus      2010-Apr-07 13:44   097  74603  out   2.8    40
+129   129MI  Mimas      2010-Apr-07 13:47   097  97429  out  10.3   124
+129   129TE  Tethys     2010-Apr-07 14:58   097  70779  out   6.4   103
+130   130PM  Prometheus 2010-Apr-27 20:39   117  84504  in    1.6   116
+130   130TL  Telesto    2010-Apr-27 20:45   117  79611  in    6.7    97
+130   130TI  Titan      2010-Apr-27 21:09   117 989121  in   12.5    94
+130   130DA  Daphnis    2010-Apr-27 22:42   117  86343  out   1.4    47
+130   130PA  Pandora    2010-Apr-27 23:05   117  91534  out   1.8    34
+130   130PL  Pallene    2010-Apr-27 23:46   117  71189  out   9.7   112
+130   130PN  Pan        2010-Apr-27 23:53   117 113811  out    .5    24
+130*  130EN  Enceladus  2010-Apr-28 00:10   118    100  out   6.5    93
+131*  131EN  Enceladus  2010-May-18 06:05   138    437  in    6.5   114
+131   131ME  Methone    2010-May-18 08:21   138  18326  in    4.3    75
+131*  131TI  Titan      2010-May-20 03:24   140   1398  out   5.9   112
+132   132HE  Helene     2010-Jun-03 00:39   154 114183  in   11.7    85
+132   132CA  Calypso    2010-Jun-03 06:11   154 119914  in    8.9    80
+132   132PA  Pandora    2010-Jun-03 07:16   154  97170  in   14.1    44
+132   132TE  Tethys     2010-Jun-03 12:57   154  52566  out   9.6    99
+132   132RH  Rhea       2010-Jun-03 20:32   154  69353  out   8.0   102
+132*  132TI  Titan      2010-Jun-05 02:26   156   2042  out   5.8    87
+133   133RH  Rhea       2010-Jun-18 19:50   169 120595  in   10.7   109
+133   133PN  Pan        2010-Jun-19 07:10   170  29331  out   5.0   115
+133   133PO  Polydeuces 2010-Jun-19 14:09   170  97487  out  12.4    79
+133*  133TI  Titan      2010-Jun-21 01:28   172    878  out   5.9    82
+134   134CA  Calypso    2010-Jul-05 00:35   186 114698  in   12.7    70
+134   134EN  Enceladus  2010-Jul-05 02:02   186  58192  in   11.4    58
+134   134DA  Daphnis    2010-Jul-05 05:01   186  72649  in    9.2    48
+134*  134TI  Titan      2010-Jul-07 00:23   188   1004  out   5.9    82
+135   135PM  Prometheus 2010-Jul-25 03:30   206  70068  out   2.2    70
+135   135AT  Atlas      2010-Jul-25 04:32   206  89567  out   2.1    37
+136   136TI  Titan      2010-Aug-11 13:35   223 417269  in    4.0    80
+136   136DI  Dione      2010-Aug-13 17:44   225 108754  in   11.3    84
+136   136CA  Calypso    2010-Aug-13 20:31   225  22683  in    7.4    99
+136*  136EN  Enceladus  2010-Aug-13 22:31   225   2555  in    6.8    85
+136   136EP  Epimetheus 2010-Aug-13 23:21   225 101880  in    3.7   149
+136   136AT  Atlas      2010-Aug-14 00:34   226  74161  in    2.1   102
+136   136PA  Pandora    2010-Aug-14 01:08   226  67745  out   2.3    78
+136   136DA  Daphnis    2010-Aug-14 01:25   226  74372  out   2.0    68
+136   136JA  Janus      2010-Aug-14 02:01   226  79716  out   3.3    35
+136   136PN  Pan        2010-Aug-14 02:05   226  86698  out   1.8    48
+136   136TE  Tethys     2010-Aug-14 06:03   226  38053  out   9.3    91
+137   137PO  Polydeuces 2010-Sep-02 18:30   245  66576  in    7.0    94
+137   137TL  Telesto    2010-Sep-02 20:43   245  71186  in   10.8    73
+137   137AE  Aegaeon    2010-Sep-03 01:51   246 110713  out   9.3    27
+137   137TI  Titan      2010-Sep-03 02:29   246 985306  out  12.5   103
+137   137EP  Epimetheus 2010-Sep-03 03:00   246  93370  out   3.9    24
+137   137DI  Dione      2010-Sep-03 09:16   246  39035  out   9.2    83
+138   138EN  Enceladus  2010-Sep-23 03:07   266 112043  out  12.7   104
+138   138CA  Calypso    2010-Sep-23 04:54   266  28935  out   8.4    86
+138   138PO  Polydeuces 2010-Sep-23 07:26   266 100344  out  11.2    82
+138*  138TI  Titan      2010-Sep-24 18:39   267   8178  out   5.7    60
+
+
+Solstice (EXTENDED-EXTENDED) MISSION    2010-09-30 to 2017-09-15
+                                        2010-273 to 2017-258
+-------------------------
+
+The Solstice Mission (SM) is planned to extend for seven years.  It was
+approved, with the constraint that periodic senior reviews would be required
+to scope the mission as it progresses.  This mission continues to explore
+the features of the Saturnian system such as the rings, the magnetosphere,
+Titan, and the icy satellites, especially Enceladus.  The seven-year
+extension will also allow for the observations of the northern summer
+solstice at Saturn to assess seasonal changes.
+
+The proposed tour contains five phases; two contain equatorial orbits
+while the other phases are characterized by inclined orbits. The
+proposed SM features 54 Titan flybys, 23 close icy flybys (which
+include 11 Enceladus flybys), and 156 orbits of Saturn.
+
+The first inclined phase, In-0, began where the EM ended. The inclination
+was decreased over four months such that the subsequent transfer is
+equatorial.  The second phase of the proposed SM takes place over 18
+months and is characterized by equatorial orbits (Eq-1).  During this
+phase, high northern Saturn occultations and Saturn observations free of
+ring obstruction were completed.  The first seven targeted Enceladus flybys
+occur here, as well as close flybys of Rhea, Helene, Dione (twice), Tethys
+and Methone.  Several of the Enceladus flybys include plume passages.
+
+The third phase (In-1A B and C) is dominated by highly inclined orbits.
+These orbits are enabling ring observations, magnetotail crossings, and
+Saturn high-latitude occultations.  Titan flyby geometries allow for many
+low altitude, non-equatorial groundtracks.
+
+The fourth phase (Eq-2) is eight months long and is comprised of equatorial
+orbits. The final three targeted Enceladus encounters and two close Dione
+flybys will occur here.  This phase is important for setting up the orbit
+geometry for the proximal orbits in the final tour phase.  The final phase
+of the tour (In-2) contains a series of Titan flybys that allow for numerous
+Titan polar occultations, as well as low altitude groundtracks.  This phase
+also includes long duration Saturn occultations to enable Saturn eclipse
+imaging.  The F-ring orbits begin on 29-Nov-2016.
+
+The periapse radii of these 20 orbits is ~2.5 RS which puts the spacecraft
+between the F-ring and the G-ring.  These orbits allow for quality,
+close-up observations of the rings and other features of the Saturnian system
+at low phase.
+
+
+            Solstice (Extended-Extended) Mission Sequence Boundaries
+            --------------------------------------------------------
+
+               Sequence  Rev     Epoch (SCET)     DOY   Duration
+                                                        In days
+               --------  ---  -----------------   ---   --------
+               S64       139  2010-Oct-11 04:17   284   45
+               S65       141  2010-Nov-24 19:35   328   54
+               S66       143  2011-Jan-17 08:42   017   49
+               S67       146  2011-Mar-07 13:02   066   49
+               S68       147  2011-Apr-25 16:03   115   69
+               S69       150  2011-Jul-03 11:10   184   66
+               S70       153  2011-Sep-07 00:48   250   70
+               S71       157  2011-Nov-16 03:02   320   70
+               S72       160  2012-Jan-24 22:55   024   73
+               S73       164  2012-Apr-06 11:47   097   73
+               S74       168  2012-Jun-18 22:58   170   67
+               S75       171  2012-Aug-25 02:19   238   70
+               S76       174  2012-Nov-02 14:30   307   72
+               S77       179  2013-Jan-13 17:51   013   72
+               S78       184  2013-Mar-26 13:15   085   72
+               S79       191  2013-Jun-07 00:45   158   68
+               S80       196  2013-Aug-14 09:51   226   70
+               S81       198  2013-Oct-22 23:15   295   66
+               S82       200  2013-Dec-28 01:47   362   76
+               S83       202  2014-Mar-13 21:12   072   72
+               S84       204  2014-May-24 10:01   144   68
+               S85       206  2014-Jul-31 05:09   212   67
+               S86       209  2014-Oct-06 01:01   279   72
+               S87       210  2014-Dec-17 03:15   351   67
+               S88       212  2015-Feb-21 16:52   052   69
+               S89       215  2015-May-01 18:45   121   73
+               S90       218  2015-Jul-13 13:42   194   70
+               S91       222  2015-Sep-21 02:48   264   65
+               S92       226  2015-Nov-25 06:08   329   74
+               S93       231  2016-Feb-07 00:48   038   72
+               S94       235  2016-Apr-18 18:43   109   69
+               S95       237  2016-Jun-26 15:44   178   74
+               S96       242  2016-Sep-08 10:36   252   76
+               S97       249  2016-Nov-23 05:43   328   66
+               S98       259  2017-Jan-28 02:01   028   71
+               S99       268  2017-Apr-08 21:55   098   67
+               S100      279  2017-Jun-14 17:15   165   71
+               S101      290  2017-Aug-24 12:25   236   23
+                  End of S101 2017-Sep-16         259
+
+
+
+        Solstice (Extended-Extended) Mission Satellite Encounter
+        --------------------------------------------------------
+
+*Targeted fly-by
+
+Rev   Name   Satellite  Epoch (SCET)        DOY    Alt   in/  Speed Phase
+                                                   km    out  km/s   deg
+----  -----  ---------  ----------------    ---    ---   ---  -----  ----
+139   139TI  Titan      2010-Oct-14 17:07   287  172783  in   4.8    80
+139   139PO  Polydeuces 2010-Oct-16 10:47   289  115999  in  10.8    73
+139   139MI  Mimas      2010-Oct-16 17:32   289   70136  in   2.4   101
+139   139PL  Pallene    2010-Oct-16 17:57   289   36108  in   3.5    82
+139   139TL  Telesto    2010-Oct-16 18:05   289   48494  out  5.5    99
+139   139ME  Methone    2010-Oct-16 18:39   289  105279  out  5.8    23
+139   139AE  Aegaeon    2010-Oct-16 19:17   289   96386  out  1.9    40
+139   139DI  Dione      2010-Oct-17 01:04   290   31420  out  6.8    91
+139   139RH  Rhea       2010-Oct-17 06:48   290   38483  out  7.1   100
+140   140DI  Dione      2010-Nov-09 10:56   313   99850  in  10.2    74
+140   140EN  Enceladus  2010-Nov-09 16:22   313   44990  in   6.5    50
+140*  140TI  Titan      2010-Nov-11 13:37   315    7926  out  5.6   121
+141   141HY  Hyperion   2010-Nov-28 03:29   332   71846  in   4.9    73
+141   141TI  Titan      2010-Nov-29 06:26   333  926131  in  10.5   130
+141   141AT  Atlas      2010-Nov-30 07:18   334  114368  in    .7   144
+141   141JA  Janus      2010-Nov-30 11:13   334   95616  out  2.4    29
+141*  141EN  Enceladus  2010-Nov-30 11:54   334      46  out  6.3    78
+142   142TI  Titan      2010-Dec-16 19:57   350  848609  in   3.6    91
+142   142TI  Titan      2010-Dec-20 12:17   354  893286  in   6.3    46
+142   142DI  Dione      2010-Dec-20 16:51   354  100150  in   5.9    87
+142   142PN  Pan        2010-Dec-20 20:36   354  115572  in    .4   141
+142   142PA  Pandora    2010-Dec-20 20:42   354  109113  in   1.1   143
+142   142DA  Daphnis    2010-Dec-20 23:36   354   85020  out  1.3    61
+142*  142EN  Enceladus  2010-Dec-21 01:08   355      48  out  6.2    89
+143   143PA  Pandora    2011-Jan-10 14:43   010   94713  in   1.5   133
+143   143ME  Methone    2011-Jan-10 17:23   010   85743  out  9.4   127
+143   143TI  Titan      2011-Jan-11 03:19   011  838661  out  5.9   140
+143*  143RH  Rhea       2011-Jan-11 04:53   011      70  out  8.0   101
+143   143TI  Titan      2011-Jan-14 09:20   014  772713  out  3.6    96
+144   144EP  Epimetheus 2011-Jan-31 02:15   031   68453  in   2.5   116
+144   144CA  Calypso    2011-Jan-31 03:49   031   77726  out  6.6    94
+144   144PM  Prometheus 2011-Jan-31 04:47   031  105546  out  1.1    33
+144   144EN  Enceladus  2011-Jan-31 05:52   031   60154  out  9.6   111
+144   144HE  Helene     2011-Jan-31 10:17   031   27644  out  7.5    92
+145*  145TI  Titan      2011-Feb-18 16:04   049    3651  in   5.8    62
+145   145EN  Enceladus  2011-Feb-20 14:03   051   67918  out  4.2   134
+145   145PL  Pallene    2011-Feb-20 14:49   051   92220  out  2.7    56
+145   145TE  Tethys     2011-Feb-20 17:13   051   47674  out  6.7   124
+146   146TL  Telesto    2011-Mar-20 12:14   079   10035  out  4.3    83
+147   147AE  Aegaeon    2011-Apr-17 09:12   107  118154  in    .6   109
+147   147HE  Helene     2011-Apr-17 13:39   107   69498  out  5.2    81
+147*  147TI  Titan      2011-Apr-19 05:01   109   10053  out  5.6   101
+148*  148TI  Titan      2011-May-08 22:54   128    1873  in   5.9    47
+149   149HE  Helene     2011-Jun-18 19:32   169    6972  in   4.6   102
+149   149TL  Telesto    2011-Jun-18 23:40   169   62002  in   2.8   108
+149*  149TI  Titan      2011-Jun-20 18:32   171    1359  out  5.9    73
+150   150TI  Titan      2011-Jul-09 06:59   190  627647  in   8.8   168
+150   150HE  Helene     2011-Jul-10 10:46   191   92958  in   5.6    40
+150   150JA  Janus      2011-Jul-10 15:44   191   92986  in   1.0   141
+150   150PN  Pan        2011-Jul-10 15:51   191  110206  in   0.1   138
+150   150PM  Prometheus 2011-Jul-10 17:15   191  113120  out  0.2   108
+151   151HE  Helene     2011-Aug-01 00:39   213   76572  in   9.6   129
+151   151TI  Titan      2011-Aug-01 07:08   213  983659  in  11.2    37
+151   151TL  Telesto    2011-Aug-01 08:10   213   50582  in   5.6    45
+151   151ME  Methone    2011-Aug-01 08:41   213   97432  out  5.8    81
+151   151RH  Rhea       2011-Aug-01 21:02   213    5854  out  7.7   131
+152   152EP  Epimetheus 2011-Aug-23 03:17   235   95970  in   1.1   153
+152   152AT  Atlas      2011-Aug-23 05:29   235  118349  out  0.1   104
+152   152TI  Titan      2011-Aug-24 12:11   236  585571  out  8.5   101
+152   152HY  Hyperion   2011-Aug-25 16:47   237   24979  out  5.1   107
+153*  153TI  Titan      2011-Sep-12 02:50   255    5821  in   5.8   159
+153   153RH  Rhea       2011-Sep-13 10:34   256   25416  in   8.7   141
+153   153TE  Tethys     2011-Sep-13 18:19   256   32819  in   7.3    53
+153   153PA  Pandora    2011-Sep-13 22:37   256   58109  in   2.7   154
+153   153EN  Enceladus  2011-Sep-13 22:49   256   42217  in   6.3    51
+153   153JA  Janus      2011-Sep-13 23:09   256   45580  out  3.5   109
+153   153ME  Methone    2011-Sep-14 00:48   257  119908  out 14.0   159
+153   153PL  Pallene    2011-Sep-14 01:21   257   25976  out  8.2   152
+153   153TL  Telesto    2011-Sep-14 03:53   257   23335  out  7.7    53
+153   153HY  Hyperion   2011-Sep-16 13:23   259   57978  out  4.8    84
+154   154TI  Titan      2011-Sep-28 03:23   271  679829  in   3.7    43
+154   154TI  Titan      2011-Sep-30 17:19   273  835954  in   3.1    12
+154*  154EN  Enceladus  2011-Oct-01 13:52   274      99  in   7.4   102
+154   154EP  Epimetheus 2011-Oct-01 17:31   274   67922  out  4.2    81
+154   154CA  Calypso    2011-Oct-01 21:46   274  124832  out 13.3   136
+155   155TL  Telesto    2011-Oct-19 07:36   292   25569  in   7.5    53
+155*  155EN  Enceladus  2011-Oct-19 09:22   292    1231  in   7.5   118
+156*  156EN  Enceladus  2011-Nov-06 04:59   310     496  in   7.4    74
+156   156ME  Methone    2011-Nov-06 06:37   310   19406  in   6.3   107
+156   156PA  Pandora    2011-Nov-06 08:58   310   76343  out  3.2    81
+156   156CA  Calypso    2011-Nov-06 10:00   310   86241  out  6.9    55
+157   157HE  Helene     2011-Nov-23 21:05   327  103250  in  11.4   134
+157   157EN  Enceladus  2011-Nov-24 03:03   328   34524  in   6.2    52
+157   157EP  Epimetheus 2011-Nov-24 04:44   328   51252  out  3.5   103
+157   157TI  Titan      2011-Nov-24 15:00   328  863156  out  6.1    97
+157   157TI  Titan      2011-Nov-27 23:52   331  748427  out  3.8    52
+158   158CA  Calypso    2011-Dec-12 00:26   346   91807  in   7.1    42
+158   158EN  Enceladus  2011-Dec-12 04:27   346   19908  out  6.5    41
+158   158TE  Tethys     2011-Dec-12 07:05   346   60603  out 10.8   139
+158*  158DI  Dione      2011-Dec-12 09:39   346      99  out  8.7    49
+158*  158TI  Titan      2011-Dec-13 20:11   347    3586  out  5.8   100
+159*  159TI  Titan      2012-Jan-02 15:14   002   29415  in   5.5    76
+159   159HE  Helene     2012-Jan-04 05:38   004   42192  in   8.1   112
+159   159MI  Mimas      2012-Jan-04 11:17   004  103426  in   2.0   161
+159   159JA  Janus      2012-Jan-04 12:21   004  117855  in   0.2   135
+160*  160TI  Titan      2012-Jan-30 13:40   030   31131  out  5.4    96
+161*  161TI  Titan      2012-Feb-19 08:43   050    3803  in   5.8   143
+161   161PO  Polydeuces 2012-Feb-20 22:33   051   90784  in   6.3    59
+161   161TL  Telesto    2012-Feb-21 01:14   052   55047  in   6.6    64
+161   161EN  Enceladus  2012-Feb-21 02:01   052   46669  in  10.1   100
+161   161PL  Pallene    2012-Feb-21 02:55   052   69242  in  11.0    92
+161   161PA  Pandora    2012-Feb-21 05:51   052   60385  out  2.9    87
+161   161DI  Dione      2012-Feb-21 11:10   052  119724  out  6.0    74
+161   161RH  Rhea       2012-Feb-21 17:16   052  100499  out  9.9   104
+162   162TI  Titan      2012-Mar-06 07:50   066  717800  in   3.7    56
+162   162HY  Hyperion   2012-Mar-08 01:31   068  104027  in   5.5   148
+162   162TI  Titan      2012-Mar-09 10:14   069  864023  in   4.5    16
+162   162HE  Helene     2012-Mar-09 18:49   069  109821  in  11.6   121
+162   162EN  Enceladus  2012-Mar-09 23:22   069    9176  in   7.0    75
+162   162PM  Prometheus 2012-Mar-10 02:30   070   58016  out  2.5   102
+162   162EP  Epimetheus 2012-Mar-10 03:29   070  111431  out  6.9    49
+162   162CA  Calypso    2012-Mar-10 06:36   070   47338  out  6.8    63
+162   162RH  Rhea       2012-Mar-10 15:03   070   41864  out  7.5    73
+163   163PO  Polydeuces 2012-Mar-27 15:54   087  118106  in   6.0    53
+163*  163EN  Enceladus  2012-Mar-27 18:30   087      74  in   7.5   105
+163   163PM  Prometheus 2012-Mar-27 21:01   087   62913  in   2.5   145
+163   163JA  Janus      2012-Mar-27 21:34   087   43862  out  3.2   116
+163   163DI  Dione      2012-Mar-28 05:07   088   44000  out  7.5    64
+164   164HE  Helene     2012-Apr-14 09:37   105  104849  in  11.5   121
+164   164CA  Calypso    2012-Apr-14 12:44   105   48738  in   6.7    62
+164*  164EN  Enceladus  2012-Apr-14 14:02   105      74  in   7.5   104
+164   164PM  Prometheus 2012-Apr-14 15:16   105   97622  in   2.4   166
+164   164PA  Pandora    2012-Apr-14 15:43   105   87234  in   3.3   167
+164   164TI  Titan      2012-Apr-14 18:44   105  995034  out 12.5    78
+164   164TE  Tethys     2012-Apr-14 22:06   105    9052  out  8.7   126
+164   164HY  Hyperion   2012-Apr-16 21:30   107  123216  out  5.7    87
+165   165PO  Polydeuces 2012-May-02 06:55   123  117987  in   6.0    53
+165*  165EN  Enceladus  2012-May-02 09:31   123      74  in   7.5   100
+165   165AT  Atlas      2012-May-02 13:54   123   84715  out  2.5    65
+165   165DI  Dione      2012-May-02 20:13   123    8063  out  8.5    65
+165   165TI  Titan      2012-May-03 01:17   124  834430  out  5.2   111
+165   165TI  Titan      2012-May-06 03:41   127  699949  out  3.7    65
+166   166TE  Tethys     2012-May-20 02:15   141   53806  in   6.6    62
+166   166EN  Enceladus  2012-May-20 03:03   141   70352  in  11.4   102
+166   166DA  Daphnis    2012-May-20 03:58   141  115206  in   1.4   161
+166   166PM  Prometheus 2012-May-20 04:33   141  100888  in   2.6   164
+166   166PN  Pan        2012-May-20 06:03   141   63574  in   2.2   137
+166   166ME  Methone    2012-May-20 06:57   141    1863  out  5.1   126
+166   166MI  Mimas      2012-May-20 08:04   141  113321  out 13.7   148
+166   166PL  Pallene    2012-May-20 08:57   141   75139  out 11.3   142
+166   166TL  Telesto    2012-May-20 11:31   141   11015  out  8.9   128
+166*  166TI  Titan      2012-May-22 01:10   143     955  out  5.9    71
+167   167PL  Pallene    2012-Jun-05 02:32   157   74747  in  12.1    93
+167   167PM  Prometheus 2012-Jun-05 03:01   157   99959  in   5.7   161
+167   167PA  Pandora    2012-Jun-05 04:22   157   49933  in   5.5   126
+167   167MI  Mimas      2012-Jun-05 05:08   157   43555  out  7.2   114
+167   167DA  Daphnis    2012-Jun-05 05:13   157   75878  out  7.1    74
+167   167AT  Atlas      2012-Jun-05 05:35   157  100378  out  8.7    60
+167*  167TI  Titan      2012-Jun-07 00:07   159     959  out  5.9    75
+168   168TI  Titan      2012-Jun-27 06:58   179  458663  in   5.6    97
+168   168TE  Tethys     2012-Jun-28 21:09   180   68474  in   7.7    80
+169   169HE  Helene     2012-Jul-22 21:21   204  110968  in   6.0    91
+169*  169TI  Titan      2012-Jul-24 20:03   206    1012  out  5.9    58
+170   170TL  Telesto    2012-Aug-12 21:46   225   92901  in   7.9   103
+171   171TI  Titan      2012-Sep-02 19:44   246  784736  in   7.2    39
+172*  172TI  Titan      2012-Sep-26 14:36   270     956  out  5.9    47
+174*  174TI  Titan      2012-Nov-13 10:22   318     973  out  5.9    68
+175*  175TI  Titan      2012-Nov-29 08:57   334    1014  out  5.9    44
+176   176TI  Titan      2012-Dec-09 23:16   344  906852  in   8.1    85
+176   176TI  Titan      2012-Dec-15 13:50   350  899666  out  4.6   103
+177   177TI  Titan      2012-Dec-22 17:28   357  714543  in   8.1    31
+177   177RH  Rhea       2012-Dec-22 23:07   357   22880  in   9.1    43
+181*  181TI  Titan      2013-Feb-17 01:57   048    1978  out  5.8    35
+182   182TI  Titan      2013-Feb-25 17:27   056  707386  in   8.4    41
+183*  183RH  Rhea       2013-Mar-09 18:17   068     997  in   9.3   138
+185*  185TI  Titan      2013-Apr-05 21:44   095    1400  out  5.8    69
+186   186TI  Titan      2013-Apr-12 03:48   102  939362  in  10.1    50
+186   186PO  Polydeuces 2013-Apr-12 07:45   102  115510  in  11.5   126
+188   188TI  Titan      2013-May-01 13:43   121  900101  in  10.7    59
+189   189TI  Titan      2013-May-07 16:25   127  908114  in   6.3   127
+190*  190TI  Titan      2013-May-23 17:33   143     970  out  5.9    50
+191   191TI  Titan      2013-May-31 13:54   151  568226  in   7.6    27
+194*  194TI  Titan      2013-Jul-10 13:22   191     964  out  5.9    46
+195   195TI  Titan      2013-Jul-20 02:45   201  889473  in   6.2   111
+195*  195TI  Titan      2013-Jul-26 11:56   207    1400  out  5.8    58
+197   197TI  Titan      2013-Sep-04 21:26   247  531399  in   4.7   126
+197*  197TI  Titan      2013-Sep-12 07:44   255    1400  out  5.8    21
+198*  198TI  Titan      2013-Oct-14 04:56   287     961  out  5.9    25
+199*  199TI  Titan      2013-Dec-01 00:41   335    1400  in   5.8    50
+200*  200TI  Titan      2014-Jan-01 22:00   001    1400  in   5.8    35
+200   200TI  Titan      2014-Jan-09 10:02   009  810301  out  4.3   169
+201*  201TI  Titan      2014-Feb-02 19:13   033    1236  in   5.9    44
+201   201TI  Titan      2014-Feb-10 13:05   041  887334  out  4.1   134
+202*  202TI  Titan      2014-Mar-06 16:27   065    1500  in   5.8    53
+203*  203TI  Titan      2014-Apr-07 13:41   097     963  in   5.9    60
+204*  204TI  Titan      2014-May-17 16:12   137    2994  out  5.7   158
+205*  205TI  Titan      2014-Jun-18 13:28   169    3659  out  5.6   165
+206*  206TI  Titan      2014-Jul-20 10:41   201    5103  out  5.6   171
+207   207TI  Titan      2014-Aug-13 12:08   225  959146  in   4.2    34
+207*  207TI  Titan      2014-Aug-21 08:09   233     964  out  5.8    12
+208*  208TI  Titan      2014-Sep-22 05:23   265    1400  out  5.8    21
+209*  209TI  Titan      2014-Oct-24 02:41   297    1013  out  5.8    31
+210*  210TI  Titan      2014-Dec-10 22:27   344     980  out  5.8    56
+211*  211TI  Titan      2015-Jan-11 19:49   011     970  out  5.8    46
+212   212RH  Rhea       2015-Feb-10 06:46   041   46936  in   5.3   108
+212*  212TI  Titan      2015-Feb-12 17:08   043    1200  out  5.8    55
+213   213HE  Helene     2015-Mar-14 11:09   073   58238  in   5.4    80
+213   213CA  Calypso    2015-Mar-14 15:28   073  101443  in   3.3    84
+213*  213TI  Titan      2015-Mar-16 14:30   075    2275  out  5.7    70
+214   214TI  Titan      2015-Apr-11 17:55   101  899021  out  8.8   132
+214   214TE  Tethys     2015-Apr-11 17:58   101   52863  out  3.5    32
+214   214DI  Dione      2015-Apr-11 23:22   101  110133  out  8.0    28
+215*  215TI  Titan      2015-May-07 22:50   127    2722  in   5.7    34
+215   215AE  Aegaeon    2015-May-09 16:51   129   92552  in   1.6    28
+215   215DA  Daphnis    2015-May-09 17:24   129  113729  in   0.1    43
+215   215TL  Telesto    2015-May-09 17:53   129   46450  in   5.3   126
+215   215PO  Polydeuces 2015-May-10 01:12   130   33998  out  6.6   130
+216   216TI  Titan      2015-May-28 10:24   148  942020  in   9.3   147
+216   216TL  Telesto    2015-May-28 14:09   148   44720  in   5.3   127
+216   216HY  Hyperion   2015-May-31 13:36   151   34284  out  4.3    70
+217   217PO  Polydeuces 2015-Jun-16 05:25   167   34794  in   6.6   121
+217   217ME  Methone    2015-Jun-16 11:40   167  109537  in   5.3    26
+217   217PN  Pan        2015-Jun-16 11:56   167  118209  in   0.3    41
+217   217AT  Atlas      2015-Jun-16 12:30   167  111240  in   0.0    50
+217   217JA  Janus      2015-Jun-16 13:38   167  101448  out  0.8    72
+217   217TL  Telesto    2015-Jun-16 13:40   167   44152  out  5.3   127
+217   217TI  Titan      2015-Jun-16 18:23   167  957887  out  8.8    97
+217*  217DI  Dione      2015-Jun-16 20:12   167     516  out  7.3    58
+218   218PN  Pan        2015-Jul-05 11:47   186  115975  out  0.3    64
+218   218TL  Telesto    2015-Jul-05 14:53   186   14173  out  5.8   127
+218*  218TI  Titan      2015-Jul-07 08:10   188   10953  out  5.6    78
+219   219TI  Titan      2015-Jul-25 22:36   206  729261  in   9.2    31
+219   219DI  Dione      2015-Jul-27 00:56   208   60519  in   5.1   120
+219   219EN  Enceladus  2015-Jul-27 06:18   208  111419  out  6.7    24
+220*  220DI  Dione      2015-Aug-17 18:33   229     474  in   6.4    67
+220   220TE  Tethys     2015-Aug-17 21:56   229   41892  in   6.3    82
+220   220EN  Enceladus  2015-Aug-18 01:17   230   53166  in   3.3    78
+220   220ME  Methone    2015-Aug-18 01:35   230   89808  out  1.6    61
+220   220TI  Titan      2015-Aug-18 01:53   230  960427  out 10.1   120
+220   220HE  Helene     2015-Aug-18 08:33   230  113493  out  9.4    46
+221   221DI  Dione      2015-Sep-08 14:33   251   41945  in   7.6    67
+221   221HE  Helene     2015-Sep-09 04:53   252   82941  out  8.6    45
+221   221TI  Titan      2015-Sep-10 06:21   253  706922  out  9.1    89
+222*  222TI  Titan      2015-Sep-28 21:37   271    1036  in   5.8    42
+222   222DI  Dione      2015-Sep-30 08:41   273   40826  in  10.1    63
+222   222CA  Calypso    2015-Sep-30 11:04   273   43883  in  10.8    72
+222   222MI  Mimas      2015-Sep-30 14:12   273   64816  in  11.8    93
+222   222TE  Tethys     2015-Sep-30 16:59   273  117361  out  8.5   106
+222   222AE  Aegaeon    2015-Sep-30 17:35   273   79771  out 12.1    40
+222   222TL  Telesto    2015-Sep-30 21:15   273  117964  out 13.7    68
+222   222RH  Rhea       2015-Oct-01 04:26   274   57871  out  9.3    85
+223   223TI  Titan      2015-Oct-13 12:43   286  826227  in  10.1    31
+223   223PO  Polydeuces 2015-Oct-14 06:50   287  115856  in  12.3    61
+223*  223EN  Enceladus  2015-Oct-14 10:42   287    1839  in   8.5    63
+223   223ME  Methone    2015-Oct-14 11:54   287   39960  in   9.9    89
+223   223PM  Prometheus 2015-Oct-14 13:44   287  120126  in  12.6    25
+223   223HE  Helene     2015-Oct-14 20:59   287  117105  out  6.0   102
+224   224PO  Polydeuces 2015-Oct-28 04:12   301   84470  in   7.0   116
+224   224TL  Telesto    2015-Oct-28 07:18   301   59686  in   6.9   113
+224   224DA  Daphnis    2015-Oct-28 11:25   301   73316  in   6.3    26
+224   224PN  Pan        2015-Oct-28 12:32   301   64881  out  4.7   116
+224*  224EN  Enceladus  2015-Oct-28 15:23   301      49  out  8.5   118
+224   224HE  Helene     2015-Oct-28 19:26   301   78795  out 11.1    77
+224   224TI  Titan      2015-Oct-29 14:05   302  800186  out 10.0   112
+225   225CA  Calypso    2015-Nov-11 07:21   315  104480  in   7.5   122
+225   225PN  Pan        2015-Nov-11 07:22   315  111577  in   3.6    29
+225   225PA  Pandora    2015-Nov-11 09:31   315  107617  out 12.3   118
+225   225TE  Tethys     2015-Nov-11 14:42   315    8362  out  8.8   100
+225*  225TI  Titan      2015-Nov-13 05:47   317   11920  out  5.5    92
+226   226TE  Tethys     2015-Nov-23 21:57   327   17504  in   9.2   113
+226   226AT  Atlas      2015-Nov-24 02:33   328  104361  in  16.5   102
+226   226DA  Daphnis    2015-Nov-24 02:35   328   77508  in  13.1   104
+226   226ME  Methone    2015-Nov-24 05:46   328   37687  out 11.6    56
+226   226TI  Titan      2015-Nov-30 05:57   334  753128  out  4.0   113
+227   227EP  Epimetheus 2015-Dec-06 20:38   340    2621  out  5.5    65
+227   227AT  Atlas      2015-Dec-06 20:56   340   21486  out  5.9    46
+227   227PM  Prometheus 2015-Dec-06 21:03   340   22201  out  6.5    45
+228   228TI  Titan      2015-Dec-17 13:23   351  148654  in   4.7   130
+228   228AE  Aegaeon    2015-Dec-19 12:59   353    2544  in   6.9    84
+228*  228EN  Enceladus  2015-Dec-19 17:49   353    4999  out  9.5   114
+228   228CA  Calypso    2015-Dec-19 19:11   353   91785  out 13.4    69
+229   229RH  Rhea       2015-Dec-31 22:31   365   24491  in   9.0    42
+229   229AE  Aegaeon    2016-Jan-01 08:59   001   93625  in  15.7    88
+229   229PN  Pan        2016-Jan-01 10:14   001   97040  in  14.7   107
+229   229PA  Pandora    2016-Jan-01 11:28   001  107833  out 16.6    36
+229   229ME  Methone    2016-Jan-01 12:10   001   27766  out  7.1   120
+229   229TE  Tethys     2016-Jan-01 15:52   001   38851  out 11.3    68
+230   230CA  Calypso    2016-Jan-14 02:03   014  115035  in  14.3    61
+230   230EN  Enceladus  2016-Jan-14 03:20   014   72221  in  13.4    70
+230   230MI  Mimas      2016-Jan-14 06:06   014   27543  in   7.0   105
+230   230AT  Atlas      2016-Jan-14 06:20   014   93367  in  14.7   103
+230   230DA  Daphnis    2016-Jan-14 07:15   014   23051  out  5.4    47
+230   230TL  Telesto    2016-Jan-14 12:15   014   14031  out  9.3   115
+230*  230TI  Titan      2016-Jan-16 02:21   016    3817  out  5.7    99
+231   231PN  Pan        2016-Jan-30 07:21   030  116654  out  0.6   129
+231   231PO  Polydeuces 2016-Jan-30 11:12   030  104765  out  5.9   105
+231*  231TI  Titan      2016-Feb-01 01:01   032    1400  out  5.8   120
+232   232PO  Polydeuces 2016-Feb-14 20:17   045   77354  in   7.8    96
+232   232TL  Telesto    2016-Feb-15 00:15   046   48862  in   6.7   103
+232   232EP  Epimetheus 2016-Feb-15 00:25   046  116042  in   4.5    26
+232   232EN  Enceladus  2016-Feb-15 05:01   046   83952  out  8.0    74
+232*  232TI  Titan      2016-Feb-16 23:52   047    1018  out  5.9   122
+233   233TI  Titan      2016-Mar-08 08:01   068  425884  in   6.1    76
+234*  234TI  Titan      2016-Apr-04 19:48   095     990  out  5.9   138
+235*  235TI  Titan      2016-May-06 17:01   127     971  out  5.9   138
+236*  236TI  Titan      2016-Jun-07 14:13   159     975  out  5.9   124
+238*  238TI  Titan      2016-Jul-25 10:05   207     976  out  5.9   101
+239*  239TI  Titan      2016-Aug-10 08:38   223    1599  out  5.8    92
+240   240TI  Titan      2016-Aug-19 06:48   232  826334  in   8.5   110
+241   241TI  Titan      2016-Aug-30 14:13   243  985764  in   8.0    91
+243   243PO  Polydeuces 2016-Sep-24 03:54   268  110203  in   9.4    40
+243*  243TI  Titan      2016-Sep-27 04:23   271    1737  out  5.8    88
+244   244TI  Titan      2016-Oct-03 17:31   277  876961  in  10.4   144
+244   244HE  Helene     2016-Oct-03 21:56   277  106507  in  12.5   128
+246   246TL  Telesto    2016-Oct-23 01:32   297   58910  in  12.1    71
+247   247TI  Titan      2016-Oct-29 08:56   303  860405  in   5.6    41
+247   247TL  Telesto    2016-Nov-01 13:35   306  104063  in  11.7    22
+247   247PO  Polydeuces 2016-Nov-01 13:38   306  106986  in  11.3    71
+248   248TE  Tethys     2016-Nov-11 05:17   316  102344  in  12.8   101
+248*  248TI  Titan      2016-Nov-14 00:02   319    1582  out  5.8    80
+249   249MI  Mimas      2016-Nov-19 07:36   324   47202  in  15.7    18
+249   249DA  Daphnis    2016-Nov-19 08:16   324   86038  in  17.5    56
+249   249ME  Methone    2016-Nov-19 08:24   324   72424  in  17.2   103
+249   249PA  Pandora    2016-Nov-19 08:44   324   94774  in  17.9    78
+250   250EP  Epimetheus 2016-Nov-27 06:33   332   86128  in  16.7    10
+250   250EN  Enceladus  2016-Nov-27 06:55   332   21993  in  15.6   103
+250*  250TI  Titan      2016-Nov-29 22:21   334    3223  out  5.7    82
+251   251ME  Methone    2016-Dec-04 13:10   339   50541  in  19.4   110
+251   251PN  Pan        2016-Dec-04 13:39   339   56411  out 21.6   103
+252   252PM  Prometheus 2016-Dec-11 16:54   346  104160  in  21.6    43
+252   252PL  Pallene    2016-Dec-11 17:31   346   94629  in  20.3   132
+253   253TI  Titan      2016-Dec-15 21:53   350  343212  in   5.3    58
+253   253AE  Aegaeon    2016-Dec-18 21:16   353   98495  in  20.7    60
+253   253PA  Pandora    2016-Dec-18 21:41   353   15918  in  20.4    87
+253   253JA  Janus      2016-Dec-18 22:09   353  109835  out 23.4   109
+253   253PN  Pan        2016-Dec-18 22:13   353   92857  out 23.2   107
+254   254EN  Enceladus  2016-Dec-26 01:33   361   88378  in  19.2   135
+254   254MI  Mimas      2016-Dec-26 01:36   361   40958  in  19.4   114
+254   254AE  Aegaeon    2016-Dec-26 01:41   361   32042  in  20.2   138
+255   255TI  Titan      2016-Dec-31 12:17   366  681772  in   7.2    29
+255   255DA  Daphnis    2017-Jan-02 06:11   002   98414  out 23.4   107
+256   256AT  Atlas      2017-Jan-09 08:47   009  104357  in  21.8    44
+256   256EP  Epimetheus 2017-Jan-09 09:07   009   71345  in  20.6    54
+256   256DA  Daphnis    2017-Jan-09 09:47   009   55381  in  21.6   104
+256   256PM  Prometheus 2017-Jan-09 10:00   009   92547  out 23.1   107
+257   257JA  Janus      2017-Jan-16 12:43   016  117699  in  21.9    49
+257   257AT  Atlas      2017-Jan-16 13:10   016   27754  in  20.3    31
+257   257PL  Pallene    2017-Jan-16 13:14   016   62780  in  19.6   149
+257   257DA  Daphnis    2017-Jan-16 13:22   016   17510  in  20.5    67
+257   257TI  Titan      2017-Jan-17 18:30   017  724314  out  9.3    96
+258   258DA  Daphnis    2017-Jan-23 16:58   023   39077  in  20.4    37
+258   258EN  Enceladus  2017-Jan-23 17:01   023  124117  in  20.2   129
+258   258PA  Pandora    2017-Jan-23 17:18   023   21826  in  20.6    95
+258   258AT  Atlas      2017-Jan-23 17:32   023   56456  out 21.6   104
+259   259DA  Daphnis    2017-Jan-30 20:36   030   86078  in  21.2    44
+259   259MI  Mimas      2017-Jan-30 21:06   030   40650  in  19.7   111
+259   259EP  Epimetheus 2017-Jan-30 21:07   030    6336  in  20.1    75
+259   259PM  Prometheus 2017-Jan-30 21:26   030   49523  in  21.4   104
+259   259TI  Titan      2017-Feb-01 20:04   032  221021  out  6.3    91
+260   260PN  Pan        2017-Feb-07 00:52   038   96013  in  21.5    43
+260   260JA  Janus      2017-Feb-07 01:02   038   91389  in  21.0    53
+260   260ME  Methone    2017-Feb-07 01:34   038   84152  in  20.7   125
+261   261AE  Aegaeon    2017-Feb-14 05:46   045   75204  in  20.1    68
+261   261ME  Methone    2017-Feb-14 05:54   045   69478  in  19.5    95
+261   261TI  Titan      2017-Feb-17 13:17   048  186411  out  5.1    77
+262   262PN  Pan        2017-Feb-21 09:40   052   74052  in  21.0    43
+262   262PM  Prometheus 2017-Feb-21 09:43   052   71017  in  20.8    48
+262   262EP  Epimetheus 2017-Feb-21 10:04   052   10922  in  20.1    75
+262   262PL  Pallene    2017-Feb-21 10:04   052  106282  in  19.8    91
+262   262AE  Aegaeon    2017-Feb-21 10:15   052   50979  in  20.7   124
+263   263JA  Janus      2017-Feb-28 13:48   059   92878  in  21.1    55
+263   263PA  Pandora    2017-Feb-28 13:56   059   54388  in  20.5    49
+264   264TI  Titan      2017-Mar-05 11:54   064  492380  in   5.9    42
+264   264MI  Mimas      2017-Mar-07 18:02   066  102121  in  20.7    74
+264   264PN  Pan        2017-Mar-07 18:07   066   25230  in  20.4    26
+265   265EP  Epimetheus 2017-Mar-14 22:18   073   37954  in  21.0   113
+265   265PA  Pandora    2017-Mar-14 22:47   073  113308  out 24.1   104
+266   266TI  Titan      2017-Mar-20 17:41   079  874275  in   8.7    32
+266   266JA  Janus      2017-Mar-22 01:47   081   44119  in  20.2    64
+266   266PL  Pallene    2017-Mar-22 01:57   081  106706  in  20.7   122
+266   266PN  Pan        2017-Mar-22 02:21   081   54778  out 21.7    99
+266   266TI  Titan      2017-Mar-23 00:23   082  955007  out 11.3    97
+267   267EN  Enceladus  2017-Mar-29 05:47   088   93150  in  19.3   134
+267   267MI  Mimas      2017-Mar-29 06:08   088  121089  in  22.8   108
+268   268AT  Atlas      2017-Apr-05 09:17   095   69808  in  20.9    49
+268   268PA  Pandora    2017-Apr-05 09:30   095   36623  in  20.3    50
+268   268EP  Epimetheus 2017-Apr-05 10:12   095  110692  out 23.7   103
+268   268TI  Titan      2017-Apr-06 22:19   096  477728  out  7.7    89
+269   269MI  Mimas      2017-Apr-12 13:27   102   97950  in  20.8    76
+269   269AE  Aegaeon    2017-Apr-12 13:37   102   20762  in  19.9   120
+269   269JA  Janus      2017-Apr-12 13:42   102    8702  in  20.2   126
+269   269AT  Atlas      2017-Apr-12 13:43   102   13018  in  20.5    53
+269   269PM  Prometheus 2017-Apr-12 14:10   102   85208  out 22.8   103
+270   270ME  Methone    2017-Apr-19 17:47   109   89168  in  20.9   120
+270   270AE  Aegaeon    2017-Apr-19 18:05   109  111087  in  22.8   105
+270   270AT  Atlas      2017-Apr-19 18:12   109   73558  out 22.4   102
+270   270PA  Pandora    2017-Apr-19 18:25   109  120175  out 24.4   101
+270   270DA  Daphnis    2017-Apr-19 18:29   109  117495  out 24.5   101
+270*  270TI  Titan      2017-Apr-22 06:20   112     979  out  5.8    61
+271   271JA  Janus      2017-Apr-26 09:32   116   99451  in  29.6   129
+271   271AT  Atlas      2017-Apr-26 09:40   116   73423  in  29.8   149
+271   271DA  Daphnis    2017-Apr-26 09:47   116   83092  out 29.8   119
+271   271EP  Epimetheus 2017-Apr-26 09:50   116  104022  out 29.5   110
+272   272DA  Daphnis    2017-May-02 20:38   122   77502  in  29.9   140
+272   272PM  Prometheus 2017-May-02 20:43   122   75621  in  29.8   147
+273   273TI  Titan      2017-May-07 21:25   127  487627  in   7.1    30
+273   273DA  Daphnis    2017-May-09 07:22   129  119645  in  30.1    84
+273   273PN  Pan        2017-May-09 07:24   129  114591  in  30.5    87
+273   273PA  Pandora    2017-May-09 07:41   129   78916  in  29.9   145
+273   273TI  Titan      2017-May-09 22:18   129  979143  out 12.6    90
+274   274EP  Epimetheus 2017-May-15 18:29   135   86900  in  29.8   149
+274   274PN  Pan        2017-May-15 18:35   135   75369  in  29.9   132
+274   274PM  Prometheus 2017-May-15 18:38   135   86566  out 29.9   122
+274   274AE  Aegaeon    2017-May-15 18:44   135  122962  out 29.2   111
+274   274AT  Atlas      2017-May-15 18:58   135  122382  out 27.6    80
+275   275AT  Atlas      2017-May-22 05:17   142   86906  in  30.1   124
+275   275JA  Janus      2017-May-22 05:34   142  106568  out 29.5   112
+275   275AE  Aegaeon    2017-May-22 05:35   142  119541  out 29.4   117
+275   275TI  Titan      2017-May-24 01:09   144  138386  out  6.0    69
+276   276PA  Pandora    2017-May-28 16:39   148  105699  in  29.7   101
+276   276MI  Mimas      2017-May-28 16:57   148  123194  in  29.8   138
+276   276AE  Aegaeon    2017-May-28 17:06   148  124633  out 28.7   111
+276   276PM  Prometheus 2017-May-28 17:15   148  119190  out 28.0    86
+277   277PN  Pan        2017-Jun-04 04:08   155  118610  in  30.4    78
+277   277EP  Epimetheus 2017-Jun-04 04:18   155   96804  in  29.3   127
+277   277PA  Pandora    2017-Jun-04 04:51   155  123547  out 27.3    86
+278   278TI  Titan      2017-Jun-08 19:58   159  348740  in   6.0    40
+278   278PN  Pan        2017-Jun-10 16:00   161   83534  out 29.7   120
+278   278JA  Janus      2017-Jun-10 16:03   161  104086  out 29.4   117
+279   279PM  Prometheus 2017-Jun-17 03:02   168   99197  in  30.0   104
+279   279AT  Atlas      2017-Jun-17 03:11   168   73610  in  29.7   149
+279   279DA  Daphnis    2017-Jun-17 03:33   168  115699  out 28.4    90
+280   280EP  Epimetheus 2017-Jun-23 14:18   174  110307  in  29.2   106
+280   280DA  Daphnis    2017-Jun-23 14:37   174   81602  out 29.7   131
+280   280PA  Pandora    2017-Jun-23 14:39   174   93142  out 29.6   121
+280   280TI  Titan      2017-Jun-25 00:29   176  337630  out  7.2    68
+281   281PN  Pan        2017-Jun-30 01:50   181   99098  in  30.2    95
+281   281DA  Daphnis    2017-Jun-30 01:59   181   72750  in  29.6   146
+281   281PM  Prometheus 2017-Jun-30 02:02   181   74772  in  29.6   150
+281   281JA  Janus      2017-Jun-30 02:08   181   95763  out 29.5   132
+282   282DA  Daphnis    2017-Jul-06 13:27   187   92894  in  29.9   105
+282   282PN  Pan        2017-Jul-06 13:51   187  103529  out 29.2   101
+283   283TI  Titan      2017-Jul-10 14:24   191  248003  in   5.3    61
+283   283EP  Epimetheus 2017-Jul-13 00:48   194  115283  in  29.1    96
+283   283PA  Pandora    2017-Jul-13 01:04   194   79036  in  29.8   149
+283   283AT  Atlas      2017-Jul-13 01:07   194   81706  in  29.8   137
+283   283PM  Prometheus 2017-Jul-13 01:21   194  113404  out 28.6    99
+284   284AT  Atlas      2017-Jul-19 12:05   200  119506  in  30.0    73
+284   284JA  Janus      2017-Jul-19 12:28   200   93420  in  29.8   141
+285   285TI  Titan      2017-Jul-25 03:32   206  908206  in  10.3    56
+285   285PN  Pan        2017-Jul-25 23:36   206   80830  in  30.1   117
+285   285TI  Titan      2017-Jul-27 02:27   208  548225  out  8.6    68
+286   286PM  Prometheus 2017-Aug-01 10:49   213  112062  in  29.9    81
+286   286PA  Pandora    2017-Aug-01 10:58  213    86495  in  29.8   120
+286   286PN  Pan        2017-Aug-01 11:30   213  117678  out 27.7    93
+287   287JA  Janus      2017-Aug-07 22:34   219   89526  in  29.8   151
+287   287AT  Atlas      2017-Aug-07 22:41   219   95484  out 29.6   121
+287   287EP  Epimetheus 2017-Aug-07 22:49   219  119569  out 28.6   112
+288   288TI  Titan      2017-Aug-11 04:56   223  175335  in   5.0    82
+288   288AT  Atlas      2017-Aug-14 09:27   226  106194  in  30.2    84
+288   288PM  Prometheus 2017-Aug-14 09:37   226   79223  in  30.1   136
+289   289PA  Pandora    2017-Aug-20 20:33   232  123227  in  29.4    68
+289   289PN  Pan        2017-Aug-20 20:49   232   76464  in  30.2   125
+289   289DA  Daphnis    2017-Aug-20 21:15   232  114862  out 28.2   102
+290   290TI  Titan      2017-Aug-26 06:26   238  736693  in   8.8    54
+290   290JA  Janus      2017-Aug-27 07:59   239   91099  in  30.1   138
+290   290DA  Daphnis    2017-Aug-27 08:07   239   80365  in  30.1   146
+290   290PM  Prometheus 2017-Aug-27 08:08   239   85862  in  30.0   143
+290   290EP  Epimetheus 2017-Aug-27 08:09   239   99174  out 30.1   143
+290   290PA  Pandora    2017-Aug-27 08:13   239   98878  out 29.8   127
+290   290PN  Pan        2017-Aug-27 08:30   239  118846  out 27.1    97
+290   290TI  Titan      2017-Aug-28 05:11   240  743277  out 10.2    67
+291   291DA  Daphnis    2017-Sep-02 19:05   245   80664  in  30.2   120
+291   291AT  Atlas      2017-Sep-02 19:20   245   93590  out 29.9   129
+292   292DA  Daphnis    2017-Sep-09 06:04   252  116735  in  30.2    66
+292   292AT  Atlas      2017-Sep-09 06:07   252  108631  in  30.2    77
+292   292PM  Prometheus 2017-Sep-09 06:43   252  115848  out 28.2   108
+292   292TI  Titan      2017-Sep-11 19:15   254   84333  out  5.2    80
+293   293JA  Janus      2017-Sep-15 16:49   258  111960  in  29.8    92
+293   293PN  Pan        2017-Sep-15 16:53   258   91909  in  30.7    94
+293   293PA  Pandora    2017-Sep-15 16:57   258   87059  in  30.6   123
+293   293EP  Epimetheus 2017-Sep-15 16:58   258   92434  in  30.7   133
+
+END OF MISSION  2017-09-15 TBD
+                2017-258
+
+----------------------------------------------------------------------
+The Cassini navigation team has discovered that it is possible to move
+the spacecraft orbit's inner ring-plane crossing all the way over
+Saturn's entire main ring system, from just beyond the F ring, to the
+cleared gap between Saturn's upper atmosphere and inner portion of the
+main rings, using one single Titan flyby.  So far, it has been
+impossible to get very close to Saturn itself due to the presence of
+the main rings out to over 140,000 km from the center of Saturn. During
+SOI the spacecraft passed 18,000 km from the cloud tops, and that is
+the closest the project ever expected to get to the planet and rings,
+enabled by the hyperbolic approach trajectory. It was thought that
+there was no feasible way to construct an orbit with reasonable period
+that gets any closer to Saturn and yet does not pass through the main
+rings - the implementation of which would undoubtedly destroy the
+spacecraft. No safe gaps in the main ring system exist that could be
+employed as intermediate steps.
+
+This proximal orbit geometry is implemented by raising the orbit
+inclination to a moderately high level (~63 degrees) and placing the
+inner ring-plane crossing barely but safely outside the main rings. The
+other ring-plane crossing is located at Titan, as usual, since Cassini
+must continually encounter Titan to employ its significant gravity
+assist resources. Then, with one flyby, the orbit is altered to move
+the ring-plane crossing to between 2,000 to 5,000 above the 'cloud
+tops' of Saturn (1 bar level). The environment is known well enough for
+the project to conclude with sufficient confidence that the risk of
+debris impact or atmospheric tumbling is acceptably small. Furthermore,
+the radiation environment is not significantly different from that
+experienced during SOI.
+
+The proposed end phase includes 22 orbits in this region, called
+proximal orbits.  This Juno-like mission phase offers significant
+unique science opportunities for Cassini, including gravity mapping
+measurements, high resolution ring observations, and in-situ
+measurements of Saturn's atmosphere.
+
+Final disposal of the spacecraft will take place within Saturn's
+atmosphere on 15 September 2017. This entire trajectory, starting after
+the last targeted proximal-injecting Titan flyby, is entirely
+ballistic, requiring no further maneuvers. In other words, the end of
+mission is assured regardless of the spacecraft condition. It is
+anticipated that this disposal strategy will be acceptable for
+Planetary Protection.
+
+            END OF MISSION
+            --------------"
+
+
+    MISSION_OBJECTIVES_SUMMARY    = "
+
+    CASSINI-HUYGENS MISSION OBJECTIVES
+    ==================================
+
+The Cassini-Huygens mission will accomplish a variety of scientific
+objectives en route to and at Saturn [JPL D-5564].
+
+While en route to Saturn, Cassini performed three sets of Gravitational
+Wave Experiments (GWEs), each scheduled near opposition and each lasting
+approximately 40 days.  During these observations, Cassini acted as a point
+mass which would be perturbed by propagating gravitational waves resulting
+from sudden destruction (or creation) of large masses in the general
+direction of the spacecraft-to-Earth line.
+
+While en route to Saturn, Cassini was also used in two Solar Conjunction
+Experiments (SCEs), each lasting approximately 30 days.  The objectives of
+these observations was to test general relativity and to improve our
+understanding of the solar corona.
+
+The general scientific objectives of the Cassini mission at Saturn were to
+investigate the physical, chemical, and temporal characteristics of Titan
+and of Saturn, its atmosphere, rings, icy satellites, and magnetosphere.
+These are listed more specifically below:
+
+Saturn (Planet) Objectives.
+--------------------------
+
+a) Determine temperature field, cloud properties, and composition of the
+atmosphere of Saturn.
+
+b) Measure the global wind field, including wave and eddy components;
+observe synoptic cloud features and processes.
+
+c) Infer the internal structure and rotation of the deep atmosphere.
+
+d) Study the diurnal variations and magnetic control of the ionosphere of
+Saturn.
+
+e) Provide observational constraints (gas composition, isotope ratios, and
+heat flux, etc.) on scenarios for the formation and the evolution of Saturn.
+
+f) Investigate the sources and the morphology of Saturn lightning, Saturn
+Electrostatic Discharges (SED), and whistlers.
+
+
+Titan Objectives.
+----------------
+
+a) Determine abundance of atmospheric constituents (including any noble
+gases), establish isotope ratios for abundant elements, constrain scenarios
+of formation and evolution of Titan and its atmosphere.
+
+b) Observe vertical and horizontal distributions of trace gases, search for
+more complex organic molecules, investigate energy sources for atmospheric
+chemistry, and model the photochemistry of the stratosphere, study
+formation and composition of aerosols.
+
+c) Measure winds and global temperatures; investigate cloud physics,
+general circulation, and seasonal effects in Titan's atmosphere; search for
+lightning discharges.
+
+d) Determine the physical state, topography, and composition of the
+surface; infer the internal structure of the satellite.
+
+e) Investigate the upper atmosphere, its ionization, and its role as a
+source of neutral and ionized material for magnetosphere of Saturn.
+
+
+Ring Objectives.
+---------------
+
+a) Study configuration of the rings and dynamical processes (gravitational,
+viscous, erosional, and electromagnetic) responsible for ring structure.
+
+b) Map composition and size distribution of ring material.
+
+c) Investigate interrelation of rings and satellites, including embedded
+satellites.
+
+d) Determine dust and meteoroid distribution in the vicinity of the rings.
+
+e) Study interactions between the rings and Saturn's magnetosphere,
+ionosphere, and atmosphere.
+
+
+Icy Satellite Objectives.
+------------------------
+
+a) Determine the general characteristics and geological histories of the
+satellites.
+
+b) Define the mechanisms of crustal and surface modifications, both
+external and internal.
+
+c) Investigate the compositions and distributions of surface materials,
+particularly dark, organic rich materials and low melting point condensed
+volatiles.
+
+d) Constrain models of the satellites' bulk compositions and internal
+structures.
+
+e) Investigate interactions with the magnetosphere and ring systems and
+possible gas injections into the magnetosphere.
+
+
+Magnetosphere Objectives
+------------------------
+
+a) Determine the configuration of the nearly axially symmetric magnetic
+field and its relation to the modulation of Saturn Kilometric Radiation
+(SKR).
+
+b) Determine current systems, composition, sources, and sinks of
+magnetosphere charged particles.
+
+c) Investigate wave-particle interactions and dynamics of the dayside
+magnetosphere and the magnetotail of Saturn and their interactions with the
+solar wind, the satellites, and the rings.
+
+d) Study the effect of Titan's interaction with the solar wind and
+magnetospheric plasma.
+
+e) Investigate interactions of Titan's atmosphere and exosphere with the
+surrounding plasma."
+
+END_OBJECT                      = MISSION_INFORMATION
+
+OBJECT                          = MISSION_HOST
+  INSTRUMENT_HOST_ID            = "CO"
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "AEGAEON"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ALBIORIX"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ANTHE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ATLAS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "BEBHIONN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "BERGELMIR"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "BESTLA"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "CALLISTO"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "CALYPSO"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "DAPHNIS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "DIONE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "DUST"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "EARTH"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ENCELADUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "EPIMETHEUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ERRIAPO"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "ERRIAPUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "EUROPA"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "FOMALHAUT"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "FORNJOT"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "GANYMEDE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "GREIP"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "HATI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "HELENE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "HYPERION"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "HYROKKIN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "IAPETUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "IJIRAQ"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "IO"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "IO PLASMA TORUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "JANUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "JUPITER"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "KARI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "KIVIUQ"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "LOGE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "MASURSKY"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "METHONE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "MIMAS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "MOON"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "MUNDILFARI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "NARVI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PAALIAQ"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PALLENE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PAN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PANDORA"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PHOEBE"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "POLYDEUCES"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "PROMETHEUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "RHEA"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "S RINGS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SATURN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SIARNAQ"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SKADI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SKATHI"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SKOLL"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SOLAR WIND"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SOLAR_SYSTEM"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SPICA"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "STAR"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SUN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SURTUR"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "SUTTUNG"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TARQEQ"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TARVOS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TELESTO"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TETHYS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "THRYM"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TITAN"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "VENUS"
+  END_OBJECT                    = MISSION_TARGET
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "YMIR"
+  END_OBJECT                    = MISSION_TARGET
+END_OBJECT                      = MISSION_HOST
+
+OBJECT                          = MISSION_HOST
+  INSTRUMENT_HOST_ID            = "HP"
+
+  OBJECT                        = MISSION_TARGET
+    TARGET_NAME                 = "TITAN"
+  END_OBJECT                    = MISSION_TARGET
+END_OBJECT                      = MISSION_HOST
+
+OBJECT                          = MISSION_REFERENCE_INFORMATION
+  REFERENCE_KEY_ID              = "JPLD-5564"
+END_OBJECT                      = MISSION_REFERENCE_INFORMATION
+END_OBJECT                        = MISSION
+END

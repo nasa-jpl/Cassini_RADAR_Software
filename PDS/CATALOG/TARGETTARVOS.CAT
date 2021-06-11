@@ -1,0 +1,21 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2011-04-27 Richard Chen, Initial submission."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "TARVOS"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "UNK"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+        'S21 TARVOS' and 'TARVOS' refer to the same target."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END
+
+

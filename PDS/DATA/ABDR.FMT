@@ -1,0 +1,12 @@
+^SBDR_STRUCTURE = "SBDR.FMT"
+
+OBJECT          = COLUMN
+  NAME          = RANGE_PROFILE
+  DATA_TYPE     = PC_REAL
+  START_BYTE    = 1273
+  ITEMS         = 32768
+  ITEM_BYTES    = 4
+  DESCRIPTION   = "Array of 32,768 values resulting from range compression
+                   of the sampled echo data counts obtained while in altimeter
+                   mode."
+END_OBJECT      = COLUMN

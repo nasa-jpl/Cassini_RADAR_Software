@@ -1,0 +1,22 @@
+PDS_VERSION_ID                  = PDS3
+LABEL_REVISION_NOTE             = "
+           2003-08-28 CASSINI: Diane Conner Revision 1"
+RECORD_TYPE                     = STREAM
+
+OBJECT                          = REFERENCE
+ REFERENCE_KEY_ID               = "JPLD-5564"
+ REFERENCE_DESC                 = "Cassini Mission Plan, 
+Revision N (PD 699-100), JPL Document D-5564,
+ Jet Propulsion Laboratory, Pasadena, CA, 2002."
+END_OBJECT                      = REFERENCE
+
+OBJECT                          = REFERENCE
+ REFERENCE_KEY_ID               = "ASMAR&RENZETTI1993"
+ REFERENCE_DESC                 = "Asmar, S.W., and N.A. 
+Renzetti, The Deep Space Network as an Instrument for
+Radio Science Research, Jet Propulsion Laboratory Publication 
+80-93, Rev.1, 15 April 1993."
+END_OBJECT                      = REFERENCE
+
+END
+

@@ -1,0 +1,24 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+LABEL_REVISION_NOTE    = "
+  2009-12-14 John Diehl, Imaging Node, Initial template submission.
+  2011-04-27 Richard Chen, Added reference to S29 SIARNAQ."
+
+OBJECT                 = TARGET
+  TARGET_NAME          = "SIARNAQ"
+
+  OBJECT               = TARGET_INFORMATION
+    TARGET_TYPE        = "SATELLITE"
+    PRIMARY_BODY_NAME  = "SATURN"
+    ORBIT_DIRECTION    = "UNK"
+    ROTATION_DIRECTION = "UNK"
+    TARGET_DESC        = "
+
+        'S29 SIARNAQ' and 'SIARNAQ' refer to the same target.
+
+        A moon of Saturn was discovered by in 2000.
+        Estimated diameter: 32 Kilometers (19 miles)."
+
+  END_OBJECT           = TARGET_INFORMATION
+END_OBJECT             = TARGET
+END

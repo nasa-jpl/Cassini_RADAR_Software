@@ -1,0 +1,85 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Description of the contents of the CATALOG directory"
+  PUBLICATION_DATE = 2015-09-17
+END_OBJECT         = TEXT
+END
+
+CONTENTS OF THE CATALOG DIRECTORY
+
+The CATALOG directory contains the catalog object files for this volume.
+
+ABDRDS.CAT
+  Data set catalog information about the Altimeter Burst Data Record (ABDR)
+  product.  If no ABDR products are present on the volume, then this catalog
+  will be omitted from the volume.
+
+ABDRSUMDS.CAT
+  Data set catalog information about the Altimeter Burst Data Record Summary
+  (ABDR-SUMMARY) product.  If no ABDR-SUMMARY products are present on the
+  volume, then this catalog will be omitted from the volume.  Note that
+  ABDR-SUMMARY products will not be present if no ABDR products are present.
+
+BIDRDS.CAT
+  Data set catalog information about the Basic Image Data Record (BIDR)
+  product.  If no BIDR products are present on the volume, then this catalog
+  will be omitted from the volume.
+
+CATINFO.TXT
+  This file.  Identifies and describes the function of each file in or
+  under the CATALOG directory.
+
+DSMAP.CAT
+  The data set map projection catalog.  Defines the map projection used in
+  creating Cassini BIDR products.  Contains the static information that is
+  applicable to all BIDR products; (dynamic) information about the specific
+  coordinate transformation used for a given data product is found in the
+  IMAGE_MAP_PROJECTION object in the label for that product.
+
+INST.CAT
+  The instrument catalog.  Describes the radar instrument.
+
+INSTHOST.CAT
+  The instrument host catalog.  Describes the Cassini spacecraft.  This file
+  has been provided by the Cassini Instrument Operations Archive Team.
+
+LBDRDS.CAT
+  Data set catalog information about the Long Burst Data Record (LBDR)
+  product.  If no LBDR products are present on the volume, then this catalog
+  will be omitted from the volume.
+
+MISSION.CAT
+  The mission catalog.  Describes the Cassini-Huygens mission.  This file
+  has been provided by the Cassini Instrument Operations Archive Team.
+
+PERSON.CAT
+  The personnel catalog.  Provides information about the personnel involved
+  in producing the Cassini BODP (ABDR, LBDR, SBDR) and BIDR data products.
+
+PROJREF.CAT
+  The Cassini Project reference catalog.  Provides a citation and a unique
+  identifier for every journal article, book, chapter, or other reference
+  mentioned in the Project-wide catalogs such as INSTHOST.CAT and
+  MISSION.CAT.  This file has been provided by the Cassini Instrument
+  Operations Archive Team.
+
+REF.CAT
+  The Cassini Radar reference catalog.  Provides a citation and a unique
+  identifier for every journal article, book, chapter, or other reference
+  mentioned in the catalog objects and not already defined in PROJREF.CAT.
+
+STDRDS.CAT 
+  Data set catalog information about SARTopo product. If no SARTopo products 
+  are present in the volume, then this catalog will be omitted from the
+  volume.
+
+SBDRDS.CAT
+  Data set catalog information about the Short Burst Data Record product.
+
+SOFTWARE.CAT
+  The software catalog.  Provides information about software applications
+  that are necessary or useful in accessing or processing the data products
+  on this volume.
+

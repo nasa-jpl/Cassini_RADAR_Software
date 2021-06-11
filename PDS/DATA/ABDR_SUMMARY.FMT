@@ -1,0 +1,191 @@
+/*        DESCRIPTION OF OBJECTS CONTAINED IN FILE */
+
+OBJECT                       = SPREADSHEET
+  ROWS                       = 0
+  ROW_BYTES                  = 0 /* Size of longest possible row */
+  FIELDS                     = 0
+  FIELD_DELIMITER            = "COMMA"
+
+  OBJECT                     = FIELD
+    NAME                     = "SAB COUNTER"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "BURST"
+    FIELD_NUMBER             = 1
+    BYTES                    = 9
+    FORMAT                   = "I9"
+    DESCRIPTION              = "SAB counter for this burst"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "TIME"
+    DATA_TYPE                = TIME
+    UNIT                     = "SECOND"
+    FIELD_NUMBER             = 2
+    BYTES                    = 23
+    FORMAT                   = "A23"
+    DESCRIPTION              = "Spacecraft event time (UTC) at the beginning
+                               of this burst"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "TIME FROM CLOSEST APPROACH"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "SECOND"
+    FIELD_NUMBER             = 3
+    BYTES                    = 8
+    FORMAT                   = "F8.2"
+    DESCRIPTION              = "Time from closest approach"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "RANGE TO ANTENNA BORESIGHT INTERCEPT WITH
+                                SURFACE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 4
+    BYTES                    = 8
+    FORMAT                   = "F8.0"
+    DESCRIPTION              = "First moment of waveform; not corrected for
+                                off-nadir pointing"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "ACTIVE CENTROID LONGITUDE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 5
+    BYTES                    = 7
+    FORMAT                   = "F7.2"
+    DESCRIPTION              = "Longitude of the active (two-way) antenna
+                                boresight"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "ACTIVE CENTROID LATITUDE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 6
+    BYTES                    = 7
+    FORMAT                   = "F7.2"
+    DESCRIPTION              = "Latitude of the active (two-way) antenna
+                                boresight"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "THRESHOLD SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 7
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "From threshold range detection"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "MLE SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 8
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "MLE estimate of surface height"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "FIRST MOMENT SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 9
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "From first moment of waveform range (range
+                                to surface)"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "CORRECTED FIRST MOMENT SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 10
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "First moment height corrected for off-nadir
+                                angle and altitude"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "CORRECTED THRESHOLD SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 11
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Threshold height corrected for off-nadir
+                                angle and altitude"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "HEIGHT SPAN OF BACKSCATTER DISTRIBUTION"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 12
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Square root of the second central moment"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "SKEWNESS OF BACKSCATTER DISTRIBUTION"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "NO UNIT OF MEASUREMENT DEFINED"
+    FIELD_NUMBER             = 13
+    BYTES                    = 8
+    FORMAT                   = "F8.2"
+    DESCRIPTION              = "Third central moment normalized"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "INCIDENCE ANGLE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 14
+    BYTES                    = 8
+    FORMAT                   = "F8.3"
+    DESCRIPTION              = "The angle between the antenna look direction
+                                and the surface normal halfway between
+                                transmission and receipt of the active mode
+                                signal"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "SIGMA0"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DECIBEL"
+    FIELD_NUMBER             = 15
+    BYTES                    = 8
+    FORMAT                   = "F8.2"
+    DESCRIPTION              = "Calibrated MLE amplitude estimate"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "SNR"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DECIBEL"
+    FIELD_NUMBER             = 16
+    BYTES                    = 8
+    FORMAT                   = "F8.2"
+    DESCRIPTION              = "Ratio of peak to estimated noise backscatter
+                                value"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "MLE FIT QUALITY"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "NO UNIT OF MEASUREMENT DEFINED"
+    FIELD_NUMBER             = 17
+    BYTES                    = 8
+    FORMAT                   = "F8.2"
+    DESCRIPTION              = "Difference between data and model"
+  END_OBJECT                 = FIELD
+END_OBJECT                   = SPREADSHEET
+END

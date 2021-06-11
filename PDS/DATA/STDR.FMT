@@ -1,0 +1,200 @@
+/*        DESCRIPTION OF OBJECTS CONTAINED IN FILE */
+
+OBJECT                       = SPREADSHEET
+  ROWS                       = 0
+  ROW_BYTES                  = 0 /* Size of longest possible row */
+  FIELDS                     = 0
+  FIELD_DELIMITER            = "COMMA"
+
+  OBJECT                     = FIELD
+    NAME                     = "WEST LONGITUDE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 1
+    BYTES                    = 8 
+    FORMAT                   = "F8.3"
+    DESCRIPTION              = "Positive West Longitude of the center 
+                                of SAR Topography measurement"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "LATITUDE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 2
+    BYTES                    = 7
+    FORMAT                   = "F7.3"
+    DESCRIPTION              = "Latitude of center of SAR Topography
+                               measurement"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "INCIDENCE ANGLE"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "DEGREE"
+    FIELD_NUMBER             = 3
+    BYTES                    = 6
+    FORMAT                   = "F6.2"
+    DESCRIPTION              = "Incidence angle"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "WIDTH OF MEASUREMENT IN CROSS TRACK"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "KILOMETER"
+    FIELD_NUMBER             = 4
+    BYTES                    = 7
+    FORMAT                   = "F7.2"
+    DESCRIPTION              = "Width of measurement in cross track
+                                direction"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "WIDTH OF MEASUREMENT IN ALONG TRACK"  
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "KILOMETER"
+    FIELD_NUMBER             = 5
+    BYTES                    = 7
+    FORMAT                   = "F7.2"
+    DESCRIPTION              = "Width of measurement in along track
+                               direction"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "HEIGHT ABOVE REFERENCE SPHERE"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 6
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Height above reference sphere"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "RANDOM HEIGHT ERROR"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 7
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Random height error"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "QUALITY FLAG"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "NO UNIT"
+    FIELD_NUMBER             = 8
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Quality flag"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "BIDR LINE NUMBER"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "NO UNIT"
+    FIELD_NUMBER             = 9
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "BIDR line number"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "BIDR SAMPLE NUMBER"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "NO UNIT"
+    FIELD_NUMBER             = 10
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "BIDR sample number"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "TIME FROM CLOSEST APPROACH"
+    DATA_TYPE                = ASCII_REAL
+    UNIT                     = "SECOND"
+    FIELD_NUMBER             = 11
+    BYTES                    = 12
+    FORMAT                   = "F12.3"
+    DESCRIPTION              = "Measurement time with respect to closest 
+                               approach"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "SYSTEMATIC HEIGHT ERROR"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 12
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Systematic error in height estimate"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "RAW SURFACE HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 13
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Raw surface height"
+  END_OBJECT                 = FIELD
+
+   OBJECT                     = FIELD
+    NAME                     = "HEIGHT ABOVE GEIOD"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 14
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Height above geoid"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "GEOID HEIGHT"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 15
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Geoid height"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "DERIVATIVE OF HEIGHT ERROR WRT ERROR IN
+                               NOISE FLOOR"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER"
+    FIELD_NUMBER             = 16
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Derivative of height error wrt error in 
+			        noise floor"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "DERIVATIVE OF HEIGHT ERROR WRT ATTITUDE
+                                ERROR"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "METER PER MILLI RADIANS"
+    FIELD_NUMBER             = 17
+    BYTES                    = 8
+    FORMAT                   = "I8"
+    DESCRIPTION              = "Derivative of height error wrt attitude
+                                error"
+  END_OBJECT                 = FIELD
+
+  OBJECT                     = FIELD
+    NAME                     = "CATEGORY NUMBER"
+    DATA_TYPE                = ASCII_INTEGER
+    UNIT                     = "NO UNIT"
+    FIELD_NUMBER             = 18
+    BYTES                    = 2
+    FORMAT                   = "I2"
+    DESCRIPTION              = "Category number"
+  END_OBJECT                 = FIELD
+
+
+END_OBJECT                   = SPREADSHEET
+END

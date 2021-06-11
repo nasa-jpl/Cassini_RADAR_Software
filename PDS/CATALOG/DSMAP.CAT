@@ -1,0 +1,174 @@
+PDS_VERSION_ID                = PDS3
+LABEL_REVISION_NOTE           = "2005-05-10, Bryan Stiles, Version 1.2"
+RECORD_TYPE                   = STREAM
+
+INSTRUMENT_HOST_ID            = CO
+INSTRUMENT_ID                 = RADAR
+TARGET_NAME                   = TITAN
+
+OBJECT                        = DATA_SET_MAP_PROJECTION
+  DATA_SET_ID                 = "CO-SSA-RADAR-5-BIDR-V1.0"
+
+  OBJECT                      = DATA_SET_MAP_PROJECTION_INFO
+    MAP_PROJECTION_TYPE       = "OBLIQUE CYLINDRICAL"
+    MAP_PROJECTION_DESC       = "
+
+      Because of the highly variable geometry of the Cassini spacecraft's
+      encounters with Titan and the elongated shape of the Synthetic
+      Aperture Radar (SAR) footprints, the standard Simple Cylindrical
+      coordinate system would be extremely inefficient for representing
+      individual basic images.  Therefore, the Cassini Basic Image Data
+      Record (BIDR) products are produced in an Oblique Cylindrical
+      map projection.  This type of projection is a Cartesian plot of
+      the angular (longitude and latitude) coordinates of features,
+      not with respect to the standard coordinate axes of the body,
+      but with respect to a rotated set of axes.  A separate oblique
+      coordinate system is established for each Titan pass, placing the
+      equator of the rotated coordinates along the ground track of that
+      Cassini flyby and the rotated prime meridian through the point of
+      closest approach.
+
+      The Oblique Cylindrical projection is characterized by the 3x3
+      rotation matrix between the standard and oblique coordinate systems
+      or the equivalent set of angles, which are interpretable as the
+      (north) pole latitude, pole longitude, and pole rotation.
+
+        Projection Definition
+        ---------------------
+
+        The following PDS keywords define an instance of an oblique
+        cylindrical projection with respect to the standard IAU/IAG
+        positive west longitude planetographic latitude coordinate
+        system. The projection is defined both by a rotation matrix and
+        the equivalent set of angles.
+
+        OBLIQUE_PROJ_POLE_LATITUDE = fff.ffffff <deg> One of the three
+        angles defining the oblique coordinate system used in the OBLIQUE
+        CYLINDRICAL projection.  This is the ordinary latitude of the
+        pole (Z axis) of the oblique system.
+
+        OBLIQUE_PROJ_POLE_LONGITUDE = fff.ffffff <deg> One of the three
+        angles defining the oblique coordinate system used in the OBLIQUE
+        CYLINDRICAL projection.  This is the ordinary longitude of the
+        pole (Z axis) of the oblique system.  NOTE that the value given
+        is positive-west, whereas the equivalent positive-east value is
+        used in the equations that define the OBLIQUE_PROJ_POLE_ROTATION
+        and the rotation matrix entries below.
+
+        OBLIQUE_PROJ_POLE_ROTATION = fff.ffffff <deg> One of the three
+        angles defining the oblique coordinate system used in the OBLIQUE
+        CYLINDRICAL projection.  This is a rotation around the polar
+        (Z) axis of the oblique system that completes the transformation
+        from standard to oblique coordinates.  The value is positive east
+        (obeys right hand rule) and is in the range 0 to 360 degrees.
+
+        OBLIQUE_PROJ_X_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff,
+        ff.fffffffff} Unit vector in the direction of the X axis of
+        the oblique coordinate system used in the OBLIQUE CYLINDRICAL
+        projection, in terms of the X, Y, and Z axes of the standard
+        body-fixed coordinate system.  In each system, the X axis
+        points from the body center toward longitude and latitude (0,0)
+        in that system, the Z axis to (0,90), and the Y-axis completes
+        a right-handed set.  The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make
+        up the rows of a rotation matrix that when multiplied on the
+        left of a vector referenced to the standard coordinate system
+        converts it into its equivalent in the oblique coordinate system.
+        This rotation matrix is the product of successively applied
+        rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis,
+        90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis,
+        and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis.
+
+        OBLIQUE_PROJ_Y_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff,
+        ff.fffffffff} Unit vector in the direction of the Y axis of
+        the oblique coordinate system used in the OBLIQUE CYLINDRICAL
+        projection, in terms of the X, Y, and Z axes of the standard
+        body-fixed coordinate system.  In each system, the X axis
+        points from the body center toward longitude and latitude (0,0)
+        in that system, the Z axis to (0,90), and the Y-axis completes
+        a right-handed set. The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make
+        up the rows of a rotation matrix that when multiplied on the
+        left of a vector referenced to the standard coordinate system
+        converts it into its equivalent in the oblique coordinate system.
+        This rotation matrix is the product of successively applied
+        rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis,
+        90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis,
+        and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis.
+
+        OBLIQUE_PROJ_Z_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff,
+        ff.fffffffff} Unit vector in the direction of the Z axis of
+        the oblique coordinate system used in the OBLIQUE CYLINDRICAL
+        projection, in terms of the X, Y, and Z axes of the standard
+        body-fixed coordinate system.  In each system, the X axis
+        points from the body center toward longitude and latitude (0,0)
+        in that system, the Z axis to (0,90), and the Y-axis completes
+        a right-handed set.  The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make
+        up the rows of a rotation matrix that when multiplied on the
+        left of a vector referenced to the standard coordinate system
+        converts it into its equivalent in the oblique coordinate system.
+        This rotation matrix is the product of successively applied
+        rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis,
+        90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis,
+        and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis.
+
+        Lat/Lon to Line/Sample Transformations
+        ------------------------------------
+        The transformations between the oblique latitude and longitude
+        and the line and sample coordinates of the data products are
+
+        line   = INT(  LINE_PROJECTION_OFFSET + lon_a*MAP_RESOLUTION + 1)
+        sample = INT(SAMPLE_PROJECTION_OFFSET + lat_a*MAP_RESOLUTION + 1)
+
+        where lon_a and lat_a are the oblique cylindrical pole longitude
+        and pole latitude measured in degrees, and lon_a is in
+        positive-east coordinates. Integral values of line and sample
+        correspond to the center of a pixel.  LINE_PROJECTION_OFFSET,
+        SAMPLE_PROJECTION_OFFSET, and MAP_RESOLUTION are defined below.
+
+        LINE_PROJECTION_OFFSET is the line offset value of the map
+        projection origin position from the line and sample (1,1), i.e.,
+        the upper left corner of the array.  The value is positive when
+        the origin is below the upper left pixel.  (The map projection
+        origin is the intersection of the equator and the projection
+        center longitude; this location is stored as the values of the
+        CENTER_LATITUDE and CENTER_LONGITUDE keywords.  Both keywords are
+        nominally zero valued.)
+
+        SAMPLE_PROJECTION_OFFSET is the sample offset value of the map
+        projection origin position from the line and sample (1,1), i.e.,
+        the upper left corner of the array.  The value is positive when
+        the origin is to the right of the upper left pixel.
+
+        MAP_RESOLUTION identifies the digital scale of the map-projected
+        image in units of pixels per degree.
+
+      Definitions of other mapping parameters can be found in the
+      Planetary Science Data Dictionary and the Cassini Radar Basic
+      Image Data Records Software Interface Specification.
+"
+
+    ROTATIONAL_ELEMENT_DESC   = "See SEIDELMANNETAL2002"
+
+    OBJECT                    = DS_MAP_PROJECTION_REF_INFO
+      REFERENCE_KEY_ID        = "SEIDELMANNETAL2002"
+    END_OBJECT                = DS_MAP_PROJECTION_REF_INFO
+
+    OBJECT                    = DS_MAP_PROJECTION_REF_INFO
+      REFERENCE_KEY_ID        = "SNYDER1987"
+    END_OBJECT                = DS_MAP_PROJECTION_REF_INFO
+
+    OBJECT                    = DS_MAP_PROJECTION_REF_INFO
+      REFERENCE_KEY_ID        = "BUGAYEVSKIY&SNYD1995"
+    END_OBJECT                = DS_MAP_PROJECTION_REF_INFO
+
+    OBJECT                    = DS_MAP_PROJECTION_REF_INFO
+      REFERENCE_KEY_ID        = "YANGETAL2000"
+    END_OBJECT                = DS_MAP_PROJECTION_REF_INFO
+
+    OBJECT                    = DS_MAP_PROJECTION_REF_INFO
+      REFERENCE_KEY_ID        = "GREELEY&BATSON1990"
+    END_OBJECT                = DS_MAP_PROJECTION_REF_INFO
+
+  END_OBJECT                  = DATA_SET_MAP_PROJECTION_INFO
+
+END_OBJECT                    = DATA_SET_MAP_PROJECTION
+END

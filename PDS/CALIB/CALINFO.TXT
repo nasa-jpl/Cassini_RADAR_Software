@@ -1,0 +1,25 @@
+PDS_VERSION_ID       = PDS3
+
+RECORD_TYPE          = STREAM
+OBJECT               = TEXT
+  PUBLICATION_DATE   = 2005-05-16
+  NOTE               =
+  "Description of the contents of the CALIB directory"
+END_OBJECT           = TEXT
+END
+
+The CALIB directory contains calibration and configuration data that
+were used by the Cassini Radar preprocessor and SAR processor to create
+the SBDR, LBDR, and BIDR products on this PDS volume.
+
+CALINFO.TXT
+  This file.
+
+BEAMPAT
+  Subdirectory containing the antenna beam pattern files that
+  characterize the radar instrument.
+
+CONFIG
+  Subdirectory containing the configuration file used to produce the
+  products on this volume.
+

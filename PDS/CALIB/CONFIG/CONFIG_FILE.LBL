@@ -1,0 +1,58 @@
+PDS_VERSION_ID       = PDS3
+
+RECORD_TYPE          = STREAM
+^FILE                = "XXXX"
+OBJECT               = TEXT
+  PUBLICATION_DATE   = 2005-05-26
+  INTERCHANGE_FORMAT = ASCII
+  NOTE               = "
+The ASCII file pointed to by this PDS label is the configuration file
+that was used by the Cassini Radar preprocessor and SAR processor to
+create the SBDR, LBDR, and BIDR products on this PDS volume.  On this
+volume, the configuration file has been installed in the directory
+CALIB/CONFIG.
+
+Configuration files are named PCF_####_Vnn.CFG, where '####' is the
+observation (data take) number, expressed as a four-digit number
+left-padded with zeroes, and 'nn' is the two-digit version number of the
+file.  The version number is assigned by the Cassini Radar I/O team.
+A single file contains both the preprocessor and the SAR processor
+parameters.  Typically, only one configuration file will be delivered
+with each volume.
+
+All configuration files are variable record-length text files that are
+designed for easy readability and manual editing.  By convention, the
+first line of the file contains the characters '#! ' followed by the
+name of the system master configuration file, which serves as a source of
+documentation (comment lines) for each parameter.  Each of the remaining
+lines is either a keyword-value record, a comment, or a blank line.  All
+lines are terminated by a newline character.
+
+Keyword-value records may be listed in any sequence within the file but
+are usually organized by function for easier use.  A keyword-value record
+has the format
+
+<keyword> <value> [units]
+
+where
+    <keyword> is the name of a parameter; by convention, keywords are
+    composed of alphanumeric characters and underscores and are treated
+    as case-sensitive by the preprocessor and SAR processor.
+
+    <value> is the value of the parameter; a value can be numeric
+    (integer or real) or string.  Only scalar values are currently
+    supported.
+
+    [units] are the units for the parameter, if applicable.
+
+Each field is separated by at least one space.  Consequently, neither
+keywords nor values may contain spaces.
+
+Brief descriptions of each parameter are included in the comments within
+the file.  A line beginning with the character '%' is a user-defined
+comment.  A line beginning with the character '#' is a comment that has
+been inserted from the master configuration file.  Blank lines are
+ignored by the preprocessor and SAR processor.
+"
+END_OBJECT           = TEXT
+END

@@ -1,0 +1,297 @@
+PDS_VERSION_ID                     = PDS3
+LABEL_REVISION_NOTE                = "2005-06-21, Version 1.4"
+RECORD_TYPE                        = STREAM
+
+OBJECT                             = DATA_SET
+  DATA_SET_ID                      = "CO-SSA-RADAR-5-BIDR-V1.0"
+
+  OBJECT                           = DATA_SET_HOST
+    INSTRUMENT_HOST_ID             = CO
+    INSTRUMENT_ID                  = RADAR
+  END_OBJECT                       = DATA_SET_HOST
+
+  OBJECT                           = DATA_SET_INFORMATION
+    ABSTRACT_DESC                  = "N/A"
+    ARCHIVE_STATUS                 = "ACCUMULATING"
+    CITATION_DESC                  = "N/A"
+    DATA_OBJECT_TYPE               = IMAGE
+    DATA_SET_COLLECTION_MEMBER_FLG = "N"
+    DATA_SET_NAME                  = "
+        CASSINI ORBITER SSA RADAR 5 BIDR V1.0"
+    DATA_SET_RELEASE_DATE          = XXXX
+    DATA_SET_TERSE_DESC            = "
+The Cassini Basic Image Data Record product is a gridded map of Titan
+produced from synthetic aperture radar data.
+"
+    DETAILED_CATALOG_FLAG          = "N"
+    PRODUCER_FULL_NAME             = "Bryan W. Stiles"
+    START_TIME                     = 2004-300T10:20:10.828
+    STOP_TIME                      = "NULL"
+    CONFIDENCE_LEVEL_NOTE          = "
+
+* Confidence Level Overview
+
+The BIDR data set contains synthetic aperture radar (SAR) images and
+coregistered backplanes of geometry and beam mask.  (See DATA_SET_DESC
+below.)  The data has been calibrated and empirical range and doppler
+corrections have been applied in order to minimize image artifacts due
+to errors in pointing and emphemeris knowledge.  The images are elongated
+strips.  The long (along track) dimension corresponds to the motion of the
+spacecraft during the observation.  The short (cross track) dimension
+corresponds to the combined width of the 5 radar beams.
+
+
+* Review
+
+BIDR data will be validated internally by the Cassini Radar Team prior
+to each release of data to the PDS.  The overall data set organization
+will also be peer reviewed once by the PDS prior to the release of the
+first volume.
+
+
+* Data Coverage and Quality
+
+Currently 20 SAR observations comprising roughly 20% of the surface of
+Titan are planned for the nominal Cassini mission.  BIDR data will be
+obtained for each such observation.  SAR observations of Titan occur
+at irregular intervals throughout the mission.  Each observation is
+nominally 40 minutes long.  Shorter-duration cases occur whenever RADAR
+shares a Titan observation with another Cassini instrument.  The BIDR
+data set contains SAR image data only.  Other Cassini RADAR data such
+as altimetry, scatterometry, and radiometry are available in the SBDR,
+LBDR, and ABDR data sets.
+
+The SAR image pixel values are normalized radar cross-section, a unitless
+quantity related to the slope, roughness, and composition of the observed
+surface.  We currently estimate the accuracy of this quantity to be + or -
+3 dB absolute and + or - 2 dB relative for the majority of image pixels.
+(See image artifacts discussion in the Limitations section.)  The full
+resolution BIDRs are oversampled to insure no loss of information content.
+The intrinsic spatial resolution of the data varies from 300 m for the
+portion of the swath obtained at closest approach to 1 - 2 km at the
+extreme ends of the swath.  Location error of the pixels is dominated
+by ephemeris and pointing knowledge errors and is expected to be less
+than 5 km throughout the mission.
+
+
+* Limitations
+
+Ephemeris error is expected to improve throughout the mission.  Since
+there is no plan to recompute the ephemeris of previous observations as
+new measurements are obtained, however, earlier observations may have
+poorer location accuracy.
+
+The dominant calibration error term is error in our knowledge of the
+gain of the attenuators in the receiver.  Engineering tests are currently
+planned to improve our knowledge of the attenuator gains.
+
+SAR images are prone to artifacts such as:
+
+1) poor calibrations at the edge of the beams
+2) extreme noisiness in regions with a small number of overlapping
+   measurements (looks)
+3) scalloping and antenna calibration misalignment due to errors in
+   ephemeris and pointing knowledge
+4) distorted imagery near the ends of the swath due to non-optimal
+   pointing while turning to make altimeter measurements.
+
+Artifacts of type 2 and 4 are unavoidable.  Types 1 and 3 can be minimized
+by empirically correcting range and doppler biases in the data.  We have
+sought to minimize the occurrence of these artifacts in the BIDR images,
+but there are still noticeable seams between beams and poor calibration
+near the edges of the swath.  The artifact minimization algorithm does not
+attempt to use the estimated range and doppler biases to correct ephemeris
+or pointing.  For this reason location errors of a few kilometers are
+possible.
+
+The TA Titan Observation on October 25, 2004, was the first SAR
+observation.  It has some special features.  The first (earliest) third
+of the swath has noticeable scalloping in the along track dimension and
+is noisier than the rest of the image.  This portion of the swath has
+non-optimal viewing geometry and a small number of looks due to pointing
+constraints for other Cassini instruments.  A substantial portion of the
+last (latest) third of the swath is in low resolution SAR mode.  This
+mode coarsens the cross track resolution of the image by a factor of 2.
+It was used on TA in order to accommodate conservative SNR expectations.
+In the same region of the image, an experiment was performed in which the
+data compression technique typically used by SAR was turned off.  Due to
+data volume and data rate constraints this resulted in fewer looks and
+noisier data.
+"
+    DATA_SET_DESC                  = "
+
+* Data Set Overview
+
+Full resolution basic image data records (BIDR) consist of SAR
+(synthetic aperture radar) normalized backscatter data (sigma0) at 13.78
+GHz (Ku band) acquired in one pass of the Cassini spacecraft near Titan.
+The primary image data and the additional 'backplanes' of geometry and
+beam mask are provided at 256 pixels per degree on Titan's surface
+(approximately 175 m per pixel).
+
+The USGS will produce 128-pixel/degree versions of all the floating
+point BIDR images (backplanes and primary image).  USGS will also
+produce 8-bit versions of primary (incidence angle corrected sigma0)
+image BIDRs at 256, 128, 32, 8, and 2 pixel per degree resolutions.
+
+The primary image data and the backplanes are provided on a rectangular
+grid which is an oblique cylindrical coordinate system whose equator
+is the nadir track of the spacecraft on the current pass and the zero
+of longitude is the point of closest approach.  Two of the backplanes
+are longitude and latitude in standard Titan coordinates.
+
+A particular index pair specifying a location in the data grid provides
+data for the same point for each full resolution file and similarly for
+the averaged 128 pixel per degree files (primary image and backplanes).
+
+For more information about the format and content of the BIDR files,
+see the Cassini Radar Basic Image Data Record Software Interface
+Specification, JPL D-27889.  A copy of the document is located on
+this volume as file BIDRSIS.PDF in the DOCUMENT directory.
+
+
+* Parameters
+
+The original image data and the 128 pixel per degree data are floating-
+point values of sigma0 in linear units (not dB).  Lower resolution images
+are 1-byte scaled values in dB.
+
+The data are
+
+  (1) Primary dataset (e.g., incidence angle corrected sigma0) in
+      32-bit floating-point format (linear scale values, not in dB).
+
+  (2) Sigma0 without incidence angle correction in 32-bit floating
+      point format (linear scale values, not in dB).
+
+  (3) Incidence angle, floating point values in degrees.
+
+  (4) Latitude, floating point values in degrees.
+
+  (5) Longitude (positive-west), floating point values in degrees.
+
+  (6) Beam mask, 8 bit values.
+
+  (7) Number of looks, 32 bit integer values.
+
+
+* Processing
+
+The encoded raw active mode data in the Burst Ordered Data Product
+(LBDR) files is decoded and processed into SAR images by the Cassini
+RADAR Instrument Team.  Each of the five beams is treated separately
+by typical SAR processing (azimuth and range compression).  The image
+strip is then produced by selecting the best beam for each pixel.  The
+selection is performed by choosing the beam with the most looks.  In
+the event of a tie the highest SNR beam is chosen.
+
+The pixel values in the primary BIDR images will be normalized
+backscatter cross-section values corrected for incidence angle effects.
+The incidence angle correction algorithm is TBD and will be determined
+jointly by the Cassini RADAR Instrument and Science Teams after enough
+data is acquired to estimate the variation of sigma0 due to incidence
+angle over the surface of Titan.  Until the final correction algorithm is
+determined, the primary BIDR image will be computed with a preliminary
+incidence angle correction.  The exact form of this correction can be
+found in the PDS label for the primary BIDR image file.
+
+These files will be converted into 8-bit formats at various resolutions by
+members of the Astrogeology Team of the U. S. Geological Survey (USGS) in
+Flagstaff, Arizona.  The processing used to produce the 8-bit formats is
+the same as that done for the Cassini Radar Digital Map products as
+described in the Cassini Radar Digital Map Software Interface
+Specification.
+
+
+* Data
+
+See Parameters.
+
+
+* Ancillary Data
+
+No ancillary data beyond the collection of BIDR files is needed to
+interpret the images.
+
+
+* Coordinate System
+
+The oblique cylindrical coordinate system is fully described in the
+data set map projection catalog DSMAP.CAT, which is located in the
+CATALOG directory on this volume.
+
+
+* Software
+
+No software is provided within this volume.  Cassini BIDR files can be read
+using PDS image handling software or by using the Integrated Software for
+Imagers and Spectrometers (ISIS) developed by the Astrogeology Team of the
+U.S.  Geological Survey.  ISIS may be of use for scientists wishing to
+read, display, manipulate, and analyze BIDR data.  ISIS including C and
+FORTRAN source code is in the public domain and versions configured to run
+under Solaris or Red Hat Linux may be obtained by qualified researchers
+from (http://astrogeology.wr.usgs.gov/Projects/ISIS).  Documentation for
+the system is available from the same website.
+
+
+* Media/Format
+
+The data are provided on media as determined by PDS.  The BIDR data files
+are ZIPPED as described in the PDS standard.  Detached labels are provided
+for the ZIPPED files; the ZIPPED files also include their attached labels.
+Detailed formats are defined within the attached labels of the files and
+in the Cassini Radar Basic Image Data Record Software Interface
+Specification.
+"
+  END_OBJECT                       = DATA_SET_INFORMATION
+
+  OBJECT                           = DATA_SET_MISSION
+    MISSION_NAME                   = "CASSINI-HUYGENS"
+  END_OBJECT                       = DATA_SET_MISSION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2005"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELACHIETAL2004"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "ELIASON1997"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "GADDISETAL1997"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "TORSON&BECKER1997"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "SEIDELMANNETAL2002"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "SNYDER1987"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "BUGAYEVSKIY&SNYD1995"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "YANGETAL2000"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID               = "GREELEY&BATSON1990"
+  END_OBJECT                       = DATA_SET_REFERENCE_INFORMATION
+
+  OBJECT                           = DATA_SET_TARGET
+    TARGET_NAME                    = TITAN
+  END_OBJECT                       = DATA_SET_TARGET
+
+END_OBJECT                         = DATA_SET
+END

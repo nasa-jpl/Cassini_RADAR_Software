@@ -1,0 +1,4092 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta name=Title content=" Cassini Radar Instrument Team ">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<title>
+Cassini Radar Basic Image Data Records SIS</TITLE>
+</head>
+<body bgcolor=white link=blue vlink=blue>
+<div>
+<p>
+<a name=pgfId-4421>
+</a>
+<a name=pgfId-4410>
+</a>
+DORA-003</p>
+<p>
+</p>
+<p>
+<a name=pgfId-8949>
+</a>
+<a name=pgfId-39>
+</a>
+Cassini Radar Instrument Team
+</p>
+<p>
+</p>
+<p>
+Cassini Radar Basic Image Data</p>
+<p>
+<a name=pgfId-4422>
+</a>
+Records SIS</p>
+<p>
+<a name=pgfId-47>
+</a>
+<a name=pgfId-67>
+</a>
+<a name=pgfId-69>
+</a>
+<b>
+</b>
+</p>
+<p>
+<b>
+Version 2.1 
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<a name=pgfId-51>
+</a>
+<a name=pgfId-8910>
+</a>
+<b>
+Bryan Stiles
+</b>
+</p>
+<p>
+<a name=pgfId-55>
+</a>
+<b>
+Sept 17, 2015
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<b>
+</b>
+</p>
+<p>
+<a name=pgfId-59>
+</a>
+<a name=pgfId-61>
+</a>
+<b>
+Jet Propulsion Laboratory 
+</b>
+</p>
+<p>
+<a name=pgfId-63>
+</a>
+<b>
+California Institute of Technology 
+</b>
+</p>
+<p>
+<a name=pgfId-65>
+</a>
+<b>
+NASA 
+</b>
+</p>
+<p>
+<b>
+D-27889
+</b>
+</p>
+<p>
+</p>
+<p>
+<a name=pgfId-71>
+</a>
+<a name=pgfId-73>
+</a>
+<a name=pgfId-9043>
+</a>
+<b>
+</b>
+</p>
+<p><A HREF="BIDRSIS_SIGPAGE.PDF">Signature Page</A>
+<a name=pgfId-8977>
+</a>
+</p>
+</div>
+<div>
+<p>
+<a name=pgfId-8944>
+</a>
+</p>
+<p align=center>
+<a name=pgfId-4070>
+</a>
+<b>
+Document Log
+</b>
+</p>
+<p align=center>
+<b>
+</b>
+</p>
+<table border=1 cellpadding=0>
+<tr>
+<td>
+<p>
+<a name=pgfId-4078>
+</a>
+<b>
+Revision
+</b>
+</p>
+<p>
+<a name=pgfId-4079>
+</a>
+<b>
+Date
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4081>
+</a>
+<b>
+Revised
+</b>
+</p>
+<p>
+<a name=pgfId-4082>
+</a>
+<b>
+Pages
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4084>
+</a>
+<b>
+Description
+</b>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4086>
+</a>
+<b>
+Revised By 
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align=left>
+<a name=pgfId-4088>
+</a>
+02/28/2004</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4090>
+</a>
+All</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4092>
+</a>
+Original</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4094>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align=left>
+<a name=pgfId-4096>
+</a>
+02/28/2005</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4352>
+</a>
+1, 4, 5, 13, 14, 15, 16, 17, 18</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4381>
+</a>
+Added SOFTWARE_VERSION_ID to PDS label, Modified PRODUCT_ID/filename to include &#34;Q&#34; Oblique Cylindrical projection identifier. Modified PRODUCER_FULL_NAME and PRODUCER_INSTITUTION_NAME values. Corrected various typos. Added number of looks bacplane to archive.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4102>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align=left>
+<a name=pgfId-4104>
+</a>
+05/16/2005</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4106>
+</a>
+Signature page, 15, 23</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4392>
+</a>
+Removed PDS program manager for signature page. Added COORDINATE_SYTEM_NAME and COORDINATE_SYSTEM_TYPE keywords to labels.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4110>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align=left>
+<a name=pgfId-4112>
+</a>
+06/27/2005</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4114>
+</a>
+1, 14, 15, 17</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4116>
+</a>
+Added pointer to SBDR data set for ancillary info, and changes 2 digit flyby number in filename to three digit data take number.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4118>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align=left>
+<a name=pgfId-4120>
+</a>
+09/27/2005</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4122>
+</a>
+5, 6, 14, 16, 17</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4124>
+</a>
+Corrected description of incidence angle backplane computation. Changed number of looks backplane to 8 bit integer. Changed PRODUCT_ID and filename format to include flyby ID. </p>
+</td>
+<td>
+<p>
+<a name=pgfId-4126>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4128>
+</a>
+04/22/2008</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4130>
+</a>
+All</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4132>
+</a>
+Reformatted in Word.
+Minor corrections.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4134>
+</a>
+P. Callahan</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4136>
+</a>
+05/06/2008</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4138>
+</a>
+4-6, 14, 17, 18
+</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4140>
+</a>
+Modified file name format to account for additional image segments, Added description for new noise subtracted backplane and new incidence angle normalization method.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4142>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4144>
+</a>
+06/25/2008&nbsp;</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4146>
+</a>
+7-8</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4148>
+</a>
+Modified Titan pole information. </p>
+</td>
+<td>
+<p>
+<a name=pgfId-4150>
+</a>
+B. Stiles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4152>
+</a>
+<a name=pgfId-4160>
+</a>
+09/17/2015</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4162>
+</a>
+&nbsp;1, 3-6, 8-10, 14-15, 21-22, 30-31</p>
+</td>
+<td>
+<p align=left>
+<a name=pgfId-4164>
+</a>
+Added New backplane info and added SARTopo material.</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4166>
+</a>
+B. Stiles</p>
+<p>
+C.Veeramachaneni</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<a name=pgfId-4168>
+</a>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4170>
+</a>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4172>
+</a>
+</p>
+</td>
+<td>
+<p>
+<a name=pgfId-4174>
+</a>
+</p>
+</td>
+</tr>
+</table>
+<p align=center>
+<a name=pgfId-4176>
+</a>
+<a name=pgfId-4184>
+</a>
+<a name=pgfId-4192>
+</a>
+<a name=pgfId-4200>
+</a>
+<a name=pgfId-4208>
+</a>
+<a name=pgfId-4216>
+</a>
+<a name=pgfId-4232>
+</a>
+<a name=pgfId-1311>
+</a>
+<b>
+</b>
+</p>
+<p align=center>
+<b>
+</b>
+</p>
+<p align=center>
+<b>
+Table of Contents
+</b>
+</p>
+<p>
+<a name=pgfId-8479>
+</a>
+1
+Introduction
+................................................................................................................ 
+<a href="#_Toc304638508"> 
+1
+</a>
+</p>
+<p>
+1.1
+Purpose and Scope
+............................................................................................ 
+<a href="#_Toc304638509"> 
+1
+</a>
+</p>
+<p>
+1.2
+Applicable Documents and Constraints
+......................................................... 
+<a href="#_Toc304638510"> 
+1
+</a>
+</p>
+<p>
+2
+Data Product Characteristics and Environment
+............................................... 
+<a href="#_Toc304638511"> 
+3
+</a>
+</p>
+<p>
+2.1
+Relationships with Other Interfaces
+............................................................... 
+<a href="#_Toc304638512"> 
+3
+</a>
+</p>
+<p>
+2.2
+Instrument Overview
+......................................................................................... 
+<a href="#_Toc304638513"> 
+3
+</a>
+</p>
+<p>
+2.3
+Instrument Description Summary
+................................................................... 
+<a href="#_Toc304638514"> 
+4
+</a>
+</p>
+<p>
+2.4
+Data Products Overview
+.................................................................................... 
+<a href="#_Toc304638515"> 
+4
+</a>
+</p>
+<p>
+2.5
+Data Processing
+.................................................................................................. 
+<a href="#_Toc304638516"> 
+4
+</a>
+</p>
+<p>
+2.5.1
+Data Processing Level
+.............................................................................. 
+<a href="#_Toc304638517"> 
+4
+</a>
+</p>
+<p>
+2.5.2
+Data Product Generation
+........................................................................... 
+<a href="#_Toc304638518"> 
+5
+</a>
+</p>
+<p>
+2.5.3
+Pixel Value Definitions
+............................................................................... 
+<a href="#_Toc304638519"> 
+6
+</a>
+</p>
+<p>
+2.5.4
+Multiple Resolutions
+.................................................................................. 
+<a href="#_Toc304638520"> 
+7
+</a>
+</p>
+<p>
+2.5.5
+SAR Processing Algorithm
+....................................................................... 
+<a href="#_Toc304638521"> 
+7
+</a>
+</p>
+<p>
+2.5.6
+SARTopo Algorithm
+.................................................................................... 
+<a href="#_Toc304638522"> 
+8
+</a>
+</p>
+<p>
+2.5.7
+Labeling and Identification
+........................................................................ 
+<a href="#_Toc304638523"> 
+8
+</a>
+</p>
+<p>
+2.6
+Standards Used in Generating Data Products
+............................................... 
+<a href="#_Toc304638524"> 
+9
+</a>
+</p>
+<p>
+2.6.1
+Coordinate Systems
+.................................................................................. 
+<a href="#_Toc304638525"> 
+9
+</a>
+</p>
+<p>
+2.6.2
+Cartographic Standards
+.......................................................................... 
+<a href="#_Toc304638526"> 
+11
+</a>
+</p>
+<p>
+2.6.3
+PDS Standards
+......................................................................................... 
+<a href="#_Toc304638527"> 
+14
+</a>
+</p>
+<p>
+2.6.4
+Data Storage Conventions
+..................................................................... 
+<a href="#_Toc304638528"> 
+14
+</a>
+</p>
+<p>
+2.7
+Data Validation
+................................................................................................... 
+<a href="#_Toc304638529"> 
+14
+</a>
+</p>
+<p>
+3
+Detailed Data Product Specification
+................................................................. 
+<a href="#_Toc304638530"> 
+14
+</a>
+</p>
+<p>
+3.1
+Data Format Descriptions
+................................................................................ 
+<a href="#_Toc304638531"> 
+14
+</a>
+</p>
+<p>
+3.2
+Label and Header Descriptions
+...................................................................... 
+<a href="#_Toc304638532"> 
+14
+</a>
+</p>
+<p>
+4
+Applicable Software
+.............................................................................................. 
+<a href="#_Toc304638533"> 
+15
+</a>
+</p>
+<p>
+4.1
+Cassini RADAR Team SAR Processor
+........................................................... 
+<a href="#_Toc304638534"> 
+15
+</a>
+</p>
+<p>
+4.2
+SARTopo Processor
+......................................................................................... 
+<a href="#_Toc304638535"> 
+15
+</a>
+</p>
+<p>
+4.3
+ISIS
+....................................................................................................................... 
+<a href="#_Toc304638536"> 
+15
+</a>
+</p>
+<p>
+5
+APPENDIX A: Example Label for Cassini RADAR Basic Image Data Record
+<a href="#_Toc304638537"> 
+17
+</a>
+</p>
+<p>
+5.1
+BIDR PDS Label, primary data set, 32-bit data
+.............................................. 
+<a href="#_Toc304638538"> 
+17
+</a>
+</p>
+<p>
+6
+APPENDIX B: PDS Keyword Definitions
+............................................................ 
+<a href="#_Toc304638539"> 
+20
+</a>
+</p>
+<p>
+7
+APPENDIX C: SARTopo FILE FORMAT (ASCII CSV)
+......................................... 
+<a href="#_Toc304638540"> 
+30
+</a>
+</p>
+<p>
+</p>
+</div>
+<div>
+<h1>
+<a name="_Toc304638508">
+</a>
+<a name="_Toc304628624">
+</a>
+<a name="_Toc304626590">
+</a>
+<a name="_Toc227733802">
+</a>
+<a name="_Ref70396166">
+</a>
+<a name="_Toc195067655">
+</a>
+<a name="_Toc68856878">
+1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Introduction
+</a>
+</h1>
+<h2>
+<a name="_Toc304638509">
+</a>
+<a name="_Toc304628625">
+</a>
+<a name="_Toc304626591">
+</a>
+<a name="_Toc227733803">
+</a>
+<a name="_Toc195067656">
+</a>
+<a name="_Toc68856879">
+</a>
+<a name=pgfId-1002645>
+</a>
+1.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Purpose and Scope
+</h2>
+<p>
+<a name=pgfId-1002632>
+</a>
+<a name="_Toc462640502">
+</a>
+<a name="_Toc462815359">
+</a>
+<a name="_Toc493558290">
+</a>
+<a name="_Toc503333827">
+</a>
+The purpose of this Data Product Software Interface Specification (SIS) is to provide users of the Cassini RADAR Basic Image Data Record (BIDR) and SARTopo data set with a detailed description of the products and a description of how they were generated. BIDR data files are single pass SAR image data which are calibrated and gridded. The BIDR data set id is CO-SSA-RADAR-5-BIDR-V1.0 and its CODMAC level is 5. 
+This document also includes description of the SARTopo data set, which is a product derived from the BIDR data set. The SARTopo data set id is CO-SSA-RADAR-5-STDR-V1.0 and its CODMAC level is 5.
+</p>
+<p>
+<a name=pgfId-998543>
+</a>
+This SIS is intended to provide enough information to enable users to read and understand the BIDR and SARTopo products. The users for whom this SIS is intended are software developers, engineers, and scientists interested in accessing and using the BIDR and SARTopo products. </p>
+<p>
+<a name=pgfId-998546>
+</a>
+This document describes how Cassini RADAR Basic Image Data Records and SARTopo products were processed, formatted, labeled, and uniquely identified. The document discusses standards used in generating the products and software that may be used to access the products. The data products' structure and organization is described in sufficient detail to enable a user to read the products. Finally, examples of product labels are provided. <a name=pgfId-1004286>
+</a>
+</p>
+<p>
+<a name=pgfId-1004287>
+</a>
+Each BIDR file contains one image that can be either radar imagery of the surface of Titan or co-registered backplanes. Due to space limitations only a few backplanes were produced for information deemed important to the users such as latitude, longitude, beam mask, incidence angle, and number of looks. Additional information is available in the SBDR data file documented by [2]. The SBDR files are time ordered with each record comprising a single radar measurement cycle. Although each pixel in the BIDR image corresponds to multiple radar measurements, the viewing geometry does not change significantly within a pixel. A typical radar measurement can be found by searching the SBDR for the radar measurement whose boresight is closest to the ground location of the desired pixel. In this manner one can co-locate polarization orientation, azimuth angle, measurement acquisition time, effective resolution, and numerous other quantities with the radar imagery.</p>
+<p>
+Each SARTopo file contains surface height estimates of Titan in profiles between two SAR beams (antenna feeds) within a single SAR image (BIDR).
+Each row in the file contains height estimates and ancillary data that correspond to a set of pixels in the BIDR image. A separate SARTopo file is produced for each SAR beam overlap profile. The SARTopo implementation yields 1-5 profiles in each SAR pass that are 10 km by 1000s of km long. There are 5 antenna beams and thus 4 overlapping regions between them. An additional fifth profile is produced by combining the overlaps between beams 2 and 3 and beams 3 and 4. The central (beam 3) antenna pattern is narrower than the other beams with higher peak gain. For technical reasons systematic errors in SARTopo tend to be opposite sign for beam 2/beam 3 overlaps as compared to beam 3/ beam 4 overlaps, by combining them we can obtain a single lower resolution profile with much reduced systematic error.
+</p>
+<p>
+</p>
+<h2>
+<a name="_Toc304638510">
+</a>
+<a name="_Toc304628626">
+</a>
+<a name="_Toc304626592">
+</a>
+<a name="_Toc227733804">
+</a>
+<a name="_Toc195067657">
+</a>
+<a name="_Toc68856880">
+</a>
+<a name=pgfId-998549>
+</a>
+<a name=pgfId-998552>
+</a>
+1.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Applicable Documents and Constraints
+</h2>
+<p>
+<a name=pgfId-998555>
+</a>
+This Data Product SIS is responsive to the following Cassini documents:</p>
+<p>
+<a name=pgfId-1002578>
+</a>
+1.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Project Data Management Plan, JPL D-12560, PD 699-061, Rev. B, April 1999, and Science Management Plan, JPL D-9178, PD 699-006, July 1999.</p>
+<p>
+<a name=pgfId-1002579>
+</a>
+2.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Cassini RADAR Burst Ordered Data Products SIS, JPL D-27891, Sept 2005, Version 1.5.</p>
+<p>
+<a name=pgfId-998567>
+</a>
+3.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Cassini/Huygens Program Archive Plan for Science Data, JPL D-15976, 699-068.</p>
+<p>
+<a name=pgfId-998570>
+</a>
+4.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+SIS for Cassini RADAR Digital Map Products, JPL D-30411, USGS IO-AR-015, Version 1.0</p>
+<p>
+<a name=pgfId-998573>
+</a>
+This SIS is also consistent with the following Planetary Data System documents:</p>
+<p>
+<a name=pgfId-1002584>
+</a>
+5.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Planetary Data System Data Preparation Workbook, Version 3.1, February 17, 1995, JPL D-7669, Part 1.</p>
+<p>
+<a name=pgfId-1002587>
+</a>
+6.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Planetary Data System Data Standards Reference, June 15, 2001, Version 3.4, JPL D-7669, Part 2.</p>
+<p>
+<a name=pgfId-998582>
+</a>
+Finally, this SIS is meant to be consistent with the contract negotiated between the Cassini Project and the Cassini RADAR Experiment Principal Investigator (PI) in which data products and documentation are explicitly defined as deliverable products.</p>
+<p>
+<a name=pgfId-998585>
+</a>
+<a name=pgfId-998588>
+</a>
+Additional references:</p>
+<p>
+<a name=pgfId-998591>
+</a>
+7.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Elachi, C., et al., 2002, RADAR: The Cassini Titan RADAR Mapper, Space Science Reviews, in press.</p>
+<p>
+<a name=pgfId-998596>
+</a>
+8.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Eliason, E.M., 1997. Production of digital image models using the ISIS system. Lunar Planet. Sci., XXVIII pp. 331-332, Lunar and Planetary Institute, Houston.</p>
+<p>
+<a name=pgfId-998599>
+</a>
+9.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+Gaddis, L. et al., 1997. An overview of the Integrated Software for Imaging Spectrometers (ISIS). Lunar Planet. Sci., XXVIII pp. 387-388, Lunar and Planetary Institute, Houston.</p>
+<p>
+<a name=pgfId-998602>
+</a>
+10.
+&nbsp; 
+Torson, J., and K. Becker, 1997. ISIS: A software architecture for processing planetary images. Lunar Planet. Sci., XXVIII, pp. 143-1444, Lunar and Planetary Institute, Houston.</p>
+<p>
+<a name=pgfId-998679>
+</a>
+11.
+&nbsp; 
+Seidelmann P. K., Abalakin, V. K., Bursa, M., Davies, M. E., De Bergh, C., Lieske, J. H., Oberst, J., Simon, J. L., Standish, E. M., Stooke, P., and Thomas, P. C., 2002. Report of the IAU/IAG working group on cartographic coordinates and rotational elements of the planets and satellites: 2000. Celest. Mech. Dyn. Astron., 82, pp. 83-110.</p>
+<p>
+<a name=pgfId-998684>
+</a>
+12.
+&nbsp; 
+Snyder, J. P., 1987, Map projections--A working manual, U. S. Geological Survey Prof. Paper 1395.</p>
+<p>
+<a name=pgfId-998687>
+</a>
+13.
+&nbsp; 
+Bugayevskiy, L. M., and Snyder, J. P., 1995, Map projections: A reference manual, Taylor &amp; Francis, London and Bristol, Pennsylvania, 328 pp.</p>
+<p>
+<a name=pgfId-998690>
+</a>
+14.
+&nbsp; 
+Yang, Q. H., Snyder, J. P., and Tobler, W. R., 2000, Map projection transformations: Principles and applications, Taylor &amp; Francis, London and Bristol, Pennsylvania, 367 pp.</p>
+<p>
+<a name=pgfId-1002663>
+</a>
+15.
+&nbsp; 
+Greeley, R., and Batson, R. M., 1990, Planetary Mapping, Cambridge Univ. Press, Cambridge, 296 pp. </p>
+<p>
+16.
+&nbsp; 
+Stiles, B.W., R.L. Kirk, R.D. Lorenz, S. Hensley, E. Lee, S. OStro, M.D. Allison, P.S. Callahan, Y. Gim, L. Iess, P. Perci del Marmo, G. Hamilton, W.T.K. Johnson, R.D. West, 2008, "Determining Titan's Spin State from Cassini Radar Images", <i>
+Astron. Journal</i>
+, <u>
+135</u>
+, 1669. </p>
+<p>
+17.
+&nbsp; 
+Bryan W. Stiles, Scott Hensley, Yonggyu Gim, David M. Bates, Randolph L. Kirkb, Alex Hayes, Jani Radebaugh, Ralph D. Lorenz, Karl L. Mitchell, Philip S. Callahan, Howard Zebker, William T.K. Johnson, Stephen D. Wall, Jonathan I. Lunine, Charles A. Wood, Michael Janssen, Frederic Pelletier, Richard D. West, Chandini Veeramachaneni, and the Cassini RADAR Team,
+<b>
+&#34;Determining Titan surface topography from Cassini SAR Data, &#34;
+</b>
+Icarus, Vol. 202, No.2, pp. 584-598. 2009.
+</p>
+<p>
+18.
+&nbsp; 
+Iess, Luciano, Nicole J. Rappaport, Robert A. Jacobson, Paolo Racioppa, David J. Stevenson, Paolo Tortora, John W. Armstrong, and Sami W. Asmar. &#34;Gravity field, shape, and moment of inertia of Titan.&#34; <i>
+Science</i>
+327, no. 5971 (2010): 1367-1369.</p>
+<p>
+19.
+&nbsp; 
+Ralph D. Lorenz, Bryan W. Stiles, Oded Aharonson, Antoine Lucas, Alexander G. Hayes, Randolph L. Kirk, Howard A. Zebker, Elizabeth P. Turtle, Catherine D. Neish, Ellen R. Stofan, Jason W. Barnes, the Cassini RADAR Team, A global topographic map of Titan, Icarus, Volume 225, Issue 1, July 2013, Pages 367-377, ISSN 0019-1035, http://dx.doi.org/10.1016/j.icarus.2013.04.002.</p>
+<p>
+</p>
+<p>
+</p>
+<h1>
+<a name="_Toc304638511">
+</a>
+<a name="_Toc304628627">
+</a>
+<a name="_Toc304626593">
+</a>
+<a name="_Toc227733805">
+</a>
+<a name="_Toc195067658">
+</a>
+<a name="_Toc68856881">
+</a>
+<a name=pgfId-1002664>
+</a>
+2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Product Characteristics and Environment
+</h1>
+<h2>
+<a name="_Toc304638512">
+</a>
+<a name="_Toc304628628">
+</a>
+<a name="_Toc304626594">
+</a>
+<a name="_Toc227733806">
+</a>
+<a name="_Toc195067659">
+</a>
+<a name="_Toc68856882">
+</a>
+<a name=pgfId-1002665>
+</a>
+2.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Relationships with Other Interfaces
+</h2>
+<p>
+<a name=pgfId-998702>
+</a>
+The BIDR image and SARTopo products described in this SIS are used in the production of other archived products of the Cassini mission, so that changes to their content and format may result in an interface impact. In particular, the MIDR, RIDR, and DTM products described in [4] take BIDR products as their input data sets. 
+The DTM products also take SARTopo data products (and nadir altimetry) as inputs for geodetic control. 
+The lower level RADAR products Burst Ordered Data Products (BODP) [2] are used in the production of the BIDR image products described here, so changes to the BODP formats may impact the software used to generate BIDR products as well as the higher-level products described in [4]. 
+The BIDR products are used in the production of SARTopo products,
+so changes to the BIDR format may impact the software used to generate SARTopo products as well as the higher-level products described in [4].
+</p>
+<h2>
+<a name="_Toc304638513">
+</a>
+<a name="_Toc304628629">
+</a>
+<a name="_Toc304626595">
+</a>
+<a name="_Toc227733807">
+</a>
+<a name="_Toc195067660">
+</a>
+<a name="_Toc68856883">
+</a>
+<a name=pgfId-998710>
+</a>
+2.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Instrument Overview
+</h2>
+<p>
+<a name=pgfId-998713>
+</a>
+The Cassini RADAR [7] is a facility instrument on the Cassini Orbiter. It is capable of passive (radiometer) and active (scatterometer, altimeter, SAR imaging) operation. During active mode operation interleaved passive measurements are also obtained. </p>
+<p>
+<a name=pgfId-998716>
+</a>
+The primary target for Cassini Radar observations is Titan, the largest Saturnian moon. Due to its thick hazy atmosphere, Titan's surface was not imaged successfully by the Pioneer or Voyager spacecraft, though atmospheric &#34;windows&#34; in the near infrared have been exploited by the Hubble Space Telescope and earth-based telescopes to produce low-resolution albedo maps of part of the surface. The Cassini radar instrument will obtain backscatter and altimeter sounding measurements of Titan's surface. High resolution synthetic aperture radar (SAR) backscatter images of 15% of Titan's surface will be obtained. The image data and SARTopo products described in this SIS contain results obtained using SAR and high altitude imaging.</p>
+<h2>
+<a name="_Toc304638514">
+</a>
+<a name="_Toc304628630">
+</a>
+<a name="_Toc304626596">
+</a>
+<a name="_Toc227733808">
+</a>
+<a name="_Toc195067661">
+</a>
+<a name="_Toc68856884">
+</a>
+<a name=pgfId-998723>
+</a>
+2.3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Instrument Description Summary
+</h2>
+<p>
+<a name=pgfId-998726>
+</a>
+Instrument Type: 
+</p>
+<p>
+<a name=pgfId-998729>
+</a>
+Radar 
+</p>
+<p>
+<a name=pgfId-998732>
+</a>
+Modes: 
+</p>
+<p>
+<a name=pgfId-998735>
+</a>
+Imaging (13.78 GHz; 0.425 MHz &amp; 0.85 MHz bandwidth) 
+</p>
+<p>
+<a name=pgfId-998738>
+</a>
+Altimeter (13.78 GHz; 4.25 MHz bandwidth) 
+</p>
+<p>
+<a name=pgfId-998741>
+</a>
+Scatterometer (13.78 GHz; 0.1 MHz bandwidth) 
+</p>
+<p>
+<a name=pgfId-998744>
+</a>
+Radiometer (13.78 GHz; 135 MHz bandwidth) 
+</p>
+<p>
+<a name=pgfId-998747>
+</a>
+Number of nominal Operational Periods: 
+</p>
+<p>
+<a name=pgfId-998750>
+</a>
+One (1) per selected flyby of Titan (approximately 12 to 22 flybys, total) 
+</p>
+<p>
+<a name=pgfId-998753>
+</a>
+Duration of nominal Operational Period: 
+</p>
+<p>
+<a name=pgfId-998756>
+</a>
+From 300 minutes before to 300 minutes after closest approach to Titan for prime operation. 
+</p>
+<p>
+<a name=pgfId-998759>
+</a>
+Peak Power: 
+</p>
+<p>
+<a name=pgfId-998762>
+</a>
+86 W 
+</p>
+<p>
+<a name=pgfId-998765>
+</a>
+Data Rates: 
+</p>
+<p>
+<a name=pgfId-998768>
+</a>
+1 kbps: Radiometer only 
+</p>
+<p>
+<a name=pgfId-998771>
+</a>
+30 kbps: Altimeter &amp; Scatterometer / Radiometer 
+</p>
+<p>
+<a name=pgfId-998774>
+</a>
+365 kbps: SAR Imaging / Radiometer 
+</p>
+<h2>
+<a name="_Toc304638515">
+</a>
+<a name="_Toc304628631">
+</a>
+<a name="_Toc304626597">
+</a>
+<a name="_Toc227733809">
+</a>
+<a name="_Toc195067662">
+</a>
+<a name="_Toc68856885">
+</a>
+<a name=pgfId-998780>
+</a>
+2.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Products Overview
+</h2>
+<p>
+<a name=pgfId-998783>
+</a>
+The BIDR Products described in this document are all gridded (raster) maps of Titan derived from SAR data and stored in the form of PDS image files. These products will be generated in more than one bit type and at more than one resolution, as described in Section 2.5.2
+.</p>
+<p>
+<a name=pgfId-998786>
+</a>
+<a name=pgfId-998825>
+</a>
+Each BIDR product contains the SAR image coverage corresponding to a single Titan Pass. The BIDR will be produced in an oblique cylindrical coordinate system in which the great circle corresponding to the ground track of the spacecraft is defined to be 0 degrees latitude. Its extent will be the minimum bounding rectangle of the area of coverage in this projection. </p>
+<p>
+The SARTopo products are 
+ASCII comma-separated value files. Each SARTopo product file contains surface height estimates in profiles between two SAR beams. 
+Each row in the file contains height estimates and ancillary data that correspond to a set of pixels in the BIDR image.
+</p>
+<p>
+</p>
+<h2>
+<a name="_Toc304638516">
+</a>
+<a name="_Toc304628632">
+</a>
+<a name="_Toc304626598">
+</a>
+<a name="_Toc227733810">
+</a>
+<a name="_Toc68856886">
+</a>
+<a name=pgfId-1002614>
+</a>
+2.5
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Processing
+</h2>
+<h3>
+<a name="_Toc304638517">
+</a>
+<a name="_Toc304628633">
+</a>
+<a name="_Toc304626599">
+</a>
+<a name="_Toc227733811">
+</a>
+<a name="_Toc195067663">
+</a>
+<a name="_Toc68856887">
+</a>
+<a name=pgfId-1002617>
+</a>
+2.5.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Processing Level
+</h3>
+<p>
+<a name=pgfId-998840>
+</a>
+This document uses the &#34;Committee of Data Management and Computation&#34; (CODMAC) data level number system. The data products referred to in this document are considered &#34;level 5&#34;. These data products have been radiometrically calibrated and resampled to a standard map projection. </p>
+<h3>
+<a name="_Toc304638518">
+</a>
+<a name="_Toc304628634">
+</a>
+<a name="_Toc304626600">
+</a>
+<a name="_Toc227733812">
+</a>
+<a name="_Ref70397561">
+</a>
+<a name="_Ref70397506">
+</a>
+<a name="_Ref70397383">
+</a>
+<a name="_Ref70396205">
+</a>
+<a name="_Ref70396186">
+</a>
+<a name="_Toc195067664">
+</a>
+<a name="_Toc68856888">
+</a>
+<a name=pgfId-998843>
+</a>
+<a name=30731>
+</a>
+2.5.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Product Generation
+</h3>
+<p>
+<a name=pgfId-998846>
+</a>
+Cassini RADAR Basic Image Data Record Products described in this SIS are generated by members of the Cassini RADAR Instrument team at JPL in the full resolution floating point format. (For beam mask back-plane images the full resolution format is 8-bit, but they are still produced at JPL. See below.) These files will be converted into 8-bit formats at various resolutions by members of the Astrogeology Team of the U. S. Geological Survey (USGS) in Flagstaff, Arizona. The processing used to produce the 8-bit formats is the same as that done for the DMP products as described in the DMP SIS [4]. The 8-bit images will be returned to JPL from USGS and archived together with the full resolution floating-point images. See Section 2.5.4
+for a detailed description of which resolutions will be available for each image type. The formats of all of these file types are documented here. These products are created from low level Burst Ordered Data Products (BODP) as described in [2]. Geometric data used as input include a description of the shape and orientation of the RADAR beams derived from in-flight geometric calibration by the RADAR team at JPL; mission-provided spacecraft pointing histories; and Titan and spacecraft ephemerides. The encoded raw active mode data in the BODP files is decoded, and processed into SAR images by the Cassini RADAR Instrument Team. </p>
+<p>
+The pixel values in the primary BIDR images will be normalized backscatter cross-section values corrected for incidence angle effects and biases due to thermal and quantization noise.
+The quantization noise is a result of the block adaptive quantization (BAQ) scheme used to compress the data on the board Cassini prior to downlink. The BAQ compression induces both an offset and a scaling term to the SAR data. Both of these effects are accounted for in the noise subtraction approach. Thermal noise is due primarily to system noise in the radar itself with a minor contribution due to emission from the surface of Titan. The noise subtraction method accounts for the former using estimates made from engineering test data during Cassini's tour of the Saturn system. The latter effect is estimated based on the gross radiometric characteristics we have observed for Titan. Additional secondary (back-plane) BIDR images on the same grid will also be included for latitude, longitude, incidence angle, number of looks, and beam mask for each pixel, as well as normalized backscatter cross-sections without incidence angle correction and/or noise subtraction. One backplane without incidence angle correction is included as well as one with neither incidence angle correction nor noise subtraction. The incidence angle correction algorithm is the sum three component models, two Hagfors components and a diffuse component. The raw backscatter values have been divided by the function f(I), where I is the incidence angle and then multiplied by f(I = I<sub>
+0</sub>
+degrees), where f(I) = f1(I)+f2(I)+f3(I), f1(I) and f2(I) are Hagfors models with different parameter values: </p>
+<p>
+f1(I) =
+A<sub>
+1</sub>
+*(cos(I)^4+B<sub>
+1</sub>
+*sin(I)^2)^(-1.5), </p>
+<p>
+f2(I) =
+A<sub>
+2</sub>
+*(cos(I)^4+B<sub>
+2</sub>
+*sin(I)^2)^(-1.5), </p>
+<p>
+and </p>
+<p>
+f3(I) =
+C*cos(I)^N </p>
+<p>
+is a diffuse scattering term. The parameter values are documented in the labels for each BIDR file.</p>
+<p>
+SARTopo products described in this document are generated by members of the Cassini RADAR Instrument team at JPL in ASCII
+comma-separated file format. The file format of the SARTopo product is documented in Appendix C. These products are created from BIDR products. 
+Geometric data used as input include a description of the shape and orientation of the RADAR beams derived from in-flight geometric calibration by the RADAR team at JPL; mission-provided spacecraft pointing histories; and Titan and spacecraft ephemerides. See the Cassini RADAR Volume Software Interface Specification for detailed descriptions of these products. All spacecraft pointing and ephemeris files are archived by the Cassini NAV team. The specific files used by Cassini RADAR are listed in the Processor Configuration file in the RADAR archive. The antenna pattern files are included in the Cassini RADAR data archive. Systematic biases due to spacecraft attitude error are reduced using a connected network of SARTopo and nadir altimetry profiles
+</p>
+<p>
+</p>
+<h3>
+<a name="_Toc304638519">
+</a>
+<a name="_Toc304628635">
+</a>
+<a name="_Toc304626601">
+</a>
+<a name="_Toc227733813">
+</a>
+<a name="_Ref196558667">
+</a>
+<a name="_Toc195067665">
+</a>
+<a name="_Toc68856889">
+</a>
+<a name=pgfId-1003523>
+</a>
+<a name=82781>
+</a>
+2.5.3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Pixel Value Definitions
+</h3>
+<p>
+<a name=pgfId-1003519>
+</a>
+<a name=pgfId-1003530>
+</a>
+Pixels in the primary images represent the normalized backscatter cross-section which is computed from calculated received power for each pixel using the RADAR equation:</p>
+<p align=center>
+<a name=pgfId-1002694>
+</a>
+<img width=102 height=37 src="BIDRSIS_FIG004.PNG">
+</p>
+<p>
+<a name=pgfId-1003395>
+</a>
+Here, <i>
+P</i>
+<i>
+<sub>
+r
+</sub>
+</i>
+is the received power for the pixel, <i>
+L</i>
+is the system loss, <i>
+r
+</i>
+is the range to the pixel, <i>
+P</i>
+<i>
+<sub>
+t
+</sub>
+</i>
+is the transmit power, <i>
+G</i>
+<i>
+<sub>
+r
+</sub>
+</i>
+is the receiver gain, <i>
+G</i>
+<i>
+<sub>
+ar
+</sub>
+</i>
+is the antenna gain of the pixel at receive time, <i>
+G</i>
+<i>
+<sub>
+at
+</sub>
+</i>
+is the antenna gain of the pixel at transmit time, <i>
+A</i>
+is the area of a nominal pixel projected onto the surface of a sphere, and <i>
+&#955;
+</i>
+is the wavelength of the RADAR signal. The normalized backscatter cross-section, <i>
+&#963;
+</i>
+<i>
+<sub>
+0
+</sub>
+</i>
+is a unitless quantity. 
+As mentioned above additional versions of the <i>
+&#963;
+</i>
+<i>
+<sub>
+0
+</sub>
+</i>
+image are available that have been scaled to eliminate variation due to incidence angle and biases due to thermal and quantization noise. The floating point primary images produced by JPL will be linear scale (not in dB) unitless backscatter values. The 8-bit (byte) images produced by USGS will contain backscatter values which have been converted to dB then scaled and offset so that the dynamic range of the data is 0 to 255. Scaling and offset coefficients are reported in the attached PDS label (header) of each BIDR file.</p>
+<p>
+<a name=pgfId-1003513>
+</a>
+<a name=pgfId-1003514>
+</a>
+Each pixel in the incidence angle back-plane image is the angle between the local normal and the antenna look vector. There are a number of measurements (possibly from different beams) used to determine a pixel in the <i>
+&#963;
+</i>
+<i>
+<sub>
+0
+</sub>
+</i>
+image. The incidence angle varies slightly among different looks. The pixel value of the incidence angle backplane was computed by performing the same weighted average over looks that was done for the primary image. </p>
+<p>
+<a name=pgfId-1003561>
+</a>
+The latitude (longitude) back-planes specify the ordinary latitude (longitude) of each pixel in the International Astronomical Union (IAU) standard coordinate system for Titan. This coordinate system is a planetographic latitude west longitude system. See Section 2.6.2
+below.</p>
+<p>
+<a name=pgfId-1003550>
+</a>
+The number of looks backplane contains 8-bit integer values corresponding to the number of independent measurements averaged together to populate each pixel value. Counts beyond the maximum 255 value are stored as 255.</p>
+<p>
+The identification of the beam or beams which were used to produce a given <i>
+&#963;
+</i>
+<i>
+<sub>
+0
+</sub>
+</i>
+pixel is stored in the beam mask back-plane image. The pixels in this image are 8-bit values. For each pixel, bits 0-4 (bit 0 = LSB) indicate the beam usage as illustrated by the following Table&nbsp;1. </p>
+<p>
+</p>
+<p align=center>
+<a name=pgfId-1003418>
+</a>
+<b>
+Table 1: Beam Mask Pixel Definition
+</b>
+</p>
+<div align=center>
+<table border=1 cellpadding=0>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003421>
+</a>
+<a name=pgfId-1003425>
+</a>
+<b>
+Bit
+</b>
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003427>
+</a>
+<b>
+Meaning of bit =1
+</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003499>
+</a>
+0
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003501>
+</a>
+Beam 1 was used for this pixel.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003495>
+</a>
+1
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003497>
+</a>
+Beam 2 was used for this pixel.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003491>
+</a>
+2
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003493>
+</a>
+Beam 3 was used for this pixel.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003487>
+</a>
+3
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003489>
+</a>
+Beam 4 was used for this pixel.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003483>
+</a>
+4
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003485>
+</a>
+Beam 5 was used for this pixel.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003479>
+</a>
+5
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003481>
+</a>
+Bit always zero
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003475>
+</a>
+6
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003477>
+</a>
+Bit always zero.
+</p>
+</td>
+</tr>
+<tr>
+<td width=37>
+<p>
+<a name=pgfId-1003503>
+</a>
+7
+</p>
+</td>
+<td width=196>
+<p>
+<a name=pgfId-1003505>
+</a>
+Bit always zero.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<a name=pgfId-1004305>
+</a>
+</p>
+<h3>
+<a name="_Toc304638520">
+</a>
+<a name="_Toc304628636">
+</a>
+<a name="_Toc304626602">
+</a>
+<a name="_Toc227733814">
+</a>
+<a name="_Ref196558687">
+</a>
+<a name="_Ref70396241">
+</a>
+<a name="_Toc195067666">
+</a>
+<a name="_Toc68856890">
+</a>
+<a name=pgfId-1003643>
+</a>
+<a name=63469>
+</a>
+2.5.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Multiple Resolutions
+</h3>
+<p>
+<a name=pgfId-1003652>
+</a>
+As mentioned above, USGS will process full resolution BIDRs to 8-bit format BIDRs at various resolutions, which will then be returned to the Cassini Radar Instrument Team at JPL for archiving. USGS will perform this processing only for the primary (incidence angle corrected <i>
+&#963;
+</i>
+<i>
+<sub>
+0
+</sub>
+</i>
+) images. The full resolution is 256 pixels per degree. Floating point versions of all full resolution images except (beam-masks) will be produced by the Cassini Radar Instrument Team at JPL (CRIT). CRIT will also produce 8-bit full resolution 256 pixels/degree, 128 pixels/degree beam-mask BIDRs, and 256 pixels per degree 8-bit number of looks BIDRs. USGS will produce 8-bit versions of primary (incidence angle corrected <i>
+&#963;
+</i>
+<sub>
+0
+</sub>
+) image BIDRs at 256, 128, 32, 8, and 2 pixels per degree resolutions. USGS will also produce 128-pixel/degree versions of all the floating point BIDR images (backplanes and primary image).</p>
+<h3>
+<a name="_Toc304638521">
+</a>
+<a name="_Toc304628637">
+</a>
+<a name="_Toc304626603">
+</a>
+<a name="_Toc227733815">
+</a>
+<a name="_Ref196558849">
+</a>
+<a name="_Toc195067667">
+</a>
+<a name="_Toc68856891">
+</a>
+<a name=pgfId-1003506>
+</a>
+<a name=pgfId-1003663>
+</a>
+<a name=65759>
+</a>
+2.5.5
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SAR Processing Algorithm
+</h3>
+<p>
+<a name=pgfId-1003672>
+</a>
+The radar echo data is stored as a time series of floating point values in the Long Burst Data Record (LBDR) format BODP files [2]. The SAR processor converts this data to BIDR images in a series of steps:</p>
+<p>
+<a name=pgfId-1003675>
+</a>
+<a name=pgfId-1003676>
+</a>
+1)
+The data is segmented by pulse number.</p>
+<p>
+<a name=pgfId-1003679>
+</a>
+2)
+It is range compressed by correlation with a matched filter.</p>
+<p>
+<a name=pgfId-1003680>
+</a>
+3)
+It is azimuth compressed.</p>
+<p>
+<a name=pgfId-1003681>
+</a>
+4)
+It is calibrated (converted from raw counts to <i>
+&#963;
+</i>
+<sub>
+0
+</sub>
+values) using the radar equation, an antenna gain pattern for each beam estimated from radiometric sun scans, planetary and spacecraft ephemeris, and pre-launch and post-launch instrument calibration measurements.</p>
+<p>
+<a name=pgfId-1003682>
+</a>
+5)
+Overlapping measurements are averaged together after interpolation to a co-registered geo-located grid.</p>
+<p>
+<a name=pgfId-1003684>
+</a>
+6)
+A correction for incidence angle variation is applied.</p>
+<p>
+</p>
+<h3>
+<a name="_Toc304638522">
+</a>
+<a name="_Toc304628638">
+</a>
+<a name="_Toc304626604">
+</a>
+<a name="_Toc227733816">
+2.5.6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SARTopo Algorithm
+</a>
+</h3>
+<p>
+SARTopo analysis yields a topographic profile along the overlap between beams of the RADAR instrument.
+This is possible because the returned signal depends not only on the surface properties (common to both beams) but also on the angular position of a point within the beams.
+Combined with the direct measurement of range and the Doppler shift, this angular measurement suffices to determine the elevation.
+The SARTopo method has three major steps: 
+</p>
+<p>
+</p>
+<p>
+1)
+&nbsp;&nbsp;&nbsp; 
+The SAR data are processed seventeen times to produce normalized radar backscatter cross-section maps using each of the candidate surface heights from 2 km below to 2 km above the 2575 km reference sphere in increments of 250 m. This range of heights (<b>
+-</b>
+2 km to <b>
++</b>
+2 km) was chosen to encompass the vast majority of likely Titan surface heights based on the use of radar clinometry to assess mountain heights (Radebaugh et al., 2007). The 250 m increment was chosen to ensure that we sufficiently sampled the region in the optimization (goodness of fit) function g that is linear with height. 
+</p>
+<p>
+2)
+&nbsp;&nbsp;&nbsp; 
+The goodness of fit for each candidate height is estimated and the best height is determined using linear interpolation. 
+The goodness of fit function described in [17] is a measure of the consistency of the SAR image pixel values from two different beams in the region where those beams overlap. The primary cause of inconsistency between the two images is calibration error due to misestimating the surface heights. By redoing the calibration for multiple surface height we estimate the surface height.
+</p>
+<p>
+3)
+&nbsp;&nbsp;&nbsp; 
+A secondary cause of inconsistency between images from different antenna beam is knowledge error in spacecraft attitude. If these errors are not accounted for they will cause systematic errors in surface height estimates. Systematic biases in surface heights due to spacecraft attitude error are removed using a connected network of SARTopo and nadir altimetry profiles. 
+These errors are "systematic" (constant or slowly varying) within a flyby, but their magnitude and sign are random (i.e., independent) from one flyby to another.
+</p>
+<p>
+</p>
+<p>
+See [17] for a more detailed description of the SARTopo technique.
+</p>
+<h3>
+<a name="_Toc304638523">
+</a>
+<a name="_Toc304628639">
+</a>
+<a name="_Toc304626605">
+</a>
+<a name="_Toc227733817">
+</a>
+<a name="_Toc195067668">
+</a>
+<a name="_Toc68856892">
+</a>
+<a name=pgfId-1003657>
+</a>
+<a name=pgfId-1003414>
+</a>
+2.5.7
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Labeling and Identification
+</h3>
+<p>
+<a name=pgfId-998982>
+</a>
+The Cassini RADAR BIDRs will be archived as binary files, the initial records of which will contain a PDS label describing the contents in terms of the keywords listed and defined in Appendix B. Each Cassini RADAR BIDR will be assigned a string that uniquely identifies the type of data product, bit type, resolution, and the location of the data on Titan. This string will be used both as the value of the PRODUCT_ID keyword in the PDS labels and, with extension &#34;.IMG&#34; as the filename for that product. The scheme adopted is specified in Appendix B. </p>
+<p>
+The Cassini RADAR SARTopo products will be archived as ASCII CSV files. Each Cassini SARTopo CSV file will be assigned a string that uniquely identifies the type of data product, flyby id, beam numbers used, and the segment id. The file name will have an extension &#34;.CSV&#34;. The scheme adopted is specified in Appendix C.
+</p>
+<p>
+</p>
+<h2>
+<a name="_Toc304638524">
+</a>
+<a name="_Toc304628640">
+</a>
+<a name="_Toc304626606">
+</a>
+<a name="_Toc227733818">
+</a>
+<a name="_Toc195067669">
+</a>
+<a name="_Toc68856893">
+</a>
+<a name=pgfId-998985>
+</a>
+2.6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Standards Used in Generating Data Products
+</h2>
+<h3>
+<a name="_Toc304638525">
+</a>
+<a name="_Toc304628641">
+</a>
+<a name="_Toc304626607">
+</a>
+<a name="_Toc227733819">
+</a>
+<a name="_Toc195067670">
+</a>
+<a name="_Toc68856894">
+</a>
+<a name=pgfId-998988>
+</a>
+2.6.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Coordinate Systems
+</h3>
+<p>
+<a name=pgfId-998991>
+</a>
+The coordinate systems and geodetic/cartographic parameters used in production of the Cassini RADAR Basic Image Data Records and SARTopo products are chosen to be consistent with the recommendations of the International Astronomical Union/International Association of Geodesy (IAU/IAG) Working Group on Cartographic Coordinates and Rotational Elements of the Planets and Satellites. These standards are also endorsed by the PDS [5, p. 2-1].</p>
+<p>
+<a name=pgfId-1003733>
+</a>
+The IAU/IAG regularly revises its recommended cartographic constants, based on the best available data. As of this writing, the most recent report of the group [11] gives the following values of cartographic constants for Titan, based on astronomical observations and Voyager spacecraft data. The right ascension <i>
+&#945;
+</i>
+<sub>
+0
+</sub>
+and declination <i>
+&#948;
+</i>
+<sub>
+0
+</sub>
+of the axis of rotation at a time <i>
+t</i>
+are given by</p>
+<p>
+<a name=pgfId-1003735>
+</a>
+<img width=226 height=21 src="BIDRSIS_FIG006.PNG">
+</p>
+<p>
+<a name=pgfId-1003802>
+</a>
+<a name=pgfId-999072>
+</a>
+<img width=230 height=22 src="BIDRSIS_FIG008.PNG">
+</p>
+<p>
+<a name=pgfId-999076>
+</a>
+where t is the interval in Julian centuries from the standard epoch J2000.0 (2000&nbsp;January&nbsp;1.5). 
+The rotation of Titan around this axis is given in terms of the angle W measured eastward from the intersection of the planetary equator with the standard Earth equator to the prime meridian</p>
+<p>
+<a name=pgfId-999085>
+</a>
+<img width=268 height=22 src="BIDRSIS_FIG010.PNG">
+</p>
+<p>
+<a name=pgfId-999089>
+</a>
+where <i>
+d</i>
+is the time in days from the standard epoch. Values of <i>
+&#945;
+</i>
+<sub>
+0
+</sub>
+, <i>
+&#948;
+</i>
+<sub>
+0
+</sub>
+, and <i>
+W</i>
+for a reference time within each Titan pass are included for convenience in each record of the BODP files (See BODP SIS.). </p>
+<p>
+<a name=pgfId-999094>
+</a>
+The IAU/IAG report [11] also gives a recommendation for the reference figure for Titan, namely a sphere of radius 2575 km. This reference sphere will be used in defining the map projections of the BIDR, SARTopo and the Cassini RADAR Digital Map Products [4]. </p>
+<p>
+<a name=pgfId-1002737>
+</a>
+RADAR investigations has yielded information leading to a refinement of the cartographic constants given above. In particular, the spin state of Titan has been updated based on an initial analysis of the Radar images (B.W.&nbsp;Stiles et al, 2008, Ref.&nbsp;16).
+In order to fully document the coordinates used, the PCK file used in the processing is included in the EXTRAS directory.
+As of this writing, the best fit 6 parameter solution from Stiles et al is being used for data takes TA through T30 for which it was fit, while a simpler long-term solution from NAIF is used for data takes after T30. </p>
+<p>
+The spin state equations from [16] that used to process data between TA and T30 are reproduced here with the time epoch modified so that t is consistently defined.</p>
+<p>
+<img width=109 height=16 src="BIDRSIS_FIG012.PNG">
+</p>
+<p>
+<img width=70 height=16 src="BIDRSIS_FIG014.PNG">
+</p>
+<p>
+<img width=244 height=20 src="BIDRSIS_FIG016.PNG">
+</p>
+<p>
+Notice that spin rate is modeled as a linear function of time. This simple model was sufficient to fit the observed RADAR data used in the study, but cannot reasonably be extrapolated over the long term. Among other reasons, it is obvious that spin rate cannot increase indefinitely. (In fact, this model is not valid at the epoch time J2000.0 which explains why the constant terms in the 
+a
+<sub>
+0</sub>
+and W equations differ so much from the IAU/IAG equations.) The constant term in the W equation was determined so that the intersection of the prime meridian and the equator in the new coordinate system was on the prime meridian of the IAU/IAG prime meridian on Aug 1 2006 a time midway through the data used to fit the new model.</p>
+<p>
+A long term model of Titan's spin is being actively researched as more RADAR data becomes available. Until a better solution is found, the synchronous spin rate model with the observed spin axis correction described in the following equations will be utilized for passes after T30. </p>
+<p>
+<img width=72 height=16 src="BIDRSIS_FIG018.PNG">
+</p>
+<p>
+<img width=70 height=16 src="BIDRSIS_FIG020.PNG">
+</p>
+<p>
+<img width=154 height=16 src="BIDRSIS_FIG022.PNG">
+</p>
+<p>
+This model is relatively accurate over the long term, because we would expect the Titan spin rate to oscillate about the synchronous value. For any given data volume, the parameters in the PCK file describe the actual coordinate transformation used to process BIDRs and SARTopo products in that volume.
+In the event of a discrepancy between the equations in the SIS and the parameters in the PCK, the PCK values should be given precedence. </p>
+<p>
+For convenience, the set of angles used to transform coordinates from the inertial frame to the target body fixed (TBF) frame is also included in the BODP files (see Intermediate Data Segment, e.g., pole_right_ascension, pole_declination, target_rotation_rate, target_rotation_angle).</p>
+<p>
+<a name=pgfId-999100>
+</a>
+The IAU has approved two different types of coordinate systems for planetary mapping. The first, usually described as &#34;planetocentric&#34; incorporates planetocentric latitude (the angle between a point, the center of the body, and the equatorial plane) and longitude measured positive eastward. This system is identical to the standard, right-handed spherical polar coordinate system of mathematics and is universally used in cartographic calculations even when the result will be converted to the other approved system for output. The second system, usually called &#34;planetographic&#34; uses planetographic latitude (the angle between the perpendicular to the reference surface at a point and the equatorial plane) and a positive longitude direction chosen so that the longitude of the disk center increases with time as seen by an observer fixed in inertial space. The choice of a spherical reference surface for Titan makes the two kinds of latitude identical, but the positive longitude direction associated with planetographic latitude for this prograde rotator is westward. </p>
+<p>
+<a name=pgfId-999104>
+</a>
+The planetographic latitude/west longitude system will be used for the Cassini RADAR BIDR and SARTopo products. The motivation for this choice is largely historical; this type of coordinate system has been used for the vast majority of maps of planets and satellites (apart from recent maps of Mars and all maps of Earth from antiquity to present). It is therefore important to remember that the positive-west longitude <i>
+&#955;
+</i>
+<i>
+<sub>
+w
+</sub>
+</i>
+reported in the labels of the Cassini RADAR BIDR files is related to the positive-east longitude <i>
+&#955;
+</i>
+used in calculation by</p>
+<p>
+<a name=pgfId-999115>
+</a>
+<img width=73 height=21 src="BIDRSIS_FIG024.PNG">
+.</p>
+<p>
+<a name=pgfId-1002750>
+</a>
+In general, the PDS approves the use of longitudes of the chosen directionality in the numerical range -180&#176; to 360&#176;, but this is meant to accommodate the use of the -180&#176; to 180&#176; range for the Earth, Moon, and Sun, and the 0&#176; to 360&#176; range for all other bodies [5, p.&nbsp;2-2]. The Cassini RADAR Basic Image Data Records will utilize the 0&#176; to 360&#176; range of longitudes in filenames and label parameters. </p>
+<h3>
+<a name="_Toc304638526">
+</a>
+<a name="_Toc304628642">
+</a>
+<a name="_Toc304626608">
+</a>
+<a name="_Toc227733820">
+</a>
+<a name="_Ref196559511">
+</a>
+<a name="_Ref196558771">
+</a>
+<a name="_Ref196542801">
+</a>
+<a name="_Toc195067671">
+</a>
+<a name="_Toc68856895">
+</a>
+<a name=pgfId-1002751>
+</a>
+<a name=66525>
+</a>
+2.6.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Cartographic Standards
+</h3>
+<p>
+<a name=pgfId-999126>
+</a>
+Oblique cylindrical map projections will be used in production of the Cassini RADAR Basic Image Data Records. Secondary BIDR image files will be generated with maps of geographic latitude and longitude values corresponding to each pixel in the primary images. </p>
+<p>
+<a name=pgfId-1002774>
+</a>
+In keeping with PDS recommendations [5, p. 2-5], Cassini RADAR Basic Image Data Records employ map resolutions of 2, 8, 32, 128, and 256 pixels per degree. The corresponding map scales are approximately 22.5, 5.62 km, 1.40 km, 351 m, and 175&nbsp;m per pixel. The 256-pixel/degree scale preserves the full resolution of the high- and low-resolution SAR modes. Although the range resolution of the low-resolution SAR data is twice as coarse as that of the high-resolution data, the azimuth resolution of the two modes are similar. For this reason even the low-resolution SAR data is slightly undersampled (in one dimension) by the 128 pixel per degree maps.</p>
+<p>
+<a name=pgfId-999190>
+</a>
+Because of the highly variable geometry of the Cassini spacecraft's encounters with Titan and the elongated shape of the SAR image footprints, the Simple Cylindrical (geographic) coordinate system would be extremely inefficient for representing individual basic images. Basic Image Data Records will therefore be produced in Oblique Cylindrical projection. This type of projection is a Cartesian plot of the angular (longitude and latitude) coordinates of features, not with respect to the standard coordinate axes of the body, but with respect to a rotated set of axes [12, p.&nbsp;29-32]. A separate oblique coordinate system will be established for each Titan pass, placing the equator of the rotated coordinates along the ground track of that Cassini flyby and the rotated prime meridian through the point of closest approach. Let XB be the vector from the center of Titan to a position on the surface in the standard, body-fixed rotating coordinate system, which has its x-axis toward zero latitude and longitude, z-axis toward the north pole, and y-axis completing a righthand set. Then in terms of the latitude and longitude of the point, </p>
+<p>
+<a name=pgfId-999195>
+</a>
+<img width=325 height=24 src="BIDRSIS_FIG026.PNG">
+</p>
+<p>
+<a name=pgfId-999200>
+</a>
+where 
+T
+indicates the vector transpose. The equivalent vector XA giving the position of the point in oblique coordinates is</p>
+<p>
+<a name=pgfId-999207>
+</a>
+<img width=56 height=18 src="BIDRSIS_FIG028.PNG">
+, </p>
+<p>
+<a name=pgfId-999211>
+</a>
+where the rows of the rotation matrix M are equal to (the transpose of) the basis vectors of the oblique system</p>
+<p>
+<a name=pgfId-999216>
+</a>
+<img width=71 height=56 src="BIDRSIS_FIG030.PNG">
+<a name=pgfId-1004159>
+</a>
+</p>
+<p>
+In these definitions, Xc is the position of the Cassini spacecraft in the regular body-fixed system at the time of closest approach, and Vc is its (body-relative, non-inertial) velocity at that time. Because the positive y-axis of the oblique system is chosen to be Vc observation time is increasing with line number for all images. The illumination direction relative to the image coordinates then depends on the geometry of the flyby: if the spacecraft images to the left of its ground track, the image will be illuminated from the (viewer's) left side, and, conversely, if the spacecraft looks to the right, the illumination will come from the right in the image file. The direction of illumination, which is critical to interpretation of features in the image, is recorded in the LOOK_DIRECTION keyword. The matrix M can also be written in terms of successive rotations around the body-fixed z-axis, the once-rotated y-axis, and finally the twice-rotated z-axis</p>
+<p align=center>
+<a name=pgfId-999231>
+</a>
+<img width=416 height=60 src="BIDRSIS_FIG032.PNG">
+</p>
+<p>
+<a name=pgfId-999236>
+</a>
+In this representation, <i>
+&#955;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+and <i>
+&#952;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+are directly interpretable as the longitude and latitude of the north pole of the rotated system in terms of the standard system. In the rotated system, the pole of the standard system is located at longitude <i>
+&#960;
+</i>
+-
+<i>
+&#981;
+</i>
+<i>
+<sub>
+P
+</sub>
+</i>
+, latitude <i>
+&#952;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+. BIDR labels will contain both the full rotation matrix <b>
+M</b>
+and the equivalent set of angles <i>
+&#955;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+, 
+<i>
+&#952;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+, and 
+<i>
+&#981;
+</i>
+<i>
+<sub>
+P
+</sub>
+</i>
+. In addition, the required parameters REFERENCE_LATITUDE and REFERENCE_LONGITUDE will be used to store the latitude and longitude of the origin (x-axis) of the oblique system. (These two parameters are both sufficient and convenient to specify the coordinate system in the special case of oblique projections with <i>
+&#981;
+</i>
+<i>
+<sub>
+P
+</sub>
+</i>
+= 0, as used, for example, in the Magellan mission, when <i>
+&#981;
+</i>
+<i>
+<sub>
+P
+</sub>
+</i>
+is nonzero they do not completely specify the projection and their relation to <i>
+&#955;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+, <i>
+&#952;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+, and other quantities of interest is not immediately obvious.) It is crucial to note that it is the positive-west equivalents of the pole and origin latitudes that are stored in the labels, whereas the formulas given here make use of the positive-east longitude <i>
+&#955;
+</i>
+<i>
+<sub>
+p
+</sub>
+</i>
+of the pole. </p>
+<p>
+<a name=pgfId-999293>
+</a>
+Once the vector X
+B
+is known, the corresponding latitude and longitude in the oblique system are given by</p>
+<p>
+<a name=pgfId-999299>
+</a>
+<img width=149 height=44 src="BIDRSIS_FIG034.PNG">
+</p>
+<p>
+<a name=pgfId-999304>
+</a>
+with appropriate attention to the quadrant of the inverse tangents (e.g., by using the FORTRAN ATAN2 function). It is a&#955;so possib&#955;e to arrive at c&#955;osed-form expressions for these ang&#955;es in terms of 
+&#955;
+, 
+&#981;
+, 
+&#955;
+p, 
+&#952;
+p, and 
+&#981;
+p and for the inverse transformation. The derivation of these equations is given in reference [12], p. 29-32, but a critical pair of signs appear to be exchanged between the formulae for the forward and inverse transformations. Reference [13], p. 6, gives the correct forward transformation, and reference [14], pp. 77-78, give both the forward and inverse transformations. In the notation used in this document, </p>
+<p>
+<a name=pgfId-999323>
+</a>
+<img width=276 height=118 src="BIDRSIS_FIG036.PNG">
+</p>
+<p>
+<a name=pgfId-999328>
+</a>
+Once again, care must be taken in determining the quadrant of the ang&#955;es 
+&#955;
+A
++
+&#981;
+p
+and 
+&#955;
+-
+&#955;
+p
+. The ATAN2 function applied to the numerator and denominator of the expressions given above will return the correct result. </p>
+<p>
+<a name=pgfId-999341>
+</a>
+Finally, the relations between the oblique latitude and longitude and the line and sample coordinates of the Oblique Cylindrical map are shown below. For simplicity, we always choose zero for the center oblique longitude of the projection. It is important to note that we use a righthanded oblique system with the longitude given as above whereas the standard simple cylindrical projection makes use of positive-west longitude. It is convenient to represent longitude in the line direction so that the SAR images, which are elongated along the equator of the oblique system, are larger in the line direction than in the sample direction. (The label keyword MAP_ROTATION records a 90-degree rotation, since by convention the line direction corresponds to latitude.) With these modifications, and letting lat_a and lon_a be the equivalents of <i>
+&#952;
+</i>
+<i>
+<sub>
+A
+</sub>
+</i>
+and <i>
+&#955;
+</i>
+<i>
+<sub>
+A
+</sub>
+</i>
+measured in degrees, we have for the Oblique Cylindrical projection</p>
+<p>
+<a name=pgfId-999355>
+</a>
+<a name=pgfId-999358>
+</a>
+line = NINT( LINE_PROJECTION_OFFSET + lon_a * MAP_RESOLUTION + 1 )</p>
+<p>
+<a name=pgfId-999361>
+</a>
+sample = NINT( SAMPLE_PROJECTION_OFFSET + lat_a * MAP_RESOLUTION + 1 )</p>
+<p>
+<a name=pgfId-999364>
+</a>
+Here NINT means &#34;find nearest integer&#34;.</p>
+<p>
+<a name=pgfId-1004324>
+</a>
+<a name=pgfId-999367>
+</a>
+Given the map projections just defined, each BIDR will be archived in multiple forms differing in bit-type, normalization, scaling and digital scale. This complexity results from the need to support a variety of users with different applications for and expectations of the data. Some users will be interested in quantitative analysis of the SAR data and will require access to these data at the highest resolution, without truncation from 32-bit floating-point to a smaller bit type, and preferably without incidence angle correction or scaling. Others will be more interested in photointerpretation of the maps and will therefore require a format that minimizes observational (i.e., incidence angle) effects and maximizes the range of surface behavior that can be seen on a display screen or in hardcopy. The appropriate data type for the latter group is reduced to 8-bit integer; due to the large dynamic range of most radar data, normalization and conversion to a logarithmic (decibel) scale are performed. All users are likely to want reduced-resolution versions of the data in order to survey large areas. Since the application of these products (which can be considered &#34;browse&#34; images) is visual, they need only be produced in the 8-bit format. </p>
+<p>
+<a name=pgfId-999445>
+</a>
+See Sections 2.5.3
+and
+2.5.4
+for all full description of BIDR pixel values and resolutions respectively.</p>
+<h3>
+<a name="_Toc304638527">
+</a>
+<a name="_Toc304628643">
+</a>
+<a name="_Toc304626609">
+</a>
+<a name="_Toc227733821">
+</a>
+<a name="_Toc195067672">
+</a>
+<a name="_Toc68856896">
+</a>
+<a name=pgfId-999505>
+</a>
+2.6.3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+PDS Standards
+</h3>
+<p>
+<a name=pgfId-999508>
+</a>
+The Cassini RADAR BIDR and SARTopo products comply with the Planetary Data System standards for file formats and labels, as specified in the PDS Standards Reference [6].</p>
+<h3>
+<a name="_Toc304638528">
+</a>
+<a name="_Toc304628644">
+</a>
+<a name="_Toc304626610">
+</a>
+<a name="_Toc227733822">
+</a>
+<a name="_Toc195067673">
+</a>
+<a name="_Toc68856897">
+</a>
+<a name=pgfId-999511>
+</a>
+2.6.4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Storage Conventions
+</h3>
+<p>
+<a name=pgfId-999514>
+</a>
+The Cassini RADAR Basic Image Data Records contain binary data. RADAR values are stored in 32-bit IEEE floating point notation with little endian byte ordering (PC REAL) or in 8-bit unsigned integer format, depending on the product. The BIDR files will be produced on a PC running the Linux operating system. The PDS label sections are stored as ASCII character strings conforming to the conventions outlined in the PDS Standards Reference [6].</p>
+<h2>
+<a name="_Toc304638529">
+</a>
+<a name="_Toc304628645">
+</a>
+<a name="_Toc304626611">
+</a>
+<a name="_Toc227733823">
+</a>
+<a name="_Toc195067674">
+</a>
+<a name="_Toc68856898">
+</a>
+<a name=pgfId-999517>
+</a>
+2.7
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Validation
+</h2>
+<p>
+<a name=pgfId-999520>
+</a>
+Cassini RADAR Basic Image Data Records and SARTopo products will be validated before being released to the PDS. Validation is accomplished in two parts: validation for scientific integrity and validation for compliance with PDS standards. The Cassini Science Archive Working Group (SAWG) Data Validation Team will oversee validation, which includes representatives from RADAR Team and PDS. Science team members are expected to conduct validation for scientific integrity in the course of their analysis of the products. The details of the science validation process are the responsibility of the RADAR Science Team.</p>
+<p>
+<a name=pgfId-999524>
+</a>
+Validation for compliance with PDS standards is also the responsibility of the RADAR Science Team with help from the PDS Imaging Node that will receive the data products. PDS will provide software tools, examples, and advice to help make this part of the validation as efficient as possible.</p>
+<p>
+<a name=pgfId-999527>
+</a>
+A data set will pass a peer review before it is accepted by PDS. The Cassini RADAR Team and the associated PDS Node will convene a peer review committee made up of scientists and data engineers. The committee will examine the data set to make sure it is complete, meets the product specifications as defined in the SIS. The committee will include a PDS representative to ensure that the data set is in compliance with PDS standards. </p>
+<p>
+</p>
+<h1>
+<a name="_Toc304638530">
+</a>
+<a name="_Toc304628646">
+</a>
+<a name="_Toc304626612">
+</a>
+<a name="_Toc227733824">
+</a>
+<a name="_Toc195067675">
+</a>
+<a name="_Toc68856899">
+</a>
+<a name=pgfId-999531>
+</a>
+3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Detailed Data Product Specification
+</h1>
+<h2>
+<a name="_Toc304638531">
+</a>
+<a name="_Toc304628647">
+</a>
+<a name="_Toc304626613">
+</a>
+<a name="_Toc227733825">
+</a>
+<a name="_Toc195067676">
+</a>
+<a name="_Toc68856900">
+</a>
+<a name=pgfId-999534>
+</a>
+3.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data Format Descriptions
+</h2>
+<p>
+<a name=pgfId-999537>
+</a>
+Each Cassini BIDR is stored as an individual binary file in fixed record-length format. The initial record(s) of the file contain an attached PDS label [5, 6] that describes the source data, production process, map projection, relation between stored bytes and physical quantities, and other aspects of the dataset. An example label is given in Appendix A, and definitions of the label keywords in Appendix B. Following the header label in the file is a PDS Image object containing a two-dimensional array of samples of the dataset in question at equal intervals in the map-projected coordinate space.</p>
+<h2>
+<a name="_Toc304638532">
+</a>
+<a name="_Toc304628648">
+</a>
+<a name="_Toc304626614">
+</a>
+<a name="_Toc227733826">
+</a>
+<a name="_Toc195067677">
+</a>
+<a name="_Toc68856901">
+</a>
+<a name=pgfId-1004229>
+</a>
+<a name=pgfId-1002845>
+</a>
+3.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Label and Header Descriptions
+</h2>
+<p>
+<a name=pgfId-999687>
+</a>
+PDS labels are written in Object Description Language (ODL) [5]. PDS label statements have the form of &#34;keyword = value&#34;. Each label statement is terminated with a carriage return character (ASCII 13) and a line feed character (ASCII 10) sequence to allow the label to be read by many operating systems. Pointer statements with the following format are used to indicate the location of data objects in the file:</p>
+<p>
+<a name=pgfId-999690>
+</a>
+^object = location</p>
+<p>
+<a name=pgfId-999693>
+</a>
+where the caret character (^, also called a pointer) is followed by the name of the specific data object. The location is the starting record number for the data object within the file.</p>
+<p>
+<a name=pgfId-999696>
+</a>
+The labels contained in Cassini BIDR files conform to the general structure used for all PDS attached labels [5, section 5.2.1]. The metadata in the label can be divided into five categories as follows. The first and shortest is the label standards specifier, which indicates the PDS standards version that applies to the label. This is followed by file characteristics such as the record format, record length, and number of records. Next, pointers to the locations of objects in the file are given; for the Cassini BIDR the image is the only such object pointed to. Following the object pointer are a set of identification and descriptive data elements that give information about the dataset. These include identifiers for the specific datafile and the PDS dataset to which it belongs; information about the input data such as spacecraft, instrument, time range of data, and file names; and information about the producing institution. Finally, definitions of the data objects in the file are given. The IMAGE object definition contains information about the size, data type, scaling, and special pixel values of the image data. The IMAGE_MAP_PROJECTION object definition contains parameters needed to understand the map projection used to represent the data, such as the projection type, projection parameters, scale, and extent of the data. This object also contains a pointer to an external file that contains the DATASET_MAP_PROJECTION, a more detailed description of the type of map projection used that includes formulae relating line and sample in the projected dataset to latitude-longitude coordinates (similar to Section 2.6.2
+of this document). Appendix A gives an example BIDR image label, and Appendix B lists all the label keywords used, with definitions and either default values or formats as applicable. </p>
+<p>
+</p>
+<h1>
+<a name="_Toc304638533">
+</a>
+<a name="_Toc304628649">
+</a>
+<a name="_Toc304626615">
+</a>
+<a name="_Toc227733827">
+</a>
+<a name="_Toc195067678">
+</a>
+<a name="_Toc68856902">
+</a>
+<a name=pgfId-999699>
+</a>
+4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Applicable Software
+</h1>
+<h2>
+<a name="_Toc304638534">
+</a>
+<a name="_Toc304628650">
+</a>
+<a name="_Toc304626616">
+</a>
+<a name="_Toc227733828">
+</a>
+<a name="_Toc195067679">
+</a>
+<a name="_Toc68856903">
+</a>
+<a name=pgfId-999702>
+</a>
+4.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Cassini RADAR Team SAR Processor
+</h2>
+<p>
+<a name=pgfId-1003916>
+</a>
+<a name=pgfId-1003917>
+</a>
+The Cassini RADAR Team SAR Processor (sar_proc) is used to create the full resolution BIDR files. This software was developed at JPL in C++ on a PC running the Linux operating system. There is no current plan to make the SAR processing code available outside of JPL. For a description of the algorithm employed by the SAR processor see Section 2.5.5
+.</p>
+<h2>
+<a name="_Toc304638535">
+</a>
+<a name="_Toc304628651">
+</a>
+<a name="_Toc304626617">
+4.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SARTopo Processor
+</a>
+</h2>
+<p>
+The SARTopo processor is a variant of the C++ SAR processor with additional code to rerun the processing for different candidate heights, to compute goodness of fit, and to determine the raw SARTopo heights. The routine for correcting attitude-error induced biases in height is implemented in MATLAB.</p>
+<p>
+</p>
+<h2>
+<a name="_Toc304638536">
+</a>
+<a name="_Toc304628652">
+</a>
+<a name="_Toc304626618">
+</a>
+<a name="_Toc227733829">
+</a>
+<a name="_Toc195067680">
+</a>
+<a name="_Toc68856904">
+</a>
+<a name=pgfId-1003915>
+</a>
+4.3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ISIS
+</h2>
+<p>
+<a name=pgfId-999705>
+</a>
+The majority of the processing required to create the reduced resolution BIDRs and also the Cassini RADAR Digital Map Products [4] is performed with the Integrated Software for Imagers and Spectrometers (ISIS) developed by the Astrogeology Team of the U.S. Geological Survey, Flagstaff, Arizona [8, 9, 10]. ISIS runs on a variety of UNIX platforms and consists of roughly 250 separate program modules that provide capabilities for mission-dependent data ingestion and calibration for a large number of spacecraft missions; basic image processing functions (e.g., contrast stretching, spatial filtration), image display, digital cartography (e.g., rasterization of vector data, reprojection of image data to map projection and from one projection to another, and mosaicking), photometric modeling and normalization, photoclinometry and radar clinometry, and spectral analysis. ISIS also includes programs for interactive and automatic feature matching between images and incorporates bundle-block adjustment software for geodetic control net calculations, much of which was originally written at RAND. Finally, ISIS includes programs for importing a variety of PDS data formats into the system for analysis and display and for exporting Cassini RADAR Digital Map Products (as well as BIDRs and products for other missions) to PDS format. ISIS is of use to scientists wishing to read, display, manipulate, and analyze Basic Image Data Records. ISIS, including C and FORTRAN source code, is in the public domain and versions configured to run under Solaris or Red Hat Linux may be obtained by qualified researchers from (http://astrogeology.wr.usgs.gov/Projects/ISIS/). This website also holds a large amount of additional information about the system. A subset of spectral display and analysis functions in ISIS (mostly irrelevant to Cassini RADAR data) require the commercial image processing software IDL, available under license from Research Systems, Inc. (http://www.rsinc.com/). </p>
+<b>
+</b>
+<h1>
+<a name="_Toc304638537">
+</a>
+<a name="_Toc304628653">
+</a>
+<a name="_Toc304626619">
+</a>
+<a name="_Toc227733830">
+</a>
+<a name="_Toc195067681">
+</a>
+<a name="_Toc68856905">
+</a>
+<a name=pgfId-1002869>
+</a>
+5
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+APPENDIX A: Example Label for Cassini RADAR Basic Image Data Record
+</h1>
+<h2>
+<a name="_Toc304638538">
+</a>
+<a name="_Toc304628654">
+</a>
+<a name="_Toc304626620">
+</a>
+<a name="_Toc227733831">
+</a>
+<a name="_Toc195067682">
+</a>
+<a name="_Toc68856906">
+</a>
+<a name=pgfId-1002953>
+</a>
+5.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+BIDR PDS Label, primary data set, 32-bit data
+</h2>
+<p>
+<a name=pgfId-1002954>
+</a>
+<a name=pgfId-1002955>
+</a>
+PDS_VERSION_ID = 
+PDS3</p>
+<p>
+</p>
+<p>
+<a name=pgfId-1002956>
+</a>
+<a name=pgfId-1002957>
+</a>
+/* FILE FORMAT AND LENGTH */</p>
+<p>
+<a name=pgfId-1002958>
+</a>
+<a name=pgfId-1002959>
+</a>
+RECORD_TYPE = FIXED_LENGTH</p>
+<p>
+<a name=pgfId-1002960>
+</a>
+RECORD_BYTES = 160</p>
+<p>
+<a name=pgfId-1002961>
+</a>
+FILE_RECORDS = 183</p>
+<p>
+<a name=pgfId-1002962>
+</a>
+LABEL_RECORDS = 23</p>
+<p>
+<a name=pgfId-1002963>
+</a>
+</p>
+<p>
+<a name=pgfId-1002964>
+</a>
+/* POINTERS TO START RECORDS OF OBJECTS IN FILE */</p>
+<p>
+<a name=pgfId-1002965>
+</a>
+</p>
+<p>
+<a name=pgfId-1002966>
+</a>
+^IMAGE = 24</p>
+<p>
+<a name=pgfId-1002967>
+</a>
+</p>
+<p>
+<a name=pgfId-1002968>
+</a>
+/* IMAGE DESCRIPTION */</p>
+<p>
+<a name=pgfId-1002969>
+</a>
+</p>
+<p>
+<a name=pgfId-1002970>
+</a>
+DATA_SET_ID = &#34;CO-SSA-RADAR-5-BIDR-V1.0&#34;</p>
+<p>
+<a name=pgfId-1002971>
+</a>
+DATA_SET_NAME = &#34;CASSINI ORBITER SSA RADAR 5 BIDR V1.0&#34;
+</p>
+<p>
+<a name=pgfId-1002972>
+</a>
+PRODUCER_INSTITUTION_NAME = &#34;JET PROPULSION LABORATORY&#34;</p>
+<p>
+<a name=pgfId-1002973>
+</a>
+PRODUCER_ID = JPL</p>
+<p>
+<a name=pgfId-1002974>
+</a>
+PRODUCER_FULL_NAME = &#34;Inst Lead Charles Elachi contact Bryan Stiles&#34;</p>
+<p>
+<a name=pgfId-1002975>
+</a>
+PRODUCT_ID = BIFQI42N253_D035_T00A_V01</p>
+<p>
+<a name=pgfId-1004119>
+</a>
+PRODUCT_VERSION_ID = 1</p>
+<p>
+<a name=pgfId-1002976>
+</a>
+INSTRUMENT_HOST_NAME = &#34;CASSINI ORBITER&#34;</p>
+<p>
+<a name=pgfId-1002977>
+</a>
+INSTRUMENT_HOST_ID = CO</p>
+<p>
+<a name=pgfId-1002978>
+</a>
+INSTRUMENT_NAME = &#34;CASSINI RADAR&#34;</p>
+<p>
+<a name=pgfId-1002979>
+</a>
+INSTRUMENT_ID = RADAR</p>
+<p>
+<a name=pgfId-1002980>
+</a>
+TARGET_NAME = TITAN</p>
+<p>
+<a name=pgfId-1002981>
+</a>
+START_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1002982>
+</a>
+STOP_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1002983>
+</a>
+SPACECRAFT_CLOCK_START_COUNT = nnnnnnnnn </p>
+<p>
+<a name=pgfId-1002984>
+</a>
+SPACECRAFT_CLOCK_STOP_COUNT = nnnnnnnnn </p>
+<p>
+<a name=pgfId-1004234>
+</a>
+PRODUCT_CREATION_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1004235>
+</a>
+SOURCE_PRODUCT_ID = LBDR_08_031_V01</p>
+<p>
+<a name=pgfId-1004238>
+</a>
+MISSION_PHASE_NAME = TOUR</p>
+<p>
+<a name=pgfId-1003962>
+</a>
+MISSION_NAME =&#34;CASSINI-HUYGENS&#34;</p>
+<p>
+<a name=pgfId-1004261>
+</a>
+SOFTWARE_VERSION_ID =&#34;V1.0&#34;</p>
+<p>
+<a name=pgfId-1002988>
+</a>
+</p>
+<p>
+<a name=pgfId-1002989>
+</a>
+/* DESCRIPTIONS OF OBJECTS CONTAINED IN FILE */</p>
+<p>
+<a name=pgfId-1002990>
+</a>
+</p>
+<p>
+<a name=pgfId-1002991>
+</a>
+OBJECT = IMAGE</p>
+<p>
+<a name=pgfId-1002992>
+</a>
+LINES = 160</p>
+<p>
+<a name=pgfId-1002993>
+</a>
+LINE_SAMPLES = 40</p>
+<p>
+<a name=pgfId-1002994>
+</a>
+SAMPLE_TYPE = &#34;PC_REAL&#34;</p>
+<p>
+<a name=pgfId-1003815>
+</a>
+SAMPLE_BITS = 32</p>
+<p>
+<a name=pgfId-1003820>
+</a>
+CHECKSUM = nnnnnnnnn</p>
+<p>
+<a name=pgfId-1003816>
+</a>
+SCALING_FACTOR = 1.00000000 </p>
+<p>
+<a name=pgfId-1003817>
+</a>
+OFFSET = 0.00000000 </p>
+<p>
+<a name=pgfId-1002999>
+</a>
+MISSING_CONSTANT = 16#FF7FFFFB#</p>
+<p>
+<a name=pgfId-1003000>
+</a>
+NOTE = &#34;</p>
+<p>
+<a name=pgfId-1003001>
+</a>
+Data values in this Basic Image Data Record are Synthetic Aperture<a name=pgfId-1003070>
+</a>
+Radar (SAR) normalized backscatter cross-section values. The values are physical <a name=pgfId-1003071>
+</a>
+scale (not in dB) and have been normalized in order to remove variations in<a name=pgfId-1003072>
+</a>
+the image due to incidence angle variations among the measurements. The <a name=pgfId-1003085>
+</a>
+raw backscatter values are multiplied by the function f(I) of incidence angle, I, in degrees of the form XXXXXXXXX&#34;</p>
+<p>
+<a name=pgfId-1003007>
+</a>
+END_OBJECT = IMAGE</p>
+<p>
+<a name=pgfId-1003008>
+</a>
+</p>
+<p>
+<a name=pgfId-1003009>
+</a>
+OBJECT = IMAGE_MAP_PROJECTION</p>
+<p>
+<a name=pgfId-1003010>
+</a>
+^DATA_SET_MAP_PROJECTION = &#34;DSMAP.CAT&#34;</p>
+<p>
+<a name=pgfId-1003011>
+</a>
+MAP_PROJECTION_TYPE = OBLIQUE CYLINDRICAL
+</p>
+<p>
+<a name=pgfId-1003012>
+</a>
+A_AXIS_RADIUS = 2575.000000 &lt;km&gt;
+</p>
+<p>
+<a name=pgfId-1003013>
+</a>
+B_AXIS_RADIUS = 2575.000000 &lt;km&gt;</p>
+<p>
+<a name=pgfId-1003014>
+</a>
+C_AXIS_RADIUS = 2575.000000 &lt;km&gt;</p>
+<p>
+<a name=pgfId-1003015>
+</a>
+FIRST_STANDARD_PARALLEL = &#34;N/A&#34;</p>
+<p>
+<a name=pgfId-1003016>
+</a>
+SECOND_STANDARD_PARALLEL = &#34;N/A&#34;</p>
+<p>
+<a name=pgfId-1003017>
+</a>
+POSITIVE_LONGITUDE_DIRECTION = WEST</p>
+<p>
+<a name=pgfId-1003018>
+</a>
+CENTER_LATITUDE = 0.000000 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003019>
+</a>
+CENTER_LONGITUDE = 0.000000 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003020>
+</a>
+REFERENCE_LATITUDE = 30.000000 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003021>
+</a>
+REFERENCE_LONGITUDE = 150.000000 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003022>
+</a>
+LINE_FIRST_PIXEL = 1</p>
+<p>
+<a name=pgfId-1003023>
+</a>
+LINE_LAST_PIXEL = 160</p>
+<p>
+<a name=pgfId-1003024>
+</a>
+SAMPLE_FIRST_PIXEL = 1</p>
+<p>
+<a name=pgfId-1003025>
+</a>
+SAMPLE_LAST_PIXEL = 40</p>
+<p>
+<a name=pgfId-1003026>
+</a>
+MAP_PROJECTION_ROTATION = 90.0
+</p>
+<p>
+<a name=pgfId-1003027>
+</a>
+MAP_RESOLUTION = 8.0 &lt;pix/deg&gt;
+</p>
+<p>
+<a name=pgfId-1003028>
+</a>
+MAP_SCALE = 5.61777853 &lt;km/pix&gt;
+</p>
+<p>
+<a name=pgfId-1003029>
+</a>
+MAXIMUM_LATITUDE = 46.13792 &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1003030>
+</a>
+MINIMUM_LATITUDE = 37.160353 &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1003031>
+</a>
+EASTERNMOST_LONGITUDE = 93.703090 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003032>
+</a>
+WESTERNMOST_LONGITUDE = 120.701079 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1003033>
+</a>
+LINE_PROJECTION_OFFSET = -240.500000</p>
+<p>
+<a name=pgfId-1003034>
+</a>
+SAMPLE_PROJECTION_OFFSET = -80.500000</p>
+<p>
+<a name=pgfId-1003035>
+</a>
+OBLIQUE_PROJ_POLE_LATITUDE = 58.525051 &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1003036>
+</a>
+OBLIQUE_PROJ_POLE_LONGITUDE = 310.574599 &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1003037>
+</a>
+OBLIQUE_PROJ_POLE_ROTATION = 157.535316 &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1003038>
+</a>
+OBLIQUE_PROJ_X_AXIS_VECTOR = ( -0.75000000, -0.43301270, 0.50000000 )
+</p>
+<p>
+<a name=pgfId-1003039>
+</a>
+OBLIQUE_PROJ_Y_AXIS_VECTOR = ( 0.56759575, -0.80945648, 0.15038374 )
+</p>
+<p>
+<a name=pgfId-1004243>
+</a>
+OBLIQUE_PROJ_Z_AXIS_VECTOR = ( 0.33961017, 0.39658568, 0.85286853 )
+</p>
+<p>
+<a name=pgfId-1004244>
+</a>
+LOOK_DIRECTION = LEFT</p>
+<p>
+<a name=pgfId-1004284>
+</a>
+COORDINATE_SYSTEM_NAME = &#34;PLANETOGRAPHIC&#34;</p>
+<p>
+<a name=pgfId-1004285>
+</a>
+COORDINATE_SYSTEM_TYPE = &#34;BODY-FIXED ROTATING&#34;</p>
+<p>
+<a name=pgfId-1004245>
+</a>
+END_OBJECT = IMAGE_MAP_PROJECTION</p>
+<p>
+<a name=pgfId-1003042>
+</a>
+END</p>
+<p>
+<a name=pgfId-1003043>
+</a>
+</p>
+<p>
+<a name=pgfId-999725>
+</a>
+</p>
+<p>
+<a name=pgfId-1000295>
+</a>
+Note: This example is not based on actual flyby geometries for a particular Titan pass.</p>
+<p>
+</p>
+<b>
+<br clear=all>
+</b>
+<h1>
+<a name="_Toc195067683">
+</a>
+<a name="_Toc68856907">
+</a>
+<a name=pgfId-1002951>
+</a>
+<a name="_Toc304638539">
+</a>
+<a name="_Toc304628655">
+</a>
+<a name="_Toc304626621">
+</a>
+<a name="_Toc227733832">
+6
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+APPENDIX B: PDS Keyword Definitions
+</a>
+</h1>
+<p>
+<a name=pgfId-1000301>
+</a>
+<a name=pgfId-1000304>
+</a>
+</p>
+<p>
+PDS_VERSION_ID = PDS3</p>
+<p>
+<a name=pgfId-1000307>
+</a>
+Represents the version number of the PDS standards documents that is valid when a data product label is created. PDS3 is used for the Cassini BIDR.</p>
+<p>
+<a name=pgfId-1000310>
+</a>
+<a name=pgfId-1000313>
+</a>
+RECORD_TYPE = FIXED_LENGTH</p>
+<p>
+<a name=pgfId-1000316>
+</a>
+Indicates the record format of a file. All Cassini BIDR use fixed length records.</p>
+<p>
+<a name=pgfId-1000319>
+</a>
+<a name=pgfId-1000322>
+</a>
+RECORD_BYTES = nnnn</p>
+<p>
+<a name=pgfId-1000325>
+</a>
+Indicates the number of bytes in a physical file record, including record terminators and separators.</p>
+<p>
+<a name=pgfId-1000328>
+</a>
+<a name=pgfId-1000331>
+</a>
+FILE_RECORDS = nnnn</p>
+<p>
+<a name=pgfId-1000334>
+</a>
+Indicates the number of physical file records, including both label records and data records.</p>
+<p>
+<a name=pgfId-1000337>
+</a>
+<a name=pgfId-1000340>
+</a>
+LABEL_RECORDS = nn</p>
+<p>
+<a name=pgfId-1000343>
+</a>
+Indicates the number of physical file records that contain only label information.</p>
+<p>
+<a name=pgfId-1000346>
+</a>
+<a name=pgfId-1000349>
+</a>
+^IMAGE = nn</p>
+<p>
+<a name=pgfId-1000352>
+</a>
+Pointer to the image object. The value contains the starting record position in the file.</p>
+<p>
+<a name=pgfId-1000355>
+</a>
+<a name=pgfId-1000358>
+</a>
+DATA_SET_ID = &#34;CO-SSA-RADAR-5-BIDR-V1.0&#34;</p>
+<p>
+<a name=pgfId-1000361>
+</a>
+Unique alphanumeric identifier for the dataset. Elements separated by hyphens indicate the instrument host, target, CODMAC processing level, dataset type (BIDR), and version number.</p>
+<p>
+<a name=pgfId-1000364>
+</a>
+<a name=pgfId-1000367>
+</a>
+DATA_SET_NAME = &#34;CASSINI ORBITER SSA RADAR 5 BIDR V1.0&#34;
+</p>
+<p>
+<a name=pgfId-1000370>
+</a>
+Full name of the data product. Information contained is essentially the same as that in the DATA_SET_ID.</p>
+<p>
+<a name=pgfId-1004271>
+</a>
+<a name=pgfId-1004272>
+</a>
+PRODUCER_INSTITUTION_NAME = &#34;JET PROPULSION LABORATORY&#34;/ &#34;USGS FLAGSTAFF&#34;</p>
+<p>
+<a name=pgfId-1000379>
+</a>
+Identifies the institution associated with production of a data set. Cassini 32-bit floating point BIDRs are produced by the Cassini Radar Instrument Team at JPL. The 8-bit integer BIDR formats are produced by the United States Geological Survey in Flagstaff, Arizona.</p>
+<p>
+<a name=pgfId-1000382>
+</a>
+<a name=pgfId-1000385>
+</a>
+PRODUCER_ID = JPL/USGS</p>
+<p>
+<a name=pgfId-1000388>
+</a>
+Short name for the group responsible for producing the data set.</p>
+<p>
+<a name=pgfId-1000391>
+</a>
+<a name=pgfId-1000394>
+</a>
+PRODUCER_FULL_NAME = &#34;Inst Lead Charles Elachi contact Bryan Stiles&#34;</p>
+<p>
+<a name=pgfId-1000397>
+</a>
+The name of the individual(s) mainly responsible for production of a data set.</p>
+<p>
+<a name=pgfId-1000400>
+</a>
+<a name=pgfId-1000403>
+</a>
+PRODUCT_ID = &#34;aabcdeefggg_Dhhh_TiiiSjj_Vnn&#34; </p>
+<p>
+<a name=pgfId-1000418>
+</a>
+<a name=pgfId-1002916>
+</a>
+The PRODUCT_ID data element represents a permanent, unique identifier assigned to a data product by its producer. The PRODUCT_ID is identical to the name (apart from extension) of the datafile. </p>
+<p>
+<a name=pgfId-1000437>
+</a>
+aa = Dataset</p>
+<p>
+<a name=pgfId-1000440>
+</a>
+BI = BIDR</p>
+<p>
+<a name=pgfId-1000461>
+</a>
+b = Kind and bit-type of data</p>
+<p>
+<a name=pgfId-1000464>
+</a>
+F = Primary dataset (e.g., incidence angle corrected and noise-subtracted <i>
+&#963;
+</i>
+<sub>
+0
+</sub>
+) in 32-bit floating-point format (Linear scale values, not in dB.)</p>
+<p>
+<a name=pgfId-1000467>
+</a>
+B = Primary dataset in unsigned byte format. (Values converted to dB and normalized to fit in [0, 255] range.)</p>
+<p>
+D = Standard deviation of <i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+with noise subtraction but without correction for incidence angle effects, in 32-bit floating-point format (Linear scale, not dB).
+</p>
+<p>
+<a name=pgfId-1002931>
+</a>
+<a name=pgfId-1000470>
+</a>
+S = <i>
+&#963;
+</i>
+<sub>
+0
+</sub>
+with noise subtraction but without incidence angle correction in 32-bit floating point format. (Linear scale values, not in dB.)</p>
+<p>
+U = <i>
+&#963;
+</i>
+<sub>
+0
+</sub>
+without noise subtraction or incidence angle correction in 32-bit floating point format. (Linear scale values, not in dB.)</p>
+<p>
+X = Noise Equivalent <i>
+&#963;
+</i>
+<sub>
+0 
+</sub>
+with noise subtraction but without correction for incidence angle effects, in 32-bit floating-point format (Linear scale not dB).</p>
+<p>
+E = Incidence angle map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-1000476>
+</a>
+T = Latitude map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-1003089>
+</a>
+N = Longitude map, floating point values in degrees.</p>
+<p>
+<a name=pgfId-1003812>
+</a>
+M= Beam mask map, 8 bit values.</p>
+<p>
+<a name=pgfId-1004262>
+</a>
+L= Number of looks map, 32 bit integer values.</p>
+<p>
+<a name=pgfId-1004265>
+</a>
+c=Map projection</p>
+<p>
+<a name=pgfId-1004266>
+</a>
+Q= Oblique Cylindrical (used to conform with higher level product naming<a name=pgfId-1004267>
+</a>
+convention.)</p>
+<p>
+<a name=pgfId-1000479>
+</a>
+d= Map resolution</p>
+<p>
+<a name=pgfId-1000482>
+</a>
+B = 2 pixels/degree</p>
+<p>
+C = 4 pixels/degree</p>
+<p>
+<a name=pgfId-1000485>
+</a>
+D = 8 pixels/degree</p>
+<p>
+E = 16 pixels/degree</p>
+<p>
+<a name=pgfId-1000488>
+</a>
+F = 32 pixels/degree</p>
+<p>
+G = 64 pixels/degree</p>
+<p>
+<a name=pgfId-1000491>
+</a>
+H = 128 pixels/degree</p>
+<p>
+<a name=pgfId-1004049>
+</a>
+I = 256 pixels/degree</p>
+<p>
+<a name=pgfId-1004053>
+</a>
+<a name=pgfId-1000494>
+</a>
+ee = Absolute value of latitude at center of file, rounded to nearest degree</p>
+<p>
+<a name=pgfId-1000497>
+</a>
+f = Hemisphere of center of file</p>
+<p>
+<a name=pgfId-1000500>
+</a>
+N = North</p>
+<p>
+<a name=pgfId-1000503>
+</a>
+S = South</p>
+<p>
+<a name=pgfId-1000506>
+</a>
+ggg = West longitude at center of file, rounded to nearest degree</p>
+<p>
+<a name=pgfId-1000509>
+</a>
+hhh = Three-digit mission unique Cassini Radar data take number from which data are included</p>
+<p>
+<a name=pgfId-1004316>
+</a>
+<a name=pgfId-1004115>
+</a>
+iii = Three-digit mission unique Cassini Titan flyby ID from which data are included. For example for Flyby TA iii=00A , for T7 iii=007, etc.</p>
+<p>
+jj = Two-digit segment number when there are several pieces of a swath for the same flyby.
+Segment 01 is usually the main imaging segment.
+Other segments include turns from/to altimetry to/from SAR, and high altitude imaging (HiSAR; of lower resolution). </p>
+<p>
+nn = Two digit version of an individual product within a dataset</p>
+<p>
+</p>
+<p>
+<a name=pgfId-1004105>
+</a>
+PRODUCT_VERSION_ID = integer</p>
+<p>
+<a name=pgfId-1004106>
+</a>
+Identifies the version of an individual product within a dataset. The value of this keyword also appears as part of the PRODUCT_ID and filename.</p>
+<p>
+<a name=pgfId-1004107>
+</a>
+<a name=pgfId-1000512>
+</a>
+INSTRUMENT_HOST_NAME = &#34;CASSINI ORBITER&#34;</p>
+<p>
+<a name=pgfId-1000536>
+</a>
+The full name of the host (in this case, a spacecraft) on which the instrument that obtained the dataset is based.</p>
+<p>
+<a name=pgfId-1000539>
+</a>
+<a name=pgfId-1000542>
+</a>
+INSTRUMENT_HOST_ID = CO</p>
+<p>
+<a name=pgfId-1000545>
+</a>
+A short but unique identifier for the host (spacecraft) on which the instrument is based.</p>
+<p>
+<a name=pgfId-1000548>
+</a>
+<a name=pgfId-1000551>
+</a>
+INSTRUMENT_NAME = &#34;CASSINI RADAR&#34;</p>
+<p>
+<a name=pgfId-1000554>
+</a>
+The full name of the instrument used to obtain the dataset.</p>
+<p>
+<a name=pgfId-1000557>
+</a>
+<a name=pgfId-1000560>
+</a>
+INSTRUMENT_ID = RADAR</p>
+<p>
+<a name=pgfId-1000563>
+</a>
+A short but unique identifier for the instrument.</p>
+<p>
+<a name=pgfId-1000566>
+</a>
+<a name=pgfId-1000569>
+</a>
+TARGET_NAME = TITAN</p>
+<p>
+<a name=pgfId-1000572>
+</a>
+Identifies the target of the observations contained in the dataset. The CASSINI RADAR instrument is used to observe a variety of targets, but the BIDR are produced only from observations of Titan.</p>
+<p>
+<a name=pgfId-1000575>
+</a>
+<a name=pgfId-1000578>
+</a>
+START_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1000581>
+</a>
+Provides the date and time of the beginning of the observation used in creating the dataproduct. </p>
+<p>
+<a name=pgfId-1000584>
+</a>
+<a name=pgfId-1000587>
+</a>
+STOP_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1000590>
+</a>
+Provides the date and time of the end of the observation used in creating the dataproduct.</p>
+<p>
+<a name=pgfId-1003094>
+</a>
+<a name=pgfId-1000593>
+</a>
+SPACECRAFT_CLOCK_START_COUNT = nnnnnnnnn &lt;LSB = 1 second&gt;</p>
+<p>
+<a name=pgfId-1000602>
+</a>
+Provides the value of the Cassini spacecraft clock counter at the beginning of the observation used in creating the data product. The 32 most significant bits of the spacecraft clock are included as a 9-digit decimal integer. The least significant bit included represents a 1-second interval.</p>
+<p>
+<a name=pgfId-1000605>
+</a>
+<a name=pgfId-1000608>
+</a>
+SPACECRAFT_CLOCK_STOP_COUNT = nnnnnnnnn (LSB=1 second)</p>
+<p>
+<a name=pgfId-1000613>
+</a>
+Provides the value of the Cassini spacecraft clock counter at the end of the observation used in creating the dataproduct. The 32 most significant bits of the spacecraft clock are included as a 9-digit decimal integer. The least significant bit included represents a 1-second interval.</p>
+<p>
+<a name=pgfId-1000616>
+</a>
+<a name=pgfId-1000619>
+</a>
+PRODUCT_CREATION_TIME = YYYY-DOYThh:mm:ss.sss</p>
+<p>
+<a name=pgfId-1000622>
+</a>
+Defines the UTC system format time when the product was created.</p>
+<p>
+<a name=pgfId-1000625>
+</a>
+<a name=pgfId-1000628>
+</a>
+SOURCE_PRODUCT_ID = &#34;LBDR_xx_yyy_Vnn&#34;</p>
+<p>
+<a name=pgfId-1000631>
+</a>
+Identifies the product used as input to generate the current data product. PDS PRODUCT_ID values of the input products are used; by intent this is also the filename (minus the extension) of the source data. The input products of a Cassini BIDR is a single LBDR file.</p>
+<p>
+<a name=pgfId-1000646>
+</a>
+<a name=pgfId-1000649>
+</a>
+MISSION_PHASE_NAME = TOUR</p>
+<p>
+<a name=pgfId-1003109>
+</a>
+The commonly-used name of the mission phase in which the data used in the product were obtained.</p>
+<p>
+<a name=pgfId-1003975>
+</a>
+<a name=pgfId-1003965>
+</a>
+MISSION_NAME = &#34;CASSINI-HUYGENS&#34;</p>
+<p>
+<a name=pgfId-1003966>
+</a>
+The name of the mission in which the data used in the product were obtained. </p>
+<p>
+<a name=pgfId-1003110>
+</a>
+<a name=pgfId-1004268>
+</a>
+SOFTWARE_VERSION_ID = &#34;V1.0&#34;</p>
+<p>
+<a name=pgfId-1004269>
+</a>
+Version of SAR processor software used to produce BIDR images. </p>
+<p>
+<a name=pgfId-1004270>
+</a>
+<a name=pgfId-1000660>
+</a>
+LINES = nnnn</p>
+<p>
+<a name=pgfId-1000663>
+</a>
+Indicates the total number of data instances along the vertical axis of the image.</p>
+<p>
+<a name=pgfId-1000666>
+</a>
+<a name=pgfId-1000669>
+</a>
+LINE_SAMPLES = nnnn</p>
+<p>
+<a name=pgfId-1000672>
+</a>
+Indicates the total number of data instances along the horizontal axis of the image.</p>
+<p>
+<a name=pgfId-1000675>
+</a>
+<a name=pgfId-1000678>
+</a>
+SAMPLE_TYPE = string</p>
+<p>
+<a name=pgfId-1000681>
+</a>
+Indicates the data storage representation of sample values in the image. Valid values for Cassini BIDR are &#34;UNSIGNED INTEGER&#34; for 8-bit data and &#34;PC_REAL&#34; for 32-bit data.</p>
+<p>
+<a name=pgfId-1000684>
+</a>
+<a name=pgfId-1000687>
+</a>
+SAMPLE_BITS = nn</p>
+<p>
+<a name=pgfId-1000690>
+</a>
+Indicates the number of bits contained in a sample value in the image. Valid values for Cassini BIDR are 8 and 32.</p>
+<p>
+<a name=pgfId-1000693>
+</a>
+<a name=pgfId-1000696>
+</a>
+CHECKSUM = nnnnnnnnn</p>
+<p>
+<a name=pgfId-1000699>
+</a>
+Represents an unsigned 32-bit sum of all data values in the image object as a decimal 9-digit integer. The value is only meaningful for 8-bit images. For 32-bit formats, the number is all zeros.</p>
+<p>
+<a name=pgfId-1000702>
+</a>
+<a name=pgfId-1000705>
+</a>
+SCALING_FACTOR = real, instance dependent value and units</p>
+<p>
+<a name=pgfId-1000708>
+</a>
+A constant value by which the stored value in the image must be multiplied, followed by addition of the OFFSET, to yield the true value in physical units. </p>
+<p>
+<a name=pgfId-1000711>
+</a>
+<a name=pgfId-1000714>
+</a>
+OFFSET = real, instance dependent value and units</p>
+<p>
+<a name=pgfId-1000717>
+</a>
+A constant value that must be added to the stored value in the image after it is multiplied by the SCALING_FACTOR, to yield the true value in physical units.</p>
+<p>
+<a name=pgfId-1000720>
+</a>
+<a name=pgfId-1000723>
+</a>
+MISSING_CONSTANT = instance dependent</p>
+<p>
+<a name=pgfId-1000726>
+</a>
+The value used for an image sample when no input data were available for that pixel. Format and value depend on the data format. Cassini BIDR use the value 0 to denote missing data in 8-bit format, and 16#FF7FFFFB# (=ISIS NULL) for 32-bit data.</p>
+<p>
+<a name=pgfId-1000729>
+</a>
+<a name=pgfId-1000732>
+</a>
+NOTE = string</p>
+<p>
+<a name=pgfId-1000735>
+</a>
+Text field providing additional information about the image object in the BIDR file. This field will be used to specify any incidence-angle normalization and scaling applied to the data.</p>
+<p>
+<a name=pgfId-1000738>
+</a>
+<a name=pgfId-1000741>
+</a>
+^DATA_SET_MAP_PROJECTION = string</p>
+<p>
+<a name=pgfId-1000744>
+</a>
+Pointer to an external file containing additional, detailed information about the map projection used. In general, this external file contains static information about map projection that applies to the full dataset, while dynamic information that applies to the particular dataproduct resides in the IMAGE_MAP_PROJECTION within the file header of the dataset to which it applies.</p>
+<p>
+<a name=pgfId-1000747>
+</a>
+<a name=pgfId-1000750>
+</a>
+MAP_PROJECTION_TYPE = string</p>
+<p>
+<a name=pgfId-1000753>
+</a>
+Identifies the type of projection used in creating the data product. The OBLIQUE CYLINDRICAL projection is used for BIDR products.</p>
+<p>
+<a name=pgfId-1000758>
+</a>
+<a name=pgfId-1000761>
+</a>
+A_AXIS_RADIUS = 2575.000000 &lt;km&gt;</p>
+<p>
+<a name=pgfId-1000764>
+</a>
+Provides the value of the semimajor axis of the ellipsoid that defines the approximate shape of the target body. The A axis usually lies in the equatorial plane; the current reference surface model for Titan is a sphere, so the three axes are not distinct.</p>
+<p>
+<a name=pgfId-1000767>
+</a>
+<a name=pgfId-1000770>
+</a>
+B_AXIS_RADIUS = 2575.000000 &lt;km&gt;</p>
+<p>
+<a name=pgfId-1000773>
+</a>
+Provides the value of the intermediate semi-axis of the ellipsoid that defines the approximate shape of the target body. The B axis usually lies in the equatorial plane; the current reference surface model for Titan is a sphere, so the three axes are not distinct.</p>
+<p>
+<a name=pgfId-1000776>
+</a>
+<a name=pgfId-1000779>
+</a>
+C_AXIS_RADIUS = 2575.000000 &lt;km&gt;</p>
+<p>
+<a name=pgfId-1000782>
+</a>
+Provides the value of the semiminor axis of the ellipsoid that defines the approximate shape of the target body. The C axis is usually the polar axis; the current reference surface model for Titan is a sphere, so the three axes are not distinct.</p>
+<p>
+<a name=pgfId-1000785>
+</a>
+<a name=pgfId-1000788>
+</a>
+<a name=pgfId-1000791>
+</a>
+FIRST_STANDARD_PARALLEL = &#34;N/A&#34;</p>
+<p>
+<a name=pgfId-1000794>
+</a>
+Required keyword for a parameter used with conic projections but not needed for the cylindrical projections used in the Cassini BIDR.</p>
+<p>
+<a name=pgfId-1000797>
+</a>
+<a name=pgfId-1000800>
+</a>
+SECOND_STANDARD_PARALLEL = &#34;N/A&#34;</p>
+<p>
+<a name=pgfId-1000803>
+</a>
+Required keyword for a parameter used with conic projections but not needed for the cylindrical projections used in the Cassini BIDR.</p>
+<p>
+<a name=pgfId-1000806>
+</a>
+<a name=pgfId-1000809>
+</a>
+POSITIVE_LONGITUDE_DIRECTION = WEST</p>
+<p>
+<a name=pgfId-1000812>
+</a>
+Identifies the direction of longitude for a planet. The IAU definition for direction of positive longitude is adopted: for objects such as Titan with prograde rotation, a positive longitude direction of WEST is used in conjunction with planetographic latitudes. (By IAU convention EAST longitude may be used with planetocentric latitude for any body, but this convention is not used in the Cassini BIDR. This refers the ordinary longitude for the planet. The longitude used in the oblique cylindrical projection is EAST by definition.)</p>
+<p>
+<a name=pgfId-1000815>
+</a>
+<a name=pgfId-1000818>
+</a>
+CENTER_LATITUDE = 0.0 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000821>
+</a>
+A reference latitude used in various ways in different projections. For the OBLIQUE_CYLINDRICAL projection used in the BIDR, CENTER_LATITUDE gives the oblique-system latitude rather than the ordinary latitude coordinate of the reference point, and (because of the 90 deg MAP_PROJECTION_ROTATION) SAMPLE_PROJECTION_OFFSET locates the first pixel relative to this oblique latitude. A value of zero is used in all Cassini BIDR.</p>
+<p>
+<a name=pgfId-1000824>
+</a>
+<a name=pgfId-1000827>
+</a>
+CENTER_LONGITUDE = 0.0 &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000830>
+</a>
+A reference longitude used in various ways in different projections. For the OBLIQUE_CYLINDRICAL projection used in the BIDR, CENTER_LONGITUDE gives the oblique-system longitude rather than the ordinary longitude coordinate of the reference point, and (because of the 90 deg MAP_PROJECTION_ROTATION) LINE_PROJECTION_OFFSET locates the first pixel relative to this oblique longitude. A value of zero is used in all Cassini BIDR.</p>
+<p>
+<a name=pgfId-1000833>
+</a>
+<a name=pgfId-1000836>
+</a>
+REFERENCE_LATITUDE = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000839>
+</a>
+Provides the ordinary latitude coordinate of the origin (oblique latitude = oblique longitude = 0) for the oblique coordinate system used to specify the OBLIQUE_CYLIDRICAL projection used in Cassini BIDR. NOTE that whereas some past PDS products may utilize oblique projections defined solely in terms of the REFERENCE_LATITUDE and REFERENCE_LONGITUDE (i.e., with a third defining angle always set to zero), the Cassini BIDRs require the full generality of three nonzero rotation angles. These angles are represented by the keywords OBLIQUE_PROJ_POLE_LATITUDE, OBLIQUE_PROJ_POLE_LONGITUDE, and OBLIQUE_PROJ_POLE_ROTATION. The values of REFERENCE_LATITUDE and REFERENCE_LONGITUDE are consistent with the latter three angles but do not uniquely define the oblique coordinate system on their own. </p>
+<p>
+<a name=pgfId-1000842>
+</a>
+<a name=pgfId-1000845>
+</a>
+REFERENCE_LONGITUDE = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000848>
+</a>
+Provides the ordinary longitude coordinate of the origin (oblique latitude = oblique longitude = 0) for the oblique coordinate system used to specify the OBLIQUE_CYLIDRICAL projection used in Cassini BIDR. NOTE that whereas some past PDS products may utilize oblique projections defined solely in terms of the REFERENCE_LATITUDE and REFERENCE_LONGITUDE (i.e., with a third defining angle always set to zero), the Cassini BIDRs require the full generality of three nonzero rotation angles. These angles are represented by the keywords OBLIQUE_PROJ_POLE_LATITUDE, OBLIQUE_PROJ_POLE_LONGITUDE, and OBLIQUE_PROJ_POLE_ROTATION. The values of REFERENCE_LATITUDE and REFERENCE_LONGITUDE are consistent with the latter three angles but do not uniquely define the oblique coordinate system on their own. NOTE that the value given is positive-west.</p>
+<p>
+<a name=pgfId-1000851>
+</a>
+<a name=pgfId-1000854>
+</a>
+LINE_FIRST_PIXEL = 1</p>
+<p>
+<a name=pgfId-1000857>
+</a>
+Provides the line index for the first pixel that was physically recorded at the beginning of the image array. For Cassini BIDR this is always 1, i.e., lines are numbered from first to last.</p>
+<p>
+<a name=pgfId-1000860>
+</a>
+<a name=pgfId-1000863>
+</a>
+LINE_LAST_PIXEL = nnnn</p>
+<p>
+<a name=pgfId-1000866>
+</a>
+Provides the line index for the last pixel that was physically recorded at the beginning of the image array. For Cassini BIDR this is always equal to the total number of lines, i.e., lines are numbered from first to last.</p>
+<p>
+<a name=pgfId-1000869>
+</a>
+<a name=pgfId-1000872>
+</a>
+SAMPLE_FIRST_PIXEL = 1</p>
+<p>
+<a name=pgfId-1000875>
+</a>
+Provides the sample index for the first pixel that was physically recorded at the beginning of the image array. For Cassini BIDR this is always 1, i.e., samples are numbered from first to last.</p>
+<p>
+<a name=pgfId-1000878>
+</a>
+<a name=pgfId-1000881>
+</a>
+SAMPLE_LAST_PIXEL = nnnn</p>
+<p>
+<a name=pgfId-1000884>
+</a>
+Provides the sample index for the last pixel that was physically recorded at the beginning of the image array. For Cassini BIDR this is always equal to the total number of samples, i.e., samples are numbered from first to last.</p>
+<p>
+<a name=pgfId-1000887>
+</a>
+<a name=pgfId-1000890>
+</a>
+MAP_PROJECTION_ROTATION = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000893>
+</a>
+Provides the clockwise rotation of the line and sample coordinate system with respect to the map projection origin. A value of 90.0 is used for BIDR indicating that lines of the projected image have constant oblique-system longitude and columns have constant oblique-system latitude.</p>
+<p>
+<a name=pgfId-1000896>
+</a>
+<a name=pgfId-1000899>
+</a>
+MAP_RESOLUTION = fff.f &lt;pix/deg&gt;</p>
+<p>
+<a name=pgfId-1000902>
+</a>
+Identifies the digital scale of the map-projected image in units of pixels per degree. This parameter provides equivalent information to that given by the MAP_SCALE, but is inversely proportional and is expressed in different units. Kilometers can be related degrees of latitude given the radius of the planet: 1 degree = (2 * RADIUS * PI) / 360 kilometers. A spherical reference surface is used for Titan in producing the Cassini BIDR, so this conversion is independent of location on the body. See also MAP_SCALE.</p>
+<p>
+<a name=pgfId-1000905>
+</a>
+<a name=pgfId-1000908>
+</a>
+MAP_SCALE = fff.fff&lt;km/pix&gt;</p>
+<p>
+<a name=pgfId-1000911>
+</a>
+Identifies the digital scale of the map-projected image in units of kilometers per pixel, calculated as the ground distance between adjacent pixel centers on the target body. In the general case, the scale of a map can vary with position both because of the properties of the map projection and because the local radius of the body may vary. For the Cassini BIDR a spherical reference surface is used for Titan, so the latter effect does not obtain. The MAP_SCALE is defined at the equator of the oblique coordinate system. </p>
+<p>
+<a name=pgfId-1003165>
+</a>
+<a name=pgfId-1000917>
+</a>
+MAXIMUM_LATITUDE = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000920>
+</a>
+Specifies the northernmost ordinary latitude in the region covered by the map-projected image data. Determination of the extreme is made without regard to the presence of valid data in the corresponding sample.</p>
+<p>
+<a name=pgfId-1000923>
+</a>
+<a name=pgfId-1000926>
+</a>
+MINIMUM_LATITUDE = fff.ffffff &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1000929>
+</a>
+Specifies the southernmost ordinary latitude in the region covered by the map-projected image data. Determination of the extreme is made without regard to the presence of valid data in the corresponding sample.</p>
+<p>
+<a name=pgfId-1000932>
+</a>
+<a name=pgfId-1000935>
+</a>
+EASTERNMOST_LONGITUDE = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000938>
+</a>
+Specifies the easternmost ordinary longitude in the region covered by the map-projected image data. Because the Cassini BIDR use POSITIVE_LONGITUDE_DIRECTION = WEST, this is the numerically smallest longitude. Determination of the extreme is made without regard to the presence of valid data in the corresponding sample.</p>
+<p>
+<a name=pgfId-1000941>
+</a>
+<a name=pgfId-1000944>
+</a>
+WESTERNMOST_LONGITUDE = fff.ffffff &lt;deg&gt;</p>
+<p>
+<a name=pgfId-1000947>
+</a>
+Specifies the westernmost ordinary longitude in the region covered by the map-projected image data. Because the Cassini BIDR use POSITIVE_LONGITUDE_DIRECTION = WEST, this is the numerically largest longitude. Determination of the extreme is made without regard to the presence of valid data in the corresponding sample.</p>
+<p>
+<a name=pgfId-1000950>
+</a>
+<a name=pgfId-1000953>
+</a>
+LINE_PROJECTION_OFFSET = ffff.fff</p>
+<p>
+<a name=pgfId-1000956>
+</a>
+Provides the line offset value of the map projection origin position (given by the CENTER_LONGITUDE and CENTER_LATITUDE) from the line and sample (1, 1), i.e., the upper left corner of the array. The value is positive when the origin is below the upper left pixel. </p>
+<p>
+<a name=pgfId-1000959>
+</a>
+<a name=pgfId-1000962>
+</a>
+SAMPLE_PROJECTION_OFFSET = ffff.fff</p>
+<p>
+<a name=pgfId-1000965>
+</a>
+Provides the sample offset value of the map projection origin position (given by the CENTER_LONGITUDE and CENTER_LATITUDE) from the line and sample (1, 1), i.e., the upper left corner of the array. The value is positive when the origin is to the right of the upper left pixel.</p>
+<p>
+<a name=pgfId-1000968>
+</a>
+<a name=pgfId-1000971>
+</a>
+OBLIQUE_PROJ_POLE_LATITUDE = fff.ffffff &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1000974>
+</a>
+One of the three angles defining the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection. This is the ordinary latitude of the pole (Z axis) of the oblique system.</p>
+<p>
+<a name=pgfId-1000979>
+</a>
+<a name=pgfId-1000982>
+</a>
+OBLIQUE_PROJ_POLE_LONGITUDE = fff.ffffff &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1000985>
+</a>
+One of the three angles defining the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection. This is the ordinary longitude of the pole (Z axis) of the oblique system. NOTE that the value given is positive-west, whereas the equivalent positive-east value is used in the equations that define the map projection below and in Section 2.6.2
+.</p>
+<p>
+<a name=pgfId-1000990>
+</a>
+<a name=pgfId-1000993>
+</a>
+OBLIQUE_PROJ_POLE_ROTATION = fff.ffffff &lt;deg&gt;
+</p>
+<p>
+<a name=pgfId-1000996>
+</a>
+One of the three angles defining the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection. This is a rotation around the polar (Z) axis of the oblique system that completes the transformation from standard to oblique coordinates. The value is positive east (obeys right hand rule) and is in the range 0 to 360 degrees.</p>
+<p>
+<a name=pgfId-1001001>
+</a>
+<a name=pgfId-1001004>
+</a>
+OBLIQUE_PROJ_X_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff, ff.fffffffff}</p>
+<p>
+<a name=pgfId-1001007>
+</a>
+Unit vector in the direction of the X axis of the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection, in terms of the X, Y, and Z axes of the standard body-fixed coordinate system. In each system, the X axis points from the body center toward longitude and latitude (0, 0) in that system, the Z axis to (0, 90), and the Y-axis completes a right-handed set. The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make up the rows of a rotation matrix that when multiplied on the left of a vector referenced to the standard coordinate system converts it into its equivalent in the oblique coordinate system. This rotation matrix is the product of successively applied rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis, 90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis, and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis. </p>
+<p>
+</p>
+<p>
+<a name=pgfId-1001012>
+</a>
+<a name=pgfId-1001015>
+</a>
+OBLIQUE_PROJ_Y_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff, ff.fffffffff}</p>
+<p>
+<a name=pgfId-1001018>
+</a>
+Unit vector in the direction of the Y axis of the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection, in terms of the X, Y, and Z axes of the standard body-fixed coordinate system. In each system, the X axis points from the body center toward longitude and latitude (0, 0) in that system, the Z axis to (0, 90), and the Y-axis completes a right-handed set. The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make up the rows of a rotation matrix that when multiplied on the left of a vector referenced to the standard coordinate system converts it into its equivalent in the oblique coordinate system. This rotation matrix is the product of successively applied rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis, 90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis, and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis. </p>
+<p>
+</p>
+<p>
+<a name=pgfId-1001023>
+</a>
+<a name=pgfId-1001026>
+</a>
+OBLIQUE_PROJ_Z_AXIS_VECTOR = {ff.ffffffff, ff.ffffffff, ff.fffffffff}</p>
+<p>
+<a name=pgfId-1001029>
+</a>
+Unit vector in the direction of the Z axis of the oblique coordinate system used in the OBLIQUE_CYLINDRICAL projection, in terms of the X, Y, and Z axes of the standard body-fixed coordinate system. In each system, the X axis points from the body center toward longitude and latitude (0, 0) in that system, the Z axis to (0, 90), and the Y-axis completes a right-handed set. The OBLIQUE_PROJ_X/Y/Z_AXIS_VECTORS make up the rows of a rotation matrix that when multiplied on the left of a vector referenced to the standard coordinate system converts it into its equivalent in the oblique coordinate system. This rotation matrix is the product of successively applied rotations by OBLIQUE_PROJ_POLE_LONGITUDE around the Z axis, 90 - OBLIQUE_PROJ_POLE_LATITUDE around the once-rotated Y axis, and OBLIQUE_PROJ_POLE_ROTATION around the twice-rotated Z axis. </p>
+<p>
+</p>
+<p>
+<a name=pgfId-1004248>
+</a>
+<a name=pgfId-1004249>
+</a>
+LOOK_DIRECTION = RIGHT or LEFT</p>
+<p>
+<a name=pgfId-1004250>
+</a>
+The value (RIGHT or LEFT) indicates the side of the spacecraft groundtrack to which the antenna is pointed for data acquired within this file. The SAR images stored in the BIDR files are always acquired on only one side of the ground track for each Titan pass. This value also indicates from which side the SAR image is illuminated. If the spacecraft images to the left of its ground track (LOOK_DIRECTION=LEFT), the image will be illuminated from the (viewer's) left side, and, conversely, if the spacecraft looks to the right, the illumination will come from the right in the image file. The direction of illumination is critical to interpretation of features in the image.</p>
+<p>
+<a name=pgfId-1004275>
+</a>
+<a name=pgfId-1004276>
+</a>
+COORDINATE_SYSTEM_NAME = &#34;PLANETOGRAPHIC&#34;</p>
+<p>
+<a name=pgfId-1004277>
+</a>
+This keyword value pair indicates that the standard coordinate system from which our projection is defined is a planetographic positive west longitude system.</p>
+<p>
+<a name=pgfId-1004281>
+</a>
+<a name=pgfId-1004282>
+</a>
+COORDINATE_SYSTEM_TYPE = &#34;BODY-FIXED ROTATING&#34;</p>
+<p>
+<a name=pgfId-1004283>
+</a>
+This keyword value pair indicates that the standard coordinate system from which our projection is defined is a body-fixed rotating system.</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h1>
+<a name="_Toc304638540">
+</a>
+<a name="_Toc304628656">
+</a>
+<a name="_Toc304626622">
+</a>
+<a name="_Toc227733833">
+7
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+APPENDIX C: SARTopo FILE FORMAT (ASCII CSV)
+</a>
+</h1>
+<p>
+</p>
+<p>
+</p>
+<p>
+This Appendix describes the SARTopo file which is created during SARTopo processing to provide surface heights by comparing the calibration of overlapping Titan SAR imagery obtained from different antenna feeds (beams) of the RADAR instrument onboard the Cassini spacecraft. The file is provided in an easy-to-use stand-alone format (comma separated value, or CSV). Additional information about the SARTopo data as of the generation of this document is also provided to help users understand the information in these data. Following the algorithm descriptions, a brief overview of the SARTopo measurement is given 
+</p>
+<p>
+</p>
+<p>
+File Name Format: SARTOPO_TaaaSbb_Bcc_Vvv_yymmdd.CSV
+</p>
+<p>
+where,
+</p>
+<p>
+aaa := Titan flyby number
+</p>
+<p>
+bb := SAR imaging segment number (matches BIDR filename notation)
+</p>
+<p>
+cc := Overlapping beam numbers used to produce SARTopo.
+</p>
+<p>
+e.g. 12= overlap between beam 1 and beam 2. 
+</p>
+<p>
+24 is a special case in which the overlap between beams 2 and 3
+</p>
+<p>
+and the overlaps between 3 and 4 were used together. Using the two
+</p>
+<p>
+overlapping regions together avoids the sensitivity to noise
+</p>
+<p>
+subtraction error that normally occurs when the high SNR beam 3
+</p>
+<p>
+is overlapped with one of the lower SNR beams.
+</p>
+<p>
+</p>
+<p>
+vv := Version number always 01 up to and including first official SARTopo
+</p>
+<p>
+release to PDS which has not yet occurred.
+</p>
+<p>
+</p>
+<p>
+yymmdd := Year, Month, Day current version of SARTopo files was created.
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+File Format:
+</p>
+<p>
+</p>
+<p>
+The file format is 18 comma-separated columns of data. Each line in the file pertains to a single SARTopo height measurement. Due to running averages each measurement is not necessarily independent from its neighbors. Proper attention should be paid to the along track and cross track widths of the measurements to determine the amount of overlaps between neighboring measurements. The most important columns are the latitude (column 1), longitude (Column 2), corrected surface height (Column 6), and the random (column 7) and systematic (Column 12) error bars. Users should always consult the error bars before drawing conclusions from the height data.
+</p>
+<p>
+</p>
+<p>
+Columns:
+</p>
+<p>
+1:
+Positive West Longitude of center of measurement (degrees).
+</p>
+<p>
+2:
+Latitude of center of measurement (degrees)
+</p>
+<p>
+3:
+Incidence angle of measurement (degrees)
+</p>
+<p>
+4:
+Width of measurement (km) along narrow dimension (samples, columns) of
+</p>
+<p>
+BIDR SAR image
+</p>
+<p>
+5:
+Length of measurement (km) along long dimension (lines, rows) of BIDR
+</p>
+<p>
+SAR image
+</p>
+<p>
+6:
+Surface Height (m) including correction for attitude bias with respect to 
+</p>
+<p>
+2575.0 km reference sphere. 
+</p>
+<p>
+7:
+Random Height Error standard deviation (m) (expected error in height due to
+</p>
+<p>
+thermal and speckle noise. These errors should be correlated only at distances less than the SARTopo measurement resolution (10-km).
+</p>
+<p>
+8:
+Flag indicating quality of measurement. A value of zero indicates measurements of the highest quality. Most users can ignore this flag in favor of the easier to use category number variable in column 18. A description of the individual bits in the flag follows, Bit 0 is the least significant bit. The flag is set if the corresponding bit is 1. 
+</p>
+<p>
+Bit 0: Incidence angle less than 10 degrees.
+</p>
+<p>
+Bit 1: Bad geolocation (should never occur in reported data)
+</p>
+<p>
+Bit 2: Width of beam2/3 and beam3/4 overlaps differ by a factor of 4 or more 
+</p>
+<p>
+Bit 3: The profile includes the farthest range beam necessitating special processing to account for the effect of SAR ambiguities
+</p>
+<p>
+Bit 4: Random height error &gt; 75 m.
+</p>
+<p>
+Bit 5: Beam2/3 and Beam3/4 profiles likely have significant bias due to noise floor estimation error.
+</p>
+<p>
+Bit 6: Multiple local minima found in
+goodness of fit function
+</p>
+<p>
+Bit 7: Multiple zero crossing in goodness of fit function
+</p>
+<p>
+Bit 8: No zero crossing in goodness of fit function
+</p>
+<p>
+Bit 9: Goodness of fit and second order goodness of fit function choose different heights
+</p>
+<p>
+Bit 10: Ambiguity to Signal Ratio &gt; 20%
+</p>
+<p>
+Bit 11: Derivative of height with noise floor error (column 16) &gt; 10000.
+</p>
+<p>
+</p>
+<p>
+9:
+Corresponding Line (row) in BIDR SAR image.
+</p>
+<p>
+10: Corresponding Sample (column) in BIDR SAR image.
+</p>
+<p>
+11: Measurement time with respect to closest approach (s)
+</p>
+<p>
+12: Systematic error (m) in height estimate due to residual errors in attitude and biases in noise subtraction. These errors are correlated at spatial scales of 500-km or more.
+</p>
+<p>
+13: Raw surface height (m) above 2575-km reference sphere without correction for attitude bias.
+</p>
+<p>
+14: Height above geoid (m). This is the result of subtracting an estimated equipotential height given in column 15 from the value in column 6.
+</p>
+<p>
+15: Geoid height (m). Second order equipotential surface height from [18] computed from
+</p>
+<p>
+a=2, 574, 969 m, b=2, 574, 662 m, c=2, 574, 559 m, 
+q
+= latitude, 
+f
+=positive west longitude.
+</p>
+<p>
+<img width=309 height=42 src="BIDRSIS_FIG038.PNG">
+</p>
+<p>
+16:Derivative of height error with respect to error in noise floor. This value is in units of meters because noise floor error is a unitless quantity (i.e., 1 noise floor error units = 100% error in noise floor)
+</p>
+<p>
+17 Derivative of height error w.r.t to attitude (elevation angle) error in units of m/mrad.
+</p>
+<p>
+18: Category number: 1 is the best quality data, 2 is medium quaiity, 3 is the lowest quality data reported. Typical root mean square (RMS) differences from the topographical map in [19] are 145-m, 170-m, 215-m for category 1, 2, and 3 data respectively. RMS values were computed for data within 100-km of valid topomap entries. Data can be restricted further than category 1 by only using category 1 data with the quality flag (Column 8) set to 0.
+</p>
+</div>
+</body>
+</html>

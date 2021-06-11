@@ -1,0 +1,41 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = UNDEFINED
+^PDF_DOCUMENT         = { "VOLSIS.PDF",
+                          "VOLSIS_SIGPAGE.PDF" }
+^HTML_DOCUMENT        = "VOLSIS.HTML"
+
+OBJECT                = PDF_DOCUMENT
+  DOCUMENT_NAME       = "Volume Software Interface Specification (SIS)
+                        for Cassini Radar Instrument Team Data Products"
+  PUBLICATION_DATE    = 2015-09-17
+  DOCUMENT_TOPIC_TYPE = "ARCHIVE VOLUME SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "ADOBE PDF"
+  ENCODING_TYPE       = "PDF-ADOBE-1.4"
+  DESCRIPTION         = "This SIS describes the formats, contents, and
+                        generation of the media volumes for data produced
+                        by the Cassini Radar Instrument Team.  Products
+                        included in the archive are the Burst Ordered
+                        Data Products (BODP), the Basic Image Data
+                        Records (BIDR) and SARTopo products.  The 
+                        signature page has been provided as a separate
+                        document that is referenced by the HTML version 
+                        of this SIS."
+END_OBJECT            = PDF_DOCUMENT
+
+OBJECT                = HTML_DOCUMENT
+  DOCUMENT_NAME       = "Volume Software Interface Specification (SIS)
+                        for Cassini Radar Instrument Team Data Products"
+  PUBLICATION_DATE    = 2015-09-17
+  DOCUMENT_TOPIC_TYPE = "ARCHIVE VOLUME SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "HTML"
+  DESCRIPTION         = "This SIS describes the formats, contents, and
+                        generation of the media volumes for data produced
+                        by the Cassini Radar Instrument Team.  Products
+                        included in the archive are the Burst Ordered
+                        Data Products (BODP), the Basic Image Data
+                        Records (BIDR) and SARTopo products."
+END_OBJECT            = HTML_DOCUMENT
+
+END

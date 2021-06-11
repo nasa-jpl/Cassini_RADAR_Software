@@ -1,0 +1,3882 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 1332
+>>
+stream
+BT
+/F1 1 Tf
+12 0 0 12 0 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+6 -6.6667 TD
+(DORA-002)Tj
+/F2 1 Tf
+0 g
+-5.75 6.6667 TD
+( )Tj
+0 0 0 1 k
+5.75 -13.8333 TD
+( )Tj
+/F1 1 Tf
+18 0 0 18 7 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+3.6111 -10.2222 TD
+(Cassini Radar Instrument Team)Tj
+/F2 1 Tf
+12 0 0 12 12 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+5 -17.2667 TD
+( )Tj
+/F1 1 Tf
+24 0 0 24 15 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.375 -9.55 TD
+(Volume Software Interface Specification )Tj
+0 g
+-2.0833 9.55 TD
+( )Tj
+0 0 0 1 k
+2.0833 -10.6333 TD
+(\(SIS\) for Cassini Radar Instrument Team )Tj
+0 -1.0833 TD
+(Data Products)Tj
+12 0 0 12 28 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+3.6667 -27.0333 TD
+( )Tj
+18 0 0 18 32 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.4074 -18.0222 TD
+(Version 1.1)Tj
+/F2 1 Tf
+14 0 0 14 37 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.5 -35.6952 TD
+(Bryan Stiles)Tj
+12 0 0 12 41 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+2.5833 -43.4667 TD
+( February 2005)Tj
+0 g
+-2.3333 43.4667 TD
+( )Tj
+0 0 0 1 k
+2.3333 -50.6333 TD
+( )Tj
+/F1 1 Tf
+0 g
+-2.0833 50.6333 TD
+( )Tj
+0 0 0 1 k
+2.0833 -51.8 TD
+(Jet Propulsion Laboratory )Tj
+0 g
+-1.75 51.8 TD
+( )Tj
+0 0 0 1 k
+1.75 -52.9667 TD
+(California Institute of Technology )Tj
+0 g
+-1.5 52.9667 TD
+( )Tj
+0 0 0 1 k
+1.5 -54.1333 TD
+(NASA )Tj
+/F2 1 Tf
+0 g
+-1.25 54.1333 TD
+( )Tj
+0 0 0 1 k
+1.25 -55.9 TD
+( )Tj
+/F1 1 Tf
+0 g
+-0.9167 55.9 TD
+( )Tj
+0 0 0 1 k
+0.9167 -57.0667 TD
+(D-27890)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 4028
+>>
+stream
+0 0 0 0 k
+/GS1 gs
+72 720 468 -648 re
+f
+BT
+/F1 1 Tf
+10 0 0 10 64 792 Tm
+0 g
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+4.4 -7.8667 TD
+( )Tj
+14 0 0 14 67 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+13.9591 -7.1809 TD
+(Prepared By: )Tj
+/F2 1 Tf
+12 0 0 12 71 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+3.0833 -11.4 TD
+( )Tj
+0 g
+-2.8333 11.4 TD
+( )Tj
+0 0 0 1 k
+-0.049 -12.5667 TD
+(________________________________________________)Tj
+0 g
+0.299 12.5667 TD
+( )Tj
+0 0 0 1 k
+26.5833 -12.5667 TD
+( Date:)Tj
+0 g
+-26.25 12.5667 TD
+( )Tj
+0 0 0 1 k
+29.3999 -12.5667 TD
+(__________)Tj
+0 g
+-29.1499 12.5667 TD
+( )Tj
+0 0 0 1 k
+35 -12.5667 TD
+( )Tj
+0 g
+-34.75 12.5667 TD
+( )Tj
+0 0 0 1 k
+-1.25 -13.7333 TD
+(Bryan Stiles)Tj
+0 g
+1.5833 13.7333 TD
+( )Tj
+0 0 0 1 k
+-1.5833 -14.9 TD
+(Cassini Radar Ground Processor Engineer )Tj
+/F1 1 Tf
+14 0 0 14 94 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+11.8648 -15.8666 TD
+(Approved By: )Tj
+/F2 1 Tf
+12 0 0 12 98 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-2.049 -21.0667 TD
+(________________________________________________)Tj
+0 g
+2.299 21.0667 TD
+( )Tj
+0 0 0 1 k
+24.5833 -21.0667 TD
+( Date:)Tj
+0 g
+-24.25 21.0667 TD
+( )Tj
+0 0 0 1 k
+27.3999 -21.0667 TD
+(__________)Tj
+0 g
+-27.1499 21.0667 TD
+( )Tj
+0 0 0 1 k
+33 -21.0667 TD
+( )Tj
+0 g
+-32.75 21.0667 TD
+( )Tj
+0 0 0 1 k
+-3.25 -22.2333 TD
+(Randolph Kirk )Tj
+0 g
+3.5833 22.2333 TD
+( )Tj
+0 0 0 1 k
+-3.5833 -23.4 TD
+(USGS Astrogeology Team)Tj
+0 g
+3.8333 23.4 TD
+( )Tj
+0 0 0 1 k
+-3.8333 -24.5667 TD
+( )Tj
+0 g
+4.0833 24.5667 TD
+( )Tj
+0 0 0 1 k
+-3.9657 -25.7333 TD
+(________________________________________________)Tj
+0 g
+4.299 25.7333 TD
+( )Tj
+0 0 0 1 k
+22.5833 -25.7333 TD
+( Date:)Tj
+0 g
+-22.3333 25.7333 TD
+( )Tj
+0 0 0 1 k
+25.4833 -25.7333 TD
+(__________)Tj
+0 g
+-25.2333 25.7333 TD
+( )Tj
+0 0 0 1 k
+31.0833 -25.7333 TD
+( )Tj
+0 g
+-30.75 25.7333 TD
+( )Tj
+0 0 0 1 k
+-5.25 -26.9 TD
+(Phil Callahan)Tj
+0 g
+5.5 26.9 TD
+( )Tj
+0 0 0 1 k
+-5.5 -28.0667 TD
+(Cassini Radar Instrument Team Project Element Manager )Tj
+0 g
+5.75 28.0667 TD
+( )Tj
+0 0 0 1 k
+-2.75 -31.0333 TD
+( )Tj
+0 g
+3.0833 31.0333 TD
+( )Tj
+0 0 0 1 k
+-2.8055 -31.0333 TD
+( )Tj
+/F1 1 Tf
+14 0 0 14 148 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+7.8131 -27.6952 TD
+(Concurred By: )Tj
+/F2 1 Tf
+12 0 0 12 152 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-3.6667 -35.3333 TD
+( )Tj
+0 g
+3.9167 35.3333 TD
+( )Tj
+0 0 0 1 k
+-6.799 -36.5 TD
+(________________________________________________)Tj
+0 g
+7.049 36.5 TD
+( )Tj
+0 0 0 1 k
+19.8333 -36.5 TD
+( Date: )Tj
+0 g
+-19.5 36.5 TD
+( )Tj
+0 0 0 1 k
+22.6499 -36.5 TD
+(__________)Tj
+0 g
+-22.3999 36.5 TD
+( )Tj
+0 0 0 1 k
+28.25 -36.5 TD
+( )Tj
+0 g
+-28 36.5 TD
+( )Tj
+0 0 0 1 k
+-8 -37.6667 TD
+(Charles Elachi)Tj
+0 g
+8.3333 37.6667 TD
+( )Tj
+0 0 0 1 k
+-8.3333 -38.8333 TD
+(Cassini RADAR Principal Investigator )Tj
+0 g
+8.5833 38.8333 TD
+( )Tj
+0 0 0 1 k
+-8.4657 -41.1667 TD
+(________________________________________________)Tj
+0 g
+8.7157 41.1667 TD
+( )Tj
+0 0 0 1 k
+18.1667 -41.1667 TD
+( Date: )Tj
+0 g
+-17.8333 41.1667 TD
+( )Tj
+0 0 0 1 k
+20.9832 -41.1667 TD
+(__________)Tj
+0 g
+-20.7332 41.1667 TD
+( )Tj
+0 0 0 1 k
+26.5833 -41.1667 TD
+( )Tj
+0 g
+-26.3333 41.1667 TD
+( )Tj
+0 0 0 1 k
+-9.6667 -42.3333 TD
+(Diane Conner)Tj
+0 g
+10 42.3333 TD
+( )Tj
+0 0 0 1 k
+-10 -43.5 TD
+(Cassini Archive Data Engineer)Tj
+0 g
+10.25 43.5 TD
+( )Tj
+0 0 0 1 k
+-10.1323 -45.8333 TD
+(________________________________________________)Tj
+0 g
+10.3823 45.8333 TD
+( )Tj
+0 0 0 1 k
+16.5 -45.8333 TD
+( Date: )Tj
+0 g
+-16.1667 45.8333 TD
+( )Tj
+0 0 0 1 k
+19.3166 -45.8333 TD
+(__________)Tj
+0 g
+-19.0666 45.8333 TD
+( )Tj
+0 0 0 1 k
+24.9167 -45.8333 TD
+( )Tj
+0 g
+-24.6667 45.8333 TD
+( )Tj
+0 0 0 1 k
+-11.3333 -47 TD
+(Lisa Gaddis)Tj
+0 g
+11.6667 47 TD
+( )Tj
+0 0 0 1 k
+-11.6667 -48.1667 TD
+(USGS Imaging Node)Tj
+0 g
+11.9167 48.1667 TD
+( )Tj
+0 0 0 1 k
+-11.799 -50.5 TD
+(________________________________________________)Tj
+0 g
+12.049 50.5 TD
+( )Tj
+0 0 0 1 k
+14.8333 -50.5 TD
+( Date: )Tj
+0 g
+-14.5 50.5 TD
+( )Tj
+0 0 0 1 k
+17.6499 -50.5 TD
+(__________)Tj
+0 g
+-17.3999 50.5 TD
+( )Tj
+0 0 0 1 k
+23.25 -50.5 TD
+( )Tj
+0 g
+-23 50.5 TD
+( )Tj
+0 0 0 1 k
+-13 -51.6667 TD
+(Laverne Hall)Tj
+0 g
+13.3333 51.6667 TD
+( )Tj
+0 0 0 1 k
+-13.3333 -52.8333 TD
+(PDS Central Node Manager)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 7233
+>>
+stream
+BT
+/F1 1 Tf
+14 0 0 14 235 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+1.5716 -5.8095 TD
+(Document Log )Tj
+/F3 1 Tf
+12 0 0 12 239 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-12.6819 -11.5 TD
+(Re)Tj
+0 g
+12.9319 11.5 TD
+( )Tj
+0 0 0 1 k
+-11.8463 -11.5 TD
+(vision)Tj
+0 g
+12.0963 11.5 TD
+( )Tj
+0 0 0 1 k
+-12.3605 -12.6667 TD
+(Date)Tj
+0 g
+12.6105 12.6667 TD
+( )Tj
+0 0 0 1 k
+-7.2649 -11.5 TD
+(Re)Tj
+0 g
+7.5149 11.5 TD
+( )Tj
+0 0 0 1 k
+-6.4292 -11.5 TD
+(vised)Tj
+0 g
+6.6792 11.5 TD
+( )Tj
+0 0 0 1 k
+-7.3256 -12.6667 TD
+(P)Tj
+0 g
+7.5756 12.6667 TD
+( )Tj
+0 0 0 1 k
+-7.0346 -12.6667 TD
+(ages)Tj
+0 g
+7.2846 12.6667 TD
+( )Tj
+0 0 0 1 k
+4.5006 -12.0833 TD
+(Description)Tj
+0 g
+-4.2506 12.0833 TD
+( )Tj
+0 0 0 1 k
+17.7766 -12.0833 TD
+(Re)Tj
+0 g
+-17.5266 12.0833 TD
+( )Tj
+0 0 0 1 k
+18.6123 -12.0833 TD
+-0.0284 Tw
+(vised By )Tj
+0 g
+-18.3623 12.0833 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-15.6945 -14.6667 TD
+(02/28/2004)Tj
+0 g
+15.9445 14.6667 TD
+( )Tj
+0 0 0 1 k
+-8.3056 -14.6667 TD
+(All)Tj
+0 g
+8.5556 14.6667 TD
+( )Tj
+0 0 0 1 k
+-4.4167 -14.6667 TD
+(Original)Tj
+0 g
+4.6667 14.6667 TD
+( )Tj
+0 0 0 1 k
+17.1385 -14.6667 TD
+(B. Stiles )Tj
+0 g
+-16.8885 14.6667 TD
+( )Tj
+0 0 0 1 k
+-16.6945 -16.5 TD
+(02/28/2005)Tj
+0 g
+16.9445 16.5 TD
+( )Tj
+0 0 0 1 k
+-9.1667 -16.5 TD
+(16)Tj
+0 g
+9.4167 16.5 TD
+( )Tj
+0 0 0 1 k
+-5.4167 -16.5 TD
+(Replaced zzzz with zzz in BODP product ID. )Tj
+0 g
+5.6667 16.5 TD
+( )Tj
+0 0 0 1 k
+-5.6667 -17.6667 TD
+(Added letter Q to BIDR ì)Tj
+0 g
+5.9167 17.6667 TD
+( )Tj
+0 0 0 1 k
+4.4988 -17.6667 TD
+(lename con)Tj
+0 g
+-4.2488 17.6667 TD
+( )Tj
+0 0 0 1 k
+8.7899 -17.6667 TD
+(v)Tj
+0 g
+-8.5399 17.6667 TD
+( )Tj
+0 0 0 1 k
+9.0248 -17.6667 TD
+(ention to )Tj
+0 g
+-8.7748 17.6667 TD
+( )Tj
+0 0 0 1 k
+-6.6667 -18.8333 TD
+(stand for oblique c)Tj
+0 g
+6.9167 18.8333 TD
+( )Tj
+0 0 0 1 k
+0.5384 -18.8333 TD
+(ylindrical projection, and thus )Tj
+0 g
+-0.2884 18.8333 TD
+( )Tj
+0 0 0 1 k
+-7.1667 -20 TD
+(be k)Tj
+0 g
+7.4167 20 TD
+( )Tj
+0 0 0 1 k
+-5.7328 -20 TD
+(eep BIDR ì)Tj
+0 g
+5.9828 20 TD
+( )Tj
+0 0 0 1 k
+-1.1498 -20 TD
+(lenames consistent with Randy )Tj
+0 g
+1.3998 20 TD
+( )Tj
+0 0 0 1 k
+-7.9167 -21.1667 TD
+(Kirkê)Tj
+0 g
+8.1667 21.1667 TD
+( )Tj
+0 0 0 1 k
+-6.0558 -21.1667 TD
+(s higher le)Tj
+0 g
+6.3058 21.1667 TD
+( )Tj
+0 0 0 1 k
+-2.1654 -21.1667 TD
+(v)Tj
+0 g
+2.4154 21.1667 TD
+( )Tj
+0 0 0 1 k
+-1.9306 -21.1667 TD
+(el ì)Tj
+0 g
+2.1806 21.1667 TD
+( )Tj
+0 0 0 1 k
+-0.6527 -21.1667 TD
+(lename con)Tj
+0 g
+0.9027 21.1667 TD
+( )Tj
+0 0 0 1 k
+3.6383 -21.1667 TD
+(v)Tj
+0 g
+-3.3883 21.1667 TD
+( )Tj
+0 0 0 1 k
+3.8732 -21.1667 TD
+(ention. )Tj
+0 g
+-3.6232 21.1667 TD
+( )Tj
+0 0 0 1 k
+6.5675 -21.1667 TD
+(Added )Tj
+0 g
+-6.3175 21.1667 TD
+( )Tj
+0 0 0 1 k
+-9.9167 -22.3333 TD
+(number of looks backplane to v)Tj
+0 g
+10.1667 22.3333 TD
+( )Tj
+0 0 0 1 k
+2.4491 -22.3333 TD
+(olume. Remo)Tj
+0 g
+-2.1991 22.3333 TD
+( )Tj
+0 0 0 1 k
+7.5721 -22.3333 TD
+(v)Tj
+0 g
+-7.3221 22.3333 TD
+( )Tj
+0 0 0 1 k
+7.807 -22.3333 TD
+(ed )Tj
+0 g
+-7.557 22.3333 TD
+( )Tj
+0 0 0 1 k
+-10.9167 -23.5 TD
+(misleading sentence re)Tj
+0 g
+11.1667 23.5 TD
+( )Tj
+0 0 0 1 k
+-2.0744 -23.5 TD
+(g)Tj
+0 g
+2.3244 23.5 TD
+( )Tj
+0 0 0 1 k
+-1.8295 -23.5 TD
+(arding common radar )Tj
+0 g
+2.0795 23.5 TD
+( )Tj
+0 0 0 1 k
+-11.6667 -24.6667 TD
+(modes.\(çUncommon modesé occur frequently)Tj
+0 g
+11.9167 24.6667 TD
+( )Tj
+0 0 0 1 k
+6.5123 -24.6667 TD
+(.\))Tj
+0 g
+-6.2622 24.6667 TD
+( )Tj
+0 0 0 1 k
+9.6385 -16.5 TD
+(B. Stiles)Tj
+0 g
+-9.3885 16.5 TD
+( )Tj
+0 0 0 1 k
+-24.1945 -26.5 TD
+(02/28/2005)Tj
+0 g
+24.4445 26.5 TD
+( )Tj
+0 0 0 1 k
+-16.6667 -26.5 TD
+(15)Tj
+0 g
+16.9167 26.5 TD
+( )Tj
+0 0 0 1 k
+-12.9167 -26.5 TD
+(Replaced BODP)Tj
+0 g
+13.1667 26.5 TD
+( )Tj
+0 0 0 1 k
+-6.6401 -26.5 TD
+(.CA)Tj
+0 g
+6.8901 26.5 TD
+( )Tj
+0 0 0 1 k
+-5.362 -26.5 TD
+(T in )Tj
+0 g
+5.612 26.5 TD
+( )Tj
+0 0 0 1 k
+-3.7413 -26.5 TD
+(T)Tj
+0 g
+3.9913 26.5 TD
+( )Tj
+0 0 0 1 k
+-3.4606 -26.5 TD
+(able 6 with )Tj
+0 g
+3.7106 26.5 TD
+( )Tj
+0 0 0 1 k
+-14.1667 -27.6667 TD
+(SBDRDS.CA)Tj
+0 g
+14.4167 27.6667 TD
+( )Tj
+0 0 0 1 k
+-8.998 -27.6667 TD
+(T)Tj
+0 g
+9.248 27.6667 TD
+( )Tj
+0 0 0 1 k
+-8.7113 -27.6667 TD
+(, LBDRDS.CA)Tj
+0 g
+8.9613 27.6667 TD
+( )Tj
+0 0 0 1 k
+-2.9879 -27.6667 TD
+(T)Tj
+0 g
+3.2379 27.6667 TD
+( )Tj
+0 0 0 1 k
+-2.7013 -27.6667 TD
+(, and )Tj
+0 g
+2.9513 27.6667 TD
+( )Tj
+0 0 0 1 k
+-15.4167 -28.8333 TD
+(ABDRDS.CA)Tj
+0 g
+15.6667 28.8333 TD
+( )Tj
+0 0 0 1 k
+-10.0819 -28.8333 TD
+(T)Tj
+0 g
+10.3319 28.8333 TD
+( )Tj
+0 0 0 1 k
+-9.7953 -28.8333 TD
+(, and replaced BIDR.CA)Tj
+0 g
+10.0453 28.8333 TD
+( )Tj
+0 0 0 1 k
+-0.298 -28.8333 TD
+(T with )Tj
+0 g
+0.548 28.8333 TD
+( )Tj
+0 0 0 1 k
+-16.4167 -30 TD
+(BIDRDS.CA)Tj
+0 g
+16.6667 30 TD
+( )Tj
+0 0 0 1 k
+-11.4711 -30 TD
+(T)Tj
+0 g
+11.7211 30 TD
+( )Tj
+0 0 0 1 k
+4.8885 -26.5 TD
+(B. Stiles)Tj
+0 g
+-4.6385 26.5 TD
+( )Tj
+0 0 0 1 k
+-28.9445 -31.8333 TD
+(02/28/2005)Tj
+0 g
+29.1945 31.8333 TD
+( )Tj
+0 0 0 1 k
+-22.0417 -31.8333 TD
+(13,14)Tj
+0 g
+22.2917 31.8333 TD
+( )Tj
+0 0 0 1 k
+-17.6667 -31.8333 TD
+(Added info about size of record_id column in )Tj
+0 g
+17.9167 31.8333 TD
+( )Tj
+0 0 0 1 k
+-17.9167 -33 TD
+(CR)Tj
+0 g
+18.1667 33 TD
+( )Tj
+0 0 0 1 k
+-16.8928 -33 TD
+(T ì)Tj
+0 g
+17.1428 33 TD
+( )Tj
+0 0 0 1 k
+-15.7258 -33 TD
+(le. Fix)Tj
+0 g
+15.9758 33 TD
+( )Tj
+0 0 0 1 k
+-13.4353 -33 TD
+(ed )Tj
+0 g
+13.6853 33 TD
+( )Tj
+0 0 0 1 k
+-12.5094 -33 TD
+(T)Tj
+0 g
+12.7594 33 TD
+( )Tj
+0 0 0 1 k
+-12.2287 -33 TD
+(able 5 to include 08 transition )Tj
+0 g
+12.4787 33 TD
+( )Tj
+0 0 0 1 k
+-19.4167 -34.1667 TD
+-0.048 Tw
+(number and added more speciì)Tj
+0 g
+19.6667 34.1667 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-7.3068 -34.1667 TD
+-0.048 Tw
+(c deì)Tj
+0 g
+7.5568 34.1667 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-5.4109 -34.1667 TD
+-0.048 Tw
+(nition of start )Tj
+0 g
+5.6609 34.1667 TD
+0 Tw
+( )Tj
+0 0 0 1 k
+-20.1667 -35.3333 TD
+(and end times in CR)Tj
+0 g
+20.4167 35.3333 TD
+( )Tj
+0 0 0 1 k
+-12.3108 -35.3333 TD
+(T ì)Tj
+0 g
+12.5608 35.3333 TD
+( )Tj
+0 0 0 1 k
+-11.1438 -35.3333 TD
+(les. )Tj
+0 g
+11.3938 35.3333 TD
+( )Tj
+0 0 0 1 k
+-9.8381 -35.3333 TD
+(Added )Tj
+0 g
+10.0881 35.3333 TD
+( )Tj
+0 0 0 1 k
+-21.1667 -36.5 TD
+(production_creation_time entry to inde)Tj
+0 g
+21.4167 36.5 TD
+( )Tj
+0 0 0 1 k
+-5.7975 -36.5 TD
+(x table.)Tj
+0 g
+6.0475 36.5 TD
+( )Tj
+0 0 0 1 k
+0.2635 -31.8333 TD
+(B.Stiles)Tj
+0 g
+-0.0135 31.8333 TD
+( )Tj
+0 0 0 1 k
+-33.6945 -38.3333 TD
+(02/28/2005)Tj
+0 g
+33.9445 38.3333 TD
+( )Tj
+0 0 0 1 k
+-26.1667 -38.3333 TD
+(11)Tj
+0 g
+26.4167 38.3333 TD
+( )Tj
+0 0 0 1 k
+-22.4167 -38.3333 TD
+(Added discussion of )Tj
+0 g
+22.6667 38.3333 TD
+( )Tj
+0 0 0 1 k
+-14.3007 -38.3333 TD
+(V)Tj
+0 g
+14.5507 38.3333 TD
+( )Tj
+0 0 0 1 k
+-13.8686 -38.3333 TD
+(OLUME ID to )Tj
+0 g
+14.1186 38.3333 TD
+( )Tj
+0 0 0 1 k
+-7.9984 -38.3333 TD
+(T)Tj
+0 g
+8.2484 38.3333 TD
+( )Tj
+0 0 0 1 k
+-7.7177 -38.3333 TD
+(able 2.)Tj
+0 g
+7.9677 38.3333 TD
+( )Tj
+0 0 0 1 k
+-1.8615 -38.3333 TD
+(B. Stiles)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+72 669.75 m
+72 82.25 l
+144 670.25 m
+144 81.75 l
+216 670.25 m
+216 81.75 l
+468 670.25 m
+468 81.75 l
+540 669.75 m
+540 82.25 l
+71.75 670 m
+540.25 670 l
+72.25 631.25 m
+539.75 631.25 l
+72.25 628.75 m
+539.75 628.75 l
+71.75 608 m
+540.25 608 l
+71.75 488 m
+540.25 488 l
+71.75 424 m
+540.25 424 l
+71.75 346 m
+540.25 346 l
+71.75 324 m
+540.25 324 l
+71.75 302 m
+540.25 302 l
+71.75 280 m
+540.25 280 l
+71.75 258 m
+540.25 258 l
+71.75 236 m
+540.25 236 l
+71.75 214 m
+540.25 214 l
+71.75 192 m
+540.25 192 l
+71.75 170 m
+540.25 170 l
+71.75 148 m
+540.25 148 l
+71.75 126 m
+540.25 126 l
+71.75 104 m
+540.25 104 l
+71.75 82 m
+540.25 82 l
+S
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 1184
+>>
+stream
+BT
+/F3 1 Tf
+12 0 0 12 509 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-35.1819 -7.3333 TD
+(Re)Tj
+0 g
+35.4319 7.3333 TD
+( )Tj
+0 0 0 1 k
+-34.3463 -7.3333 TD
+(vision)Tj
+0 g
+34.5963 7.3333 TD
+( )Tj
+0 0 0 1 k
+-34.8605 -8.5 TD
+(Date)Tj
+0 g
+35.1105 8.5 TD
+( )Tj
+0 0 0 1 k
+-29.7649 -7.3333 TD
+(Re)Tj
+0 g
+30.0149 7.3333 TD
+( )Tj
+0 0 0 1 k
+-28.9293 -7.3333 TD
+(vised)Tj
+0 g
+29.1793 7.3333 TD
+( )Tj
+0 0 0 1 k
+-29.8256 -8.5 TD
+(P)Tj
+0 g
+30.0756 8.5 TD
+( )Tj
+0 0 0 1 k
+-29.5346 -8.5 TD
+(ages)Tj
+0 g
+29.7846 8.5 TD
+( )Tj
+0 0 0 1 k
+-17.9994 -7.9167 TD
+(Description)Tj
+0 g
+18.2494 7.9167 TD
+( )Tj
+0 0 0 1 k
+-4.7234 -7.9167 TD
+(Re)Tj
+0 g
+4.9734 7.9167 TD
+( )Tj
+0 0 0 1 k
+-3.8878 -7.9167 TD
+-0.0284 Tw
+(vised By )Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+72 719.75 m
+72 482.25 l
+144 720.25 m
+144 481.75 l
+216 720.25 m
+216 481.75 l
+468 720.25 m
+468 481.75 l
+540 719.75 m
+540 482.25 l
+71.75 720 m
+540.25 720 l
+72.25 681.25 m
+539.75 681.25 l
+72.25 678.75 m
+539.75 678.75 l
+71.75 658 m
+540.25 658 l
+71.75 636 m
+540.25 636 l
+71.75 614 m
+540.25 614 l
+71.75 592 m
+540.25 592 l
+71.75 570 m
+540.25 570 l
+71.75 548 m
+540.25 548 l
+71.75 526 m
+540.25 526 l
+71.75 504 m
+540.25 504 l
+71.75 482 m
+540.25 482 l
+S
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 4859
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 539 792 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+( )Tj
+0 0 0 1 k
+-49.5461 -3.5467 TD
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+0 g
+49.8461 3.5467 TD
+( )Tj
+0 0 0 1 k
+-20.4015 -3.5467 TD
+(                                                             )Tj
+0 g
+20.7015 3.5467 TD
+( )Tj
+0 0 0 1 k
+-8.0475 -75.888 TD
+(6)Tj
+/F1 1 Tf
+24 0 0 24 547 792 Tm
+1 g
+( )Tj
+0 0 0 0 k
+-14.2638 -2.9167 TD
+(Table of Contents)Tj
+/F3 1 Tf
+12 0 0 12 554 792 Tm
+0 g
+( )Tj
+0 0 0 1 k
+-41.6667 -7.3333 TD
+(1  )Tj
+0 g
+41.9167 7.3333 TD
+( )Tj
+0 0 0 1 k
+-40.9167 -7.3333 TD
+(INTRODUCTION )Tj
+0 g
+41.1667 7.3333 TD
+( )Tj
+0 0 0 1 k
+-33.1667 -7.3333 TD
+(......................................................................................................................)Tj
+0 g
+33.4167 7.3333 TD
+( )Tj
+0 0 0 1 k
+-3.9167 -7.3333 TD
+(8)Tj
+0 g
+4.1667 7.3333 TD
+( )Tj
+0 0 0 1 k
+-39.6667 -8.5 TD
+(1.1  )Tj
+0 g
+39.9167 8.5 TD
+( )Tj
+0 0 0 1 k
+-38.1667 -8.5 TD
+(Purpose and Scope )Tj
+0 g
+38.4167 8.5 TD
+( )Tj
+0 0 0 1 k
+-30.4167 -8.5 TD
+(.......................................................................................................)Tj
+0 g
+30.6667 8.5 TD
+( )Tj
+0 0 0 1 k
+-4.9167 -8.5 TD
+(8)Tj
+0 g
+5.1667 8.5 TD
+( )Tj
+0 0 0 1 k
+-40.6667 -9.6667 TD
+(1.2  )Tj
+0 g
+40.9167 9.6667 TD
+( )Tj
+0 0 0 1 k
+-39.1667 -9.6667 TD
+(Applicable Documents )Tj
+0 g
+39.4167 9.6667 TD
+( )Tj
+0 0 0 1 k
+-29.9167 -9.6667 TD
+(.................................................................................................)Tj
+0 g
+30.1667 9.6667 TD
+( )Tj
+0 0 0 1 k
+-5.9167 -9.6667 TD
+(8)Tj
+0 g
+6.1667 9.6667 TD
+( )Tj
+0 0 0 1 k
+-44.6667 -10.8333 TD
+(2  )Tj
+0 g
+44.9167 10.8333 TD
+( )Tj
+0 0 0 1 k
+-43.9167 -10.8333 TD
+( ARCHIVE VOLUME GENERATION )Tj
+0 g
+44.1667 10.8333 TD
+( )Tj
+0 0 0 1 k
+-27.9167 -10.8333 TD
+(.....................................................................................)Tj
+0 g
+28.1667 10.8333 TD
+( )Tj
+0 0 0 1 k
+-6.9167 -10.8333 TD
+(9)Tj
+0 g
+7.1667 10.8333 TD
+( )Tj
+0 0 0 1 k
+-42.6667 -12 TD
+(2.1  )Tj
+0 g
+42.9167 12 TD
+( )Tj
+0 0 0 1 k
+-41.1667 -12 TD
+(Data Transfer and Validation Method )Tj
+0 g
+41.4167 12 TD
+( )Tj
+0 0 0 1 k
+-25.9167 -12 TD
+(.........................................................................)Tj
+0 g
+26.1667 12 TD
+( )Tj
+0 0 0 1 k
+-7.9167 -12 TD
+(9)Tj
+-35.5 -1.1667 TD
+0.0004 Tw
+(2.2  Data Volume Estimates ................................................................................................9)Tj
+T*
+0 Tw
+[(2.3  Interface Media Characteristics )-201.2(.................................................................................10)]TJ
+T*
+[(2.4  Backup and Duplicates )-225.1(..............................................................................................10)]TJ
+-3 -1.1667 TD
+[(3  ARCHIVE VOLUME CONTENTS )-56.2(.........................................................................................11)]TJ
+3 -1.1667 TD
+[(3.1  Root Directory Contents )-168(............................................................................................11)]TJ
+T*
+0.0004 Tw
+(3.2  INDEX Directory Contents ........................................................................................11)Tj
+3 -1.1667 TD
+0 Tw
+[(3.2.1  Fields in the Index Table File )-196.8(.....................................................................12)]TJ
+-3 -1.1667 TD
+[(3.3  DOCUMENTS Directory Contents )-140.1(...........................................................................13)]TJ
+T*
+[(3.4  CATALOG Directory Contents )-85.4(.................................................................................15)]TJ
+T*
+[(3.5  DATA Directory Contents )-85.4(.........................................................................................15)]TJ
+3 -1.1667 TD
+[(3.5.1  Data FIle Naming Conventions )-224.1(..................................................................16)]TJ
+-3 -1.1667 TD
+[(3.6  CALIB Directory Contents )-112.8(........................................................................................17)]TJ
+-3 -1.1667 TD
+[(4  ARCHIVE VOLUME FORMAT )-110.8(.............................................................................................19)]TJ
+3 -1.1667 TD
+[(4.1  Document File Format )-140.1(...............................................................................................19)]TJ
+T*
+[(4.2  Tabular File Format )-196.3(...................................................................................................19)]TJ
+T*
+0.0001 Tw
+(4.3  PDS Label Format ......................................................................................................19)Tj
+T*
+0 Tw
+[(4.4  Catalog File Format )-195.3(...................................................................................................20)]TJ
+T*
+[(4.5  Science Data File Format )-58.6(...........................................................................................20)]TJ
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 14 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Length 3090
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+42.0986 -72.3413 TD
+(8)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+[(1)-2015.3(   INTRODUCTION)]TJ
+0 -1.5029 TD
+[(1.1)-1181.3(   Purpose and Scope)]TJ
+/F2 1 Tf
+12.7404 0 TD
+( )Tj
+12 0 0 12 117 687.92 Tm
+(This Software Interface Specification \(SIS\) describes the formats, contents, and )Tj
+0 -1.1667 TD
+-0.055 Tw
+(generation of the media volumes for data produced by the Cassini Radar Instrument )Tj
+T*
+-0.0547 Tw
+(Team including the Burst Ordered Data Products \(BODP\) and the Basic Image Data )Tj
+T*
+0 Tw
+(Records \(BIDR\).  Observations in the Saturn system will target Titan, Saturn, the )Tj
+T*
+(Saturnian ring systems, and various icy satellites. )Tj
+0 -1.5867 TD
+(Observations of targets outside the Saturn system will also be included in the data )Tj
+0 -1.1667 TD
+(volume. For example, radiometer observations of Jupiter, the sun, and various mi-)Tj
+T*
+-0.004 Tw
+(crowave sources will be included as well as radiometer and scatterometer observa-)Tj
+T*
+0 Tw
+(tions of the Earth.)Tj
+0 -3.1733 TD
+-0.0592 Tw
+(The specifications in this document apply to all data products produced by the Cassi-)Tj
+0 -1.1667 TD
+0 Tw
+(ni Radar Instrument Team at the Jet Propulsion Laboratory. )Tj
+0 -3.1733 TD
+-0.0791 Tw
+(This SIS is intended to provide enough information to enable users to understand the )Tj
+0 -1.1667 TD
+-0.0402 Tw
+(way in which the data products are organized within the volume data set. It is intend-)Tj
+T*
+0 Tw
+(ed to be used in conjunction with the Cassini Radar Burst Ordered Data Products )Tj
+T*
+(SIS D-27891 which describes the internal format of the BODP data files and the )Tj
+T*
+-0.0592 Tw
+(Cassini Basic Image Data Record SIS D-27889 which similarly documents the BIDR )Tj
+T*
+0 Tw
+(files. The users for whom this SIS is intended are software developers, engineers, )Tj
+T*
+-0.0423 Tw
+(and scientists interested in accessing and using either of the two data product types.)Tj
+/F1 1 Tf
+14 0 0 14 54 357.307 Tm
+0 Tw
+[(1.2)-1181.3(   Applicable Documents)]TJ
+/F2 1 Tf
+14.1847 0 TD
+( )Tj
+12 0 0 12 117 337.6 Tm
+(This SIS is responsive to the following Cassini Mission Documents:)Tj
+0 -1.5867 TD
+(1 Project Data Management Plan, JPL PD 699-061)Tj
+T*
+(2 Cassini/Huygens Program Archive Plan for Science Data, JPL PD 699-068)Tj
+T*
+(This SIS is also consistent with the following Planetary Data System documents:)Tj
+T*
+(3. Planetary Data System Data Preparation Workbook, February 1, 1995, Version )Tj
+0 -1.1667 TD
+(3.1, JPL D-7669, Part 1)Tj
+0 -1.5867 TD
+(4. Planetary Data System Data Standards Reference, June 15, 2001, Version 3.4, )Tj
+0 -1.1667 TD
+(JPL D-7669, Part 2)Tj
+0 -3.1733 TD
+-0.0848 Tw
+(Finally this SIS is consistent with the contract negotiated between the Cassini Project )Tj
+0 -1.1667 TD
+-0.0362 Tw
+(and the Cassini Radar Experiment Principal Investigator \(PI\) in which data products )Tj
+T*
+0 Tw
+(and documentation are explicitly defined as deliverable products.)Tj
+ET
+endstream
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+26 0 obj
+<<
+/Length 4226
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+42.0986 -72.3413 TD
+(9)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+[(2)-2015.3(    ARCHIVE VOLUME GENERATION)]TJ
+/F2 1 Tf
+19.6837 0 TD
+( )Tj
+/F1 1 Tf
+-19.6837 -1.5029 TD
+[(2.1)-1181.3(   Data Transfer and Validation Method)]TJ
+/F2 1 Tf
+12 0 0 12 117 687.92 Tm
+-0.0418 Tw
+(The Cassini Radar Team will produce the BODP and BIDR Data Archive Collection. )Tj
+0 -1.1667 TD
+-0.0658 Tw
+(During active mission operations intermediate science data products are made avail-)Tj
+T*
+0 Tw
+(able to Cassini Radar Team members for their analysis and evaluation. The data )Tj
+T*
+(sets will be continually updated during the mission as new observations are ac-)Tj
+T*
+(quired. At the end of the data preparation phase, the copies of the data product ar-)Tj
+T*
+-0.0552 Tw
+(chive will be distributed to the peer review panel for their evaluation. The peer panel, )Tj
+T*
+0 Tw
+(with representation from the Cassini Radar Team, PDS, Cassini Science Archive )Tj
+T*
+-0.0638 Tw
+(Working Group \(SAWG\) and the general science community will review and validate )Tj
+T*
+-0.0362 Tw
+(the products and volume for scientific integrity and compliance with PDS standards. )Tj
+T*
+-0.0554 Tw
+(The data products will be evaluated against the design as defined in the product and )Tj
+T*
+-0.0842 Tw
+(volume SIS's. These SIS's are peer reviewed prior to Saturn system data acquisition. )Tj
+/F1 1 Tf
+14 0 0 14 54 508.507 Tm
+0 Tw
+[(2.2)-1181.3(   Data Volume Estimates)]TJ
+/F2 1 Tf
+14.4645 0 TD
+( )Tj
+12 0 0 12 117 488.8 Tm
+(The following table summarizes product sizes for the Cassini Radar Instrument )Tj
+0 -1.1667 TD
+-0.0469 Tw
+(Team Data Products. These include the BIDR files and the three different formats of )Tj
+T*
+-0.055 Tw
+(BODP files. The various types are described in detail in section 3.5 and in the BODP )Tj
+T*
+0 Tw
+(Data SIS. BIDR files and BODP files of the same format have the same constant )Tj
+T*
+-0.0219 Tw
+(fixed record length which can be read from the PDS label attached at the beginning )Tj
+T*
+-0.0093 Tw
+(of the file or the index table file. The approximate record sizes for each file type are )Tj
+T*
+-0.0192 Tw
+(also listed in table 1 along with the nominal data volume per pass \(for 10 hour Titan )Tj
+T*
+0 Tw
+(passes\) and some notes briefly describing each product type. For the exact record )Tj
+T*
+(sizes see the BODP or BIDR data SIS. The total data volume for the mission is es-)Tj
+T*
+-0.0034 Tw
+(timated to be 80 GBytes for 20 sequences. This estimate is probably high because )Tj
+T*
+0 Tw
+(the radar will not be obtaining measurements for the full ten hours for every Titan )Tj
+T*
+-0.0239 Tw
+(pass. On the other hand, in the event of an extended mission we may acquire more )Tj
+T*
+0 Tw
+(passes.)Tj
+3.4462 -1.5867 TD
+( )Tj
+/F5 1 Tf
+5.3814 -2 TD
+[(T)92.1(able 1:  Data )45.2(V)100.1(olume Estimates)]TJ
+/F3 1 Tf
+-12.2581 -3.3333 TD
+(Product )Tj
+0.5681 -1.1667 TD
+[(T)80.1(ype)]TJ
+7.177 0.5833 TD
+(Data Set ID)Tj
+9.6165 1.1667 TD
+(Record )Tj
+0.583 -1.1667 TD
+(Size )Tj
+-0.9722 -1.1667 TD
+(\(KBytes\))Tj
+6.1392 2.9167 TD
+(Data )Tj
+-0.6024 -1.1667 TD
+[(V)129.2(olume )]TJ
+-0.0783 -1.1667 TD
+(per pass )Tj
+-0.292 -1.1667 TD
+(\(MBytes\))Tj
+7.051 1.75 TD
+(Name: Description)Tj
+-29.6845 -3.75 TD
+[(SBDR)-3090.9(CO-V/E/J/S-RAD)40(AR-3-)]TJ
+8.1413 -1.1667 TD
+(SBDR-V1.0)Tj
+10.5337 1.1667 TD
+[(1.2)-4125(54)-3356.4(Short Burst Data Record: )]TJ
+9.5004 -1.1667 TD
+[(T)35.2(ime ordered engineering, )]TJ
+0.0004 -1.1667 TD
+[(S/C geometry)65.2(, and science )]TJ
+4.4664 -1.1667 TD
+(data)Tj
+-32.6423 -1.8333 TD
+[(LBDR)-3036.3(CO-V/E/J/S-RAD)40(AR-3-)]TJ
+8.1139 -1.1667 TD
+(LBDR-V1.0)Tj
+10.4361 1.1667 TD
+[(133)-3500(2200)-2884.5(Long Burst Data Record: )]TJ
+10.6776 -1.1667 TD
+[(SBDR + acti)25.1(v)15.2(e)0( mode )]TJ
+0.5546 -1.1667 TD
+(sampled echo data)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+63.9 267.51 m
+63.9 86.01 l
+125.1 268.01 m
+125.1 85.51 l
+269.1 268.01 m
+269.1 85.51 l
+333.9 268.01 m
+333.9 85.51 l
+395.1 268.01 m
+395.1 85.51 l
+548.1 267.51 m
+548.1 86.01 l
+63.65 267.76 m
+548.35 267.76 l
+64.15 201.01 m
+547.85 201.01 l
+64.15 198.51 m
+547.85 198.51 l
+63.65 135.76 m
+548.35 135.76 l
+63.65 85.76 m
+548.35 85.76 l
+S
+endstream
+endobj
+27 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 2647
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(10)Tj
+/F2 1 Tf
+12 0 0 12 117 518 Tm
+( A single copy of the data product volumes will be delivered to the PDS Imaging )Tj
+0 -1.1667 TD
+(Node. The Imaging Node will be responsible for developing the methods for distrib-)Tj
+T*
+-0.0376 Tw
+(uting the data products to the user community. Copies of the preliminary DVD-R vol-)Tj
+T*
+0 Tw
+(umes will be provided to the peer review panel for their evaluation.)Tj
+/F1 1 Tf
+14 0 0 14 54 436.587 Tm
+[(2.3)-1181.3(   Interface Media Characteristics)]TJ
+/F2 1 Tf
+18.1891 0 TD
+( )Tj
+12 0 0 12 117 416.88 Tm
+(Data products will be delivered to the PDS electronically. Deliveries will be tracked )Tj
+0 -1.1667 TD
+(using the Cassini Archive Tracking System \(CATS\).)Tj
+/F1 1 Tf
+14 0 0 14 54 382.507 Tm
+[(2.4)-1181.3(   Backup and Duplicates)]TJ
+/F2 1 Tf
+12 0 0 12 117 362.8 Tm
+-0.0378 Tw
+(The Cassini Radar Instrument Team will keep backup copies of the data throughout )Tj
+T*
+0 Tw
+(the duration of the Cassini Mision. )Tj
+/F3 1 Tf
+-3.925 24.1 TD
+[(ABDR)-3563.6(CO-SSA-RAD)40(AR-3-)]TJ
+8.0582 -1.1667 TD
+(ABDR-V1.0)Tj
+10.4918 1.1667 TD
+-0.0174 Tw
+[(133)-3750(240)-2300(Altimeter Burst Data Record:)]TJ
+9.4912 -1.1667 TD
+0 Tw
+(SBDR + range compressed )Tj
+1.6303 -1.1667 TD
+(altimeter echo data)Tj
+-29.6715 -1.8333 TD
+[(BIDR)-3952.8(CO-SSA-RAD)40(AR-5-)]TJ
+8.2528 -1.1667 TD
+(BIDR-V1.0)Tj
+9.1579 1.1667 TD
+[(v)25.2(aries for )]TJ
+0.1807 -1.1667 TD
+[(dif)25.2(ferent )]TJ
+0.4869 -1.1667 TD
+(image )Tj
+-0.9727 -1.1667 TD
+(resolutions)Tj
+6.4443 3.5 TD
+[(1400)-2663.3(Basic Image Data Record: )]TJ
+4.8425 -1.1667 TD
+(SAR image from a single )Tj
+3.0588 -1.1667 TD
+[(T)35.2(itan pass)]TJ
+/F5 1 Tf
+-18.6987 14.1667 TD
+[(T)92.1(able 1:  Data )45.2(V)100.1(olume Estimates)]TJ
+/F3 1 Tf
+-12.2581 -3.3333 TD
+(Product )Tj
+0.5681 -1.1667 TD
+[(T)80.1(ype)]TJ
+7.177 0.5833 TD
+(Data Set ID)Tj
+9.6165 1.1667 TD
+(Record )Tj
+0.583 -1.1667 TD
+(Size )Tj
+-0.9722 -1.1667 TD
+(\(KBytes\))Tj
+6.1392 2.9167 TD
+(Data )Tj
+-0.6024 -1.1667 TD
+[(V)129.2(olume )]TJ
+-0.0783 -1.1667 TD
+(per pass )Tj
+-0.292 -1.1667 TD
+(\(MBytes\))Tj
+7.051 1.75 TD
+(Name: Description)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+63.9 719.75 m
+63.9 538.25 l
+125.1 720.25 m
+125.1 537.75 l
+269.1 720.25 m
+269.1 537.75 l
+333.9 720.25 m
+333.9 537.75 l
+395.1 720.25 m
+395.1 537.75 l
+548.1 719.75 m
+548.1 538.25 l
+63.65 720 m
+548.35 720 l
+64.15 653.25 m
+547.85 653.25 l
+64.15 650.75 m
+547.85 650.75 l
+63.65 602 m
+548.35 602 l
+63.65 538 m
+548.35 538 l
+S
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 3544
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(11)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+[(3)-2015.3(   ARCHIVE VOLUME CONTENTS)]TJ
+/F2 1 Tf
+12 0 0 12 117 708.96 Tm
+-0.027 Tw
+(This section describes the directories and contents of the Cassini Radar Instrument )Tj
+0 -1.1667 TD
+0 Tw
+(Team Data Product volumes, including the file names, file contents, and file types. )Tj
+T*
+-0.0079 Tw
+(The ancillary files described herein appear on each volume in the Cassini Radar In-)Tj
+T*
+0 Tw
+(strument Team Data Product volume series. )Tj
+/F1 1 Tf
+14 0 0 14 54 646.587 Tm
+[(3.1)-1181.3(   Root Directory Contents)]TJ
+/F2 1 Tf
+14.9611 0 TD
+( )Tj
+12 0 0 12 117 626.88 Tm
+(The following table lists files located in the root directory.)Tj
+/F1 1 Tf
+14 0 0 14 54 242.507 Tm
+[(3.2)-1181.3(   INDEX Directory Contents)]TJ
+/F2 1 Tf
+12 0 0 12 117 222.7999 Tm
+-0.042 Tw
+(The following table summarizes files located in the index directory. A single index ta-)Tj
+0 -1.1667 TD
+0 Tw
+(ble is provided for all Cassini Radar Instrument Team Products. Data set ID is one )Tj
+T*
+(of the fields in the index file.)Tj
+/F5 1 Tf
+8.1261 32.42 TD
+[(T)92(able 2: Contents of Root Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-6.4728 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+-3.4033 -2 TD
+[(AAREADME.TXT )-3889.6(File pro)15.2(viding introductory information about the con-)]TJ
+12 -1.1667 TD
+[(tents and format of the v)20(olumes.)]TJ
+-12 -1.8333 TD
+[(V)40(OLDESC.CA)111.2(T)-5289.8(A)0( description of the contents of this v)20(olume in a PDS )]TJ
+12 -1.1667 TD
+[(labeled format. It contains a )50(V)40.1(OLUME object with  )]TJ
+T*
+[(aV)40(OLUME_ID k)10(e)15.2(yw)10(ord of the form CORADR_NNNN )]TJ
+T*
+(where NNNN is a unique 4-digit number for each )Tj
+T*
+[(archi)25.1(v)15.2(ed v)20(olume.)]TJ
+-12 -1.8333 TD
+[(ERRA)111.1(T)93(A.TXT)-6010.2(A cumulati)25.1(v)15.2(e)0( listing of comments and special consider)20(-)]TJ
+12 -1.1667 TD
+(ations. )Tj
+-12 -1.8333 TD
+[(INDEX)-8889.6(Directory containing inde)15.2(x table.)]TJ
+T*
+[(DOCUMENTS)-5777.3(Documentation Directory)]TJ
+T*
+[(CA)111.1(T)93(ALOG)-7426.7(Directory containing catalog ìles.)]TJ
+T*
+[(D)40(A)111.1(T)93.1(A)-9466.8(Directory containing data products.)]TJ
+T*
+[(CALIB)-9000(Directory containing ìles used to calibrate data.)]TJ
+T*
+[(EXTRAS)-8110.8(Directory containing ìles which do not ìt an)15.2(ywhere else.)]TJ
+/F5 1 Tf
+9.2923 -10.1733 TD
+[(T)92(able 3: Contents of INDEX Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-5.889 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+-3.4033 -2 TD
+[(INDEXINFO.TXT )-4112.3(A description of the contents of this directory)65.2(.)]TJ
+0 -1.8333 TD
+[(INDEX.T)93(AB)-6732.7(Inde)15.1(x table ìle for Cassini Radar Instrument )18.1(T)70.1(eam Data )]TJ
+12 -1.1667 TD
+(Products.)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 573.59 m
+90 266.09 l
+234 574.09 m
+234 265.59 l
+522 573.59 m
+522 266.09 l
+89.75 573.84 m
+522.25 573.84 l
+90.25 549.09 m
+521.75 549.09 l
+90.25 546.59 m
+521.75 546.59 l
+89.75 511.84 m
+522.25 511.84 l
+89.75 433.84 m
+522.25 433.84 l
+89.75 397.84 m
+522.25 397.84 l
+89.75 375.84 m
+522.25 375.84 l
+89.75 353.84 m
+522.25 353.84 l
+89.75 331.84 m
+522.25 331.84 l
+89.75 309.84 m
+522.25 309.84 l
+89.75 287.84 m
+522.25 287.84 l
+89.75 265.84 m
+522.25 265.84 l
+90 141.51 m
+90 58.01 l
+234 142.01 m
+234 57.51 l
+522 141.51 m
+522 58.01 l
+89.75 141.76 m
+522.25 141.76 l
+90.25 117.01 m
+521.75 117.01 l
+90.25 114.51 m
+521.75 114.51 l
+89.75 93.76 m
+522.25 93.76 l
+89.75 57.76 m
+522.25 57.76 l
+S
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 3238
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(12)Tj
+/F1 1 Tf
+14 0 0 14 54 631.627 Tm
+[(3.2.1)-347.3(   Fields in the Index Table File)]TJ
+/F2 1 Tf
+12 0 0 12 117 611.92 Tm
+(This section describes the fields in the index.tab file. This file is included to provide )Tj
+0 -1.1667 TD
+(the user with a way of quickly producing a list of data files from desired ranges of )Tj
+T*
+-0.0506 Tw
+(search criteria such as time, target, latitude, or longitude. See below for descriptions )Tj
+T*
+0 Tw
+(of each column in the index file.)Tj
+/F1 1 Tf
+14 0 0 14 54 549.547 Tm
+(3.2.1.1      file_name)Tj
+/F2 1 Tf
+12 0 0 12 117 529.84 Tm
+(The name of each BODP or BIDR data file in the data volume.)Tj
+/F1 1 Tf
+14 0 0 14 54 509.467 Tm
+(3.2.1.2      dir)Tj
+/F2 1 Tf
+12 0 0 12 117 489.76 Tm
+-0.0698 Tw
+(The directory in which the file can be found. This entry should always be èdata/XXXXê )Tj
+T*
+0 Tw
+(where XXXX is the four letter acronym for the data set \(SBDR, LBDR, ABDR or )Tj
+T*
+(BIDR\).)Tj
+/F1 1 Tf
+14 0 0 14 54 441.387 Tm
+(3.2.1.3      data_set_id)Tj
+/F2 1 Tf
+12 0 0 12 117 421.68 Tm
+-0.0304 Tw
+(A text string which identifies the type of data in the file. The valid strings are listed in )Tj
+T*
+0 Tw
+(Table 1.)Tj
+/F1 1 Tf
+14 0 0 14 54 387.307 Tm
+(3.2.1.4      start_time)Tj
+/F2 1 Tf
+12 0 0 12 117 367.6 Tm
+(UTC \(YYYY-DOYTHH:MM:SS.sss\) formatted time at start of data acquisition for )Tj
+T*
+(data in the file.)Tj
+/F1 1 Tf
+14 0 0 14 54 333.227 Tm
+(3.2.1.5      end_time)Tj
+/F2 1 Tf
+12 0 0 12 117 313.52 Tm
+(UTC formatted time at end of data acquisition for data in the file.)Tj
+/F1 1 Tf
+14 0 0 14 54 293.147 Tm
+(3.2.1.6      target)Tj
+/F2 1 Tf
+12 0 0 12 117 273.44 Tm
+(Identifier for target of observation. \(TITAN, SATURN, etc.\))Tj
+/F1 1 Tf
+14 0 0 14 54 253.067 Tm
+(3.2.1.7      latitude_min)Tj
+/F2 1 Tf
+12 0 0 12 117 233.3599 Tm
+-0.0124 Tw
+(Minimum latitude in target body frame for data in file. For target for which this is not )Tj
+T*
+0 Tw
+(applicable the default value of -1000 is used. )Tj
+/F1 1 Tf
+14 0 0 14 54 198.987 Tm
+(3.2.1.8      latitude_max)Tj
+/F2 1 Tf
+12 0 0 12 117 179.28 Tm
+-0.0287 Tw
+(Maximum latitude in target body frame for data in file. For target for which this is not )Tj
+T*
+0 Tw
+(applicable the default value of -1000 is used. )Tj
+/F1 1 Tf
+14 0 0 14 54 144.907 Tm
+(3.2.1.9      longitude_westernmost)Tj
+/F2 1 Tf
+12 0 0 12 117 125.2 Tm
+-0.0141 Tw
+(Westernmost longitude in target body frame for data in file. For target for which this )Tj
+T*
+-0.0292 Tw
+[(is not applicable the default value of -1000 is used. Valid  values are between 0 and )]TJ
+T*
+0 Tw
+(360.)Tj
+/F3 1 Tf
+-1.75 48.5667 TD
+[(INDEX.LBL)-6751(Detached label ìle describing contents of inde)15.2(x.tab)40(.)]TJ
+/F5 1 Tf
+9.2923 4.1667 TD
+[(T)92(able 3: Contents of INDEX Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-5.889 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 719.75 m
+90 672.25 l
+234 720.25 m
+234 671.75 l
+522 719.75 m
+522 672.25 l
+89.75 720 m
+522.25 720 l
+90.25 695.25 m
+521.75 695.25 l
+90.25 692.75 m
+521.75 692.75 l
+89.75 672 m
+522.25 672 l
+S
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+39 0 obj
+<<
+/Length 3634
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(13)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+(3.2.1.10      longitude_easternmost)Tj
+/F2 1 Tf
+12 0 0 12 117 708.96 Tm
+(Easternmost longitude in target body frame for data in file. For target for which this )Tj
+0 -1.1667 TD
+-0.0137 Tw
+(is not applicable the default value of -1000 is used. Valid values are between 0 and )Tj
+T*
+0 Tw
+(360.)Tj
+/F1 1 Tf
+14 0 0 14 54 660.587 Tm
+(3.2.1.11      look_direction)Tj
+/F2 1 Tf
+12 0 0 12 117 640.88 Tm
+-0.0488 Tw
+(5 letter ASCII string \("RIGHT" ,"LEFT ", or "BOTH " \) indicating the side of the space-)Tj
+T*
+-0.0274 Tw
+(craft groundtrack to which the antenna is pointed for data acquired within each data )Tj
+T*
+-0.047 Tw
+(product \(file\). The "BOTH " option will only be used for BODP files. The SAR images )Tj
+T*
+-0.0322 Tw
+(stored in the BIDR files are always acquired on only one side of the ground track for )Tj
+T*
+0 Tw
+(each Titan pass. This value also indicates from which side the SAR image is illumi-)Tj
+T*
+(nated. I f the spacecraft images to the left of its ground track, the image will be illu-)Tj
+T*
+-0.0082 Tw
+[(minated from the \(viewer's\)  left side, and, conversely, if the spacecraft looks to the )]TJ
+T*
+0 Tw
+(right, the illumination will come from the right in the image file.  The direction of illu-)Tj
+T*
+(mination is critical to interpretation of features in the image.)Tj
+/F1 1 Tf
+14 0 0 14 54 508.507 Tm
+(3.2.1.12      product_creation_time)Tj
+/F2 1 Tf
+12 0 0 12 117 488.8 Tm
+(UTC \(YYYY-DOYTHH:MM:SS.sss\) formatted time of creation of the product file.)Tj
+/F1 1 Tf
+14 0 0 14 54 449.387 Tm
+[(3.3)-1181.3(   DOCUMENTS Directory Contents)]TJ
+/F2 1 Tf
+12 0 0 12 117 429.68 Tm
+(The following table lists files located in the Document Directory.)Tj
+0 -29.92 TD
+(The CRT directory contains a Cassini Radar Transition file for each observation. )Tj
+/F5 1 Tf
+5.9034 26.3333 TD
+[(T)92(able 4: Contents of DOCUMENTS Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-4.2501 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+-3.4033 -2 TD
+[(DOCINFO.TXT )-5111.3(A description of the contents of this directory)65.2(.)]TJ
+0 -1.8333 TD
+(BODPSIS.PDF)Tj
+0 -1.1667 TD
+(BODPSIS.LBL)Tj
+T*
+(BODPSIS.HTML)Tj
+12 2.3333 TD
+-0.0381 Tw
+[(PDF and HTML v)15.2(ersions of Burst Ordered Data Products )]TJ
+0 -1.1667 TD
+0 Tw
+(SIS and detached label ìle documenting them.)Tj
+-12 -3 TD
+(BIDRSIS.PDF)Tj
+0 -1.1667 TD
+(BIDRSIS.LBL)Tj
+T*
+(BIDRSIS.HTML)Tj
+12 2.3333 TD
+[(PDF and HTML v)15.2(ersions of Basic Image Data Record )]TJ
+0 -1.1667 TD
+(SIS and detached label ìle documenting them.)Tj
+-12 -3 TD
+[(V)40(OLSIS.PDF)]TJ
+0 -1.1667 TD
+[(V)40(OLSIS.LBL)]TJ
+T*
+[(V)40(OLSIS.HTML)]TJ
+12 2.3333 TD
+[(PDF and HTML v)15.2(ersions of )50(V)129.2(olume SIS \(this ìle\) and)]TJ
+0 -1.1667 TD
+(detached label ìle documenting them.)Tj
+-12 -3 TD
+(SBDR.FMT)Tj
+0 -1.1667 TD
+(LBDR.FMT)Tj
+T*
+(ABDR.FMT)Tj
+12 2.3333 TD
+-0.0314 Tw
+[(F)15.2(ormat ìles for BODP table objects which are referenced )]TJ
+0 -1.1667 TD
+0 Tw
+(in the attached PDS labels.)Tj
+-12 -3 TD
+[(CR)60.1(T)-10115.2(Directory containing Cassini Radar )18.1(T)35.2(ransition ìles for )]TJ
+12 -1.1667 TD
+[(each observ)25.1(ation.)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 376.39 m
+90 92.89 l
+234 376.89 m
+234 92.39 l
+522 376.39 m
+522 92.89 l
+89.75 376.64 m
+522.25 376.64 l
+90.25 351.89 m
+521.75 351.89 l
+90.25 349.39 m
+521.75 349.39 l
+89.75 328.64 m
+522.25 328.64 l
+89.75 278.64 m
+522.25 278.64 l
+89.75 228.64 m
+522.25 228.64 l
+89.75 178.64 m
+522.25 178.64 l
+89.75 128.64 m
+522.25 128.64 l
+89.75 92.64 m
+522.25 92.64 l
+S
+endstream
+endobj
+40 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+44 0 obj
+<<
+/Length 3727
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(14)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+-0.0592 Tw
+(These files document the times of radar mode transitions and the beginning and end )Tj
+0 -1.1667 TD
+-0.0203 Tw
+(of radar or radiometer scans. File names are of the form CRT_yyy_Vnn.TAB where )Tj
+T*
+-0.0402 Tw
+(yyy is the three digit radar observation counter, and nn is a two digit version number.)Tj
+0 -1.5867 TD
+-0.011 Tw
+(The Cassini Radar Transition files in the CRT directory consist of four tab delimited )Tj
+0 -1.1667 TD
+-0.0582 Tw
+(columns of ASCII text. The first column is a UTC time tag in yyyy-doyThh:mm:ss.sss )Tj
+T*
+-0.0036 Tw
+(format.The second column is a two digit decimal integer denoting the type of transi-)Tj
+T*
+0 Tw
+(tion.The third column is a 15 character \(spaces are padded at the end\) ASCII tran-)Tj
+T*
+(sition type tag. The fourth column is a 10 character unique record identification )Tj
+T*
+(number . Rows are in temporal order.The following table maps transition type inte-)Tj
+T*
+(gers to tags.The tags denote the ending and begininning times of individual raster )Tj
+T*
+-0.0511 Tw
+[(scans as well as the ending and beginning times for each radar mode. For complete-)]TJ
+0 -31.1667 TD
+0 Tw
+(ness, the end time of one mode and the beginning time of the next mode are both )Tj
+0 -1.1667 TD
+-0.0453 Tw
+[(listed.  Unless there is a gap between the two modes both times will be identical and )]TJ
+T*
+-0.0098 Tw
+(will correspond to the starting time of the first burst in the second mode. Recall that )Tj
+T*
+-0.0272 Tw
+(each record in a BODP data file contains a UTC time tag. For a given mode or scan )Tj
+T*
+-0.0171 Tw
+(the UTC time tags of the bursts within that mode or scan are all <= the ending time  )Tj
+T*
+0 Tw
+(in the CRT file and >= the starting time in the CRT file. All of bursts outside of the )Tj
+T*
+-0.0632 Tw
+(range are not included in that scan or mode. Record identification number on the oth-)Tj
+T*
+0 Tw
+(er hand will be different for the two rows.  The mode ending row will have the last )Tj
+T*
+-0.0311 Tw
+(record identification number for the old mode. The mode staring row will contain the )Tj
+T*
+0 Tw
+(first record identification number for the new mode. It is important to note that scat-)Tj
+T*
+-0.072 Tw
+(terometer data will be available during altimetry and SAR modes and that radiometer )Tj
+/F5 1 Tf
+5.5995 40.8333 TD
+0 Tw
+[(T)92.1(able 5: )]TJ
+/F2 1 Tf
+3.6857 0 TD
+(Transition Number Map for CRT Files)Tj
+0.2689 -3.3333 TD
+(Transition Tag )Tj
+10.0005 1.1667 TD
+(Transition )Tj
+0.417 -1.1667 TD
+(Number)Tj
+/F3 1 Tf
+-12.7217 -3.1667 TD
+[(ScanStart)-8167.5(00)]TJ
+0 -1.8333 TD
+[(ScanEnd)-8445.3(01)]TJ
+T*
+[(RadOnlyStart)-6500.5(02)]TJ
+T*
+[(RadOnlyEnd)-6778.3(03)]TJ
+T*
+[(ScatStart)-8389.6(04)]TJ
+T*
+[(ScatEnd)-8667.5(05)]TJ
+T*
+[(AltStart)-8833.5(06)]TJ
+T*
+[(AltEnd)-9111.3(07)]TJ
+T*
+[(LoResSARStart)-5555.2(08)]TJ
+T*
+[(LoResSAREnd)-5833(09)]TJ
+T*
+[(HiResSARStart)-5666(10)]TJ
+T*
+[(HiResSAREnd)-5943.8(11)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+198 550.71 m
+198 233.21 l
+342 551.21 m
+342 232.71 l
+414 550.71 m
+414 233.21 l
+197.75 550.96 m
+414.25 550.96 l
+198.25 498.21 m
+413.75 498.21 l
+198.25 495.71 m
+413.75 495.71 l
+197.75 474.96 m
+414.25 474.96 l
+197.75 452.96 m
+414.25 452.96 l
+197.75 430.96 m
+414.25 430.96 l
+197.75 408.96 m
+414.25 408.96 l
+197.75 386.96 m
+414.25 386.96 l
+197.75 364.96 m
+414.25 364.96 l
+197.75 342.96 m
+414.25 342.96 l
+197.75 320.96 m
+414.25 320.96 l
+197.75 298.96 m
+414.25 298.96 l
+197.75 276.96 m
+414.25 276.96 l
+197.75 254.96 m
+414.25 254.96 l
+197.75 232.96 m
+414.25 232.96 l
+S
+endstream
+endobj
+45 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+47 0 obj
+<<
+/Length 3365
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(15)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+(data will be available during all modes.)Tj
+/F1 1 Tf
+14 0 0 14 54 690.587 Tm
+[(3.4)-1181.3(   CATALOG Directory Contents)]TJ
+/F2 1 Tf
+12 0 0 12 117 670.88 Tm
+(The files in the Catalog directory provide a top-level understanding of the Cassini )Tj
+0 -1.1667 TD
+(Mission, spacecraft, instruments, and data sets in the form of completed PDS tem-)Tj
+T*
+(plates. The files are produced or collected by the Cassini Radar Team. The files in )Tj
+T*
+-0.047 Tw
+(this directory are coordinated with the PDS engineer. The following table lists files in )Tj
+T*
+0 Tw
+(the Catalog Directory.)Tj
+/F1 1 Tf
+14 0 0 14 54 106.427 Tm
+[(3.5)-1181.3(   DATA Directory Contents)]TJ
+/F2 1 Tf
+12 0 0 12 117 86.7199 Tm
+-0.0312 Tw
+(The DATA directory has four sub-directories SBDR, LBDR, ABDR, and BIDR which )Tj
+T*
+0 Tw
+(each contain all the data files for the corresponding data set. )Tj
+/F5 1 Tf
+6.7183 41.5933 TD
+[(T)92(able 6: Contents of CA)95.3(T)90.1(ALOG Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-5.0649 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+-3.4033 -2 TD
+[(CA)111.1(TINFO.TXT )-5333.7(A description of the contents of this directory)65.2(.)]TJ
+0 -1.8333 TD
+[(MISSION.CA)111.1(T)-5749.2(PDS mission catalog information about the Cassini Mis-)]TJ
+12 -1.1667 TD
+(sion. )Tj
+-12 -1.8333 TD
+[(PERSON.CA)111(T)-6026.6(PDS personnel catalog information about Cassini )18.1(T)70.1(eam )]TJ
+12 -1.1667 TD
+(members responsible for generating the data products)Tj
+-12 -1.8333 TD
+[(INST)74.3(.CA)111.1(T)-7713.2(PDS instrument catalog information about the Cassini )]TJ
+12 -1.1667 TD
+(Radar instrument.)Tj
+-12 -1.8333 TD
+[(INSTHOST)74.2(.CA)111.1(T)-5101.8(PDS instrument catalog information about the Cassini )]TJ
+12 -1.1667 TD
+(spacecraft.)Tj
+-12 -1.8333 TD
+[(DSMAP)111.1(.CA)111.1(T)-6526.3(PDS mission catalog information about map projection )]TJ
+12 -1.1667 TD
+-0.0251 Tw
+[(deìnition. It includes the deìnition of oblique c)15(ylindrical.)]TJ
+-12 -1.8333 TD
+0 Tw
+[(REF)80.1(.CA)111.1(T)-8107.2(PDS references mentioned in other *.CA)111.1(T ìles)]TJ
+T*
+[(SBDRDS.CA)111.1(T)-5970.5(PDS data set catalog information about the Short Burst )]TJ
+12 -1.1667 TD
+(Ordered Data Record data sets.)Tj
+-12 -1.8333 TD
+[(LBDRDS.CA)111.1(T)-5915.7(PDS data set catalog information about the Long Burst )]TJ
+12 -1.1667 TD
+(Ordered Data Record data sets.)Tj
+-12 -1.8333 TD
+[(ABDRDS.CA)111.1(T)-5804.4(PDS data set catalog information about the )55.2(Altimeter )]TJ
+12 -1.1667 TD
+(Burst Ordered Data Record data sets.)Tj
+-12 -1.8333 TD
+[(BIDRDS.CA)111.1(T)-6193.6(PDS data set catalog information about the Basic Image )]TJ
+12 -1.1667 TD
+(Data Record data set.)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 561.59 m
+90 168.09 l
+234 562.09 m
+234 167.59 l
+522 561.59 m
+522 168.09 l
+89.75 561.84 m
+522.25 561.84 l
+90.25 537.09 m
+521.75 537.09 l
+90.25 534.59 m
+521.75 534.59 l
+89.75 513.84 m
+522.25 513.84 l
+89.75 477.84 m
+522.25 477.84 l
+89.75 441.84 m
+522.25 441.84 l
+89.75 405.84 m
+522.25 405.84 l
+89.75 369.84 m
+522.25 369.84 l
+89.75 333.84 m
+522.25 333.84 l
+89.75 311.84 m
+522.25 311.84 l
+89.75 275.84 m
+522.25 275.84 l
+89.75 239.84 m
+522.25 239.84 l
+89.75 203.84 m
+522.25 203.84 l
+89.75 167.84 m
+522.25 167.84 l
+S
+endstream
+endobj
+48 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+50 0 obj
+<<
+/Length 2731
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(16)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+[(3.5.1)-347.3(   Data FIle Naming Conventions)]TJ
+/F2 1 Tf
+12 0 0 12 117 708.96 Tm
+-0.0366 Tw
+(Files are named using the product ID and an extension specifying the PDS file type. )Tj
+0 -1.1667 TD
+0 Tw
+(The product ID is the string following the PRODUCT_ID keyword in the attached )Tj
+T*
+(PDS label. BIDR files are of the format )Tj
+/F6 1 Tf
+17.3403 0 TD
+(aabcdeefggg_hh_Vnn)Tj
+/F2 1 Tf
+8.7744 0 TD
+(.IMG where )Tj
+-26.1148 -1.1667 TD
+(")Tj
+/F6 1 Tf
+0.355 0 TD
+(aabcdeefggg_hh_Vnn)Tj
+/F2 1 Tf
+8.7744 0 TD
+(" is the product ID and ".IMG" is the extension for PDS image )Tj
+-9.1294 -1.1667 TD
+(files. Similarly the BODP files are named xxxx_yy_zzz_Vnn.TAB, where )Tj
+T*
+("xxxx_yy_zzz_Vnn" is the product ID and ".TAB" is the extension for a PDS Table )Tj
+T*
+(file. )Tj
+0 -3.1733 TD
+(The BIDR product ID )Tj
+/F6 1 Tf
+9.5591 0 TD
+(aabcdeefggg_hh_Vnn)Tj
+/F2 1 Tf
+8.7744 0 TD
+( is defined as follows:)Tj
+-18.3335 -1.5867 TD
+(aa = Dataset )Tj
+1.5 -1.5867 TD
+(BI = BIDR)Tj
+-1.5 -1.5867 TD
+(b = Kind and bit-type of data)Tj
+1.5 -1.5867 TD
+(F = Primary dataset \(e.g., incidence angle corrected sigma0\) in 32-bit )Tj
+0.75 -1.5867 TD
+(floating-point format \(Linear scale values, not in dB.\))Tj
+-0.75 -1.5867 TD
+(B = Primary dataset in unsigned byte format. \(Values converted to dB then nor-)Tj
+-1.5 -1.1667 TD
+(malized to fit in [0,255] range.\))Tj
+1.5 -1.5867 TD
+(U = Sigma0 without incidence angle correction in 32-bit floating point format. )Tj
+1.5 -1.5867 TD
+[( )-472.2(\(Linear scale values, not in dB.\))]TJ
+-1.5 -1.5867 TD
+(E = Incidence angle map, floating point values in degrees.)Tj
+T*
+(T = Latitude map, floating point values in degrees.)Tj
+T*
+(N = Longitude map, floating point values in degrees.)Tj
+T*
+(M = Beam mask map, 8 bit values.)Tj
+-1.5 -1.5867 TD
+[( )-1222.2(L)-193.8(  = Number of looks map, 32 bit integer values.)]TJ
+T*
+(c = Projection)Tj
+T*
+(      Q=  Oblique Cylindrical \(this is the only projection used for BIDRs\))Tj
+T*
+(d = Map resolution)Tj
+1.5 -1.5867 TD
+(B =   2 pixels/degree)Tj
+T*
+(D =   8 pixels/degree)Tj
+T*
+(F = 32 pixels/degree)Tj
+T*
+(H = 128 pixels/degree)Tj
+-1.5 -1.5867 TD
+(      I = 256 pixels/degree)Tj
+T*
+(ee = Absolute value of latitude at center of file, rounded to nearest degree)Tj
+T*
+(f = Hemisphere of center of file)Tj
+1.5 -1.5867 TD
+(N = North)Tj
+T*
+(S = South)Tj
+-1.5 -1.5867 TD
+(ggg = West longitude at center of file, rounded to nearest degree)Tj
+T*
+(hh = Two-digit index of Titan flyby from which data are included)Tj
+ET
+endstream
+endobj
+51 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F4 21 0 R
+/F6 52 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+54 0 obj
+<<
+/Length 3031
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(17)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+(nn = Two-digit version number)Tj
+0 -3.0801 TD
+(The BODP product ID xxxx_yy_zzz_Vnn is defined as follows:)Tj
+0 -1.5867 TD
+(xxxx = The acronym for the data set LBDR, SBDR, or ABDR)Tj
+T*
+-0.0475 Tw
+(yy = The radar mode of the data in the file represented as a two digit decimal integer )Tj
+0 -1.1667 TD
+0 Tw
+(between 00 and 15.  This value represents a 4-bit binary flagging scheme)Tj
+1.5 -1.5867 TD
+(Bit 0 \(LSB\) = 1 means radiometer only mode data is present in the file.)Tj
+T*
+(Bit 1 = 1 means scatterometer mode data is present in the file)Tj
+T*
+(Bit 2 = 1 means altimeter mode data is present in the file.)Tj
+T*
+(Bit 3 = 1 means SAR mode data is present in the file.)Tj
+-1.5 -1.5867 TD
+(It is important to note that scatterometer measurements are obtained in all modes )Tj
+0 -1.1667 TD
+(except radiometer only, not just in scatterometer mode. Similarly, radiometer mea-)Tj
+T*
+(surements are obtained in all modes without exception.)Tj
+0 -1.5867 TD
+(zzz =3 digit radar observation counter. One observation corresponds to a single )Tj
+0 -1.1667 TD
+-0.0244 Tw
+(up-linked radar command sequence. For example, a Titan fly-by is one observation.)Tj
+0 -1.5867 TD
+0 Tw
+(nn = 2 digit version number)Tj
+/F1 1 Tf
+14 0 0 14 54 426.266 Tm
+[(3.6)-1181.3(   CALIB Directory Contents)]TJ
+/F2 1 Tf
+12 0 0 12 117 406.559 Tm
+(The following table lists files located in the CALIB Directory.)Tj
+0 -16.0067 TD
+-0.0487 Tw
+(The CALIB directory contains two subdirectories BEAMPAT and CONFIG. These di-)Tj
+0 -1.1667 TD
+0 Tw
+(rectories contain ancillary information which specifies how the Cassini Radar data )Tj
+T*
+(was calibrated and processed.)Tj
+0 -3.1733 TD
+-0.0165 Tw
+(The BEAMPAT directory contains estimates of the antenna gain pattern for each of )Tj
+0 -1.1667 TD
+0 Tw
+(the five Cassini Radar beams. The beam pattern file name convention is: )Tj
+0 -1.5867 TD
+-0.0746 Tw
+(BEAMX_VNN.PAT where X is a beam number between 1 and 5 and NN is a two digit )Tj
+0 -1.1667 TD
+0 Tw
+(version number.)Tj
+0 -3.1733 TD
+-0.087 Tw
+(The CONFIG directory contains a processor configuration file for each Cassini Radar )Tj
+/F5 1 Tf
+7.5699 25.02 TD
+0 Tw
+[(T)92(able 7: Contents of CALIB Dir)18.1(ectory)]TJ
+/F3 1 Tf
+-5.9166 -2.1667 TD
+[(File Name)-13222.6(File Contents)]TJ
+-3.4033 -2 TD
+[(BEAMP)92.1(A)111.1(T)0( )-7174.8(Directory containing antenna g)5.1(ain pattern ìles for each )]TJ
+12 -1.1667 TD
+(beam and documentation for those ìles.)Tj
+-12 -1.8333 TD
+[(CONFIG)-8277.3(Directory containing processor conìguration ìles and )]TJ
+12 -1.1667 TD
+(documentation for those ìles.)Tj
+ET
+0 0 0 1 K
+0 J 0 j 0.5 w 10 M []0 d
+1 i 
+90 353.269 m
+90 255.769 l
+234 353.769 m
+234 255.269 l
+522 353.269 m
+522 255.769 l
+89.75 353.519 m
+522.25 353.519 l
+90.25 328.769 m
+521.75 328.769 l
+90.25 326.269 m
+521.75 326.269 l
+89.75 291.519 m
+522.25 291.519 l
+89.75 255.519 m
+522.25 255.519 l
+S
+endstream
+endobj
+55 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 14 0 R
+/F4 21 0 R
+/F5 28 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+57 0 obj
+<<
+/Length 1048
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(18)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+-0.064 Tw
+(observation. This file contains keyword and value pairs \(Processor keywords are not )Tj
+0 -1.1667 TD
+0 Tw
+(PDS keywords.\) which were used in running the ground processing software used )Tj
+T*
+-0.0164 Tw
+[(to generate the BODP and BIDR files for that observation.  Each processor configu-)]TJ
+T*
+0 Tw
+(ration file is named "PCF_yyyy_Vnn.CFG" where yyyy is the four digit radar obser-)Tj
+T*
+(vation counter and nn is a two digit version number.)Tj
+0 -3.1733 TD
+-0.0473 Tw
+(FIles in the BEAMPAT and CONFIG directories will be not be needed by most users )Tj
+0 -1.1667 TD
+0 Tw
+(of Cassini Radar Instrument Team data. For those who desire to use them, docu-)Tj
+T*
+-0.0154 Tw
+(mentation files BEAMPAT.DOC and CONFIG.DOC are available in the appropriate )Tj
+T*
+0 Tw
+(directories.)Tj
+ET
+endstream
+endobj
+58 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 5 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+60 0 obj
+<<
+/Length 3766
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(19)Tj
+/F1 1 Tf
+14 0 0 14 54 728.667 Tm
+[(4)-2015.3(   ARCHIVE VOLUME FORMAT)]TJ
+/F2 1 Tf
+12 0 0 12 117 708.96 Tm
+-0.0206 Tw
+(This section describes the format of files contained in the Cassini Radar Instrument )Tj
+0 -1.1667 TD
+0 Tw
+(Team Archive Volumes. Data that comprise the Archive will be formatted in accor-)Tj
+T*
+(dance with the Planetary Data System specifications [Planetary Science Data Dic-)Tj
+T*
+(tionary, 1996; PDS Data Preparation Workbook, 1995; PDS Standards Reference )Tj
+T*
+(1995].)Tj
+/F1 1 Tf
+14 0 0 14 54 632.587 Tm
+[(4.1)-1181.3(   Document File Format)]TJ
+/F2 1 Tf
+12 0 0 12 117 612.88 Tm
+-0.0334 Tw
+(Document files with the.TXT suffix exist in the Root, Index, Catalog, Document, and )Tj
+T*
+-0.0291 Tw
+(Extras directories. They are ASCII files with embedded PDS labels with line lengths )Tj
+T*
+-0.0194 Tw
+(that do not exceed 80 characters. Document files have variable length lines with an )Tj
+T*
+0 Tw
+(end-of-line designator consisting of a carriage-return character followed by a line-)Tj
+T*
+(feed character. This allows the files to be read by the MacOS, Microsoft Windows, )Tj
+T*
+(and Unix operating Systems.)Tj
+/F1 1 Tf
+14 0 0 14 54 522.507 Tm
+[(4.2)-1181.3(   Tabular File Format)]TJ
+/F2 1 Tf
+12 0 0 12 117 502.8 Tm
+-0.0249 Tw
+(A Tabular file \(INDEX.TAB\) exists in the Index directory. This file is an ASCII file for-)Tj
+T*
+-0.0497 Tw
+(matted for direct reading into many database management systems on various com-)Tj
+T*
+0 Tw
+(puters. Commas separate all fields, and character fields are enclosed in double )Tj
+T*
+(quotation marks \("\). Character fields are left justified and padded on the right with )Tj
+T*
+-0.0847 Tw
+(spaces to keep quotation marks in the same columns of successive records. Number )Tj
+T*
+-0.0477 Tw
+(fields are right justified and padded with spaces on the left to keep fixed-width fields. )Tj
+T*
+0 Tw
+(The records are of fixed length, and the last two bytes of each record contain the )Tj
+T*
+-0.0232 Tw
+(ASCII carriage-return and line-feed character. This allows a table to be treated as a )Tj
+T*
+-0.0224 Tw
+(fixed length record file on computers that support this file type and as a text file with )Tj
+T*
+0 Tw
+(embedded line delimiters on those that don't.)Tj
+0 -3.1733 TD
+-0.0112 Tw
+(A detached PDS label describes INDEX.TAB. The PDS label file name is the same )Tj
+0 -1.1667 TD
+0 Tw
+(as the tabular file but with the extension ".LBL". )Tj
+/F1 1 Tf
+14 0 0 14 54 285.307 Tm
+[(4.3)-1181.3(   PDS Label Format)]TJ
+/F2 1 Tf
+12 0 0 12 117 265.6 Tm
+-0.0162 Tw
+(All data files in the Cassini Radar Instrument Team Archive Collection have PDS la-)Tj
+T*
+-0.0447 Tw
+(bels [Planetary Science Data Dictionary, 1996; PDS Standards Reference, 1995]. A )Tj
+T*
+-0.0649 Tw
+(PDS label, whether embedded or detached from its associated file, provides descrip-)Tj
+T*
+-0.0132 Tw
+(tive information about the associated file. The PDS label is an object-oriented struc-)Tj
+T*
+0 Tw
+(ture consisting of sets of "keyword = valueê' declarations. The object to which the )Tj
+T*
+(label refers \(e.g. IMAGE, TABLE, etc.\) denotes the form:)Tj
+0 -3.1733 TD
+(^object = location)Tj
+T*
+-0.0158 Tw
+(in which the caret character \(^, also called a pointer in this context\) indicates where )Tj
+0 -1.1667 TD
+0 Tw
+(to find the object. In an embedded label, the location is an integer representing the )Tj
+T*
+(starting record number of the object \(the first record in the file is record 1\). In a de-)Tj
+T*
+(tached label, the location denotes the name of the file containing the object, along )Tj
+T*
+(with the starting record or byte number, if there is more than one object in the file. )Tj
+ET
+endstream
+endobj
+61 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+63 0 obj
+<<
+/Length 2677
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+[(Volume SIS for Cassini Radar Instrument Team Data Products)8(                                                              )]TJ
+41.8208 -72.3413 TD
+(20)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+(For example:)Tj
+0 -3.1733 TD
+(^HEADER = \("F01.IMG",1\))Tj
+0 -1.5867 TD
+(^IMAGE = \("F01.IMG",1025 <BYTES>\))Tj
+0 -3.1733 TD
+-0.0482 Tw
+(indicates that the IMAGE object begins at byte 1025 of the file F01.IMG, in the same )Tj
+0 -1.1667 TD
+-0.0427 Tw
+(directory as the detached label file. Below is a list of the possible formats for the ^ob-)Tj
+T*
+0 Tw
+(ject definition.)Tj
+0 -3.1733 TD
+(^object = n)Tj
+0 -1.5867 TD
+(^object = n<BYTES>)Tj
+T*
+(^object = "filename.ext")Tj
+T*
+(^object = \("filename.ext",n\))Tj
+T*
+(^object = \("[dirlist]filename.ext",n\))Tj
+T*
+(^object = \("filename.ext",n<BYTES>\))Tj
+T*
+(^object = \("[dirlist]filename.ext",n<BYTES>\))Tj
+0 -3.1733 TD
+(where: )Tj
+0 -1.5867 TD
+-0.0257 Tw
+[( n is the starting record or byte number of the object, counting from the beginning of )]TJ
+0 -1.1667 TD
+0 Tw
+(the file \(record 1, byte 1\), )Tj
+0 -1.5867 TD
+(<BYTES> indicates that the number given is in units of bytes, )Tj
+T*
+(filename is the up to 24 character, alphanumeric upper-case file name, ext is the 3 )Tj
+0 -1.1667 TD
+(character upper-case file extension, )Tj
+0 -1.5867 TD
+-0.0719 Tw
+(dirlist is a period-delimited path-list of parent directories, in upper case, that specifies )Tj
+0 -1.1667 TD
+-0.0551 Tw
+(the object file directory \(used only when the object is not in the same directory as the )Tj
+T*
+0 Tw
+(label file\). The list begins at the directory level below the root directory of the CD-)Tj
+T*
+-0.0782 Tw
+(ROM.'[dirlist]' may be omitted when the object being described is located in the same )Tj
+T*
+0 Tw
+(directory as the detached label. )Tj
+0 -1.5867 TD
+-0.0601 Tw
+(Detached label files have variable length lines with an end-of-line designator consist-)Tj
+0 -1.1667 TD
+0 Tw
+(ing of a carriage-return character followed by a line-feed character. This allows the )Tj
+T*
+(files to be read by the MacOS, Microsoft Windows, and Unix operating Systems.)Tj
+/F1 1 Tf
+14 0 0 14 54 150.747 Tm
+[(4.4)-1181.3(   Catalog File Format)]TJ
+/F2 1 Tf
+12 0 0 12 117 131.0399 Tm
+-0.0221 Tw
+(Catalog files \(suffix.CAT\) exist in the Root and Catalog directories. They are format-)Tj
+T*
+0 Tw
+(ted in an object-oriented structure consisting of sets of "keyword = value" declara-)Tj
+T*
+(tions.)Tj
+/F1 1 Tf
+14 0 0 14 54 82.667 Tm
+[(4.5)-1181.3(   Science Data File Format)]TJ
+/F2 1 Tf
+12 0 0 12 117 62.96 Tm
+-0.0538 Tw
+(The Cassini BODP science data files are formatted using the "table object" structure )Tj
+ET
+endstream
+endobj
+64 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+66 0 obj
+<<
+/Length 1314
+>>
+stream
+BT
+/F4 1 Tf
+10 0 2.1256 10 36 756.533 Tm
+0 0 0 1 k
+/GS1 gs
+0 Tc
+0 Tw
+(Volume SIS for Cassini Radar Instrument Team Data Products)Tj
+41.8208 -72.3413 TD
+(21)Tj
+/F2 1 Tf
+12 0 0 12 117 730 Tm
+-0.0327 Tw
+(of the PDS standards. Each row of the table consists of a data record comprising ra-)Tj
+0 -1.1667 TD
+0 Tw
+(dar and ancillary data for a single burst. Rows occur in time order. A column repre-)Tj
+T*
+-0.0143 Tw
+(sents a particular data field with a specific meaning and data type \(i.e. integer, real, )Tj
+T*
+-0.0207 Tw
+(etc.\) Real values are either 32-bit or 64-bit IEEE floating-point values with little endi-)Tj
+T*
+-0.0517 Tw
+[(an byte order \(PC REAL\).   For more information about the format and content of the )]TJ
+T*
+-0.0034 Tw
+(BODP files, see the Cassini Radar Burst Ordered Data Product SIS, JPL D-27891. )Tj
+0 -3.1733 TD
+-0.0623 Tw
+(The Cassini BIDR science data files are formatted using the "image object" structure )Tj
+0 -1.1667 TD
+-0.0482 Tw
+(of the PDS standards. The size and coordinate system of the image is defined in the )Tj
+T*
+0 Tw
+(attached PDS label. Images pixels may have several different meanings and data )Tj
+T*
+-0.0105 Tw
+(types. For more information about the format and content of the BIDR files, see the )Tj
+T*
+0 Tw
+(Cassini Radar Basic Image Data Record SIS, JPL D-27889. )Tj
+ET
+endstream
+endobj
+67 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 5 0 R
+/F4 21 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+68 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 712
+/CapHeight 712
+/Descent -232
+/Flags 34
+/FontBBox [-167 -250 1009 878]
+/FontName /KIAKPD+TimesNewRomanPSMT
+/ItalicAngle 0
+/StemV 81
+/XHeight 472
+/StemH 36
+/CharSet (/a/b/c/d/e/f/g/underscore/h/V/n)
+/FontFile3 69 0 R
+>>
+endobj
+69 0 obj
+<<
+/Filter /FlateDecode
+/Length 1317
+/Subtype /Type1C
+>>
+stream
+HâúRkPW›%èE≈¨kk≤[GÍ≥Ä≠Çiã@¡T´V1$!§ê…&«7ÿPàXT¢	ài01 k¥÷:ä•⁄"§≠äå±ŒT˝—©∂3ı.^f⁄Mt˙˝’?ÁŒ|ﬂwœ9ﬂπE¯aä¢”≥3”≤•ÔÃ+Pkî∆\eEûN#”JÛs
+ÇÕ8ñDŸÈ|6&b\ÎûÓy&àEo¬dñ?ÖçäÍç\èF¬ÇDì–òtùﬁbP´Jz∂|Ω e—¢˘¶$Ü≠&Ö09Ñœ∫)töBW§§Û-FF©1“ôZπŒ†◊dåRO”ieet^ê”HÁ)çJÉô´Ü¨“úW:dñViÕd
+•Ff(•u≈4S¢§stZc—+ÈÙÁ|jùv>mP™‘úêA©†’⁄–‹˘¥î”2¥L´†˛¶YY\¨ñ+CEçÃBsˇ{WÆ402Ó‘q$˙cìAmT®ÂAc¸ãa"(íå Àd9Ü¨Dê.2Ñá|ÑËêËr¥}∂<¨ñWƒÎÁ/§E,∫ﬂ<6À›8∂
+äÅag íÄ…Ïd¡éãØM‹›S€^/±√Vvso£∫-Tè˜æj3˚• ˜;ær^∏∫?‹7Y∞œk∫∂´ƒïïÎwUJD0Í∫ãm‚±6E\oZãâÓUıÊ_cqw¥7ê}Ã	‡]‡OêpY¬Y‹c¥I˙Ú&ì´Ω±Â|ß˜®Á∂-kÖw•®`™Ú≈ôg>Ù_=’È9+)>®ÍÈÓËq∑Hp∆Öm€∆îo!÷ìgπ·T5Q…»4ed°æªsË—©Åî® «
+æUËç ®·Å¯±,¬$ÑdA√fA}cS˝AÚê√öAç¡‘ÁØ0}‰]0À§`ÓÉKs6»÷ïR˚Ñe|Wõ∑µìúKNÄ—π+r
+áKOq+±®ıÛÿ◊¿ªDS∏:ùå+GozÔçv¥V*Í(U˝Asy¸Ë·6báÚ„‡L;èÔ?lÊ¸]bIw–ü˜>0x‡1ªò8QŒ-I¬iIêÑìf|√¡Ñﬁé„g®l'»Àªõ’;∂Uo'´Ã÷AäΩa¬^\ßúo`t%‰“‹;@Ú¯}+ÉûÔÄ7ò‡CΩÉ@ÒèMÌ@2nÕÑ3≤`8$`Ïh<@˜è<hñlmd1
+Y:	—5Äˇà™u_◊w˜ıë?¥‰P"£’Œ∆˙Ä áÇ(Œyõ@ Ã±Ä¢ux@‚ﬂ∑y‘qÏÿ≈%ÌÖpJVREU˜†Kµñ&I,‡S;∂»z2@â`Yx}®¿|“f∂mœÅ÷h◊è™ë∑ØÉ5#Nﬁo∞i>`k)ìVL¬W÷Œ[±™}ı%#Ö{§öÚu≈õƒÂÆ≠éù‹i(òM◊óä3¿TΩ$è>π*¡˚•77ûÅ·µòPkjh;Œ#Mí=Gµìƒ˚O—ï€∑⁄vuoqR~°ΩŒ÷|§∆f°Å”–rÄjYêk≤ŒK^b˛˘⁄ØóÌ.
+∑Gæ9ûI‡◊#wû˛}üõ¸bÿ∫ÆpÌj9ˇ=wW∞Î9Ó∂∑HD\<¯7¡ß¿˚ª|K‹*JÕSîÊ‰K¿ùóæ&evo¯ÑGg«6‘2}b`√ºØ˚ÈÓ⁄1õÇÚ'û)=óI¨Ïe?÷¸j`¬˛±,⁄zxlÓa∏˘®≤
+Ÿ©÷Ò_Í∞ï¬üï&¯&&˘""MìŸö©`å¯KÄ †ÉØ'
+endstream
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 70 0 R
+/BaseFont /Helvetica-Bold
+/ToUnicode 71 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 72 0 R
+/BaseFont /Helvetica
+/ToUnicode 73 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 74 0 R
+/BaseFont /Times-Roman
+/ToUnicode 75 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 76 0 R
+/BaseFont /Helvetica-BoldOblique
+/ToUnicode 77 0 R
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Encoding 78 0 R
+/BaseFont /Times-Bold
+/ToUnicode 79 0 R
+>>
+endobj
+52 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 110
+/Widths [250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 
+921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 
+556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 
+333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /KIAKPD+TimesNewRomanPSMT
+/FontDescriptor 68 0 R
+>>
+endobj
+70 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 40/parenleft/parenright 45/hyphen/period 48/zero/one/two
+/three/four/five/six/seven/eight/nine/colon
+ 65/A/B/C/D/E/F/G/H
+/I/J 76/L/M/N/O/P 82/R
+/S/T/U/V 88/X 95/underscore 97/a/b
+/c/d/e/f/g/h/i 107/k
+/l/m/n/o/p 114/r/s/t
+/u/v/w/x/y
+]
+>>
+endobj
+72 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 34/quotedbl 39/quotesingle/parenleft/parenright 44/comma/hyphen/period
+/slash/zero/one/two/three/four/five/six
+/seven/eight/nine/colon/semicolon/less/equal/greater
+ 65/A/B/C/D/E/F/G/H
+/I/J/K/L/M/N/O/P
+/Q/R/S/T/U/V/W/X
+/Y 91/bracketleft 93/bracketright/asciicircum/underscore 97/a/b/c
+/d/e/f/g/h/i/j/k
+/l/m/n/o/p/q/r/s
+/t/u/v/w/x/y/z 143/quoteleft
+/quoteright
+]
+>>
+endobj
+74 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 40/parenleft/parenright/asterisk/plus/comma/hyphen/period
+/slash/zero/one/two/three/four/five/six
+/seven/eight/nine/colon 65/A/B/C/D
+/E/F/G/H/I/J/K/L
+/M/N/O/P/Q/R/S/T
+/U/V 88/X 95/underscore 97/a/b/c/d
+/e/f/g/h/i/j/k/l
+/m/n/o/p/q/r/s/t
+/u/v/w/x/y/z 141/quotedblleft/quotedblright
+ 144/quoteright 147/fi
+]
+>>
+endobj
+76 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 48/zero/one/two/three/four/five/six
+/seven/eight/nine 67/C/D 73/I 80/P 82/R
+/S/T 86/V 97/a 99/c/d/e/f
+ 105/i 108/l/m/n/o 114/r/s/t
+/u
+]
+>>
+endobj
+78 0 obj
+<<
+/Type /Encoding
+/Differences [ 32/space 49/one/two/three/four/five/six/seven
+ 58/colon 65/A/B/C/D/E 71/G 73/I
+ 76/L/M/N/O 82/R/S/T/U
+/V 88/X 97/a/b/c 101/e/f 105/i
+ 108/l/m/n/o 114/r/s/t/u
+ 121/y
+]
+>>
+endobj
+71 0 obj
+<<
+/Filter /FlateDecode
+/Length 310
+>>
+stream
+HâTëMoÉ0ÜÔ˘>v⁄!Z∫Jà√ZUÍaZ∑›”ƒtH#DÅ˙Ôgc÷i»õ'ym«÷€√Ó⁄ÙkÍ›Gh⁄‡˝%9Ñû€ πﬂ∫qﬁM◊ŸöÃ«Î0bwMU•Ùc∫¬büﬂgw†_í«‘Ü3,ﬁÛèO«Kåﬂÿa!É∫èç“€'ümá†Ÿˆ«ﬁØ¡L˚|N‹{¢uòl8#T&´°Zoj¿‡ˇü©Bß∆}Ÿ§‰fñ—¢™’√§i!›àﬁ◊äbÃ∑7ø^	U6òçD`óÒP¿é@¡·;ÅÇs,s“K§	8“+©bπÂÃÜA)ÈÅí-•d)ŸRû¯ub)	¨Õ¸\§•b©ë¿Sπı“]R¢6O£õ∫…}lﬁ¶˚»m„O˝0 låï®
+endstream
+endobj
+73 0 obj
+<<
+/Filter /FlateDecode
+/Length 287
+>>
+stream
+HâTQMoÑ º˚+ﬁqõP∂Ínb<‘M˝H›ˆé∞&	Í¡ﬂáÿmz ÜaÊ=XU_j”œ¿ﬁ‹(úA˜F9ú∆≈IÑªﬁ@¬Aırﬁw€,aÅëπYßá⁄Ëä"bÔt8ÕnÖ√øèÔÄΩ:ÖÆ7Æ…«'ÕbÌ7hfà°,A°éXı,Ïãò∑˝q◊’"müÏçGÖìù0B¡„ä3Mh‘ˇ≥Ë≠ñ_¬EA«¥Ês¬iª·Ù±å®∆ÆŒ~Ω°T¡sÒspÂæÇ$|ƒ@TD<$Ñ”† Luï't(~!"Ûä\lDÊ'ΩﬂùÓñúˆˆ°°çè¯å\ú£Ã∂ÿ¢Ò°Ùo_eGÎ3#˙` Û~ãù
+endstream
+endobj
+75 0 obj
+<<
+/Filter /FlateDecode
+/Length 287
+>>
+stream
+HâTë?oÉ0≈wäSu∞!ÅÇd14U$Ü˛QIª;ˆAëä±˘ˆ=cö™ˆÛÛ›Ô‰?÷OµÌg‡o~‘Œ–ˆ÷xú∆≈kÑvΩÖ$”Îy;≠´îNÕÕuöq®m;Çîåø”Â4˚+ÏN˚{q¸’ÙΩÌ`wN>>…hÁæq@;ÉÄ™É-„«gÂ^‘Ä¿C€üwæ:Ñt='€‡—‡‰îFØlá SQÅ,˜†5ˇÔX;.≠˛Rû≈J!hc2+VMÈ6ÍÈ2‘§")É&®<=ä§bƒﬁ(á_f!” ⁄´H¥CB:ÀWÉ4ìy0bEå¬ê.0:nào¡ﬁ‚–ã˜î‘ö˛Hà¢∑x˚Ant·Â·c? ç&âh
+endstream
+endobj
+77 0 obj
+<<
+/Filter /FlateDecode
+/Length 296
+>>
+stream
+HâTQªnÑ0Ï˝[^î¬<}äd—E¢»CπKzŒ,R0ñ·ä˚˚¨Ωà(Ïx<;#Ô ∫ynÏ∏Ç¸≥9·
+˝h;èÀ|Û·Ç√h!Õ†Õ∫ù‚ﬂL≠IÕß˚≤‚‘ÿ~≠Ö¸§Àeıw8ºè…»wﬂ°Ì ás˙ıMƒÈÊ‹NhWH†™†√^»˙µuoÌÑ C€wæ;Ñ,û”-xÓpq≠Aﬂ⁄AgI˙XVÄ∂˚'w\zsmΩ`eíP∫xäòä–%Ûe‡K≈XViƒT≥ûä†úÕq˜Á8ù£úïyL…	GÂ¡>#\2Aò|ÉBq®
+
+e—3QqÃ∂˜Aò„90º8¨aûπyOsçªä„É-ÓÎt≥s
+ü¯` ‚ëû
+endstream
+endobj
+79 0 obj
+<<
+/Filter /FlateDecode
+/Length 318
+>>
+stream
+HâTQªn√0‹ıSt+ñc@0P§(ê°4iwG¶Sµ,»Œêø/)¶):ÿ<ùxwôlwè;7,êºÖ…ÓqÅ~p]¿y:ãpƒ”‡ À°Ïr=≈ø[	â˜óy¡qÁ˙	åQ…;]ŒK∏¿Í©ºOÔ yÜ¡ù`u»>>âÿüΩˇ∆›)4tÿ´d˚‹˙óvDHXˆ«.!èÁÏ<u8˚÷bh›	¡‰i¶™@◊˝øSï(éΩ˝jÉíŒ4•¢L—F\<^WS!\Æ	óõà©(£Ö◊ÃWÇ©( º∫o~≥$⁄5‚LòúôXób	ÀD/ƒñÛr¬•ñ–úCY¢Ifâfπñ¬D∞áÕ{TíBX(O‚˘“n£∂Áhq≥qÿ<Ê¡·m˘~Ú<U˛‘è  A/õa
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+22 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 24 0 R
+/Contents 23 0 R
+>>
+endobj
+25 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 27 0 R
+/Contents 26 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 40 0 R
+/Contents 39 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 45 0 R
+/Contents 44 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 48 0 R
+/Contents 47 0 R
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 51 0 R
+/Contents 50 0 R
+>>
+endobj
+53 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 55 0 R
+/Contents 54 0 R
+>>
+endobj
+56 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 58 0 R
+/Contents 57 0 R
+>>
+endobj
+59 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 61 0 R
+/Contents 60 0 R
+>>
+endobj
+62 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 64 0 R
+/Contents 63 0 R
+>>
+endobj
+65 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 67 0 R
+/Contents 66 0 R
+>>
+endobj
+80 0 obj
+<<
+/S /D
+>>
+endobj
+81 0 obj
+<<
+/Nums [0 80 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 15 0 R 18 0 R 22 0 R 25 0 R 29 0 R 32 0 R 35 0 R]
+/Count 10
+/Parent 41 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type /Pages
+/Kids [38 0 R 43 0 R 46 0 R 49 0 R 53 0 R 56 0 R 59 0 R 62 0 R 65 0 R]
+/Count 9
+/Parent 41 0 R
+>>
+endobj
+41 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 42 0 R ]
+/Count 19
+/MediaBox [0 0 612 792]
+>>
+endobj
+82 0 obj
+<<
+/CreationDate (D:20050228122843-08'00')
+/ModDate (D:20050228122843-08'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+83 0 obj
+<<
+/Type /Catalog
+/Pages 41 0 R
+/PageLabels 81 0 R
+>>
+endobj
+xref
+0 84
+0000000000 65535 f 
+0000070233 00000 n 
+0000000016 00000 n 
+0000001400 00000 n 
+0000065823 00000 n 
+0000065933 00000 n 
+0000064004 00000 n 
+0000071882 00000 n 
+0000070313 00000 n 
+0000001504 00000 n 
+0000005584 00000 n 
+0000070394 00000 n 
+0000005689 00000 n 
+0000012975 00000 n 
+0000066038 00000 n 
+0000070477 00000 n 
+0000013081 00000 n 
+0000014318 00000 n 
+0000070560 00000 n 
+0000014414 00000 n 
+0000019326 00000 n 
+0000066146 00000 n 
+0000070643 00000 n 
+0000019443 00000 n 
+0000022586 00000 n 
+0000070726 00000 n 
+0000022702 00000 n 
+0000026981 00000 n 
+0000066264 00000 n 
+0000070809 00000 n 
+0000027119 00000 n 
+0000029819 00000 n 
+0000070892 00000 n 
+0000029957 00000 n 
+0000033554 00000 n 
+0000070975 00000 n 
+0000033692 00000 n 
+0000036983 00000 n 
+0000071058 00000 n 
+0000037121 00000 n 
+0000040808 00000 n 
+0000072147 00000 n 
+0000072017 00000 n 
+0000071142 00000 n 
+0000040946 00000 n 
+0000044726 00000 n 
+0000071226 00000 n 
+0000044854 00000 n 
+0000048272 00000 n 
+0000071310 00000 n 
+0000048410 00000 n 
+0000051194 00000 n 
+0000066371 00000 n 
+0000071394 00000 n 
+0000051321 00000 n 
+0000054405 00000 n 
+0000071478 00000 n 
+0000054543 00000 n 
+0000055644 00000 n 
+0000071562 00000 n 
+0000055750 00000 n 
+0000059569 00000 n 
+0000071646 00000 n 
+0000059685 00000 n 
+0000062415 00000 n 
+0000071730 00000 n 
+0000062531 00000 n 
+0000063898 00000 n 
+0000064144 00000 n 
+0000064415 00000 n 
+0000066866 00000 n 
+0000068370 00000 n 
+0000067162 00000 n 
+0000068753 00000 n 
+0000067585 00000 n 
+0000069113 00000 n 
+0000067952 00000 n 
+0000069473 00000 n 
+0000068150 00000 n 
+0000069842 00000 n 
+0000071814 00000 n 
+0000071842 00000 n 
+0000072238 00000 n 
+0000072370 00000 n 
+trailer
+<<
+/Size 84
+/Root 83 0 R
+/Info 82 0 R
+/ID [<fa282b28b455283ef44b708c3420ccff><fa282b28b455283ef44b708c3420ccff>]
+>>
+startxref
+72440
+%%EOF

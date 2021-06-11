@@ -1,0 +1,79 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = UNDEFINED
+^PDF_DOCUMENT         = { "BIDRSIS.PDF",
+                          "BIDRSIS_SIGPAGE.PDF" }
+^HTML_DOCUMENT        = "BIDRSIS.HTML"
+^PNG_DOCUMENT         = { "BIDRSIS_FIG002.PNG",
+                          "BIDRSIS_FIG004.PNG",
+                          "BIDRSIS_FIG006.PNG",
+                          "BIDRSIS_FIG008.PNG",
+                          "BIDRSIS_FIG010.PNG",
+                          "BIDRSIS_FIG012.PNG",
+                          "BIDRSIS_FIG014.PNG",
+                          "BIDRSIS_FIG016.PNG",
+                          "BIDRSIS_FIG018.PNG",
+                          "BIDRSIS_FIG020.PNG",
+                          "BIDRSIS_FIG022.PNG",
+                          "BIDRSIS_FIG024.PNG",
+                          "BIDRSIS_FIG026.PNG",
+                          "BIDRSIS_FIG028.PNG",
+                          "BIDRSIS_FIG030.PNG",
+                          "BIDRSIS_FIG032.PNG", 
+                          "BIDRSIS_FIG034.PNG",
+                          "BIDRSIS_FIG036.PNG",
+                          "BIDRSIS_FIG038.PNG"}
+
+OBJECT                = PDF_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2015-09-17
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "ADOBE PDF"
+  ENCODING_TYPE       = "PDF-ADOBE-1.4"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Basic Image
+                        Data Record data set and SARTopo data set with a
+                        detailed description of the products and a 
+                        description of how they were generated.  BIDR data
+                        files are single-pass SAR image data which are 
+                        calibrated and gridded. SARTopo products are 
+                        topographic profiles that are generated along
+                        overlap between beams within a single BIDR image.
+                        The signature page has been provided as a separate
+                        document that is referenced by the HTML version of
+                        this SIS."
+END_OBJECT            = PDF_DOCUMENT
+
+OBJECT                = HTML_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2015-09-17
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "HTML"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Basic Image
+                        Data Record data set and SARTopo data set with 
+                        a detailed description of the products and a 
+                        description of how they were generated.  BIDR 
+                        data files are single-pass
+                        SAR image data which are calibrated and gridded
+                        SARTopo products are topographic profiles that are 
+                        generated along overlap between beams within a single
+                        BIDR image."
+END_OBJECT            = HTML_DOCUMENT
+
+OBJECT                = PNG_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2015-09-17
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "PNG"
+  ENCODING_TYPE       = "PNG1.1"
+  DESCRIPTION         = "These images are embedded figures for the HTML
+                        version of the Software Interface Specification."
+END_OBJECT            = PNG_DOCUMENT
+
+END

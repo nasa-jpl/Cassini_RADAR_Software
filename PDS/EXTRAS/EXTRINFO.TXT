@@ -1,0 +1,39 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Description of the files in the EXTRAS directory"
+  PUBLICATION_DATE = XXXX
+END_OBJECT         = TEXT
+END
+
+This file identifies and describes the function of each file in the
+EXTRAS directory.
+
+All Volumes
+-----------
+  EXTRINFO.TXT
+    This file.
+
+  CRT_DATATAKE_Vvv.TAB
+    Cassini Radar Transition file for this observation.
+
+    The CRT file documents the times of radar mode transitions.
+    The file has been generated from the SBDR file in the DATA/SBDR
+    directory of this volume.  For a detailed description of the CRT
+    file format, refer to the Volume Software Interface Specification
+    for Cassini Radar Instrument Team Data Products, which is located
+    on this volume as file VOLSIS.PDF in the DOCUMENT directory.
+
+
+Volume CORADR_DATATAKE, Version vv (VOLUME_DESCRIPTION)
+--------------------------------------------------------
+  FLYBYID_SEQUENCE_DESIGN_MEMO.PDF
+    This file contains details about the pointing and instrument command
+    sequence design used for this data take.
+  TITAN_FLYBY_ID_TABLE.TXT
+    This file contains a cross reference table of the four different
+    identifying numbers for each Titan flyby in the Prime Mission, the
+    Extended Mission and the Extended Extended Mission. The four columns
+    from left to right are: Titan flyby number, data take number, 
+    sequence number, and rev number.

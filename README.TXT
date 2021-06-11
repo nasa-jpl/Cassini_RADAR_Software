@@ -1,7 +1,9 @@
 This file describes how to build the Cassini RADAR software
 and run an example data case with the SAR processor.
 Note:: This code has only been tested on Linux systems.
-
+It was most recently compiled on CentOS Linux 7 (Core)
+using gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) 
+ 
 Step 1: Compile the cspice libraries used by the software.
 (This is the version which was used by the Cassini RADAR code without any commit info.
 More up-to-date versions can be found at https://naif.jpl.nasa.gov )
