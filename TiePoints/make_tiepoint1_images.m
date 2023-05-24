@@ -1,7 +1,5 @@
 % produce images of the first tiepoint in the good files
 
-addpath ~/cassini/matlab
-
 id='tas01t23s01_jpl2_p1';
 
 lat1=51.1331;
