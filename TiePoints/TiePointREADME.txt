@@ -55,7 +55,7 @@ o get_tiepoint_info cfg_file lbdrfile bidrfile(should be beammask) topomapfile l
 * write_tie_file.m: MATLAB function used to write lines to tiepoint archive files.
 
 Acknowledgements:
-Tiepoint location (line and sample) within Cassini RADAR images were determined manually in a labor intensive manner by Alexander Hayes at Cornell University, Randolph Kirk and Ella at USGS, and Bryan Stiles at JPL.  Tiepoint quality control was performed by Bryan Stiles and Bruce Bills at JPL. Titan spin models from these tiepoints were estimated by Bruce Bills and Bryan Stiles.
+Tiepoint location (line and sample) within Cassini RADAR images were determined manually in a labor intensive manner by Alexander Hayes at Cornell University, Randolph Kirk and Ella Lee at USGS, and Bryan Stiles at JPL.  Tiepoint quality control was performed by Bryan Stiles and Bruce Bills at JPL. Titan spin models from these tiepoints were estimated by Bruce Bills and Bryan Stiles.
 
 References:
 
