@@ -43,7 +43,7 @@ Step3: Acquire Cassini data.
 To run the SAR processor you will need NAIF geometry data available from naif.jpl.nasa.gov and LBDR, beam pattern, and 
 configuration file data available from pds.jpl.nasa.gov. Sufficient data from T108 that can be used as a test is in the 
 repository in the inputs directory. At present the SAR processor can only be run with noise subtraction turned off unless raw telemetry is available. 
-Noise subtraction requires raw data that may be found at:https://zenodo.org/record/5636891#.YYArPyV7ltI 
+Noise subtraction requires raw data that may be found at:https://zenodo.org/record/5636891#.YYArPyV7ltI (DOI 10.5281/zenodo.5636891) 
 
 
 Step 4: Create configuration files. The archived Cassini configuration file needs to be modified to find the input data on 
